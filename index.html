@@ -1,0 +1,1125 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Sterling into dirhams</title>
+<!--webapp-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="£ into AED">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f2f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b121b" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<!--/webapp-->
+<link rel="icon" id="fav" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23778397'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'%3E£%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap">
+<style>
+:root {
+  color-scheme: light;
+  --ground: #f2f4f7;
+  --raised: #ffffff;
+  --ink: #0e1927;
+  --ink-2: #445064;
+  --ink-3: #647084;
+  --rule: #d6dce5;
+  --grid: #e5e9ef;
+  --accent: #2343c4;
+  --on-accent: #ffffff;
+  --gain: #08784b;
+  --loss: #c02f29;
+  --gain-tint: rgba(8, 120, 75, 0.09);
+  --loss-tint: rgba(192, 47, 41, 0.08);
+  --gain-fill-strong: rgba(8, 120, 75, 0.24);
+  --gain-fill-weak: rgba(8, 120, 75, 0.04);
+  --loss-fill-strong: rgba(192, 47, 41, 0.22);
+  --loss-fill-weak: rgba(192, 47, 41, 0.05);
+  --shut: #8a6420;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --text: "Archivo", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ground: #0b121b;
+    --raised: #111b27;
+    --ink: #e6ecf4;
+    --ink-2: #a2afc0;
+    --ink-3: #7f8da1;
+    --rule: #223043;
+    --grid: #16212e;
+    --accent: #8ea6ff;
+    --on-accent: #0b121b;
+    --gain: #36c78a;
+    --loss: #ff6a5c;
+    --gain-tint: rgba(54, 199, 138, 0.11);
+    --loss-tint: rgba(255, 106, 92, 0.10);
+    --gain-fill-strong: rgba(54, 199, 138, 0.26);
+    --gain-fill-weak: rgba(54, 199, 138, 0.04);
+    --loss-fill-strong: rgba(255, 106, 92, 0.24);
+    --loss-fill-weak: rgba(255, 106, 92, 0.05);
+    --shut: #d9a54c;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 15px;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums lining-nums;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+[hidden] { display: none !important; }
+
+.stripe { height: 5px; background: var(--rule); transition: background-color .4s; }
+.stripe.gain { background: var(--gain); }
+.stripe.loss { background: var(--loss); }
+.stripe.shut { background: var(--shut); }
+
+.wrap { max-width: 1320px; margin: 0 auto; padding-inline: 28px; padding-block: 18px 56px; }
+@media (max-width: 700px) { .wrap { padding-inline: max(16px, env(safe-area-inset-left, 0px)); } }
+
+.top { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: space-between; }
+.name { margin: 0; font-weight: 650; font-size: 15px; }
+.top-right { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.status { margin: 0; color: var(--ink-2); font-size: 13.5px; display: flex; gap: 8px; align-items: baseline; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); display: inline-block; flex: none; transform: translateY(-1px); }
+.dot.live { background: var(--gain); animation: pulse 2s infinite; }
+.dot.stale, .dot.shut { background: var(--shut); }
+.dot.down { background: var(--loss); }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--gain-fill-strong); }
+  70% { box-shadow: 0 0 0 7px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+
+.headline { margin: 22px 0 6px; font-family: var(--display); font-weight: 640; font-size: clamp(24px, 3.1vw, 38px); line-height: 1.15; letter-spacing: -.01em; text-wrap: balance; max-width: 36ch; }
+.headline b { font-weight: 760; }
+.headline.gain b { color: var(--gain); }
+.headline.loss b { color: var(--loss); }
+.lede { margin: 0 0 24px; color: var(--ink-2); max-width: 72ch; }
+.example-note { margin: -10px 0 24px; padding: 9px 12px; border-radius: 6px; background: var(--raised); border: 1px solid var(--rule); color: var(--ink-2); font-size: 14px; max-width: 72ch; }
+.linkbtn { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+
+.ticket { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1fr); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.cell { padding: 16px 22px 18px 0; min-width: 0; }
+.cell + .cell { padding-left: 22px; border-left: 1px solid var(--rule); }
+.label { margin: 0 0 2px; color: var(--ink-2); font-size: 13px; font-weight: 520; letter-spacing: .015em; }
+.dealer { margin: 0; font-family: var(--display); font-stretch: 75%; font-weight: 600; line-height: .95; white-space: nowrap; color: var(--ink); }
+.dealer .fig { font-size: .46em; font-weight: 560; margin-right: .04em; }
+.dealer .pips { letter-spacing: -.01em; transition: color .6s; }
+.dealer .pipette { font-size: .36em; vertical-align: .95em; margin-left: .06em; font-weight: 560; }
+.dealer.xl { font-size: clamp(76px, 10.5vw, 150px); }
+.dealer.lg { font-size: clamp(52px, 6.2vw, 92px); }
+.dealer.up .pips { color: var(--gain); }
+.dealer.dn .pips { color: var(--loss); }
+.amount { margin: 8px 0 0; font-family: var(--display); font-stretch: 85%; font-weight: 620; font-size: clamp(30px, 3.2vw, 44px); line-height: 1.05; white-space: nowrap; }
+.sub { margin: 8px 0 0; color: var(--ink-2); font-size: 13.5px; }
+.sub b { color: var(--ink); font-weight: 600; }
+@media (max-width: 900px) {
+  .ticket { grid-template-columns: 1fr 1fr; }
+  .cell:first-child { grid-column: 1 / -1; border-bottom: 1px solid var(--rule); padding-right: 0; }
+  .cell:nth-child(2) { padding-left: 0; border-left: 0; }
+}
+@media (max-width: 560px) {
+  .ticket { grid-template-columns: 1fr; }
+  .cell, .cell + .cell { padding-left: 0; padding-right: 0; border-left: 0; }
+  .cell + .cell { border-top: 1px solid var(--rule); }
+  .cell:first-child { border-bottom: 0; }
+}
+
+.chart-head { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; justify-content: space-between; margin: 28px 0 10px; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rule); border-radius: 7px; overflow: hidden; background: var(--raised); }
+.seg button { font: inherit; font-size: 13.5px; font-weight: 560; color: var(--ink-2); background: transparent; border: 0; padding: 8px 10px; cursor: pointer; min-width: 42px; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; color: var(--ink-2); font-size: 13.5px; }
+.tools label { display: inline-flex; gap: 8px; align-items: center; }
+select, input { font: inherit; color: var(--ink); background: var(--raised); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
+@media (pointer: coarse) { select, input { font-size: 16px; } }
+.btn { font: inherit; font-size: 13.5px; color: var(--accent); background: transparent; border: 1px solid var(--rule); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.seg button:focus-visible, .btn:focus-visible, .linkbtn:focus-visible, select:focus-visible, input:focus-visible, .cellbtn:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.legend { min-height: 22px; margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 2px 16px; }
+.legend b { color: var(--ink); font-weight: 600; }
+.legend .gain { color: var(--gain); font-weight: 650; }
+.legend .loss { color: var(--loss); font-weight: 650; }
+.chart-frame { position: relative; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.chart { height: clamp(330px, 50vh, 540px); }
+.axis-notes { display: flex; justify-content: space-between; gap: 16px; color: var(--ink-3); font-size: 12px; padding-top: 6px; }
+.chart-msg { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 24px; color: var(--ink-2); background: var(--ground); z-index: 4; }
+.chart-note { position: absolute; left: 50%; top: 14px; transform: translateX(-50%); z-index: 4; max-width: min(92%, 520px); padding: 8px 12px; border-radius: 6px; background: var(--raised); border: 1px solid var(--rule); color: var(--ink-2); font-size: 13px; text-align: center; }
+
+.lower { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 36px 52px; margin-top: 36px; }
+@media (max-width: 960px) { .lower { grid-template-columns: minmax(0, 1fr); } }
+.days { min-width: 0; }
+h2 { font-family: var(--display); font-stretch: 90%; font-size: 21px; font-weight: 650; margin: 0 0 6px; text-wrap: balance; }
+.note { margin: 0 0 14px; color: var(--ink-2); font-size: 14px; max-width: 68ch; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+.days table { min-width: 440px; }
+th, td { text-align: left; padding: 0; vertical-align: middle; }
+thead th { font-size: 12.5px; font-weight: 560; color: var(--ink-2); padding: 0 8px 8px 0; border-bottom: 1px solid var(--rule); }
+tbody th { font-weight: 600; font-size: 14px; padding: 10px 12px 10px 0; white-space: nowrap; border-bottom: 1px solid var(--rule); }
+tbody td { border-bottom: 1px solid var(--rule); padding: 4px 6px 4px 0; }
+.cellbtn { all: unset; box-sizing: border-box; display: flex; flex-wrap: wrap; column-gap: 8px; align-items: baseline; width: 100%; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
+.cellbtn .pnl { font-weight: 650; white-space: nowrap; }
+.cellbtn .gbp { color: var(--ink-2); font-size: 13px; white-space: nowrap; }
+.cellbtn .rt { flex-basis: 100%; color: var(--ink-3); font-size: 12.5px; }
+.cellbtn.gain { background: var(--gain-tint); }
+.cellbtn.gain .pnl { color: var(--gain); }
+.cellbtn.loss { background: var(--loss-tint); }
+.cellbtn.loss .pnl { color: var(--loss); }
+.cellbtn.sel { box-shadow: inset 0 0 0 2px var(--accent); }
+.cellbtn:hover { filter: saturate(1.35); }
+td.pending { color: var(--ink-3); font-size: 13px; padding-left: 10px; }
+.marks { margin-top: 22px; }
+.marks table { min-width: 560px; }
+.marks td.num, .marks th.num { white-space: nowrap; padding-right: 14px; }
+.marks tbody td { font-size: 14px; }
+.marks .when { color: var(--ink-2); font-size: 13px; }
+
+.side { display: grid; gap: 30px; align-content: start; min-width: 0; }
+.panel { border-top: 2px solid var(--ink); padding-top: 12px; min-width: 0; }
+.panel p { margin: 0 0 10px; }
+.quote-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 8px 0 12px; }
+.quote-row label { color: var(--ink-2); font-size: 14px; }
+.quote-row input { width: 8.5em; font-family: var(--display); font-stretch: 85%; font-size: 24px; font-weight: 620; padding: 6px 10px; }
+.verdict { font-weight: 600; }
+.verdict.gain { color: var(--gain); }
+.verdict.loss { color: var(--loss); }
+ol.workings { margin: 0 0 12px; padding-left: 1.4em; display: grid; gap: 6px; }
+ol.workings b { font-weight: 650; }
+details.panel summary { cursor: pointer; font-family: var(--display); font-stretch: 90%; font-size: 21px; font-weight: 650; }
+.form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 14px; align-items: center; margin-top: 14px; }
+.form label { color: var(--ink-2); font-size: 14px; }
+.form input { width: 10em; text-align: right; }
+.form .hint { grid-column: 1 / -1; margin: -4px 0 4px; color: var(--ink-3); font-size: 13px; }
+.form .btn { justify-self: start; }
+
+.sources { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: 12.5px; max-width: 115ch; }
+.sources p { margin: 0 0 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .dot.live { animation: none; }
+  .dealer .pips, .stripe { transition: none; }
+}
+</style>
+</head>
+<body>
+<div class="stripe" id="stripe"></div>
+<main class="wrap">
+  <header class="top">
+    <p class="name" id="name">Sterling into dirhams</p>
+    <div class="top-right">
+      <p class="status"><span class="dot" id="dot"></span><span id="statusText">Connecting to Kraken.</span></p>
+      <button type="button" class="btn" data-open-settings>Settings</button>
+    </div>
+  </header>
+
+  <h1 class="headline" id="headline">Waiting for the first live price.</h1>
+  <p class="lede" id="lede">Every dirham figure is after the dealing charge, with the sterling equivalent in brackets.</p>
+  <p class="example-note" id="exampleNote" hidden>These are example figures. Put your own in under <button type="button" class="linkbtn" data-open-settings>Settings</button>. They are kept on this device only.</p>
+
+  <section class="ticket" aria-label="Live rates">
+    <div class="cell">
+      <p class="label">Mid rate, GBP/AED</p>
+      <p class="dealer xl" id="mid">&nbsp;</p>
+      <p class="sub" id="midSub">&nbsp;</p>
+    </div>
+    <div class="cell">
+      <p class="label" id="yourLabel">Your rate after the charge</p>
+      <p class="dealer lg" id="your">&nbsp;</p>
+      <p class="sub" id="yourSub">&nbsp;</p>
+    </div>
+    <div class="cell">
+      <p class="label" id="bringsLabel">Your sterling brings</p>
+      <p class="amount" id="brings">&nbsp;</p>
+      <p class="sub" id="bringsSub">&nbsp;</p>
+    </div>
+  </section>
+
+  <section aria-label="Chart">
+    <div class="chart-head">
+      <div class="seg" role="group" aria-label="Chart interval" id="seg">
+        <button type="button" data-iv="10s" aria-pressed="false">10s</button>
+        <button type="button" data-iv="30s" aria-pressed="false">30s</button>
+        <button type="button" data-iv="1m" aria-pressed="false">1m</button>
+        <button type="button" data-iv="5m" aria-pressed="false">5m</button>
+        <button type="button" data-iv="10m" aria-pressed="false">10m</button>
+        <button type="button" data-iv="30m" aria-pressed="false">30m</button>
+        <button type="button" data-iv="1h" aria-pressed="false">1h</button>
+        <button type="button" data-iv="4h" aria-pressed="false">4h</button>
+      </div>
+      <div class="tools">
+        <label for="compare">Compare with <select id="compare"></select></label>
+        <button type="button" class="btn" id="resetView">Reset view</button>
+      </div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="chart-frame">
+      <div class="chart" id="chart"></div>
+      <div class="chart-msg" id="chartMsg" hidden></div>
+      <div class="chart-note" id="chartNote" hidden></div>
+    </div>
+    <div class="axis-notes"><span id="axisLeft">Left scale: dirhams gained or lost against the comparison</span><span>Right scale: GBP/AED mid. Scroll or pinch to zoom, drag to move.</span></div>
+  </section>
+
+  <section class="lower">
+    <div class="days">
+      <h2 id="daysTitle">Day by day since the start</h2>
+      <p class="note" id="daysNote">Each figure is the difference between dealing now and dealing at that moment, after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Day</th><th scope="col" id="colOpen">Open, 8am London</th><th scope="col" id="colClose">Close, 4pm London</th></tr></thead>
+          <tbody id="dayRows"><tr><td colspan="3" class="pending">Loading the history from Kraken.</td></tr></tbody>
+        </table>
+      </div>
+      <div class="marks table-wrap">
+        <table>
+          <thead><tr><th scope="col">Reference</th><th scope="col" class="num">GBP/AED</th><th scope="col" class="num" id="marksBrought">Brought</th><th scope="col">Now against it</th></tr></thead>
+          <tbody id="markRows"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <aside class="side">
+      <section class="panel" aria-labelledby="checkTitle">
+        <h2 id="checkTitle">Check a quote</h2>
+        <p id="fairLine">&nbsp;</p>
+        <div class="quote-row">
+          <label for="quoteIn">Rate quoted to you, in dirhams per pound</label>
+          <input id="quoteIn" type="text" inputmode="decimal" autocomplete="off">
+        </div>
+        <div id="quoteOut"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="coverTitle">
+        <h2 id="coverTitle">Dirhams needed</h2>
+        <div id="cover"><p>&nbsp;</p></div>
+      </section>
+
+      <section class="panel" aria-labelledby="workTitle">
+        <h2 id="workTitle">How the numbers work</h2>
+        <ol class="workings" id="workings"><li>&nbsp;</li></ol>
+        <p id="pipsNote">&nbsp;</p>
+      </section>
+
+      <details class="panel" id="settings">
+        <summary>Settings</summary>
+        <div class="form">
+          <label for="setAmount">Sterling to convert (£)</label><input id="setAmount" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setMargin">Dealing charge (%)</label><input id="setMargin" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setStartDate">Day to measure from</label><input id="setStartDate" type="date">
+          <label for="setStartRate">Starting rate, GBP/USD</label><input id="setStartRate" type="text" inputmode="decimal" autocomplete="off" placeholder="ECB rate">
+          <p class="hint" id="startHint">Leave the rate blank to use the ECB reference rate for that day.</p>
+          <label for="setNeed">Dirhams needed (optional)</label><input id="setNeed" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setPeg">Dirhams to the dollar</label><input id="setPeg" type="text" inputmode="decimal" autocomplete="off">
+          <button type="button" class="btn" id="resetSettings">Restore the defaults</button>
+        </div>
+        <p class="note" style="margin-top:12px">Your figures are kept in this browser on this device and are never sent anywhere. The page fetches only prices: Kraken's live GBP/USD market and the ECB reference rate for the day you choose.</p>
+      </details>
+    </aside>
+  </section>
+
+  <footer class="sources">
+    <p>Prices come from Kraken's public GBP/USD market, which this page reads directly with no account. The live mid is halfway between Kraken's best bid and best offer. The chart history uses Kraken's own bars, which are traded prices and can sit a pip or two either side of the mid. ECB reference rates come from the Frankfurter service.</p>
+    <p>Dirhams are worked out at the UAE peg of 3.6725 to the dollar. On 25 September 2026 Kraken was checked against Yahoo Finance, Wise and the European Central Bank and agreed with them to within one to three GBP/USD pips. A dealer's own mid can differ by a pip or two.</p>
+    <p>The currency market shuts from 5pm New York on Friday to 5pm New York on Sunday, which is 01:00 Saturday to 01:00 Monday in Dubai while New York is on summer time. Weekend prices are left off the chart. All times are Dubai time unless marked London. Charts drawn with TradingView Lightweight Charts.</p>
+  </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@5.2.1/dist/lightweight-charts.standalone.production.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+
+  /* ---------- settings ---------- */
+  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725 }/*END*/;
+  var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v2', ecb: 'gbpaed.ecb.v1' };
+  function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
+  function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
+  var cfg = Object.assign({}, DEFAULTS, load(KEYS.cfg, {}));
+  var ecbCache = load(KEYS.ecb, {}) || {};
+
+  var REST = 'https://api.kraken.com/0/public';
+  var WS_URL = 'wss://ws.kraken.com/v2';
+  var ECB_URL = 'https://api.frankfurter.dev/v1/';
+  var IV = {
+    '10s': { sec: 10, ticks: true, span: 1800 },
+    '30s': { sec: 30, ticks: true, span: 5400 },
+    '1m': { sec: 60, k: 1, span: 3 * 3600 },
+    '5m': { sec: 300, k: 5, span: 24 * 3600 },
+    '10m': { sec: 600, k: 5, span: 48 * 3600 },
+    '30m': { sec: 1800, k: 30 },
+    '1h': { sec: 3600, k: 60 },
+    '4h': { sec: 14400, k: 240 }
+  };
+  var EVENTS = [
+    { t: Date.UTC(2026, 8, 16, 18, 0) / 1000, text: 'Fed raises rates', pos: 'aboveBar', shape: 'arrowDown' },
+    { t: Date.UTC(2026, 8, 17, 11, 0) / 1000, text: 'Bank of England holds', pos: 'belowBar', shape: 'arrowUp' }
+  ];
+  var DXB = 4 * 3600; /* Dubai is UTC+4 all year; chart times are shifted so the axis reads in Dubai time */
+
+  /* ---------- state ---------- */
+  var savedIv = load(KEYS.iv, '1h');
+  var state = {
+    bid: null, ask: null, mid: null, at: 0, via: '', alive: 0,
+    hourly: [], hourIdx: new Map(),
+    bars: [], iv: IV[savedIv] ? savedIv : '1h',
+    cmp: load(KEYS.cmp, 'start'),
+    refs: new Map(), refOrder: [],
+    dir: 0, hovering: false, dirty: false, histOk: false
+  };
+  var ticks = (load(KEYS.ticks, []) || []).filter(function (p) {
+    return Array.isArray(p) && p[0] > Date.now() / 1000 - 12 * 3600;
+  }).map(function (p) { return { t: p[0], c: p[1] }; });
+  var lastSeen = load(KEYS.last, null);
+  if (lastSeen && lastSeen.mid > 0) {
+    state.mid = lastSeen.mid; state.bid = lastSeen.bid; state.ask = lastSeen.ask; state.at = lastSeen.at; state.via = 'saved'; state.dirty = true;
+  }
+
+  /* ---------- time ---------- */
+  var WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function dxb(t) { return new Date((t + DXB) * 1000); }
+  function dxbTime(t, secs) { var d = dxb(t); return pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + (secs ? ':' + pad(d.getUTCSeconds()) : ''); }
+  function dxbDay(t) { var d = dxb(t); return WD[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MON[d.getUTCMonth()]; }
+
+  var lonFmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+  function lonParts(t) { var o = {}; lonFmt.formatToParts(new Date(t * 1000)).forEach(function (p) { o[p.type] = p.value; }); return o; }
+  function londonToUtc(y, m, d, hh) {
+    var wall = Date.UTC(y, m - 1, d, hh) / 1000, guess = wall;
+    for (var i = 0; i < 2; i++) {
+      var p = lonParts(guess);
+      var seen = Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute) / 1000;
+      guess = wall - (seen - guess);
+    }
+    return guess;
+  }
+  var nyFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: '2-digit', hourCycle: 'h23' });
+  function isFxOpen(t) {
+    var wd = '', h = 0;
+    nyFmt.formatToParts(new Date(t * 1000)).forEach(function (p) { if (p.type === 'weekday') wd = p.value; if (p.type === 'hour') h = +p.value; });
+    if (wd === 'Sat') return false;
+    if (wd === 'Fri' && h >= 17) return false;
+    if (wd === 'Sun' && h < 17) return false;
+    return true;
+  }
+  function nextFxOpen(t) { var s = Math.ceil(t / 3600) * 3600; for (var i = 0; i < 80; i++, s += 3600) { if (isFxOpen(s)) return s; } return null; }
+
+  function ymd(y, m, d) { return y + '-' + pad(m) + '-' + pad(d); }
+  function parseYmd(s) { var p = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ''); return p ? { y: +p[1], m: +p[2], d: +p[3] } : null; }
+  function londonToday() { var p = lonParts(Date.now() / 1000); return { y: +p.year, m: +p.month, d: +p.day }; }
+  function defaultStartDate() {
+    var t = londonToday(), d = new Date(Date.UTC(t.y, t.m - 1, t.d) - 7 * 86400000);
+    while (d.getUTCDay() === 0 || d.getUTCDay() === 6) d = new Date(d.getTime() - 86400000);
+    return ymd(d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate());
+  }
+  function startDate() { return parseYmd(cfg.startDate) ? cfg.startDate : defaultStartDate(); }
+  function dayName(s) { var p = parseYmd(s), d = new Date(Date.UTC(p.y, p.m - 1, p.d)); return WD[d.getUTCDay()] + ' ' + p.d + ' ' + MON[p.m - 1]; }
+  function longDate(s) { var p = parseYmd(s); return p.d + ' ' + MONTHS[p.m - 1] + ' ' + p.y; }
+  function dayMonth(s) { var p = parseYmd(s); return p.d + ' ' + MONTHS[p.m - 1]; }
+
+  /* ---------- money ---------- */
+  var MINUS = '−';
+  var nf0 = new Intl.NumberFormat('en-GB', { maximumFractionDigits: 0 });
+  function mg() { return cfg.marginPct / 100; }
+  function toAed(usd) { return usd * cfg.peg; }
+  function brings(usd) { return cfg.amount * toAed(usd) * (1 - mg()); }
+  function diffVs(usdNow, usdThen) { return brings(usdNow) - brings(usdThen); }
+  function gbpOf(aed) { return aed / toAed(state.mid || startInfo().usd || 1.32); }
+  function roundGbp(n) { var a = Math.abs(n), s = a >= 100000 ? 1000 : a >= 10000 ? 100 : 10; return Math.round(n / s) * s; }
+  function gbpExact(n) { return '£' + nf0.format(n); }
+  function gbp(n, signed) { var r = roundGbp(n); return (r < 0 ? MINUS : (signed && r > 0 ? '+' : '')) + '£' + nf0.format(Math.abs(r)); }
+  function aed(n) { return 'AED ' + nf0.format(Math.round(n)); }
+  function aedSigned(n) { var r = Math.round(n); return (r < 0 ? MINUS : r > 0 ? '+' : '') + 'AED ' + nf0.format(Math.abs(r)); }
+  function withGbp(n) { return aed(n) + ' (' + gbp(gbpOf(n)) + ')'; }
+  function withGbpSigned(n) { return aedSigned(n) + ' (' + gbp(gbpOf(n), true) + ')'; }
+  function shortK(n) {
+    var a = Math.abs(n), s = n < 0 ? MINUS : n > 0 ? '+' : '';
+    if (a >= 1e6) return s + (a / 1e6).toFixed(2) + 'm';
+    if (a >= 1e4) return s + Math.round(a / 1e3) + 'k';
+    if (a >= 1e3) return s + (a / 1e3).toFixed(1) + 'k';
+    return s + Math.round(a);
+  }
+  function amountShort() { var a = cfg.amount; return a >= 1e6 && a % 1e5 === 0 ? '£' + (a / 1e6) + 'm' : gbpExact(a); }
+  function pct() { return cfg.marginPct + '%'; }
+  function dealerHTML(rate) {
+    var s = rate.toFixed(5);
+    return '<span class="fig">' + s.slice(0, 4) + '</span><span class="pips">' + s.slice(4, 6) + '</span><span class="pipette">' + s.slice(6) + '</span>';
+  }
+
+  /* ---------- the starting rate ---------- */
+  function priceAtHour(t) { var i = state.hourIdx.get(Math.floor(t / 3600) * 3600); return i == null ? null : state.hourly[i].o; }
+  function startInfo() {
+    var date = startDate(), p = parseYmd(date);
+    if (cfg.startRate > 0) return { date: date, usd: cfg.startRate, ecb: !!cfg.startIsEcb };
+    var e = ecbCache[date];
+    if (e && e.rate > 0) return { date: date, usd: e.rate, ecb: true, ecbDate: e.date };
+    if (state.hourly.length) { var u = priceAtHour(londonToUtc(p.y, p.m, p.d, 13)); if (u) return { date: date, usd: u, approx: true }; }
+    return { date: date, usd: null };
+  }
+  function fetchEcb(date) {
+    if (!parseYmd(date) || ecbCache[date]) return;
+    fetch(ECB_URL + date + '?base=GBP&symbols=USD', { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (j) {
+        if (j && j.rates && j.rates.USD > 0) {
+          ecbCache[date] = { rate: j.rates.USD, date: j.date || date };
+          save(KEYS.ecb, ecbCache);
+          settingsChanged();
+        }
+      })
+      .catch(function () { /* the page falls back to Kraken's rate at 1pm London that day */ });
+  }
+
+  /* ---------- reference points ---------- */
+  function startRef() {
+    var s = startInfo();
+    if (!s.usd) return null;
+    var p = parseYmd(s.date);
+    return {
+      key: 'start', usd: s.usd,
+      name: dayName(s.date) + ' start' + (s.ecb ? ' (ECB)' : ''),
+      label: 'the ' + p.d + ' ' + MON[p.m - 1] + ' starting rate',
+      short: p.d + ' ' + MON[p.m - 1],
+      when: dayName(s.ecbDate || s.date) + ', ' + (s.ecb ? 'ECB reference rate' : s.approx ? 'Kraken at 1pm London' : 'your rate')
+    };
+  }
+  function currentRef() { return state.refs.get(state.cmp) || state.refs.get('start') || null; }
+  function londonDays() {
+    var s = parseYmd(startDate()), t = londonToday();
+    var end = Date.UTC(t.y, t.m - 1, t.d), from = Math.max(Date.UTC(s.y, s.m - 1, s.d), end - 30 * 86400000), out = [];
+    for (var ms = from; ms <= end; ms += 86400000) {
+      var d = new Date(ms), wd = d.getUTCDay();
+      if (wd === 0 || wd === 6) continue;
+      out.push({ y: d.getUTCFullYear(), m: d.getUTCMonth() + 1, d: d.getUTCDate(), wd: wd });
+    }
+    return out.reverse();
+  }
+  function lonLabel(t) { var p = lonParts(t); return p.weekday + ' ' + (+p.day) + ' ' + MON[+p.month - 1] + ', ' + p.hour + ':00 London'; }
+  function buildRefs() {
+    var refs = new Map(), order = [];
+    function add(r) { if (r) { refs.set(r.key, r); order.push(r.key); } }
+    add(startRef());
+    if (state.hourly.length) {
+      var now = Date.now() / 1000;
+      londonDays().forEach(function (day) {
+        [16, 8].forEach(function (hh) {
+          var t = londonToUtc(day.y, day.m, day.d, hh);
+          if (t > now) return;
+          var usd = priceAtHour(t);
+          if (usd == null) return;
+          var dn = WD[day.wd] + ' ' + day.d + ' ' + MON[day.m - 1], when = hh === 8 ? '8am London' : '4pm London';
+          add({ key: day.y + '-' + day.m + '-' + day.d + '-' + hh, usd: usd, t: t, name: dn + ', ' + when, label: dn + ', ' + when, short: day.d + ' ' + MON[day.m - 1] + ' ' + (hh === 8 ? '8am' : '4pm') });
+        });
+      });
+      var s = parseYmd(startDate()), from = londonToUtc(s.y, s.m, s.d, 8), best = null, worst = null, since = s.d + ' ' + MON[s.m - 1];
+      state.hourly.forEach(function (b) {
+        if (b.t < from || b.t > now || !isFxOpen(b.t)) return;
+        var p = lonParts(b.t), h = +p.hour;
+        if (h < 8 || h >= 17 || p.weekday === 'Sat' || p.weekday === 'Sun') return;
+        if (!best || b.o > best.o) best = b;
+        if (!worst || b.o < worst.o) worst = b;
+      });
+      if (best) add({ key: 'best', usd: best.o, t: best.t, name: 'Best since ' + since, label: 'the best since ' + since + ' (' + lonLabel(best.t) + ')', short: 'best', when: lonLabel(best.t) });
+      if (worst) add({ key: 'worst', usd: worst.o, t: worst.t, name: 'Worst since ' + since, label: 'the worst since ' + since + ' (' + lonLabel(worst.t) + ')', short: 'worst', when: lonLabel(worst.t) });
+    }
+    state.refs = refs; state.refOrder = order;
+    if (!refs.has(state.cmp)) state.cmp = refs.has('start') ? 'start' : (order[0] || 'start');
+  }
+  function renderCompareOptions() {
+    var sel = $('compare'), keys = state.refOrder.map(function (k) { return k + ':' + state.refs.get(k).name; }).join('|');
+    if (sel.dataset.keys !== keys) {
+      sel.innerHTML = state.refOrder.map(function (k) { return '<option value="' + k + '">' + state.refs.get(k).name + '</option>'; }).join('');
+      sel.dataset.keys = keys;
+    }
+    sel.value = state.cmp;
+  }
+  function setCompare(key) {
+    if (!state.refs.has(key)) return;
+    state.cmp = key; save(KEYS.cmp, key);
+    renderCompareOptions(); redraw(true); renderDays(); renderMarks(); renderLegend(null);
+  }
+
+  /* ---------- Kraken ---------- */
+  function kraken(path) {
+    return fetch(REST + path, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (j) {
+      if (j.error && j.error.length) throw new Error(j.error.join(', '));
+      return j.result;
+    });
+  }
+  /* Kraken's bars are traded prices, and now and then a single stray trade prints far from the market.
+     A bar that sits more than 0.3% away from both of its neighbours, in the same direction, is treated as
+     a stray print and replaced by the average of the neighbours. A genuine move holds its new level, so it stays. */
+  function clean(bars) {
+    var T = 0.003, out = [];
+    for (var i = 0; i < bars.length; i++) {
+      var b = bars[i], prev = out.length ? out[out.length - 1].c : null, next = i + 1 < bars.length ? bars[i + 1].c : null, c = b.c, o = b.o;
+      if (prev != null && next != null) {
+        var dp = (c - prev) / prev, dn = (c - next) / next;
+        if (Math.abs(dp) > T && Math.abs(dn) > T && dp * dn > 0) c = (prev + next) / 2;
+      }
+      if (prev != null && Math.abs(o - prev) / prev > T && Math.abs(o - c) / c > T) o = prev;
+      out.push({ t: b.t, o: o, c: c });
+    }
+    return out;
+  }
+  function ohlc(k) {
+    return kraken('/OHLC?pair=GBPUSD&interval=' + k).then(function (res) {
+      var key = Object.keys(res).filter(function (x) { return x !== 'last'; })[0];
+      return clean(res[key].map(function (a) { return { t: +a[0], o: +a[1], c: +a[4] }; }));
+    });
+  }
+  function loadHourly() {
+    return ohlc(60).then(function (bars) {
+      state.hourly = bars;
+      state.hourIdx = new Map(bars.map(function (b, i) { return [b.t, i]; }));
+      state.histOk = true;
+      buildRefs(); renderCompareOptions(); renderLabels(); renderDays(); renderMarks();
+      state.dirty = true;
+    });
+  }
+  function bucket(src, sec) {
+    var out = [];
+    src.forEach(function (b) {
+      var t = Math.floor(b.t / sec) * sec, l = out[out.length - 1];
+      if (l && l.t === t) l.c = b.c; else out.push({ t: t, c: b.c });
+    });
+    return out;
+  }
+  function barsFor(iv) {
+    var spec = IV[iv];
+    if (spec.ticks) return Promise.resolve(bucket(ticks, spec.sec));
+    var get = spec.k === 60 && state.hourly.length ? Promise.resolve(state.hourly) : ohlc(spec.k);
+    return get.then(function (raw) {
+      var open = raw.filter(function (b) { return isFxOpen(b.t); }).map(function (b) { return { t: b.t, c: b.c }; });
+      return spec.sec === spec.k * 60 ? open : bucket(open, spec.sec);
+    });
+  }
+
+  var ws = null, wsFails = 0, pollTimer = null;
+  function recordTick(mid, t) {
+    if (!isFxOpen(t)) return;
+    var b = Math.floor(t / 10) * 10, l = ticks[ticks.length - 1];
+    if (l && l.t === b) l.c = mid; else if (!l || b > l.t) ticks.push({ t: b, c: mid });
+  }
+  function onQuote(bid, ask, via) {
+    state.alive = Date.now();
+    if (!(bid > 0 && ask > 0) || ask < bid || (ask - bid) / bid > 0.003) return;
+    var mid = (bid + ask) / 2;
+    if (state.mid && state.via !== 'saved' && mid !== state.mid) state.dir = mid > state.mid ? 1 : -1;
+    if (mid !== state.mid || state.via === 'saved') state.at = Date.now();
+    state.bid = bid; state.ask = ask; state.mid = mid; state.via = via;
+    recordTick(mid, Date.now() / 1000);
+    state.dirty = true;
+  }
+  /* Kraken sends a heartbeat every second. When the price has not moved, the last price carries forward,
+     so the short charts keep time. */
+  function onHeartbeat() {
+    state.alive = Date.now();
+    if (!state.mid || state.via === 'saved') return;
+    recordTick(state.mid, Date.now() / 1000);
+    state.dirty = true;
+  }
+  function pollOnce() {
+    return kraken('/Ticker?pair=GBPUSD').then(function (res) {
+      var r = res[Object.keys(res)[0]];
+      onQuote(+r.b[0], +r.a[0], 'rest');
+    }).catch(function () { /* the status line reports the gap */ });
+  }
+  function startPolling() { if (!pollTimer) { pollTimer = setInterval(pollOnce, 3000); pollOnce(); } }
+  function stopPolling() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+  function connect() {
+    if (ws && ws.readyState <= 1) return;
+    var sock;
+    try { sock = new WebSocket(WS_URL); } catch (e) { startPolling(); return; }
+    ws = sock;
+    sock.onopen = function () {
+      sock.send(JSON.stringify({ method: 'subscribe', params: { channel: 'ticker', symbol: ['GBP/USD'], event_trigger: 'bbo' } }));
+    };
+    sock.onmessage = function (ev) {
+      if (ws !== sock) return;
+      var msg; try { msg = JSON.parse(ev.data); } catch (e) { return; }
+      if (msg.channel === 'heartbeat') { onHeartbeat(); return; }
+      if (msg.channel === 'ticker' && msg.data && msg.data[0]) {
+        wsFails = 0; stopPolling();
+        onQuote(+msg.data[0].bid, +msg.data[0].ask, 'ws');
+      }
+    };
+    sock.onclose = function () {
+      if (ws !== sock) return;
+      ws = null; wsFails++;
+      if (wsFails >= 2) startPolling();
+      setTimeout(connect, Math.min(30000, 1000 * Math.pow(2, wsFails)));
+    };
+    sock.onerror = function () { try { sock.close(); } catch (e) { /* already closed */ } };
+  }
+  /* A phone drops the connection whenever the browser goes into the background, so coming back
+     reconnects at once rather than waiting for the retry timer. */
+  function reconnectNow() {
+    var old = ws; ws = null; wsFails = 0;
+    if (old) { try { old.close(); } catch (e) { /* already closed */ } }
+    connect();
+  }
+
+  /* ---------- chart ---------- */
+  var L = window.LightweightCharts, chart = null, rateSeries = null, pnlSeries = null, markers = null, baseLine = null;
+  function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+  function baseAed() { var r = currentRef(); return r ? toAed(r.usd) : toAed(state.mid || 1.32); }
+  function pnlOf(rateAed) { return cfg.amount * (1 - mg()) * (rateAed - baseAed()); }
+  function visibleExtent() {
+    if (!chart || !state.bars.length) return null;
+    var lr = chart.timeScale().getVisibleLogicalRange(), from = 0, to = state.bars.length - 1;
+    if (lr) { from = Math.max(0, Math.floor(lr.from)); to = Math.min(state.bars.length - 1, Math.ceil(lr.to)); }
+    if (from > to) return null;
+    var lo = Infinity, hi = -Infinity;
+    for (var i = from; i <= to; i++) { var v = state.bars[i].c; if (v < lo) lo = v; if (v > hi) hi = v; }
+    lo = toAed(lo); hi = toAed(hi);
+    if (hi - lo < 0.0006) { var c = (hi + lo) / 2; lo = c - 0.0003; hi = c + 0.0003; }
+    return { lo: lo, hi: hi };
+  }
+  function tickFmt(time, type) {
+    var d = new Date(time * 1000);
+    if (type === 0) return String(d.getUTCFullYear());
+    if (type === 1) return MON[d.getUTCMonth()];
+    if (type === 2) return WD[d.getUTCDay()] + ' ' + d.getUTCDate();
+    if (type === 3) return pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes());
+    return pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ':' + pad(d.getUTCSeconds());
+  }
+  function timeFmt(time) {
+    var d = new Date(time * 1000);
+    return WD[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MON[d.getUTCMonth()] + ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + (IV[state.iv].sec < 60 ? ':' + pad(d.getUTCSeconds()) : '');
+  }
+  function initChart() {
+    if (!L) { showMsg('The chart could not load. Check the internet connection, then reload the page. The figures above and below still work.'); return; }
+    chart = L.createChart($('chart'), {
+      autoSize: true,
+      layout: { background: { type: 'solid', color: css('--ground') }, textColor: css('--ink-2'), fontFamily: 'Archivo, "Helvetica Neue", Arial, sans-serif', fontSize: 12, attributionLogo: true },
+      rightPriceScale: { borderVisible: false, scaleMargins: { top: 0.1, bottom: 0.1 } },
+      leftPriceScale: { visible: true, borderVisible: false, scaleMargins: { top: 0.1, bottom: 0.1 } },
+      timeScale: { borderVisible: false, timeVisible: true, secondsVisible: false, rightOffset: 3, lockVisibleTimeRangeOnResize: true, tickMarkFormatter: tickFmt },
+      handleScroll: { mouseWheel: true, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
+      localization: { locale: 'en-GB', timeFormatter: timeFmt },
+      crosshair: { mode: L.CrosshairMode.Normal }
+    });
+    rateSeries = chart.addSeries(L.BaselineSeries, {
+      lineWidth: 2,
+      priceScaleId: 'right',
+      baseValue: { type: 'price', price: baseAed() },
+      priceFormat: { type: 'custom', minMove: 0.0001, formatter: function (p) { return p.toFixed(4); } },
+      autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: e.lo, maxValue: e.hi } } : null; }
+    });
+    pnlSeries = chart.addSeries(L.LineSeries, {
+      color: 'rgba(0,0,0,0)', lineWidth: 1, priceScaleId: 'left',
+      lastValueVisible: false, priceLineVisible: false, crosshairMarkerVisible: false,
+      priceFormat: { type: 'custom', minMove: 1, formatter: function (p) { return shortK(p); } },
+      autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: pnlOf(e.lo), maxValue: pnlOf(e.hi) } } : null; }
+    });
+    markers = L.createSeriesMarkers(rateSeries, []);
+    chart.subscribeCrosshairMove(function (p) {
+      var d = p && p.time && p.seriesData ? p.seriesData.get(rateSeries) : null;
+      state.hovering = !!d;
+      renderLegend(d ? { t: p.time - DXB, rate: d.value } : null);
+    });
+    applyTheme();
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      if (mq.addEventListener) mq.addEventListener('change', applyTheme);
+    }
+  }
+  function applyTheme() {
+    if (!chart) return;
+    chart.applyOptions({
+      layout: { background: { type: 'solid', color: css('--ground') }, textColor: css('--ink-2') },
+      grid: { vertLines: { color: css('--grid') }, horzLines: { color: css('--grid') } },
+      crosshair: { vertLine: { color: css('--ink-3'), labelBackgroundColor: css('--ink') }, horzLine: { color: css('--ink-3'), labelBackgroundColor: css('--ink') } }
+    });
+    rateSeries.applyOptions({
+      topLineColor: css('--gain'), topFillColor1: css('--gain-fill-strong'), topFillColor2: css('--gain-fill-weak'),
+      bottomLineColor: css('--loss'), bottomFillColor1: css('--loss-fill-weak'), bottomFillColor2: css('--loss-fill-strong')
+    });
+    drawBaseLine(); drawMarkers();
+  }
+  function drawBaseLine() {
+    if (!rateSeries) return;
+    if (baseLine) { rateSeries.removePriceLine(baseLine); baseLine = null; }
+    var ref = currentRef();
+    if (ref) baseLine = rateSeries.createPriceLine({ price: toAed(ref.usd), color: css('--ink-3'), lineWidth: 1, lineStyle: L.LineStyle.Dashed, axisLabelVisible: true, title: ref.short });
+  }
+  function drawMarkers() {
+    if (!markers) return;
+    var spec = IV[state.iv];
+    if (spec.ticks) { markers.setMarkers([]); return; }
+    var times = new Set(state.bars.map(function (b) { return b.t; })), list = [];
+    EVENTS.forEach(function (e) {
+      var b = Math.floor(e.t / spec.sec) * spec.sec;
+      if (times.has(b)) list.push({ time: b + DXB, position: e.pos, shape: e.shape, color: css('--ink-2'), text: e.text });
+    });
+    markers.setMarkers(list);
+  }
+  function redraw(keepRange) {
+    if (!chart) return;
+    var base = baseAed(), k = cfg.amount * (1 - mg());
+    var rate = state.bars.map(function (b) { return { time: b.t + DXB, value: toAed(b.c) }; });
+    var pnl = state.bars.map(function (b) { return { time: b.t + DXB, value: k * (toAed(b.c) - base) }; });
+    var range = keepRange ? chart.timeScale().getVisibleLogicalRange() : null;
+    rateSeries.applyOptions({ baseValue: { type: 'price', price: base } });
+    rateSeries.setData(rate); pnlSeries.setData(pnl);
+    drawBaseLine(); drawMarkers();
+    if (range) chart.timeScale().setVisibleLogicalRange(range);
+    else { defaultView(); requestAnimationFrame(defaultView); }
+  }
+  function defaultView() {
+    if (!chart || !state.bars.length) return;
+    var spec = IV[state.iv], now = Date.now() / 1000, s = parseYmd(startDate());
+    var from = spec.span ? now - spec.span : Date.UTC(s.y, s.m - 1, s.d) / 1000 - 86400;
+    from = Math.max(from, state.bars[0].t);
+    try { chart.timeScale().setVisibleRange({ from: from + DXB, to: state.bars[state.bars.length - 1].t + DXB }); }
+    catch (e) { chart.timeScale().fitContent(); }
+  }
+  function pushLive() {
+    if (!chart || state.via === 'saved' || !state.mid) return;
+    var t = Date.now() / 1000;
+    if (!isFxOpen(t)) return;
+    var sec = IV[state.iv].sec, b = Math.floor(t / sec) * sec, l = state.bars[state.bars.length - 1];
+    if (l && b < l.t) return;
+    if (l && b === l.t) l.c = state.mid; else state.bars.push({ t: b, c: state.mid });
+    var a = toAed(state.mid);
+    rateSeries.update({ time: b + DXB, value: a });
+    pnlSeries.update({ time: b + DXB, value: pnlOf(a) });
+  }
+  function showMsg(text) { var m = $('chartMsg'); m.textContent = text; m.hidden = false; }
+  function hideMsg() { $('chartMsg').hidden = true; }
+  function tickNote() {
+    var n = $('chartNote');
+    n.hidden = !(IV[state.iv].ticks && state.bars.length < 3);
+    if (!n.hidden) n.textContent = 'The 10s and 30s bars are built from the live price while this page is open, and kept for 12 hours. Use 1m or longer for history.';
+  }
+  var ivToken = 0;
+  function chooseInterval(iv) {
+    state.iv = iv; save(KEYS.iv, iv);
+    Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === iv)); });
+    if (!chart) return Promise.resolve();
+    chart.applyOptions({ timeScale: { secondsVisible: IV[iv].sec < 60 } });
+    var token = ++ivToken;
+    if (!IV[iv].ticks) showMsg('Loading prices from Kraken.');
+    return barsFor(iv).then(function (bars) {
+      if (token !== ivToken) return;
+      state.bars = bars; hideMsg(); redraw(false); tickNote(); renderLegend(null);
+    }).catch(function (e) {
+      if (token !== ivToken) return;
+      showMsg('Kraken did not send the price history (' + e.message + '). Trying again in 30 seconds.');
+      setTimeout(function () { if (state.iv === iv && token === ivToken) chooseInterval(iv); }, 30000);
+    });
+  }
+
+  /* ---------- rendering ---------- */
+  function flash(el) {
+    el.classList.remove('up', 'dn');
+    if (state.dir) { el.classList.add(state.dir > 0 ? 'up' : 'dn'); clearTimeout(el._t); el._t = setTimeout(function () { el.classList.remove('up', 'dn'); }, 700); }
+    state.dir = 0;
+  }
+  function renderLabels() {
+    var s = startInfo(), d = s.ecbDate || s.date;
+    $('name').textContent = gbpExact(cfg.amount) + ' into dirhams';
+    $('exampleNote').hidden = !cfg.example;
+    var basis = !s.usd ? 'Tracked from ' + longDate(s.date) + '. '
+      : 'Tracked against ' + (s.ecb ? 'the ECB reference rate for ' + longDate(d) : s.approx ? 'Kraken\'s rate at 1pm London on ' + longDate(s.date) : 'your starting rate for ' + longDate(s.date)) + ', GBP/USD ' + s.usd + '. ';
+    $('lede').textContent = basis + 'Every dirham figure is after the ' + pct() + ' dealing charge, with the sterling equivalent in brackets.';
+    $('daysTitle').textContent = 'Day by day since ' + dayName(s.date);
+    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it.';
+    $('axisLeft').textContent = 'Left scale: dirhams gained or lost on ' + gbpExact(cfg.amount) + ' against the comparison';
+    $('marksBrought').textContent = amountShort() + ' brought';
+    var e = ecbCache[startDate()];
+    $('startHint').textContent = e ? 'Leave the rate blank to use the ECB reference rate for ' + dayName(e.date) + ', which was ' + e.rate + '.' : 'Leave the rate blank to use the ECB reference rate for that day.';
+  }
+  function renderTicket() {
+    var a = toAed(state.mid), your = a * (1 - mg()), get = brings(state.mid), s = startInfo();
+    $('mid').innerHTML = dealerHTML(a); flash($('mid'));
+    $('midSub').innerHTML = 'GBP/USD <b>' + state.mid.toFixed(5) + '</b>' + (state.bid ? ', bid ' + state.bid.toFixed(5) + ', offer ' + state.ask.toFixed(5) : '') + ', times ' + cfg.peg + ' dirhams to the dollar';
+    $('yourLabel').textContent = 'Your rate after ' + pct();
+    $('your').innerHTML = dealerHTML(your);
+    $('yourSub').innerHTML = 'A quote at or above <b>' + your.toFixed(4) + '</b> is within ' + pct() + '.';
+    $('bringsLabel').textContent = gbpExact(cfg.amount) + ' brings, after ' + pct();
+    $('brings').textContent = aed(get);
+    var html = '(' + gbp(gbpOf(get)) + ').';
+    if (s.usd) { var then = brings(s.usd); html += ' On ' + dayMonth(s.date) + ' it was <b>' + aed(then) + '</b>, which would cost ' + gbp(then / your) + ' at today\'s rate.'; }
+    $('bringsSub').innerHTML = html;
+  }
+  function renderHeadline() {
+    var h = $('headline'), stripe = $('stripe'), ref = state.refs.get('start'), shut = !isFxOpen(Date.now() / 1000);
+    if (!ref) {
+      h.textContent = 'Waiting for the starting rate.'; h.className = 'headline';
+      stripe.className = 'stripe' + (shut ? ' shut' : '');
+      document.title = toAed(state.mid).toFixed(4) + ' · Sterling into dirhams';
+      return;
+    }
+    var d = diffVs(state.mid, ref.usd), when = dayMonth(startDate());
+    if (Math.abs(d) < 1000) { h.textContent = 'Level with ' + when + '.'; h.className = 'headline'; }
+    else {
+      h.innerHTML = 'In the ' + (d > 0 ? 'green' : 'red') + ' by <b>' + withGbp(Math.abs(d)) + '</b> against ' + when + '.';
+      h.className = 'headline ' + (d > 0 ? 'gain' : 'loss');
+    }
+    stripe.className = 'stripe ' + (shut ? 'shut' : d >= 0 ? 'gain' : 'loss');
+    var fill = shut ? '#8a6420' : d >= 0 ? '#08784b' : '#c02f29';
+    if ($('fav').dataset.fill !== fill) {
+      $('fav').dataset.fill = fill;
+      $('fav').href = 'data:image/svg+xml,' + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='" + fill + "'/><text x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'>£</text></svg>");
+    }
+    document.title = toAed(state.mid).toFixed(4) + ' · ' + (d >= 0 ? '+' : MINUS) + 'AED ' + shortK(Math.abs(d)).replace('+', '') + ' · ' + amountShort() + ' into dirhams';
+  }
+  function renderLegend(pt) {
+    var el = $('legend'), ref = currentRef();
+    if ((!state.mid && !pt) || !ref) { el.textContent = ''; return; }
+    var rate, when;
+    if (pt) { rate = pt.rate; when = timeFmt(pt.t + DXB) + ' Dubai'; }
+    else { rate = toAed(state.mid); when = state.via === 'saved' ? 'Last seen' : 'Now'; }
+    var d = cfg.amount * (1 - mg()) * (rate - toAed(ref.usd));
+    el.innerHTML = '<span><b>' + when + '</b></span><span>mid <b>' + rate.toFixed(4) + '</b></span><span>' + amountShort() + ' brings <b>' + aed(cfg.amount * rate * (1 - mg())) + '</b></span><span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(d) + ' against ' + ref.label + '</span>';
+  }
+  function cellHTML(key, t, now) {
+    if (t > now) return '<td class="pending">at ' + dxbTime(t) + ' Dubai</td>';
+    var r = state.refs.get(key);
+    if (!r) return '<td class="pending">no price</td>';
+    var d = diffVs(state.mid, r.usd);
+    return '<td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '" title="Chart against ' + r.name + ', ' + dxbTime(t) + ' Dubai"><span class="pnl">' + aedSigned(d) + '</span><span class="gbp">(' + gbp(gbpOf(d), true) + ')</span><span class="rt">' + toAed(r.usd).toFixed(4) + ' at ' + dxbTime(t) + ' Dubai</span></button></td>';
+  }
+  function renderDays() {
+    if (!state.mid || !state.histOk) return;
+    var now = Date.now() / 1000, rows = [], tp = lonParts(now);
+    $('colOpen').textContent = 'Open, 8am London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 8)) + ' Dubai)';
+    $('colClose').textContent = 'Close, 4pm London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 16)) + ' Dubai)';
+    londonDays().forEach(function (day) {
+      var base = day.y + '-' + day.m + '-' + day.d + '-';
+      rows.push('<tr><th scope="row">' + WD[day.wd] + ' ' + day.d + ' ' + MON[day.m - 1] + '</th>' +
+        cellHTML(base + '8', londonToUtc(day.y, day.m, day.d, 8), now) +
+        cellHTML(base + '16', londonToUtc(day.y, day.m, day.d, 16), now) + '</tr>');
+    });
+    $('dayRows').innerHTML = rows.join('');
+  }
+  function markRow(key, title) {
+    var r = state.refs.get(key);
+    if (!r) return '';
+    var d = diffVs(state.mid, r.usd);
+    return '<tr><th scope="row">' + title + '<br><span class="when">' + r.when + '</span></th><td class="num">' + toAed(r.usd).toFixed(4) + '</td><td class="num">' + aed(brings(r.usd)) + '</td><td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '"><span class="pnl">' + aedSigned(d) + '</span><span class="gbp">(' + gbp(gbpOf(d), true) + ')</span></button></td></tr>';
+  }
+  function renderMarks() {
+    if (!state.mid) return;
+    $('markRows').innerHTML = markRow('start', 'Start') + markRow('best', 'Best in London hours') + markRow('worst', 'Worst in London hours');
+  }
+  function renderQuote() {
+    var midA = toAed(state.mid), fair = midA * (1 - mg()), out = $('quoteOut');
+    $('fairLine').innerHTML = 'A fair quote at ' + pct() + ' is <b>' + fair.toFixed(4) + '</b> or higher. The live mid is ' + midA.toFixed(4) + '.';
+    var raw = $('quoteIn').value.trim().replace(',', '.');
+    if (!raw) { out.innerHTML = ''; return; }
+    var q = parseFloat(raw), note = '';
+    if (!(q > 0)) { out.innerHTML = '<p>Type the rate as a number, for example ' + fair.toFixed(4) + '.</p>'; return; }
+    if (q < 2.5) { note = ' Read as GBP/USD ' + q + ', which is GBP/AED ' + (q * cfg.peg).toFixed(4) + '.'; q = q * cfg.peg; }
+    var gap = midA - q;
+    if (gap <= 0) { out.innerHTML = '<p class="verdict gain">' + q.toFixed(4) + ' is at or above the live mid of ' + midA.toFixed(4) + '. That is better than mid, so it is worth checking the quote is for selling sterling.' + note + '</p>'; return; }
+    var cost = cfg.amount * gap, bench = cfg.amount * midA * mg(), vs = cost - bench;
+    out.innerHTML = '<p class="verdict ' + (vs <= 0 ? 'gain' : 'loss') + '">' + q.toFixed(4) + ' is ' + (gap / midA * 100).toFixed(3) + '% below the live mid of ' + midA.toFixed(4) + ', which is ' + Math.round(gap / 0.0001) + ' GBP/AED pips.' + note + '</p>' +
+      '<p>On ' + gbpExact(cfg.amount) + ' that costs ' + withGbp(cost) + ', which is ' + withGbp(Math.abs(vs)) + (vs <= 0 ? ' less' : ' more') + ' than ' + pct() + ' would cost.</p>';
+  }
+  function renderCover() {
+    var el = $('cover');
+    if (!(cfg.need > 0)) { el.innerHTML = '<p>Put the dirhams you need under Settings to see how far the rate could fall before ' + gbpExact(cfg.amount) + ' stops covering them.</p>'; return; }
+    var get = brings(state.mid), spare = get - cfg.need;
+    var breakMid = cfg.need / cfg.amount / (1 - mg()), breakUsd = breakMid / cfg.peg, fall = 1 - breakUsd / state.mid;
+    var html = '<p>At the live rate ' + gbpExact(cfg.amount) + ' brings ' + withGbp(get) + ' after ' + pct() + '. You need ' + withGbp(cfg.need) + '.</p>';
+    if (spare >= 0) html += '<p>That leaves <b>' + withGbp(spare) + '</b> to spare. It would only fall short if GBP/AED fell to ' + breakMid.toFixed(4) + ' (GBP/USD ' + breakUsd.toFixed(4) + '), which is ' + (fall * 100).toFixed(1) + '% below the rate now.</p>';
+    else html += '<p class="verdict loss">That is ' + withGbp(-spare) + ' short. It covers the sum again at GBP/AED ' + breakMid.toFixed(4) + ' (GBP/USD ' + breakUsd.toFixed(4) + ').</p>';
+    el.innerHTML = html;
+  }
+  function renderWorkings() {
+    var usd = state.mid, a = toAed(usd), gross = cfg.amount * a, charge = gross * mg(), net = gross - charge, s = startInfo();
+    var items = [
+      'GBP/USD mid <b>' + usd.toFixed(5) + '</b>' + (state.bid ? ', halfway between Kraken\'s best bid of ' + state.bid.toFixed(5) + ' and best offer of ' + state.ask.toFixed(5) : '') + '.',
+      usd.toFixed(5) + ' × ' + cfg.peg + ' dirhams to the dollar = GBP/AED mid <b>' + a.toFixed(5) + '</b>.',
+      gbpExact(cfg.amount) + ' × ' + a.toFixed(5) + ' = ' + aed(gross) + '.',
+      'Less ' + pct() + ', which is ' + withGbp(charge) + ', leaves <b>' + withGbp(net) + '</b>. That is a rate of ' + (a * (1 - mg())).toFixed(5) + '.'
+    ];
+    if (s.usd) {
+      var la = toAed(s.usd), lnet = brings(s.usd), d = net - lnet, basis = s.ecb ? 'the ECB reference rate' : s.approx ? 'Kraken\'s rate at 1pm London' : 'your starting rate';
+      items.push('On ' + dayMonth(s.ecbDate || s.date) + ' ' + basis + ' was GBP/USD ' + s.usd + '. ' + s.usd + ' × ' + cfg.peg + ' = ' + la.toFixed(5) + ', so ' + gbpExact(cfg.amount) + ' less ' + pct() + ' brought <b>' + aed(lnet) + '</b>, which would cost ' + gbp(lnet / (a * (1 - mg()))) + ' at today\'s rate.');
+      items.push(d < 0
+        ? aed(lnet) + ' less ' + aed(net) + ' = <b>' + withGbp(-d) + '</b>. That is how many fewer dirhams ' + gbpExact(cfg.amount) + ' brings now than on ' + dayMonth(s.date) + '.'
+        : aed(net) + ' less ' + aed(lnet) + ' = <b>' + withGbp(d) + '</b>. That is how many more dirhams ' + gbpExact(cfg.amount) + ' brings now than on ' + dayMonth(s.date) + '.');
+    }
+    $('workings').innerHTML = items.map(function (x) { return '<li>' + x + '</li>'; }).join('');
+    $('pipsNote').innerHTML = 'The ' + pct() + ' is a percentage of the rate, not pips. At the live rate it is ' + (a * mg()).toFixed(4) + ' dirhams per pound, which is ' + Math.round(a * mg() / 0.0001) + ' GBP/AED pips or ' + Math.round(usd * mg() / 0.0001) + ' GBP/USD pips. On ' + gbpExact(cfg.amount) + ' it is ' + gbpExact(Math.round(cfg.amount * mg())) + '.';
+  }
+  function renderStatus() {
+    var now = Date.now() / 1000, dot = $('dot'), txt, cls;
+    if (!isFxOpen(now)) {
+      var o = nextFxOpen(now);
+      cls = 'shut';
+      txt = 'Market shut for the weekend until ' + dxbDay(o) + ', ' + dxbTime(o) + ' Dubai. Weekend prices are indicative.';
+    } else if (!state.mid) { cls = ''; txt = 'Connecting to Kraken.'; }
+    else if (state.via === 'saved') { cls = 'stale'; txt = 'Showing the last price seen, ' + dxbDay(state.at / 1000) + ' ' + dxbTime(state.at / 1000) + ' Dubai. Connecting to Kraken.'; }
+    else {
+      var quiet = (Date.now() - state.alive) / 1000;
+      if (quiet > 20) { cls = quiet > 120 ? 'down' : 'stale'; txt = 'No word from Kraken for ' + Math.round(quiet) + ' seconds. Reconnecting.'; }
+      else { cls = 'live'; txt = 'Live from Kraken. Last change at ' + dxbTime(state.at / 1000, true) + ' Dubai.' + londonNote(now); }
+    }
+    dot.className = 'dot ' + cls;
+    $('statusText').textContent = txt;
+  }
+  function londonNote(now) {
+    var p = lonParts(now);
+    if (p.weekday === 'Sat' || p.weekday === 'Sun') return '';
+    var h = +p.hour + (+p.minute) / 60, y = +p.year, mo = +p.month, d = +p.day;
+    if (h < 8) return ' London opens at ' + dxbTime(londonToUtc(y, mo, d, 8)) + ' Dubai.';
+    if (h < 17) return ' London dealing hours run until ' + dxbTime(londonToUtc(y, mo, d, 17)) + ' Dubai.';
+    return '';
+  }
+  function frame() {
+    if (!state.dirty || !state.mid) return;
+    state.dirty = false;
+    renderTicket(); renderHeadline(); renderQuote(); renderCover(); renderWorkings();
+    pushLive(); tickNote();
+    if (!state.hovering) renderLegend(null);
+  }
+
+  /* ---------- settings form ---------- */
+  var FIELDS = [
+    { id: 'setAmount', key: 'amount', kind: 'num' },
+    { id: 'setMargin', key: 'marginPct', kind: 'num' },
+    { id: 'setStartDate', key: 'startDate', kind: 'date' },
+    { id: 'setStartRate', key: 'startRate', kind: 'opt' },
+    { id: 'setNeed', key: 'need', kind: 'opt0' },
+    { id: 'setPeg', key: 'peg', kind: 'num' }
+  ];
+  function fill() {
+    var t = londonToday();
+    $('setStartDate').max = ymd(t.y, t.m, t.d);
+    FIELDS.forEach(function (f) {
+      var v = cfg[f.key], el = $(f.id);
+      if (f.kind === 'date') el.value = startDate();
+      else if (v == null || (f.kind === 'opt0' && !(v > 0))) el.value = '';
+      else el.value = v >= 1000 ? nf0.format(v) : v;
+    });
+  }
+  function onField(f) {
+    var raw = String($(f.id).value).replace(/,/g, '').trim();
+    if (f.kind === 'date') {
+      if (!parseYmd(raw)) { fill(); return; }
+      cfg.startDate = raw; cfg.startRate = null; cfg.startIsEcb = false;
+      fetchEcb(raw);
+    } else if (f.kind === 'opt') {
+      if (raw === '') cfg.startRate = null;
+      else { var r = parseFloat(raw); if (!(r > 0)) { fill(); return; } cfg.startRate = r; }
+      cfg.startIsEcb = false;
+    } else if (f.kind === 'opt0') {
+      if (raw === '') cfg.need = 0;
+      else { var n = parseFloat(raw); if (!(n >= 0)) { fill(); return; } cfg.need = n; }
+    } else {
+      var v = parseFloat(raw);
+      if (!(v > 0)) { fill(); return; }
+      cfg[f.key] = v;
+    }
+    if (!parseYmd(cfg.startDate)) cfg.startDate = startDate();
+    cfg.example = false;
+    save(KEYS.cfg, cfg); fill(); settingsChanged();
+  }
+  function settingsChanged() {
+    buildRefs(); renderCompareOptions(); renderLabels(); redraw(true); renderDays(); renderMarks();
+    state.dirty = true; frame();
+  }
+  function openSettings() {
+    var d = $('settings');
+    d.open = true;
+    var smooth = !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    d.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+  }
+
+  /* ---------- wiring ---------- */
+  var hiddenAt = 0;
+  function bindUi() {
+    $('seg').addEventListener('click', function (e) { var b = e.target.closest('button[data-iv]'); if (b) chooseInterval(b.dataset.iv); });
+    $('compare').addEventListener('change', function (e) { setCompare(e.target.value); });
+    $('resetView').addEventListener('click', function () { defaultView(); });
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-ref]'); if (b) { setCompare(b.dataset.ref); return; }
+      if (e.target.closest('[data-open-settings]')) openSettings();
+    });
+    $('quoteIn').addEventListener('input', function () { if (state.mid) renderQuote(); });
+    fill();
+    FIELDS.forEach(function (f) { $(f.id).addEventListener('change', function () { onField(f); }); });
+    $('resetSettings').addEventListener('click', function () {
+      Object.keys(cfg).forEach(function (k) { delete cfg[k]; });
+      Object.assign(cfg, DEFAULTS); save(KEYS.cfg, cfg); fill(); fetchEcb(startDate()); settingsChanged();
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); return; }
+      if (Date.now() - state.alive > 3000) { reconnectNow(); pollOnce(); }
+      if (hiddenAt && Date.now() - hiddenAt > 60000) refreshHistory();
+    });
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { reconnectNow(); pollOnce(); refreshHistory(); } });
+  }
+  function refreshHistory() {
+    loadHourly().then(function () {
+      if (IV[state.iv].ticks) return;
+      var iv = state.iv;
+      return barsFor(iv).then(function (bars) {
+        if (state.iv !== iv) return;
+        var atEnd = chart && chart.timeScale().scrollPosition() > -2;
+        state.bars = bars; redraw(!atEnd);
+        if (atEnd) chart.timeScale().scrollToRealTime();
+      });
+    }).catch(function () { /* the next refresh tries again */ });
+  }
+  function start() {
+    bindUi();
+    buildRefs(); renderCompareOptions(); renderLabels();
+    initChart();
+    Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === state.iv)); });
+    renderStatus(); frame();
+    connect();
+    fetchEcb(startDate());
+    loadHourly().then(function () { return chooseInterval(state.iv); }).catch(function (e) {
+      showMsg('Kraken did not send the price history (' + e.message + '). Trying again in 30 seconds.');
+      setTimeout(retry, 30000);
+    });
+    setInterval(frame, 250);
+    setInterval(renderStatus, 1000);
+    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); } }, 2000);
+    setInterval(function () { if (state.histOk) { buildRefs(); renderCompareOptions(); } }, 60000);
+    setInterval(refreshHistory, 15 * 60000);
+    setInterval(function () {
+      var quiet = Date.now() - state.alive;
+      if (quiet > 20000) pollOnce();
+      if (quiet > 30000 && ws && ws.readyState === 1) reconnectNow();
+    }, 10000);
+    setInterval(function () {
+      var cut = Date.now() / 1000 - 12 * 3600;
+      ticks = ticks.filter(function (b) { return b.t >= cut; });
+      save(KEYS.ticks, ticks.map(function (b) { return [b.t, b.c]; }));
+      if (state.mid && state.via !== 'saved') save(KEYS.last, { mid: state.mid, bid: state.bid, ask: state.ask, at: state.at });
+    }, 15000);
+  }
+  function retry() {
+    loadHourly().then(function () { return chooseInterval(state.iv); }).catch(function () { setTimeout(retry, 30000); });
+  }
+  start();
+})();
+</script>
+</body>
+</html>
