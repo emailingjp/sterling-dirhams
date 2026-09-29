@@ -1,0 +1,183 @@
+{
+ "updated": "2026-09-29T09:48:49Z",
+ "headline": "Sterling's slide is mostly dollar strength. The dollar is near a two-month high because the US-Iran standoff is keeping oil prices up and markets now expect the Fed to raise rates again in October.",
+ "drivers": [
+  {
+   "title": "Oil and the US-Iran standoff",
+   "text": "The standoff with Iran is keeping oil prices high. Dearer oil feeds US inflation worries and draws safe-haven money into the dollar."
+  },
+  {
+   "title": "Fed rate expectations",
+   "text": "The Fed raised rates on 16 September, and markets put about a 65% chance on another quarter-point rise at its 28 October meeting. The dollar index was 101.14 on Tuesday morning, on course for a 1.7% gain in September, its biggest monthly gain since June."
+  },
+  {
+   "title": "US bond yields",
+   "text": "The US 10-year Treasury yield rose above 5.20% on Friday 25 September, its highest since 2007. Higher yields make holding dollars more rewarding."
+  },
+  {
+   "title": "The UK side",
+   "text": "UK 10-year gilt yields are near 5.40%, close to 19-year highs, and the CBI retail survey fell to minus 55 in September against minus 42 expected. The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise."
+  },
+  {
+   "title": "Where sterling stands",
+   "text": "GBP/USD touched a 12-week low near 1.3200 last week and has since steadied between about 1.3220 and 1.3260. Its low for 2026 is 1.3140, set in June."
+  }
+ ],
+ "lower": [
+  "US core inflation (PCE) on Wednesday at 16:30 Dubai, or Friday's payrolls at 16:30 Dubai, coming in above forecast, which would firm up an October Fed rise.",
+  "Further escalation with Iran or in the Gulf that lifts oil again.",
+  "Weak UK figures, or a cautious tone from Governor Bailey when he speaks on Thursday at 12:00 Dubai."
+ ],
+ "higher": [
+  "US inflation or jobs figures below forecast, which would cut the odds of an October Fed rise.",
+  "Progress towards a deal that reopens the Strait of Hormuz and brings oil prices down.",
+  "Signs that the Bank of England is moving towards a rise in November, after three members voted for one in September."
+ ],
+ "watch": "Friday's US jobs report at 16:30 Dubai is the week's biggest scheduled event for the dollar, and rates can move sharply in the minutes after it.",
+ "sources": [
+  {
+   "title": "Dollar steadies near two-month high",
+   "site": "Reuters, via Business Recorder",
+   "url": "https://www.brecorder.com/news/40441681/dollar-steadies-near-two-month-high",
+   "date": "29 Sep"
+  },
+  {
+   "title": "Pound to Dollar Rate Hits Three-Month Low on Bond Sell-Off",
+   "site": "Currency News UK",
+   "url": "https://www.currencynews.co.uk/forecast/20260927-47288_pound-to-dollar-rate-hits-three-month-low-on-bond-sell-off.html",
+   "date": "27 Sep"
+  },
+  {
+   "title": "Federal Reserve issues FOMC statement",
+   "site": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "date": "16 Sep"
+  },
+  {
+   "title": "Bank Rate maintained at 3.75%, September 2026 Monetary Policy Summary",
+   "site": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+   "date": "17 Sep"
+  }
+ ],
+ "calendar": [
+  {
+   "t": "2026-09-29T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US consumer confidence (Conference Board)",
+   "title": "CB Consumer Confidence",
+   "forecast": "89.2",
+   "previous": "89.4"
+  },
+  {
+   "t": "2026-09-29T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US job openings (JOLTS)",
+   "title": "JOLTS Job Openings",
+   "forecast": "7.23M",
+   "previous": "7.27M"
+  },
+  {
+   "t": "2026-09-30T12:15:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US private payrolls (ADP)",
+   "title": "ADP Non-Farm Employment Change",
+   "forecast": "73K",
+   "previous": "38K"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US core inflation (PCE), month on month",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US GDP, final estimate",
+   "title": "Final GDP q/q",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US GDP prices, final estimate",
+   "title": "Final GDP Price Index q/q",
+   "forecast": "6.4%",
+   "previous": "6.4%"
+  },
+  {
+   "t": "2026-10-01T08:00:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "Bank of England Governor Bailey speaks",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "t": "2026-10-01T12:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US weekly jobless claims",
+   "title": "Unemployment Claims",
+   "forecast": "201K",
+   "previous": "197K"
+  },
+  {
+   "t": "2026-10-01T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "Fed's Waller speaks",
+   "title": "FOMC Member Waller Speaks",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "t": "2026-10-01T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US factory survey (ISM)",
+   "title": "ISM Manufacturing PMI",
+   "forecast": "54.8",
+   "previous": "54.6"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US wages, month on month",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US jobs report: payrolls",
+   "title": "Non-Farm Employment Change",
+   "forecast": "90K",
+   "previous": "162K"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US unemployment rate",
+   "title": "Unemployment Rate",
+   "forecast": "4.1%",
+   "previous": "4.1%"
+  }
+ ],
+ "calendarUpdated": "2026-09-29T09:48:49Z"
+}
