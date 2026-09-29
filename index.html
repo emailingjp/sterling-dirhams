@@ -364,10 +364,10 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
   <section class="lower">
     <div class="days" id="days">
       <h2 id="daysTitle">Day by day since the start</h2>
-      <p class="note" id="daysNote">Each figure is the difference between dealing now and dealing at that moment, after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it.</p>
+      <p class="note" id="daysNote">Each figure is the difference between dealing now and dealing at that moment, after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.</p>
       <div class="table-wrap">
         <table>
-          <thead><tr><th scope="col">Day</th><th scope="col" id="colOpen">Open, 8am London</th><th scope="col" id="colClose">Close, 4pm London</th></tr></thead>
+          <thead><tr><th scope="col">Day</th><th scope="col" id="colOpen">8am London</th><th scope="col" id="colClose">4pm London</th></tr></thead>
           <tbody id="dayRows"><tr><td colspan="3" class="pending">Loading the history from Kraken.</td></tr></tbody>
         </table>
       </div>
@@ -1065,7 +1065,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
       : 'Tracked against ' + (s.ecb ? 'the ECB reference rate for ' + longDate(d) : s.approx ? 'Kraken\'s rate at 1pm London on ' + longDate(s.date) : 'your starting rate for ' + longDate(s.date)) + ', GBP/USD ' + s.usd + '. ';
     $('lede').textContent = basis + 'Every dirham figure is after the ' + pct() + ' dealing charge, with the sterling equivalent in brackets.';
     $('daysTitle').textContent = 'Day by day since ' + dayName(s.date);
-    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it.';
+    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.';
     $('axisLeft').textContent = 'Left scale: dirhams gained or lost on ' + gbpExact(cfg.amount) + ' against the comparison';
     $('marksBrought').textContent = amountShort() + ' brought';
     $('sinceLabel').textContent = 'Since ' + shortDay(s.date);
@@ -1168,8 +1168,8 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
   function renderDays() {
     if (!state.mid || !state.histOk) return;
     var now = Date.now() / 1000, rows = [], tp = lonParts(now);
-    $('colOpen').textContent = 'Open, 8am London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 8)) + ' Dubai)';
-    $('colClose').textContent = 'Close, 4pm London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 16)) + ' Dubai)';
+    $('colOpen').textContent = '8am London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 8)) + ' Dubai), as London opens';
+    $('colClose').textContent = '4pm London (' + dxbTime(londonToUtc(+tp.year, +tp.month, +tp.day, 16)) + ' Dubai), the benchmark time';
     londonDays().forEach(function (day) {
       var base = day.y + '-' + day.m + '-' + day.d + '-';
       rows.push('<tr><th scope="row">' + WD[day.wd] + ' ' + day.d + ' ' + MON[day.m - 1] + '</th>' +
