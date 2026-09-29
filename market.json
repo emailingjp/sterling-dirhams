@@ -1,14 +1,14 @@
 {
- "updated": "2026-09-29T09:48:49Z",
+ "updated": "2026-09-29T09:54:32Z",
  "headline": "Sterling's slide is mostly dollar strength. The dollar is near a two-month high because the US-Iran standoff is keeping oil prices up and markets now expect the Fed to raise rates again in October.",
  "drivers": [
   {
    "title": "Oil and the US-Iran standoff",
-   "text": "The standoff with Iran is keeping oil prices high. Dearer oil feeds US inflation worries and draws safe-haven money into the dollar."
+   "text": "On Monday the US rejected an Iranian offer that would have reopened the Strait of Hormuz, where the conflict has hampered oil and gas shipping, and Brent crude settled at $105.28 a barrel. Dearer oil feeds US inflation worries and draws safe-haven money into the dollar."
   },
   {
    "title": "Fed rate expectations",
-   "text": "The Fed raised rates on 16 September, and markets put about a 65% chance on another quarter-point rise at its 28 October meeting. The dollar index was 101.14 on Tuesday morning, on course for a 1.7% gain in September, its biggest monthly gain since June."
+   "text": "The Fed raised rates on 16 September, and markets put about a 65% chance on another quarter-point rise at its 28 October meeting; on Monday traders were almost fully pricing four quarter-point rises over the next 12 months. The dollar index was 101.14 on Tuesday morning, on course for a 1.7% gain in September, its biggest monthly gain since June."
   },
   {
    "title": "US bond yields",
@@ -40,6 +40,12 @@
    "site": "Reuters, via Business Recorder",
    "url": "https://www.brecorder.com/news/40441681/dollar-steadies-near-two-month-high",
    "date": "29 Sep"
+  },
+  {
+   "title": "Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build",
+   "site": "Reuters, via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-firms-us-iran-tensions-013542829.html",
+   "date": "28 Sep"
   },
   {
    "title": "Pound to Dollar Rate Hits Three-Month Low on Bond Sell-Off",
@@ -179,5 +185,5 @@
    "previous": "4.1%"
   }
  ],
- "calendarUpdated": "2026-09-29T09:48:49Z"
+ "calendarUpdated": "2026-09-29T09:54:32Z"
 }
