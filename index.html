@@ -236,6 +236,22 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
 .twoway li + li { margin-top: 5px; }
 .twoway .down h3 { color: var(--loss); }
 .twoway .up h3 { color: var(--gain); }
+.happened { list-style: none; margin: 6px 0 20px; padding: 0; display: grid; gap: 12px; }
+.happened li { padding: 11px 13px; background: var(--raised); border: 1px solid var(--rule); border-radius: 8px; }
+.happened .ev { font-weight: 680; }
+.happened .at { color: var(--ink-3); font-size: 13px; margin-left: 8px; white-space: nowrap; }
+.happened p { margin: 5px 0 0; font-size: 14.5px; }
+.happened .lbl { display: inline-block; min-width: 8.2em; color: var(--ink-3); font-size: 12.5px; font-weight: 620; letter-spacing: .02em; }
+.happened .measure { font-weight: 600; }
+.happened .measure.gain { color: var(--gain); }
+.happened .measure.loss { color: var(--loss); }
+.cal .good { display: block; margin-top: 3px; font-size: 13px; color: var(--ink-2); }
+.cal .good b { color: var(--gain); font-weight: 650; }
+.rules { margin-top: 30px; }
+.rules table { min-width: 620px; }
+.rules td { padding: 8px 12px 8px 0; font-size: 14px; }
+.rules td.up { color: var(--gain); font-weight: 620; }
+.rules td.down { color: var(--loss); font-weight: 620; }
 .watch { margin: 0 0 14px; padding: 10px 12px; background: var(--raised); border: 1px solid var(--rule); border-radius: 6px; font-size: 14.5px; }
 .srcs { margin: 0; padding-left: 1.1em; font-size: 13px; color: var(--ink-2); }
 .srcs li + li { margin-top: 3px; }
@@ -443,6 +459,25 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
         </table>
       </div>
     </section>
+    <section class="rules" aria-labelledby="rulesTitle">
+      <h3 id="rulesTitle">How news usually moves your rate</h3>
+      <p class="note">The dirham is pinned to the dollar, so your rate is GBP/USD in disguise. Anything that strengthens the dollar against the pound gives you fewer dirhams, and anything that strengthens the pound gives you more.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">If this happens</th><th scope="col">Because</th><th scope="col">Usual effect</th><th scope="col">Your dirhams</th></tr></thead>
+          <tbody>
+            <tr><td>US inflation or jobs figures stronger than forecast</td><td>Fed rises become more likely and US yields rise</td><td>Dollar stronger</td><td class="down">Fewer</td></tr>
+            <tr><td>US inflation or jobs figures weaker than forecast</td><td>Fed rises become less likely and US yields fall</td><td>Dollar weaker</td><td class="up">More</td></tr>
+            <tr><td>The Fed raises rates or signals more rises</td><td>Higher US rates make dollars more rewarding to hold</td><td>Dollar stronger</td><td class="down">Fewer</td></tr>
+            <tr><td>UK inflation, wages or growth stronger than forecast</td><td>A Bank of England rise becomes more likely</td><td>Pound stronger</td><td class="up">More</td></tr>
+            <tr><td>The Bank of England raises rates or signals a rise</td><td>Higher UK rates make pounds more rewarding to hold</td><td>Pound stronger</td><td class="up">More</td></tr>
+            <tr><td>Oil jumps or tension in the Gulf rises</td><td>Inflation worries and safe-haven buying of dollars</td><td>Dollar stronger</td><td class="down">Fewer</td></tr>
+            <tr><td>Oil eases or tension calms</td><td>Less demand for dollars as a safe haven</td><td>Dollar weaker</td><td class="up">More</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:10px">These are the usual first reactions. A result the market already expected may move the rate very little, and two pieces of news on the same day can pull in opposite directions.</p>
+    </section>
   </section>
 
   <footer class="sources">
@@ -496,7 +531,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     cmp: load(KEYS.cmp, 'start'),
     refs: new Map(), refOrder: [],
     dir: 0, hovering: false, dirty: false, histOk: false,
-    daily: null, market: null, marketAt: 0
+    daily: null, market: null, marketAt: 0, minute: [], minuteIdx: null
   };
   var cross = {
     'EUR/USD': { pair: 'EURUSD', mid: null, hourly: [], idx: new Map() },
@@ -754,6 +789,32 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
       var c = cross[sym];
       return ohlc(c.pair, 60).then(function (b) { c.hourly = b; c.idx = new Map(b.map(function (x, i) { return [x.t, i]; })); });
     })).then(function () { state.dirty = true; renderGauges(); }).catch(function () { /* the gauge waits for the next refresh */ });
+  }
+  function loadMinutes() {
+    return ohlc('GBPUSD', 1).then(function (b) {
+      state.minute = b; state.minuteIdx = new Map(b.map(function (x, i) { return [x.t, i]; }));
+      renderMeasures();
+    }).catch(function () { /* the reactions show once the prices load */ });
+  }
+  /* The move in GBP/USD around a piece of news: the close a minute before, and fifteen minutes after.
+     Older news, beyond Kraken's twelve hours of minute prices, is measured across its hour instead. */
+  function reaction(t) {
+    var mi = state.minuteIdx, h = state.hourIdx, m0 = Math.floor(t / 60) * 60;
+    if (mi && mi.has(m0 - 60) && mi.has(m0 + 15 * 60)) {
+      return { before: state.minute[mi.get(m0 - 60)].c, after: state.minute[mi.get(m0 + 15 * 60)].c, from: 'a minute before', span: 'fifteen minutes after' };
+    }
+    var h0 = Math.floor(t / 3600) * 3600;
+    if (h.has(h0) && h.has(h0 - 3600)) return { before: state.hourly[h.get(h0 - 3600)].c, after: state.hourly[h.get(h0)].c, from: 'at the start of that hour', span: 'at the end of it' };
+    return null;
+  }
+  function renderMeasures() {
+    Array.prototype.forEach.call(document.querySelectorAll('.measure[data-t]'), function (el) {
+      var t = +el.dataset.t, r = reaction(t);
+      if (!r || Date.now() / 1000 < t + 60) { el.textContent = ''; return; }
+      var d = diffVs(r.after, r.before);
+      el.className = 'measure ' + (d > 0 ? 'gain' : d < 0 ? 'loss' : '');
+      el.innerHTML = '<span class="lbl">Measured</span>GBP/USD ' + r.before.toFixed(4) + ' ' + r.from + ', ' + r.after.toFixed(4) + ' ' + r.span + ' (' + pctSigned(r.after / r.before - 1) + '). On your ' + gbpExact(cfg.amount) + ' that is ' + withGbpSigned(d) + '.';
+    });
   }
   function loadDaily() {
     return ohlc('GBPUSD', 1440).then(function (b) {
@@ -1123,7 +1184,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     if (!pick) { $('next').textContent = state.market ? 'Nothing major listed' : 'Loading'; $('nextSub').textContent = state.market ? 'No further US or UK events are listed for this week.' : ''; return; }
     var tt = Date.parse(pick.t) / 1000;
     $('next').textContent = pick.name;
-    $('nextSub').innerHTML = '<b>' + dxbWhen(tt) + ' Dubai</b>, in ' + inWords(tt - now) + '. ' + (pick.forecast ? 'Forecast ' + esc(pick.forecast) + ', previous ' + esc(pick.previous || 'n/a') + '.' : '');
+    $('nextSub').innerHTML = '<b>' + dxbWhen(tt) + ' Dubai</b>, in ' + inWords(tt - now) + '. ' + (pick.forecast ? 'Forecast ' + esc(pick.forecast) + ', previous ' + esc(pick.previous || 'n/a') + '. ' : '') + (pick.good ? 'Helps you if ' + esc(pick.good.charAt(0).toLowerCase() + pick.good.slice(1)) + '.' : '');
   }
   function renderHeadline() {
     var h = $('headline'), stripe = $('stripe'), ref = state.refs.get('start'), shut = !isFxOpen(Date.now() / 1000);
@@ -1282,6 +1343,16 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     var upd = Date.parse(m.updated) / 1000, age = (Date.now() / 1000 - upd) / 3600;
     var html = '<p class="stamp' + (age > 12 ? ' old' : '') + '">Market notes, updated ' + dxbWhen(upd) + ' Dubai' + (age > 12 ? ', ' + Math.round(age) + ' hours ago' : '') + '.</p>';
     if (m.headline) html += '<p class="lead-note">' + esc(m.headline) + '</p>';
+    if (m.happened && m.happened.length) {
+      html += '<h3>What moved the rate: cause and effect</h3><ol class="happened">' + m.happened.map(function (h) {
+        var t = h.when ? Date.parse(h.when) / 1000 : null;
+        return '<li><div><span class="ev">' + esc(h.event) + '</span>' + (t ? '<span class="at">' + dxbWhen(t) + ' Dubai</span>' : '') + '</div>' +
+          '<p><span class="lbl">Result</span>' + esc(h.result) + '</p>' +
+          '<p><span class="lbl">Why it matters</span>' + esc(h.why) + '</p>' +
+          (h.effect ? '<p><span class="lbl">What the rate did</span>' + esc(h.effect) + '</p>' : '') +
+          (t ? '<p class="measure" data-t="' + t + '"></p>' : '') + '</li>';
+      }).join('') + '</ol>';
+    }
     if (m.drivers && m.drivers.length) html += '<ul class="drivers">' + m.drivers.map(function (d) { return '<li><b>' + esc(d.title) + '</b><span>' + esc(d.text) + '</span></li>'; }).join('') + '</ul>';
     if ((m.lower && m.lower.length) || (m.higher && m.higher.length)) {
       html += '<div class="twoway">' +
@@ -1292,6 +1363,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     if (m.watch) html += '<p class="watch">' + esc(m.watch) + '</p>';
     if (m.sources && m.sources.length) html += '<h3>Sources</h3><ol class="srcs">' + m.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>, ' + esc(s.site) + (s.date ? ', ' + esc(s.date) : '') + '</li>'; }).join('') + '</ol>';
     el.innerHTML = html;
+    renderMeasures();
   }
   function renderCalendar() {
     var m = state.market, body = $('calRows');
@@ -1302,7 +1374,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
       if (t < now - 12 * 3600) return;
       var past = t < now, soon = !past && !nextSet;
       if (soon) nextSet = true;
-      rows.push('<tr class="' + (past ? 'past' : soon ? 'soon' : '') + '"><td class="when">' + dxbDay(t) + ', ' + dxbTime(t) + '</td><td><span class="chip">' + esc(e.ccy === 'GBP' ? 'UK' : e.ccy === 'USD' ? 'US' : e.ccy) + '</span>' + (e.impact === 'High' ? '<span class="chip high">High</span>' : '') + esc(e.name) + (past ? ' (out)' : '') + '</td><td>' + esc(e.forecast || '') + '</td><td>' + esc(e.previous || '') + '</td></tr>');
+      rows.push('<tr class="' + (past ? 'past' : soon ? 'soon' : '') + '"><td class="when">' + dxbDay(t) + ', ' + dxbTime(t) + '</td><td><span class="chip">' + esc(e.ccy === 'GBP' ? 'UK' : e.ccy === 'USD' ? 'US' : e.ccy) + '</span>' + (e.impact === 'High' ? '<span class="chip high">High</span>' : '') + esc(e.name) + (past ? ' (out)' : '') + (e.good ? '<span class="good">Helps you if: <b>' + esc(e.good.charAt(0).toLowerCase() + e.good.slice(1)) + '</b>. ' + esc(e.why || '') + '</span>' : '') + '</td><td>' + esc(e.forecast || '') + '</td><td>' + esc(e.previous || '') + '</td></tr>');
     });
     body.innerHTML = rows.length ? rows.join('') : '<tr><td colspan="4" class="pending">No further US or UK events are listed for this week.</td></tr>';
     var cu = m.calendarUpdated ? Date.parse(m.calendarUpdated) / 1000 : 0;
@@ -1413,7 +1485,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); return; }
       if (Date.now() - state.alive > 3000) { reconnectNow(); pollOnce(); }
-      if (hiddenAt && Date.now() - hiddenAt > 60000) { refreshHistory(); loadMarket(); }
+      if (hiddenAt && Date.now() - hiddenAt > 60000) { refreshHistory(); loadMarket(); loadMinutes(); }
     });
     window.addEventListener('pageshow', function (e) { if (e.persisted) { reconnectNow(); pollOnce(); refreshHistory(); loadMarket(); } });
   }
@@ -1438,7 +1510,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     renderStatus(); frame();
     connect();
     fetchEcb(startDate());
-    loadMarket(); loadCrosses(); loadDaily(); pollOnce();
+    loadMarket(); loadCrosses(); loadDaily(); loadMinutes(); pollOnce();
     loadHourly().then(function () { return chooseInterval(state.iv); }).catch(function (e) {
       showMsg('Kraken did not send the price history (' + e.message + '). Trying again in 30 seconds.');
       setTimeout(retry, 30000);
@@ -1448,7 +1520,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); } }, 2000);
     setInterval(function () { if (state.histOk) { buildRefs(); renderCompareOptions(); } renderCalendar(); }, 60000);
     setInterval(loadMarket, 10 * 60000);
-    setInterval(function () { loadCrosses(); }, 15 * 60000);
+    setInterval(function () { loadCrosses(); loadMinutes(); }, 15 * 60000);
     setInterval(function () { loadDaily(); }, 60 * 60000);
     setInterval(refreshHistory, 15 * 60000);
     setInterval(function () {
