@@ -1,44 +1,68 @@
 {
- "updated": "2026-09-30T08:40:40Z",
- "headline": "Sterling is holding just above $1.32, near a three-month low, ahead of US core inflation (PCE) at 16:30 Dubai today. The dollar is on course for a gain of about 2% in September. UK growth for the second quarter was revised up to 0.5%.",
+ "updated": "2026-09-30T12:58:53Z",
+ "headline": "Sterling has risen about half a per cent against the dollar today. Better UK growth figures and easing oil lifted it through the morning, and cooler US inflation at 16:30 Dubai added a quick jump, because it makes another Fed rise less likely.",
+ "happened": [
+  {
+   "when": "2026-09-30T12:30:00Z",
+   "event": "US inflation (PCE) for August",
+   "result": "Core prices rose 0.2% in the month against 0.3% expected, and 3.0% on the year against 3.3%. Headline prices rose 0.3% against 0.4% expected, and 3.4% on the year against 3.7%.",
+   "why": "Cooler US inflation makes another Fed rate rise less likely, which lowers US yields and weakens the dollar, so each pound buys more dirhams.",
+   "effect": "GBP/USD jumped from 1.3285 to 1.3304 within two minutes, then eased back to about 1.3290 within half an hour."
+  },
+  {
+   "when": "2026-09-30T06:00:00Z",
+   "event": "UK growth revised up",
+   "result": "The ONS revised growth in April to June to 0.5% from its first estimate of 0.4%.",
+   "why": "A stronger UK economy makes a Bank of England rate rise more likely, which lifts the pound.",
+   "effect": "GBP/USD rose from 1.3247 to 1.3257 within two minutes, and sterling led the major currencies against the dollar through the European morning."
+  },
+  {
+   "event": "Oil supply eases",
+   "result": "Saudi Arabia resumed tanker loadings at its Red Sea port of Yanbu after restarting the East-West pipeline, and the US offered up to 40 million barrels from its strategic reserve. Brent was near $103 (about £77.50) a barrel.",
+   "why": "Cheaper oil eases US inflation worries and the demand for dollars as a safe haven, which softens the dollar.",
+   "effect": "US 10-year yields slipped to about 5.24%, and the dollar was mixed to softer before the US figures."
+  }
+ ],
  "drivers": [
   {
-   "title": "US inflation today",
-   "text": "August core PCE, the Fed's preferred inflation measure, is due at 16:30 Dubai. Forecasts are 0.3% on the month, up from 0.2% in July, and 3.3% to 3.4% on the year. US private payrolls (ADP) come out at 16:15 Dubai."
+   "title": "Fed rate expectations",
+   "text": "Before today's figures, markets put about a 65% chance on another quarter-point Fed rise at the 28 October meeting. Cooler inflation weakens the case for one, and Friday's jobs report is the next test."
   },
   {
-   "title": "Fed pricing",
-   "text": "The Fed raised its range to 3.75% to 4.00% on 16 September. Estimates of the chance of another rise on 28 October range from about half to about 70%. They fell on Tuesday after the New York Fed's John Williams said he saw no urgency."
+   "title": "Oil and the Middle East",
+   "text": "The US-Iran standoff over the Strait of Hormuz continues. Saudi Arabia's pipeline restart and the US offer of reserve oil have eased supply worries for now."
   },
   {
-   "title": "The dollar",
-   "text": "The dollar index was about 101.4 on Wednesday morning. It is set for a gain of about 2% in September."
+   "title": "US bond yields",
+   "text": "The US 10-year yield was about 5.24% on Wednesday morning, down slightly on the day but near its highest since 2007. High US yields keep the dollar attractive to hold."
   },
   {
    "title": "The UK side",
-   "text": "The ONS revised second quarter growth up to 0.5% from 0.4%, and business investment rose 1.8% in the quarter. Markets put more than an 80% chance on a Bank of England rise in November. Bank Rate is 3.75%, and 10-year gilt yields are about 5.35%, near 19-year highs."
-  },
-  {
-   "title": "Oil and the Gulf",
-   "text": "Brent rose about 1% to $103.73 a barrel early on Wednesday, after President Trump denied a report that he would ease sanctions on Iran. Qatar says it is passing messages between Iran and the US. Brent is heading for a gain of about 14% in September."
+   "text": "UK growth in April to June was revised up to 0.5%. The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and Governor Bailey speaks on Thursday at 12:00 Dubai."
   },
   {
    "title": "Where sterling stands",
-   "text": "GBP/USD was about 1.3224 to 1.3268 on Wednesday, down about 2.4% over the month. Its low for 2026 is 1.3140, set in June."
+   "text": "GBP/USD is back near 1.3290, up from a 12-week low near 1.3200 last week. The dollar index was on course for a 1.7% gain in September, its biggest monthly gain since June."
   }
  ],
  "lower": [
-  "Core PCE today, or Friday's payrolls, coming in above forecast, which would revive bets on an October Fed rise.",
-  "A breakdown in US-Iran contacts or new attacks on Gulf shipping that lift oil again.",
-  "A cautious tone from Governor Bailey when he speaks on Thursday at 12:00 Dubai."
+  "US jobs figures on Friday stronger than the 90K forecast, or wages rising faster than 0.3%, which would make an October Fed rise more likely and strengthen the dollar.",
+  "Renewed escalation with Iran or in the Gulf that lifts oil again, which tends to strengthen the dollar.",
+  "A cautious tone on rates from Governor Bailey on Thursday, which would weaken the pound."
  ],
  "higher": [
-  "US inflation or jobs figures below forecast, which would push expected Fed rises further out.",
-  "Progress in the talks Qatar is brokering, or further recovery in Gulf oil exports, bringing oil prices down.",
-  "Firmer signals that the Bank of England will raise rates in November."
+  "US jobs figures weaker than the 90K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
+  "Oil easing further as Gulf supply recovers, which reduces the demand for dollars.",
+  "A firm tone on rates from Governor Bailey, which would support the pound."
  ],
- "watch": "US core inflation (PCE) at 16:30 Dubai today, Governor Bailey on Thursday at 12:00 Dubai, then Friday's US jobs report at 16:30 Dubai.",
+ "watch": "Friday's US jobs report at 16:30 Dubai: 90K new jobs and unemployment at 4.1% are forecast. Weaker figures would help someone selling pounds for dirhams, and stronger figures would hurt.",
  "sources": [
+  {
+   "title": "August PCE: Fed's favored inflation gauge rose less than expected",
+   "site": "Fox Business",
+   "url": "https://www.foxbusiness.com/economy/august-2026-pce-inflation",
+   "date": "30 Sep"
+  },
   {
    "title": "GDP quarterly national accounts, UK: April to June 2026",
    "site": "Office for National Statistics",
@@ -46,40 +70,28 @@
    "date": "30 Sep"
   },
   {
-   "title": "Oil climbs after Trump denies he is willing to ease sanctions on Iran",
-   "site": "Reuters, via CNBC",
-   "url": "https://www.cnbc.com/2026/09/30/oil-climbs-after-trump-denies-he-is-willing-to-ease-sanctions-on-iran.html",
+   "title": "Morning Kickstart: Dollar mixed as yields ease and oil supply improves",
+   "site": "investingLive",
+   "url": "https://investinglive.com/technical-analysis/morning-kickstart-dollar-mixed-as-yields-ease-and-oil-supply-improves/",
    "date": "30 Sep"
   },
   {
-   "title": "US Dollar Price Forecast: Dollar holds firm as Fed bets ease",
-   "site": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/us-dollar-price-forecast-dollar-holds-firm-as-fed-bets-ease-eur-usd-and-gbp-usd-struggle-1633258",
-   "date": "30 Sep"
-  },
-  {
-   "title": "US Core PCE Preview: Stale or significant for the Fed?",
-   "site": "StoneX",
-   "url": "https://www.stonex.com/en-gb/news-and-analysis/us-core-pce-preview-stale-or-significant-for-the-fed/",
+   "title": "Dollar steadies near two-month high",
+   "site": "Reuters, via Business Recorder",
+   "url": "https://www.brecorder.com/news/40441681/dollar-steadies-near-two-month-high",
    "date": "29 Sep"
   },
   {
-   "title": "Fed's Williams sees no urgency for next Fed rate hike",
-   "site": "Reuters, via AOL",
-   "url": "https://www.aol.com/articles/feds-williams-sees-no-urgency-180056000.html",
-   "date": "29 Sep"
-  },
-  {
-   "title": "British pound",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "30 Sep"
+   "title": "Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build",
+   "site": "Reuters, via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-firms-us-iran-tensions-013542829.html",
+   "date": "28 Sep"
   },
   {
    "title": "Bank Rate maintained at 3.75%, September 2026 Monetary Policy Summary",
    "site": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
-   "date": "Sep"
+   "date": "17 Sep"
   }
  ],
  "calendar": [
@@ -90,7 +102,9 @@
    "name": "US consumer confidence (Conference Board)",
    "title": "CB Consumer Confidence",
    "forecast": "89.2",
-   "previous": "89.4"
+   "previous": "89.4",
+   "good": "Lower than 89.2",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-09-29T14:00:00Z",
@@ -99,7 +113,9 @@
    "name": "US job openings (JOLTS)",
    "title": "JOLTS Job Openings",
    "forecast": "7.23M",
-   "previous": "7.27M"
+   "previous": "7.27M",
+   "good": "Lower than 7.23M",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-09-30T12:15:00Z",
@@ -108,7 +124,9 @@
    "name": "US private payrolls (ADP)",
    "title": "ADP Non-Farm Employment Change",
    "forecast": "73K",
-   "previous": "38K"
+   "previous": "38K",
+   "good": "Lower than 73K",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-09-30T12:30:00Z",
@@ -117,7 +135,9 @@
    "name": "US core inflation (PCE), month on month",
    "title": "Core PCE Price Index m/m",
    "forecast": "0.3%",
-   "previous": "0.2%"
+   "previous": "0.2%",
+   "good": "Lower than 0.3%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-09-30T12:30:00Z",
@@ -126,7 +146,9 @@
    "name": "US GDP, final estimate",
    "title": "Final GDP q/q",
    "forecast": "1.5%",
-   "previous": "1.5%"
+   "previous": "1.5%",
+   "good": "Lower than 1.5%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-09-30T12:30:00Z",
@@ -135,7 +157,31 @@
    "name": "US GDP prices, final estimate",
    "title": "Final GDP Price Index q/q",
    "forecast": "6.4%",
-   "previous": "6.4%"
+   "previous": "6.4%",
+   "good": "Lower than 6.4%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-09-30T19:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: President Trump Speaks",
+   "title": "President Trump Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-09-30T22:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "Fed's Kashkari speaks",
+   "title": "FOMC Member Kashkari Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-01T08:00:00Z",
@@ -144,7 +190,9 @@
    "name": "Bank of England Governor Bailey speaks",
    "title": "BOE Gov Bailey Speaks",
    "forecast": "",
-   "previous": ""
+   "previous": "",
+   "good": "A firm tone on rates",
+   "why": "Talk of Bank of England rises lifts the pound."
   },
   {
    "t": "2026-10-01T12:30:00Z",
@@ -153,7 +201,9 @@
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
    "forecast": "201K",
-   "previous": "197K"
+   "previous": "197K",
+   "good": "Higher than 201K",
+   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-01T14:00:00Z",
@@ -162,7 +212,9 @@
    "name": "Fed's Waller speaks",
    "title": "FOMC Member Waller Speaks",
    "forecast": "",
-   "previous": ""
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-01T14:00:00Z",
@@ -171,7 +223,9 @@
    "name": "US factory survey (ISM)",
    "title": "ISM Manufacturing PMI",
    "forecast": "54.8",
-   "previous": "54.6"
+   "previous": "54.6",
+   "good": "Lower than 54.8",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-02T12:30:00Z",
@@ -180,7 +234,9 @@
    "name": "US wages, month on month",
    "title": "Average Hourly Earnings m/m",
    "forecast": "0.3%",
-   "previous": "0.3%"
+   "previous": "0.3%",
+   "good": "Lower than 0.3%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-02T12:30:00Z",
@@ -189,7 +245,9 @@
    "name": "US jobs report: payrolls",
    "title": "Non-Farm Employment Change",
    "forecast": "90K",
-   "previous": "162K"
+   "previous": "162K",
+   "good": "Lower than 90K",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
    "t": "2026-10-02T12:30:00Z",
@@ -198,8 +256,10 @@
    "name": "US unemployment rate",
    "title": "Unemployment Rate",
    "forecast": "4.1%",
-   "previous": "4.1%"
+   "previous": "4.1%",
+   "good": "Higher than 4.1%",
+   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-09-30T03:40:52Z"
+ "calendarUpdated": "2026-09-30T12:58:53Z"
 }
