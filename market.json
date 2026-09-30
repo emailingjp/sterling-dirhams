@@ -1,63 +1,69 @@
 {
- "updated": "2026-09-29T09:54:45Z",
- "headline": "Sterling's slide is mostly dollar strength. The dollar is near a two-month high because the US-Iran standoff is keeping oil prices up and markets now expect the Fed to raise rates again in October.",
+ "updated": "2026-09-30T03:40:52Z",
+ "headline": "Sterling is holding near $1.32, close to a three-month low, as the dollar heads for a gain of about 2% in September. Fed officials still expect another rate rise, but the New York Fed's John Williams said there is no urgency, and traders trimmed bets on October.",
  "drivers": [
   {
-   "title": "Oil and the US-Iran standoff",
-   "text": "On Monday the US rejected an Iranian offer that would have reopened the Strait of Hormuz, where the conflict has hampered oil and gas shipping, and Brent crude settled at $105.28 (about £79.60) a barrel. Dearer oil feeds US inflation worries and draws safe-haven money into the dollar."
+   "title": "Fed speakers on Tuesday",
+   "text": "Governor Michael Barr said further rate rises are likely needed, and Chicago Fed President Austan Goolsbee called five and a half years of inflation above target playing with fire. John Williams said one more rise may be appropriate late this year, with no need for urgency. Reuters reported that traders reduced bets on an October rise after his remarks and shifted towards December."
   },
   {
-   "title": "Fed rate expectations",
-   "text": "The Fed raised rates on 16 September, and markets put about a 65% chance on another quarter-point rise at its 28 October meeting; on Monday traders were almost fully pricing four quarter-point rises over the next 12 months. The dollar index was 101.14 on Tuesday morning, on course for a 1.7% gain in September, its biggest monthly gain since June."
+   "title": "The dollar",
+   "text": "The dollar index was around 101.4 on Wednesday morning, on course for a gain of about 2% in September. Markets are pricing close to one percentage point of further Fed rises over the next 12 months. The Fed raised its range to 3.75% to 4.00% on 16 September."
   },
   {
-   "title": "US bond yields",
-   "text": "The US 10-year Treasury yield rose above 5.20% on Friday 25 September, its highest since 2007. Higher yields make holding dollars more rewarding."
+   "title": "Oil and the Gulf",
+   "text": "Brent crude fell 2.6% on Tuesday to settle at $102.59 (about £77.55) a barrel, as Saudi exports from its Red Sea ports recovered after an attack on a pipeline earlier this month. Flows through the Strait of Hormuz are about 77% of pre-war levels, and US-Iran talks on reopening it remain stalled."
   },
   {
    "title": "The UK side",
-   "text": "UK 10-year gilt yields are near 5.40%, close to 19-year highs, and the CBI retail survey fell to minus 55 in September against minus 42 expected. The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise."
+   "text": "UK 10-year gilt yields are about 5.42%, near 19-year highs. Markets put more than an 80% chance on a Bank of England rise in November, after three of nine members voted for one in September. Bank Rate is 3.75%."
   },
   {
    "title": "Where sterling stands",
-   "text": "GBP/USD touched a 12-week low near 1.3200 last week and has since steadied between about 1.3220 and 1.3260. Its low for 2026 is 1.3140, set in June."
+   "text": "GBP/USD was about 1.3228 early on Wednesday, down about 2.4% over the month. Its low for 2026 is 1.3140, set in June."
   }
  ],
  "lower": [
-  "US core inflation (PCE) on Wednesday at 16:30 Dubai, or Friday's payrolls at 16:30 Dubai, coming in above forecast, which would firm up an October Fed rise.",
-  "Further escalation with Iran or in the Gulf that lifts oil again.",
-  "Weak UK figures, or a cautious tone from Governor Bailey when he speaks on Thursday at 12:00 Dubai."
+  "US core inflation (PCE) on Wednesday at 16:30 Dubai, or Friday's payrolls at 16:30 Dubai, coming in above forecast, which would revive bets on an October Fed rise.",
+  "A breakdown in US-Iran talks or new attacks on Gulf shipping that lift oil again.",
+  "A cautious tone from Governor Bailey when he speaks on Thursday at 12:00 Dubai, or weak UK figures."
  ],
  "higher": [
-  "US inflation or jobs figures below forecast, which would cut the odds of an October Fed rise.",
-  "Progress towards a deal that reopens the Strait of Hormuz and brings oil prices down.",
-  "Signs that the Bank of England is moving towards a rise in November, after three members voted for one in September."
+  "US inflation or jobs figures below forecast, which would push expected Fed rises further out.",
+  "Further recovery in Gulf oil exports, or progress towards reopening the Strait of Hormuz, bringing oil prices down.",
+  "Firmer signals that the Bank of England will raise rates in November."
  ],
- "watch": "Friday's US jobs report at 16:30 Dubai is the week's biggest scheduled event for the dollar, and rates can move sharply in the minutes after it.",
+ "watch": "Wednesday's US core inflation (PCE) at 16:30 Dubai, then Friday's US jobs report at the same time. Both are high-impact releases for the dollar.",
  "sources": [
   {
-   "title": "Dollar steadies near two-month high",
-   "site": "Reuters, via Business Recorder",
-   "url": "https://www.brecorder.com/news/40441681/dollar-steadies-near-two-month-high",
+   "title": "Fed's Williams sees no urgency for next Fed rate hike",
+   "site": "Reuters, via AOL",
+   "url": "https://www.aol.com/articles/feds-williams-sees-no-urgency-180056000.html",
    "date": "29 Sep"
   },
   {
-   "title": "Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build",
-   "site": "Reuters, via Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-firms-us-iran-tensions-013542829.html",
-   "date": "28 Sep"
+   "title": "Fed officials lean hawkish, though Williams sees no urgency for another hike",
+   "site": "investingLive",
+   "url": "https://investinglive.com/central-banks/fed-officials-lean-hawkish-though-williams-sees-no-urgency-for-another-hike/",
+   "date": "29 Sep"
   },
   {
-   "title": "Pound to Dollar Rate Hits Three-Month Low on Bond Sell-Off",
-   "site": "Currency News UK",
-   "url": "https://www.currencynews.co.uk/forecast/20260927-47288_pound-to-dollar-rate-hits-three-month-low-on-bond-sell-off.html",
-   "date": "27 Sep"
+   "title": "Oil prices fall as crude exports recover at Saudi Arabia's Red Sea ports",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html",
+   "date": "29 Sep"
   },
   {
-   "title": "Federal Reserve issues FOMC statement",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-   "date": "16 Sep"
+   "title": "Dollar set for strong monthly advance",
+   "site": "InstaForex",
+   "url": "https://www.instaforex.com/forex-news/3194965",
+   "date": "30 Sep"
+  },
+  {
+   "title": "British pound",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "30 Sep"
   },
   {
    "title": "Bank Rate maintained at 3.75%, September 2026 Monetary Policy Summary",
@@ -185,5 +191,5 @@
    "previous": "4.1%"
   }
  ],
- "calendarUpdated": "2026-09-29T09:54:45Z"
+ "calendarUpdated": "2026-09-30T03:40:52Z"
 }
