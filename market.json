@@ -1,32 +1,9 @@
 {
- "updated": "2026-09-30T12:58:53Z",
- "headline": "Sterling has risen about half a per cent against the dollar today. Better UK growth figures and easing oil lifted it through the morning, and cooler US inflation at 16:30 Dubai added a quick jump, because it makes another Fed rise less likely.",
- "happened": [
-  {
-   "when": "2026-09-30T12:30:00Z",
-   "event": "US inflation (PCE) for August",
-   "result": "Core prices rose 0.2% in the month against 0.3% expected, and 3.0% on the year against 3.3%. Headline prices rose 0.3% against 0.4% expected, and 3.4% on the year against 3.7%.",
-   "why": "Cooler US inflation makes another Fed rate rise less likely, which lowers US yields and weakens the dollar, so each pound buys more dirhams.",
-   "effect": "GBP/USD jumped from 1.3285 to 1.3304 within two minutes, then eased back to about 1.3290 within half an hour."
-  },
-  {
-   "when": "2026-09-30T06:00:00Z",
-   "event": "UK growth revised up",
-   "result": "The ONS revised growth in April to June to 0.5% from its first estimate of 0.4%.",
-   "why": "A stronger UK economy makes a Bank of England rate rise more likely, which lifts the pound.",
-   "effect": "GBP/USD rose from 1.3247 to 1.3257 within two minutes, and sterling led the major currencies against the dollar through the European morning."
-  },
-  {
-   "event": "Oil supply eases",
-   "result": "Saudi Arabia resumed tanker loadings at its Red Sea port of Yanbu after restarting the East-West pipeline, and the US offered up to 40 million barrels from its strategic reserve. Brent was near $103 (about £77.50) a barrel.",
-   "why": "Cheaper oil eases US inflation worries and the demand for dollars as a safe haven, which softens the dollar.",
-   "effect": "US 10-year yields slipped to about 5.24%, and the dollar was mixed to softer before the US figures."
-  }
- ],
+ "updated": "2026-09-30T13:40:39Z",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "Before today's figures, markets put about a 65% chance on another quarter-point Fed rise at the 28 October meeting. Cooler inflation weakens the case for one, and Friday's jobs report is the next test."
+   "text": "Before today's figures, markets put about a 65% chance on another quarter-point Fed rise at the 28 October meeting. Cooler inflation weakens the case for one, while stronger growth and private hiring support it, and Friday's jobs report is the next test."
   },
   {
    "title": "Oil and the Middle East",
@@ -42,7 +19,7 @@
   },
   {
    "title": "Where sterling stands",
-   "text": "GBP/USD is back near 1.3290, up from a 12-week low near 1.3200 last week. The dollar index was on course for a 1.7% gain in September, its biggest monthly gain since June."
+   "text": "GBP/USD is near 1.3282 at 17:40 Dubai, up from about 1.3228 at the start of the day and from a 12-week low near 1.3200 last week. The dollar index was on course for a 1.7% gain in September, its biggest monthly gain since June. Today is the last trading day of the quarter, and portfolio rebalancing can add to swings around the 17:00 London fix (20:00 Dubai), though it gives no reliable direction."
   }
  ],
  "lower": [
@@ -57,6 +34,24 @@
  ],
  "watch": "Friday's US jobs report at 16:30 Dubai: 90K new jobs and unemployment at 4.1% are forecast. Weaker figures would help someone selling pounds for dirhams, and stronger figures would hurt.",
  "sources": [
+  {
+   "title": "US GDP final for Q2 2.2% vs 1.5% estimate",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/us-gdp-final-for-q2-2-2-vs-1-5-estimate/",
+   "date": "30 Sep"
+  },
+  {
+   "title": "US ADP national employment +90K vs +70K expected",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/us-adp-national-employment-vs-70k-expected/",
+   "date": "30 Sep"
+  },
+  {
+   "title": "European session wrap: equities retreat as oil rebounds and bond yields stay elevated",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-european-session-wrap-equities-retreat-as-oil-rebounds-and-bond-yields-stay-elevated/",
+   "date": "30 Sep"
+  },
   {
    "title": "August PCE: Fed's favored inflation gauge rose less than expected",
    "site": "Fox Business",
@@ -92,6 +87,49 @@
    "site": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
    "date": "17 Sep"
+  }
+ ],
+ "headline": "Sterling is up about 0.4% against the dollar today, helped by better UK growth figures, easier oil and cooler US inflation at 16:30 Dubai. It has since given back the jump that followed the US inflation figures, as stronger US growth and hiring figures released alongside them tempered the dollar's fall.",
+ "happened": [
+  {
+   "when": "2026-09-30T12:30:00Z",
+   "event": "US inflation (PCE) for August",
+   "result": "Core prices rose 0.2% in the month against 0.3% expected, and 3.0% on the year against 3.3%. Headline prices rose 0.3% against 0.4% expected, and 3.4% on the year against 3.7%.",
+   "why": "Cooler US inflation makes another Fed rate rise less likely, which lowers US yields and weakens the dollar, so each pound buys more dirhams.",
+   "effect": "GBP/USD jumped from 1.3285 to 1.3308 within two minutes, then drifted back to about 1.3282 by 17:40 Dubai, giving up the gain."
+  },
+  {
+   "when": "2026-09-30T12:30:00Z",
+   "event": "US growth for April to June, final estimate",
+   "result": "The US economy grew at an annual rate of 2.2%, against 1.5% in the earlier estimate and 1.5% expected.",
+   "why": "Stronger US growth supports the case for higher US rates, which tends to strengthen the dollar and so means fewer dirhams per pound.",
+   "effect": "It came out at the same moment as the cooler inflation figures, which dominated the first reaction; the stronger growth figure is one reason the dollar recovered through the afternoon."
+  },
+  {
+   "when": "2026-09-30T12:15:00Z",
+   "event": "US private payrolls (ADP), September",
+   "result": "Private employers added 90,000 jobs against 70,000 expected, after 38,000 in August. Pay growth held at 3.2% on the year.",
+   "why": "Firmer US hiring makes another Fed rise a little more likely, which tends to strengthen the dollar and so means fewer dirhams per pound.",
+   "effect": "GBP/USD dipped from 1.3286 to 1.3278 within a minute, then recovered to about 1.3285 within four minutes."
+  },
+  {
+   "when": "2026-09-30T06:00:00Z",
+   "event": "UK growth revised up",
+   "result": "The ONS revised growth in April to June to 0.5% from its first estimate of 0.4%.",
+   "why": "A stronger UK economy makes a Bank of England rate rise more likely, which lifts the pound.",
+   "effect": "GBP/USD rose from 1.3247 to 1.3257 within two minutes, and sterling led the major currencies against the dollar through the European morning."
+  },
+  {
+   "event": "Fed's Williams says no urgency",
+   "result": "New York Fed President John Williams said there was no need for urgency in further tightening. US 10-year yields fell from an overnight peak near 5.29% to about 5.20% before recovering to about 5.24%.",
+   "why": "A Fed official sounding patient about rises lowers US yields and softens the dollar, so each pound buys more dirhams.",
+   "effect": "The dollar was mixed to softer through the European morning, and GBP/USD reached a one-week high near 1.3290 before the US figures."
+  },
+  {
+   "event": "Oil supply eases",
+   "result": "Saudi Arabia resumed tanker loadings at its Red Sea port of Yanbu after restarting the East-West pipeline, and the US offered up to 40 million barrels from its strategic reserve. Brent was near $103 (about £77.50) a barrel. By midday in Europe oil had partly rebounded, with US crude at about $90.70 (about £68.30) a barrel.",
+   "why": "Cheaper oil eases US inflation worries and the demand for dollars as a safe haven, which softens the dollar.",
+   "effect": "US 10-year yields slipped to about 5.24%, and the dollar was mixed to softer before the US figures."
   }
  ],
  "calendar": [
