@@ -82,6 +82,124 @@
    "date": "Sep"
   }
  ],
- "calendar": [],
- "calendarUpdated": "2026-09-30T08:40:40Z"
+ "calendar": [
+  {
+   "t": "2026-09-29T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US consumer confidence (Conference Board)",
+   "title": "CB Consumer Confidence",
+   "forecast": "89.2",
+   "previous": "89.4"
+  },
+  {
+   "t": "2026-09-29T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US job openings (JOLTS)",
+   "title": "JOLTS Job Openings",
+   "forecast": "7.23M",
+   "previous": "7.27M"
+  },
+  {
+   "t": "2026-09-30T12:15:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US private payrolls (ADP)",
+   "title": "ADP Non-Farm Employment Change",
+   "forecast": "73K",
+   "previous": "38K"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US core inflation (PCE), month on month",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US GDP, final estimate",
+   "title": "Final GDP q/q",
+   "forecast": "1.5%",
+   "previous": "1.5%"
+  },
+  {
+   "t": "2026-09-30T12:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US GDP prices, final estimate",
+   "title": "Final GDP Price Index q/q",
+   "forecast": "6.4%",
+   "previous": "6.4%"
+  },
+  {
+   "t": "2026-10-01T08:00:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "Bank of England Governor Bailey speaks",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "t": "2026-10-01T12:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US weekly jobless claims",
+   "title": "Unemployment Claims",
+   "forecast": "201K",
+   "previous": "197K"
+  },
+  {
+   "t": "2026-10-01T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "Fed's Waller speaks",
+   "title": "FOMC Member Waller Speaks",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "t": "2026-10-01T14:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US factory survey (ISM)",
+   "title": "ISM Manufacturing PMI",
+   "forecast": "54.8",
+   "previous": "54.6"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US wages, month on month",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US jobs report: payrolls",
+   "title": "Non-Farm Employment Change",
+   "forecast": "90K",
+   "previous": "162K"
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US unemployment rate",
+   "title": "Unemployment Rate",
+   "forecast": "4.1%",
+   "previous": "4.1%"
+  }
+ ],
+ "calendarUpdated": "2026-09-30T03:40:52Z"
 }
