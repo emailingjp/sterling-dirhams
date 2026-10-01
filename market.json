@@ -1,7 +1,20 @@
 {
- "updated": "2026-10-01T08:41:05Z",
- "headline": "Sterling has slipped to about 1.3219 against the dollar by 12:40 Dubai on Thursday, from 1.3263 at Wednesday's close, as the dollar strengthened across the board with US 10-year and 30-year yields at new highs and the euro below $1.13 for the first time since May 2025. Governor Bailey's opening remarks at a Bank of England conference on the future of money carried no news on interest rates in the reports read, and the pound kept drifting lower after them.",
+ "updated": "2026-10-01T13:41:38Z",
+ "headline": "Sterling touched a three-month low near 1.3190 against the dollar at about 14:05 Dubai on Thursday, after oil climbed back above $100 (about £76) on Chinese fuel export curbs and the US 10-year yield reached its highest since 2002. It has since recovered to about 1.3224, and US jobless claims at 197,000, slightly fewer than expected, moved it very little.",
  "happened": [
+  {
+   "when": "2026-10-01T12:30:00Z",
+   "event": "US weekly jobless claims",
+   "result": "197,000 new claims in the week to 26 September, against about 201,000 expected and down 1,000 on the week before, the lowest since July. Continuing claims fell to 1.701 million, a three-year low, and the Challenger survey showed planned layoffs in September down 18% on August.",
+   "why": "Fewer people losing their jobs points to a strong US labour market, which normally keeps a Fed rise in play and supports the dollar; this time the dollar index touched about 102, but sterling had already fallen a long way and barely reacted.",
+   "effect": "GBP/USD edged up from 1.3228 just before the release to about 1.3235 within two minutes and held near there until about 16:45 Dubai, then eased back to about 1.3222 by 17:20 Dubai."
+  },
+  {
+   "event": "Oil jumps back above $100 on Chinese fuel export curbs, with US yields at 24-year highs",
+   "result": "Reuters reported that Chinese refiners had suspended October fuel exports beyond Hong Kong and Macau, and that PetroChina had cancelled some petrol and jet fuel cargoes. Oil reversed its morning fall: by 09:23 UTC (13:23 Dubai) Brent for December was up 2.4% at $100.36 (about £75.89) and US crude up 2.5% at $92.70 (about £70.10). The US 10-year yield rose to about 5.33%, its highest since 2002, and FXStreet described the UK factory survey published this morning as soft.",
+   "why": "Dearer oil adds to inflation worries, pushes US yields higher and sours the market mood, all of which draws money into the dollar, so each pound buys fewer dirhams.",
+   "effect": "GBP/USD fell from about 1.3222 at 12:35 Dubai to 1.3206 by 13:00 Dubai, steadied, then dropped to a three-month low near 1.3190 at about 14:05 Dubai. It recovered to about 1.3243 by 15:55 Dubai without a named piece of news, and was near 1.3224 at 17:35 Dubai."
+  },
   {
    "when": "2026-10-01T08:00:00Z",
    "event": "Bank of England Governor Bailey opens the Future of Money conference",
@@ -34,50 +47,80 @@
    "result": "Minneapolis Fed President Neel Kashkari said inflation of about 3% is still too high and the latest data do not change his view. He has pencilled in one more rise this year and another in 2027, and said the longer the economy stays strong, the more he questions whether policy is tight at all.",
    "why": "A Fed official leaning towards more rises supports US yields and the dollar, so each pound buys fewer dirhams.",
    "effect": "GBP/USD dipped from 1.3263 to 1.3260 at the start of his remarks, in thin trading at the daily rollover, then recovered to about 1.3265 within ten minutes."
-  },
-  {
-   "event": "US-Iran talks stall, while oil eases this morning",
-   "result": "Secretary of State Rubio ordered Iran's UN delegation to leave New York after indirect talks stalled; Iran says it has received the official US response to its latest peace offer. Oil futures fell this morning on quiet news from the Gulf, with Brent for December down about 1.2% and US crude down about 1.7% in early European trading.",
-   "why": "Gulf tension keeps a risk premium in oil and supports the dollar as a safe haven, while cheaper oil eases US inflation worries; this morning the two pulled in opposite directions.",
-   "effect": "No sharp move in GBP/USD is linked to either; the fall in oil did not stop the dollar rising with US yields."
   }
  ],
  "drivers": [
   {
    "title": "US bond yields",
-   "text": "US 10-year and 30-year yields reached new highs overnight, about 5.34% and 5.67% on Reuters' figures, after their largest quarterly rise since 1994. High US yields keep the dollar attractive to hold and are the main weight on sterling today."
+   "text": "The US 10-year yield rose to about 5.33% on Thursday, its highest since 2002, and the 30-year to about 5.67%, after their largest quarterly rise since 1994. High US yields keep the dollar attractive to hold and remain the main weight on sterling."
   },
   {
    "title": "Fed rate expectations",
-   "text": "After Wednesday's cooler inflation figures, markets put about a 39% chance on a quarter-point Fed rise at the 28 October meeting, down from about 45% before them, and the CME FedWatch tool shows about an 87% chance of a rise by the end of the year. Fed speakers lean firm: Kashkari and Cook stress that inflation has been too high for too long, while Williams sees no urgency. Friday's jobs report is the next big test."
+   "text": "After Wednesday's cooler inflation figures, markets put about a 39% chance on a quarter-point Fed rise at the 28 October meeting, and the CME FedWatch tool shows about an 87% chance of a rise by the end of the year. Thursday's jobless claims, at 197,000, show a labour market still tight, and Fed speakers lean firm. Friday's jobs report is the next big test."
   },
   {
    "title": "A broadly stronger dollar",
-   "text": "The dollar index stood near 101.6 on Thursday morning, near its mid-May highs, after a sixth quarterly gain in a row. The euro fell nearly 2.5% in September and is below $1.13, so sterling's fall today is part of a wider dollar move rather than news particular to the UK."
+   "text": "The dollar index touched about 102 on Thursday afternoon, its highest since April 2025, after a sixth quarterly gain in a row. The euro is below $1.13, so sterling's fall today is part of a wider dollar move rather than news particular to the UK."
   },
   {
    "title": "Oil and the Middle East",
-   "text": "Brent settled at $98.03 (about £74.16) on Wednesday and eased about 1.2% this morning. Gulf exports are close to pre-war levels, but fuel stocks are very low and US-Iran talks have stalled, so oil remains sensitive to news from the Gulf."
+   "text": "Brent rose back above $100 (about £76) on Thursday morning, up about 2.4%, after reports that Chinese refiners had halted October fuel exports. Gulf crude flows are close to pre-war levels, but fuel stocks are very low and US-Iran talks have stalled, so oil remains sensitive to news from the Gulf and from China."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and markets price a quarter-point rise at the 5 November meeting. UK growth in April to June was revised up on Wednesday. At about 1.3219, GBP/AED is near 4.855 at the peg of 3.6725, close to the 12-week low near 1.3200 reached last week."
+   "text": "The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and markets price a quarter-point rise at the 5 November meeting. On 29 September Alan Taylor, one of the six who voted to hold, said the case for a rise was not compelling unless high energy prices fed into broader inflation. At about 1.3224, GBP/AED is near 4.857 at the peg of 3.6725, just above Thursday's three-month low near 1.3190."
   }
  ],
  "lower": [
-  "US weekly jobless claims today below the 201K forecast, or the US factory survey (ISM) above 54.8, which would point to a strong US economy and support the dollar.",
-  "US jobs figures on Friday stronger than the 90K forecast, or wages rising faster than 0.3%, which would revive the chance of an October Fed rise and strengthen the dollar.",
-  "US 10-year yields rising further from their new highs, which would keep drawing money into the dollar.",
-  "Renewed escalation with Iran after the stalled talks, lifting oil again, which tends to strengthen the dollar."
+  "The US factory survey (ISM) this afternoon above the 54.8 forecast, which would point to a strong US economy and support the dollar.",
+  "US jobs figures on Friday stronger than the 89K forecast, or wages rising faster than 0.3%, which would revive the chance of an October Fed rise and strengthen the dollar.",
+  "US 10-year yields rising further from their highest since 2002, which would keep drawing money into the dollar.",
+  "Oil climbing further on Chinese export curbs or renewed escalation with Iran, which tends to strengthen the dollar."
  ],
  "higher": [
-  "US jobless claims today above the 201K forecast, or the factory survey below 54.8, which would make an October Fed rise less likely and weaken the dollar.",
-  "Fed's Waller today sounding patient about further rises, which would lower US yields and weaken the dollar.",
-  "US jobs figures on Friday weaker than the 90K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
-  "Progress in the Qatari mediation with Iran, easing oil, which reduces the demand for dollars."
+  "The US factory survey this afternoon below 54.8, which would make an October Fed rise less likely and weaken the dollar.",
+  "Fed's Waller this afternoon sounding patient about further rises, which would lower US yields and weaken the dollar.",
+  "US jobs figures on Friday weaker than the 89K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
+  "Oil falling back below $100 or progress in the talks with Iran, which reduces the demand for dollars."
  ],
- "watch": "US weekly jobless claims at 16:30 Dubai today, with 201K forecast; a higher figure would help someone selling pounds for dirhams. Then the US factory survey (ISM) and Fed's Waller, both at 18:00 Dubai, with 54.8 forecast for the survey; a lower reading or a patient tone would help. Friday's US jobs report at 16:30 Dubai, with 90K jobs and 4.1% unemployment forecast, is the week's main event: weaker figures would help, stronger would hurt.",
+ "watch": "The US factory survey (ISM) and a speech by the Fed's Waller, both at 18:00 Dubai today, with 54.8 forecast for the survey; a lower reading or a patient tone would help someone selling pounds for dirhams. Friday's US jobs report at 16:30 Dubai, with 89K jobs, 4.1% unemployment and 0.3% wage growth forecast, is the week's main event: weaker figures would help, stronger would hurt.",
  "sources": [
+  {
+   "title": "US weekly jobless claims fall; layoffs drop in September",
+   "site": "Reuters, via Investing.com",
+   "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-fall-layoffs-drop-in-september-4927423",
+   "date": "1 Oct"
+  },
+  {
+   "title": "US Initial Jobless Claims dropped to 197K last week",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-dropped-to-197k-last-week-202610011237",
+   "date": "1 Oct"
+  },
+  {
+   "title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude back above $100",
+   "site": "CNBC Africa",
+   "url": "https://www.cnbcafrica.com/2026/oil-falls-as-middle-east-exports-recover-easing-supply-worries",
+   "date": "1 Oct"
+  },
+  {
+   "title": "Pound Sterling Price News and Forecast: GBP tests 1.3200",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-tests-13200-202610011138",
+   "date": "1 Oct"
+  },
+  {
+   "title": "Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook",
+   "site": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-01/treasury-10-year-yield-hits-highest-since-2002-on-rate-outlook-mup7ryq2",
+   "date": "1 Oct"
+  },
+  {
+   "title": "BoE's Taylor questions practicality of single rate hike",
+   "site": "Reuters, via Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/boes-taylor-casts-doubt-practicality-single-rate-hike/",
+   "date": "29 Sep"
+  },
   {
    "title": "Dollar gets lift from higher yields",
    "site": "Reuters, via Investing.com",
@@ -124,12 +167,6 @@
    "title": "Goldman pushes Fed rate hike to December after cooler inflation",
    "site": "Investing.com",
    "url": "https://www.investing.com/news/economy-news/goldman-pushes-fed-rate-hike-to-december-after-cooler-inflation-4925743",
-   "date": "30 Sep"
-  },
-  {
-   "title": "Oil futures rise despite increasing flows",
-   "site": "Rigzone",
-   "url": "https://www.rigzone.com/news/oil_futures_rise_despite_increasing_flows-30-sep-2026-184743-article",
    "date": "30 Sep"
   },
   {
