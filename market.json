@@ -1,7 +1,14 @@
 {
- "updated": "2026-10-02T08:41:27Z",
- "headline": "Sterling has steadied near 1.3210 against the dollar this morning as the dollar eased slightly from Thursday's highest level since April 2025 and oil held near $102 (about £77). The pound is still close to its lowest since late June after Thursday's sell-off in UK government bonds, and the US jobs report at 16:30 Dubai is the next big test.",
+ "updated": "2026-10-02T12:48:04Z",
+ "headline": "The US jobs report at 16:30 Dubai came in weaker than forecast on every count, and the dollar fell. GBP/USD jumped from 1.3205 to 1.3236 within two minutes and held most of the gain.",
  "happened": [
+  {
+   "when": "2026-10-02T12:30:00Z",
+   "event": "US jobs report for September",
+   "result": "Employers added 29,000 jobs against 90,000 expected, and July and August were revised down by a combined 60,000. Unemployment rose to 4.2% against 4.1% expected, and hourly pay rose 0.1% in the month against 0.3% expected.",
+   "why": "A cooling US job market and slower pay growth make another Fed rate rise less likely, which weakens the dollar and lifts GBP/USD.",
+   "effect": "GBP/USD jumped from 1.3205 to 1.3236 within two minutes, and the euro rose against the dollar as well. It was near 1.3225 a quarter of an hour later."
+  },
   {
    "event": "Dollar eases slightly in the European morning before the US jobs report",
    "result": "FXStreet reported at about 11:15 Dubai that the dollar index had slipped back below 102.00 after reaching 102.20 on Thursday, its highest since April 2025, with GBP/USD slightly above 1.3210, up about 0.2% on the day. There was no UK data this morning, and FXStreet reported that the chance of an October Fed rise priced by markets had fallen to about 24%, from over 70% a week earlier.",
@@ -81,8 +88,14 @@
   "Gilt yields easing back from their highs, which would relieve the pressure on the pound.",
   "Bank of England speakers pointing to a rise on 5 November, which would lift the pound."
  ],
- "watch": "The US jobs report at 16:30 Dubai today, with about 90K jobs, 4.1% unemployment and 0.3% monthly wage growth forecast. Weaker figures would help someone selling pounds for dirhams, and stronger figures would hurt.",
+ "watch": "With the jobs report out, the next scheduled US and UK events are in next week's calendar, which appears in the table below once it is published.",
  "sources": [
+  {
+   "title": "Employment Situation Summary, September 2026",
+   "site": "US Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "date": "2 Oct"
+  },
   {
    "title": "Forex Today: US Dollar consolidates weekly gains ahead of critical Nonfarm Payrolls data",
    "site": "FXStreet",
@@ -347,5 +360,5 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-02T08:41:27Z"
+ "calendarUpdated": "2026-10-02T12:48:04Z"
 }
