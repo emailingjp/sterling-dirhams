@@ -1,7 +1,19 @@
 {
- "updated": "2026-10-02T03:41:22Z",
- "headline": "Sterling slipped to about 1.3180 against the dollar overnight, its lowest since late June, after a US report of a third aircraft carrier for the Middle East sent oil up more than 4% on Thursday and UK 30-year borrowing costs passed 6% for the first time since 1998. At about 1.3204 at 07:35 Dubai on Friday it has steadied, and the US jobs report at 16:30 Dubai is the next big test.",
+ "updated": "2026-10-02T08:41:27Z",
+ "headline": "Sterling has steadied near 1.3210 against the dollar this morning as the dollar eased slightly from Thursday's highest level since April 2025 and oil held near $102 (about £77). The pound is still close to its lowest since late June after Thursday's sell-off in UK government bonds, and the US jobs report at 16:30 Dubai is the next big test.",
  "happened": [
+  {
+   "event": "Dollar eases slightly in the European morning before the US jobs report",
+   "result": "FXStreet reported at about 11:15 Dubai that the dollar index had slipped back below 102.00 after reaching 102.20 on Thursday, its highest since April 2025, with GBP/USD slightly above 1.3210, up about 0.2% on the day. There was no UK data this morning, and FXStreet reported that the chance of an October Fed rise priced by markets had fallen to about 24%, from over 70% a week earlier.",
+   "why": "Traders tend to trim their dollar holdings before a big US report after a strong run, which lets the pound recover a little, so each pound buys slightly more dirhams.",
+   "effect": "GBP/USD rose from about 1.3205 at 07:00 Dubai to a high near 1.3218 at about 10:30 Dubai, then settled near 1.3208 by 12:30 Dubai, taking GBP/AED from about 4.850 to about 4.854 and back to about 4.851."
+  },
+  {
+   "event": "Oil steadies after Thursday's jump",
+   "result": "The National reported on Friday that Brent eased 0.05% to $102.10 (about £77.30) and US crude 0.31% to $92.58 (about £70.10), as larger Saudi shipments through the Strait of Hormuz, 2.9 million barrels a day in September against about 1 million in August, balanced the US carrier deployment. OPEC+ meets on Sunday to set November output.",
+   "why": "Steady oil removes one source of fresh demand for the dollar, though prices above $100 (about £76) keep inflation worries and US yields high.",
+   "effect": "The time of the news is not known. Oil's pause matched a quiet morning for GBP/USD, which stayed between about 1.3200 and 1.3218."
+  },
   {
    "event": "Sterling near its lowest since June in Asian trading",
    "result": "FXStreet reported GBP/USD below 1.3200 in Asian trading on Friday, near its lowest since 26 June, with the dollar index near 102, its highest since spring 2025, and traders waiting for the US jobs report. Brent rose a further 0.3% to $102.60 (about £77.70), Reuters reported.",
@@ -46,7 +58,7 @@
   },
   {
    "title": "Fed rate expectations",
-   "text": "FXStreet reported on Friday 2 October that bets on an October Fed rise had receded after Wednesday's cooler inflation figures, though Thursday's ISM prices index at 77.9 and jobless claims at 197,000 show inflation pressure and a tight labour market. The next Fed decision is on 28 October."
+   "text": "FXStreet reported on Friday 2 October that the market chance of an October Fed rise had fallen to about 24%, from over 70% a week earlier, after Wednesday's cooler inflation figures, though Thursday's ISM prices index at 77.9 and jobless claims at 197,000 show inflation pressure and a tight labour market. The next Fed decision is on 28 October."
   },
   {
    "title": "Oil and the Middle East",
@@ -54,23 +66,47 @@
   },
   {
    "title": "The Bank of England",
-   "text": "The Bank held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and markets price a quarter-point rise at the 5 November meeting. At about 1.3204, GBP/AED is near 4.849 at the peg of 3.6725."
+   "text": "The Bank held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and FXStreet reported on 1 October that markets price as many as four rises by next summer. At about 1.3210, GBP/AED is near 4.851 at the peg of 3.6725."
   }
  ],
  "lower": [
-  "US jobs figures today stronger than the 89K forecast, or wages rising faster than 0.3%, which would revive the chance of an October Fed rise and strengthen the dollar.",
+  "US jobs figures today stronger than the 90K forecast, or wages rising faster than 0.3%, which would revive the chance of an October Fed rise and strengthen the dollar.",
   "UK long-dated gilt yields rising further on worries about the public finances before the 28 October Budget, which would weigh on the pound.",
   "Oil climbing further on news of escalation with Iran or tighter fuel supplies, which tends to strengthen the dollar.",
   "US 10-year yields rising beyond their highest since 2002, which would keep drawing money into the dollar."
  ],
  "higher": [
-  "US jobs figures today weaker than the 89K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
+  "US jobs figures today weaker than the 90K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
   "Progress in the US talks with Iran or oil falling back below $100 (about £76), which would reduce the demand for dollars.",
   "Gilt yields easing back from their highs, which would relieve the pressure on the pound.",
   "Bank of England speakers pointing to a rise on 5 November, which would lift the pound."
  ],
- "watch": "The US jobs report at 16:30 Dubai today, with 89K jobs, 4.1% unemployment and 0.3% monthly wage growth forecast. Weaker figures would help someone selling pounds for dirhams, and stronger figures would hurt.",
+ "watch": "The US jobs report at 16:30 Dubai today, with about 90K jobs, 4.1% unemployment and 0.3% monthly wage growth forecast. Weaker figures would help someone selling pounds for dirhams, and stronger figures would hurt.",
  "sources": [
+  {
+   "title": "Forex Today: US Dollar consolidates weekly gains ahead of critical Nonfarm Payrolls data",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
+   "date": "2 Oct"
+  },
+  {
+   "title": "US Non Farm payrolls: to confirm if the Fed does remain on hold in October",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/us-non-farm-payrolls-to-confirm-if-the-fed-does-remain-on-hold-in-october-202610020639",
+   "date": "2 Oct"
+  },
+  {
+   "title": "Oil prices stable amid mixed supply signals from the Middle East",
+   "site": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
+   "date": "2 Oct"
+  },
+  {
+   "title": "The British Pound slides again as UK government bonds sell off",
+   "site": "FXStreet",
+   "url": "https://fxstreet.com/news/the-british-pound-slides-again-as-uk-government-bonds-sell-off-202610012226",
+   "date": "1 Oct"
+  },
   {
    "title": "British Pound hangs near June 26 lows as firm USD eyes US NFP data",
    "site": "FXStreet",
@@ -311,5 +347,5 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-01T08:41:05Z"
+ "calendarUpdated": "2026-10-02T08:41:27Z"
 }
