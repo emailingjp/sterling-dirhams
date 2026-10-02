@@ -1,13 +1,19 @@
 {
- "updated": "2026-10-02T12:48:04Z",
- "headline": "The US jobs report at 16:30 Dubai came in weaker than forecast on every count, and the dollar fell. GBP/USD jumped from 1.3205 to 1.3236 within two minutes and held most of the gain.",
+ "updated": "2026-10-02T13:40:42Z",
+ "headline": "The US jobs report at 16:30 Dubai was weaker than forecast on every count, US bond yields fell and markets all but dropped the chance of an October Fed rise, so the dollar eased. GBP/USD jumped from 1.3205 to 1.3250 at the release, gave back about half within minutes and was near 1.3226 at 17:40 Dubai, helped too by oil falling below $100 (about £76).",
  "happened": [
   {
    "when": "2026-10-02T12:30:00Z",
    "event": "US jobs report for September",
    "result": "Employers added 29,000 jobs against 90,000 expected, and July and August were revised down by a combined 60,000. Unemployment rose to 4.2% against 4.1% expected, and hourly pay rose 0.1% in the month against 0.3% expected.",
-   "why": "A cooling US job market and slower pay growth make another Fed rate rise less likely, which weakens the dollar and lifts GBP/USD.",
-   "effect": "GBP/USD jumped from 1.3205 to 1.3236 within two minutes, and the euro rose against the dollar as well. It was near 1.3225 a quarter of an hour later."
+   "why": "A cooling US job market and slower pay growth make another Fed rate rise less likely; Reuters reported that US two-year yields fell 7 basis points to 4.716% and ten-year yields 6 basis points to 5.176%, and the market chance of an October rise fell to as low as 12%, so the dollar weakened and GBP/USD rose.",
+   "effect": "GBP/USD jumped from 1.3205 just before 16:30 Dubai to a high of 1.3250 in the first minute and 1.3236 two minutes later, slipped to about 1.3219 by 16:33, and has since moved between about 1.3212 and 1.3241. It was near 1.3226 at 17:40 Dubai, about 0.15% above its level before the report, taking GBP/AED from about 4.850 to about 4.857."
+  },
+  {
+   "event": "Oil falls back below $100 (about £76)",
+   "result": "Trading Economics reported on Friday that Brent fell about 3% to around $99.30 (about £75.10), as European governments considered releasing strategic oil and fuel reserves to ease fuel costs and Middle East crude flows recovered towards pre-war levels. This reverses most of Thursday's jump on the carrier report.",
+   "why": "Cheaper oil eases inflation worries and the pull of the dollar as a safe haven, which tends to help the pound against the dollar, so each pound buys slightly more dirhams.",
+   "effect": "The time of the move is not known. The fall in oil came on the same day as the weaker US jobs report, and GBP/USD stood about 0.3% above Thursday evening's low near 1.3183 by 17:40 Dubai."
   },
   {
    "event": "Dollar eases slightly in the European morning before the US jobs report",
@@ -57,7 +63,7 @@
  "drivers": [
   {
    "title": "US bond yields",
-   "text": "The US 10-year yield reached about 5.34% on Thursday 1 October, near its highest since 2002, after the largest quarterly rise since 1994. High US yields keep the dollar attractive to hold and remain the main weight on sterling."
+   "text": "The US 10-year yield reached about 5.34% on Thursday 1 October, near its highest since 2002, then fell 6 basis points to about 5.18% on Friday after the weak jobs report, Reuters reported. High US yields keep the dollar attractive to hold and remain the main weight on sterling."
   },
   {
    "title": "UK borrowing costs and the Budget",
@@ -65,35 +71,53 @@
   },
   {
    "title": "Fed rate expectations",
-   "text": "FXStreet reported on Friday 2 October that the market chance of an October Fed rise had fallen to about 24%, from over 70% a week earlier, after Wednesday's cooler inflation figures, though Thursday's ISM prices index at 77.9 and jobless claims at 197,000 show inflation pressure and a tight labour market. The next Fed decision is on 28 October."
+   "text": "Reuters reported on Friday 2 October that the market chance of an October Fed rise fell to as low as 12% after the jobs report, from about 24% that morning and over 70% a week earlier. September added 29,000 jobs against 90,000 expected and unemployment rose to 4.2%. Thursday's ISM prices index at 77.9 still shows inflation pressure. The next Fed decision is on 28 October."
   },
   {
    "title": "Oil and the Middle East",
-   "text": "Brent settled at $102.31 (about £77.50) on 1 October, up 4.4%, after the report of a third US carrier for the region, on top of Chinese curbs on fuel exports. Oil remains sensitive to news on Iran and on fuel supplies."
+   "text": "Brent settled at $102.31 (about £77.50) on 1 October after the report of a third US carrier for the region, then fell about 3% to around $99.30 (about £75.10) on 2 October as Europe weighed releasing reserves. OPEC+ meets on Sunday 4 October to set November output, and oil remains sensitive to news on Iran."
   },
   {
    "title": "The Bank of England",
-   "text": "The Bank held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and FXStreet reported on 1 October that markets price as many as four rises by next summer. At about 1.3210, GBP/AED is near 4.851 at the peg of 3.6725."
+   "text": "The Bank held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and FXStreet reported on 1 October that markets price as many as four rises by next summer. At about 1.3226, GBP/AED is near 4.857 at the peg of 3.6725."
   }
  ],
  "lower": [
-  "US jobs figures today stronger than the 90K forecast, or wages rising faster than 0.3%, which would revive the chance of an October Fed rise and strengthen the dollar.",
+  "US inflation or wage figures next week stronger than forecast, which would revive the chance of a Fed rise on 28 October and strengthen the dollar.",
   "UK long-dated gilt yields rising further on worries about the public finances before the 28 October Budget, which would weigh on the pound.",
-  "Oil climbing further on news of escalation with Iran or tighter fuel supplies, which tends to strengthen the dollar.",
-  "US 10-year yields rising beyond their highest since 2002, which would keep drawing money into the dollar."
+  "OPEC+ cutting output on Sunday, or oil climbing back above $100 (about £76) on news of escalation with Iran, which tends to strengthen the dollar.",
+  "US 10-year yields climbing back towards Thursday's highs, which would keep drawing money into the dollar."
  ],
  "higher": [
-  "US jobs figures today weaker than the 90K forecast, or unemployment above 4.1%, which would make an October Fed rise less likely and weaken the dollar.",
-  "Progress in the US talks with Iran or oil falling back below $100 (about £76), which would reduce the demand for dollars.",
+  "Further signs of a cooling US job market or softer inflation next week, which would keep an October Fed rise off the table and weaken the dollar.",
+  "Europe confirming a release of oil reserves, or progress in the US talks with Iran, which would keep oil lower and reduce the demand for dollars.",
   "Gilt yields easing back from their highs, which would relieve the pressure on the pound.",
   "Bank of England speakers pointing to a rise on 5 November, which would lift the pound."
  ],
- "watch": "With the jobs report out, the next scheduled US and UK events are in next week's calendar, which appears in the table below once it is published.",
+ "watch": "OPEC+ meets on Sunday 4 October to set November output; a cut would tend to lift oil and the dollar, and an increase would help someone selling pounds for dirhams. Next week's US and UK calendar appears in the table below once it is published.",
  "sources": [
   {
    "title": "Employment Situation Summary, September 2026",
    "site": "US Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "date": "2 Oct"
+  },
+  {
+   "title": "Soft September jobs report sends markets higher",
+   "site": "Reuters, via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/soft-september-jobs-report-sends-markets-higher-4929845",
+   "date": "2 Oct"
+  },
+  {
+   "title": "Brent crude oil price and news",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "2 Oct"
+  },
+  {
+   "title": "Pound Sterling Price News and Forecast: GBP/USD rebounds from 0.618 Arc",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-usd-rebounds-from-0618-arc-202610021311",
    "date": "2 Oct"
   },
   {
@@ -189,7 +213,7 @@
   {
    "title": "Kraken public GBP/USD prices",
    "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "2 Oct"
   }
  ],
@@ -360,5 +384,5 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-02T12:48:04Z"
+ "calendarUpdated": "2026-10-02T13:40:42Z"
 }
