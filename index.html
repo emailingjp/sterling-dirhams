@@ -313,7 +313,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
 
   <section class="dash" aria-label="Key figures">
     <div class="tile t-live">
-      <p class="label">Live rate, GBP/AED</p>
+      <p class="label" id="liveLabel">Live rate, GBP/AED</p>
       <p class="dealer xl" id="mid">&nbsp;</p>
       <p class="sub" id="midSub">&nbsp;</p>
     </div>
@@ -483,7 +483,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
   <footer class="sources">
     <p>Prices come from Kraken's public GBP/USD, EUR/USD and EUR/GBP markets, which this page reads directly with no account. The live mid is halfway between Kraken's best bid and best offer. The chart history uses Kraken's own bars, which are traded prices and can sit a pip or two either side of the mid. ECB reference rates come from the Frankfurter service. The calendar comes from Forex Factory.</p>
     <p>Dirhams are worked out at the UAE peg of 3.6725 to the dollar. On 25 September 2026 Kraken was checked against Yahoo Finance, Wise and the European Central Bank and agreed with them to within one to three GBP/USD pips. A dealer's own mid can differ by a pip or two.</p>
-    <p>The currency market shuts from 5pm New York on Friday to 5pm New York on Sunday, which is 01:00 Saturday to 01:00 Monday in Dubai while New York is on summer time. Weekend prices are left off the chart. All times are Dubai time unless marked London. Charts drawn with TradingView Lightweight Charts.</p>
+    <p>The currency market shuts from 5pm New York on Friday to 5pm New York on Sunday, which is 01:00 Saturday to 01:00 Monday in Dubai while New York is on summer time. Kraken itself trades through the weekend, so the dashboard keeps showing its price as a guide to where the banks will reopen; weekend prices are left off the chart. All times are Dubai time unless marked London. Charts drawn with TradingView Lightweight Charts.</p>
   </footer>
 </main>
 
@@ -1136,7 +1136,17 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
   function renderDash() {
     var a = toAed(state.mid), your = a * (1 - mg()), get = brings(state.mid), s = startInfo();
     $('mid').innerHTML = dealerHTML(a); flash($('mid'));
-    $('midSub').innerHTML = 'GBP/USD <b>' + state.mid.toFixed(5) + '</b>' + (state.bid ? ', bid ' + state.bid.toFixed(5) + ', offer ' + state.ask.toFixed(5) : '') + ', times ' + cfg.peg + ' dirhams to the dollar';
+    /* At weekends the banks are shut but Kraken keeps trading. The page keeps showing Kraken's price,
+       and says plainly that it is a guide to the reopening rather than a rate anyone can deal at. */
+    var nowS = Date.now() / 1000, shut = !isFxOpen(nowS);
+    var fc = shut && state.hourly.length ? closeBefore(state.hourly, state.hourIdx, lastOpenHour(nowS) + 3600) : null;
+    $('liveLabel').textContent = shut ? 'Weekend price on Kraken, GBP/AED' : 'Live rate, GBP/AED';
+    if (shut) {
+      var reopen = nextFxOpen(nowS);
+      $('midSub').innerHTML = 'GBP/USD <b>' + state.mid.toFixed(5) + '</b> on Kraken, which trades through the weekend. The banks are shut until ' + dxbDay(reopen) + ' ' + dxbTime(reopen) + ' Dubai, so this is a guide to where they will reopen, not a rate you can deal at.' + (fc ? ' When they shut it was <b>' + toAed(fc).toFixed(4) + '</b>.' : '');
+    } else {
+      $('midSub').innerHTML = 'GBP/USD <b>' + state.mid.toFixed(5) + '</b>' + (state.bid ? ', bid ' + state.bid.toFixed(5) + ', offer ' + state.ask.toFixed(5) : '') + ', times ' + cfg.peg + ' dirhams to the dollar';
+    }
     $('yourLabel').textContent = 'Your rate after ' + pct();
     $('your').innerHTML = dealerHTML(your);
     $('yourSub').innerHTML = 'A quote at or above <b>' + your.toFixed(4) + '</b> is within ' + pct() + '.';
@@ -1157,8 +1167,14 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     }
 
     var td = todayInfo();
-    if (td) {
-      $('todayLabel').textContent = td.open ? 'Today, since ' + dxbTime(td.start) + ' Dubai' : 'Last session, ' + dxbDay(td.ref);
+    if (td && !td.open && fc) {
+      var wk = diffVs(state.mid, fc);
+      $('todayLabel').textContent = 'This weekend, since the banks shut';
+      $('today').innerHTML = twoLine(wk, true);
+      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / fc - 1) + ' on Kraken since the close. The last full session before it: ' + withGbpSigned(td.aed) + '.';
+      tone($('tileToday'), Math.round(wk) === 0 ? 0 : wk);
+    } else if (td) {
+      $('todayLabel').textContent = 'Today, since ' + dxbTime(td.start) + ' Dubai';
       $('today').innerHTML = twoLine(td.aed, true);
       var ind = indicators();
       $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(td.pct) + (ind ? ' against a normal day of about ' + (ind.typical * 100).toFixed(2) + '% either way.' : '.');
@@ -1307,14 +1323,14 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
           '<div class="split-row"><span>Dollar effect</span>' + barHTML(dollarAed, max) + '<span class="val ' + (dollarAed >= 0 ? 'gain' : 'loss') + '">' + shortK(dollarAed) + '</span></div>' +
           '<div class="split-row"><span>Pound effect</span>' + barHTML(poundAed, max) + '<span class="val ' + (poundAed >= 0 ? 'gain' : 'loss') + '">' + shortK(poundAed) + '</span></div>' +
           '</div>' +
-          '<p class="sub">In dirhams on ' + gbpExact(cfg.amount) + ' since ' + dxbTime(td.start) + ' Dubai. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
+          '<p class="sub">In dirhams on ' + gbpExact(cfg.amount) + (td.open ? ' since ' + dxbTime(td.start) + ' Dubai' : ' over the last session before the weekend') + '. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
       }
     }
     /* How big is today's move? */
     if (td && ind) {
       var typAed = per * toAed(td.prev) * ind.typical, share = Math.abs(td.pct) / ind.typical;
       $('gSize').innerHTML = '<p>Over the last 20 trading days GBP/USD has moved about <b>' + (ind.typical * 100).toFixed(2) + '%</b> a day either way. On ' + gbpExact(cfg.amount) + ' that is about <b>' + withGbp(typAed) + '</b> a day.</p>' +
-        '<p>Today\'s move so far is ' + pctSigned(td.pct) + ', ' + (share < 0.75 ? 'smaller than a normal day' : share <= 1.25 ? 'about a normal day' : share < 2 ? 'larger than a normal day' : 'about ' + share.toFixed(1) + ' times a normal day') + '. The largest daily move in the last month was ' + (ind.big * 100).toFixed(2) + '%, on ' + dxbDay(ind.bigT) + '.</p>';
+        '<p>' + (td.open ? 'Today\'s move so far is ' : 'The last session before the weekend moved ') + pctSigned(td.pct) + ', ' + (share < 0.75 ? 'smaller than a normal day' : share <= 1.25 ? 'about a normal day' : share < 2 ? 'larger than a normal day' : 'about ' + share.toFixed(1) + ' times a normal day') + '. The largest daily move in the last month was ' + (ind.big * 100).toFixed(2) + '%, on ' + dxbDay(ind.bigT) + '.</p>';
     }
     /* Trend, range and momentum */
     if (ind && state.mid) {
@@ -1386,7 +1402,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     if (!isFxOpen(now)) {
       var o = nextFxOpen(now);
       cls = 'shut';
-      txt = 'Market shut for the weekend until ' + dxbDay(o) + ', ' + dxbTime(o) + ' Dubai. Weekend prices are indicative.';
+      txt = 'Banks shut for the weekend until ' + dxbDay(o) + ', ' + dxbTime(o) + ' Dubai. The price shown is Kraken\'s weekend price, a guide to the reopening.';
     } else if (!state.mid) { cls = ''; txt = 'Connecting to Kraken.'; }
     else if (state.via === 'saved') { cls = 'stale'; txt = 'Showing the last price seen, ' + dxbDay(state.at / 1000) + ' ' + dxbTime(state.at / 1000) + ' Dubai. Connecting to Kraken.'; }
     else {
