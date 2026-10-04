@@ -1,101 +1,64 @@
 {
- "updated": "2026-10-02T13:40:42Z",
- "headline": "The US jobs report at 16:30 Dubai was weaker than forecast on every count, US bond yields fell and markets all but dropped the chance of an October Fed rise, so the dollar eased. GBP/USD jumped from 1.3205 to 1.3250 at the release, gave back about half within minutes and was near 1.3226 at 17:40 Dubai, helped too by oil falling below $100 (about £76).",
- "happened": [
-  {
-   "when": "2026-10-02T12:30:00Z",
-   "event": "US jobs report for September",
-   "result": "Employers added 29,000 jobs against 90,000 expected, and July and August were revised down by a combined 60,000. Unemployment rose to 4.2% against 4.1% expected, and hourly pay rose 0.1% in the month against 0.3% expected.",
-   "why": "A cooling US job market and slower pay growth make another Fed rate rise less likely; Reuters reported that US two-year yields fell 7 basis points to 4.716% and ten-year yields 6 basis points to 5.176%, and the market chance of an October rise fell to as low as 12%, so the dollar weakened and GBP/USD rose.",
-   "effect": "GBP/USD jumped from 1.3205 just before 16:30 Dubai to a high of 1.3250 in the first minute and 1.3236 two minutes later, slipped to about 1.3219 by 16:33, and has since moved between about 1.3212 and 1.3241. It was near 1.3226 at 17:40 Dubai, about 0.15% above its level before the report, taking GBP/AED from about 4.850 to about 4.857."
-  },
-  {
-   "event": "Oil falls back below $100 (about £76)",
-   "result": "Trading Economics reported on Friday that Brent fell about 3% to around $99.30 (about £75.10), as European governments considered releasing strategic oil and fuel reserves to ease fuel costs and Middle East crude flows recovered towards pre-war levels. This reverses most of Thursday's jump on the carrier report.",
-   "why": "Cheaper oil eases inflation worries and the pull of the dollar as a safe haven, which tends to help the pound against the dollar, so each pound buys slightly more dirhams.",
-   "effect": "The time of the move is not known. The fall in oil came on the same day as the weaker US jobs report, and GBP/USD stood about 0.3% above Thursday evening's low near 1.3183 by 17:40 Dubai."
-  },
-  {
-   "event": "Dollar eases slightly in the European morning before the US jobs report",
-   "result": "FXStreet reported at about 11:15 Dubai that the dollar index had slipped back below 102.00 after reaching 102.20 on Thursday, its highest since April 2025, with GBP/USD slightly above 1.3210, up about 0.2% on the day. There was no UK data this morning, and FXStreet reported that the chance of an October Fed rise priced by markets had fallen to about 24%, from over 70% a week earlier.",
-   "why": "Traders tend to trim their dollar holdings before a big US report after a strong run, which lets the pound recover a little, so each pound buys slightly more dirhams.",
-   "effect": "GBP/USD rose from about 1.3205 at 07:00 Dubai to a high near 1.3218 at about 10:30 Dubai, then settled near 1.3208 by 12:30 Dubai, taking GBP/AED from about 4.850 to about 4.854 and back to about 4.851."
-  },
-  {
-   "event": "Oil steadies after Thursday's jump",
-   "result": "The National reported on Friday that Brent eased 0.05% to $102.10 (about £77.30) and US crude 0.31% to $92.58 (about £70.10), as larger Saudi shipments through the Strait of Hormuz, 2.9 million barrels a day in September against about 1 million in August, balanced the US carrier deployment. OPEC+ meets on Sunday to set November output.",
-   "why": "Steady oil removes one source of fresh demand for the dollar, though prices above $100 (about £76) keep inflation worries and US yields high.",
-   "effect": "The time of the news is not known. Oil's pause matched a quiet morning for GBP/USD, which stayed between about 1.3200 and 1.3218."
-  },
-  {
-   "event": "Sterling near its lowest since June in Asian trading",
-   "result": "FXStreet reported GBP/USD below 1.3200 in Asian trading on Friday, near its lowest since 26 June, with the dollar index near 102, its highest since spring 2025, and traders waiting for the US jobs report. Brent rose a further 0.3% to $102.60 (about £77.70), Reuters reported.",
-   "why": "With US yields high and oil dear, money has kept flowing into the dollar, so each pound buys fewer dirhams; quiet trading before a big report tends to hold the rate near its lows.",
-   "effect": "GBP/USD eased from about 1.3195 at 03:30 Dubai to a low near 1.3180 at about 05:35 Dubai, then recovered to about 1.3204 by 07:35 Dubai, taking GBP/AED from about 4.840 back to about 4.849."
-  },
-  {
-   "event": "Report of a third US aircraft carrier for the Middle East lifts oil",
-   "result": "The Wall Street Journal reported on Thursday that the US is sending the USS Theodore Roosevelt strike group to the Middle East, with up to 10,000 more troops, and a US official confirmed the deployment to The National. Brent for December settled up 4.4% at $102.31 (about £77.50) and US crude up 2.7% at $92.87 (about £70.40).",
-   "why": "Dearer oil and the risk of renewed conflict with Iran push up inflation worries and US yields and draw money into the dollar as a safe haven, so each pound buys fewer dirhams.",
-   "effect": "The time of the report is not known. GBP/USD slid from about 1.3226 at 18:45 Dubai to about 1.3207 at 19:05 Dubai and to a low near 1.3183 by 19:50 Dubai, then settled near 1.3190 through the evening."
-  },
-  {
-   "when": "2026-10-01T14:00:00Z",
-   "event": "US factory survey (ISM), September",
-   "result": "54.5 against 55.0 expected and 54.6 in August, the ninth month of growth in a row. The prices paid index jumped to 77.9 from 71.1, and the employment index rose to 52.7 from 51.2.",
-   "why": "A slightly softer headline would normally weaken the dollar, but the sharp rise in prices paid points to more inflation, which keeps a Fed rise in play and supported the dollar.",
-   "effect": "GBP/USD fell from 1.3234 just before the release to about 1.3221 within five minutes, then held near 1.3225 for the next half hour."
-  },
-  {
-   "event": "UK 30-year borrowing costs pass 6% for the first time since 1998",
-   "result": "The 30-year gilt yield briefly reached about 6.03% on Thursday and the 10-year gilt yield moved above 5.50%, its highest since 2007, amid worries about energy-driven inflation, heavy government borrowing and the Budget on 28 October. The FTSE 100 lost 177.73 points.",
-   "why": "When UK yields rise because investors worry about the public finances, rather than because the economy is strong, the pound tends to fall with gilt prices, so each pound buys fewer dirhams.",
-   "effect": "This weighed on sterling through Thursday alongside the firmer dollar; GBP/USD fell from about 1.3263 early on Thursday to about 1.3190 by the evening."
-  },
-  {
-   "when": "2026-10-01T12:30:00Z",
-   "event": "US weekly jobless claims",
-   "result": "197,000 new claims in the week to 26 September, against about 201,000 expected, the lowest since July. Continuing claims fell to 1.701 million.",
-   "why": "Fewer people losing their jobs points to a strong US labour market, which normally keeps a Fed rise in play and supports the dollar.",
-   "effect": "GBP/USD edged up from 1.3228 just before the release to about 1.3235 within two minutes, as sterling had already fallen a long way that morning."
-  }
- ],
+ "updated": "2026-10-04T22:21:47Z",
+ "headline": "The banks reopened on Monday with sterling close to Friday's level. Friday's weak US jobs figures and the G7's oil release are working against the dollar, while the fighting between Saudi Arabia and the Houthis is working for it.",
  "drivers": [
   {
-   "title": "US bond yields",
-   "text": "The US 10-year yield reached about 5.34% on Thursday 1 October, near its highest since 2002, then fell 6 basis points to about 5.18% on Friday after the weak jobs report, Reuters reported. High US yields keep the dollar attractive to hold and remain the main weight on sterling."
-  },
-  {
-   "title": "UK borrowing costs and the Budget",
-   "text": "The 30-year gilt yield passed 6% on 1 October for the first time since 1998, and the 10-year rose above 5.50%. With the Budget due on 28 October, worries about the public finances are weighing on the pound as well as on gilts."
-  },
-  {
    "title": "Fed rate expectations",
-   "text": "Reuters reported on Friday 2 October that the market chance of an October Fed rise fell to as low as 12% after the jobs report, from about 24% that morning and over 70% a week earlier. September added 29,000 jobs against 90,000 expected and unemployment rose to 4.2%. Thursday's ISM prices index at 77.9 still shows inflation pressure. The next Fed decision is on 28 October."
+   "text": "After Friday's weak US jobs report, traders see little chance of a Fed rise at the 28 October meeting, though a rise in December is still priced. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
   },
   {
-   "title": "Oil and the Middle East",
-   "text": "Brent settled at $102.31 (about £77.50) on 1 October after the report of a third US carrier for the region, then fell about 3% to around $99.30 (about £75.10) on 2 October as Europe weighed releasing reserves. OPEC+ meets on Sunday 4 October to set November output, and oil remains sensitive to news on Iran."
+   "title": "Oil supply",
+   "text": "The G7 will release 100 million barrels of diesel and crude over four months, starting with diesel. Brent ended last week close to $100 (about £75.50) a barrel."
   },
   {
-   "title": "The Bank of England",
-   "text": "The Bank held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and FXStreet reported on 1 October that markets price as many as four rises by next summer. At about 1.3226, GBP/AED is near 4.857 at the peg of 3.6725."
+   "title": "The Middle East",
+   "text": "The US-Iran standoff over the Strait of Hormuz continues. The Houthis struck an Aramco site near Riyadh on Saturday, and Saudi and Yemeni forces have begun a counteroffensive."
+  },
+  {
+   "title": "The UK side",
+   "text": "The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and its next decision is on 5 November. No major UK figures are due this week."
+  },
+  {
+   "title": "Where sterling stands",
+   "text": "GBP/USD is near 1.3245. On Friday morning it fell below 1.3200, close to its lowest since June, before the US jobs figures lifted it."
   }
  ],
  "lower": [
-  "US inflation or wage figures next week stronger than forecast, which would revive the chance of a Fed rise on 28 October and strengthen the dollar.",
-  "UK long-dated gilt yields rising further on worries about the public finances before the 28 October Budget, which would weigh on the pound.",
-  "OPEC+ cutting output on Sunday, or oil climbing back above $100 (about £76) on news of escalation with Iran, which tends to strengthen the dollar.",
-  "US 10-year yields climbing back towards Thursday's highs, which would keep drawing money into the dollar."
+  "Fed minutes on Wednesday showing that most members want another rate rise, which would support the dollar.",
+  "The Saudi and Houthi fighting, or the standoff with Iran, cutting oil supply again, which tends to lift oil and the dollar.",
+  "A US services survey on Monday at 18:00 Dubai stronger than the 55.1 forecast, which would point to a firmer US economy."
  ],
  "higher": [
-  "Further signs of a cooling US job market or softer inflation next week, which would keep an October Fed rise off the table and weaken the dollar.",
-  "Europe confirming a release of oil reserves, or progress in the US talks with Iran, which would keep oil lower and reduce the demand for dollars.",
-  "Gilt yields easing back from their highs, which would relieve the pressure on the pound.",
-  "Bank of England speakers pointing to a rise on 5 November, which would lift the pound."
+  "Fed minutes showing more doubt about further rises, which would add to the effect of Friday's weak jobs figures.",
+  "Oil falling further as the G7 release reaches the market, which eases US inflation worries and weakens the dollar.",
+  "A US services survey weaker than the 55.1 forecast."
  ],
- "watch": "OPEC+ meets on Sunday 4 October to set November output; a cut would tend to lift oil and the dollar, and an increase would help someone selling pounds for dirhams. Next week's US and UK calendar appears in the table below once it is published.",
+ "watch": "The US services survey (ISM) is out today at 18:00 Dubai, with 55.1 forecast against 55.4 last month, and a weaker figure would help someone selling pounds for dirhams. The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event.",
  "sources": [
+  {
+   "title": "G7 members agree to release 100 million barrels of diesel and other reserves",
+   "site": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/02/g7-members-agree-to-release-100-million-barrels-of-diesel-and-other-reserves/",
+   "date": "2 Oct"
+  },
+  {
+   "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
+   "site": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
+   "date": "4 Oct"
+  },
+  {
+   "title": "Yemeni and Saudi forces launch counteroffensive against the Houthis",
+   "site": "Axios",
+   "url": "https://www.axios.com/2026/10/04/yemen-saudi-houthis-counteroffensive",
+   "date": "4 Oct"
+  },
+  {
+   "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+   "date": "2 Oct"
+  },
   {
    "title": "Employment Situation Summary, September 2026",
    "site": "US Bureau of Labor Statistics",
@@ -143,78 +106,6 @@
    "site": "FXStreet",
    "url": "https://fxstreet.com/news/the-british-pound-slides-again-as-uk-government-bonds-sell-off-202610012226",
    "date": "1 Oct"
-  },
-  {
-   "title": "British Pound hangs near June 26 lows as firm USD eyes US NFP data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-struggles-near-june-26-lows-as-usd-retains-bullish-tone-ahead-of-us-nfp-202610020110",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Dollar hits highest since May 2025 before payrolls; Asia FX slips despite strong data",
-   "site": "investingLive",
-   "url": "https://investinglive.com/forex/dollar-hits-highest-since-may-2025-before-payrolls-asia-fx-slips-despite-strong-data/",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Oil prices edge higher as China curbs fuel exports and US urges Europe to tap diesel reserves",
-   "site": "Mezha, citing Reuters",
-   "url": "https://mezha.net/eng/news/59ac1afa_oil_prices_edge/",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Oil jumps on renewed conflict fears",
-   "site": "Rigzone",
-   "url": "https://www.rigzone.com/news/oil_jumps_on_renewed_conflict_fears-01-oct-2026-184754-article",
-   "date": "1 Oct"
-  },
-  {
-   "title": "US sends third aircraft carrier to Middle East",
-   "site": "The National",
-   "url": "https://www.thenationalnews.com/news/us/2026/10/01/us-sends-third-aircraft-carrier-to-middle-east/",
-   "date": "1 Oct"
-  },
-  {
-   "title": "US ISM Manufacturing PMI fell to 54.5 in September",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-ism-manufacturing-pmi-fell-to-545-in-september-202610011406",
-   "date": "1 Oct"
-  },
-  {
-   "title": "Manufacturing PMI at 54.5%; September 2026 ISM Manufacturing PMI Report",
-   "site": "ISM, via PR Newswire",
-   "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-5-september-2026-ism-manufacturing-pmi-report-302894520.html",
-   "date": "1 Oct"
-  },
-  {
-   "title": "UK 30-Year Gilt Yield Breaches 6% for First Time Since 1998",
-   "site": "ROIC News",
-   "url": "https://www.roic.ai/news/uk-30-year-gilt-yield-breaches-6-for-first-time-since-1998-10-01-2026",
-   "date": "1 Oct"
-  },
-  {
-   "title": "Sterling today: Pound slips as global bond rout lifts dollar, gilt yields hit 6%",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-global-bond-rout-lifts-dollar-gilt-yields-hit-6-4926602",
-   "date": "1 Oct"
-  },
-  {
-   "title": "US weekly jobless claims fall; layoffs drop in September",
-   "site": "Reuters, via Investing.com",
-   "url": "https://www.investing.com/news/economic-indicators/us-weekly-jobless-claims-fall-layoffs-drop-in-september-4927423",
-   "date": "1 Oct"
-  },
-  {
-   "title": "Treasury 10-Year Yield Hits Highest Since 2002 on Rate Outlook",
-   "site": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-01/treasury-10-year-yield-hits-highest-since-2002-on-rate-outlook-mup7ryq2",
-   "date": "1 Oct"
-  },
-  {
-   "title": "Kraken public GBP/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "2 Oct"
   }
  ],
  "calendar": [
@@ -384,5 +275,73 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-02T13:40:42Z"
+ "calendarUpdated": "2026-10-02T13:40:42Z",
+ "feed": [
+  {
+   "title": "The banks have reopened close to Friday's level",
+   "text": "GBP/USD was near 1.3245 an hour after the reopening at 01:00 Dubai, against 1.3237 at Friday's close. Kraken's weekend price had dipped to about 1.3211 on Sunday morning, and that dip has been reversed. Two pieces of weekend news pull in opposite directions, set out below.",
+   "t": "2026-10-04T22:21:47Z",
+   "rate": 1.32443
+  },
+  {
+   "title": "The G7 will release 100 million barrels of diesel and crude",
+   "text": "G7 leaders agreed on Friday to release the oil through the International Energy Agency over four months, with a large diesel release in the first 20 days, and diesel futures fell more than 4%. More supply lowers oil prices, which eases US inflation worries and tends to weaken the dollar, so each pound buys more dirhams.",
+   "t": "2026-10-04T22:21:47Z",
+   "rate": 1.32443
+  },
+  {
+   "title": "Fighting between Saudi Arabia and the Houthis has intensified",
+   "text": "The Houthis claimed a missile and drone strike on an Aramco site south of Riyadh on Saturday, and Saudi and Yemeni forces have launched a counteroffensive. Threats to oil supply tend to lift oil and the dollar, which would mean fewer dirhams per pound.",
+   "t": "2026-10-04T22:21:47Z",
+   "rate": 1.32443
+  },
+  {
+   "t": "2026-10-02T12:30:00Z",
+   "title": "US jobs report for September",
+   "text": "Employers added 29,000 jobs against 90,000 expected, and July and August were revised down by a combined 60,000. Unemployment rose to 4.2% against 4.1% expected, and hourly pay rose 0.1% in the month against 0.3% expected. A cooling US job market and slower pay growth make another Fed rate rise less likely; Reuters reported that US two-year yields fell 7 basis points to 4.716% and ten-year yields 6 basis points to 5.176%, and the market chance of an October rise fell to as low as 12%, so the dollar weakened and GBP/USD rose. GBP/USD jumped from 1.3205 just before 16:30 Dubai to a high of 1.3250 in the first minute and 1.3236 two minutes later, slipped to about 1.3219 by 16:33, and has since moved between about 1.3212 and 1.3241. It was near 1.3226 at 17:40 Dubai, about 0.15% above its level before the report, taking GBP/AED from about 4.850 to about 4.857.",
+   "when": "2026-10-02T12:30:00Z"
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "Oil falls back below $100 (about £76)",
+   "text": "Trading Economics reported on Friday that Brent fell about 3% to around $99.30 (about £75.10), as European governments considered releasing strategic oil and fuel reserves to ease fuel costs and Middle East crude flows recovered towards pre-war levels. This reverses most of Thursday's jump on the carrier report. Cheaper oil eases inflation worries and the pull of the dollar as a safe haven, which tends to help the pound against the dollar, so each pound buys slightly more dirhams. The time of the move is not known. The fall in oil came on the same day as the weaker US jobs report, and GBP/USD stood about 0.3% above Thursday evening's low near 1.3183 by 17:40 Dubai."
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "Dollar eases slightly in the European morning before the US jobs report",
+   "text": "FXStreet reported at about 11:15 Dubai that the dollar index had slipped back below 102.00 after reaching 102.20 on Thursday, its highest since April 2025, with GBP/USD slightly above 1.3210, up about 0.2% on the day. There was no UK data this morning, and FXStreet reported that the chance of an October Fed rise priced by markets had fallen to about 24%, from over 70% a week earlier. Traders tend to trim their dollar holdings before a big US report after a strong run, which lets the pound recover a little, so each pound buys slightly more dirhams. GBP/USD rose from about 1.3205 at 07:00 Dubai to a high near 1.3218 at about 10:30 Dubai, then settled near 1.3208 by 12:30 Dubai, taking GBP/AED from about 4.850 to about 4.854 and back to about 4.851."
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "Oil steadies after Thursday's jump",
+   "text": "The National reported on Friday that Brent eased 0.05% to $102.10 (about £77.30) and US crude 0.31% to $92.58 (about £70.10), as larger Saudi shipments through the Strait of Hormuz, 2.9 million barrels a day in September against about 1 million in August, balanced the US carrier deployment. OPEC+ meets on Sunday to set November output. Steady oil removes one source of fresh demand for the dollar, though prices above $100 (about £76) keep inflation worries and US yields high. The time of the news is not known. Oil's pause matched a quiet morning for GBP/USD, which stayed between about 1.3200 and 1.3218."
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "Sterling near its lowest since June in Asian trading",
+   "text": "FXStreet reported GBP/USD below 1.3200 in Asian trading on Friday, near its lowest since 26 June, with the dollar index near 102, its highest since spring 2025, and traders waiting for the US jobs report. Brent rose a further 0.3% to $102.60 (about £77.70), Reuters reported. With US yields high and oil dear, money has kept flowing into the dollar, so each pound buys fewer dirhams; quiet trading before a big report tends to hold the rate near its lows. GBP/USD eased from about 1.3195 at 03:30 Dubai to a low near 1.3180 at about 05:35 Dubai, then recovered to about 1.3204 by 07:35 Dubai, taking GBP/AED from about 4.840 back to about 4.849."
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "Report of a third US aircraft carrier for the Middle East lifts oil",
+   "text": "The Wall Street Journal reported on Thursday that the US is sending the USS Theodore Roosevelt strike group to the Middle East, with up to 10,000 more troops, and a US official confirmed the deployment to The National. Brent for December settled up 4.4% at $102.31 (about £77.50) and US crude up 2.7% at $92.87 (about £70.40). Dearer oil and the risk of renewed conflict with Iran push up inflation worries and US yields and draw money into the dollar as a safe haven, so each pound buys fewer dirhams. The time of the report is not known. GBP/USD slid from about 1.3226 at 18:45 Dubai to about 1.3207 at 19:05 Dubai and to a low near 1.3183 by 19:50 Dubai, then settled near 1.3190 through the evening."
+  },
+  {
+   "t": "2026-10-01T14:00:00Z",
+   "title": "US factory survey (ISM), September",
+   "text": "54.5 against 55.0 expected and 54.6 in August, the ninth month of growth in a row. The prices paid index jumped to 77.9 from 71.1, and the employment index rose to 52.7 from 51.2. A slightly softer headline would normally weaken the dollar, but the sharp rise in prices paid points to more inflation, which keeps a Fed rise in play and supported the dollar. GBP/USD fell from 1.3234 just before the release to about 1.3221 within five minutes, then held near 1.3225 for the next half hour.",
+   "when": "2026-10-01T14:00:00Z"
+  },
+  {
+   "t": "2026-10-02T13:40:42Z",
+   "title": "UK 30-year borrowing costs pass 6% for the first time since 1998",
+   "text": "The 30-year gilt yield briefly reached about 6.03% on Thursday and the 10-year gilt yield moved above 5.50%, its highest since 2007, amid worries about energy-driven inflation, heavy government borrowing and the Budget on 28 October. The FTSE 100 lost 177.73 points. When UK yields rise because investors worry about the public finances, rather than because the economy is strong, the pound tends to fall with gilt prices, so each pound buys fewer dirhams. This weighed on sterling through Thursday alongside the firmer dollar; GBP/USD fell from about 1.3263 early on Thursday to about 1.3190 by the evening."
+  },
+  {
+   "t": "2026-10-01T12:30:00Z",
+   "title": "US weekly jobless claims",
+   "text": "197,000 new claims in the week to 26 September, against about 201,000 expected, the lowest since July. Continuing claims fell to 1.701 million. Fewer people losing their jobs points to a strong US labour market, which normally keeps a Fed rise in play and supports the dollar. GBP/USD edged up from 1.3228 just before the release to about 1.3235 within two minutes, as sterling had already fallen a long way that morning.",
+   "when": "2026-10-01T12:30:00Z"
+  }
+ ]
 }
