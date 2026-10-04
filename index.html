@@ -236,6 +236,24 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
 .twoway li + li { margin-top: 5px; }
 .twoway .down h3 { color: var(--loss); }
 .twoway .up h3 { color: var(--gain); }
+.now { margin: 16px 0 6px; padding: 14px 16px; background: var(--raised); border: 1px solid var(--rule); border-radius: 10px; }
+.now h3 { margin-bottom: 8px; }
+.now ul { margin: 0; padding-left: 1.15em; display: grid; gap: 6px; font-size: 15px; }
+.now li b { font-weight: 650; }
+.now li.gain::marker { color: var(--gain); }
+.now li.loss::marker { color: var(--loss); }
+.feed { list-style: none; margin: 6px 0 20px; padding: 0; display: grid; gap: 0; }
+.feed li { padding: 12px 0 12px 14px; border-left: 3px solid var(--rule); position: relative; }
+.feed li + li { border-top: 1px solid var(--rule); }
+.feed li:first-child { border-left-color: var(--accent); }
+.feed .at { display: block; color: var(--ink-3); font-size: 12.5px; font-weight: 600; letter-spacing: .02em; }
+.feed .ti { display: block; font-weight: 680; font-size: 16px; margin-top: 1px; text-wrap: balance; }
+.feed p { margin: 4px 0 0; font-size: 14.5px; color: var(--ink-2); }
+.feed .measure { color: var(--ink); font-weight: 600; }
+.feed .measure.gain { color: var(--gain); }
+.feed .measure.loss { color: var(--loss); }
+.feed .lbl { color: var(--ink-3); font-size: 12.5px; font-weight: 620; margin-right: 6px; }
+details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; font-weight: 560; margin: -8px 0 16px; }
 .happened { list-style: none; margin: 6px 0 20px; padding: 0; display: grid; gap: 12px; }
 .happened li { padding: 11px 13px; background: var(--raised); border: 1px solid var(--rule); border-radius: 8px; }
 .happened .ev { font-weight: 680; }
@@ -431,9 +449,13 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
 
   <section class="market" id="market" aria-labelledby="marketTitle">
     <h2 id="marketTitle">What is moving the rate</h2>
-    <p class="note">This section sets out what is moving sterling against the dollar and what is scheduled. It does not forecast the rate. The notes are written from published market reports; the gauges beside them are worked out live from Kraken's prices.</p>
+    <p class="note">This section sets out what is moving sterling against the dollar and what is scheduled. It does not forecast the rate. "Right now" and the gauges are worked out live from Kraken's prices. The updates are written from published market reports, and one is posted only when something moves the rate.</p>
+    <section class="now" aria-labelledby="nowTitle">
+      <h3 id="nowTitle">Right now</h3>
+      <ul id="nowList"><li>Worked out from live prices once they arrive.</li></ul>
+    </section>
     <div class="market-grid">
-      <article id="notes" aria-label="Market notes"><p class="stamp">Loading the market notes.</p></article>
+      <article id="notes" aria-label="Market updates"><p class="stamp">Loading the latest updates.</p></article>
       <div class="gauges">
         <section class="gauge" aria-labelledby="g1">
           <h3 id="g1">Dollar or pound today?</h3>
@@ -793,7 +815,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
   function loadMinutes() {
     return ohlc('GBPUSD', 1).then(function (b) {
       state.minute = b; state.minuteIdx = new Map(b.map(function (x, i) { return [x.t, i]; }));
-      renderMeasures();
+      renderMeasures(); renderNow();
     }).catch(function () { /* the reactions show once the prices load */ });
   }
   /* The move in GBP/USD around a piece of news: the close a minute before, and fifteen minutes after.
@@ -813,7 +835,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
       if (!r || Date.now() / 1000 < t + 60) { el.textContent = ''; return; }
       var d = diffVs(r.after, r.before);
       el.className = 'measure ' + (d > 0 ? 'gain' : d < 0 ? 'loss' : '');
-      el.innerHTML = '<span class="lbl">Measured</span>GBP/USD ' + r.before.toFixed(4) + ' ' + r.from + ', ' + r.after.toFixed(4) + ' ' + r.span + ' (' + pctSigned(r.after / r.before - 1) + '). On your ' + gbpExact(cfg.amount) + ' that is ' + withGbpSigned(d) + '.';
+      el.innerHTML = '<span class="lbl">Measured:</span>GBP/USD ' + r.before.toFixed(4) + ' ' + r.from + ', ' + r.after.toFixed(4) + ' ' + r.span + ' (' + pctSigned(r.after / r.before - 1) + '). On your ' + gbpExact(cfg.amount) + ' that is ' + withGbpSigned(d) + '.';
     });
   }
   function loadDaily() {
@@ -1353,22 +1375,79 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
         '<p>Over the last month it has closed between ' + ind.m1.lo.toFixed(4) + ' and ' + ind.m1.hi.toFixed(4) + ', and it is ' + m1pos + ' that range. The 14-day RSI, a common momentum gauge, is ' + Math.round(ind.rsi) + ', ' + rsiText + '.</p>';
     }
   }
+  /* ---------- right now: what the prices themselves say ---------- */
+  function hoursUntil(test, now) { var t = Math.ceil(now / 3600) * 3600; for (var i = 0; i < 30; i++, t += 3600) { if (test(t)) return t; } return null; }
+  function sessionLine(now) {
+    if (!isFxOpen(now)) {
+      var o = nextFxOpen(now);
+      return 'The banks are shut until ' + dxbDay(o) + ' ' + dxbTime(o) + ' Dubai. The price shown is Kraken\'s weekend price, a guide to where they will reopen.';
+    }
+    var p = lonParts(now), lh = +p.hour + (+p.minute) / 60, weekday = p.weekday !== 'Sat' && p.weekday !== 'Sun';
+    var london = weekday && lh >= 8 && lh < 17, ny = nyWH(now), newYork = ny.wd !== 'Sat' && ny.wd !== 'Sun' && ny.h >= 8 && ny.h < 17, s;
+    if (london && newYork) s = 'London and New York are both open, the busiest hours of the day.';
+    else if (london) { var nyo = hoursUntil(function (t) { return nyWH(t).h === 8; }, now); s = 'London is open. New York opens at ' + dxbTime(nyo) + ' Dubai.'; }
+    else if (newYork) s = 'New York is open and London has finished for the day.';
+    else { var lo = hoursUntil(function (t) { var q = lonParts(t); return +q.hour === 8 && q.weekday !== 'Sat' && q.weekday !== 'Sun'; }, now); s = 'Asia is trading, the quietest hours. London opens at ' + dxbTime(lo) + ' Dubai.'; }
+    var start = sessionStart(now);
+    if (start && nyWH(start).wd === 'Sun' && now - start < 12 * 3600) s = 'The banks reopened at ' + dxbTime(start) + ' Dubai after the weekend. ' + s;
+    return s;
+  }
+  function sharpest() {
+    var m = state.minute, best = null;
+    if (!m || m.length < 30) return null;
+    for (var i = 15; i < m.length; i++) {
+      if (!isFxOpen(m[i].t) || m[i].t - m[i - 15].t > 16 * 60) continue;
+      var ch = m[i].c / m[i - 15].c - 1;
+      if (!best || Math.abs(ch) > Math.abs(best.ch)) best = { ch: ch, t0: m[i - 15].t, t1: m[i].t };
+    }
+    return best;
+  }
+  function renderNow() {
+    if (!state.mid) return;
+    var now = Date.now() / 1000, open = isFxOpen(now), td = todayInfo(), items = [];
+    items.push({ html: sessionLine(now) });
+    if (open && td) {
+      var monday = nyWH(td.start).wd === 'Sun';
+      items.push({ cls: td.aed > 0 ? 'gain' : td.aed < 0 ? 'loss' : '', html: 'Since ' + (monday ? 'Friday\'s close' : dxbTime(td.start) + ' Dubai') + ' GBP/USD is ' + (td.pct >= 0 ? 'up ' : 'down ') + (Math.abs(td.pct) * 100).toFixed(2) + '%. On your ' + gbpExact(cfg.amount) + ' that is <b>' + withGbpSigned(td.aed) + '</b>.' });
+      var eu = crossToday('EUR/USD', td.start, td.ref, td.open), eg = crossToday('EUR/GBP', td.start, td.ref, td.open);
+      if (eu != null && eg != null && Math.abs(td.pct) >= 0.0003) {
+        var who;
+        if (Math.abs(eu) >= 1.5 * Math.abs(eg)) who = 'That is mostly the dollar, which is ' + (eu > 0 ? 'weaker' : 'stronger') + ' across the board: the euro is ' + (eu > 0 ? 'up ' : 'down ') + (Math.abs(eu) * 100).toFixed(2) + '% against it too.';
+        else if (Math.abs(eg) >= 1.5 * Math.abs(eu)) who = 'That is mostly the pound, which is ' + (eg < 0 ? 'stronger' : 'weaker') + ' against the euro as well, by ' + (Math.abs(eg) * 100).toFixed(2) + '%.';
+        else who = 'That is a mix: the dollar is ' + (eu > 0 ? 'weaker' : 'stronger') + ' against the euro, and the pound is ' + (eg < 0 ? 'stronger' : 'weaker') + ' against the euro.';
+        items.push({ html: who });
+      }
+    } else if (!open && state.hourly.length) {
+      var fc = closeBefore(state.hourly, state.hourIdx, lastOpenHour(now) + 3600);
+      if (fc) { var wk = diffVs(state.mid, fc); items.push({ cls: wk > 0 ? 'gain' : wk < 0 ? 'loss' : '', html: 'Since the banks shut, Kraken\'s price has moved ' + pctSigned(state.mid / fc - 1) + '. On your ' + gbpExact(cfg.amount) + ' that would be <b>' + withGbpSigned(wk) + '</b> if they reopened here.' }); }
+    }
+    var sh = sharpest();
+    if (sh && Math.abs(sh.ch) >= 0.0006) {
+      var ev = null;
+      ((state.market && state.market.calendar) || []).forEach(function (e) { var t = Date.parse(e.t) / 1000; if (t >= sh.t0 - 120 && t <= sh.t1) ev = e; });
+      items.push({ html: 'The sharpest move in the last 12 hours was a ' + (sh.ch > 0 ? 'rise' : 'fall') + ' of ' + (Math.abs(sh.ch) * 100).toFixed(2) + '% in the 15 minutes to ' + dxbTime(sh.t1) + ' Dubai' + (ev ? ', straight after ' + esc(ev.name) : '') + '.' });
+    }
+    var ind = indicators();
+    if (open && td && ind) items.push({ html: 'A normal day moves the rate about ' + (ind.typical * 100).toFixed(2) + '% either way, so today is ' + (Math.abs(td.pct) < 0.5 * ind.typical ? 'quiet so far' : Math.abs(td.pct) <= 1.25 * ind.typical ? 'an ordinary day so far' : 'a bigger day than usual') + '.' });
+    $('nowList').innerHTML = items.map(function (x) { return '<li' + (x.cls ? ' class="' + x.cls + '"' : '') + '>' + x.html + '</li>'; }).join('');
+  }
+
   function renderNotes() {
     var m = state.market, el = $('notes');
     if (!m) return;
-    var upd = Date.parse(m.updated) / 1000, age = (Date.now() / 1000 - upd) / 3600;
-    var html = '<p class="stamp' + (age > 12 ? ' old' : '') + '">Market notes, updated ' + dxbWhen(upd) + ' Dubai' + (age > 12 ? ', ' + Math.round(age) + ' hours ago' : '') + '.</p>';
-    if (m.headline) html += '<p class="lead-note">' + esc(m.headline) + '</p>';
-    if (m.happened && m.happened.length) {
-      html += '<h3>What moved the rate: cause and effect</h3><ol class="happened">' + m.happened.map(function (h) {
-        var t = h.when ? Date.parse(h.when) / 1000 : null;
-        return '<li><div><span class="ev">' + esc(h.event) + '</span>' + (t ? '<span class="at">' + dxbWhen(t) + ' Dubai</span>' : '') + '</div>' +
-          '<p><span class="lbl">Result</span>' + esc(h.result) + '</p>' +
-          '<p><span class="lbl">Why it matters</span>' + esc(h.why) + '</p>' +
-          (h.effect ? '<p><span class="lbl">What the rate did</span>' + esc(h.effect) + '</p>' : '') +
-          (t ? '<p class="measure" data-t="' + t + '"></p>' : '') + '</li>';
-      }).join('') + '</ol>';
+    var feed = m.feed || (m.happened || []).map(function (h) { return { t: h.when || m.updated, title: h.event, text: [h.result, h.why, h.effect].filter(Boolean).join(' '), when: h.when }; });
+    var last = feed.length ? Date.parse(feed[0].t) / 1000 : Date.parse(m.updated) / 1000;
+    var html = m.headline ? '<p class="lead-note">' + esc(m.headline) + '</p>' : '';
+    function item(f) {
+      var t = Date.parse(f.t) / 1000, w = f.when ? Date.parse(f.when) / 1000 : null;
+      return '<li><span class="at">' + dxbWhen(t) + ' Dubai</span><span class="ti">' + esc(f.title) + '</span><p>' + esc(f.text) + '</p>' + (w ? '<p class="measure" data-t="' + w + '"></p>' : '') + '</li>';
     }
+    html += '<h3>Latest updates</h3><p class="stamp">An update is posted only when something moves the rate. The check runs every hour on weekdays, from 07:30 to 23:30 Dubai. Last update: ' + dxbWhen(last) + ' Dubai.</p>';
+    if (feed.length) {
+      html += '<ol class="feed">' + feed.slice(0, 5).map(item).join('') + '</ol>';
+      if (feed.length > 5) html += '<details class="older"><summary>Earlier updates (' + (feed.length - 5) + ')</summary><ol class="feed">' + feed.slice(5).map(item).join('') + '</ol></details>';
+    }
+    if (m.drivers && m.drivers.length) html += '<h3>The standing picture</h3>';
     if (m.drivers && m.drivers.length) html += '<ul class="drivers">' + m.drivers.map(function (d) { return '<li><b>' + esc(d.title) + '</b><span>' + esc(d.text) + '</span></li>'; }).join('') + '</ul>';
     if ((m.lower && m.lower.length) || (m.higher && m.higher.length)) {
       html += '<div class="twoway">' +
@@ -1533,7 +1612,7 @@ details.panel summary { cursor: pointer; font-family: var(--display); font-stret
     });
     setInterval(frame, 250);
     setInterval(renderStatus, 1000);
-    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); } }, 2000);
+    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); renderNow(); } }, 2000);
     setInterval(function () { if (state.histOk) { buildRefs(); renderCompareOptions(); } renderCalendar(); }, 60000);
     setInterval(loadMarket, 10 * 60000);
     setInterval(function () { loadCrosses(); loadMinutes(); }, 15 * 60000);
