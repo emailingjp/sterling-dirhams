@@ -1,18 +1,22 @@
 {
- "updated": "2026-10-04T22:21:47Z",
- "headline": "The banks reopened on Monday with sterling close to Friday's level. Friday's weak US jobs figures and the G7's oil release are working against the dollar, while the fighting between Saudi Arabia and the Houthis is working for it.",
+ "updated": "2026-10-05T03:39:57Z",
+ "headline": "Sterling has slipped to about 1.3200 against the dollar in Monday's Asian trading, from 1.3237 at Friday's close, as the dollar strengthened against most currencies. Friday's weak US jobs figures and the G7's oil release work against the dollar, while higher US yields, the Middle East and worries about France's budget work for it.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "After Friday's weak US jobs report, traders see little chance of a Fed rise at the 28 October meeting, though a rise in December is still priced. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
+   "text": "After Friday's weak US jobs report, traders put the chance of a Fed rise at the 28 October meeting at about 22%, down from 64% a week earlier, Reuters reported on 4 October. The Fed's Lorie Logan has since said rates need to rise by at least a further 50 basis points, FXStreet reported on 5 October. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
   },
   {
    "title": "Oil supply",
-   "text": "The G7 will release 100 million barrels of diesel and crude over four months, starting with diesel. Brent ended last week close to $100 (about £75.50) a barrel."
+   "text": "The G7 will release 100 million barrels of diesel and crude over four months, starting with diesel. Reports of Brent early on Monday 5 October ranged from about $101.60 to $103 (about £77 to £78) a barrel."
   },
   {
    "title": "The Middle East",
-   "text": "The US-Iran standoff over the Strait of Hormuz continues. The Houthis struck an Aramco site near Riyadh on Saturday, and Saudi and Yemeni forces have begun a counteroffensive."
+   "text": "The US-Iran standoff over the Strait of Hormuz continues. The Houthis said they fired missiles and drones at Aramco sites in Riyadh and the Khurais area at the weekend, which Saudi Arabia has not confirmed, and Saudi and Yemeni forces have begun a counteroffensive."
+  },
+  {
+   "title": "France and the euro",
+   "text": "France's minority government presented a 2027 budget on 1 October with 54 billion euros (about £47 billion) of savings, and analysts doubt it can pass without concessions. French ten-year yields reached their highest since 2002 last week. A weaker euro lifts the dollar against other currencies, the pound included."
   },
   {
    "title": "The UK side",
@@ -20,7 +24,7 @@
   },
   {
    "title": "Where sterling stands",
-   "text": "GBP/USD is near 1.3245. On Friday morning it fell below 1.3200, close to its lowest since June, before the US jobs figures lifted it."
+   "text": "GBP/USD is near 1.3200 after a low of 1.3188 at 07:08 Dubai on Monday 5 October. Its low on Friday 2 October was about 1.3180, close to its lowest since June."
   }
  ],
  "lower": [
@@ -35,6 +39,36 @@
  ],
  "watch": "The US services survey (ISM) is out today at 18:00 Dubai, with 55.1 forecast against 55.4 last month, and a weaker figure would help someone selling pounds for dirhams. The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event.",
  "sources": [
+  {
+   "title": "United States Dollar Index gathers strength above 102.00 on safe-haven flows",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/united-states-dollar-index-gathers-strength-above-10200-on-safe-haven-flows-202610050257",
+   "date": "5 Oct"
+  },
+  {
+   "title": "British Pound softens as US Dollar gains despite easing Fed rate hike odds",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-softens-as-us-dollar-gains-despite-easing-fed-rate-hike-odds-202610050114",
+   "date": "5 Oct"
+  },
+  {
+   "title": "Euro softens below 1.1250 on France's fiscal risk",
+   "site": "FXStreet, via Mitrade",
+   "url": "https://mitrade.com/insights/forex-analysis/eur/fxstreet-EURUSD-202610050920",
+   "date": "5 Oct"
+  },
+  {
+   "title": "Stocks upbeat, dollar wobbles as Fed hike bets recede",
+   "site": "Reuters, via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/stocks-upbeat-dollar-wobbles-as-fed-hike-bets-recede-4930982",
+   "date": "4 Oct"
+  },
+  {
+   "title": "Oil prices after Yemeni Houthis attack Saudi Aramco sites",
+   "site": "Global Banking and Finance Review",
+   "url": "https://www.globalbankingandfinance.com/oil-climbs-yemeni-houthis-attack-saudi-aramco-sites/",
+   "date": "5 Oct"
+  },
   {
    "title": "G7 members agree to release 100 million barrels of diesel and other reserves",
    "site": "The National",
@@ -76,36 +110,6 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "2 Oct"
-  },
-  {
-   "title": "Pound Sterling Price News and Forecast: GBP/USD rebounds from 0.618 Arc",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-usd-rebounds-from-0618-arc-202610021311",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Forex Today: US Dollar consolidates weekly gains ahead of critical Nonfarm Payrolls data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-consolidates-weekly-gains-ahead-of-critical-nonfarm-payrolls-data-202610020714",
-   "date": "2 Oct"
-  },
-  {
-   "title": "US Non Farm payrolls: to confirm if the Fed does remain on hold in October",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/analysis/us-non-farm-payrolls-to-confirm-if-the-fed-does-remain-on-hold-in-october-202610020639",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Oil prices stable amid mixed supply signals from the Middle East",
-   "site": "The National",
-   "url": "https://www.thenationalnews.com/business/energy/2026/10/02/oil-prices-stable-amid-mixed-supply-signals-from-the-middle-east/",
-   "date": "2 Oct"
-  },
-  {
-   "title": "The British Pound slides again as UK government bonds sell off",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/news/the-british-pound-slides-again-as-uk-government-bonds-sell-off-202610012226",
-   "date": "1 Oct"
   }
  ],
  "calendar": [
@@ -165,8 +169,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-04T22:26:46Z",
+ "calendarUpdated": "2026-10-05T03:39:57Z",
  "feed": [
+  {
+   "title": "The dollar has strengthened in Asian trading",
+   "text": "FXStreet reported the dollar index above 102.20 just before 07:00 Dubai, citing higher US Treasury yields, the conflicts in the Middle East, worries about France's budget and remarks from the Fed's Lorie Logan that rates need to rise by at least a further 50 basis points. Money moving into the dollar for safety and for yield means fewer dirhams per pound. GBP/USD fell from 1.3233 at 06:00 Dubai to 1.3217 at 06:42 and a low of 1.3188 at 07:08, then recovered to about 1.3201 by 07:38; no source names a single event for the sharpest minutes. The euro fell further than the pound, about 0.5% against 0.3%, which points to the dollar and the euro, not to anything in the UK.",
+   "t": "2026-10-05T03:39:57Z",
+   "rate": 1.32011
+  },
   {
    "title": "The banks have reopened close to Friday's level",
    "text": "GBP/USD was near 1.3245 an hour after the reopening at 01:00 Dubai, against 1.3237 at Friday's close. Kraken's weekend price had dipped to about 1.3211 on Sunday morning, and that dip has been reversed. Two pieces of weekend news pull in opposite directions, set out below.",
