@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-05T03:39:57Z",
- "headline": "Sterling has slipped to about 1.3200 against the dollar in Monday's Asian trading, from 1.3237 at Friday's close, as the dollar strengthened against most currencies. Friday's weak US jobs figures and the G7's oil release work against the dollar, while higher US yields, the Middle East and worries about France's budget work for it.",
+ "updated": "2026-10-05T08:39:27Z",
+ "headline": "Sterling fell to a low of 1.3188 against the dollar in Monday's Asian trading and has recovered to about 1.3230 in the European morning, close to Friday's close of 1.3237, as the dollar came off a new high for the year. Friday's weak US jobs figures and the G7's oil release work against the dollar, while higher US yields, the Middle East and worries about France's budget work for it.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -39,6 +39,24 @@
  ],
  "watch": "The US services survey (ISM) is out today at 18:00 Dubai, with 55.1 forecast against 55.4 last month, and a weaker figure would help someone selling pounds for dirhams. The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event.",
  "sources": [
+  {
+   "title": "GBP/USD Price Forecast: YTD low near 1.3140 to act as key support level",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/currencies/gbpusd",
+   "date": "5 Oct"
+  },
+  {
+   "title": "British pound: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "5 Oct"
+  },
+  {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "5 Oct"
+  },
   {
    "title": "United States Dollar Index gathers strength above 102.00 on safe-haven flows",
    "site": "FXStreet",
@@ -91,24 +109,6 @@
    "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
    "site": "CNBC",
    "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Employment Situation Summary, September 2026",
-   "site": "US Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Soft September jobs report sends markets higher",
-   "site": "Reuters, via Investing.com",
-   "url": "https://www.investing.com/news/economy-news/soft-september-jobs-report-sends-markets-higher-4929845",
-   "date": "2 Oct"
-  },
-  {
-   "title": "Brent crude oil price and news",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "2 Oct"
   }
  ],
@@ -169,8 +169,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-05T03:39:57Z",
+ "calendarUpdated": "2026-10-05T08:39:27Z",
  "feed": [
+  {
+   "title": "The dollar has eased back from its morning high",
+   "text": "FXStreet put the dollar index near 102.53, a new high for the year, at about 10:00 Dubai, and Trading Economics showed it near 102.19 later in the morning, as London and Europe opened. Trading Economics also reported Brent slipping towards $101 (about £76) a barrel earlier in the session on signs of rising supply, which eases the pull of the dollar. GBP/USD has climbed steadily from about 1.3192 at 08:30 Dubai to about 1.3230 at 12:35 Dubai, recovering most of the early fall; the euro rose by about the same 0.3% over those hours, so this is the dollar giving ground, and no source names a single event for it.",
+   "t": "2026-10-05T08:39:27Z",
+   "rate": 1.32295
+  },
   {
    "title": "The dollar has strengthened in Asian trading",
    "text": "FXStreet reported the dollar index above 102.20 just before 07:00 Dubai, citing higher US Treasury yields, the conflicts in the Middle East, worries about France's budget and remarks from the Fed's Lorie Logan that rates need to rise by at least a further 50 basis points. Money moving into the dollar for safety and for yield means fewer dirhams per pound. GBP/USD fell from 1.3233 at 06:00 Dubai to 1.3217 at 06:42 and a low of 1.3188 at 07:08, then recovered to about 1.3201 by 07:38; no source names a single event for the sharpest minutes. The euro fell further than the pound, about 0.5% against 0.3%, which points to the dollar and the euro, not to anything in the UK.",
