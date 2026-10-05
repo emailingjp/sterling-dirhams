@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T08:39:27Z",
+ "updated": "2026-10-05T10:39:40Z",
  "headline": "Sterling fell to a low of 1.3188 against the dollar in Monday's Asian trading and has recovered to about 1.3230 in the European morning, close to Friday's close of 1.3237, as the dollar came off a new high for the year. Friday's weak US jobs figures and the G7's oil release work against the dollar, while higher US yields, the Middle East and worries about France's budget work for it.",
  "drivers": [
   {
@@ -39,6 +39,18 @@
  ],
  "watch": "The US services survey (ISM) is out today at 18:00 Dubai, with 55.1 forecast against 55.4 last month, and a weaker figure would help someone selling pounds for dirhams. The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event.",
  "sources": [
+  {
+   "title": "Why is the US Dollar rising despite October Fed hike odds fading",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/why-is-the-us-dollar-rising-despite-october-fed-hike-odds-fading-202610051037",
+   "date": "5 Oct"
+  },
+  {
+   "title": "US dollar index: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "5 Oct"
+  },
   {
    "title": "GBP/USD Price Forecast: YTD low near 1.3140 to act as key support level",
    "site": "FXStreet",
@@ -98,18 +110,6 @@
    "site": "Al Jazeera",
    "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies",
    "date": "4 Oct"
-  },
-  {
-   "title": "Yemeni and Saudi forces launch counteroffensive against the Houthis",
-   "site": "Axios",
-   "url": "https://www.axios.com/2026/10/04/yemen-saudi-houthis-counteroffensive",
-   "date": "4 Oct"
-  },
-  {
-   "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
-   "date": "2 Oct"
   }
  ],
  "calendar": [
@@ -169,8 +169,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-05T08:39:27Z",
+ "calendarUpdated": "2026-10-05T10:39:40Z",
  "feed": [
+  {
+   "title": "The dollar has firmed again as the euro slips",
+   "text": "GBP/USD fell from 1.3230 at 13:38 Dubai to 1.3216 at 13:45 and has since held between about 1.3218 and 1.3225. The euro fell by the same 0.1% against the dollar in those minutes and the pound was unchanged against the euro, so this is the dollar strengthening, which means fewer dirhams per pound, and nothing in the UK. No source names a single event for those minutes; FXStreet, writing at 14:37 Dubai, put the dollar's strength down to heavy selling of the euro over France's budget, high long-term US yields and geopolitical tension, and Trading Economics added political uncertainty in Spain.",
+   "t": "2026-10-05T10:39:40Z",
+   "rate": 1.32217
+  },
   {
    "title": "The dollar has eased back from its morning high",
    "text": "FXStreet put the dollar index near 102.53, a new high for the year, at about 10:00 Dubai, and Trading Economics showed it near 102.19 later in the morning, as London and Europe opened. Trading Economics also reported Brent slipping towards $101 (about £76) a barrel earlier in the session on signs of rising supply, which eases the pull of the dollar. GBP/USD has climbed steadily from about 1.3192 at 08:30 Dubai to about 1.3230 at 12:35 Dubai, recovering most of the early fall; the euro rose by about the same 0.3% over those hours, so this is the dollar giving ground, and no source names a single event for it.",
