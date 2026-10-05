@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T13:39:41Z",
+ "updated": "2026-10-05T14:39:57Z",
  "headline": "Sterling fell to a low of 1.3188 against the dollar in Monday's Asian trading and has recovered to about 1.3230 in the European morning, close to Friday's close of 1.3237, as the dollar came off a new high for the year. Friday's weak US jobs figures and the G7's oil release work against the dollar, while higher US yields, the Middle East and worries about France's budget work for it.",
  "drivers": [
   {
@@ -30,15 +30,27 @@
  "lower": [
   "Fed minutes on Wednesday showing that most members want another rate rise, which would support the dollar.",
   "The Saudi and Houthi fighting, or the standoff with Iran, cutting oil supply again, which tends to lift oil and the dollar.",
-  "A US services survey on Monday at 18:00 Dubai stronger than the 55.1 forecast, which would point to a firmer US economy."
+  "Traders giving more weight to the rise in prices paid by US services firms, at 74.0 the highest since July 2022, which would point to more Fed rises and a stronger dollar."
  ],
  "higher": [
   "Fed minutes showing more doubt about further rises, which would add to the effect of Friday's weak jobs figures.",
   "Oil falling further as the G7 release reaches the market, which eases US inflation worries and weakens the dollar.",
-  "A US services survey weaker than the 55.1 forecast."
+  "Further signs of slowing US activity after the services survey came in at 54.9 against 55.1 forecast, which would make Fed rises less likely."
  ],
- "watch": "The US services survey (ISM) is out today at 18:00 Dubai, with 55.1 forecast against 55.4 last month, and a weaker figure would help someone selling pounds for dirhams. The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event.",
+ "watch": "The Fed minutes on Wednesday at 22:00 Dubai are the week's main scheduled event. Minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them.",
  "sources": [
+  {
+   "title": "United States ISM Services PMI",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/non-manufacturing-pmi",
+   "date": "5 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "5 Oct"
+  },
   {
    "title": "Euro: quote and commentary",
    "site": "Trading Economics",
@@ -98,18 +110,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-softens-as-us-dollar-gains-despite-easing-fed-rate-hike-odds-202610050114",
    "date": "5 Oct"
-  },
-  {
-   "title": "Euro softens below 1.1250 on France's fiscal risk",
-   "site": "FXStreet, via Mitrade",
-   "url": "https://mitrade.com/insights/forex-analysis/eur/fxstreet-EURUSD-202610050920",
-   "date": "5 Oct"
-  },
-  {
-   "title": "Stocks upbeat, dollar wobbles as Fed hike bets recede",
-   "site": "Reuters, via Investing.com",
-   "url": "https://www.investing.com/news/economy-news/stocks-upbeat-dollar-wobbles-as-fed-hike-bets-recede-4930982",
-   "date": "4 Oct"
   }
  ],
  "calendar": [
@@ -169,8 +169,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-05T13:39:41Z",
+ "calendarUpdated": "2026-10-05T14:39:57Z",
  "feed": [
+  {
+   "title": "The US services survey was slightly soft, but prices rose",
+   "text": "The ISM services index for September came in at 54.9 against 55.1 forecast and 55.4 in August, Trading Economics reported, while its measure of prices paid rose to 74.0 from 72.6, the highest since July 2022, and its employment measure returned to growth at 50.1 from 47.8. A softer headline makes Fed rises a little less likely, which weakens the dollar, but faster price rises and firmer hiring point the other way, so the two largely cancelled out. GBP/USD rose from 1.3195 just before the release at 18:00 Dubai to 1.3202 four minutes later, touched 1.3205 at 18:12 and 1.3207 at 18:32, and stood near 1.3200 at 18:38.",
+   "when": "2026-10-05T14:00:00Z",
+   "t": "2026-10-05T14:39:57Z",
+   "rate": 1.31998
+  },
   {
    "title": "The dollar has strengthened as the euro hits a 17-month low",
    "text": "Spain's prime minister, Pedro Sánchez, called a snap election today after Congress rejected his housing measures, which added to the worries over France's budget and took the euro to its weakest against the dollar since May 2025, Trading Economics and FXStreet reported. Money leaving the euro lifts the dollar against every currency, the pound included, which means fewer dirhams per pound. GBP/USD slid steadily from 1.3221 at 16:35 Dubai to 1.3192 at 17:38, with a low of 1.3191, while the euro fell by a similar 0.2% against the dollar and the pound was little changed against the euro, so nothing in the UK lies behind it; the US services survey follows at 18:00 Dubai.",
