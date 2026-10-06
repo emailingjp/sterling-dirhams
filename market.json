@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T03:39:52Z",
+ "updated": "2026-10-06T11:39:58Z",
  "headline": "Sterling is near 1.3217 against the dollar early on Tuesday in Dubai, inside the range of 1.3180 to 1.3250 it has kept since Friday, with the dollar steady just below Monday's 18-month high. High US bond yields and the euro's political troubles support the dollar, while Friday's weak US jobs figures and falling oil work against it, and the Fed minutes on Wednesday are the next scheduled test.",
  "drivers": [
   {
@@ -41,6 +41,36 @@
  "watch": "Nothing major is scheduled for Tuesday. The Fed minutes on Wednesday at 22:00 Dubai are the week's main event, and they carry no forecast: minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them. US weekly jobless claims follow on Thursday at 16:30 Dubai, forecast at 200,000.",
  "sources": [
   {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "6 Oct"
+  },
+  {
+   "title": "US dollar index: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "6 Oct"
+  },
+  {
+   "title": "Euro trims some losses as the decline in Oil prices offsets weak Eurozone releases",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-dips-further-as-grim-german-data-adds-to-political-uncertainty-and-debt-issues-202610060645",
+   "date": "6 Oct"
+  },
+  {
+   "title": "US Dollar: Supported by ISM and Fed pricing (BBH)",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-dollar-supported-by-ism-and-fed-pricing-bbh-202610061115",
+   "date": "6 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD one minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "6 Oct"
+  },
+  {
    "title": "Euro faces political, fiscal reckoning as it hovers near 17-month low",
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/forex-news/euro-faces-political-fiscal-reckoning-as-it-hovers-near-17month-low-4933206",
@@ -65,18 +95,6 @@
    "date": "5 Oct"
   },
   {
-   "title": "US dollar index: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "6 Oct"
-  },
-  {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "5 Oct"
-  },
-  {
    "title": "GBP/USD 15 minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
@@ -89,27 +107,9 @@
    "date": "5 Oct"
   },
   {
-   "title": "GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "5 Oct"
-  },
-  {
    "title": "Euro: quote and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/euro-area/currency",
-   "date": "5 Oct"
-  },
-  {
-   "title": "Euro extends decline against British Pound on France debt concerns",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-extends-decline-against-british-pound-on-france-debt-concerns-202610051249",
-   "date": "5 Oct"
-  },
-  {
-   "title": "British Pound recovers some losses against US Dollar, ISM Services PMI eyed",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-recovers-some-losses-against-us-dollar-ism-services-pmi-eyed-202610051129",
    "date": "5 Oct"
   }
  ],
@@ -192,8 +192,20 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-06T03:39:52Z",
+ "calendarUpdated": "2026-10-06T11:39:58Z",
  "feed": [
+  {
+   "title": "The dollar has weakened as oil falls again",
+   "text": "Brent fell about 2% to near $98.30 (about £74) a barrel, its third fall in a row, as Saudi Arabia reported 5.8 million barrels flowing through its East-West Pipeline and Middle East exports recover, Trading Economics reported, and the dollar index slipped below 102 to about 101.87. Cheaper oil eases US inflation worries and the case for Fed rises, which weakens the dollar and means more dirhams per pound. GBP/USD rose from 1.3211 at 11:00 Dubai, as London opened, to 1.3243 at 13:00; the euro rose by a similar 0.3% and the pound was unchanged against the euro, so nothing in the UK lies behind it.",
+   "t": "2026-10-06T11:39:58Z",
+   "rate": 1.32633
+  },
+  {
+   "title": "Sterling has climbed above 1.3260 with no named cause",
+   "text": "GBP/USD rose from 1.3246 at 15:12 Dubai to 1.3266 at 15:30, above the range of 1.3180 to 1.3250 it had kept since Friday, and stood near 1.3262 at 15:39. The euro rose by a similar 0.15% against the dollar in those minutes and the pound was unchanged against the euro, so this is the dollar giving more ground rather than anything in the UK. No source names an event for those minutes, and no scheduled figure came out; BBH, quoted by FXStreet at 15:15 Dubai, said the dollar had trimmed its recent gains while futures still price a full Fed rise in December.",
+   "t": "2026-10-06T11:39:58Z",
+   "rate": 1.32633
+  },
   {
    "title": "Sterling has held just above 1.32 overnight",
    "text": "GBP/USD rose from 1.3200 at 18:40 Dubai on Monday to 1.3224 by 19:00, then stayed between 1.3200 and 1.3227 through the US session and Tuesday's Asian trading, and stood near 1.3217 at 07:38 Dubai. The dollar index is steady near 102.16, just under Monday's 18-month high, and the euro is still near 1.1220, its weakest since May 2025, Reuters reported. No scheduled figure came out overnight, so the forces of Monday are unchanged: high US yields and the euro's troubles hold the dollar up, which means fewer dirhams per pound, while weak US jobs figures and cheaper oil hold it back.",
