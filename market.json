@@ -1,50 +1,75 @@
 {
- "updated": "2026-10-06T11:39:58Z",
- "headline": "Sterling is near 1.3217 against the dollar early on Tuesday in Dubai, inside the range of 1.3180 to 1.3250 it has kept since Friday, with the dollar steady just below Monday's 18-month high. High US bond yields and the euro's political troubles support the dollar, while Friday's weak US jobs figures and falling oil work against it, and the Fed minutes on Wednesday are the next scheduled test.",
+ "updated": "2026-10-07T03:40:00Z",
+ "headline": "Sterling is near 1.3252 against the dollar early on Wednesday in Dubai, above the range of 1.3180 to 1.3250 it kept from Friday until Tuesday afternoon, after the dollar gave ground on Tuesday. Soft US figures and calmer European bond markets have weakened the dollar, while US bond yields near 24-year highs and oil back above $101 (about £77) support it, and the Fed minutes tonight at 22:00 Dubai are the next scheduled test.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "Markets put the chance that the Fed leaves rates unchanged at its 28 October meeting at about 78%, Trading Economics reported on 6 October, after September's jobs report showed 29,000 jobs added against 90,000 expected. Traders still see a chance of more than 80% of a rise by the end of the year, FXStreet reported on 6 October. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
+   "text": "The chance of a Fed rise of at least a quarter point on 28 October stands at 20.5%, down from about 51% a week ago, and the chance of a rise by the December meeting at 84.5%, according to CME FedWatch figures reported by Reuters on 6 October. Softer US inflation and jobs figures, including 29,000 jobs added in September against 90,000 expected, lie behind the change. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield stood at 5.317% and the thirty-year at 5.677% late on Monday 5 October, Reuters reported, with long-term yields at their highest in more than two decades according to Trading Economics. Higher US yields draw money into the dollar. Prices paid by US services firms rose in September at the fastest pace since July 2022."
+   "text": "The US ten-year yield stood at 5.306% and the thirty-year at 5.685% early on Wednesday 7 October, Reuters reported, with the ten-year near its highest in 24 years according to Trading Economics. Higher US yields draw money into the dollar. Trading Economics names inflation worries, the US budget deficit and heavy borrowing to pay for AI investment as the pressures on bonds."
   },
   {
    "title": "Oil supply",
-   "text": "Brent closed Monday 5 October near $100.70 (about £76) a barrel. The G7 is releasing 100 million barrels of diesel and crude over four months, and JPMorgan estimates Middle East crude shipments at 17.5 million barrels a day, about 98% of the pre-war level, Trading Economics reported."
+   "text": "Brent stood near $101.50 (about £77) a barrel and US crude near $90.20 (about £68) early on Wednesday 7 October, both up about 1% but still lower for the week. Saudi Arabia's East-West Pipeline is carrying 5.8 million barrels a day and tankers are passing through the Strait of Hormuz despite the risks, while US crude stocks fell by 2.1 million barrels last week, Trading Economics reported."
   },
   {
    "title": "The Middle East",
-   "text": "The US-Iran standoff over the Strait of Hormuz continues. The Houthis claimed three further missile and drone operations against airports, an oil facility and military sites in Saudi Arabia, FXStreet reported late on 5 October, and it also cited media reports that Israel is preparing possible military action against Iran, which other sources read for this update did not confirm."
+   "text": "The US-Iran standoff over the Strait of Hormuz continues. Iran has stepped up attacks on tankers in the strait, with nine incidents reported so far this month, and a Saudi-led coalition intercepted a Houthi ballistic missile aimed at Saudi Arabia, Trading Economics reported on 7 October."
   },
   {
-   "title": "France, Spain and the euro",
-   "text": "The euro is near 1.1220 against the dollar, close to Monday's low, its weakest since May 2025, after falling 1.2% last week, Reuters reported on 5 October. Doubts over France's 2027 budget and the snap election called in Spain on 5 October lie behind it. A weaker euro lifts the dollar against other currencies, the pound included."
+   "title": "The euro and European bonds",
+   "text": "The euro stood near 1.1235 against the dollar early on Wednesday 7 October, a little above Monday's low, which was its weakest since May 2025. Reuters reported that stress in European bond markets eased on Tuesday, which took some support away from the dollar. Doubts over France's 2027 budget and the snap election called in Spain on 5 October remain."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and its next decision is on 5 November. Markets price about 30 basis points of further tightening by the end of the year, Trading Economics reported on 2 October. No major UK figures are due this week."
+   "text": "The Bank of England held Bank Rate at 3.75% on 17 September, with three of the nine members voting for a rise, and its next decision is on 5 November. Markets price about 30 basis points of further tightening by the end of the year and about 90 by the end of 2027, and Catherine Mann of the Bank has warned that inflation above the 2% target appears to have become embedded, Trading Economics reported. The Governor, Andrew Bailey, speaks on Thursday at 16:15 Dubai."
   }
  ],
  "lower": [
-  "Fed minutes on Wednesday showing that most members want another rate rise, which would support the dollar.",
-  "US bond yields rising further from their highest levels in more than two decades, which draws money into the dollar.",
-  "The Saudi and Houthi fighting or the standoff with Iran cutting oil supply again, which tends to lift oil and the dollar.",
-  "The euro falling further on France's budget or Spain's election, which lifts the dollar against every currency."
+  "Fed minutes tonight showing that most members want another rate rise, which would support the dollar.",
+  "Further attacks on tankers in the Strait of Hormuz or on Saudi Arabia lifting oil again, which adds to US inflation worries and tends to lift the dollar.",
+  "US bond yields rising further from levels near 24-year highs, which draws money into the dollar.",
+  "Stress returning to European bond markets over France's budget or Spain's election, which would weaken the euro and lift the dollar against every currency."
  ],
  "higher": [
-  "Fed minutes showing more doubt about further rises, which would add to the effect of Friday's weak jobs figures.",
-  "Oil falling further as the G7 release and recovering Gulf exports reach the market, which eases US inflation worries and weakens the dollar.",
+  "Fed minutes showing more doubt about further rises, which would add to the effect of the soft US inflation and jobs figures.",
+  "Oil falling again as Gulf exports recover and the G7 release reaches the market, which eases US inflation worries and weakens the dollar.",
+  "A firm tone on rates from the Bank of England Governor on Thursday, which would lift the pound.",
   "US weekly jobless claims on Thursday coming in above the 200,000 forecast, which would make Fed rises less likely."
  ],
- "watch": "Nothing major is scheduled for Tuesday. The Fed minutes on Wednesday at 22:00 Dubai are the week's main event, and they carry no forecast: minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them. US weekly jobless claims follow on Thursday at 16:30 Dubai, forecast at 200,000.",
+ "watch": "The Fed minutes come out tonight, Wednesday, at 22:00 Dubai, and they carry no forecast: minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them. On Thursday the Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help, and US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000, where a higher figure would help.",
  "sources": [
+  {
+   "title": "Dollar holds losses as markets await Fed minutes, speakers",
+   "site": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
+   "date": "6 Oct"
+  },
   {
    "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "6 Oct"
+   "date": "7 Oct"
+  },
+  {
+   "title": "US ten-year bond yield: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "7 Oct"
+  },
+  {
+   "title": "British pound: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "7 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "7 Oct"
   },
   {
    "title": "US dollar index: quote and commentary",
@@ -62,12 +87,6 @@
    "title": "US Dollar: Supported by ISM and Fed pricing (BBH)",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-dollar-supported-by-ism-and-fed-pricing-bbh-202610061115",
-   "date": "6 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD one minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "6 Oct"
   },
   {
@@ -92,24 +111,6 @@
    "title": "Yemen's Houthis claim missile, drone strikes on multiple targets in Saudi Arabia",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/yemens-houthis-claim-missile-drone-strikes-on-multiple-targets-in-saudi-arabia-202610052355",
-   "date": "5 Oct"
-  },
-  {
-   "title": "GBP/USD 15 minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "6 Oct"
-  },
-  {
-   "title": "United States ISM Services PMI",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/non-manufacturing-pmi",
-   "date": "5 Oct"
-  },
-  {
-   "title": "Euro: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/euro-area/currency",
    "date": "5 Oct"
   }
  ],
@@ -175,9 +176,9 @@
    "impact": "Medium",
    "name": "US consumer sentiment (University of Michigan)",
    "title": "Prelim UoM Consumer Sentiment",
-   "forecast": "47.6",
+   "forecast": "47.5",
    "previous": "47.8",
-   "good": "Lower than 47.6",
+   "good": "Lower than 47.5",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -192,8 +193,20 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-06T11:39:58Z",
+ "calendarUpdated": "2026-10-07T03:40:00Z",
  "feed": [
+  {
+   "title": "Sterling has held most of Tuesday's gain overnight",
+   "text": "GBP/USD peaked at 1.3284 at 19:30 Dubai on Tuesday, stayed between 1.3261 and 1.3284 through the US session, then eased in Asian trading to a low of 1.3248 at 06:15 Dubai and stood near 1.3252 at 07:38. The dollar index fell 0.27% on Tuesday and was steady at 101.94 early on Wednesday, Reuters reported, as stress in European bond markets eased and traders judged that the recent soft US inflation and jobs figures leave the Fed in less of a hurry to raise rates. A weaker dollar means more dirhams per pound; the small slip since midnight is the dollar recovering a little, since the euro fell by a similar amount, from 1.1259 to 1.1232, and no scheduled figure came out.",
+   "t": "2026-10-07T03:40:00Z",
+   "rate": 1.32531
+  },
+  {
+   "title": "Oil has risen back above $101 on tanker attacks",
+   "text": "Brent rose about 1% to near $101.50 (about £77) a barrel early on Wednesday, its second rise in a row, after Iran stepped up attacks on tankers in the Strait of Hormuz, with nine incidents reported this month, and a Saudi-led coalition intercepted a Houthi ballistic missile, Trading Economics reported. Dearer oil adds to US inflation worries and tends to lift the dollar, which means fewer dirhams per pound. Oil is still lower for the week because Gulf exports are recovering, and GBP/USD has eased only from 1.3270 at 02:00 Dubai to about 1.3252, so the effect so far is small.",
+   "t": "2026-10-07T03:40:00Z",
+   "rate": 1.32531
+  },
   {
    "title": "The dollar has weakened as oil falls again",
    "text": "Brent fell about 2% to near $98.30 (about £74) a barrel, its third fall in a row, as Saudi Arabia reported 5.8 million barrels flowing through its East-West Pipeline and Middle East exports recover, Trading Economics reported, and the dollar index slipped below 102 to about 101.87. Cheaper oil eases US inflation worries and the case for Fed rises, which weakens the dollar and means more dirhams per pound. GBP/USD rose from 1.3211 at 11:00 Dubai, as London opened, to 1.3243 at 13:00; the euro rose by a similar 0.3% and the pound was unchanged against the euro, so nothing in the UK lies behind it.",
