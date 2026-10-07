@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:39:31Z",
+ "updated": "2026-10-07T17:39:49Z",
  "headline": "Sterling is near 1.3226 against the dollar at midday on Wednesday in Dubai, back inside the range of 1.3180 to 1.3250 it kept from Friday until Tuesday afternoon, after the dollar recovered ground it gave up on Tuesday. US bond yields near 24-year highs and oil above $101 (about £77) support the dollar, soft US inflation and jobs figures weigh on it, and the Fed minutes tonight at 22:00 Dubai are the next scheduled test.",
  "drivers": [
   {
@@ -42,6 +42,24 @@
  "watch": "The Fed minutes come out tonight, Wednesday, at 22:00 Dubai, and they carry no forecast: minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them. On Thursday the Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help, and US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000, where a higher figure would help.",
  "sources": [
   {
+   "title": "Watch live: Trump to unveil auto-enrollment for children's savings accounts",
+   "site": "NewsNation",
+   "url": "https://www.newsnationnow.com/politics/watch-live-trump-to-unveil-auto-enrollment-for-childrens-savings-accounts/",
+   "date": "7 Oct"
+  },
+  {
+   "title": "The Latest: GOP fears grow that even $1 billion may not buy midterm victory",
+   "site": "Associated Press via ClickOnDetroit",
+   "url": "https://www.clickondetroit.com/news/politics/2026/10/07/the-latest-gop-fears-grow-that-even-1-billion-may-not-buy-midterm-victory/",
+   "date": "7 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "7 Oct"
+  },
+  {
    "title": "US dollar index: quote and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
@@ -63,12 +81,6 @@
    "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "7 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "7 Oct"
   },
   {
@@ -100,18 +112,6 @@
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/forex-news/euro-faces-political-fiscal-reckoning-as-it-hovers-near-17month-low-4933206",
    "date": "5 Oct"
-  },
-  {
-   "title": "British Pound extends range play; holds above 1.3200 as bullish USD caps upside",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-extends-range-play-holds-above-13200-as-bullish-usd-caps-upside-202610060145",
-   "date": "6 Oct"
-  },
-  {
-   "title": "WTI falls to near $88.50 on G7 reserve release",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/wti-falls-to-near-8850-on-g7-reserve-release-202610060058",
-   "date": "6 Oct"
   }
  ],
  "calendar": [
@@ -204,8 +204,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-07T12:39:31Z",
+ "calendarUpdated": "2026-10-07T17:39:49Z",
  "feed": [
+  {
+   "title": "The President's announcement has not moved the rate",
+   "text": "The White House announcement at 21:00 Dubai was billed in advance as being about automatic enrolment of children in the government's savings accounts, which carry a one-off $1,000 (about £760) for those born from 2025 to 2028, and the reports read before it named nothing on interest rates, trade or the Gulf. A domestic savings scheme gives traders no reason to reprice the dollar or the pound, and GBP/USD was 1.3210 at the start, touched 1.3216 twenty minutes later and was back at 1.3210 by 21:35 Dubai. The Fed minutes at 22:00 Dubai remain the test of the evening.",
+   "when": "2026-10-07T17:00:00Z",
+   "t": "2026-10-07T17:39:49Z",
+   "rate": 1.32089
+  },
   {
    "title": "The dollar has reached its highest since March 2025",
    "text": "The dollar index has risen about 0.6% on Wednesday to above 102.4, its highest level since March 2025, as the US ten-year yield climbed about five basis points to 5.34%, a level last seen in 2002, and Brent crude held near $101.70 (about £77), Trading Economics reported. Dearer oil adds to US inflation worries and higher US yields draw money into the dollar, which means fewer dirhams per pound. GBP/USD slid steadily from 1.3227 at 13:39 Dubai to a low of 1.3192 at 16:27 and stood near 1.3197 at 16:39; the euro fell by a similar amount, from 1.1187 to 1.1170, so this is the dollar gaining rather than anything in the UK, and no scheduled figure came out and no source names a single trigger.",
@@ -339,11 +346,6 @@
    "title": "US factory survey (ISM), September",
    "text": "54.5 against 55.0 expected and 54.6 in August, the ninth month of growth in a row. The prices paid index jumped to 77.9 from 71.1, and the employment index rose to 52.7 from 51.2. A slightly softer headline would normally weaken the dollar, but the sharp rise in prices paid points to more inflation, which keeps a Fed rise in play and supported the dollar. GBP/USD fell from 1.3234 just before the release to about 1.3221 within five minutes, then held near 1.3225 for the next half hour.",
    "when": "2026-10-01T14:00:00Z"
-  },
-  {
-   "t": "2026-10-02T13:40:42Z",
-   "title": "UK 30-year borrowing costs pass 6% for the first time since 1998",
-   "text": "The 30-year gilt yield briefly reached about 6.03% on Thursday and the 10-year gilt yield moved above 5.50%, its highest since 2007, amid worries about energy-driven inflation, heavy government borrowing and the Budget on 28 October. The FTSE 100 lost 177.73 points. When UK yields rise because investors worry about the public finances, rather than because the economy is strong, the pound tends to fall with gilt prices, so each pound buys fewer dirhams. This weighed on sterling through Thursday alongside the firmer dollar; GBP/USD fell from about 1.3263 early on Thursday to about 1.3190 by the evening."
   }
  ]
 }
