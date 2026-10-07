@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-07T17:39:49Z",
- "headline": "Sterling is near 1.3226 against the dollar at midday on Wednesday in Dubai, back inside the range of 1.3180 to 1.3250 it kept from Friday until Tuesday afternoon, after the dollar recovered ground it gave up on Tuesday. US bond yields near 24-year highs and oil above $101 (about £77) support the dollar, soft US inflation and jobs figures weigh on it, and the Fed minutes tonight at 22:00 Dubai are the next scheduled test.",
+ "updated": "2026-10-07T18:39:51Z",
+ "headline": "Sterling is near 1.3215 against the dollar late on Wednesday in Dubai, inside the range of 1.3180 to 1.3250 it has kept for most of the week, after the Fed minutes at 22:00 Dubai passed with little reaction. US bond yields near 24-year highs and oil above $101 (about £77) support the dollar, soft US inflation and jobs figures weigh on it, and the Bank of England Governor and US weekly jobless claims on Thursday afternoon are the next scheduled tests.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The chance of a Fed rise of at least a quarter point on 28 October stands at 20.5%, down from about 51% a week ago, and the chance of a rise by the December meeting at 84.5%, according to CME FedWatch figures reported by Reuters on 6 October. Softer US inflation and jobs figures, including 29,000 jobs added in September against 90,000 expected, lie behind the change. The minutes of the Fed's September meeting come out on Wednesday at 22:00 Dubai."
+   "text": "The chance of a Fed rise of at least a quarter point on 28 October stands at 20.5%, down from about 51% a week ago, and the chance of a rise by the December meeting at 84.5%, according to CME FedWatch figures reported by Reuters on 6 October. Softer US inflation and jobs figures, including 29,000 jobs added in September against 90,000 expected, lie behind the change. The minutes of the Fed's September meeting, released on 7 October, record that most participants thought another rise would likely be appropriate by the end of the year, which is close to what the market already prices for December."
   },
   {
    "title": "US bond yields",
@@ -28,19 +28,37 @@
   }
  ],
  "lower": [
-  "Fed minutes tonight showing that most members want another rate rise, which would support the dollar.",
+  "Fed speakers, starting with Governor Waller on Thursday, repeating the view in the minutes that another rate rise is likely by the end of the year, which would support the dollar.",
   "Further attacks on tankers in the Strait of Hormuz or on Saudi Arabia lifting oil again, which adds to US inflation worries and tends to lift the dollar.",
   "US bond yields rising further from levels near 24-year highs, which draws money into the dollar.",
   "Stress returning to European bond markets over France's budget or Spain's election, which would weaken the euro and lift the dollar against every currency."
  ],
  "higher": [
-  "Fed minutes showing more doubt about further rises, which would add to the effect of the soft US inflation and jobs figures.",
+  "Fed speakers pointing to the soft September inflation and jobs figures, which came after the meeting the minutes describe, as a reason to wait, which would weaken the dollar.",
   "Oil falling again as Gulf exports recover and the G7 release reaches the market, which eases US inflation worries and weakens the dollar.",
   "A firm tone on rates from the Bank of England Governor on Thursday, which would lift the pound.",
   "US weekly jobless claims on Thursday coming in above the 200,000 forecast, which would make Fed rises less likely."
  ],
- "watch": "The Fed minutes come out tonight, Wednesday, at 22:00 Dubai, and they carry no forecast: minutes showing more doubt about further rate rises would help someone selling pounds for dirhams, and minutes showing most members want another rise would work against them. On Thursday the Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help, and US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000, where a higher figure would help.",
+ "watch": "On Thursday Fed Governor Waller speaks at 12:30 Dubai, where a cautious tone on further rate rises would help someone selling pounds for dirhams. The Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help, and US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000, where a higher figure would help.",
  "sources": [
+  {
+   "title": "Minutes of the Federal Open Market Committee, 15 and 16 September 2026",
+   "site": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+   "date": "7 Oct"
+  },
+  {
+   "title": "Meeting calendars and information",
+   "site": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "date": "7 Oct"
+  },
+  {
+   "title": "EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=EURUSD&interval=1",
+   "date": "7 Oct"
+  },
   {
    "title": "Watch live: Trump to unveil auto-enrollment for children's savings accounts",
    "site": "NewsNation",
@@ -94,24 +112,6 @@
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
    "date": "6 Oct"
-  },
-  {
-   "title": "Euro trims some losses as the decline in Oil prices offsets weak Eurozone releases",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-dips-further-as-grim-german-data-adds-to-political-uncertainty-and-debt-issues-202610060645",
-   "date": "6 Oct"
-  },
-  {
-   "title": "US Dollar: Supported by ISM and Fed pricing (BBH)",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-dollar-supported-by-ism-and-fed-pricing-bbh-202610061115",
-   "date": "6 Oct"
-  },
-  {
-   "title": "Euro faces political, fiscal reckoning as it hovers near 17-month low",
-   "site": "Reuters via Investing.com",
-   "url": "https://www.investing.com/news/forex-news/euro-faces-political-fiscal-reckoning-as-it-hovers-near-17month-low-4933206",
-   "date": "5 Oct"
   }
  ],
  "calendar": [
@@ -204,8 +204,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-07T17:39:49Z",
+ "calendarUpdated": "2026-10-07T18:39:51Z",
  "feed": [
+  {
+   "title": "The Fed minutes have barely moved the rate",
+   "text": "The minutes of the Fed's meeting of 15 and 16 September record that all participants supported the rise to a range of 3.75% to 4%, and that most thought another rise would likely be appropriate by the end of the year, while stressing that later decisions depend on the figures that come in; they carry no forecast to compare against. Talk of a further rise would normally lift the dollar and mean fewer dirhams per pound, but the market already put the chance of a rise by December at about 84.5%, and the meeting came before the soft September jobs figures. GBP/USD was 1.3215 at the release at 22:00 Dubai, dipped to 1.3211, touched 1.3219 at 22:05 and was back near 1.3215 by 22:40, and the euro was just as steady, from 1.1198 to 1.1195.",
+   "when": "2026-10-07T18:00:00Z",
+   "t": "2026-10-07T18:39:51Z",
+   "rate": 1.32143
+  },
   {
    "title": "The President's announcement has not moved the rate",
    "text": "The White House announcement at 21:00 Dubai was billed in advance as being about automatic enrolment of children in the government's savings accounts, which carry a one-off $1,000 (about £760) for those born from 2025 to 2028, and the reports read before it named nothing on interest rates, trade or the Gulf. A domestic savings scheme gives traders no reason to reprice the dollar or the pound, and GBP/USD was 1.3210 at the start, touched 1.3216 twenty minutes later and was back at 1.3210 by 21:35 Dubai. The Fed minutes at 22:00 Dubai remain the test of the evening.",
@@ -340,12 +347,6 @@
    "t": "2026-10-02T13:40:42Z",
    "title": "Report of a third US aircraft carrier for the Middle East lifts oil",
    "text": "The Wall Street Journal reported on Thursday that the US is sending the USS Theodore Roosevelt strike group to the Middle East, with up to 10,000 more troops, and a US official confirmed the deployment to The National. Brent for December settled up 4.4% at $102.31 (about £77.50) and US crude up 2.7% at $92.87 (about £70.40). Dearer oil and the risk of renewed conflict with Iran push up inflation worries and US yields and draw money into the dollar as a safe haven, so each pound buys fewer dirhams. The time of the report is not known. GBP/USD slid from about 1.3226 at 18:45 Dubai to about 1.3207 at 19:05 Dubai and to a low near 1.3183 by 19:50 Dubai, then settled near 1.3190 through the evening."
-  },
-  {
-   "t": "2026-10-01T14:00:00Z",
-   "title": "US factory survey (ISM), September",
-   "text": "54.5 against 55.0 expected and 54.6 in August, the ninth month of growth in a row. The prices paid index jumped to 77.9 from 71.1, and the employment index rose to 52.7 from 51.2. A slightly softer headline would normally weaken the dollar, but the sharp rise in prices paid points to more inflation, which keeps a Fed rise in play and supported the dollar. GBP/USD fell from 1.3234 just before the release to about 1.3221 within five minutes, then held near 1.3225 for the next half hour.",
-   "when": "2026-10-01T14:00:00Z"
   }
  ]
 }
