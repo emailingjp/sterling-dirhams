@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T09:39:48Z",
+ "updated": "2026-10-07T12:39:31Z",
  "headline": "Sterling is near 1.3226 against the dollar at midday on Wednesday in Dubai, back inside the range of 1.3180 to 1.3250 it kept from Friday until Tuesday afternoon, after the dollar recovered ground it gave up on Tuesday. US bond yields near 24-year highs and oil above $101 (about £77) support the dollar, soft US inflation and jobs figures weigh on it, and the Fed minutes tonight at 22:00 Dubai are the next scheduled test.",
  "drivers": [
   {
@@ -48,9 +48,9 @@
    "date": "7 Oct"
   },
   {
-   "title": "Euro: quote and commentary",
+   "title": "US ten-year bond yield: quote and commentary",
    "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/euro-area/currency",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
    "date": "7 Oct"
   },
   {
@@ -60,9 +60,9 @@
    "date": "7 Oct"
   },
   {
-   "title": "US ten-year bond yield: quote and commentary",
+   "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "7 Oct"
   },
   {
@@ -72,16 +72,16 @@
    "date": "7 Oct"
   },
   {
+   "title": "Euro: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/euro-area/currency",
+   "date": "7 Oct"
+  },
+  {
    "title": "Dollar holds losses as markets await Fed minutes, speakers",
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
    "date": "6 Oct"
-  },
-  {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "7 Oct"
   },
   {
    "title": "Euro trims some losses as the decline in Oil prices offsets weak Eurozone releases",
@@ -204,8 +204,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-07T09:39:48Z",
+ "calendarUpdated": "2026-10-07T12:39:31Z",
  "feed": [
+  {
+   "title": "The dollar has reached its highest since March 2025",
+   "text": "The dollar index has risen about 0.6% on Wednesday to above 102.4, its highest level since March 2025, as the US ten-year yield climbed about five basis points to 5.34%, a level last seen in 2002, and Brent crude held near $101.70 (about £77), Trading Economics reported. Dearer oil adds to US inflation worries and higher US yields draw money into the dollar, which means fewer dirhams per pound. GBP/USD slid steadily from 1.3227 at 13:39 Dubai to a low of 1.3192 at 16:27 and stood near 1.3197 at 16:39; the euro fell by a similar amount, from 1.1187 to 1.1170, so this is the dollar gaining rather than anything in the UK, and no scheduled figure came out and no source names a single trigger.",
+   "t": "2026-10-07T12:39:31Z",
+   "rate": 1.31969
+  },
   {
    "title": "The dollar has strengthened ahead of the Fed minutes",
    "text": "The dollar has risen against every major currency on Wednesday morning, with the dollar index up about 0.45% near 102.3, as the US ten-year yield held near 5.33% and Brent crude stayed above $101 (about £77) after further Iranian attacks on tankers in the Strait of Hormuz, Trading Economics reported. Higher US yields and dearer oil tend to lift the dollar, and the euro fell furthest, from 1.1235 to 1.1188, under the added weight of doubts over France's budget and the election called in Spain. GBP/USD slipped from 1.3251 to 1.3226 between 07:45 and 13:30 Dubai, with the sharpest fall, from 1.3245 to 1.3229, in the quarter of an hour before 12:00 Dubai; no scheduled figure came out at that time and no source names a single trigger for it.",
@@ -338,12 +344,6 @@
    "t": "2026-10-02T13:40:42Z",
    "title": "UK 30-year borrowing costs pass 6% for the first time since 1998",
    "text": "The 30-year gilt yield briefly reached about 6.03% on Thursday and the 10-year gilt yield moved above 5.50%, its highest since 2007, amid worries about energy-driven inflation, heavy government borrowing and the Budget on 28 October. The FTSE 100 lost 177.73 points. When UK yields rise because investors worry about the public finances, rather than because the economy is strong, the pound tends to fall with gilt prices, so each pound buys fewer dirhams. This weighed on sterling through Thursday alongside the firmer dollar; GBP/USD fell from about 1.3263 early on Thursday to about 1.3190 by the evening."
-  },
-  {
-   "t": "2026-10-01T12:30:00Z",
-   "title": "US weekly jobless claims",
-   "text": "197,000 new claims in the week to 26 September, against about 201,000 expected, the lowest since July. Continuing claims fell to 1.701 million. Fewer people losing their jobs points to a strong US labour market, which normally keeps a Fed rise in play and supports the dollar. GBP/USD edged up from 1.3228 just before the release to about 1.3235 within two minutes, as sterling had already fallen a long way that morning.",
-   "when": "2026-10-01T12:30:00Z"
   }
  ]
 }
