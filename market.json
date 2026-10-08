@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T15:39:43Z",
+ "updated": "2026-10-08T17:40:15Z",
  "headline": "Sterling is near 1.3210 against the dollar early on Thursday in Dubai, after falling 0.42% on Wednesday as the dollar index rose to about 102.2, near its strongest since spring 2025. The Fed minutes, US bond yields near 5.3% and oil near $102 (about £77) support the dollar, and a Fed governor, the Bank of England Governor and US weekly jobless claims are the scheduled tests this afternoon.",
  "drivers": [
   {
@@ -8,11 +8,11 @@
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield steadied near 5.3% on Thursday 8 October after pulling back on Wednesday from 5.34%, a level last seen in 2002, Trading Economics reported. Higher US yields draw money into the dollar."
+   "text": "The US ten-year yield touched 5.35% on Thursday 8 October, its highest since 2002, then fell back to about 5.24%, its lowest since Monday, after the President ruled out an early strike on Iran, Trading Economics and NBC News reported. A sale of $22 billion (about £16.6 billion) of 30-year bonds the same evening drew ordinary demand at a yield of 5.618%. Higher US yields draw money into the dollar."
   },
   {
    "title": "Oil and the Middle East",
-   "text": "Brent stood near $102.10 (about £77) a barrel and US crude near $89.70 (about £68) early on Thursday 8 October, Trading Economics showed. The Atlantic reported on 7 October that the White House has asked the Pentagon for options to strike Iran before the midterm elections on 3 November, Houthi attacks on Saudi Arabia have drawn coalition strikes in Yemen, and a tropical storm has shut in more than 510,000 barrels a day in the Gulf of Mexico. Against that, Middle East oil exports are recovering and the International Energy Agency has agreed to speed up releases from oil stocks."
+   "text": "President Trump said on Thursday 8 October that the United States will not attack Iran at any time before the midterm elections on 3 November and that productive discussions with Tehran are under way, while the naval blockade stays in place, the Tribune and CBS News reported. Brent crude, which had reached $105.92 (about £80) a barrel after The Atlantic reported that the White House had asked the Pentagon for strike options, eased to about $104 (about £79), still more than 3% higher on the day, NBC News and Trading Economics reported. Tanker attacks in the Gulf and a tropical storm that has shut in about a quarter of US Gulf of Mexico output keep oil supported."
   },
   {
    "title": "The euro and European bonds",
@@ -25,7 +25,7 @@
  ],
  "lower": [
   "Further talk from Fed policymakers of another rate rise by the end of the year, after Governor Waller backed more rises on Thursday, which supports the dollar.",
-  "A US strike on Iran, or further attacks on tankers and on Saudi Arabia, lifting oil again, which adds to US inflation worries and tends to lift the dollar.",
+  "Oil rising again on further attacks on tankers and on Saudi Arabia, or on a breakdown in the talks between the US and Iran, which adds to US inflation worries and tends to lift the dollar.",
   "US consumer sentiment on Friday coming in above the 47.5 forecast, or inflation expectations rising from 4.6%, which would make Fed rises more likely.",
   "Further selling of French bonds over the budget, which would weaken the euro and lift the dollar against every currency."
  ],
@@ -36,6 +36,30 @@
  ],
  "watch": "On Friday the University of Michigan publishes US consumer sentiment at 18:00 Dubai, forecast at 47.5 after 47.8, together with inflation expectations, previously 4.6%. A lower figure on either would help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Trump's pledge not to strike Iran before midterms fails to soothe oil markets",
+   "site": "NBC News",
+   "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Trump dismisses reports of potential strikes on Iran, says productive discussions ongoing",
+   "site": "The Tribune",
+   "url": "https://tribuneindia.com/news/usa-news/trump-dismisses-reports-of-potential-strikes-on-iran-says-productive-discussions-ongoing-no-attacks-before-midterms",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Iran war updates: Trump promises not to resume strikes before midterm elections",
+   "site": "CBS News",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/",
+   "date": "8 Oct"
+  },
+  {
+   "title": "30-year Treasury bond auction results, 8 October",
+   "site": "Helious",
+   "url": "https://helious.io/news/auc-912810UW6-2026-10-08/30-year-bond-auction-in-line",
+   "date": "8 Oct"
+  },
   {
    "title": "US stocks pull back on oil, Iran war worries",
    "site": "AFP via Asharq Al Awsat",
@@ -83,30 +107,6 @@
    "site": "Reuters via Global Banking and Finance",
    "url": "https://www.globalbankingandfinance.com/sterling-edges-down-boes-bailey-speech/",
    "date": "8 Oct"
-  },
-  {
-   "title": "Speech by Governor Waller: The Signaling Value of the Summary of Economic Projections",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Fed's Waller says more interest rate hikes likely on the way",
-   "site": "American Banker",
-   "url": "https://www.americanbanker.com/news/feds-waller-says-more-interest-rate-hikes-likely-on-the-way",
-   "date": "8 Oct"
-  },
-  {
-   "title": "US dollar index: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Euro drops to 17-month low as dollar holds gains after Fed minutes",
-   "site": "Reuters via Global Banking and Finance",
-   "url": "https://www.globalbankingandfinance.com/dollar-holds-losses-markets-await-fed-minutes-speakers/",
-   "date": "7 Oct"
   }
  ],
  "calendar": [
@@ -199,8 +199,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-08T15:39:43Z",
+ "calendarUpdated": "2026-10-08T17:40:15Z",
  "feed": [
+  {
+   "title": "The dollar has weakened after the President ruled out striking Iran before the midterms",
+   "text": "President Trump wrote on Truth Social that the United States will not attack Iran at any time before the midterm elections on 3 November and that productive discussions with Tehran are under way, in a post reported shortly before 21:00 Dubai. Brent crude eased from about $105.90 (about £80) a barrel to about $104 (about £79) and the US ten-year yield fell to about 5.24%, its lowest since Monday, NBC News and Trading Economics reported; cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD rose from 1.3206 at 20:30 Dubai to 1.3214 by 21:00, then from 1.3216 at 21:04 to 1.3235 at 21:19, and stood near 1.3231 at 21:38; the euro rose in step, from 1.1193 to 1.1213, so this was the dollar weakening and nothing in the UK. A sale of 30-year US bonds at 21:00 Dubai drew ordinary demand and gave no push either way.",
+   "t": "2026-10-08T17:40:15Z",
+   "rate": 1.32304
+  },
   {
    "title": "The dollar has taken back its late-afternoon dip as oil and US yields climbed again",
    "text": "Brent crude rose to about $105.50 (about £80) a barrel, up more than 5% on the day, and the US ten-year yield went back up to about 5.3% after slipping to 5.28%, AFP and Trading Economics reported; an analyst quoted by AFP said shares were falling because oil was rising sharply and bond yields were returning to Wednesday's peak. Dearer oil adds to US inflation worries and higher US yields draw money into the dollar, which means fewer dirhams per pound. GBP/USD fell from 1.3246 at 18:37 Dubai to 1.3227 by 19:00 and 1.3211 by 19:38, giving back almost all of the rise of the hour before, and the euro fell in step, from 1.1222 to 1.1193, while the pound was flat against the euro, so this was the dollar recovering and nothing in the UK. No single headline is timed to the fall.",
@@ -345,12 +351,6 @@
    "text": "FXStreet reported the dollar index above 102.20 just before 07:00 Dubai, citing higher US Treasury yields, the conflicts in the Middle East, worries about France's budget and remarks from the Fed's Lorie Logan that rates need to rise by at least a further 50 basis points. Money moving into the dollar for safety and for yield means fewer dirhams per pound. GBP/USD fell from 1.3233 at 06:00 Dubai to 1.3217 at 06:42 and a low of 1.3188 at 07:08, then recovered to about 1.3201 by 07:38; no source names a single event for the sharpest minutes. The euro fell further than the pound, about 0.5% against 0.3%, which points to the dollar and the euro, not to anything in the UK.",
    "t": "2026-10-05T03:39:57Z",
    "rate": 1.32011
-  },
-  {
-   "title": "The banks have reopened close to Friday's level",
-   "text": "GBP/USD was near 1.3245 an hour after the reopening at 01:00 Dubai, against 1.3237 at Friday's close. Kraken's weekend price had dipped to about 1.3211 on Sunday morning, and that dip has been reversed. Two pieces of weekend news pull in opposite directions, set out below.",
-   "t": "2026-10-04T22:21:47Z",
-   "rate": 1.32443
   }
  ]
 }
