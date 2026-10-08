@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T12:40:05Z",
+ "updated": "2026-10-08T14:40:16Z",
  "headline": "Sterling is near 1.3210 against the dollar early on Thursday in Dubai, after falling 0.42% on Wednesday as the dollar index rose to about 102.2, near its strongest since spring 2025. The Fed minutes, US bond yields near 5.3% and oil near $102 (about £77) support the dollar, and a Fed governor, the Bank of England Governor and US weekly jobless claims are the scheduled tests this afternoon.",
  "drivers": [
   {
@@ -37,6 +37,30 @@
  "watch": "On Friday the University of Michigan publishes US consumer sentiment at 18:00 Dubai, forecast at 47.5 after 47.8, together with inflation expectations, previously 4.6%. A lower figure on either would help someone selling pounds for dirhams.",
  "sources": [
   {
+   "title": "US 10 year Treasury yield: level and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Iran's Araghchi says Tehran to respond to US peace plan within days",
+   "site": "ANI via The Tribune",
+   "url": "https://www.tribuneindia.com/news/world/irans-araghchi-says-tehran-to-respond-to-us-peace-plan-within-days-as-pentagon-prepares-fresh-strikes",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "8 Oct"
+  },
+  {
+   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "8 Oct"
+  },
+  {
    "title": "Unemployment insurance weekly claims, week ending 3 October",
    "site": "US Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
@@ -67,18 +91,6 @@
    "date": "8 Oct"
   },
   {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "8 Oct"
-  },
-  {
    "title": "US dollar index: quote and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
@@ -95,18 +107,6 @@
    "site": "The Jerusalem Post",
    "url": "https://www.jpost.com/middle-east/iran-news/article-910974",
    "date": "8 Oct"
-  },
-  {
-   "title": "US ten-year bond yield: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "8 Oct"
-  },
-  {
-   "title": "British pound: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "7 Oct"
   }
  ],
  "calendar": [
@@ -199,8 +199,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-08T12:40:05Z",
+ "calendarUpdated": "2026-10-08T14:40:16Z",
  "feed": [
+  {
+   "title": "The dollar has eased as US bond yields came off their high",
+   "text": "The US ten-year yield slipped back to about 5.28% after touching 5.35% earlier on Thursday, its highest since 2002, Trading Economics reported, and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD rose from 1.3204 at 16:40 Dubai to 1.3246 at 18:37, with the sharpest part from 1.3223 at 18:22 to 1.3246 fifteen minutes later, and the euro rose in step, from 1.1186 to 1.1219, while the pound was flat against the euro, so this was the dollar weakening and nothing in the UK. No source names a cause for those fifteen minutes; Iran's foreign minister had said earlier in the afternoon that talks through mediators continue and that Tehran will answer the US within days, yet Brent crude was still near $104.90 (about £79) a barrel, up more than 4% on the day.",
+   "t": "2026-10-08T14:40:16Z",
+   "rate": 1.32415
+  },
   {
    "title": "US jobless claims came in a little below forecast and the rate barely moved",
    "text": "New claims for unemployment benefit in the week to 3 October were 197,000 against 200,000 expected, and the week before was revised up from 197,000 to 199,000, the Labor Department said. A job market that firm keeps another Fed rise in view, which supports the dollar and means fewer dirhams per pound, but the gap to the forecast was small. GBP/USD slipped from 1.3211 just before the figure at 16:30 Dubai to 1.3206 within the minute, was back at 1.3211 two minutes later and stood near 1.3205 by 16:39, and the euro eased alongside it, from 1.1195 to 1.1188.",
@@ -343,12 +349,6 @@
   {
    "title": "The G7 will release 100 million barrels of diesel and crude",
    "text": "G7 leaders agreed on Friday to release the oil through the International Energy Agency over four months, with a large diesel release in the first 20 days, and diesel futures fell more than 4%. More supply lowers oil prices, which eases US inflation worries and tends to weaken the dollar, so each pound buys more dirhams.",
-   "t": "2026-10-04T22:21:47Z",
-   "rate": 1.32443
-  },
-  {
-   "title": "Fighting between Saudi Arabia and the Houthis has intensified",
-   "text": "The Houthis claimed a missile and drone strike on an Aramco site south of Riyadh on Saturday, and Saudi and Yemeni forces have launched a counteroffensive. Threats to oil supply tend to lift oil and the dollar, which would mean fewer dirhams per pound.",
    "t": "2026-10-04T22:21:47Z",
    "rate": 1.32443
   }
