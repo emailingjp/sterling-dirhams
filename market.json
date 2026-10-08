@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T08:39:57Z",
+ "updated": "2026-10-08T12:40:05Z",
  "headline": "Sterling is near 1.3210 against the dollar early on Thursday in Dubai, after falling 0.42% on Wednesday as the dollar index rose to about 102.2, near its strongest since spring 2025. The Fed minutes, US bond yields near 5.3% and oil near $102 (about £77) support the dollar, and a Fed governor, the Bank of England Governor and US weekly jobless claims are the scheduled tests this afternoon.",
  "drivers": [
   {
@@ -24,19 +24,36 @@
   }
  ],
  "lower": [
-  "Fed Governor Waller repeating on Thursday the view in the minutes that another rate rise is likely by the end of the year, which would support the dollar.",
+  "Further talk from Fed policymakers of another rate rise by the end of the year, after Governor Waller backed more rises on Thursday, which supports the dollar.",
   "A US strike on Iran, or further attacks on tankers and on Saudi Arabia, lifting oil again, which adds to US inflation worries and tends to lift the dollar.",
-  "US weekly jobless claims on Thursday coming in below the 200,000 forecast, which would point to a firm job market and make Fed rises more likely.",
+  "US consumer sentiment on Friday coming in above the 47.5 forecast, or inflation expectations rising from 4.6%, which would make Fed rises more likely.",
   "Further selling of French bonds over the budget, which would weaken the euro and lift the dollar against every currency."
  ],
  "higher": [
-  "Fed Governor Waller pointing to the soft September inflation and jobs figures as a reason to wait, which would weaken the dollar.",
   "Oil falling as Gulf exports recover and the faster release of oil stocks reaches the market, which eases US inflation worries and weakens the dollar.",
-  "A firm tone on rates from the Bank of England Governor on Thursday, which would lift the pound.",
-  "US weekly jobless claims on Thursday coming in above the 200,000 forecast, which would make Fed rises less likely and weaken the dollar."
+  "Bank of England policymakers signalling a rate rise on 5 November, which would lift the pound; the Governor gave no such signal on Thursday.",
+  "US consumer sentiment on Friday coming in below the 47.5 forecast, or inflation expectations falling from 4.6%, which would make Fed rises less likely and weaken the dollar."
  ],
- "watch": "On Thursday the Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help someone selling pounds for dirhams. US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000 after 197,000, where a higher figure would help.",
+ "watch": "On Friday the University of Michigan publishes US consumer sentiment at 18:00 Dubai, forecast at 47.5 after 47.8, together with inflation expectations, previously 4.6%. A lower figure on either would help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Unemployment insurance weekly claims, week ending 3 October",
+   "site": "US Department of Labor",
+   "url": "https://www.dol.gov/ui/data.pdf",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Financial resilience in an age of repeated shocks, speech by Andrew Bailey",
+   "site": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Sterling edges down before the Bank of England Governor's speech",
+   "site": "Reuters via Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/sterling-edges-down-boes-bailey-speech/",
+   "date": "8 Oct"
+  },
   {
    "title": "Speech by Governor Waller: The Signaling Value of the Summary of Economic Projections",
    "site": "Federal Reserve",
@@ -89,24 +106,6 @@
    "title": "British pound: quote and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "7 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Minutes of the Federal Open Market Committee, 15 and 16 September 2026",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
-   "date": "7 Oct"
-  },
-  {
-   "title": "Meeting calendars and information",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
    "date": "7 Oct"
   }
  ],
@@ -200,8 +199,22 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-08T08:39:57Z",
+ "calendarUpdated": "2026-10-08T12:40:05Z",
  "feed": [
+  {
+   "title": "US jobless claims came in a little below forecast and the rate barely moved",
+   "text": "New claims for unemployment benefit in the week to 3 October were 197,000 against 200,000 expected, and the week before was revised up from 197,000 to 199,000, the Labor Department said. A job market that firm keeps another Fed rise in view, which supports the dollar and means fewer dirhams per pound, but the gap to the forecast was small. GBP/USD slipped from 1.3211 just before the figure at 16:30 Dubai to 1.3206 within the minute, was back at 1.3211 two minutes later and stood near 1.3205 by 16:39, and the euro eased alongside it, from 1.1195 to 1.1188.",
+   "when": "2026-10-08T12:30:00Z",
+   "t": "2026-10-08T12:40:05Z",
+   "rate": 1.32045
+  },
+  {
+   "title": "The Bank of England Governor gave no signal on rates",
+   "text": "Andrew Bailey's speech in Istanbul was about financial resilience in a world of repeated shocks; he spoke of an unwavering commitment to returning inflation to target but said nothing on Bank Rate or the decision on 5 November, and a speech has no forecast to compare against. With no new signal on UK rates there was nothing to move the pound, and GBP/USD was 1.3204 at the scheduled start at 16:15 Dubai and 1.3205 five minutes later. The rate had already risen from 1.3192 at 16:00 Dubai to 1.3205 by 16:07, before he spoke, and the euro rose in the same minutes, from 1.1176 to 1.1185, so that was the dollar easing and no source names a cause for it.",
+   "when": "2026-10-08T12:15:00Z",
+   "t": "2026-10-08T12:40:05Z",
+   "rate": 1.32045
+  },
   {
    "title": "The dollar has firmed after a Fed governor backed more rate rises",
    "text": "Fed Governor Waller said in Istanbul that, if the figures keep coming in as expected, he anticipates additional rises to bring inflation back to 2% sooner, that they need not come at consecutive meetings, and that the job market was solid and stable in September; a speech has no forecast to compare against. Talk of more Fed rises lifts US yields and the dollar, which means fewer dirhams per pound. GBP/USD fell from 1.3203 just before the text came out at 12:30 Dubai to 1.3190 by 12:39, and the euro fell alongside it, from 1.1197 to 1.1186, so this was the dollar gaining and not anything in the UK.",
@@ -338,17 +351,6 @@
    "text": "The Houthis claimed a missile and drone strike on an Aramco site south of Riyadh on Saturday, and Saudi and Yemeni forces have launched a counteroffensive. Threats to oil supply tend to lift oil and the dollar, which would mean fewer dirhams per pound.",
    "t": "2026-10-04T22:21:47Z",
    "rate": 1.32443
-  },
-  {
-   "t": "2026-10-02T12:30:00Z",
-   "title": "US jobs report for September",
-   "text": "Employers added 29,000 jobs against 90,000 expected, and July and August were revised down by a combined 60,000. Unemployment rose to 4.2% against 4.1% expected, and hourly pay rose 0.1% in the month against 0.3% expected. A cooling US job market and slower pay growth make another Fed rate rise less likely; Reuters reported that US two-year yields fell 7 basis points to 4.716% and ten-year yields 6 basis points to 5.176%, and the market chance of an October rise fell to as low as 12%, so the dollar weakened and GBP/USD rose. GBP/USD jumped from 1.3205 just before 16:30 Dubai to a high of 1.3250 in the first minute and 1.3236 two minutes later, slipped to about 1.3219 by 16:33, and has since moved between about 1.3212 and 1.3241. It was near 1.3226 at 17:40 Dubai, about 0.15% above its level before the report, taking GBP/AED from about 4.850 to about 4.857.",
-   "when": "2026-10-02T12:30:00Z"
-  },
-  {
-   "t": "2026-10-02T13:40:42Z",
-   "title": "Oil falls back below $100 (about £76)",
-   "text": "Trading Economics reported on Friday that Brent fell about 3% to around $99.30 (about £75.10), as European governments considered releasing strategic oil and fuel reserves to ease fuel costs and Middle East crude flows recovered towards pre-war levels. This reverses most of Thursday's jump on the carrier report. Cheaper oil eases inflation worries and the pull of the dollar as a safe haven, which tends to help the pound against the dollar, so each pound buys slightly more dirhams. The time of the move is not known. The fall in oil came on the same day as the weaker US jobs report, and GBP/USD stood about 0.3% above Thursday evening's low near 1.3183 by 17:40 Dubai."
   }
  ]
 }
