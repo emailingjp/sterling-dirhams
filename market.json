@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T03:40:59Z",
+ "updated": "2026-10-08T07:39:49Z",
  "headline": "Sterling is near 1.3210 against the dollar early on Thursday in Dubai, after falling 0.42% on Wednesday as the dollar index rose to about 102.2, near its strongest since spring 2025. The Fed minutes, US bond yields near 5.3% and oil near $102 (about £77) support the dollar, and a Fed governor, the Bank of England Governor and US weekly jobless claims are the scheduled tests this afternoon.",
  "drivers": [
   {
@@ -38,6 +38,24 @@
  "watch": "On Thursday Fed Governor Waller speaks at 12:30 Dubai, where a cautious tone on further rate rises would help someone selling pounds for dirhams. The Bank of England Governor speaks at 16:15 Dubai, where a firm tone on rates would help, and US weekly jobless claims follow at 16:30 Dubai, forecast at 200,000 after 197,000, where a higher figure would help.",
  "sources": [
   {
+   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "8 Oct"
+  },
+  {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "8 Oct"
+  },
+  {
+   "title": "US dollar index: quote and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "8 Oct"
+  },
+  {
    "title": "Euro drops to 17-month low as dollar holds gains after Fed minutes",
    "site": "Reuters via Global Banking and Finance",
    "url": "https://www.globalbankingandfinance.com/dollar-holds-losses-markets-await-fed-minutes-speakers/",
@@ -50,21 +68,9 @@
    "date": "8 Oct"
   },
   {
-   "title": "US dollar index: quote and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "8 Oct"
-  },
-  {
    "title": "US ten-year bond yield: quote and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "8 Oct"
   },
   {
@@ -101,12 +107,6 @@
    "title": "Watch live: Trump to unveil auto-enrollment for children's savings accounts",
    "site": "NewsNation",
    "url": "https://www.newsnationnow.com/politics/watch-live-trump-to-unveil-auto-enrollment-for-childrens-savings-accounts/",
-   "date": "7 Oct"
-  },
-  {
-   "title": "The Latest: GOP fears grow that even $1 billion may not buy midterm victory",
-   "site": "Associated Press via ClickOnDetroit",
-   "url": "https://www.clickondetroit.com/news/politics/2026/10/07/the-latest-gop-fears-grow-that-even-1-billion-may-not-buy-midterm-victory/",
    "date": "7 Oct"
   }
  ],
@@ -200,8 +200,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-08T03:40:59Z",
+ "calendarUpdated": "2026-10-08T07:39:49Z",
  "feed": [
+  {
+   "title": "The dollar firmed briefly as Europe opened",
+   "text": "GBP/USD slipped from 1.3200 at 10:45 Dubai to a low of 1.3185 at 11:06, just after European trading began, then recovered to 1.3205 by 11:24 and settled near 1.3198. The euro fell and recovered against the dollar in the same minutes while the pound was flat against the euro, so this was a move in the dollar and not in sterling. No source names a cause for it; the backdrop is Brent crude above $103 (about £78) a barrel, a two-week high, after reports that the White House asked the Pentagon for options to strike Iran, and dearer oil tends to lift the dollar.",
+   "when": "2026-10-08T07:00:00Z",
+   "t": "2026-10-08T07:39:49Z",
+   "rate": 1.31961
+  },
   {
    "title": "Sterling has been steady overnight after the Fed minutes",
    "text": "GBP/USD has stayed between 1.3204 and 1.3220 since the Fed minutes, touching the low at 05:00 Dubai and the high at 06:15, and stood near 1.3209 at 07:38 Dubai. The dollar index held above 102, near its strongest since spring 2025, because the minutes showed most Fed policymakers expecting another rate rise by the end of the year, Trading Economics reported, and a firm dollar means fewer dirhams per pound. No scheduled figure came out overnight, and the euro was just as steady, between 1.1194 and 1.1210.",
@@ -340,11 +347,6 @@
    "t": "2026-10-02T13:40:42Z",
    "title": "Dollar eases slightly in the European morning before the US jobs report",
    "text": "FXStreet reported at about 11:15 Dubai that the dollar index had slipped back below 102.00 after reaching 102.20 on Thursday, its highest since April 2025, with GBP/USD slightly above 1.3210, up about 0.2% on the day. There was no UK data this morning, and FXStreet reported that the chance of an October Fed rise priced by markets had fallen to about 24%, from over 70% a week earlier. Traders tend to trim their dollar holdings before a big US report after a strong run, which lets the pound recover a little, so each pound buys slightly more dirhams. GBP/USD rose from about 1.3205 at 07:00 Dubai to a high near 1.3218 at about 10:30 Dubai, then settled near 1.3208 by 12:30 Dubai, taking GBP/AED from about 4.850 to about 4.854 and back to about 4.851."
-  },
-  {
-   "t": "2026-10-02T13:40:42Z",
-   "title": "Oil steadies after Thursday's jump",
-   "text": "The National reported on Friday that Brent eased 0.05% to $102.10 (about £77.30) and US crude 0.31% to $92.58 (about £70.10), as larger Saudi shipments through the Strait of Hormuz, 2.9 million barrels a day in September against about 1 million in August, balanced the US carrier deployment. OPEC+ meets on Sunday to set November output. Steady oil removes one source of fresh demand for the dollar, though prices above $100 (about £76) keep inflation worries and US yields high. The time of the news is not known. Oil's pause matched a quiet morning for GBP/USD, which stayed between about 1.3200 and 1.3218."
   }
  ]
 }
