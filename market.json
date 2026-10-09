@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-09T03:39:46Z",
- "headline": "Sterling is near 1.3237 against the dollar early on Friday in Dubai, a little above Thursday evening, with the dollar index at about 102 after a second day of small losses. Oil near $103.50 (about £78) and a US ten-year yield near 5.24% are both off Thursday's highs, and US consumer sentiment at 18:00 Dubai is the one scheduled test today.",
+ "updated": "2026-10-09T14:39:42Z",
+ "headline": "Sterling is near 1.3228 against the dollar on Friday evening in Dubai, little changed after US consumer sentiment came in below forecast at 46.3 while consumers' inflation expectations rose to 4.7%. No further US or UK figures are scheduled this week.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -24,18 +24,29 @@
   }
  ],
  "lower": [
-  "US consumer sentiment today coming in above the 47.5 forecast, or inflation expectations rising from 4.6%, which would make Fed rises more likely and lift the dollar.",
   "Oil rising again on further attacks on Gulf shipping, on damage from Hurricane Isaias or on a breakdown in the talks between the US and Iran, which adds to US inflation worries and tends to lift the dollar.",
   "US bond yields climbing back towards Thursday's 5.35%, which would draw money into the dollar.",
-  "Further talk from Fed policymakers of a rate rise by the end of the year, which supports the dollar."
+  "Further talk from Fed policymakers of a rate rise by the end of the year, which supports the dollar; the rise in consumers' inflation expectations to 4.7% on 9 October gives them one more reason."
  ],
  "higher": [
-  "US consumer sentiment today coming in below the 47.5 forecast, or inflation expectations falling from 4.6%, which would make Fed rises less likely and weaken the dollar.",
   "Progress in the talks between the US and Iran, or a reopening of the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
+  "Further signs of a softening US economy after consumer sentiment fell to 46.3 on 9 October, which would make Fed rises less likely and weaken the dollar.",
   "Bank of England policymakers signalling a rate rise on 5 November, which would lift the pound."
  ],
- "watch": "Today, Friday, the University of Michigan publishes US consumer sentiment at 18:00 Dubai, forecast at 47.5 after 47.8, together with inflation expectations, previously 4.6%. A lower figure on either would help someone selling pounds for dirhams.",
+ "watch": "Today's US consumer sentiment figure is out, and no further US or UK figures are on this week's calendar. The University of Michigan publishes its final October reading on Friday 23 October at 18:00 Dubai; the first reading was 46.3 for sentiment and 4.7% for inflation expectations, and a downward revision to either would help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Surveys of Consumers: preliminary results for October 2026",
+   "site": "University of Michigan",
+   "url": "https://www.sca.isr.umich.edu/",
+   "date": "9 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "9 Oct"
+  },
   {
    "title": "Oil falls as Trump comments on Iran talks ease supply concerns",
    "site": "Reuters via Investing.com",
@@ -59,12 +70,6 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
    "date": "7 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "9 Oct"
   },
   {
    "title": "Trump's pledge not to strike Iran before midterms fails to soothe oil markets",
@@ -100,12 +105,6 @@
    "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "8 Oct"
-  },
-  {
-   "title": "Iran's Araghchi says Tehran to respond to US peace plan within days",
-   "site": "ANI via The Tribune",
-   "url": "https://www.tribuneindia.com/news/world/irans-araghchi-says-tehran-to-respond-to-us-peace-plan-within-days-as-pentagon-prepares-fresh-strikes",
    "date": "8 Oct"
   }
  ],
@@ -199,8 +198,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-09T03:39:46Z",
+ "calendarUpdated": "2026-10-09T14:39:42Z",
  "feed": [
+  {
+   "title": "US consumer sentiment fell and inflation expectations rose, and the rate barely moved",
+   "text": "The University of Michigan's first reading for October put consumer sentiment at 46.3 against 47.5 expected, down from 48.1 in September, while the inflation consumers expect over the next year rose to 4.7% from 4.6% and over the long run to 3.5% from 3.4%. Weaker sentiment points to a softer economy, which tends to weaken the dollar, but higher inflation expectations keep Fed rises in view, which supports it, so the two pulled in opposite directions. GBP/USD was 1.3227 just before the figure at 18:00 Dubai, dipped to 1.3221 by 18:03, was back at 1.3230 by 18:07 and stood near 1.3228 at 18:39; the euro was just as steady, at 1.1190 before and 1.1193 at 18:38.",
+   "when": "2026-10-09T14:00:00Z",
+   "t": "2026-10-09T14:39:42Z",
+   "rate": 1.32277
+  },
   {
    "title": "The dollar has eased a little overnight as oil and US yields slipped",
    "text": "Brent crude fell 72 cents to $103.53 (about £78) a barrel in Asian trading on Friday after President Trump said no attack on Iran is planned before the midterm elections on 3 November, Reuters reported, and the US ten-year yield held near 5.24%, below Thursday's 24-year high, Trading Economics reported. Cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD stayed between 1.3220 and 1.3246 overnight, rose from 1.3227 at 03:45 Dubai to 1.3245 at 05:30 and stood near 1.3237 at 07:38 Dubai; the euro rose in step, from 1.1208 to 1.1224, so this was the dollar easing and nothing in the UK.",
@@ -345,12 +351,6 @@
    "text": "GBP/USD fell from 1.3230 at 13:38 Dubai to 1.3216 at 13:45 and has since held between about 1.3218 and 1.3225. The euro fell by the same 0.1% against the dollar in those minutes and the pound was unchanged against the euro, so this is the dollar strengthening, which means fewer dirhams per pound, and nothing in the UK. No source names a single event for those minutes; FXStreet, writing at 14:37 Dubai, put the dollar's strength down to heavy selling of the euro over France's budget, high long-term US yields and geopolitical tension, and Trading Economics added political uncertainty in Spain.",
    "t": "2026-10-05T10:39:40Z",
    "rate": 1.32217
-  },
-  {
-   "title": "The dollar has eased back from its morning high",
-   "text": "FXStreet put the dollar index near 102.53, a new high for the year, at about 10:00 Dubai, and Trading Economics showed it near 102.19 later in the morning, as London and Europe opened. Trading Economics also reported Brent slipping towards $101 (about £76) a barrel earlier in the session on signs of rising supply, which eases the pull of the dollar. GBP/USD has climbed steadily from about 1.3192 at 08:30 Dubai to about 1.3230 at 12:35 Dubai, recovering most of the early fall; the euro rose by about the same 0.3% over those hours, so this is the dollar giving ground, and no source names a single event for it.",
-   "t": "2026-10-05T08:39:27Z",
-   "rate": 1.32295
   }
  ]
 }
