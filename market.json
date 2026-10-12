@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-12T03:40:19Z",
- "headline": "Sterling is near 1.3243 against the dollar on Monday morning in Dubai, a little above Friday's close of 1.3230, after oil fell on a US announcement of Russian diesel supplies and an energy ceasefire between Russia and Ukraine. Weekend Houthi strikes on Saudi Arabia pull the other way, and the week's main test is US inflation on Wednesday.",
+ "updated": "2026-10-12T15:39:20Z",
+ "headline": "Sterling is near 1.3208 against the dollar on Monday evening in Dubai, down from 1.3243 in the morning, after oil reversed its early fall and rose about 2% as the energy ceasefire between Russia and Ukraine was disputed and attacks on Saudi Arabia continued. The dollar index is near 102.5, close to its highest since April 2025, and the week's main test is US inflation on Wednesday.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -12,7 +12,7 @@
   },
   {
    "title": "Oil, the Gulf and Russian diesel",
-   "text": "Brent crude was near $103.15 (about £78) a barrel on Monday 12 October, down about 1.5%, Trading Economics reported, after opening at $105.48 (about £80). The President said on Sunday 11 October that Russia will release diesel to world markets and that Russia and Ukraine have agreed an energy ceasefire, which Ukraine's president said was news to him, NBC News reported. Against that, Houthi strikes hit Riyadh's airport on Saturday and Sunday, killing at least 13 people over the two days, a tanker was struck off Oman, and Iran called the US reply on reopening the Strait of Hormuz insufficient, France 24 reported."
+   "text": "Brent crude was near $106.84 (about £81) a barrel on Monday evening in Dubai on 12 October, up about 2% on the day and at its highest in more than two weeks, Trading Economics reported, after trading near $103.15 (about £78) in the morning. Ukraine's president said Russia kept striking energy sites, including a gas production facility, despite the energy ceasefire the US announced on Sunday 11 October, and Ukraine said it would continue its own attacks. Saudi Arabia reported further drone and cruise missile attacks after the deadly strike on Riyadh's airport, and tanker attacks in the Strait of Hormuz added to worries about shipping."
   },
   {
    "title": "The euro",
@@ -37,9 +37,9 @@
  "watch": "No US or UK figures are due on Monday or Tuesday, and the US bond market is closed on Monday. US inflation for September is out on Wednesday 14 October at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help.",
  "sources": [
   {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "12 Oct"
   },
   {
@@ -49,9 +49,15 @@
    "date": "12 Oct"
   },
   {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
+   "date": "12 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
    "date": "12 Oct"
   },
   {
@@ -101,12 +107,6 @@
    "site": "Reuters via Investing.com",
    "url": "https://investing.com/news/commodities-news/oil-falls-as-trump-comments-on-iran-talks-ease-supply-concerns-4940126",
    "date": "9 Oct"
-  },
-  {
-   "title": "Trump's pledge not to strike Iran before midterms fails to soothe oil markets",
-   "site": "NBC News",
-   "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248",
-   "date": "8 Oct"
   }
  ],
  "calendar": [
@@ -287,8 +287,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-12T03:40:19Z",
+ "calendarUpdated": "2026-10-12T15:39:20Z",
  "feed": [
+  {
+   "title": "The dollar has strengthened as oil turned back up",
+   "text": "Brent crude rose about 2% to near $106.84 (about £81) a barrel, its highest in more than two weeks, after Ukraine's president said Russia was still striking energy sites despite the ceasefire announced on Sunday and Saudi Arabia reported further drone and missile attacks, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and draw money into the dollar, which means fewer dirhams per pound, and the dollar index rose about 0.3% to near 102.5. GBP/USD touched 1.3259 at about 10:00 Dubai, then slid through the day to 1.3208 by 19:38 Dubai, against 1.3243 at the morning update; the euro fell further, from about 1.1206 to 1.1163, so this was the dollar gaining and nothing in the UK.",
+   "t": "2026-10-12T15:39:20Z",
+   "rate": 1.32073
+  },
   {
    "title": "Sterling has reopened a little higher after the weekend",
    "text": "GBP/USD ended Friday near 1.3230, stayed between about 1.3210 and 1.3235 on Kraken's weekend prices, then rose from 1.3227 at 03:00 Dubai on Monday to 1.3250 at 05:15 and stood near 1.3243 at 07:38 Dubai. The euro rose in step, from 1.1193 to 1.1213, so this was the dollar easing as oil fell and nothing in the UK. The dollar index is still above 102 after four weeks of gains, Trading Economics reported, and the US government bond market is closed on Monday for a holiday, so there is no lead from US yields until Tuesday.",
@@ -431,12 +437,6 @@
   {
    "title": "Sterling has held just above 1.32 overnight",
    "text": "GBP/USD rose from 1.3200 at 18:40 Dubai on Monday to 1.3224 by 19:00, then stayed between 1.3200 and 1.3227 through the US session and Tuesday's Asian trading, and stood near 1.3217 at 07:38 Dubai. The dollar index is steady near 102.16, just under Monday's 18-month high, and the euro is still near 1.1220, its weakest since May 2025, Reuters reported. No scheduled figure came out overnight, so the forces of Monday are unchanged: high US yields and the euro's troubles hold the dollar up, which means fewer dirhams per pound, while weak US jobs figures and cheaper oil hold it back.",
-   "t": "2026-10-06T03:39:52Z",
-   "rate": 1.32164
-  },
-  {
-   "title": "Oil has slipped as Gulf exports recover",
-   "text": "Brent closed Monday near $100.70 (about £76) a barrel and US crude fell to about $88.50 (about £67) early on Tuesday, Trading Economics and FXStreet reported, citing the G7 release and a JPMorgan estimate that Middle East crude shipments are back to about 98% of their pre-war level. Cheaper oil eases US inflation worries and tends to weaken the dollar, which would mean more dirhams per pound. Against that, the Houthis claimed three further missile and drone operations against airports, an oil facility and military sites in Saudi Arabia, and GBP/USD has barely moved, so the two have so far cancelled out.",
    "t": "2026-10-06T03:39:52Z",
    "rate": 1.32164
   }
