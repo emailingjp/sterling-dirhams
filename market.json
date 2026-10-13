@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T03:39:25Z",
+ "updated": "2026-10-13T12:39:22Z",
  "headline": "Sterling is near 1.3215 against the dollar on Tuesday morning in Dubai, a little above Monday evening's 1.3208 and close to its lowest in more than three months, after oil and US bond yields slipped overnight. The dollar index is near 102.4, still close to its highest since April 2025, and the week's main test is US inflation on Wednesday.",
  "drivers": [
   {
@@ -38,12 +38,6 @@
  "watch": "No major US or UK figures are due on Tuesday, though three Fed officials speak. Governor Bailey speaks on Wednesday 14 October at 09:30 Dubai, and US inflation for September is out the same day at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help.",
  "sources": [
   {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "13 Oct"
-  },
-  {
    "title": "US dollar index: level and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
@@ -56,10 +50,16 @@
    "date": "13 Oct"
   },
   {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "13 Oct"
+  },
+  {
    "title": "British pound: level and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "12 Oct"
+   "date": "13 Oct"
   },
   {
    "title": "GBP/USD and EUR/USD prices",
@@ -288,8 +288,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-13T03:39:25Z",
+ "calendarUpdated": "2026-10-13T12:39:22Z",
  "feed": [
+  {
+   "title": "The dollar has weakened as oil and US yields fell further",
+   "text": "Brent crude fell about 1.9% to near $104.68 (about £79) a barrel and the US ten-year yield fell about five hundredths of a point to 5.19% on Tuesday, as a sell-off in technology shares sent investors into government bonds, and markets now put the chance of a Fed rise in December at about 72%, down from nearly 88% earlier in the day, Trading Economics reported. Cheaper oil, lower US yields and fewer expected Fed rises all weaken the dollar, which means more dirhams per pound, and the dollar index slipped to about 102.3 from 102.6. GBP/USD rose from 1.3212 at 09:00 Dubai to 1.3228 by 11:30 and touched 1.3247 at about 16:25, standing near 1.3244 at 16:38 Dubai; the euro rose from 1.1170 to 1.1187, a little less than the pound, which also had some support from the IMF raising its forecast for UK growth this year to 1.3% from 1.0%.",
+   "t": "2026-10-13T12:39:22Z",
+   "rate": 1.32435
+  },
   {
    "title": "The dollar has eased a little overnight as oil and US yields slipped",
    "text": "Brent crude fell about 1.1% to near $105.44 (about £80) a barrel on Tuesday after three days of gains, as traders weighed Russia's partial easing of its diesel export limits against the fighting in Ukraine and the attacks on Saudi Arabia, and the US ten-year yield fell below 5.2% from 5.24% as bond trading resumed after Monday's holiday, Trading Economics reported. Cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD held between about 1.3199 and 1.3209 from 20:00 Dubai on Monday, rose from 1.3206 at 05:00 Dubai on Tuesday to 1.3215 by 05:15 and stood near 1.3215 at 07:38 Dubai; the euro rose in step, from 1.1158 to 1.1170, so this was the dollar easing and nothing in the UK.",
@@ -432,12 +438,6 @@
   {
    "title": "The dollar has weakened as oil falls again",
    "text": "Brent fell about 2% to near $98.30 (about £74) a barrel, its third fall in a row, as Saudi Arabia reported 5.8 million barrels flowing through its East-West Pipeline and Middle East exports recover, Trading Economics reported, and the dollar index slipped below 102 to about 101.87. Cheaper oil eases US inflation worries and the case for Fed rises, which weakens the dollar and means more dirhams per pound. GBP/USD rose from 1.3211 at 11:00 Dubai, as London opened, to 1.3243 at 13:00; the euro rose by a similar 0.3% and the pound was unchanged against the euro, so nothing in the UK lies behind it.",
-   "t": "2026-10-06T11:39:58Z",
-   "rate": 1.32633
-  },
-  {
-   "title": "Sterling has climbed above 1.3260 with no named cause",
-   "text": "GBP/USD rose from 1.3246 at 15:12 Dubai to 1.3266 at 15:30, above the range of 1.3180 to 1.3250 it had kept since Friday, and stood near 1.3262 at 15:39. The euro rose by a similar 0.15% against the dollar in those minutes and the pound was unchanged against the euro, so this is the dollar giving more ground rather than anything in the UK. No source names an event for those minutes, and no scheduled figure came out; BBH, quoted by FXStreet at 15:15 Dubai, said the dollar had trimmed its recent gains while futures still price a full Fed rise in December.",
    "t": "2026-10-06T11:39:58Z",
    "rate": 1.32633
   }
