@@ -1,63 +1,76 @@
 {
- "updated": "2026-10-12T15:39:20Z",
- "headline": "Sterling is near 1.3208 against the dollar on Monday evening in Dubai, down from 1.3243 in the morning, after oil reversed its early fall and rose about 2% as the energy ceasefire between Russia and Ukraine was disputed and attacks on Saudi Arabia continued. The dollar index is near 102.5, close to its highest since April 2025, and the week's main test is US inflation on Wednesday.",
+ "updated": "2026-10-13T03:39:25Z",
+ "headline": "Sterling is near 1.3215 against the dollar on Tuesday morning in Dubai, a little above Monday evening's 1.3208 and close to its lowest in more than three months, after oil and US bond yields slipped overnight. The dollar index is near 102.4, still close to its highest since April 2025, and the week's main test is US inflation on Wednesday.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "Markets put the chance that the Fed leaves rates unchanged on 28 October at about 83% and the chance of a rise in December at about 86%, Trading Economics reported on 12 October. The Fed's range is 3.75% to 4%. US consumer prices for September are due on Wednesday 14 October, with a forecast of 3.6% on the year against 3.4% in August, and producer prices and retail sales follow on Thursday."
+   "text": "Markets put the chance that the Fed leaves rates unchanged on 28 October at about 80% and the chance of a rise in December at nearly 88%, Trading Economics reported on 13 October. The Fed's range is 3.75% to 4%. Fed officials Waller, Barkin and Collins are due to speak on Tuesday 13 October, US consumer prices for September are due on Wednesday 14 October, with a forecast of 3.6% on the year against 3.4% in August, and producer prices and retail sales follow on Thursday."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield ended Friday 9 October near 5.26%, below the 24-year high of 5.35% touched on Thursday 8 October and about five basis points lower over the week, Trading Economics reported. The US government bond market is closed on Monday 12 October for a holiday. Higher US yields draw money into the dollar, and lower ones do the reverse."
+   "text": "The US ten-year yield fell below 5.2% on Tuesday 13 October, from 5.24% at the previous close, as trading resumed after Monday's holiday, Trading Economics reported. That extends its retreat from the 24-year high of 5.35% touched on Thursday 8 October. Higher US yields draw money into the dollar, and lower ones do the reverse."
   },
   {
    "title": "Oil, the Gulf and Russian diesel",
-   "text": "Brent crude was near $106.84 (about £81) a barrel on Monday evening in Dubai on 12 October, up about 2% on the day and at its highest in more than two weeks, Trading Economics reported, after trading near $103.15 (about £78) in the morning. Ukraine's president said Russia kept striking energy sites, including a gas production facility, despite the energy ceasefire the US announced on Sunday 11 October, and Ukraine said it would continue its own attacks. Saudi Arabia reported further drone and cruise missile attacks after the deadly strike on Riyadh's airport, and tanker attacks in the Strait of Hormuz added to worries about shipping."
+   "text": "Brent crude was near $105.44 (about £80) a barrel on Tuesday 13 October, down about 1.1% after three days of gains that took it to about $107 (about £81) on Monday, Trading Economics reported. Russia has partly eased its diesel export limits under the agreement with the US, but US lawmakers argue the agreement may breach a law barring Russian energy imports, Ukraine's president has vowed to keep striking Russia because Moscow is still hitting Ukraine's energy sites, and Washington faces pressure to back Saudi Arabia against the Houthis after the attacks on Riyadh's airport."
   },
   {
    "title": "The euro",
-   "text": "The euro stood near 1.1208 against the dollar early on Monday 12 October, on Kraken's prices, up from about 1.1196 at Friday's close and moving in step with the pound. A weaker euro lifts the dollar index and tends to pull GBP/USD down with it, and a firmer one does the reverse."
+   "text": "The euro stood near 1.1170 against the dollar early on Tuesday 13 October, on Kraken's prices, up from about 1.1156 on Monday evening and moving in step with the pound. A weaker euro lifts the dollar index and tends to pull GBP/USD down with it, and a firmer one does the reverse."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and the Bank of England's next decision is on 5 November. Markets are pricing a rise at that meeting, and Megan Greene of the Bank has warned that wage growth could reach about 3.5% in 2027, Trading Economics reported on 9 October. UK GDP for August is due on Thursday 15 October, with a forecast of a 0.1% fall after 0.4% growth in July, and Governor Bailey speaks several times this week."
+   "text": "Bank Rate is 3.75% and the Bank of England's next decision is on 5 November. Markets are pricing four rises over the next 12 months because of higher energy costs, which many analysts think is too many, and investors are cautious ahead of the Budget later this month, with the Institute for Fiscal Studies saying the government must find £35 billion, Trading Economics reported on 12 October. Governor Bailey speaks on Wednesday 14 October and UK GDP for August is due on Thursday 15 October, with a forecast of a 0.1% fall after 0.4% growth in July."
   }
  ],
  "lower": [
   "US inflation on Wednesday coming in above the 3.6% forecast, which would make a Fed rise in December more likely, lift US yields and strengthen the dollar.",
   "Further Houthi strikes on Saudi Arabia, US action in Yemen or a breakdown in the talks between the US and Iran, which would push oil up, add to US inflation worries and tend to lift the dollar.",
-  "The energy ceasefire between Russia and Ukraine failing to hold, as a similar announcement did last month, which would take oil back up and the dollar with it.",
-  "UK GDP on Thursday falling by more than the 0.1% forecast, which would weaken the case for a Bank of England rise and weigh on the pound."
+  "The fighting over energy sites in Russia and Ukraine worsening, or the diesel agreement being blocked in Washington, which would take oil back up and the dollar with it.",
+  "UK GDP on Thursday falling by more than the 0.1% forecast, or worries about tax rises in the Budget growing, either of which would weigh on the pound."
  ],
  "higher": [
   "US inflation on Wednesday coming in below the 3.6% forecast, which would make Fed rises less likely, lower US yields and weaken the dollar.",
-  "Russian diesel reaching the market and the energy ceasefire holding, or progress on reopening the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
+  "More Russian diesel reaching the market, a calmer Gulf or progress on reopening the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
+  "US bond yields continuing to fall from last week's 24-year high, which would draw less money into the dollar.",
   "UK GDP on Thursday beating the forecast, or Governor Bailey signalling a rate rise on 5 November, either of which would lift the pound."
  ],
- "watch": "No US or UK figures are due on Monday or Tuesday, and the US bond market is closed on Monday. US inflation for September is out on Wednesday 14 October at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help.",
+ "watch": "No major US or UK figures are due on Tuesday, though three Fed officials speak. Governor Bailey speaks on Wednesday 14 October at 09:30 Dubai, and US inflation for September is out the same day at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help.",
  "sources": [
   {
    "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "12 Oct"
+   "date": "13 Oct"
   },
   {
    "title": "US dollar index: level and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "12 Oct"
+   "date": "13 Oct"
   },
   {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
+   "title": "US 10 year Treasury yield: level and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "13 Oct"
+  },
+  {
+   "title": "British pound: level and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
    "date": "12 Oct"
   },
   {
    "title": "GBP/USD and EUR/USD prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "13 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
    "date": "12 Oct"
   },
   {
@@ -71,18 +84,6 @@
    "site": "France 24",
    "url": "https://france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
    "date": "11 Oct"
-  },
-  {
-   "title": "US 10 year Treasury yield: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "9 Oct"
-  },
-  {
-   "title": "British pound: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "9 Oct"
   },
   {
    "title": "This week's economic calendar",
@@ -204,9 +205,9 @@
    "impact": "High",
    "name": "US core retail sales, month on month",
    "title": "Core Retail Sales m/m",
-   "forecast": "0.5%",
+   "forecast": "0.6%",
    "previous": "1.4%",
-   "good": "Lower than 0.5%",
+   "good": "Lower than 0.6%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -215,9 +216,9 @@
    "impact": "High",
    "name": "US producer prices, month on month",
    "title": "PPI m/m",
-   "forecast": "0.5%",
+   "forecast": "0.6%",
    "previous": "0.4%",
-   "good": "Lower than 0.5%",
+   "good": "Lower than 0.6%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -237,9 +238,9 @@
    "impact": "Medium",
    "name": "US: Philly Fed Manufacturing Index",
    "title": "Philly Fed Manufacturing Index",
-   "forecast": "26.5",
+   "forecast": "28.2",
    "previous": "37.8",
-   "good": "Lower than 26.5",
+   "good": "Lower than 28.2",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -248,9 +249,9 @@
    "impact": "Medium",
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
-   "forecast": "195K",
+   "forecast": "199K",
    "previous": "197K",
-   "good": "Higher than 195K",
+   "good": "Higher than 199K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -287,8 +288,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-12T15:39:20Z",
+ "calendarUpdated": "2026-10-13T03:39:25Z",
  "feed": [
+  {
+   "title": "The dollar has eased a little overnight as oil and US yields slipped",
+   "text": "Brent crude fell about 1.1% to near $105.44 (about £80) a barrel on Tuesday after three days of gains, as traders weighed Russia's partial easing of its diesel export limits against the fighting in Ukraine and the attacks on Saudi Arabia, and the US ten-year yield fell below 5.2% from 5.24% as bond trading resumed after Monday's holiday, Trading Economics reported. Cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD held between about 1.3199 and 1.3209 from 20:00 Dubai on Monday, rose from 1.3206 at 05:00 Dubai on Tuesday to 1.3215 by 05:15 and stood near 1.3215 at 07:38 Dubai; the euro rose in step, from 1.1158 to 1.1170, so this was the dollar easing and nothing in the UK.",
+   "t": "2026-10-13T03:39:25Z",
+   "rate": 1.32144
+  },
   {
    "title": "The dollar has strengthened as oil turned back up",
    "text": "Brent crude rose about 2% to near $106.84 (about £81) a barrel, its highest in more than two weeks, after Ukraine's president said Russia was still striking energy sites despite the ceasefire announced on Sunday and Saudi Arabia reported further drone and missile attacks, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and draw money into the dollar, which means fewer dirhams per pound, and the dollar index rose about 0.3% to near 102.5. GBP/USD touched 1.3259 at about 10:00 Dubai, then slid through the day to 1.3208 by 19:38 Dubai, against 1.3243 at the morning update; the euro fell further, from about 1.1206 to 1.1163, so this was the dollar gaining and nothing in the UK.",
@@ -433,12 +440,6 @@
    "text": "GBP/USD rose from 1.3246 at 15:12 Dubai to 1.3266 at 15:30, above the range of 1.3180 to 1.3250 it had kept since Friday, and stood near 1.3262 at 15:39. The euro rose by a similar 0.15% against the dollar in those minutes and the pound was unchanged against the euro, so this is the dollar giving more ground rather than anything in the UK. No source names an event for those minutes, and no scheduled figure came out; BBH, quoted by FXStreet at 15:15 Dubai, said the dollar had trimmed its recent gains while futures still price a full Fed rise in December.",
    "t": "2026-10-06T11:39:58Z",
    "rate": 1.32633
-  },
-  {
-   "title": "Sterling has held just above 1.32 overnight",
-   "text": "GBP/USD rose from 1.3200 at 18:40 Dubai on Monday to 1.3224 by 19:00, then stayed between 1.3200 and 1.3227 through the US session and Tuesday's Asian trading, and stood near 1.3217 at 07:38 Dubai. The dollar index is steady near 102.16, just under Monday's 18-month high, and the euro is still near 1.1220, its weakest since May 2025, Reuters reported. No scheduled figure came out overnight, so the forces of Monday are unchanged: high US yields and the euro's troubles hold the dollar up, which means fewer dirhams per pound, while weak US jobs figures and cheaper oil hold it back.",
-   "t": "2026-10-06T03:39:52Z",
-   "rate": 1.32164
   }
  ]
 }
