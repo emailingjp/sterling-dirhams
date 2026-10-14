@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T03:40:14Z",
+ "updated": "2026-10-14T06:40:08Z",
  "headline": "Sterling is near 1.3273 against the dollar on Wednesday morning in Dubai, up from 1.3244 on Tuesday afternoon, after the dollar eased overnight on Fed comments suggesting rate rises will end soon. The day's main test is US inflation for September at 16:30 Dubai, forecast at 3.6% on the year against 3.4% in August.",
  "drivers": [
   {
@@ -30,8 +30,20 @@
   "A calmer Gulf or more Russian diesel reaching the market, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "UK GDP on Thursday beating the forecast, or Governor Bailey signalling a rate rise on 5 November, either of which would lift the pound."
  ],
- "watch": "Governor Bailey speaks on Wednesday 14 October at 09:30 Dubai, where a firm tone on rates would help, and US inflation for September is out at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP for August follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help, and US retail sales and producer prices come at 16:30 Dubai the same day.",
+ "watch": "US inflation for September is out on Wednesday 14 October at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP for August follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help, and US retail sales and producer prices come at 16:30 Dubai the same day.",
  "sources": [
+  {
+   "title": "Financial resilience in an age of repeated shocks: speech by Andrew Bailey",
+   "site": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul",
+   "date": "8 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "14 Oct"
+  },
   {
    "title": "US dollar index: level and commentary",
    "site": "Trading Economics",
@@ -91,18 +103,6 @@
    "site": "Forex Factory",
    "url": "https://www.forexfactory.com/calendar",
    "date": "12 Oct"
-  },
-  {
-   "title": "Surveys of Consumers: preliminary results for October 2026",
-   "site": "University of Michigan",
-   "url": "https://www.sca.isr.umich.edu/",
-   "date": "9 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "9 Oct"
   }
  ],
  "calendar": [
@@ -283,8 +283,15 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T03:40:14Z",
+ "calendarUpdated": "2026-10-14T06:40:08Z",
  "feed": [
+  {
+   "title": "Sterling has barely moved around Governor Bailey's slot",
+   "text": "Governor Bailey was due to speak at 09:30 Dubai, and no report of what he said had been published by 10:40 Dubai, so no source yet explains any reaction. GBP/USD was 1.3271 at the start of the slot, touched 1.3274 within three minutes and was back at 1.3270 by 09:36 Dubai, then drifted to about 1.3265 by 10:15 Dubai. In his last speech, on 8 October, he said the Bank can usually look past a one-off rise in prices only while inflation expectations stay anchored, and warned against firm promises about future rates.",
+   "when": "2026-10-14T05:30:00Z",
+   "t": "2026-10-14T06:40:08Z",
+   "rate": 1.32659
+  },
   {
    "title": "The dollar has eased overnight ahead of US inflation figures",
    "text": "The dollar index slipped to about 102.1 from 102.3 on Tuesday evening, after New York Fed President Williams repeated that one more rate rise may be appropriate this year but that further rises would probably be unnecessary in 2027, and Fed Governor Waller said inflation expectations remained well anchored, Trading Economics reported. Talk of an end to Fed rises weakens the dollar, which means more dirhams per pound, even though Brent crude climbed back to about $107 (about £81) a barrel after a Houthi missile attack on Saudi Aramco's headquarters in Dhahran. GBP/USD rose from 1.3244 at 16:38 Dubai on Tuesday to 1.3255 by 23:00 and climbed steadily through the night to 1.3273 at 07:38 Dubai on Wednesday; the euro rose from 1.1188 to 1.1209, a little less than the pound, so this was mostly the dollar easing.",
@@ -427,12 +434,6 @@
   {
    "title": "Sterling has held most of Tuesday's gain overnight",
    "text": "GBP/USD peaked at 1.3284 at 19:30 Dubai on Tuesday, stayed between 1.3261 and 1.3284 through the US session, then eased in Asian trading to a low of 1.3248 at 06:15 Dubai and stood near 1.3252 at 07:38. The dollar index fell 0.27% on Tuesday and was steady at 101.94 early on Wednesday, Reuters reported, as stress in European bond markets eased and traders judged that the recent soft US inflation and jobs figures leave the Fed in less of a hurry to raise rates. A weaker dollar means more dirhams per pound; the small slip since midnight is the dollar recovering a little, since the euro fell by a similar amount, from 1.1259 to 1.1232, and no scheduled figure came out.",
-   "t": "2026-10-07T03:40:00Z",
-   "rate": 1.32531
-  },
-  {
-   "title": "Oil has risen back above $101 on tanker attacks",
-   "text": "Brent rose about 1% to near $101.50 (about £77) a barrel early on Wednesday, its second rise in a row, after Iran stepped up attacks on tankers in the Strait of Hormuz, with nine incidents reported this month, and a Saudi-led coalition intercepted a Houthi ballistic missile, Trading Economics reported. Dearer oil adds to US inflation worries and tends to lift the dollar, which means fewer dirhams per pound. Oil is still lower for the week because Gulf exports are recovering, and GBP/USD has eased only from 1.3270 at 02:00 Dubai to about 1.3252, so the effect so far is small.",
    "t": "2026-10-07T03:40:00Z",
    "rate": 1.32531
   }
