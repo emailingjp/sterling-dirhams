@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-14T12:39:50Z",
- "headline": "Sterling has fallen to about 1.3211 against the dollar on Wednesday afternoon in Dubai, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, which strengthened the dollar on expectations of a further Fed rise.",
+ "updated": "2026-10-14T13:40:07Z",
+ "headline": "Sterling has fallen to about 1.3200 against the dollar on Wednesday afternoon in Dubai, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, the US ten-year yield climbed to about 5.31% and markets now see about an even chance of a Fed rise this month.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "Markets put the chance that the Fed leaves rates unchanged on 28 October at about 77% and the chance of a rise in December at about 88%, Trading Economics reported on 14 October. The Fed's range is 3.75% to 4%. New York Fed President Williams said one more rise may be appropriate this year but further tightening would likely be unnecessary in 2027, and Richmond Fed President Barkin and Vice Chair for Supervision Bowman speak on Wednesday 14 October."
+   "text": "After the hotter September inflation figures, markets put the chance of a Fed rise at the 28 October meeting at about 50%, up from about 22% before the release, Trading Economics reported on 14 October. The Fed's range is 3.75% to 4%. New York Fed President Williams said one more rise may be appropriate this year, while Vice Chair for Supervision Bowman said she saw no immediate need for another increase."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield held near 5.21% on Wednesday 14 October, below the 24-year high of 5.35% touched on Thursday 8 October, as the global bond sell-off eased and swings in share prices drew money into government bonds, Trading Economics reported. Higher US yields draw money into the dollar, and lower ones do the reverse."
+   "text": "The US ten-year yield rose about nine hundredths of a point to about 5.31% on Wednesday 14 October after the inflation figures, close to the 24-year high of 5.35% touched on Thursday 8 October, Trading Economics reported. Higher US yields draw money into the dollar, and lower ones do the reverse."
   },
   {
    "title": "Oil and the Gulf",
@@ -32,6 +32,18 @@
  "watch": "UK GDP for August is out on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales and producer prices follow at 16:30 Dubai the same day, where results below forecast would help.",
  "sources": [
   {
+   "title": "Treasury yields jump after hot CPI report",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "14 Oct"
+  },
+  {
+   "title": "Dollar index hits 15-month high",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "14 Oct"
+  },
+  {
    "title": "Consumer Price Index news release, September 2026",
    "site": "US Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
@@ -53,18 +65,6 @@
    "title": "GBP/USD minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "14 Oct"
-  },
-  {
-   "title": "US dollar index: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "14 Oct"
-  },
-  {
-   "title": "US 10 year Treasury yield: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
    "date": "14 Oct"
   },
   {
@@ -282,8 +282,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T12:39:50Z",
+ "calendarUpdated": "2026-10-14T13:40:07Z",
  "feed": [
+  {
+   "title": "US yields have jumped and the dollar has kept climbing",
+   "text": "The US ten-year yield rose about nine hundredths of a point to about 5.31% after the hotter inflation figures, close to highs last seen in early 2002, and markets now put the chance of a Fed rise this month at about 50%, up from about 22% before the release, Trading Economics reported. Higher US yields and a likelier Fed rise draw money into the dollar, which means fewer dirhams per pound, and the dollar index reached about 102.7, its highest since April 2025. GBP/USD slid further from 1.3214 at 16:40 Dubai to a low of about 1.3187 at 17:20, then steadied near 1.3200 by 17:38 Dubai.",
+   "t": "2026-10-14T13:40:07Z",
+   "rate": 1.31988
+  },
   {
    "title": "The dollar has strengthened after hotter US inflation",
    "text": "US prices rose 3.7% in the year to September against 3.6% expected, and core prices, which leave out food and energy, rose 0.3% on the month against 0.2% expected, with petrol up 9.1% in the month. Hotter inflation makes a Fed rise in December more likely and lifts US yields, which strengthens the dollar. GBP/USD fell from 1.3269 to 1.3232 within a minute of the release and slid to about 1.3207 within seven minutes, settling near 1.3211.",
@@ -430,12 +436,6 @@
    "text": "The dollar index has risen about 0.6% on Wednesday to above 102.4, its highest level since March 2025, as the US ten-year yield climbed about five basis points to 5.34%, a level last seen in 2002, and Brent crude held near $101.70 (about £77), Trading Economics reported. Dearer oil adds to US inflation worries and higher US yields draw money into the dollar, which means fewer dirhams per pound. GBP/USD slid steadily from 1.3227 at 13:39 Dubai to a low of 1.3192 at 16:27 and stood near 1.3197 at 16:39; the euro fell by a similar amount, from 1.1187 to 1.1170, so this is the dollar gaining rather than anything in the UK, and no scheduled figure came out and no source names a single trigger.",
    "t": "2026-10-07T12:39:31Z",
    "rate": 1.31969
-  },
-  {
-   "title": "The dollar has strengthened ahead of the Fed minutes",
-   "text": "The dollar has risen against every major currency on Wednesday morning, with the dollar index up about 0.45% near 102.3, as the US ten-year yield held near 5.33% and Brent crude stayed above $101 (about £77) after further Iranian attacks on tankers in the Strait of Hormuz, Trading Economics reported. Higher US yields and dearer oil tend to lift the dollar, and the euro fell furthest, from 1.1235 to 1.1188, under the added weight of doubts over France's budget and the election called in Spain. GBP/USD slipped from 1.3251 to 1.3226 between 07:45 and 13:30 Dubai, with the sharpest fall, from 1.3245 to 1.3229, in the quarter of an hour before 12:00 Dubai; no scheduled figure came out at that time and no source names a single trigger for it.",
-   "t": "2026-10-07T09:39:48Z",
-   "rate": 1.32266
   }
  ]
 }
