@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T06:40:08Z",
- "headline": "Sterling is near 1.3273 against the dollar on Wednesday morning in Dubai, up from 1.3244 on Tuesday afternoon, after the dollar eased overnight on Fed comments suggesting rate rises will end soon. The day's main test is US inflation for September at 16:30 Dubai, forecast at 3.6% on the year against 3.4% in August.",
+ "updated": "2026-10-14T12:39:50Z",
+ "headline": "Sterling has fallen to about 1.3211 against the dollar on Wednesday afternoon in Dubai, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, which strengthened the dollar on expectations of a further Fed rise.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -20,18 +20,29 @@
   }
  ],
  "lower": [
-  "US inflation at 16:30 Dubai on Wednesday coming in above the 3.6% forecast, or core prices above 0.2% on the month, which would make a Fed rise in December more likely, lift US yields and strengthen the dollar.",
+  "Fed officials reading the hotter September inflation as a case for further rises, which would lift US yields and strengthen the dollar.",
   "Further Houthi attacks on Saudi oil sites or more strikes on tankers in the Strait of Hormuz, which would push oil up, add to US inflation worries and tend to lift the dollar.",
   "UK GDP on Thursday falling by more than the 0.1% forecast, or worries about tax rises in the Budget growing, either of which would weigh on the pound."
  ],
  "higher": [
-  "US inflation on Wednesday coming in below the 3.6% forecast, which would make Fed rises less likely, lower US yields and weaken the dollar.",
-  "More Fed officials echoing Williams that rate rises are close to an end, which would weaken the dollar.",
+  "US retail sales or producer prices on Thursday coming in below forecast, which would ease the inflation worry, make Fed rises less likely and weaken the dollar.",
   "A calmer Gulf or more Russian diesel reaching the market, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "UK GDP on Thursday beating the forecast, or Governor Bailey signalling a rate rise on 5 November, either of which would lift the pound."
  ],
- "watch": "US inflation for September is out on Wednesday 14 October at 16:30 Dubai: the forecast is a 0.6% rise on the month and 3.6% on the year, with core prices up 0.2% on the month, and a result below those forecasts would help someone selling pounds for dirhams. UK GDP for August follows on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, where a stronger figure would help, and US retail sales and producer prices come at 16:30 Dubai the same day.",
+ "watch": "UK GDP for August is out on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales and producer prices follow at 16:30 Dubai the same day, where results below forecast would help.",
  "sources": [
+  {
+   "title": "Consumer Price Index news release, September 2026",
+   "site": "US Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+   "date": "14 Oct"
+  },
+  {
+   "title": "US inflation rate tops forecasts",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/inflation-cpi",
+   "date": "14 Oct"
+  },
   {
    "title": "Financial resilience in an age of repeated shocks: speech by Andrew Bailey",
    "site": "Bank of England",
@@ -91,18 +102,6 @@
    "site": "NBC News",
    "url": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766",
    "date": "11 Oct"
-  },
-  {
-   "title": "Live: Saudi Arabia vows decisive response after deadly Houthi strike on Riyadh airport, with Reuters oil prices",
-   "site": "France 24",
-   "url": "https://france24.com/en/middle-east/20261011-live-saudi-arabia-vows-decisive-response-after-deadly-houthi-strike-on-riyadh-airport",
-   "date": "11 Oct"
-  },
-  {
-   "title": "This week's economic calendar",
-   "site": "Forex Factory",
-   "url": "https://www.forexfactory.com/calendar",
-   "date": "12 Oct"
   }
  ],
  "calendar": [
@@ -283,8 +282,15 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T06:40:08Z",
+ "calendarUpdated": "2026-10-14T12:39:50Z",
  "feed": [
+  {
+   "title": "The dollar has strengthened after hotter US inflation",
+   "text": "US prices rose 3.7% in the year to September against 3.6% expected, and core prices, which leave out food and energy, rose 0.3% on the month against 0.2% expected, with petrol up 9.1% in the month. Hotter inflation makes a Fed rise in December more likely and lifts US yields, which strengthens the dollar. GBP/USD fell from 1.3269 to 1.3232 within a minute of the release and slid to about 1.3207 within seven minutes, settling near 1.3211.",
+   "when": "2026-10-14T12:30:00Z",
+   "t": "2026-10-14T12:39:50Z",
+   "rate": 1.32139
+  },
   {
    "title": "Sterling has barely moved around Governor Bailey's slot",
    "text": "Governor Bailey was due to speak at 09:30 Dubai, and no report of what he said had been published by 10:40 Dubai, so no source yet explains any reaction. GBP/USD was 1.3271 at the start of the slot, touched 1.3274 within three minutes and was back at 1.3270 by 09:36 Dubai, then drifted to about 1.3265 by 10:15 Dubai. In his last speech, on 8 October, he said the Bank can usually look past a one-off rise in prices only while inflation expectations stay anchored, and warned against firm promises about future rates.",
@@ -430,12 +436,6 @@
    "text": "The dollar has risen against every major currency on Wednesday morning, with the dollar index up about 0.45% near 102.3, as the US ten-year yield held near 5.33% and Brent crude stayed above $101 (about £77) after further Iranian attacks on tankers in the Strait of Hormuz, Trading Economics reported. Higher US yields and dearer oil tend to lift the dollar, and the euro fell furthest, from 1.1235 to 1.1188, under the added weight of doubts over France's budget and the election called in Spain. GBP/USD slipped from 1.3251 to 1.3226 between 07:45 and 13:30 Dubai, with the sharpest fall, from 1.3245 to 1.3229, in the quarter of an hour before 12:00 Dubai; no scheduled figure came out at that time and no source names a single trigger for it.",
    "t": "2026-10-07T09:39:48Z",
    "rate": 1.32266
-  },
-  {
-   "title": "Sterling has held most of Tuesday's gain overnight",
-   "text": "GBP/USD peaked at 1.3284 at 19:30 Dubai on Tuesday, stayed between 1.3261 and 1.3284 through the US session, then eased in Asian trading to a low of 1.3248 at 06:15 Dubai and stood near 1.3252 at 07:38. The dollar index fell 0.27% on Tuesday and was steady at 101.94 early on Wednesday, Reuters reported, as stress in European bond markets eased and traders judged that the recent soft US inflation and jobs figures leave the Fed in less of a hurry to raise rates. A weaker dollar means more dirhams per pound; the small slip since midnight is the dollar recovering a little, since the euro fell by a similar amount, from 1.1259 to 1.1232, and no scheduled figure came out.",
-   "t": "2026-10-07T03:40:00Z",
-   "rate": 1.32531
   }
  ]
 }
