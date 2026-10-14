@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T15:40:08Z",
+ "updated": "2026-10-14T18:40:24Z",
  "headline": "Sterling has fallen to about 1.3146 against the dollar on Wednesday evening in Dubai, its weakest since late June, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, the dollar index has reached its highest since April 2025 and markets now see about an even chance of a Fed rise this month.",
  "drivers": [
   {
@@ -31,6 +31,18 @@
  ],
  "watch": "UK GDP for August is out on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales and producer prices follow at 16:30 Dubai the same day, where results below forecast would help.",
  "sources": [
+  {
+   "title": "Fed's Beige Book: nine of 12 districts report growth as price pressures broaden",
+   "site": "investingLive",
+   "url": "https://investinglive.com/central-banks/fed-s-beige-book-nine-of-12-districts-report-growth-as-price-pressures-broaden/",
+   "date": "14 Oct"
+  },
+  {
+   "title": "Summary of Commentary on Current Economic Conditions (Beige Book)",
+   "site": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm",
+   "date": "14 Oct"
+  },
   {
    "title": "British pound: level and commentary",
    "site": "Trading Economics",
@@ -89,18 +101,6 @@
    "title": "Brent crude oil: price and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "14 Oct"
-  },
-  {
-   "title": "UK 10 year gilt yield: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/government-bond-yield",
-   "date": "14 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
    "date": "14 Oct"
   }
  ],
@@ -282,8 +282,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T15:40:08Z",
+ "calendarUpdated": "2026-10-14T18:40:24Z",
  "feed": [
+  {
+   "title": "The dollar has eased back from its highs",
+   "text": "No report names a single trigger, but the dollar gave back part of the day's gains across the board: the euro rose against the dollar from 1.1116 to 1.1153 while barely moving against the pound, and Brent crude slipped back to about $106 (about £80) a barrel after the US said it had helped more than 19 million barrels through the Strait of Hormuz. The Fed's Beige Book at 22:00 Dubai found growth in nine of its twelve districts against ten in August and mostly flat consumer spending, though price pressures had broadened, and a slower US economy tends to weaken the dollar, which means more dirhams per pound. GBP/USD rose from a low of 1.3138 at 20:15 Dubai to 1.3169 by the Beige Book and to about 1.3186 by 22:37 Dubai.",
+   "t": "2026-10-14T18:40:24Z",
+   "rate": 1.31836
+  },
   {
    "title": "Sterling has slipped further in the London afternoon",
    "text": "No report names a fresh trigger for the fall between 18:47 and 19:12 Dubai, and the US ten-year yield and Brent crude were both a little below their earlier highs. This time the pound weakened as well as the dollar strengthening: the euro fell against the dollar from 1.1125 to 1.1112 while it rose against the pound from 0.8446 to 0.8453, so both sides meant fewer dirhams per pound. GBP/USD fell from 1.3169 at 18:47 Dubai to a low of 1.3138 at 19:12, its weakest since late June, then steadied near 1.3146 by 19:38 Dubai.",
@@ -428,13 +434,6 @@
    "text": "The Atlantic reported that the White House has asked the Pentagon to prepare options for strikes on Iran that could be carried out before the US midterm elections on 3 November, and a White House official said only that the President has all options available, the Jerusalem Post reported. Brent stood near $102.10 (about £77) a barrel early on Thursday, with a tropical storm also shutting in more than 510,000 barrels a day of output in the Gulf of Mexico, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and tend to lift the dollar, which means fewer dirhams per pound, but GBP/USD has not moved outside its overnight range of 1.3204 to 1.3220, so the effect on the rate so far is small.",
    "t": "2026-10-08T03:40:59Z",
    "rate": 1.3209
-  },
-  {
-   "title": "The Fed minutes have barely moved the rate",
-   "text": "The minutes of the Fed's meeting of 15 and 16 September record that all participants supported the rise to a range of 3.75% to 4%, and that most thought another rise would likely be appropriate by the end of the year, while stressing that later decisions depend on the figures that come in; they carry no forecast to compare against. Talk of a further rise would normally lift the dollar and mean fewer dirhams per pound, but the market already put the chance of a rise by December at about 84.5%, and the meeting came before the soft September jobs figures. GBP/USD was 1.3215 at the release at 22:00 Dubai, dipped to 1.3211, touched 1.3219 at 22:05 and was back near 1.3215 by 22:40, and the euro was just as steady, from 1.1198 to 1.1195.",
-   "when": "2026-10-07T18:00:00Z",
-   "t": "2026-10-07T18:39:51Z",
-   "rate": 1.32143
   }
  ]
 }
