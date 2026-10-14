@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T14:40:08Z",
- "headline": "Sterling has fallen to about 1.3170 against the dollar on Wednesday evening in Dubai, its weakest since June, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, the dollar index has reached its highest since April 2025 and markets now see about an even chance of a Fed rise this month.",
+ "updated": "2026-10-14T15:40:08Z",
+ "headline": "Sterling has fallen to about 1.3146 against the dollar on Wednesday evening in Dubai, its weakest since late June, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, the dollar index has reached its highest since April 2025 and markets now see about an even chance of a Fed rise this month.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -35,6 +35,12 @@
    "title": "British pound: level and commentary",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "14 Oct"
+  },
+  {
+   "title": "EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=EURGBP&interval=1",
    "date": "14 Oct"
   },
   {
@@ -96,12 +102,6 @@
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
    "date": "14 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "13 Oct"
   }
  ],
  "calendar": [
@@ -282,8 +282,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T14:40:08Z",
+ "calendarUpdated": "2026-10-14T15:40:08Z",
  "feed": [
+  {
+   "title": "Sterling has slipped further in the London afternoon",
+   "text": "No report names a fresh trigger for the fall between 18:47 and 19:12 Dubai, and the US ten-year yield and Brent crude were both a little below their earlier highs. This time the pound weakened as well as the dollar strengthening: the euro fell against the dollar from 1.1125 to 1.1112 while it rose against the pound from 0.8446 to 0.8453, so both sides meant fewer dirhams per pound. GBP/USD fell from 1.3169 at 18:47 Dubai to a low of 1.3138 at 19:12, its weakest since late June, then steadied near 1.3146 by 19:38 Dubai.",
+   "t": "2026-10-14T15:40:08Z",
+   "rate": 1.31459
+  },
   {
    "title": "The dollar has extended its gains into the US afternoon",
    "text": "No report names a fresh trigger for the slide between 17:47 and 18:02 Dubai; it was a broad rise in the dollar, with the euro falling at the same time from 1.1128 to 1.1116, as the dollar index reached about 102.9, its highest since April 2025, and US shares fell after the open, Trading Economics reported. A stronger dollar means fewer dirhams per pound, and markets still put the chance of a Fed rise this month at about 50% after the hotter inflation figures. GBP/USD fell from 1.3193 at 17:47 Dubai to a low of 1.3163 at 18:02, the weakest since June, then steadied near 1.3173 by 18:38 Dubai.",
@@ -429,13 +435,6 @@
    "when": "2026-10-07T18:00:00Z",
    "t": "2026-10-07T18:39:51Z",
    "rate": 1.32143
-  },
-  {
-   "title": "The President's announcement has not moved the rate",
-   "text": "The White House announcement at 21:00 Dubai was billed in advance as being about automatic enrolment of children in the government's savings accounts, which carry a one-off $1,000 (about £760) for those born from 2025 to 2028, and the reports read before it named nothing on interest rates, trade or the Gulf. A domestic savings scheme gives traders no reason to reprice the dollar or the pound, and GBP/USD was 1.3210 at the start, touched 1.3216 twenty minutes later and was back at 1.3210 by 21:35 Dubai. The Fed minutes at 22:00 Dubai remain the test of the evening.",
-   "when": "2026-10-07T17:00:00Z",
-   "t": "2026-10-07T17:39:49Z",
-   "rate": 1.32089
   }
  ]
 }
