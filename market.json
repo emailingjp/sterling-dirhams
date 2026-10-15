@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T03:41:13Z",
+ "updated": "2026-10-15T06:39:59Z",
  "headline": "Sterling has recovered to about 1.3253 against the dollar on Thursday morning in Dubai, from a low of 1.3138 on Wednesday evening, as US bond yields have fallen back and the dollar has given up most of the gains it made on hotter US inflation. Markets now put the chance of a Fed rise at the 28 October meeting at about one in four, and UK GDP and US retail sales today are the next tests.",
  "drivers": [
   {
@@ -22,16 +22,28 @@
  "lower": [
   "US retail sales or producer prices this afternoon coming in above forecast, which would revive talk of a Fed rise, lift US yields and strengthen the dollar.",
   "Chair Warsh sounding firm on further rises on Friday, which would push US yields back up and lift the dollar.",
-  "UK GDP this morning falling by more than the 0.1% forecast, or renewed worries about tax rises in the Budget, either of which would weigh on the pound.",
+  "Renewed worries about tax rises in the Budget later this month, which would weigh on the pound.",
   "More attacks on shipping in the Strait of Hormuz or on Saudi oil sites, which would push oil up and tend to lift the dollar."
  ],
  "higher": [
   "US retail sales or producer prices coming in below forecast, which would ease the inflation worry, make Fed rises less likely and weaken the dollar.",
-  "UK GDP beating the forecast, or Governor Bailey signalling a November rise when he speaks at 11:30 Dubai, either of which would lift the pound.",
+  "Governor Bailey signalling a November rise when he speaks at 11:30 Dubai, which would build on this morning's firmer growth figures and lift the pound.",
   "US relief for sanctioned tankers or a calmer Gulf, which would bring oil down, ease US inflation worries and weaken the dollar."
  ],
- "watch": "UK GDP for August is out today, Thursday 15 October, at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) follow at 16:30 Dubai, where results below forecast would help.",
+ "watch": "Bank of England Governor Bailey speaks today, Thursday 15 October, at 11:30 Dubai, and a firm tone on rates would help someone selling pounds for dirhams. US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) follow at 16:30 Dubai, where results below forecast would help.",
  "sources": [
+  {
+   "title": "GDP monthly estimate, UK: August 2026",
+   "site": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/august2026",
+   "date": "15 Oct"
+  },
+  {
+   "title": "UK economy unexpectedly grows in August",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/monthly-gdp-mom",
+   "date": "15 Oct"
+  },
   {
    "title": "Dollar weakens as markets assess Fed outlook",
    "site": "Trading Economics",
@@ -90,18 +102,6 @@
    "title": "EUR/GBP minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=EURGBP&interval=1",
-   "date": "14 Oct"
-  },
-  {
-   "title": "EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=EURUSD&interval=1",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Consumer Price Index news release, September 2026",
-   "site": "US Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
    "date": "14 Oct"
   }
  ],
@@ -283,8 +283,15 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-15T03:41:13Z",
+ "calendarUpdated": "2026-10-15T06:39:59Z",
  "feed": [
+  {
+   "title": "The UK economy has grown when a fall was expected",
+   "text": "The ONS said the economy grew by 0.1% in August against a forecast fall of 0.1%, with factory output up 1.2% while services were flat and construction fell for a fourth month, and growth over the year reached 2.1% against 1.7% expected. Stronger UK figures support the Bank of England rise that markets already expect on 5 November, which lifts the pound, and the pound did firm against the euro from 0.8470 to 0.8464. Against the dollar the effect was small: GBP/USD briefly touched 1.3248 at 10:00 Dubai from 1.3238, settled near 1.3243 by 10:05 and was near 1.3233 at 10:38 Dubai as the dollar firmed slightly.",
+   "when": "2026-10-15T06:00:00Z",
+   "t": "2026-10-15T06:39:59Z",
+   "rate": 1.32328
+  },
   {
    "title": "The dollar has weakened as US bond yields have fallen back",
    "text": "US government bonds recovered overnight from the sell-off that followed Wednesday's hot inflation figures, taking the ten-year yield to about 5.11%, a three-week low and about two tenths of a point below its post-inflation high, as a slide in technology shares sent money into bonds and an unconfirmed Bloomberg report suggested China is quietly holding more Treasuries through Canada. Lower US yields make the dollar less rewarding to hold, so it weakened across the board and the dollar index fell about 0.6% to about 102, which means more dirhams per pound; the pound itself eased slightly against the euro, so this was a dollar move. GBP/USD rose from 1.3190 at 02:00 Dubai to 1.3232 by 04:00, then from 1.3231 at 06:00 to 1.3250 within fifteen minutes, and was near 1.3253 at 07:39 Dubai.",
@@ -429,12 +436,6 @@
    "when": "2026-10-08T07:00:00Z",
    "t": "2026-10-08T07:39:49Z",
    "rate": 1.31961
-  },
-  {
-   "title": "Sterling has been steady overnight after the Fed minutes",
-   "text": "GBP/USD has stayed between 1.3204 and 1.3220 since the Fed minutes, touching the low at 05:00 Dubai and the high at 06:15, and stood near 1.3209 at 07:38 Dubai. The dollar index held above 102, near its strongest since spring 2025, because the minutes showed most Fed policymakers expecting another rate rise by the end of the year, Trading Economics reported, and a firm dollar means fewer dirhams per pound. No scheduled figure came out overnight, and the euro was just as steady, between 1.1194 and 1.1210.",
-   "t": "2026-10-08T03:40:59Z",
-   "rate": 1.3209
   }
  ]
 }
