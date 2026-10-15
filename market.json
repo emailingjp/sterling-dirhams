@@ -1,36 +1,79 @@
 {
- "updated": "2026-10-14T18:40:24Z",
- "headline": "Sterling has fallen to about 1.3146 against the dollar on Wednesday evening in Dubai, its weakest since late June, from 1.3269 just before US inflation figures for September came in above forecasts at 16:30 Dubai. Prices rose 3.7% on the year against 3.6% expected, the dollar index has reached its highest since April 2025 and markets now see about an even chance of a Fed rise this month.",
+ "updated": "2026-10-15T03:41:13Z",
+ "headline": "Sterling has recovered to about 1.3253 against the dollar on Thursday morning in Dubai, from a low of 1.3138 on Wednesday evening, as US bond yields have fallen back and the dollar has given up most of the gains it made on hotter US inflation. Markets now put the chance of a Fed rise at the 28 October meeting at about one in four, and UK GDP and US retail sales today are the next tests.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "After the hotter September inflation figures, markets put the chance of a Fed rise at the 28 October meeting at about 50%, up from about 22% before the release, Trading Economics reported on 14 October. The Fed's range is 3.75% to 4%. New York Fed President Williams said one more rise may be appropriate this year, while Vice Chair for Supervision Bowman said she saw no immediate need for another increase."
+   "text": "Markets put the chance of the Fed holding rates at its 28 October meeting at about 73% to 75% on Thursday 15 October, Trading Economics and FXStreet reported, though a rise by the end of the year is still widely expected after September inflation came in at 3.7% against 3.6% forecast. The Fed's range is 3.75% to 4%, and Chair Warsh speaks on Friday before the pre-meeting blackout begins on Saturday."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield rose about nine hundredths of a point to about 5.31% on Wednesday 14 October after the inflation figures, close to the 24-year high of 5.35% touched on Thursday 8 October, Trading Economics reported. Higher US yields draw money into the dollar, and lower ones do the reverse."
+   "text": "The US ten-year yield fell to about 5.11% on Thursday 15 October, a three-week low, after touching about 5.33% on Wednesday following the inflation figures, Trading Economics reported. Higher US yields draw money into the dollar, and lower ones do the reverse."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent crude rose back to about $107 (about £81) a barrel on Wednesday 14 October, recovering Tuesday's fall, after a Houthi missile attack on Saudi Aramco's headquarters in Dhahran started a fire there, while a Saudi-led coalition has begun an offensive in Yemen and Iran has stepped up attacks on tankers in the Strait of Hormuz, Trading Economics reported. President Trump defended the diesel agreement with Russia, saying the extra supplies would help ease prices. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent crude fell about 1.6% to about $104 (about £79) a barrel on Thursday 15 October, on profit-taking and reports that the US is weighing relief for shadow fleet tankers that carried Russian, Iranian and Venezuelan oil, Trading Economics reported. A container ship sank in the Strait of Hormuz after being hit by unidentified projectiles and Houthi attacks on Saudi Arabia continued, which limited the fall. Dearer oil and Gulf tension tend to lift the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and the Bank of England's next decision is on 5 November. Policymaker Megan Greene argued that strong growth and a resilient labour market mean rates may need to be higher, markets price four rises over the next 12 months, and the IMF raised its forecast for UK growth this year to 1.3% from 1.0%, Trading Economics reported on 14 October. The ten-year gilt yield eased to about 5.4%, and investors are cautious ahead of the Budget later this month, with the Institute for Fiscal Studies saying the government must find £35 billion."
+   "text": "Bank Rate is 3.75% and markets see a Bank of England rise on 5 November as almost certain, Trading Economics reported on 14 October. Governor Bailey said a rise would become harder to avoid the longer the energy shock lasts, while Chief Economist Huw Pill questioned market bets on four rises over the coming year. Investors remain cautious ahead of the Budget later this month."
   }
  ],
  "lower": [
-  "Fed officials reading the hotter September inflation as a case for further rises, which would lift US yields and strengthen the dollar.",
-  "Further Houthi attacks on Saudi oil sites or more strikes on tankers in the Strait of Hormuz, which would push oil up, add to US inflation worries and tend to lift the dollar.",
-  "UK GDP on Thursday falling by more than the 0.1% forecast, or worries about tax rises in the Budget growing, either of which would weigh on the pound."
+  "US retail sales or producer prices this afternoon coming in above forecast, which would revive talk of a Fed rise, lift US yields and strengthen the dollar.",
+  "Chair Warsh sounding firm on further rises on Friday, which would push US yields back up and lift the dollar.",
+  "UK GDP this morning falling by more than the 0.1% forecast, or renewed worries about tax rises in the Budget, either of which would weigh on the pound.",
+  "More attacks on shipping in the Strait of Hormuz or on Saudi oil sites, which would push oil up and tend to lift the dollar."
  ],
  "higher": [
-  "US retail sales or producer prices on Thursday coming in below forecast, which would ease the inflation worry, make Fed rises less likely and weaken the dollar.",
-  "A calmer Gulf or more Russian diesel reaching the market, which would bring oil down, ease US inflation worries and weaken the dollar.",
-  "UK GDP on Thursday beating the forecast, or Governor Bailey signalling a rate rise on 5 November, either of which would lift the pound."
+  "US retail sales or producer prices coming in below forecast, which would ease the inflation worry, make Fed rises less likely and weaken the dollar.",
+  "UK GDP beating the forecast, or Governor Bailey signalling a November rise when he speaks at 11:30 Dubai, either of which would lift the pound.",
+  "US relief for sanctioned tankers or a calmer Gulf, which would bring oil down, ease US inflation worries and weaken the dollar."
  ],
- "watch": "UK GDP for August is out on Thursday 15 October at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales and producer prices follow at 16:30 Dubai the same day, where results below forecast would help.",
+ "watch": "UK GDP for August is out today, Thursday 15 October, at 10:00 Dubai, forecast at a 0.1% fall, and a stronger figure would help someone selling pounds for dirhams. US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) follow at 16:30 Dubai, where results below forecast would help.",
  "sources": [
+  {
+   "title": "Dollar weakens as markets assess Fed outlook",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "15 Oct"
+  },
+  {
+   "title": "US ten-year yield falls to three-week low",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "15 Oct"
+  },
+  {
+   "title": "Australian dollar slips to one-week low; weak USD helps limit losses",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/australian-dollar-drops-to-one-week-low-on-dismal-jobs-data-weak-usd-helps-limit-losses-202610150105",
+   "date": "15 Oct"
+  },
+  {
+   "title": "Talk grows that China is routing US Treasury holdings through Canada: Bloomberg",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/talk-grows-that-china-is-routing-us-treasury-holdings-through-canada-bloomberg/",
+   "date": "15 Oct"
+  },
+  {
+   "title": "Brent crude oil: price and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "15 Oct"
+  },
+  {
+   "title": "British pound: level and commentary",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "15 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "15 Oct"
+  },
   {
    "title": "Fed's Beige Book: nine of 12 districts report growth as price pressures broaden",
    "site": "investingLive",
@@ -44,21 +87,9 @@
    "date": "14 Oct"
   },
   {
-   "title": "British pound: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "14 Oct"
-  },
-  {
    "title": "EUR/GBP minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=EURGBP&interval=1",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Dollar index: level and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
    "date": "14 Oct"
   },
   {
@@ -68,39 +99,9 @@
    "date": "14 Oct"
   },
   {
-   "title": "Treasury yields jump after hot CPI report",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "14 Oct"
-  },
-  {
    "title": "Consumer Price Index news release, September 2026",
    "site": "US Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-   "date": "14 Oct"
-  },
-  {
-   "title": "US inflation rate tops forecasts",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/inflation-cpi",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Financial resilience in an age of repeated shocks: speech by Andrew Bailey",
-   "site": "Bank of England",
-   "url": "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul",
-   "date": "8 Oct"
-  },
-  {
-   "title": "GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Brent crude oil: price and commentary",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "14 Oct"
   }
  ],
@@ -282,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-14T18:40:24Z",
+ "calendarUpdated": "2026-10-15T03:41:13Z",
  "feed": [
+  {
+   "title": "The dollar has weakened as US bond yields have fallen back",
+   "text": "US government bonds recovered overnight from the sell-off that followed Wednesday's hot inflation figures, taking the ten-year yield to about 5.11%, a three-week low and about two tenths of a point below its post-inflation high, as a slide in technology shares sent money into bonds and an unconfirmed Bloomberg report suggested China is quietly holding more Treasuries through Canada. Lower US yields make the dollar less rewarding to hold, so it weakened across the board and the dollar index fell about 0.6% to about 102, which means more dirhams per pound; the pound itself eased slightly against the euro, so this was a dollar move. GBP/USD rose from 1.3190 at 02:00 Dubai to 1.3232 by 04:00, then from 1.3231 at 06:00 to 1.3250 within fifteen minutes, and was near 1.3253 at 07:39 Dubai.",
+   "t": "2026-10-15T03:41:13Z",
+   "rate": 1.32525
+  },
   {
    "title": "The dollar has eased back from its highs",
    "text": "No report names a single trigger, but the dollar gave back part of the day's gains across the board: the euro rose against the dollar from 1.1116 to 1.1153 while barely moving against the pound, and Brent crude slipped back to about $106 (about £80) a barrel after the US said it had helped more than 19 million barrels through the Strait of Hormuz. The Fed's Beige Book at 22:00 Dubai found growth in nine of its twelve districts against ten in August and mostly flat consumer spending, though price pressures had broadened, and a slower US economy tends to weaken the dollar, which means more dirhams per pound. GBP/USD rose from a low of 1.3138 at 20:15 Dubai to 1.3169 by the Beige Book and to about 1.3186 by 22:37 Dubai.",
@@ -426,12 +433,6 @@
   {
    "title": "Sterling has been steady overnight after the Fed minutes",
    "text": "GBP/USD has stayed between 1.3204 and 1.3220 since the Fed minutes, touching the low at 05:00 Dubai and the high at 06:15, and stood near 1.3209 at 07:38 Dubai. The dollar index held above 102, near its strongest since spring 2025, because the minutes showed most Fed policymakers expecting another rate rise by the end of the year, Trading Economics reported, and a firm dollar means fewer dirhams per pound. No scheduled figure came out overnight, and the euro was just as steady, between 1.1194 and 1.1210.",
-   "t": "2026-10-08T03:40:59Z",
-   "rate": 1.3209
-  },
-  {
-   "title": "Oil has risen on a report of US strike options against Iran",
-   "text": "The Atlantic reported that the White House has asked the Pentagon to prepare options for strikes on Iran that could be carried out before the US midterm elections on 3 November, and a White House official said only that the President has all options available, the Jerusalem Post reported. Brent stood near $102.10 (about £77) a barrel early on Thursday, with a tropical storm also shutting in more than 510,000 barrels a day of output in the Gulf of Mexico, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and tend to lift the dollar, which means fewer dirhams per pound, but GBP/USD has not moved outside its overnight range of 1.3204 to 1.3220, so the effect on the rate so far is small.",
    "t": "2026-10-08T03:40:59Z",
    "rate": 1.3209
   }
