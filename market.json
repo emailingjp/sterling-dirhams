@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T06:39:59Z",
+ "updated": "2026-10-15T07:40:30Z",
  "headline": "Sterling has recovered to about 1.3253 against the dollar on Thursday morning in Dubai, from a low of 1.3138 on Wednesday evening, as US bond yields have fallen back and the dollar has given up most of the gains it made on hotter US inflation. Markets now put the chance of a Fed rise at the 28 October meeting at about one in four, and UK GDP and US retail sales today are the next tests.",
  "drivers": [
   {
@@ -27,11 +27,29 @@
  ],
  "higher": [
   "US retail sales or producer prices coming in below forecast, which would ease the inflation worry, make Fed rises less likely and weaken the dollar.",
-  "Governor Bailey signalling a November rise when he speaks at 11:30 Dubai, which would build on this morning's firmer growth figures and lift the pound.",
+  "Further firm UK figures ahead of the Bank of England's 5 November meeting, which would support the expected rise and lift the pound.",
   "US relief for sanctioned tankers or a calmer Gulf, which would bring oil down, ease US inflation worries and weaken the dollar."
  ],
- "watch": "Bank of England Governor Bailey speaks today, Thursday 15 October, at 11:30 Dubai, and a firm tone on rates would help someone selling pounds for dirhams. US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) follow at 16:30 Dubai, where results below forecast would help.",
+ "watch": "US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) come out today, Thursday 15 October, at 16:30 Dubai, and results below forecast would help someone selling pounds for dirhams, because softer US figures make Fed rises less likely and weaken the dollar.",
  "sources": [
+  {
+   "title": "BOE's Bailey berates social media platforms for allowing fraud",
+   "site": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-14/boe-s-bailey-berates-social-media-platforms-for-allowing-fraud",
+   "date": "14 Oct"
+  },
+  {
+   "title": "Andrew Bailey calls for clampdown on downright criminal social media scams",
+   "site": "LBC",
+   "url": "https://www.lbc.co.uk/article/fe218d91c02d49b5979f415b37b908d2-5Hjdjtn_2/",
+   "date": "14 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "15 Oct"
+  },
   {
    "title": "GDP monthly estimate, UK: August 2026",
    "site": "Office for National Statistics",
@@ -81,27 +99,9 @@
    "date": "15 Oct"
   },
   {
-   "title": "GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "15 Oct"
-  },
-  {
    "title": "Fed's Beige Book: nine of 12 districts report growth as price pressures broaden",
    "site": "investingLive",
    "url": "https://investinglive.com/central-banks/fed-s-beige-book-nine-of-12-districts-report-growth-as-price-pressures-broaden/",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Summary of Commentary on Current Economic Conditions (Beige Book)",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm",
-   "date": "14 Oct"
-  },
-  {
-   "title": "EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=EURGBP&interval=1",
    "date": "14 Oct"
   }
  ],
@@ -283,8 +283,15 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-15T06:39:59Z",
+ "calendarUpdated": "2026-10-15T07:40:30Z",
  "feed": [
+  {
+   "title": "Governor Bailey's slot has passed with no market reaction",
+   "text": "Bank of England Governor Bailey was listed to speak at 11:30 Dubai, during the IMF and World Bank meetings week in Bangkok, but no report so far carries any new remarks on interest rates; his reported comments in Bangkok on Wednesday were about fraud on social media platforms. With nothing new on rates, the pound had no fresh reason to move, and GBP/USD went from 1.3248 at 11:29 Dubai to 1.3247 at 11:30 and was near 1.3250 at 11:40 Dubai.",
+   "when": "2026-10-15T07:30:00Z",
+   "t": "2026-10-15T07:40:30Z",
+   "rate": 1.32516
+  },
   {
    "title": "The UK economy has grown when a fall was expected",
    "text": "The ONS said the economy grew by 0.1% in August against a forecast fall of 0.1%, with factory output up 1.2% while services were flat and construction fell for a fourth month, and growth over the year reached 2.1% against 1.7% expected. Stronger UK figures support the Bank of England rise that markets already expect on 5 November, which lifts the pound, and the pound did firm against the euro from 0.8470 to 0.8464. Against the dollar the effect was small: GBP/USD briefly touched 1.3248 at 10:00 Dubai from 1.3238, settled near 1.3243 by 10:05 and was near 1.3233 at 10:38 Dubai as the dollar firmed slightly.",
@@ -429,13 +436,6 @@
    "when": "2026-10-08T08:30:00Z",
    "t": "2026-10-08T08:39:57Z",
    "rate": 1.3191
-  },
-  {
-   "title": "The dollar firmed briefly as Europe opened",
-   "text": "GBP/USD slipped from 1.3200 at 10:45 Dubai to a low of 1.3185 at 11:06, just after European trading began, then recovered to 1.3205 by 11:24 and settled near 1.3198. The euro fell and recovered against the dollar in the same minutes while the pound was flat against the euro, so this was a move in the dollar and not in sterling. No source names a cause for it; the backdrop is Brent crude above $103 (about £78) a barrel, a two-week high, after reports that the White House asked the Pentagon for options to strike Iran, and dearer oil tends to lift the dollar.",
-   "when": "2026-10-08T07:00:00Z",
-   "t": "2026-10-08T07:39:49Z",
-   "rate": 1.31961
   }
  ]
 }
