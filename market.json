@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:40:07Z",
+ "updated": "2026-10-15T15:40:27Z",
  "headline": "Sterling is near 1.3257 against the dollar on Thursday afternoon in Dubai, having shrugged off hotter than expected US retail sales and producer prices after a brief dip, and well above Wednesday evening's low of 1.3138. Markets had put the chance of a Fed rise at the 28 October meeting at about one in four before today's figures, and speeches by Governor Bailey and Chair Warsh on Friday morning are the next tests.",
  "drivers": [
   {
@@ -32,6 +32,12 @@
  ],
  "watch": "Bank of England Governor Bailey speaks at 06:00 Dubai and Fed Chair Warsh at 07:30 Dubai on Friday 16 October. A firm tone from Bailey or a cautious one from Warsh would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
  "sources": [
+  {
+   "title": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease",
+   "site": "Reuters via MarketScreener",
+   "url": "https://www.marketscreener.com/news/dollar-pulls-back-from-18-month-high-as-treasury-yields-fall-fed-hike-bets-ease-ce785dd3db8ff22c",
+   "date": "15 Oct"
+  },
   {
    "title": "DXY falls on Thursday",
    "site": "Trading Economics",
@@ -96,12 +102,6 @@
    "title": "US ten-year yield falls to three-week low",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "15 Oct"
-  },
-  {
-   "title": "Australian dollar slips to one-week low; weak USD helps limit losses",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/australian-dollar-drops-to-one-week-low-on-dismal-jobs-data-weak-usd-helps-limit-losses-202610150105",
    "date": "15 Oct"
   }
  ],
@@ -283,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-15T14:40:07Z",
+ "calendarUpdated": "2026-10-15T15:40:27Z",
  "feed": [
+  {
+   "title": "The dollar has won back some ground in the New York afternoon",
+   "text": "No report read so far names a trigger for this move, which reverses part of the dollar's retreat earlier in the New York morning; the reports read describe Thursday as a choppy day after hotter than expected US shop sales and producer prices. The dollar firmed across the board, with the euro falling against it from 1.1220 to 1.1205 while the pound held steady against the euro, so this was a dollar move and it means fewer dirhams per pound. GBP/USD slipped from 1.3274 at 18:41 Dubai to 1.3253 by 18:56 and touched 1.3250 at 19:06, and was near 1.3256 at 19:39 Dubai.",
+   "t": "2026-10-15T15:40:27Z",
+   "rate": 1.32586
+  },
   {
    "title": "The dollar has weakened again in the New York morning",
    "text": "No report read so far names a trigger for this move, which began at 18:30 Dubai, an hour after the New York stock market opened, and looks like a resumption of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows. The dollar softened across the board, with the euro rising against it from 1.1209 to 1.1221 while the pound held steady against the euro, so this was a dollar move and it means more dirhams per pound. GBP/USD rose from 1.3260 at 18:29 Dubai to 1.3273 within five minutes and 1.3275 by 18:37, and was near 1.3273 at 18:39 Dubai.",
@@ -428,12 +434,6 @@
    "text": "Brent crude rose to about $105.50 (about £80) a barrel, up more than 5% on the day, and the US ten-year yield went back up to about 5.3% after slipping to 5.28%, AFP and Trading Economics reported; an analyst quoted by AFP said shares were falling because oil was rising sharply and bond yields were returning to Wednesday's peak. Dearer oil adds to US inflation worries and higher US yields draw money into the dollar, which means fewer dirhams per pound. GBP/USD fell from 1.3246 at 18:37 Dubai to 1.3227 by 19:00 and 1.3211 by 19:38, giving back almost all of the rise of the hour before, and the euro fell in step, from 1.1222 to 1.1193, while the pound was flat against the euro, so this was the dollar recovering and nothing in the UK. No single headline is timed to the fall.",
    "t": "2026-10-08T15:39:43Z",
    "rate": 1.32116
-  },
-  {
-   "title": "The dollar has eased as US bond yields came off their high",
-   "text": "The US ten-year yield slipped back to about 5.28% after touching 5.35% earlier on Thursday, its highest since 2002, Trading Economics reported, and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD rose from 1.3204 at 16:40 Dubai to 1.3246 at 18:37, with the sharpest part from 1.3223 at 18:22 to 1.3246 fifteen minutes later, and the euro rose in step, from 1.1186 to 1.1219, while the pound was flat against the euro, so this was the dollar weakening and nothing in the UK. No source names a cause for those fifteen minutes; Iran's foreign minister had said earlier in the afternoon that talks through mediators continue and that Tehran will answer the US within days, yet Brent crude was still near $104.90 (about £79) a barrel, up more than 4% on the day.",
-   "t": "2026-10-08T14:40:16Z",
-   "rate": 1.32415
   }
  ]
 }
