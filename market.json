@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T07:40:30Z",
+ "updated": "2026-10-15T08:40:14Z",
  "headline": "Sterling has recovered to about 1.3253 against the dollar on Thursday morning in Dubai, from a low of 1.3138 on Wednesday evening, as US bond yields have fallen back and the dollar has given up most of the gains it made on hotter US inflation. Markets now put the chance of a Fed rise at the 28 October meeting at about one in four, and UK GDP and US retail sales today are the next tests.",
  "drivers": [
   {
@@ -33,6 +33,18 @@
  "watch": "US retail sales (forecast 0.3%) and producer prices (forecast 0.6%) come out today, Thursday 15 October, at 16:30 Dubai, and results below forecast would help someone selling pounds for dirhams, because softer US figures make Fed rises less likely and weaken the dollar.",
  "sources": [
   {
+   "title": "Forex Today: US Dollar erases CPI-inspired gains as bond yields slump",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-erases-cpi-inspired-gains-as-bond-yields-slump-202610150744",
+   "date": "15 Oct"
+  },
+  {
+   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "15 Oct"
+  },
+  {
    "title": "BOE's Bailey berates social media platforms for allowing fraud",
    "site": "Bloomberg",
    "url": "https://www.bloomberg.com/news/articles/2026-10-14/boe-s-bailey-berates-social-media-platforms-for-allowing-fraud",
@@ -43,12 +55,6 @@
    "site": "LBC",
    "url": "https://www.lbc.co.uk/article/fe218d91c02d49b5979f415b37b908d2-5Hjdjtn_2/",
    "date": "14 Oct"
-  },
-  {
-   "title": "GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "15 Oct"
   },
   {
    "title": "GDP monthly estimate, UK: August 2026",
@@ -97,12 +103,6 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
    "date": "15 Oct"
-  },
-  {
-   "title": "Fed's Beige Book: nine of 12 districts report growth as price pressures broaden",
-   "site": "investingLive",
-   "url": "https://investinglive.com/central-banks/fed-s-beige-book-nine-of-12-districts-report-growth-as-price-pressures-broaden/",
-   "date": "14 Oct"
   }
  ],
  "calendar": [
@@ -283,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-15T07:40:30Z",
+ "calendarUpdated": "2026-10-15T08:40:14Z",
  "feed": [
+  {
+   "title": "The dollar has slipped further in late morning trade",
+   "text": "No report names a single trigger for this move, which looks like a continuation of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows ahead of this afternoon's US retail sales and producer prices. The dollar softened across the board, with the euro rising against it from 1.1211 to 1.1222 while the pound also edged up against the euro, so both sides helped and the result is more dirhams per pound. GBP/USD rose from 1.3241 at 12:00 Dubai to 1.3269 by 12:30 and was near 1.3262 at 12:39 Dubai.",
+   "t": "2026-10-15T08:40:14Z",
+   "rate": 1.32616
+  },
   {
    "title": "Governor Bailey's slot has passed with no market reaction",
    "text": "Bank of England Governor Bailey was listed to speak at 11:30 Dubai, during the IMF and World Bank meetings week in Bangkok, but no report so far carries any new remarks on interest rates; his reported comments in Bangkok on Wednesday were about fraud on social media platforms. With nothing new on rates, the pound had no fresh reason to move, and GBP/USD went from 1.3248 at 11:29 Dubai to 1.3247 at 11:30 and was near 1.3250 at 11:40 Dubai.",
@@ -429,13 +435,6 @@
    "when": "2026-10-08T12:15:00Z",
    "t": "2026-10-08T12:40:05Z",
    "rate": 1.32045
-  },
-  {
-   "title": "The dollar has firmed after a Fed governor backed more rate rises",
-   "text": "Fed Governor Waller said in Istanbul that, if the figures keep coming in as expected, he anticipates additional rises to bring inflation back to 2% sooner, that they need not come at consecutive meetings, and that the job market was solid and stable in September; a speech has no forecast to compare against. Talk of more Fed rises lifts US yields and the dollar, which means fewer dirhams per pound. GBP/USD fell from 1.3203 just before the text came out at 12:30 Dubai to 1.3190 by 12:39, and the euro fell alongside it, from 1.1197 to 1.1186, so this was the dollar gaining and not anything in the UK.",
-   "when": "2026-10-08T08:30:00Z",
-   "t": "2026-10-08T08:39:57Z",
-   "rate": 1.3191
   }
  ]
 }
