@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:40:01Z",
+ "updated": "2026-10-16T16:40:44Z",
  "headline": "Sterling has risen about 1.5% against the dollar since Wednesday's low and is at its highest this week. The dollar has given back the gains it made on hot US inflation figures, as Fed officials, Chair Warsh among them, sounded in no hurry to raise rates again and US bond yields fell.",
  "drivers": [
   {
@@ -33,9 +33,21 @@
  "watch": "Governor Bailey is listed to speak again at 10:45 Dubai on Saturday 17 October, while markets are closed, so any effect would show at the reopening. After that the Fed decides on 28 October and the Bank of England on 5 November; a firm tone from the Bank of England or doubts about further US rises would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
  "sources": [
   {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "title": "GBP/USD and EUR/USD minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "16 Oct"
+  },
+  {
+   "title": "United States 10-year government bond yield news",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/533342",
+   "date": "16 Oct"
+  },
+  {
+   "title": "Global markets stabilise as AI sell-off meets inflation risks",
+   "site": "FXEmpire",
+   "url": "https://www.fxempire.com/forecasts/article/global-markets-stabilize-as-ai-sell-off-meets-inflation-risks-1638648",
    "date": "16 Oct"
   },
   {
@@ -90,18 +102,6 @@
    "title": "Bank of England's Bailey: second-round inflation pressures look subdued so far",
    "site": "Reuters via Global Banking and Finance Review",
    "url": "https://www.globalbankingandfinance.com/bank-englands-bailey-second-round-inflation-pressures-look/",
-   "date": "16 Oct"
-  },
-  {
-   "title": "GBP/USD Price Forecast: Extends recovery to near 1.3300 ahead of Fed Warsh's speech",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/news/gbp-usd-price-forecast-extends-recovery-to-near-13300-ahead-of-fed-warshs-speech-202610160313",
-   "date": "16 Oct"
-  },
-  {
-   "title": "Warsh speaks in Bangkok after hot CPI: is a second Fed hike coming in October?",
-   "site": "investingLive",
-   "url": "https://investinglive.com/central-banks/warsh-speaks-in-bangkok-after-hot-cpi-is-a-second-fed-hike-coming-in-october/",
    "date": "16 Oct"
   }
  ],
@@ -283,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-16T15:40:01Z",
+ "calendarUpdated": "2026-10-16T16:40:44Z",
  "feed": [
+  {
+   "title": "The dollar has firmed into the weekend",
+   "text": "GBP/USD fell from 1.3343 at 19:40 Dubai to about 1.3316 at 20:39, and EUR/USD fell by a similar share, from 1.1244 to 1.1213, while the pound held steady against the euro, so this was the dollar gaining across the board rather than the pound weakening. No UK or US figure was due in that hour; Trading Economics reported the US ten-year yield edging up to about 5.12% on Friday after Thursday's sharp fall, which makes holding dollars a little more rewarding, but no report read so far explains this particular move. Reports still describe the dollar as set for its first weekly fall in about a month.",
+   "t": "2026-10-16T16:40:44Z",
+   "rate": 1.33167
+  },
   {
    "title": "Sterling has eased back from this week's high",
    "text": "GBP/USD slipped from about 1.3372 at 18:30 Dubai to 1.3342 at 19:39, giving back most of the afternoon's climb. The pound also lost ground to the euro, with EUR/GBP up from 0.8420 to about 0.8430, while EUR/USD dipped only from 1.1254 to 1.1244, so this was mainly the pound easing rather than fresh dollar strength. No UK or US figure was due in that hour and no report read so far explains the move.",
@@ -429,12 +435,6 @@
    "text": "Brent crude fell about 1.1% to near $105.44 (about £80) a barrel on Tuesday after three days of gains, as traders weighed Russia's partial easing of its diesel export limits against the fighting in Ukraine and the attacks on Saudi Arabia, and the US ten-year yield fell below 5.2% from 5.24% as bond trading resumed after Monday's holiday, Trading Economics reported. Cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD held between about 1.3199 and 1.3209 from 20:00 Dubai on Monday, rose from 1.3206 at 05:00 Dubai on Tuesday to 1.3215 by 05:15 and stood near 1.3215 at 07:38 Dubai; the euro rose in step, from 1.1158 to 1.1170, so this was the dollar easing and nothing in the UK.",
    "t": "2026-10-13T03:39:25Z",
    "rate": 1.32144
-  },
-  {
-   "title": "The dollar has strengthened as oil turned back up",
-   "text": "Brent crude rose about 2% to near $106.84 (about £81) a barrel, its highest in more than two weeks, after Ukraine's president said Russia was still striking energy sites despite the ceasefire announced on Sunday and Saudi Arabia reported further drone and missile attacks, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and draw money into the dollar, which means fewer dirhams per pound, and the dollar index rose about 0.3% to near 102.5. GBP/USD touched 1.3259 at about 10:00 Dubai, then slid through the day to 1.3208 by 19:38 Dubai, against 1.3243 at the morning update; the euro fell further, from about 1.1206 to 1.1163, so this was the dollar gaining and nothing in the UK.",
-   "t": "2026-10-12T15:39:20Z",
-   "rate": 1.32073
   }
  ]
 }
