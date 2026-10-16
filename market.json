@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T03:41:10Z",
- "headline": "Sterling is near 1.3283 against the dollar early on Friday morning in Dubai, up from 1.3259 at the last update on Thursday evening and well clear of Wednesday's low of 1.3137, as the dollar holds on to Thursday's losses. Governor Bailey sounded measured on UK inflation this morning and Chair Warsh's remarks in Bangkok brought no move in their first minutes.",
+ "updated": "2026-10-16T04:40:03Z",
+ "headline": "Sterling is near 1.3309 against the dollar on Friday morning in Dubai after Fed Chair Warsh said in Bangkok that he would not prejudge the October meeting and the dollar index slipped to a ten-day low. Governor Bailey sounded measured on UK inflation earlier this morning, and the pound has held steady against the euro, so the move has come from the dollar.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -20,18 +20,36 @@
   }
  ],
  "lower": [
-  "Reports that Chair Warsh signalled further rises after this week's hot inflation and producer prices, which would push US yields up and lift the dollar.",
+  "Fed officials or US figures pointing to a second rise on 28 October after this week's hot inflation and producer prices, which would push US yields up and lift the dollar.",
   "Markets trimming bets on a Bank of England rise on 5 November after Governor Bailey's measured tone, which would weigh on the pound.",
   "Renewed worries about tax rises in the Budget later this month, which would weigh on the pound.",
   "More attacks on shipping in the Strait of Hormuz or on Saudi oil sites, which would push oil up and tend to lift the dollar."
  ],
  "higher": [
-  "Reports that Chair Warsh sounded cautious about another rise in October, which would weaken the dollar.",
+  "Markets reading Chair Warsh's refusal to prejudge the October meeting as lowering the chance of a rise, which would keep the dollar weaker.",
   "Further firm UK figures ahead of the Bank of England's 5 November meeting, which would support the expected rise and lift the pound.",
   "US relief for sanctioned tankers or a calmer Gulf, which would bring oil down, ease US inflation worries and weaken the dollar."
  ],
  "watch": "Governor Bailey is listed to speak again at 10:45 Dubai on Saturday 17 October, while markets are closed, so any effect would show at the reopening. After that the Fed decides on 28 October and the Bank of England on 5 November; a firm tone from the Bank of England or doubts about further US rises would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
  "sources": [
+  {
+   "title": "Fed's Warsh says he would deliver price stability, but won't pre-judge meetings",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/breaking-feds-warsh-says-he-would-deliver-price-stability-but-wont-pre-judge-meetings-202610160346",
+   "date": "16 Oct"
+  },
+  {
+   "title": "United States Dollar Index extends decline to near 101.80 after Fed Warsh's remarks",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/united-states-dollar-index-extends-decline-to-near-10180-after-fed-warshs-remarks-202610160403",
+   "date": "16 Oct"
+  },
+  {
+   "title": "Fed's Warsh says AI path will be very bumpy but ultimately very good for wealth",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+   "date": "16 Oct"
+  },
   {
    "title": "Bank of England's Bailey: second-round inflation pressures look subdued so far",
    "site": "Reuters via Global Banking and Finance Review",
@@ -85,24 +103,6 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/retail-sales",
    "date": "15 Oct"
-  },
-  {
-   "title": "Forex Today: US Dollar erases CPI-inspired gains as bond yields slump",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-erases-cpi-inspired-gains-as-bond-yields-slump-202610150744",
-   "date": "15 Oct"
-  },
-  {
-   "title": "BOE's Bailey berates social media platforms for allowing fraud",
-   "site": "Bloomberg",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-14/boe-s-bailey-berates-social-media-platforms-for-allowing-fraud",
-   "date": "14 Oct"
-  },
-  {
-   "title": "Andrew Bailey calls for clampdown on downright criminal social media scams",
-   "site": "LBC",
-   "url": "https://www.lbc.co.uk/article/fe218d91c02d49b5979f415b37b908d2-5Hjdjtn_2/",
-   "date": "14 Oct"
   }
  ],
  "calendar": [
@@ -283,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-16T03:41:10Z",
+ "calendarUpdated": "2026-10-16T04:40:03Z",
  "feed": [
+  {
+   "title": "The dollar has weakened as Chair Warsh declines to commit to another rise",
+   "text": "In his Bangkok conversation with IMF Managing Director Georgieva, Fed Chair Warsh said the Fed has made clear it will deliver price stability but that he does not believe in prejudging meetings, and that judgements will be made at the October and December meetings. This week's hot inflation figures had raised talk of a second rise in October, and the absence of a firmer signal weakened the dollar, with the dollar index down to about 101.80, its lowest in ten days, while the pound held steady against the euro; a weaker dollar means more dirhams per pound. GBP/USD rose from 1.3279 at 07:42 Dubai to 1.3303 at 07:50 and 1.3306 at 07:57, eased to near 1.3296 by 08:10 and was near 1.3309 at 08:39 Dubai.",
+   "t": "2026-10-16T04:40:03Z",
+   "rate": 1.33087
+  },
   {
    "title": "Chair Warsh has spoken in Bangkok with little market reaction so far",
    "text": "Fed Chair Warsh began a conversation with IMF Managing Director Georgieva in Bangkok at 07:30 Dubai, his last scheduled remarks before the Fed's quiet period ahead of the 28 October meeting, but no report read so far carries what he said. A firm line on inflation would make another Fed rise more likely and lift the dollar, and a cautious one would do the reverse. In the first ten minutes there was no sign of either: GBP/USD went from 1.3285 at 07:29 Dubai to 1.3284 at 07:30 and was near 1.3282 at 07:39 Dubai.",
@@ -430,12 +436,6 @@
    "when": "2026-10-09T14:00:00Z",
    "t": "2026-10-09T14:39:42Z",
    "rate": 1.32277
-  },
-  {
-   "title": "The dollar has eased a little overnight as oil and US yields slipped",
-   "text": "Brent crude fell 72 cents to $103.53 (about £78) a barrel in Asian trading on Friday after President Trump said no attack on Iran is planned before the midterm elections on 3 November, Reuters reported, and the US ten-year yield held near 5.24%, below Thursday's 24-year high, Trading Economics reported. Cheaper oil eases US inflation worries and lower US yields draw less money into the dollar, which means more dirhams per pound. GBP/USD stayed between 1.3220 and 1.3246 overnight, rose from 1.3227 at 03:45 Dubai to 1.3245 at 05:30 and stood near 1.3237 at 07:38 Dubai; the euro rose in step, from 1.1208 to 1.1224, so this was the dollar easing and nothing in the UK.",
-   "t": "2026-10-09T03:39:46Z",
-   "rate": 1.32373
   }
  ]
 }
