@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-16T04:40:03Z",
- "headline": "Sterling is near 1.3309 against the dollar on Friday morning in Dubai after Fed Chair Warsh said in Bangkok that he would not prejudge the October meeting and the dollar index slipped to a ten-day low. Governor Bailey sounded measured on UK inflation earlier this morning, and the pound has held steady against the euro, so the move has come from the dollar.",
+ "updated": "2026-10-16T10:28:19Z",
+ "headline": "Sterling has risen about 1.5% against the dollar since Wednesday's low and is at its highest this week. The dollar has given back the gains it made on hot US inflation figures, as Fed officials, Chair Warsh among them, sounded in no hurry to raise rates again and US bond yields fell.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% after its September rise. Hotter than expected US inflation, retail sales and producer prices this week have kept another rise this year firmly in view, while markets put the chance of a hold at the 28 October meeting at about 73% to 75% on Thursday 15 October, Trading Economics and FXStreet reported. Chair Warsh's appearance in Bangkok on Friday 16 October is the last before the Fed's quiet period begins on Saturday."
+   "text": "The Fed's range is 3.75% to 4% after its September rise. On Thursday 15 October traders put the chance of a hold at the 28 October meeting at about 73%, up from 53% a month earlier, Reuters reported. On Friday Chair Warsh declined to say which way the October and December meetings will go, his last remarks before the Fed's quiet period begins on Saturday."
   },
   {
    "title": "US bond yields",
@@ -32,6 +32,24 @@
  ],
  "watch": "Governor Bailey is listed to speak again at 10:45 Dubai on Saturday 17 October, while markets are closed, so any effect would show at the reopening. After that the Fed decides on 28 October and the Bank of England on 5 November; a firm tone from the Bank of England or doubts about further US rises would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
  "sources": [
+  {
+   "title": "Forex Today: US Dollar extends slide as Fed Chair Warsh refrains from hinting at rate path",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-extends-slide-as-fed-chair-warsh-refrains-from-hinting-at-rate-path-202610160821",
+   "date": "16 Oct"
+  },
+  {
+   "title": "Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease",
+   "site": "Reuters, via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-retreats-18-month-high-043209540.html",
+   "date": "15 Oct"
+  },
+  {
+   "title": "Sterling today: Pound rises as UK growth beats forecasts, dollar retreats",
+   "site": "Investing.com",
+   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-rises-as-uk-growth-beats-forecasts-dollar-retreats-4950829",
+   "date": "15 Oct"
+  },
   {
    "title": "Fed's Warsh says he would deliver price stability, but won't pre-judge meetings",
    "site": "FXStreet",
@@ -84,24 +102,6 @@
    "title": "DXY falls on Thursday",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "15 Oct"
-  },
-  {
-   "title": "Advance monthly sales for retail and food services, September 2026",
-   "site": "US Census Bureau",
-   "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
-   "date": "15 Oct"
-  },
-  {
-   "title": "Producer Price Index news release, September 2026",
-   "site": "US Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-   "date": "15 Oct"
-  },
-  {
-   "title": "US retail sales above forecasts",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/retail-sales",
    "date": "15 Oct"
   }
  ],
@@ -283,8 +283,20 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-16T04:40:03Z",
+ "calendarUpdated": "2026-10-16T10:28:19Z",
  "feed": [
+  {
+   "title": "Sterling has climbed to its highest this week as the dollar keeps falling",
+   "text": "GBP/USD rose from 1.3309 at 08:40 Dubai to about 1.3345 by 14:30, its highest since the market reopened on Monday. The dollar has kept sliding through the European morning since Fed Chair Warsh declined in Bangkok to say whether rates will rise in October or December, and his remarks pushed US bond yields lower again, which makes holding dollars less rewarding.",
+   "t": "2026-10-16T10:28:19Z",
+   "rate": 1.33454
+  },
+  {
+   "title": "Sterling has recovered about 1.5% since Wednesday's low",
+   "text": "The dollar hit an 18-month high on Wednesday after hot US inflation figures, taking GBP/USD down to about 1.3150. It turned on Thursday, when the Fed's Bowman and Daly said the Fed could wait for more clarity, investors worried about heavy debts in the AI sector, and UK output beat forecasts with growth of 0.1% in August against a 0.1% fall expected. Each pound now buys about 1.5% more dirhams than at Wednesday's low.",
+   "t": "2026-10-16T10:28:19Z",
+   "rate": 1.33454
+  },
   {
    "title": "The dollar has weakened as Chair Warsh declines to commit to another rise",
    "text": "In his Bangkok conversation with IMF Managing Director Georgieva, Fed Chair Warsh said the Fed has made clear it will deliver price stability but that he does not believe in prejudging meetings, and that judgements will be made at the October and December meetings. This week's hot inflation figures had raised talk of a second rise in October, and the absence of a firmer signal weakened the dollar, with the dollar index down to about 101.80, its lowest in ten days, while the pound held steady against the euro; a weaker dollar means more dirhams per pound. GBP/USD rose from 1.3279 at 07:42 Dubai to 1.3303 at 07:50 and 1.3306 at 07:57, eased to near 1.3296 by 08:10 and was near 1.3309 at 08:39 Dubai.",
@@ -423,19 +435,6 @@
    "text": "President Trump wrote on Sunday that Russia and Ukraine have agreed an immediate ceasefire on attacks on each other's energy sites, after the US agreed on Friday to lift sanctions on Russian fuel in return for 300,000 tons of diesel now, 500,000 tons in November and a further million after that, NBC News reported; Ukraine's president said he knew nothing of a ceasefire and Moscow has not confirmed one. Brent crude slipped about 1.5% to near $103.15 (about £78) a barrel on Monday, Trading Economics reported. Cheaper oil eases US inflation worries and the case for Fed rises, which weakens the dollar and means more dirhams per pound, and GBP/USD gained about 0.2% in the first hours of Monday's trading.",
    "t": "2026-10-12T03:40:19Z",
    "rate": 1.32432
-  },
-  {
-   "title": "Houthi strikes on Saudi Arabia lifted oil at the reopening, then it fell back",
-   "text": "A Houthi strike on Riyadh's airport on Saturday killed at least 12 people, further attacks on the airport, on Dammam and on Saudi energy sites followed on Sunday, a tanker was hit by a drone off Oman, and Iran called the US reply to its conditions for reopening the Strait of Hormuz insufficient, France 24 reported. Brent opened 76 cents higher at $105.48 (about £80) a barrel on those reports, Reuters said, before the diesel news took it back to about $103 (about £78). Gulf tension and dearer oil tend to lift the dollar, which means fewer dirhams per pound, but Saudi Arabia's and Iran's foreign ministers spoke on Sunday night about easing tensions and GBP/USD has not fallen, so the effect on the rate so far is nil.",
-   "t": "2026-10-12T03:40:19Z",
-   "rate": 1.32432
-  },
-  {
-   "title": "US consumer sentiment fell and inflation expectations rose, and the rate barely moved",
-   "text": "The University of Michigan's first reading for October put consumer sentiment at 46.3 against 47.5 expected, down from 48.1 in September, while the inflation consumers expect over the next year rose to 4.7% from 4.6% and over the long run to 3.5% from 3.4%. Weaker sentiment points to a softer economy, which tends to weaken the dollar, but higher inflation expectations keep Fed rises in view, which supports it, so the two pulled in opposite directions. GBP/USD was 1.3227 just before the figure at 18:00 Dubai, dipped to 1.3221 by 18:03, was back at 1.3230 by 18:07 and stood near 1.3228 at 18:39; the euro was just as steady, at 1.1190 before and 1.1193 at 18:38.",
-   "when": "2026-10-09T14:00:00Z",
-   "t": "2026-10-09T14:39:42Z",
-   "rate": 1.32277
   }
  ]
 }
