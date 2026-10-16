@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T14:41:21Z",
+ "updated": "2026-10-16T15:40:01Z",
  "headline": "Sterling has risen about 1.5% against the dollar since Wednesday's low and is at its highest this week. The dollar has given back the gains it made on hot US inflation figures, as Fed officials, Chair Warsh among them, sounded in no hurry to raise rates again and US bond yields fell.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  "watch": "Governor Bailey is listed to speak again at 10:45 Dubai on Saturday 17 October, while markets are closed, so any effect would show at the reopening. After that the Fed decides on 28 October and the Bank of England on 5 November; a firm tone from the Bank of England or doubts about further US rises would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
  "sources": [
   {
+   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "16 Oct"
+  },
+  {
    "title": "Industrial Production and Capacity Utilization, G.17",
    "site": "Federal Reserve",
    "url": "https://www.federalreserve.gov/releases/g17/current/default.htm",
@@ -42,12 +48,6 @@
    "title": "U.S. dollar heads for weekly fall as investors gauge AI selloff impact",
    "site": "Reuters, via BNN Bloomberg",
    "url": "https://www.bnnbloomberg.ca/markets/currencies/2026/10/16/us-dollar-heads-for-weekly-fall-as-investors-gauge-ai-selloff-impact/",
-   "date": "16 Oct"
-  },
-  {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "16 Oct"
   },
   {
@@ -283,8 +283,14 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-16T14:41:21Z",
+ "calendarUpdated": "2026-10-16T15:40:01Z",
  "feed": [
+  {
+   "title": "Sterling has eased back from this week's high",
+   "text": "GBP/USD slipped from about 1.3372 at 18:30 Dubai to 1.3342 at 19:39, giving back most of the afternoon's climb. The pound also lost ground to the euro, with EUR/GBP up from 0.8420 to about 0.8430, while EUR/USD dipped only from 1.1254 to 1.1244, so this was mainly the pound easing rather than fresh dollar strength. No UK or US figure was due in that hour and no report read so far explains the move.",
+   "t": "2026-10-16T15:40:01Z",
+   "rate": 1.3343
+  },
   {
    "title": "Sterling has climbed again as US trading opens",
    "text": "GBP/USD rose from 1.3336 at 17:29 Dubai to about 1.3372 by 18:30, its highest this week, and was near 1.3365 at 18:40 Dubai. The rise was partly a weaker dollar and partly a firmer pound, with EUR/USD up from 1.1241 to 1.1253 and the euro down against the pound from 0.8429 to 0.8420. US industrial production, out at 17:15 Dubai, rose 0.7% in September after 0.1% in August, a firm figure that would normally help the dollar, and no report read so far explains this latest leg beyond the dollar's slide since Chair Warsh's remarks this morning.",
@@ -429,12 +435,6 @@
    "text": "Brent crude rose about 2% to near $106.84 (about £81) a barrel, its highest in more than two weeks, after Ukraine's president said Russia was still striking energy sites despite the ceasefire announced on Sunday and Saudi Arabia reported further drone and missile attacks, Trading Economics reported. Dearer oil and Gulf tension add to US inflation worries and draw money into the dollar, which means fewer dirhams per pound, and the dollar index rose about 0.3% to near 102.5. GBP/USD touched 1.3259 at about 10:00 Dubai, then slid through the day to 1.3208 by 19:38 Dubai, against 1.3243 at the morning update; the euro fell further, from about 1.1206 to 1.1163, so this was the dollar gaining and nothing in the UK.",
    "t": "2026-10-12T15:39:20Z",
    "rate": 1.32073
-  },
-  {
-   "title": "Sterling has reopened a little higher after the weekend",
-   "text": "GBP/USD ended Friday near 1.3230, stayed between about 1.3210 and 1.3235 on Kraken's weekend prices, then rose from 1.3227 at 03:00 Dubai on Monday to 1.3250 at 05:15 and stood near 1.3243 at 07:38 Dubai. The euro rose in step, from 1.1193 to 1.1213, so this was the dollar easing as oil fell and nothing in the UK. The dollar index is still above 102 after four weeks of gains, Trading Economics reported, and the US government bond market is closed on Monday for a holiday, so there is no lead from US yields until Tuesday.",
-   "t": "2026-10-12T03:40:19Z",
-   "rate": 1.32432
   }
  ]
 }
