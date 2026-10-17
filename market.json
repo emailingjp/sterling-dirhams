@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T19:40:02Z",
+ "updated": "2026-10-17T22:30:34Z",
  "headline": "Sterling has risen about 1.5% against the dollar since Wednesday's low and is at its highest this week. The dollar has given back the gains it made on hot US inflation figures, as Fed officials, Chair Warsh among them, sounded in no hurry to raise rates again and US bond yields fell.",
  "drivers": [
   {
@@ -30,8 +30,32 @@
   "Further firm UK figures ahead of the Bank of England's 5 November meeting, which would support the expected rise and lift the pound.",
   "US relief for sanctioned tankers or a calmer Gulf, which would bring oil down, ease US inflation worries and weaken the dollar."
  ],
- "watch": "Governor Bailey is listed to speak again at 10:45 Dubai on Saturday 17 October, while markets are closed, so any effect would show at the reopening. After that the Fed decides on 28 October and the Bank of England on 5 November; a firm tone from the Bank of England or doubts about further US rises would help someone selling pounds for dirhams, because talk of UK rises lifts the pound and doubts about US rises weaken the dollar.",
+ "watch": "The banks' market reopens at 01:00 Dubai on Monday 19 October. UK jobs and pay figures follow at 10:00 Dubai on Tuesday 20 October, UK inflation for September at 10:00 Dubai on Wednesday 21 October and UK retail sales at 10:00 Dubai on Friday 23 October. Firm pay or inflation figures would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while soft ones would put that rise in doubt and weigh on the pound. The Fed is in its quiet period until its decision on 28 October.",
  "sources": [
+  {
+   "title": "Central bankers urge collaboration as AI reshapes inflation, jobs and financial stability",
+   "site": "The Nation",
+   "url": "https://www.nationthailand.com/business/banking-finance/40072426",
+   "date": "17 Oct"
+  },
+  {
+   "title": "Consumer price inflation, UK: September 2026, release date",
+   "site": "ONS",
+   "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+   "date": "21 Oct"
+  },
+  {
+   "title": "Retail sales, Great Britain: September 2026, release date",
+   "site": "ONS",
+   "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
+   "date": "23 Oct"
+  },
+  {
+   "title": "UK labour market report, October 2026",
+   "site": "Finance Calendar",
+   "url": "https://www.financecalendar.com/?p=2189",
+   "date": "20 Oct"
+  },
   {
    "title": "US dollar index news: dollar near two-week low",
    "site": "Trading Economics",
@@ -79,30 +103,6 @@
    "site": "Reuters, via Yahoo Finance",
    "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-retreats-18-month-high-043209540.html",
    "date": "15 Oct"
-  },
-  {
-   "title": "Sterling today: Pound rises as UK growth beats forecasts, dollar retreats",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-rises-as-uk-growth-beats-forecasts-dollar-retreats-4950829",
-   "date": "15 Oct"
-  },
-  {
-   "title": "Fed's Warsh says he would deliver price stability, but won't pre-judge meetings",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/breaking-feds-warsh-says-he-would-deliver-price-stability-but-wont-pre-judge-meetings-202610160346",
-   "date": "16 Oct"
-  },
-  {
-   "title": "United States Dollar Index extends decline to near 101.80 after Fed Warsh's remarks",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/united-states-dollar-index-extends-decline-to-near-10180-after-fed-warshs-remarks-202610160403",
-   "date": "16 Oct"
-  },
-  {
-   "title": "Fed's Warsh says AI path will be very bumpy but ultimately very good for wealth",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-   "date": "16 Oct"
   }
  ],
  "calendar": [
@@ -283,8 +283,15 @@
    "why": "Talk of Bank of England rises lifts the pound."
   }
  ],
- "calendarUpdated": "2026-10-16T19:40:02Z",
+ "calendarUpdated": "2026-10-17T22:30:34Z",
  "feed": [
+  {
+   "title": "Governor Bailey's Saturday talk was about AI, not interest rates",
+   "text": "At the G30 banking seminar in Bangkok on Saturday, Governor Bailey spoke about AI and financial stability, including the risk of a market correction if investors rethink AI's short-term gains, and said nothing about UK interest rates, The Nation reported. He gave no new signal on the Bank of England's 5 November decision, where markets expect a rise. Kraken's weekend price, a guide to the reopening, held between 1.3323 and 1.3336 through his talk and was 1.3322 early on Sunday, against 1.3329 at Friday's close.",
+   "when": "2026-10-17T06:45:00Z",
+   "t": "2026-10-17T22:30:34Z",
+   "rate": 1.33218
+  },
   {
    "title": "The dollar has slipped back as the week closes",
    "text": "GBP/USD edged up from 1.3317 at 22:45 Dubai to about 1.3328 at 23:39, recovering part of the early evening dip. EUR/USD rose a little, from 1.1230 to 1.1234, and the pound gained slightly on the euro, so this was a softer dollar with a slightly firmer pound in thin late Friday trade. Trading Economics reported the dollar index at about 101.6 on Friday, its lowest in two weeks and down about 0.4% on the week, with markets putting the chance of no Fed change in October at about 85%; no single report explains this last hour.",
@@ -429,12 +436,6 @@
    "text": "The dollar index slipped to about 102.1 from 102.3 on Tuesday evening, after New York Fed President Williams repeated that one more rate rise may be appropriate this year but that further rises would probably be unnecessary in 2027, and Fed Governor Waller said inflation expectations remained well anchored, Trading Economics reported. Talk of an end to Fed rises weakens the dollar, which means more dirhams per pound, even though Brent crude climbed back to about $107 (about £81) a barrel after a Houthi missile attack on Saudi Aramco's headquarters in Dhahran. GBP/USD rose from 1.3244 at 16:38 Dubai on Tuesday to 1.3255 by 23:00 and climbed steadily through the night to 1.3273 at 07:38 Dubai on Wednesday; the euro rose from 1.1188 to 1.1209, a little less than the pound, so this was mostly the dollar easing.",
    "t": "2026-10-14T03:40:14Z",
    "rate": 1.32715
-  },
-  {
-   "title": "The dollar has weakened as oil and US yields fell further",
-   "text": "Brent crude fell about 1.9% to near $104.68 (about £79) a barrel and the US ten-year yield fell about five hundredths of a point to 5.19% on Tuesday, as a sell-off in technology shares sent investors into government bonds, and markets now put the chance of a Fed rise in December at about 72%, down from nearly 88% earlier in the day, Trading Economics reported. Cheaper oil, lower US yields and fewer expected Fed rises all weaken the dollar, which means more dirhams per pound, and the dollar index slipped to about 102.3 from 102.6. GBP/USD rose from 1.3212 at 09:00 Dubai to 1.3228 by 11:30 and touched 1.3247 at about 16:25, standing near 1.3244 at 16:38 Dubai; the euro rose from 1.1170 to 1.1187, a little less than the pound, which also had some support from the IMF raising its forecast for UK growth this year to 1.3% from 1.0%.",
-   "t": "2026-10-13T12:39:22Z",
-   "rate": 1.32435
   }
  ]
 }
