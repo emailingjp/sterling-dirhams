@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T03:40:08Z",
+ "updated": "2026-10-19T16:39:28Z",
  "headline": "Sterling opened the week steady at about 1.333 dollars, near Friday's close and the top of last week's range. The dollar is near its softest this month as traders see little chance of a Fed rise on 28 October, while unrest in France and a slight fall in oil are the weekend's news.",
  "drivers": [
   {
@@ -36,6 +36,18 @@
  ],
  "watch": "UK pay figures come out at 10:00 Dubai on Tuesday 20 October, with average earnings growth forecast at 3.8% against 3.9% last time. UK inflation for September follows at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1%, and Governor Bailey speaks at 17:00 Dubai that day. Figures above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while figures below would weigh on the pound. UK retail sales and the UK and US business surveys follow on Friday 23 October.",
  "sources": [
+  {
+   "title": "British Pound clings to 1.3300 as UK inflation test threatens recovery",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-clings-to-13300-as-uk-inflation-test-threatens-recovery-202610191532",
+   "date": "19 Oct"
+  },
+  {
+   "title": "US 10-year Treasury yield edges up",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "19 Oct"
+  },
   {
    "title": "Dollar firmer, euro weakens as French protests turn violent",
    "site": "Reuters, via Business Recorder",
@@ -94,18 +106,6 @@
    "title": "United States 10-year government bond yield news",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/533342",
-   "date": "16 Oct"
-  },
-  {
-   "title": "Global markets stabilise as AI sell-off meets inflation risks",
-   "site": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/global-markets-stabilize-as-ai-sell-off-meets-inflation-risks-1638648",
-   "date": "16 Oct"
-  },
-  {
-   "title": "Industrial Production and Capacity Utilization, G.17",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/releases/g17/current/default.htm",
    "date": "16 Oct"
   }
  ],
@@ -232,8 +232,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-19T03:40:08Z",
+ "calendarUpdated": "2026-10-19T16:39:28Z",
  "feed": [
+  {
+   "title": "The dollar has firmed as US bond yields climbed this afternoon",
+   "text": "The US ten-year yield rose about 4.6 basis points to 5.127% by 19:30 Dubai, reversing a fall in the morning, as yields rose worldwide on the unrest in France, FXStreet reported, and the dollar index gained 0.13% to 101.91. Higher US yields draw money into the dollar, so fewer dirhams per pound. The euro fell by a similar share while the pound held steady against the euro, so this was a dollar move: GBP/USD slipped from about 1.3335 at 15:00 Dubai to 1.3311 by 20:38 Dubai.",
+   "t": "2026-10-19T16:39:28Z",
+   "rate": 1.33097
+  },
   {
    "title": "Sterling has reopened steady after a quiet weekend",
    "text": "The banks' market reopened at 01:00 Dubai with GBP/USD dipping from 1.3322, Kraken's last weekend price, to about 1.3303 within 15 minutes, as EUR/USD fell by a similar share in thin opening trade. Both recovered within the hour, and GBP/USD was back near 1.3333 by 02:25 Dubai and 1.3328 at 07:30 Dubai, close to Friday's close. Reuters reported the pound flat at $1.3329 in early Asian trade, with the dollar index level at 101.83 and traders still putting the chance of no Fed change on 28 October at about 84%.",
@@ -377,12 +383,6 @@
    "text": "No report names a fresh trigger for the slide between 17:47 and 18:02 Dubai; it was a broad rise in the dollar, with the euro falling at the same time from 1.1128 to 1.1116, as the dollar index reached about 102.9, its highest since April 2025, and US shares fell after the open, Trading Economics reported. A stronger dollar means fewer dirhams per pound, and markets still put the chance of a Fed rise this month at about 50% after the hotter inflation figures. GBP/USD fell from 1.3193 at 17:47 Dubai to a low of 1.3163 at 18:02, the weakest since June, then steadied near 1.3173 by 18:38 Dubai.",
    "t": "2026-10-14T14:40:08Z",
    "rate": 1.317
-  },
-  {
-   "title": "US yields have jumped and the dollar has kept climbing",
-   "text": "The US ten-year yield rose about nine hundredths of a point to about 5.31% after the hotter inflation figures, close to highs last seen in early 2002, and markets now put the chance of a Fed rise this month at about 50%, up from about 22% before the release, Trading Economics reported. Higher US yields and a likelier Fed rise draw money into the dollar, which means fewer dirhams per pound, and the dollar index reached about 102.7, its highest since April 2025. GBP/USD slid further from 1.3214 at 16:40 Dubai to a low of about 1.3187 at 17:20, then steadied near 1.3200 by 17:38 Dubai.",
-   "t": "2026-10-14T13:40:07Z",
-   "rate": 1.31988
   }
  ]
 }
