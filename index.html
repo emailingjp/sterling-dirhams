@@ -108,27 +108,33 @@ a { color: var(--accent); }
   100% { box-shadow: 0 0 0 0 transparent; }
 }
 
-.headline { margin: 20px 0 6px; font-family: var(--display); font-weight: 640; font-size: clamp(23px, 2.8vw, 34px); line-height: 1.15; letter-spacing: -.01em; text-wrap: balance; max-width: 40ch; }
-.headline b { font-weight: 760; }
-.headline.gain b { color: var(--gain); }
-.headline.loss b { color: var(--loss); }
-.lede { margin: 0 0 4px; color: var(--ink-2); max-width: 78ch; }
+.lede { margin: 16px 0 4px; color: var(--ink-2); font-size: 14px; max-width: 90ch; }
 .example-note { margin: 12px 0 0; padding: 9px 12px; border-radius: 6px; background: var(--raised); border: 1px solid var(--rule); color: var(--ink-2); font-size: 14px; max-width: 72ch; }
 .linkbtn { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
 
 /* The dashboard: every figure that matters, in one panel */
-.dash { display: grid; grid-template-columns: minmax(0, 1.45fr) repeat(3, minmax(0, 1fr)); grid-template-areas: "live rate get head" "live today since next"; gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; margin-top: 18px; }
+.dash { display: grid; grid-template-columns: minmax(0, 1.3fr) repeat(3, minmax(0, 1fr)); grid-template-areas: "left live live rate" "left today since next"; gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; margin-top: 14px; }
 .tile { background: var(--raised); padding: 13px 16px 15px; min-width: 0; display: flex; flex-direction: column; }
+.t-left { grid-area: left; justify-content: center; }
 .t-live { grid-area: live; justify-content: center; }
-.t-rate { grid-area: rate; } .t-get { grid-area: get; } .t-head { grid-area: head; }
+.t-rate { grid-area: rate; }
 .t-today { grid-area: today; } .t-since { grid-area: since; } .t-next { grid-area: next; }
+/* What is left after completion is the figure that matters most, so it leads */
+.hero { margin: 6px 0 0; font-family: var(--display); font-stretch: 85%; font-weight: 720; font-size: clamp(44px, 4.9vw, 74px); line-height: 1; letter-spacing: -.01em; white-space: nowrap; }
+.hero-aed { margin: 7px 0 0; font-family: var(--display); font-stretch: 85%; font-weight: 600; font-size: clamp(17px, 1.45vw, 21px); color: var(--ink-2); }
+.t-left.gain .hero { color: var(--gain); }
+.t-left.loss .hero { color: var(--loss); }
+.goal { margin: 12px 0 0; font-size: 14px; color: var(--ink-2); line-height: 1.45; }
+.goal b { color: var(--ink); font-weight: 650; }
+.goalbar { position: relative; height: 8px; border-radius: 4px; background: var(--grid); margin: 12px 0 5px; }
+.goalbar i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--accent); }
+.goalends { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; color: var(--ink-3); }
 .tile.gain { background: var(--gain-tile); }
 .tile.loss { background: var(--loss-tile); }
 .label { margin: 0; color: var(--ink-2); font-size: 12.5px; font-weight: 560; letter-spacing: .015em; }
 .big { margin: 5px 0 0; font-family: var(--display); font-stretch: 85%; font-weight: 660; font-size: clamp(21px, 2.05vw, 29px); line-height: 1.1; }
 .tile.gain .big { color: var(--gain); }
 .tile.loss .big { color: var(--loss); }
-.t-head .big { font-weight: 740; font-size: clamp(22px, 2.3vw, 32px); }
 .big .eq { display: block; font-size: .62em; font-weight: 600; opacity: .85; margin-top: 2px; }
 .sub { margin: 6px 0 0; color: var(--ink-2); font-size: 13px; line-height: 1.4; }
 .sub b { color: var(--ink); font-weight: 600; }
@@ -141,9 +147,37 @@ a { color: var(--accent); }
 .dealer.up .pips { color: var(--gain); }
 .dealer.dn .pips { color: var(--loss); }
 @media (max-width: 1100px) {
-  .dash { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "live live" "rate get" "head today" "since next"; }
+  .dash { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "left left" "live live" "rate today" "since next"; }
 }
 @media (max-width: 380px) { .tile { padding: 12px 12px 14px; } }
+
+/* The latest update and the order planner sit under the dashboard */
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 16px; }
+@media (max-width: 960px) { .pair { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--raised); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 16px; min-width: 0; }
+.card h2 { font-size: 18px; margin: 0 0 8px; }
+.latest .at { display: block; color: var(--ink-3); font-size: 12.5px; font-weight: 600; letter-spacing: .02em; }
+.latest .ti { display: block; font-weight: 680; font-size: 17px; margin-top: 2px; text-wrap: balance; }
+.latest p { margin: 6px 0 0; font-size: 14.5px; color: var(--ink-2); }
+.latest .measure { color: var(--ink); font-weight: 600; }
+.latest .measure.gain { color: var(--gain); }
+.latest .measure.loss { color: var(--loss); }
+.latest .lbl { color: var(--ink-3); font-size: 12.5px; font-weight: 620; margin-right: 6px; }
+.latest .more { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 560; }
+.order-row { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 4px 0 10px; }
+.order-row label { color: var(--ink-2); font-size: 14px; }
+.order-row input[type="text"] { width: 6.6em; font-family: var(--display); font-stretch: 85%; font-size: 24px; font-weight: 620; padding: 6px 10px; }
+.order .seg button { font-size: 13px; padding: 7px 10px; }
+.order ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 7px; font-size: 14.5px; }
+.order li b { font-weight: 650; }
+.order .gain { color: var(--gain); font-weight: 620; }
+.order .loss { color: var(--loss); font-weight: 620; }
+.order .tiny { color: var(--ink-3); font-size: 12.5px; margin: 10px 0 0; }
+.order details { margin-top: 12px; }
+.order summary { cursor: pointer; color: var(--accent); font-weight: 560; font-size: 14px; }
+.wording { margin: 8px 0 10px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--ground); font-size: 14px; white-space: pre-wrap; }
+.chk { display: inline-flex; gap: 7px; align-items: center; font-size: 13.5px; color: var(--ink-2); cursor: pointer; }
+.chk input { width: 16px; height: 16px; margin: 0; }
 
 .jump { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 14px 0 0; font-size: 14px; }
 .jump a { text-decoration: none; font-weight: 560; }
@@ -154,6 +188,7 @@ a { color: var(--accent); }
 .seg button { font: inherit; font-size: 13.5px; font-weight: 560; color: var(--ink-2); background: transparent; border: 0; padding: 8px 10px; cursor: pointer; min-width: 42px; }
 .seg button + button { border-left: 1px solid var(--rule); }
 .seg button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+@media (max-width: 520px) { #seg button { min-width: 33px; padding: 8px 6px; font-size: 13px; } }
 .tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; color: var(--ink-2); font-size: 13.5px; }
 .tools label { display: inline-flex; gap: 8px; align-items: center; }
 select, input { font: inherit; color: var(--ink); background: var(--raised); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
@@ -186,7 +221,7 @@ tbody th { font-weight: 600; font-size: 14px; padding: 10px 12px 10px 0; white-s
 tbody td { border-bottom: 1px solid var(--rule); padding: 4px 6px 4px 0; }
 .cellbtn { all: unset; box-sizing: border-box; display: flex; flex-wrap: wrap; column-gap: 8px; align-items: baseline; width: 100%; padding: 7px 10px; border-radius: 6px; cursor: pointer; }
 .cellbtn .pnl { font-weight: 650; white-space: nowrap; }
-.cellbtn .gbp { color: var(--ink-2); font-size: 13px; white-space: nowrap; }
+.cellbtn .alt { color: var(--ink-2); font-size: 13px; white-space: nowrap; }
 .cellbtn .rt { flex-basis: 100%; color: var(--ink-3); font-size: 12.5px; }
 .cellbtn.gain { background: var(--gain-tint); }
 .cellbtn.gain .pnl { color: var(--gain); }
@@ -325,11 +360,17 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     </div>
   </header>
 
-  <h1 class="headline" id="headline">Waiting for the first live price.</h1>
-  <p class="lede" id="lede">Every dirham figure is after the dealing charge, with the sterling equivalent in brackets.</p>
+  <p class="lede" id="lede">Figures are in pounds first, with dirhams in brackets, after the dealing charge.</p>
   <p class="example-note" id="exampleNote" hidden>These are example figures. Put your own in under <button type="button" class="linkbtn" data-open-settings>Settings</button>. They are kept on this device only.</p>
 
   <section class="dash" aria-label="Key figures">
+    <div class="tile t-left" id="tileLeft">
+      <p class="label" id="leftLabel">Left after completion</p>
+      <h1 class="hero" id="leftBig">&nbsp;</h1>
+      <p class="hero-aed" id="leftAed">&nbsp;</p>
+      <p class="sub" id="leftSub"></p>
+      <div id="goal"></div>
+    </div>
     <div class="tile t-live">
       <p class="label" id="liveLabel">Live rate, GBP/AED</p>
       <p class="dealer xl" id="mid">&nbsp;</p>
@@ -339,16 +380,6 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       <p class="label" id="yourLabel">Your rate after the charge</p>
       <p class="dealer lg" id="your">&nbsp;</p>
       <p class="sub" id="yourSub">&nbsp;</p>
-    </div>
-    <div class="tile t-get">
-      <p class="label" id="bringsLabel">Your sterling brings</p>
-      <p class="big" id="brings">&nbsp;</p>
-      <p class="sub" id="bringsSub">&nbsp;</p>
-    </div>
-    <div class="tile t-head" id="tileHead">
-      <p class="label">Headroom after completion</p>
-      <p class="big" id="head">&nbsp;</p>
-      <p class="sub" id="headSub">&nbsp;</p>
     </div>
     <div class="tile t-today" id="tileToday">
       <p class="label" id="todayLabel">Today</p>
@@ -367,11 +398,42 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     </div>
   </section>
 
-  <nav class="jump" aria-label="On this page"><a href="#chartSec">Chart</a><a href="#days">Day by day</a><a href="#market">What is moving the rate</a><a href="#check">Check a quote</a><a href="#settings" data-open-settings>Settings</a></nav>
+  <div class="pair">
+    <section class="card latest" id="latest" aria-labelledby="latestTitle">
+      <h2 id="latestTitle">Latest update</h2>
+      <div id="latestBody"><p class="stamp">Loading the latest update.</p></div>
+      <a class="more" href="#market">All updates, the calendar and what moves the rate</a>
+    </section>
+    <section class="card order" id="order" aria-labelledby="orderTitle">
+      <h2 id="orderTitle">Plan an order</h2>
+      <div class="order-row">
+        <label for="orderIn">Order rate, GBP/AED</label>
+        <input id="orderIn" type="text" inputmode="decimal" autocomplete="off">
+      </div>
+      <div class="order-row">
+        <div class="seg" role="group" aria-label="What the order rate means" id="orderBasis">
+          <button type="button" data-basis="allin" aria-pressed="true">Rate I receive</button>
+          <button type="button" data-basis="mid" aria-pressed="false">Market mid</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="orderShow"> Show on the chart</label>
+      </div>
+      <ul id="orderOut"><li>Waiting for the live price.</li></ul>
+      <p class="tiny" id="orderHint"></p>
+      <details id="orderBox">
+        <summary>The wording for the order</summary>
+        <p class="wording" id="orderWording"></p>
+        <button type="button" class="btn" id="orderCopy">Copy the wording</button>
+      </details>
+    </section>
+  </div>
+
+  <nav class="jump" aria-label="On this page"><a href="#chartSec">Chart</a><a href="#order">Plan an order</a><a href="#days">Day by day</a><a href="#market">What is moving the rate</a><a href="#check">Check a quote</a><a href="#settings" data-open-settings>Settings</a></nav>
 
   <section aria-label="Chart" id="chartSec">
     <div class="chart-head">
       <div class="seg" role="group" aria-label="Chart interval" id="seg">
+        <button type="button" data-iv="1s" aria-pressed="false">1s</button>
+        <button type="button" data-iv="5s" aria-pressed="false">5s</button>
         <button type="button" data-iv="10s" aria-pressed="false">10s</button>
         <button type="button" data-iv="30s" aria-pressed="false">30s</button>
         <button type="button" data-iv="1m" aria-pressed="false">1m</button>
@@ -382,6 +444,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         <button type="button" data-iv="4h" aria-pressed="false">4h</button>
       </div>
       <div class="tools">
+        <div class="seg" role="group" aria-label="Chart style" id="styleSeg">
+          <button type="button" data-style="candles" aria-pressed="true">Candles</button>
+          <button type="button" data-style="line" aria-pressed="false">Line</button>
+        </div>
         <label for="compare">Compare with <select id="compare"></select></label>
         <button type="button" class="btn" id="resetView">Reset view</button>
       </div>
@@ -392,7 +458,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       <div class="chart-msg" id="chartMsg" hidden></div>
       <div class="chart-note" id="chartNote" hidden></div>
     </div>
-    <div class="axis-notes"><span id="axisLeft">Left scale: dirhams gained or lost against the comparison</span><span>Right scale: GBP/AED mid. Scroll or pinch to zoom, drag to move.</span></div>
+    <div class="axis-notes"><span id="axisLeft">Left scale: pounds gained or lost against the comparison</span><span>Right scale: GBP/AED mid. Scroll or pinch to zoom, drag to move.</span></div>
   </section>
 
   <section class="lower">
@@ -439,6 +505,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
           <label for="setStartRate">Starting rate, GBP/USD</label><input id="setStartRate" type="text" inputmode="decimal" autocomplete="off" placeholder="ECB rate">
           <p class="hint" id="startHint">Leave the rate blank to use the ECB reference rate for that day.</p>
           <label for="setNeed">Dirhams still to pay (optional)</label><input id="setNeed" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setTarget">Target left after paying, in pounds (optional)</label><input id="setTarget" type="text" inputmode="decimal" autocomplete="off">
           <label for="setPeg">Dirhams to the dollar</label><input id="setPeg" type="text" inputmode="decimal" autocomplete="off">
           <button type="button" class="btn" id="resetSettings">Restore the defaults</button>
         </div>
@@ -517,8 +584,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
   /* ---------- settings ---------- */
-  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725 }/*END*/;
-  var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v2', ecb: 'gbpaed.ecb.v1' };
+  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725, target: 0, orderRate: null, orderBasis: 'allin', orderShow: true }/*END*/;
+  var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v2', oldTicks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v2', ecb: 'gbpaed.ecb.v1', style: 'gbpaed.style.v1' };
   function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
   var cfg = Object.assign({}, DEFAULTS, load(KEYS.cfg, {}));
@@ -529,6 +596,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var ECB_URL = 'https://api.frankfurter.dev/v1/';
   var MARKET_URL = 'https://emailingjp.github.io/sterling-dirhams/market.json';
   var IV = {
+    '1s': { sec: 1, ticks: true, span: 300 },
+    '5s': { sec: 5, ticks: true, span: 900 },
     '10s': { sec: 10, ticks: true, span: 1800 },
     '30s': { sec: 30, ticks: true, span: 5400 },
     '1m': { sec: 60, k: 1, span: 3 * 3600 },
@@ -550,6 +619,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     bid: null, ask: null, mid: null, at: 0, via: '', alive: 0,
     hourly: [], hourIdx: new Map(),
     bars: [], iv: IV[savedIv] ? savedIv : '1h',
+    style: load(KEYS.style, 'candles') === 'line' ? 'line' : 'candles', wide: true, orderDraft: null,
     cmp: load(KEYS.cmp, 'start'),
     refs: new Map(), refOrder: [],
     dir: 0, hovering: false, dirty: false, histOk: false,
@@ -559,9 +629,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     'EUR/USD': { pair: 'EURUSD', mid: null, hourly: [], idx: new Map() },
     'EUR/GBP': { pair: 'EURGBP', mid: null, hourly: [], idx: new Map() }
   };
-  var ticks = (load(KEYS.ticks, []) || []).filter(function (p) {
-    return Array.isArray(p) && p[0] > Date.now() / 1000 - 12 * 3600;
-  }).map(function (p) { return { t: p[0], c: p[1] }; });
+  /* The live price is kept as one-second bars (open, high, low, close) for 12 hours, so the 1s to 30s
+     charts still have history when the page is opened again. Pages before 19 October kept 10-second closes. */
+  var ticks = (load(KEYS.ticks, null) || (load(KEYS.oldTicks, []) || []).map(function (p) { return [p[0], p[1], p[1], p[1], p[1]]; }))
+    .filter(function (p) { return Array.isArray(p) && p.length === 5 && p[0] > Date.now() / 1000 - 12 * 3600; })
+    .map(function (p) { return { t: p[0], o: p[1], h: p[2], l: p[3], c: p[4] }; });
   var lastSeen = load(KEYS.last, null);
   if (lastSeen && lastSeen.mid > 0) {
     state.mid = lastSeen.mid; state.bid = lastSeen.bid; state.ask = lastSeen.ask; state.at = lastSeen.at; state.via = 'saved'; state.dirty = true;
@@ -652,16 +724,26 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function gbp(n, signed) { var r = roundGbp(n); return (r < 0 ? MINUS : (signed && r > 0 ? '+' : '')) + '£' + nf0.format(Math.abs(r)); }
   function aed(n) { return 'AED ' + nf0.format(Math.round(n)); }
   function aedSigned(n) { var r = Math.round(n); return (r < 0 ? MINUS : r > 0 ? '+' : '') + 'AED ' + nf0.format(Math.abs(r)); }
-  function withGbp(n) { return aed(n) + ' (' + gbp(gbpOf(n)) + ')'; }
-  function withGbpSigned(n) { return aedSigned(n) + ' (' + gbp(gbpOf(n), true) + ')'; }
-  function twoLine(n, signed) { return '<span>' + (signed ? aedSigned(n) : aed(n)) + '</span><span class="eq">(' + gbp(gbpOf(n), signed) + ')</span>'; }
+  /* JP works in pounds, so gains, losses and what is left show pounds first with dirhams in brackets.
+     Amounts received stay in dirhams, because that is what lands in the account. */
+  function withGbp(n) { return gbp(gbpOf(n)) + ' (' + aed(n) + ')'; }
+  function withGbpSigned(n) { return gbp(gbpOf(n), true) + ' (' + aedSigned(n) + ')'; }
+  function aedWithGbp(n) { return aed(n) + ' (' + gbp(gbpOf(n)) + ')'; }
+  function twoLine(n, signed) { return '<span>' + gbp(gbpOf(n), signed) + '</span><span class="eq">(' + (signed ? aedSigned(n) : aed(n)) + ')</span>'; }
+  function round100(n) { return Math.round(n / 100) * 100; }
   function pctSigned(x, dp) { var v = (x * 100).toFixed(dp == null ? 2 : dp); return (x < 0 ? MINUS + v.replace('-', '') : (x > 0 ? '+' : '') + v) + '%'; }
-  function shortK(n) {
-    var a = Math.abs(n), s = n < 0 ? MINUS : n > 0 ? '+' : '';
-    if (a >= 1e6) return s + (a / 1e6).toFixed(2) + 'm';
-    if (a >= 1e4) return s + Math.round(a / 1e3) + 'k';
-    if (a >= 1e3) return s + (a / 1e3).toFixed(1) + 'k';
-    return s + Math.round(a);
+  function kNum(a) {
+    if (a >= 1e6) return (a / 1e6).toFixed(2) + 'm';
+    if (a >= 1e4) return Math.round(a / 1e3) + 'k';
+    if (a >= 1e3) return (a / 1e3).toFixed(1) + 'k';
+    return String(Math.round(a));
+  }
+  function shortK(n) { return (n < 0 ? MINUS : n > 0 ? '+' : '') + kNum(Math.abs(n)); }
+  function gbpK(n, signed) { return (n < 0 ? MINUS : signed && n > 0 ? '+' : '') + '£' + kNum(Math.abs(n)); }
+  /* The left-hand scale of the chart: pounds, with dirhams beside them when there is room. */
+  function axisMoney(aedV) {
+    var g = gbpOf(aedV), s = g < 0 ? MINUS : g > 0 ? '+' : '';
+    return s + '£' + kNum(Math.abs(g)) + (state.wide ? ' (AED ' + kNum(Math.abs(aedV)) + ')' : '');
   }
   function amountShort() { var a = cfg.amount; return a >= 1e6 && a % 1e5 === 0 ? '£' + (a / 1e6) + 'm' : gbpExact(a); }
   function pct() { return cfg.marginPct + '%'; }
@@ -776,7 +858,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   /* Kraken's bars are traded prices, and now and then a single stray trade prints far from the market.
      A bar that sits well away from both of its neighbours, in the same direction, is treated as a stray
      print and replaced by the average of the neighbours. A genuine move holds its new level, so it stays.
-     The threshold is 0.3% for intraday bars, 0.6% for four-hour bars and 2% for daily bars. */
+     The threshold is 0.3% for intraday bars, 0.6% for four-hour bars and 2% for daily bars. A high or low
+     reaching more than one and a half times that beyond the bar's own open and close is cut back to them:
+     on 16 October one stray trade printed a high of 1.3612 in an hour that traded near 1.3280. */
   function clean(bars, T) {
     var out = [];
     for (var i = 0; i < bars.length; i++) {
@@ -786,7 +870,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         if (Math.abs(dp) > T && Math.abs(dn) > T && dp * dn > 0) c = (prev + next) / 2;
       }
       if (prev != null && Math.abs(o - prev) / prev > T && Math.abs(o - c) / c > T) o = prev;
-      out.push({ t: b.t, o: o, c: c });
+      var top = Math.max(o, c), bot = Math.min(o, c), h = b.h, l = b.l;
+      if (!(h >= top) || (h - top) / top > 1.5 * T) h = top;
+      if (!(l <= bot) || (bot - l) / bot > 1.5 * T) l = bot;
+      out.push({ t: b.t, o: o, h: h, l: l, c: c });
     }
     return out;
   }
@@ -794,7 +881,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     return kraken('/OHLC?pair=' + pair + '&interval=' + k).then(function (res) {
       var key = Object.keys(res).filter(function (x) { return x !== 'last'; })[0];
       var T = k >= 1440 ? 0.02 : k >= 240 ? 0.006 : 0.003;
-      return clean(res[key].map(function (a) { return { t: +a[0], o: +a[1], c: +a[4] }; }), T);
+      return clean(res[key].map(function (a) { return { t: +a[0], o: +a[1], h: +a[2], l: +a[3], c: +a[4] }; }), T);
     });
   }
   function loadHourly() {
@@ -848,7 +935,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var out = [];
     src.forEach(function (b) {
       var t = Math.floor(b.t / sec) * sec, l = out[out.length - 1];
-      if (l && l.t === t) l.c = b.c; else out.push({ t: t, c: b.c });
+      if (l && l.t === t) { if (b.h > l.h) l.h = b.h; if (b.l < l.l) l.l = b.l; l.c = b.c; }
+      else out.push({ t: t, o: b.o, h: b.h, l: b.l, c: b.c });
     });
     return out;
   }
@@ -857,7 +945,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (spec.ticks) return Promise.resolve(bucket(ticks, spec.sec));
     var get = spec.k === 60 && state.hourly.length ? Promise.resolve(state.hourly) : ohlc('GBPUSD', spec.k);
     return get.then(function (raw) {
-      var open = raw.filter(function (b) { return isFxOpen(b.t); }).map(function (b) { return { t: b.t, c: b.c }; });
+      var open = raw.filter(function (b) { return isFxOpen(b.t); }).map(function (b) { return { t: b.t, o: b.o, h: b.h, l: b.l, c: b.c }; });
       return spec.sec === spec.k * 60 ? open : bucket(open, spec.sec);
     });
   }
@@ -865,8 +953,24 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var ws = null, wsFails = 0, pollTimer = null;
   function recordTick(mid, t) {
     if (!isFxOpen(t)) return;
-    var b = Math.floor(t / 10) * 10, l = ticks[ticks.length - 1];
-    if (l && l.t === b) l.c = mid; else if (!l || b > l.t) ticks.push({ t: b, c: mid });
+    var b = Math.floor(t), l = ticks[ticks.length - 1];
+    if (l && l.t === b) { l.c = mid; if (mid > l.h) l.h = mid; if (mid < l.l) l.l = mid; }
+    else if (!l || b > l.t) ticks.push({ t: b, o: mid, h: mid, l: mid, c: mid });
+  }
+  /* Saved for the next visit: the last three hours second by second, and the nine before that in
+     10-second bars, which keeps the stored copy small enough for a phone. */
+  function packTicks() {
+    var now = Date.now() / 1000, cut = now - 12 * 3600, fine = now - 3 * 3600, out = [], coarse = null;
+    var r6 = function (x) { return Math.round(x * 1e6) / 1e6; };
+    ticks.forEach(function (b) {
+      if (b.t < cut) return;
+      if (b.t >= fine) { if (coarse) { out.push(coarse); coarse = null; } out.push([b.t, r6(b.o), r6(b.h), r6(b.l), r6(b.c)]); return; }
+      var t10 = Math.floor(b.t / 10) * 10;
+      if (coarse && coarse[0] === t10) { coarse[2] = Math.max(coarse[2], r6(b.h)); coarse[3] = Math.min(coarse[3], r6(b.l)); coarse[4] = r6(b.c); }
+      else { if (coarse) out.push(coarse); coarse = [t10, r6(b.o), r6(b.h), r6(b.l), r6(b.c)]; }
+    });
+    if (coarse) out.push(coarse);
+    return out;
   }
   function onQuote(bid, ask, via) {
     state.alive = Date.now();
@@ -983,17 +1087,24 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
 
   /* ---------- chart ---------- */
-  var L = window.LightweightCharts, chart = null, rateSeries = null, pnlSeries = null, markers = null, baseLine = null;
+  /* Two ways to draw the price: candles, as dealing platforms show it, or a line shaded green above the
+     comparison and red below it. Both share the scales, so switching keeps the view. */
+  var L = window.LightweightCharts, chart = null, candleSeries = null, lineSeries = null, pnlSeries = null, markersC = null, markersL = null, lines = [];
   function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
   function baseAed() { var r = currentRef(); return r ? toAed(r.usd) : toAed(state.mid || 1.32); }
   function pnlOf(rateAed) { return cfg.amount * (1 - mg()) * (rateAed - baseAed()); }
+  function mainSeries() { return state.style === 'line' ? lineSeries : candleSeries; }
+  function candleOf(b) { return { time: b.t + DXB, open: toAed(b.o), high: toAed(b.h), low: toAed(b.l), close: toAed(b.c) }; }
   function visibleExtent() {
     if (!chart || !state.bars.length) return null;
-    var lr = chart.timeScale().getVisibleLogicalRange(), from = 0, to = state.bars.length - 1;
+    var lr = chart.timeScale().getVisibleLogicalRange(), from = 0, to = state.bars.length - 1, candles = state.style !== 'line';
     if (lr) { from = Math.max(0, Math.floor(lr.from)); to = Math.min(state.bars.length - 1, Math.ceil(lr.to)); }
     if (from > to) return null;
     var lo = Infinity, hi = -Infinity;
-    for (var i = from; i <= to; i++) { var v = state.bars[i].c; if (v < lo) lo = v; if (v > hi) hi = v; }
+    for (var i = from; i <= to; i++) {
+      var b = state.bars[i], up = candles ? b.h : b.c, dn = candles ? b.l : b.c;
+      if (dn < lo) lo = dn; if (up > hi) hi = up;
+    }
     lo = toAed(lo); hi = toAed(hi);
     if (hi - lo < 0.0006) { var c = (hi + lo) / 2; lo = c - 0.0003; hi = c + 0.0003; }
     return { lo: lo, hi: hi };
@@ -1010,6 +1121,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var d = new Date(time * 1000);
     return WD[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MON[d.getUTCMonth()] + ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + (IV[state.iv].sec < 60 ? ':' + pad(d.getUTCSeconds()) : '');
   }
+  function rateAxis() {
+    return { priceScaleId: 'right', priceFormat: { type: 'custom', minMove: 0.0001, formatter: function (p) { return p.toFixed(4); } },
+      autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: e.lo, maxValue: e.hi } } : null; } };
+  }
   function initChart() {
     if (!L) { showMsg('The chart could not load. Check the internet connection, then reload the page. The figures above and below still work.'); return; }
     chart = L.createChart($('chart'), {
@@ -1022,30 +1137,34 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       localization: { locale: 'en-GB', timeFormatter: timeFmt },
       crosshair: { mode: L.CrosshairMode.Normal }
     });
-    rateSeries = chart.addSeries(L.BaselineSeries, {
-      lineWidth: 2,
-      priceScaleId: 'right',
-      baseValue: { type: 'price', price: baseAed() },
-      priceFormat: { type: 'custom', minMove: 0.0001, formatter: function (p) { return p.toFixed(4); } },
-      autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: e.lo, maxValue: e.hi } } : null; }
-    });
+    candleSeries = chart.addSeries(L.CandlestickSeries, Object.assign({ visible: state.style !== 'line' }, rateAxis()));
+    lineSeries = chart.addSeries(L.BaselineSeries, Object.assign({ visible: state.style === 'line', lineWidth: 2, baseValue: { type: 'price', price: baseAed() } }, rateAxis()));
     pnlSeries = chart.addSeries(L.LineSeries, {
       color: 'rgba(0,0,0,0)', lineWidth: 1, priceScaleId: 'left',
       lastValueVisible: false, priceLineVisible: false, crosshairMarkerVisible: false,
-      priceFormat: { type: 'custom', minMove: 1, formatter: function (p) { return shortK(p); } },
+      priceFormat: { type: 'custom', minMove: 1, formatter: function (p) { return axisMoney(p); } },
       autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: pnlOf(e.lo), maxValue: pnlOf(e.hi) } } : null; }
     });
-    markers = L.createSeriesMarkers(rateSeries, []);
+    markersC = L.createSeriesMarkers(candleSeries, []);
+    markersL = L.createSeriesMarkers(lineSeries, []);
     chart.subscribeCrosshairMove(function (p) {
-      var d = p && p.time && p.seriesData ? p.seriesData.get(rateSeries) : null;
+      var d = p && p.time && p.seriesData ? p.seriesData.get(mainSeries()) : null;
       state.hovering = !!d;
-      renderLegend(d ? { t: p.time - DXB, rate: d.value } : null);
+      renderLegend(d ? { t: p.time - DXB, rate: d.close != null ? d.close : d.value, o: d.open, h: d.high, l: d.low } : null);
     });
-    applyTheme();
+    applyTheme(); checkWide();
     if (window.matchMedia) {
       var mq = window.matchMedia('(prefers-color-scheme: dark)');
       if (mq.addEventListener) mq.addEventListener('change', applyTheme);
     }
+  }
+  /* The pound and dirham labels on the left need room; on a phone the scale shows pounds only. */
+  function checkWide() {
+    var w = $('chart').clientWidth >= 640;
+    if (w === state.wide) return;
+    state.wide = w;
+    if (pnlSeries) pnlSeries.applyOptions({ priceFormat: { type: 'custom', minMove: 1, formatter: function (p) { return axisMoney(p); } } });
+    renderLabels();
   }
   function applyTheme() {
     if (!chart) return;
@@ -1054,38 +1173,53 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       grid: { vertLines: { color: css('--grid') }, horzLines: { color: css('--grid') } },
       crosshair: { vertLine: { color: css('--ink-3'), labelBackgroundColor: css('--ink') }, horzLine: { color: css('--ink-3'), labelBackgroundColor: css('--ink') } }
     });
-    rateSeries.applyOptions({
+    candleSeries.applyOptions({
+      upColor: css('--gain'), downColor: css('--loss'), borderUpColor: css('--gain'), borderDownColor: css('--loss'), wickUpColor: css('--gain'), wickDownColor: css('--loss')
+    });
+    lineSeries.applyOptions({
       topLineColor: css('--gain'), topFillColor1: css('--gain-fill-strong'), topFillColor2: css('--gain-fill-weak'),
       bottomLineColor: css('--loss'), bottomFillColor1: css('--loss-fill-weak'), bottomFillColor2: css('--loss-fill-strong')
     });
-    drawBaseLine(); drawMarkers();
+    drawLines(); drawMarkers();
   }
-  function drawBaseLine() {
-    if (!rateSeries) return;
-    if (baseLine) { rateSeries.removePriceLine(baseLine); baseLine = null; }
+  /* Level lines across the chart: the comparison, and the order and target when they are switched on. */
+  function drawLines() {
+    lines.forEach(function (x) { try { x.s.removePriceLine(x.l); } catch (e) { /* already gone */ } });
+    lines = [];
+    var s = mainSeries();
+    if (!s) return;
+    function add(price, color, style, title) { lines.push({ s: s, l: s.createPriceLine({ price: price, color: color, lineWidth: 1, lineStyle: style, axisLabelVisible: true, title: title }) }); }
     var ref = currentRef();
-    if (ref) baseLine = rateSeries.createPriceLine({ price: toAed(ref.usd), color: css('--ink-3'), lineWidth: 1, lineStyle: L.LineStyle.Dashed, axisLabelVisible: true, title: ref.short });
+    if (ref) add(toAed(ref.usd), css('--ink-3'), L.LineStyle.Dashed, ref.short);
+    if (cfg.orderShow) {
+      var o = orderInfo();
+      if (o) add(o.mid, css('--accent'), L.LineStyle.Dashed, 'Order');
+      var tm = targetMid();
+      if (tm) add(tm, css('--accent'), L.LineStyle.Dotted, gbpK(cfg.target) + ' left');
+    }
   }
   function drawMarkers() {
-    if (!markers) return;
-    var spec = IV[state.iv];
-    if (spec.ticks) { markers.setMarkers([]); return; }
-    var times = new Set(state.bars.map(function (b) { return b.t; })), list = [];
-    EVENTS.forEach(function (e) {
-      var b = Math.floor(e.t / spec.sec) * spec.sec;
-      if (times.has(b)) list.push({ time: b + DXB, position: e.pos, shape: e.shape, color: css('--ink-2'), text: e.text });
-    });
-    markers.setMarkers(list);
+    if (!markersC) return;
+    var spec = IV[state.iv], list = [];
+    if (!spec.ticks) {
+      var times = new Set(state.bars.map(function (b) { return b.t; }));
+      EVENTS.forEach(function (e) {
+        var b = Math.floor(e.t / spec.sec) * spec.sec;
+        if (times.has(b)) list.push({ time: b + DXB, position: e.pos, shape: e.shape, color: css('--ink-2'), text: e.text });
+      });
+    }
+    markersC.setMarkers(state.style === 'line' ? [] : list);
+    markersL.setMarkers(state.style === 'line' ? list : []);
   }
   function redraw(keepRange) {
     if (!chart) return;
     var base = baseAed(), k = cfg.amount * (1 - mg());
-    var rate = state.bars.map(function (b) { return { time: b.t + DXB, value: toAed(b.c) }; });
+    var line = state.bars.map(function (b) { return { time: b.t + DXB, value: toAed(b.c) }; });
     var pnl = state.bars.map(function (b) { return { time: b.t + DXB, value: k * (toAed(b.c) - base) }; });
     var range = keepRange ? chart.timeScale().getVisibleLogicalRange() : null;
-    rateSeries.applyOptions({ baseValue: { type: 'price', price: base } });
-    rateSeries.setData(rate); pnlSeries.setData(pnl);
-    drawBaseLine(); drawMarkers();
+    lineSeries.applyOptions({ baseValue: { type: 'price', price: base } });
+    candleSeries.setData(state.bars.map(candleOf)); lineSeries.setData(line); pnlSeries.setData(pnl);
+    drawLines(); drawMarkers();
     if (range) chart.timeScale().setVisibleLogicalRange(range);
     else { defaultView(); requestAnimationFrame(defaultView); }
   }
@@ -1101,11 +1235,13 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (!chart || state.via === 'saved' || !state.mid) return;
     var t = Date.now() / 1000;
     if (!isFxOpen(t)) return;
-    var sec = IV[state.iv].sec, b = Math.floor(t / sec) * sec, l = state.bars[state.bars.length - 1];
+    var sec = IV[state.iv].sec, b = Math.floor(t / sec) * sec, l = state.bars[state.bars.length - 1], m = state.mid;
     if (l && b < l.t) return;
-    if (l && b === l.t) l.c = state.mid; else state.bars.push({ t: b, c: state.mid });
-    var a = toAed(state.mid);
-    rateSeries.update({ time: b + DXB, value: a });
+    if (l && b === l.t) { l.c = m; if (m > l.h) l.h = m; if (m < l.l) l.l = m; }
+    else { l = { t: b, o: m, h: m, l: m, c: m }; state.bars.push(l); }
+    var a = toAed(m);
+    candleSeries.update(candleOf(l));
+    lineSeries.update({ time: b + DXB, value: a });
     pnlSeries.update({ time: b + DXB, value: pnlOf(a) });
   }
   function showMsg(text) { var m = $('chartMsg'); m.textContent = text; m.hidden = false; }
@@ -1113,7 +1249,15 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function tickNote() {
     var n = $('chartNote');
     n.hidden = !(IV[state.iv].ticks && state.bars.length < 3);
-    if (!n.hidden) n.textContent = 'The 10s and 30s bars are built from the live price while this page is open, and kept for 12 hours. Use 1m or longer for history.';
+    if (!n.hidden) n.textContent = 'The 1s to 30s bars are built from the live price while this page is open, and kept for 12 hours. Use 1m or longer for history.';
+  }
+  function setStyle(st) {
+    state.style = st === 'line' ? 'line' : 'candles'; save(KEYS.style, state.style);
+    Array.prototype.forEach.call(document.querySelectorAll('#styleSeg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.style === state.style)); });
+    if (!chart) return;
+    candleSeries.applyOptions({ visible: state.style !== 'line' });
+    lineSeries.applyOptions({ visible: state.style === 'line' });
+    drawLines(); drawMarkers(); renderLegend(null);
   }
   var ivToken = 0;
   function chooseInterval(iv) {
@@ -1146,17 +1290,81 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     $('exampleNote').hidden = !cfg.example;
     var basis = !s.usd ? 'Tracked from ' + longDate(s.date) + '. '
       : 'Tracked against ' + (s.ecb ? 'the ECB reference rate for ' + longDate(d) : s.approx ? 'Kraken\'s rate at 1pm London on ' + longDate(s.date) : 'your starting rate for ' + longDate(s.date)) + ', GBP/USD ' + s.usd + '. ';
-    $('lede').textContent = basis + 'Every dirham figure is after the ' + pct() + ' dealing charge, with the sterling equivalent in brackets.';
+    $('lede').textContent = basis + 'Figures are in pounds first, with dirhams in brackets, after the ' + pct() + ' dealing charge.';
     $('daysTitle').textContent = 'Day by day since ' + dayName(s.date);
-    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge. Green means now brings more dirhams, red means fewer. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.';
-    $('axisLeft').textContent = 'Left scale: dirhams gained or lost on ' + gbpExact(cfg.amount) + ' against the comparison';
+    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge, in pounds with dirhams in brackets. Green means dealing now brings more, red means less. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.';
+    $('axisLeft').textContent = 'Left scale: pounds gained or lost on ' + gbpExact(cfg.amount) + ' against the comparison' + (state.wide ? ', with dirhams in brackets' : '');
     $('marksBrought').textContent = amountShort() + ' brought';
     $('sinceLabel').textContent = 'Since ' + shortDay(s.date);
     var e = ecbCache[startDate()];
     $('startHint').textContent = e ? 'Leave the rate blank to use the ECB reference rate for ' + dayName(e.date) + ', which was ' + e.rate + '.' : 'Leave the rate blank to use the ECB reference rate for that day.';
   }
+
+  /* What is left after paying, in pounds, if GBP/AED mid is m: the dirhams left over, valued at m. */
+  function leftAt(m) { return cfg.amount * (1 - mg()) - cfg.need / m; }
+  /* The GBP/AED mid at which what is left reaches the target. */
+  function targetMid() {
+    if (!(cfg.target > 0) || !(cfg.need > 0)) return null;
+    var room = cfg.amount * (1 - mg()) - cfg.target;
+    return room > 0 ? cfg.need / room : null;
+  }
+  function renderLeft() {
+    var get = brings(state.mid), liveMid = toAed(state.mid), tile = $('tileLeft'), goal = $('goal');
+    if (!(cfg.need > 0)) {
+      $('leftLabel').textContent = amountShort() + ' brings, after ' + pct();
+      $('leftBig').textContent = aed(get);
+      $('leftAed').textContent = 'At your rate of ' + (liveMid * (1 - mg())).toFixed(4) + ' dirhams per pound';
+      $('leftSub').textContent = '';
+      goal.innerHTML = '<p class="goal">Put the dirhams still to pay under <button type="button" class="linkbtn" data-open-settings>Settings</button> to see what is left after paying them, in pounds.</p>';
+      tone(tile, 0);
+      return;
+    }
+    var spareAed = get - cfg.need, spare = leftAt(liveMid), breakMid = cfg.need / cfg.amount / (1 - mg()), fall = 1 - breakMid / liveMid;
+    $('leftLabel').textContent = 'Left after completion';
+    $('leftBig').textContent = (spare < 0 ? MINUS : '') + gbpExact(Math.abs(round100(spare)));
+    $('leftAed').textContent = (spareAed < 0 ? MINUS : '') + aed(Math.abs(spareAed));
+    $('leftSub').textContent = 'After paying ' + aed(cfg.need) + ', dealing at the live rate less ' + pct() + '.';
+    var html = '', tm = targetMid();
+    if (spare < 0) html = '<p class="goal">Short of what is still to pay. It is covered again at GBP/AED <b>' + breakMid.toFixed(4) + '</b>.</p>';
+    else if (cfg.target > 0 && tm) {
+      var gap = tm / liveMid - 1, w = state.refs.get('worst');
+      if (spare >= cfg.target) html = '<p class="goal"><b>' + gbpExact(round100(spare - cfg.target)) + ' above</b> your ' + gbpExact(cfg.target) + ' target. It stays above while GBP/AED is at or above ' + tm.toFixed(4) + ', GBP/USD ' + (tm / cfg.peg).toFixed(4) + '.</p>';
+      else html = '<p class="goal"><b>' + gbpExact(round100(cfg.target - spare)) + ' short</b> of your ' + gbpExact(cfg.target) + ' target. That needs GBP/AED <b>' + tm.toFixed(4) + '</b>, GBP/USD ' + (tm / cfg.peg).toFixed(4) + ', which is ' + (gap * 100).toFixed(2) + '% above the live rate.</p>';
+      if (w) {
+        /* How far it has come, from the low since the start up to the target */
+        var lw = leftAt(toAed(w.usd)), top = Math.max(cfg.target, spare), frac = top > lw ? (spare - lw) / (top - lw) : 1;
+        html += '<div class="goalbar" role="img" aria-label="Progress from the low since the start to the target"><i style="width:' + Math.max(0, Math.min(100, frac * 100)).toFixed(1) + '%"></i></div>' +
+          '<div class="goalends"><span>Low ' + gbpK(lw) + ', ' + w.when.replace(/, \d+:00 London$/, '') + '</span><span>Target ' + gbpK(cfg.target) + '</span></div>';
+      }
+    } else {
+      html = '<p class="goal">It runs out only if GBP/AED falls to <b>' + breakMid.toFixed(4) + '</b>, ' + (fall * 100).toFixed(1) + '% lower. Set a target under <button type="button" class="linkbtn" data-open-settings>Settings</button> to see how far it has to go.</p>';
+    }
+    if (goal.innerHTML !== html) goal.innerHTML = html;
+    tone(tile, spare < 0 ? -1 : cfg.target > 0 && spare >= cfg.target ? 1 : 0);
+  }
+
+  /* The price at a moment: the minute bar's open when Kraken still has it, otherwise the hour's. */
+  function priceAt(t) {
+    var mi = state.minuteIdx, m0 = Math.floor(t / 60) * 60;
+    if (mi && mi.has(m0)) return state.minute[mi.get(m0)].o;
+    return priceAtHour(t);
+  }
+  /* Today is measured from London's 8am opening, as in the day-by-day table. Before London opens it is
+     measured from 4pm London on the last working day, the benchmark time. */
+  function londonInfo() {
+    if (!state.mid || !state.hourly.length) return null;
+    var now = Date.now() / 1000, p = lonParts(now), y = +p.year, mo = +p.month, d = +p.day;
+    var weekday = p.weekday !== 'Sat' && p.weekday !== 'Sun', t8 = londonToUtc(y, mo, d, 8);
+    if (weekday && now >= t8) { var o8 = priceAt(t8); if (o8) return { t: t8, usd: o8, label: 'Today, since London opened at 8am (' + dxbTime(t8) + ' Dubai)' }; }
+    var day = new Date(Date.UTC(y, mo - 1, d));
+    do { day = new Date(day.getTime() - 86400000); } while (day.getUTCDay() === 0 || day.getUTCDay() === 6);
+    var t16 = londonToUtc(day.getUTCFullYear(), day.getUTCMonth() + 1, day.getUTCDate(), 16), c16 = priceAt(t16);
+    if (c16) return { t: t16, usd: c16, label: 'Since 4pm London ' + (weekday && now - t16 < 86400 ? 'yesterday' : 'on ' + WD[day.getUTCDay()]) + ' (' + dxbTime(t16) + ' Dubai)' };
+    return null;
+  }
   function renderDash() {
-    var a = toAed(state.mid), your = a * (1 - mg()), get = brings(state.mid), s = startInfo();
+    var a = toAed(state.mid), your = a * (1 - mg()), get = brings(state.mid);
+    renderLeft();
     $('mid').innerHTML = dealerHTML(a); flash($('mid'));
     /* At weekends the banks are shut but Kraken keeps trading. The page keeps showing Kraken's price,
        and says plainly that it is a guide to the reopening rather than a rate anyone can deal at. */
@@ -1171,35 +1379,26 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     }
     $('yourLabel').textContent = 'Your rate after ' + pct();
     $('your').innerHTML = dealerHTML(your);
-    $('yourSub').innerHTML = 'A quote at or above <b>' + your.toFixed(4) + '</b> is within ' + pct() + '.';
-    $('bringsLabel').textContent = gbpExact(cfg.amount) + ' brings, after ' + pct();
-    $('brings').innerHTML = twoLine(get, false);
-    $('bringsSub').textContent = 'At the live rate, less the dealing charge.';
+    $('yourSub').innerHTML = amountShort() + ' brings <b>' + aed(get) + '</b>. A quote at or above ' + your.toFixed(4) + ' is within ' + pct() + '.';
 
-    if (cfg.need > 0) {
-      var spare = get - cfg.need, breakMid = cfg.need / cfg.amount / (1 - mg()), breakUsd = breakMid / cfg.peg, fall = 1 - breakUsd / state.mid;
-      $('head').innerHTML = twoLine(spare, false);
-      $('headSub').innerHTML = spare >= 0
-        ? 'After paying ' + aed(cfg.need) + '. It runs out only if GBP/AED falls to <b>' + breakMid.toFixed(4) + '</b>, ' + (fall * 100).toFixed(1) + '% lower.'
-        : 'Short of the ' + aed(cfg.need) + ' still to pay. It is covered again at GBP/AED <b>' + breakMid.toFixed(4) + '</b>.';
-      tone($('tileHead'), spare >= 0 ? 0 : -1);
-    } else {
-      $('head').textContent = 'Not set';
-      $('headSub').innerHTML = 'Put the dirhams still to pay under <button type="button" class="linkbtn" data-open-settings>Settings</button> to see what is left.';
-    }
-
-    var td = todayInfo();
+    var td = todayInfo(), li = londonInfo();
     if (td && !td.open && fc) {
       var wk = diffVs(state.mid, fc);
       $('todayLabel').textContent = 'This weekend, since the banks shut';
       $('today').innerHTML = twoLine(wk, true);
       $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / fc - 1) + ' on Kraken since the close. The last full session before it: ' + withGbpSigned(td.aed) + '.';
       tone($('tileToday'), Math.round(wk) === 0 ? 0 : wk);
+    } else if (li) {
+      var dl = diffVs(state.mid, li.usd), ind = indicators();
+      $('todayLabel').textContent = li.label;
+      $('today').innerHTML = twoLine(dl, true);
+      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / li.usd - 1) + (ind ? ', against a normal day of about ' + (ind.typical * 100).toFixed(2) + '% either way' : '') + '.' +
+        (td ? ' Since the market\'s day began at ' + dxbTime(td.start) + ' Dubai: ' + withGbpSigned(td.aed) + '.' : '');
+      tone($('tileToday'), Math.round(dl) === 0 ? 0 : dl);
     } else if (td) {
       $('todayLabel').textContent = 'Today, since ' + dxbTime(td.start) + ' Dubai';
       $('today').innerHTML = twoLine(td.aed, true);
-      var ind = indicators();
-      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(td.pct) + (ind ? ' against a normal day of about ' + (ind.typical * 100).toFixed(2) + '% either way.' : '.');
+      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(td.pct) + '.';
       tone($('tileToday'), Math.round(td.aed) === 0 ? 0 : td.aed);
     } else { $('today').textContent = 'Waiting'; $('todaySub').textContent = 'Needs the hourly history from Kraken.'; }
 
@@ -1225,35 +1424,107 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     $('nextSub').innerHTML = '<b>' + dxbWhen(tt) + ' Dubai</b>, in ' + inWords(tt - now) + '. ' + (pick.forecast ? 'Forecast ' + esc(pick.forecast) + ', previous ' + esc(pick.previous || 'n/a') + '. ' : '') + (pick.good ? 'Helps you if ' + esc(pick.good.charAt(0).toLowerCase() + pick.good.slice(1)) + '.' : '');
   }
   function renderHeadline() {
-    var h = $('headline'), stripe = $('stripe'), ref = state.refs.get('start'), shut = !isFxOpen(Date.now() / 1000);
-    if (!ref) {
-      h.textContent = 'Waiting for the starting rate.'; h.className = 'headline';
-      stripe.className = 'stripe' + (shut ? ' shut' : '');
-      document.title = toAed(state.mid).toFixed(4) + ' · Sterling into dirhams';
-      return;
+    var stripe = $('stripe'), ref = state.refs.get('start'), shut = !isFxOpen(Date.now() / 1000), rate = toAed(state.mid).toFixed(4);
+    var d = ref ? diffVs(state.mid, ref.usd) : 0;
+    stripe.className = 'stripe' + (shut ? ' shut' : ref ? (d >= 0 ? ' gain' : ' loss') : '');
+    if (ref) {
+      var fill = shut ? '#8a6420' : d >= 0 ? '#08784b' : '#c02f29';
+      if ($('fav').dataset.fill !== fill) {
+        $('fav').dataset.fill = fill;
+        $('fav').href = 'data:image/svg+xml,' + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='" + fill + "'/><text x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'>£</text></svg>");
+      }
     }
-    var d = diffVs(state.mid, ref.usd), when = dayMonth(startDate());
-    if (Math.abs(d) < 1000) { h.textContent = 'Level with ' + when + '.'; h.className = 'headline'; }
-    else {
-      h.innerHTML = 'In the ' + (d > 0 ? 'green' : 'red') + ' by <b>' + withGbp(Math.abs(d)) + '</b> against ' + when + '.';
-      h.className = 'headline ' + (d > 0 ? 'gain' : 'loss');
-    }
-    stripe.className = 'stripe ' + (shut ? 'shut' : d >= 0 ? 'gain' : 'loss');
-    var fill = shut ? '#8a6420' : d >= 0 ? '#08784b' : '#c02f29';
-    if ($('fav').dataset.fill !== fill) {
-      $('fav').dataset.fill = fill;
-      $('fav').href = 'data:image/svg+xml,' + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='" + fill + "'/><text x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'>£</text></svg>");
-    }
-    document.title = toAed(state.mid).toFixed(4) + ' · ' + (d >= 0 ? '+' : MINUS) + 'AED ' + shortK(Math.abs(d)).replace('+', '') + ' · ' + amountShort() + ' into dirhams';
+    if (cfg.need > 0) document.title = gbpK(leftAt(toAed(state.mid))) + ' left · ' + rate + ' · ' + amountShort() + ' into dirhams';
+    else if (ref) document.title = rate + ' · ' + gbpK(gbpOf(d), true) + ' · ' + amountShort() + ' into dirhams';
+    else document.title = rate + ' · Sterling into dirhams';
   }
   function renderLegend(pt) {
     var el = $('legend'), ref = currentRef();
     if ((!state.mid && !pt) || !ref) { el.textContent = ''; return; }
-    var rate, when;
-    if (pt) { rate = pt.rate; when = timeFmt(pt.t + DXB) + ' Dubai'; }
-    else { rate = toAed(state.mid); when = state.via === 'saved' ? 'Last seen' : 'Now'; }
-    var d = cfg.amount * (1 - mg()) * (rate - toAed(ref.usd));
-    el.innerHTML = '<span><b>' + when + '</b></span><span>mid <b>' + rate.toFixed(4) + '</b></span><span>' + amountShort() + ' brings <b>' + aed(cfg.amount * rate * (1 - mg())) + '</b></span><span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(d) + ' against ' + ref.label + '</span>';
+    var rate, when, px;
+    if (pt) {
+      rate = pt.rate; when = timeFmt(pt.t + DXB) + ' Dubai';
+      px = pt.o != null ? '<span>O <b>' + pt.o.toFixed(4) + '</b> H <b>' + pt.h.toFixed(4) + '</b> L <b>' + pt.l.toFixed(4) + '</b> C <b>' + rate.toFixed(4) + '</b></span>' : '<span>mid <b>' + rate.toFixed(4) + '</b></span>';
+    } else {
+      rate = toAed(state.mid); when = state.via === 'saved' ? 'Last seen' : 'Now';
+      px = '<span>mid <b>' + rate.toFixed(4) + '</b></span>';
+    }
+    var d = cfg.amount * (1 - mg()) * (rate - toAed(ref.usd)), o = cfg.orderShow ? orderInfo() : null;
+    el.innerHTML = '<span><b>' + when + '</b></span>' + px + '<span>' + amountShort() + ' brings <b>' + aed(cfg.amount * rate * (1 - mg())) + '</b></span><span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(d) + ' against ' + ref.label + '</span>' +
+      (o && !pt ? '<span>Order at mid <b>' + o.mid.toFixed(4) + '</b>, ' + (o.mid > rate ? (((o.mid / rate) - 1) * 100).toFixed(2) + '% above' : 'reached') + '</span>' : '');
+  }
+
+  /* ---------- the order planner ---------- */
+  /* An order rate is either the rate received after the dealing charge (all in), or the market mid that
+     triggers it. Either way the planner works out the other, what it brings and what is left. */
+  function suggestOrder() { var r = toAed(state.mid) * (1 - mg()); return (Math.floor(r * 100 + 1e-9) + 1) / 100; }
+  function orderRate() { return cfg.orderRate > 0 ? cfg.orderRate : (state.orderDraft || null); }
+  function orderInfo() {
+    var r = orderRate();
+    if (!(r > 0)) return null;
+    var allin = cfg.orderBasis !== 'mid', mid = allin ? r / (1 - mg()) : r, dealt = allin ? r : r * (1 - mg());
+    return { rate: r, allin: allin, mid: mid, usd: mid / cfg.peg, dealt: dealt, aed: cfg.amount * dealt };
+  }
+  /* When GBP/USD last traded at or above a level, from Kraken's hourly bars (the last 30 days). */
+  function lastTradedAt(usd) {
+    for (var i = state.hourly.length - 1; i >= 0; i--) { var b = state.hourly[i]; if (isFxOpen(b.t) && b.h >= usd) return b.t; }
+    return null;
+  }
+  function orderWording(o) {
+    var amt = 'GBP ' + nf0.format(cfg.amount), dir = 'AED ' + nf0.format(Math.round(o.aed));
+    var lines = ['Please place a limit order on my account, good till cancelled:', ''];
+    if (o.allin) lines.push('Sell ' + amt + ' and buy dirhams at an all-in rate of ' + o.rate.toFixed(4) + ' GBP/AED or better, net of your margin and all charges, so that I receive at least ' + dir + '.');
+    else lines.push('Sell ' + amt + ' and buy dirhams when the interbank mid-market GBP/AED rate reaches ' + o.rate.toFixed(4) + ', dealt at the agreed margin of ' + pct() + ' below mid, which is a rate of ' + o.dealt.toFixed(4) + ' and ' + dir + '.');
+    lines.push('', 'Please debit my sterling account and credit my dirham account in the same name, and deal it in one amount.', '', 'Please confirm when the order is in place, and again when it is filled, with the rate and the dirham amount.');
+    return lines.join('\n');
+  }
+  function renderOrder() {
+    var out = $('orderOut'), o = orderInfo();
+    if (!state.mid) return;
+    /* The first time, the planner starts at the next round rate above the market; once cleared it waits for a rate. */
+    if (!(cfg.orderRate > 0) && state.orderDraft === null) { state.orderDraft = suggestOrder(); $('orderIn').value = state.orderDraft.toFixed(4); o = orderInfo(); }
+    if (!o) { out.innerHTML = '<li>Type the rate you want, for example ' + suggestOrder().toFixed(4) + '.</li>'; $('orderWording').textContent = ''; return; }
+    var liveMid = toAed(state.mid), items = [], vsNow = o.aed - brings(state.mid), sref = state.refs.get('start');
+    items.push('<b>' + amountShort() + ' brings ' + aed(o.aed) + '</b>, at ' + o.dealt.toFixed(4) + (o.allin ? ' after the ' + pct() + '.' : ' once the ' + pct() + ' comes off the mid of ' + o.mid.toFixed(4) + '.'));
+    if (cfg.need > 0) {
+      var leftAed = o.aed - cfg.need, left = leftAt(o.mid);
+      items.push('Left after paying: <b>' + gbpExact(round100(left)) + '</b> (' + aed(leftAed) + ')' + (cfg.target > 0 ? (left >= cfg.target ? ', above your ' + gbpExact(cfg.target) + ' target.' : ', ' + gbpExact(round100(cfg.target - left)) + ' short of your ' + gbpExact(cfg.target) + ' target.') : '.'));
+    }
+    items.push('Against dealing now: <span class="' + (vsNow >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsNow) + '</span>.');
+    if (sref) { var vsS = o.aed - brings(sref.usd); items.push('Against ' + sref.short + ': <span class="' + (vsS >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsS) + '</span>.'); }
+    if (o.mid > liveMid) {
+      var lt = lastTradedAt(o.usd);
+      items.push('It fills when the market mid reaches <b>' + o.mid.toFixed(4) + '</b>, GBP/USD ' + o.usd.toFixed(4) + ': ' + ((o.mid / liveMid - 1) * 100).toFixed(2) + '% above the live mid, ' + Math.round((o.usd - state.mid) / 0.0001) + ' GBP/USD pips. ' +
+        (lt ? 'GBP/USD last traded there on ' + dxbDay(lt) + ', around ' + dxbTime(lt) + ' Dubai.' : 'GBP/USD has not traded there in the last 30 days.'));
+    } else items.push('<span class="gain">The market is already there.</span> The live mid of ' + liveMid.toFixed(4) + ' is at or above ' + o.mid.toFixed(4) + ', so an order at this rate would fill now.');
+    var html = items.map(function (x) { return '<li>' + x + '</li>'; }).join('');
+    if (out.innerHTML !== html) out.innerHTML = html;
+    var tm = targetMid(), hint = o.allin ? 'Rate I receive: what lands in your account, after the ' + pct() + '. The bank fills it when the market mid reaches ' + o.mid.toFixed(4) + '.' : 'Market mid: the bank watches the mid and deals when it reaches your rate, then takes the ' + pct() + ', so you receive ' + o.dealt.toFixed(4) + '.';
+    if (tm) hint += ' <button type="button" class="linkbtn" id="orderToTarget">Use the rate that leaves ' + gbpExact(cfg.target) + '</button>';
+    if ($('orderHint').dataset.h !== hint) { $('orderHint').innerHTML = hint; $('orderHint').dataset.h = hint; }
+    $('orderWording').textContent = orderWording(o);
+  }
+  function setOrderBasis(b) {
+    cfg.orderBasis = b === 'mid' ? 'mid' : 'allin'; save(KEYS.cfg, cfg);
+    Array.prototype.forEach.call(document.querySelectorAll('#orderBasis button'), function (x) { x.setAttribute('aria-pressed', String(x.dataset.basis === cfg.orderBasis)); });
+    renderOrder(); drawLines(); renderLegend(null);
+  }
+  function onOrderInput() {
+    var raw = $('orderIn').value.trim().replace(',', '.'), v = parseFloat(raw);
+    if (raw === '') { cfg.orderRate = null; state.orderDraft = 0; }
+    else if (v > 0) { cfg.orderRate = v < 2.5 ? +(v * cfg.peg).toFixed(4) : v; }
+    else return;
+    save(KEYS.cfg, cfg); renderOrder(); drawLines(); renderLegend(null);
+  }
+  function copyWording() {
+    var text = $('orderWording').textContent, btn = $('orderCopy');
+    function done(ok) { btn.textContent = ok ? 'Copied' : 'Select the text and copy it'; setTimeout(function () { btn.textContent = 'Copy the wording'; }, 2000); }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+    else {
+      var r = document.createRange(); r.selectNodeContents($('orderWording'));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      try { done(document.execCommand('copy')); } catch (e) { done(false); }
+    }
   }
 
   /* ---------- rendering: the day grid and reference points ---------- */
@@ -1262,7 +1533,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var r = state.refs.get(key);
     if (!r) return '<td class="pending">no price</td>';
     var d = diffVs(state.mid, r.usd);
-    return '<td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '" title="Chart against ' + r.name + ', ' + dxbTime(t) + ' Dubai"><span class="pnl">' + aedSigned(d) + '</span><span class="gbp">(' + gbp(gbpOf(d), true) + ')</span><span class="rt">' + toAed(r.usd).toFixed(4) + ' at ' + dxbTime(t) + ' Dubai</span></button></td>';
+    return '<td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '" title="Chart against ' + r.name + ', ' + dxbTime(t) + ' Dubai"><span class="pnl">' + gbp(gbpOf(d), true) + '</span><span class="alt">(' + aedSigned(d) + ')</span><span class="rt">' + toAed(r.usd).toFixed(4) + ' at ' + dxbTime(t) + ' Dubai</span></button></td>';
   }
   function renderDays() {
     if (!state.mid || !state.histOk) return;
@@ -1281,7 +1552,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var r = state.refs.get(key);
     if (!r) return '';
     var d = diffVs(state.mid, r.usd);
-    return '<tr><th scope="row">' + title + '<br><span class="when">' + r.when + '</span></th><td class="num">' + toAed(r.usd).toFixed(4) + '</td><td class="num">' + aed(brings(r.usd)) + '</td><td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '"><span class="pnl">' + aedSigned(d) + '</span><span class="gbp">(' + gbp(gbpOf(d), true) + ')</span></button></td></tr>';
+    return '<tr><th scope="row">' + title + '<br><span class="when">' + r.when + '</span></th><td class="num">' + toAed(r.usd).toFixed(4) + '</td><td class="num">' + aed(brings(r.usd)) + '</td><td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '"><span class="pnl">' + gbp(gbpOf(d), true) + '</span><span class="alt">(' + aedSigned(d) + ')</span></button></td></tr>';
   }
   function renderMarks() {
     if (!state.mid) return;
@@ -1309,9 +1580,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       'GBP/USD mid <b>' + usd.toFixed(5) + '</b>' + (state.bid ? ', halfway between Kraken\'s best bid of ' + state.bid.toFixed(5) + ' and best offer of ' + state.ask.toFixed(5) : '') + '.',
       usd.toFixed(5) + ' × ' + cfg.peg + ' dirhams to the dollar = GBP/AED mid <b>' + a.toFixed(5) + '</b>.',
       gbpExact(cfg.amount) + ' × ' + a.toFixed(5) + ' = ' + aed(gross) + '.',
-      'Less ' + pct() + ', which is ' + withGbp(charge) + ', leaves <b>' + withGbp(net) + '</b>. That is a rate of ' + (a * (1 - mg())).toFixed(5) + '.'
+      'Less ' + pct() + ', which is ' + withGbp(charge) + ', leaves <b>' + aedWithGbp(net) + '</b>. That is a rate of ' + (a * (1 - mg())).toFixed(5) + '.'
     ];
-    if (cfg.need > 0) items.push(aed(net) + ' less the ' + aed(cfg.need) + ' still to pay leaves <b>' + withGbp(net - cfg.need) + '</b> of headroom.');
+    if (cfg.need > 0) items.push(aed(net) + ' less the ' + aed(cfg.need) + ' still to pay leaves ' + aed(net - cfg.need) + ', which is <b>' + gbp(gbpOf(net - cfg.need)) + '</b> at the live mid of ' + a.toFixed(4) + '.');
     if (s.usd) {
       var la = toAed(s.usd), lnet = brings(s.usd), d = net - lnet, basis = s.ecb ? 'the ECB reference rate' : s.approx ? 'Kraken\'s rate at 1pm London' : 'your starting rate';
       items.push('On ' + dayMonth(s.ecbDate || s.date) + ' ' + basis + ' was GBP/USD ' + s.usd + '. ' + s.usd + ' × ' + cfg.peg + ' = ' + la.toFixed(5) + ', so ' + gbpExact(cfg.amount) + ' less ' + pct() + ' brought <b>' + aed(lnet) + '</b>, which would cost ' + gbp(lnet / (a * (1 - mg()))) + ' at today\'s rate.');
@@ -1342,10 +1613,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         else verdict = 'A mix of both. The dollar is ' + (eu < 0 ? 'stronger' : 'weaker') + ' against the euro, and sterling is ' + (eg > 0 ? 'weaker' : 'stronger') + ' against the euro.';
         $('gDollar').innerHTML = '<p class="verdict-line">' + verdict + '</p>' +
           '<div class="split">' +
-          '<div class="split-row"><span>Dollar effect</span>' + barHTML(dollarAed, max) + '<span class="val ' + (dollarAed >= 0 ? 'gain' : 'loss') + '">' + shortK(dollarAed) + '</span></div>' +
-          '<div class="split-row"><span>Pound effect</span>' + barHTML(poundAed, max) + '<span class="val ' + (poundAed >= 0 ? 'gain' : 'loss') + '">' + shortK(poundAed) + '</span></div>' +
+          '<div class="split-row"><span>Dollar effect</span>' + barHTML(dollarAed, max) + '<span class="val ' + (dollarAed >= 0 ? 'gain' : 'loss') + '">' + gbpK(gbpOf(dollarAed), true) + '</span></div>' +
+          '<div class="split-row"><span>Pound effect</span>' + barHTML(poundAed, max) + '<span class="val ' + (poundAed >= 0 ? 'gain' : 'loss') + '">' + gbpK(gbpOf(poundAed), true) + '</span></div>' +
           '</div>' +
-          '<p class="sub">In dirhams on ' + gbpExact(cfg.amount) + (td.open ? ' since ' + dxbTime(td.start) + ' Dubai' : ' over the last session before the weekend') + '. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
+          '<p class="sub">In pounds on ' + gbpExact(cfg.amount) + (td.open ? ' since ' + dxbTime(td.start) + ' Dubai' : ' over the last session before the weekend') + '. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
       }
     }
     /* How big is today's move? */
@@ -1442,7 +1713,12 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       var t = Date.parse(f.t) / 1000, w = f.when ? Date.parse(f.when) / 1000 : null;
       return '<li><span class="at">' + dxbWhen(t) + ' Dubai</span><span class="ti">' + esc(f.title) + '</span><p>' + esc(f.text) + '</p>' + (w ? '<p class="measure" data-t="' + w + '"></p>' : '') + '</li>';
     }
-    html += '<h3>Latest updates</h3><p class="stamp">An update is posted only when something moves the rate. The check runs every hour on weekdays, from 07:30 to 23:30 Dubai. Last update: ' + dxbWhen(last) + ' Dubai.</p>';
+    html += '<h3>Latest updates</h3><p class="stamp">An update is posted only when something moves the rate. The check runs every hour on weekdays, from 07:30 to 23:30 Dubai, and every three hours at weekends. Last update: ' + dxbWhen(last) + ' Dubai.</p>';
+    /* The newest update also sits at the top of the page, under the dashboard */
+    if (feed.length) {
+      var f0 = feed[0], t0 = Date.parse(f0.t) / 1000, w0 = f0.when ? Date.parse(f0.when) / 1000 : null, age = Date.now() / 1000 - t0;
+      $('latestBody').innerHTML = '<span class="at">' + dxbWhen(t0) + ' Dubai' + (age >= 60 ? ', ' + inWords(age).trim() + ' ago' : '') + '</span><span class="ti">' + esc(f0.title) + '</span><p>' + esc(f0.text) + '</p>' + (w0 ? '<p class="measure" data-t="' + w0 + '"></p>' : '');
+    } else $('latestBody').innerHTML = '<p class="stamp">No updates have been posted yet.</p>';
     if (feed.length) {
       html += '<ol class="feed">' + feed.slice(0, 5).map(item).join('') + '</ol>';
       if (feed.length > 5) html += '<details class="older"><summary>Earlier updates (' + (feed.length - 5) + ')</summary><ol class="feed">' + feed.slice(5).map(item).join('') + '</ol></details>';
@@ -1503,7 +1779,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function frame() {
     if (!state.dirty || !state.mid) return;
     state.dirty = false;
-    renderDash(); renderHeadline(); renderQuote(); renderWorkings();
+    renderDash(); renderHeadline(); renderOrder(); renderQuote(); renderWorkings();
     pushLive(); tickNote();
     if (!state.hovering) renderLegend(null);
   }
@@ -1515,6 +1791,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     { id: 'setStartDate', key: 'startDate', kind: 'date' },
     { id: 'setStartRate', key: 'startRate', kind: 'opt' },
     { id: 'setNeed', key: 'need', kind: 'opt0' },
+    { id: 'setTarget', key: 'target', kind: 'opt0' },
     { id: 'setPeg', key: 'peg', kind: 'num' }
   ];
   function fill() {
@@ -1538,8 +1815,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       else { var r = parseFloat(raw); if (!(r > 0)) { fill(); return; } cfg.startRate = r; }
       cfg.startIsEcb = false;
     } else if (f.kind === 'opt0') {
-      if (raw === '') cfg.need = 0;
-      else { var n = parseFloat(raw); if (!(n >= 0)) { fill(); return; } cfg.need = n; }
+      if (raw === '') cfg[f.key] = 0;
+      else { var n = parseFloat(raw); if (!(n >= 0)) { fill(); return; } cfg[f.key] = n; }
     } else {
       var v = parseFloat(raw);
       if (!(v > 0)) { fill(); return; }
@@ -1564,18 +1841,32 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var hiddenAt = 0;
   function bindUi() {
     $('seg').addEventListener('click', function (e) { var b = e.target.closest('button[data-iv]'); if (b) chooseInterval(b.dataset.iv); });
+    $('styleSeg').addEventListener('click', function (e) { var b = e.target.closest('button[data-style]'); if (b) setStyle(b.dataset.style); });
     $('compare').addEventListener('change', function (e) { setCompare(e.target.value); });
     $('resetView').addEventListener('click', function () { defaultView(); });
+    $('orderBasis').addEventListener('click', function (e) { var b = e.target.closest('button[data-basis]'); if (b) setOrderBasis(b.dataset.basis); });
+    $('orderIn').addEventListener('input', onOrderInput);
+    $('orderIn').addEventListener('change', function () { var o = orderInfo(); if (o) $('orderIn').value = o.rate.toFixed(4); });
+    $('orderShow').addEventListener('change', function (e) { cfg.orderShow = e.target.checked; save(KEYS.cfg, cfg); drawLines(); renderLegend(null); });
+    $('orderCopy').addEventListener('click', copyWording);
     document.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-ref]'); if (b) { setCompare(b.dataset.ref); return; }
+      if (e.target.closest('#orderToTarget')) {
+        var tm = targetMid();
+        if (tm) { cfg.orderRate = Math.ceil((cfg.orderBasis === 'mid' ? tm : tm * (1 - mg())) * 10000) / 10000; save(KEYS.cfg, cfg); $('orderIn').value = cfg.orderRate.toFixed(4); renderOrder(); drawLines(); renderLegend(null); }
+        return;
+      }
       var s = e.target.closest('[data-open-settings]'); if (s) { e.preventDefault(); openSettings(); }
     });
+    window.addEventListener('resize', function () { if (chart) checkWide(); });
     $('quoteIn').addEventListener('input', function () { if (state.mid) renderQuote(); });
     fill();
     FIELDS.forEach(function (f) { $(f.id).addEventListener('change', function () { onField(f); }); });
     $('resetSettings').addEventListener('click', function () {
       Object.keys(cfg).forEach(function (k) { delete cfg[k]; });
-      Object.assign(cfg, DEFAULTS); save(KEYS.cfg, cfg); fill(); fetchEcb(startDate()); settingsChanged();
+      Object.assign(cfg, DEFAULTS); save(KEYS.cfg, cfg); fill(); fetchEcb(startDate());
+      state.orderDraft = null; $('orderIn').value = cfg.orderRate > 0 ? (+cfg.orderRate).toFixed(4) : ''; $('orderShow').checked = cfg.orderShow !== false;
+      settingsChanged();
     });
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); return; }
@@ -1602,6 +1893,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     buildRefs(); renderCompareOptions(); renderLabels();
     initChart();
     Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === state.iv)); });
+    Array.prototype.forEach.call(document.querySelectorAll('#styleSeg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.style === state.style)); });
+    Array.prototype.forEach.call(document.querySelectorAll('#orderBasis button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.basis === (cfg.orderBasis === 'mid' ? 'mid' : 'allin'))); });
+    $('orderShow').checked = cfg.orderShow !== false;
+    if (cfg.orderRate > 0) $('orderIn').value = (+cfg.orderRate).toFixed(4);
     renderStatus(); frame();
     connect();
     fetchEcb(startDate());
@@ -1624,11 +1919,14 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       if (quiet > 30000 && ws && ws.readyState === 1) reconnectNow();
     }, 10000);
     setInterval(function () {
-      var cut = Date.now() / 1000 - 12 * 3600;
-      ticks = ticks.filter(function (b) { return b.t >= cut; });
-      save(KEYS.ticks, ticks.map(function (b) { return [b.t, b.c]; }));
       if (state.mid && state.via !== 'saved') save(KEYS.last, { mid: state.mid, bid: state.bid, ask: state.ask, at: state.at });
     }, 15000);
+    setInterval(function () {
+      var cut = Date.now() / 1000 - 12 * 3600;
+      ticks = ticks.filter(function (b) { return b.t >= cut; });
+      save(KEYS.ticks, packTicks());
+      try { localStorage.removeItem(KEYS.oldTicks); } catch (e) { /* storage unavailable */ }
+    }, 30000);
   }
   function retry() {
     loadHourly().then(function () { return chooseInterval(state.iv); }).catch(function () { setTimeout(retry, 30000); });
