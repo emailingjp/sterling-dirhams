@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
+<meta name="build" content="2026-10-19.3">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -1840,6 +1841,22 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
 
   /* ---------- wiring ---------- */
+  /* A phone keeps its copy of this page for at least ten minutes. Each time the page opens or comes back
+     to the front, it asks the server which version is current, and loads a newer one if there is one. */
+  var BUILD = (document.querySelector('meta[name="build"]') || {}).content || '', versionAt = 0;
+  function checkVersion() {
+    if (location.protocol !== 'https:' || !BUILD || Date.now() - versionAt < 60000) return;
+    versionAt = Date.now();
+    fetch(location.pathname + '?check=' + Date.now(), { cache: 'no-store', headers: { Range: 'bytes=0-2047' } })
+      .then(function (r) { return r.ok ? r.text() : ''; })
+      .then(function (txt) {
+        var m = /<meta name="build" content="([^"]+)"/.exec(txt || '');
+        if (!m || m[1] === BUILD) return;
+        try { if (sessionStorage.getItem('gbpaed.loaded.' + m[1])) return; sessionStorage.setItem('gbpaed.loaded.' + m[1], '1'); } catch (e) { /* storage unavailable */ }
+        location.replace(location.pathname + '?v=' + encodeURIComponent(m[1]));
+      })
+      .catch(function () { /* offline: it checks again next time */ });
+  }
   var hiddenAt = 0;
   function bindUi() {
     $('seg').addEventListener('click', function (e) { var b = e.target.closest('button[data-iv]'); if (b) chooseInterval(b.dataset.iv); });
@@ -1872,10 +1889,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     });
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); return; }
+      checkVersion();
       if (Date.now() - state.alive > 3000) { reconnectNow(); pollOnce(); }
       if (hiddenAt && Date.now() - hiddenAt > 60000) { refreshHistory(); loadMarket(); loadMinutes(); }
     });
-    window.addEventListener('pageshow', function (e) { if (e.persisted) { reconnectNow(); pollOnce(); refreshHistory(); loadMarket(); } });
+    window.addEventListener('pageshow', function (e) { if (e.persisted) { checkVersion(); reconnectNow(); pollOnce(); refreshHistory(); loadMarket(); } });
   }
   function refreshHistory() {
     loadCrosses(); loadDaily();
@@ -1891,7 +1909,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     }).catch(function () { /* the next refresh tries again */ });
   }
   function start() {
-    bindUi();
+    bindUi(); checkVersion();
     buildRefs(); renderCompareOptions(); renderLabels();
     initChart();
     Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === state.iv)); });
