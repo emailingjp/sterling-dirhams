@@ -108,7 +108,7 @@ a { color: var(--accent); }
   100% { box-shadow: 0 0 0 0 transparent; }
 }
 
-.lede { margin: 16px 0 4px; color: var(--ink-2); font-size: 14px; max-width: 90ch; }
+.lede { margin: 18px 0 0; color: var(--ink-2); font-size: 14px; max-width: 90ch; }
 .example-note { margin: 12px 0 0; padding: 9px 12px; border-radius: 6px; background: var(--raised); border: 1px solid var(--rule); color: var(--ink-2); font-size: 14px; max-width: 72ch; }
 .linkbtn { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
 
@@ -152,7 +152,7 @@ a { color: var(--accent); }
 @media (max-width: 380px) { .tile { padding: 12px 12px 14px; } }
 
 /* The latest update and the order planner sit under the dashboard */
-.pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 16px; }
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin-top: 22px; }
 @media (max-width: 960px) { .pair { grid-template-columns: minmax(0, 1fr); } }
 .card { background: var(--raised); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px 16px; min-width: 0; }
 .card h2 { font-size: 18px; margin: 0 0 8px; }
@@ -183,7 +183,7 @@ a { color: var(--accent); }
 .jump a { text-decoration: none; font-weight: 560; }
 .jump a:hover { text-decoration: underline; }
 
-.chart-head { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; justify-content: space-between; margin: 26px 0 10px; }
+.chart-head { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; justify-content: space-between; margin: 12px 0 8px; }
 .seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rule); border-radius: 7px; overflow: hidden; background: var(--raised); }
 .seg button { font: inherit; font-size: 13.5px; font-weight: 560; color: var(--ink-2); background: transparent; border: 0; padding: 8px 10px; cursor: pointer; min-width: 42px; }
 .seg button + button { border-left: 1px solid var(--rule); }
@@ -360,7 +360,6 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     </div>
   </header>
 
-  <p class="lede" id="lede">Figures are in pounds first, with dirhams in brackets, after the dealing charge.</p>
   <p class="example-note" id="exampleNote" hidden>These are example figures. Put your own in under <button type="button" class="linkbtn" data-open-settings>Settings</button>. They are kept on this device only.</p>
 
   <section class="dash" aria-label="Key figures">
@@ -398,37 +397,6 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     </div>
   </section>
 
-  <div class="pair">
-    <section class="card latest" id="latest" aria-labelledby="latestTitle">
-      <h2 id="latestTitle">Latest update</h2>
-      <div id="latestBody"><p class="stamp">Loading the latest update.</p></div>
-      <a class="more" href="#market">All updates, the calendar and what moves the rate</a>
-    </section>
-    <section class="card order" id="order" aria-labelledby="orderTitle">
-      <h2 id="orderTitle">Plan an order</h2>
-      <div class="order-row">
-        <label for="orderIn">Order rate, GBP/AED</label>
-        <input id="orderIn" type="text" inputmode="decimal" autocomplete="off">
-      </div>
-      <div class="order-row">
-        <div class="seg" role="group" aria-label="What the order rate means" id="orderBasis">
-          <button type="button" data-basis="allin" aria-pressed="true">Rate I receive</button>
-          <button type="button" data-basis="mid" aria-pressed="false">Market mid</button>
-        </div>
-        <label class="chk"><input type="checkbox" id="orderShow"> Show on the chart</label>
-      </div>
-      <ul id="orderOut"><li>Waiting for the live price.</li></ul>
-      <p class="tiny" id="orderHint"></p>
-      <details id="orderBox">
-        <summary>The wording for the order</summary>
-        <p class="wording" id="orderWording"></p>
-        <button type="button" class="btn" id="orderCopy">Copy the wording</button>
-      </details>
-    </section>
-  </div>
-
-  <nav class="jump" aria-label="On this page"><a href="#chartSec">Chart</a><a href="#order">Plan an order</a><a href="#days">Day by day</a><a href="#market">What is moving the rate</a><a href="#check">Check a quote</a><a href="#settings" data-open-settings>Settings</a></nav>
-
   <section aria-label="Chart" id="chartSec">
     <div class="chart-head">
       <div class="seg" role="group" aria-label="Chart interval" id="seg">
@@ -460,6 +428,39 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     </div>
     <div class="axis-notes"><span id="axisLeft">Left scale: pounds gained or lost against the comparison</span><span>Right scale: GBP/AED mid. Scroll or pinch to zoom, drag to move.</span></div>
   </section>
+
+  <div class="pair">
+    <section class="card latest" id="latest" aria-labelledby="latestTitle">
+      <h2 id="latestTitle">Latest update</h2>
+      <div id="latestBody"><p class="stamp">Loading the latest update.</p></div>
+      <a class="more" href="#market">All updates, the calendar and what moves the rate</a>
+    </section>
+    <section class="card order" id="order" aria-labelledby="orderTitle">
+      <h2 id="orderTitle">Plan an order</h2>
+      <div class="order-row">
+        <label for="orderIn">Order rate, GBP/AED</label>
+        <input id="orderIn" type="text" inputmode="decimal" autocomplete="off">
+      </div>
+      <div class="order-row">
+        <div class="seg" role="group" aria-label="What the order rate means" id="orderBasis">
+          <button type="button" data-basis="allin" aria-pressed="true">Rate I receive</button>
+          <button type="button" data-basis="mid" aria-pressed="false">Market mid</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="orderShow"> Show on the chart</label>
+      </div>
+      <ul id="orderOut"><li>Waiting for the live price.</li></ul>
+      <p class="tiny" id="orderHint"></p>
+      <details id="orderBox">
+        <summary>The wording for the order</summary>
+        <p class="wording" id="orderWording"></p>
+        <button type="button" class="btn" id="orderCopy">Copy the wording</button>
+      </details>
+    </section>
+  </div>
+
+  <p class="lede" id="lede">Figures are in pounds first, with dirhams in brackets, after the dealing charge.</p>
+
+  <nav class="jump" aria-label="On this page"><a href="#chartSec">Chart</a><a href="#order">Plan an order</a><a href="#days">Day by day</a><a href="#market">What is moving the rate</a><a href="#check">Check a quote</a><a href="#settings" data-open-settings>Settings</a></nav>
 
   <section class="lower">
     <div class="days" id="days">
@@ -721,9 +722,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function gbpOf(aed) { return aed / toAed(state.mid || startInfo().usd || 1.32); }
   function roundGbp(n) { var a = Math.abs(n), s = a >= 100000 ? 1000 : a >= 10000 ? 100 : 10; return Math.round(n / s) * s; }
   function gbpExact(n) { return '£' + nf0.format(n); }
-  function gbp(n, signed) { var r = roundGbp(n); return (r < 0 ? MINUS : (signed && r > 0 ? '+' : '')) + '£' + nf0.format(Math.abs(r)); }
+  /* A word joiner keeps a sign on the same line as its figure */
+  function gbp(n, signed) { var r = roundGbp(n); return (r < 0 ? MINUS + '\u2060' : (signed && r > 0 ? '+\u2060' : '')) + '£' + nf0.format(Math.abs(r)); }
   function aed(n) { return 'AED ' + nf0.format(Math.round(n)); }
-  function aedSigned(n) { var r = Math.round(n); return (r < 0 ? MINUS : r > 0 ? '+' : '') + 'AED ' + nf0.format(Math.abs(r)); }
+  function aedSigned(n) { var r = Math.round(n); return (r < 0 ? MINUS + '\u2060' : r > 0 ? '+\u2060' : '') + 'AED\u00a0' + nf0.format(Math.abs(r)); }
   /* JP works in pounds, so gains, losses and what is left show pounds first with dirhams in brackets.
      Amounts received stay in dirhams, because that is what lands in the account. */
   function withGbp(n) { return gbp(gbpOf(n)) + ' (' + aed(n) + ')'; }
@@ -739,7 +741,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     return String(Math.round(a));
   }
   function shortK(n) { return (n < 0 ? MINUS : n > 0 ? '+' : '') + kNum(Math.abs(n)); }
-  function gbpK(n, signed) { return (n < 0 ? MINUS : signed && n > 0 ? '+' : '') + '£' + kNum(Math.abs(n)); }
+  function gbpK(n, signed) { return (n < 0 ? MINUS + '\u2060' : signed && n > 0 ? '+\u2060' : '') + '£' + kNum(Math.abs(n)); }
   /* The left-hand scale of the chart: pounds, with dirhams beside them when there is room. */
   function axisMoney(aedV) {
     var g = gbpOf(aedV), s = g < 0 ? MINUS : g > 0 ? '+' : '';
