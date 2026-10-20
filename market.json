@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-20T03:39:32Z",
- "headline": "Sterling is steady at about 1.333 dollars this morning, a little above Monday evening's 1.331, as the dollar eased slightly in Asian trade. UK pay figures at 10:00 Dubai today and UK inflation on Wednesday are the week's main tests for the pound ahead of the Bank of England's 5 November decision.",
+ "updated": "2026-10-20T09:14:21Z",
+ "headline": "Sterling is firmer at about 1.335 dollars after UK jobs figures showed unemployment falling to 4.7% against 4.9% expected, while the dollar has stayed soft with the US ten-year yield easing towards 5.1%. UK inflation at 10:00 Dubai on Wednesday is the next big test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -16,7 +16,7 @@
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and markets have priced a Bank of England rise on 5 November. Governor Bailey said on Friday 16 October that the knock-on effects of energy prices on UK inflation look subdued so far. Today's pay figures and Wednesday's inflation figures are the last big UK data before that meeting, and investors remain cautious ahead of the Budget later this month."
+   "text": "Bank Rate is 3.75% and markets have priced a Bank of England rise to 4% on 5 November, Reuters reported. Tuesday's jobs figures showed unemployment down to 4.7% and regular pay growth at 3.7%, both firmer than expected, which supports that rise. Wednesday's inflation figures are the last big UK data before the meeting, and investors remain cautious ahead of the Budget later this month."
   },
   {
    "title": "Europe and the wider mood",
@@ -24,18 +24,36 @@
   }
  ],
  "lower": [
-  "UK pay growth today or inflation on Wednesday coming in below forecast, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
+  "UK inflation on Wednesday coming in below the 3.4% forecast, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
   "More attacks on Gulf shipping pushing Brent back above $110 (about £83), which would tend to lift the dollar.",
   "Deeper unrest in France or a wider sell off in shares, which would send money into the dollar as a safe haven.",
   "Renewed worries about tax rises in the Budget later this month, which would weigh on the pound."
  ],
  "higher": [
-  "UK pay growth today above the 3.8% forecast, or inflation on Wednesday at or above 3.4%, which would support a Bank of England rise on 5 November and lift the pound.",
+  "UK inflation on Wednesday at or above the 3.4% forecast, which would add to today's firm jobs figures in supporting a Bank of England rise on 5 November and lift the pound.",
   "More Russian fuel reaching the market or progress on reopening the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "Markets becoming surer that the Fed will hold on 28 October, which would keep US yields and the dollar soft."
  ],
- "watch": "UK pay figures come out at 10:00 Dubai today, Tuesday 20 October, with average earnings growth forecast at 3.8% against 3.9% last time; a figure above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. UK inflation for September follows at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1%, and Governor Bailey speaks at 17:00 Dubai that day.",
+ "watch": "Bank of England policymaker Megan Greene speaks at 21:00 Dubai today, Tuesday 20 October. UK inflation for September comes out at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1% last time; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai that day.",
  "sources": [
+  {
+   "title": "4.7%: United Kingdom Unemployment Rate unexpectedly falls in three months to August",
+   "site": "FXStreet",
+   "url": "https://fxstreet.com/news/47-united-kingdom-unemployment-rate-falls-in-its-three-months-to-august-202610200601",
+   "date": "20 Oct"
+  },
+  {
+   "title": "UK wages grew by annual 3.7% in three months to August, ONS says",
+   "site": "Reuters, via Investing.com",
+   "url": "https://investing.com/news/economy-news/uk-wages-grew-by-annual-37-in-three-months-to-august-ons-says-4958853",
+   "date": "20 Oct"
+  },
+  {
+   "title": "Forex Today: Pound rises on upbeat employment data, US Dollar retreats as yields turn south",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-pound-rises-on-upbeat-employment-data-us-dollar-retreats-as-yields-turn-south-202610200732",
+   "date": "20 Oct"
+  },
   {
    "title": "Asian shares tumble, oil rises as markets await AI sector results",
    "site": "Reuters, via Investing.com",
@@ -89,24 +107,6 @@
    "site": "ONS",
    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
    "date": "21 Oct"
-  },
-  {
-   "title": "Retail sales, Great Britain: September 2026, release date",
-   "site": "ONS",
-   "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
-   "date": "23 Oct"
-  },
-  {
-   "title": "UK labour market report, October 2026",
-   "site": "Finance Calendar",
-   "url": "https://www.financecalendar.com/?p=2189",
-   "date": "20 Oct"
-  },
-  {
-   "title": "US dollar index news: dollar near two-week low",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "16 Oct"
   }
  ],
  "calendar": [
@@ -160,9 +160,9 @@
    "impact": "Medium",
    "name": "UK retail sales, month on month",
    "title": "Retail Sales m/m",
-   "forecast": "-0.2%",
+   "forecast": "-0.1%",
    "previous": "0.5%",
-   "good": "Higher than -0.2%",
+   "good": "Higher than -0.1%",
    "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
   },
   {
@@ -193,9 +193,9 @@
    "impact": "Medium",
    "name": "US: Flash Manufacturing PMI",
    "title": "Flash Manufacturing PMI",
-   "forecast": "55.5",
+   "forecast": "55.4",
    "previous": "57.0",
-   "good": "Lower than 55.5",
+   "good": "Lower than 55.4",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -204,9 +204,9 @@
    "impact": "Medium",
    "name": "US: Flash Services PMI",
    "title": "Flash Services PMI",
-   "forecast": "58.0",
+   "forecast": "57.8",
    "previous": "58.7",
-   "good": "Lower than 58.0",
+   "good": "Lower than 57.8",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -232,8 +232,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-20T03:39:32Z",
+ "calendarUpdated": "2026-10-20T09:14:21Z",
  "feed": [
+  {
+   "title": "Sterling has risen on stronger UK jobs figures",
+   "text": "Unemployment fell to 4.7% in the three months to August against 4.9% expected, and regular pay growth was 3.7% against 3.6% expected, though total pay including bonuses slowed to 3.7% against a 3.8% forecast, the ONS figures showed. A firmer job market and steady pay make the Bank of England rise expected on 5 November more likely, which lifts the pound. GBP/USD rose from 1.3332 to 1.3345 within the minute of the release while EUR/USD did not move, climbed to about 1.3361 by 10:30 Dubai, and held near 1.3349 at 13:10 Dubai even as the euro slipped against the dollar.",
+   "when": "2026-10-20T06:00:00Z",
+   "t": "2026-10-20T09:14:21Z",
+   "rate": 1.33431
+  },
   {
    "title": "The dollar has eased overnight, lifting sterling a little",
    "text": "GBP/USD rose from about 1.3308 at midnight Dubai to 1.3332 by 07:30 Dubai, while EUR/USD rose by a similar share, from 1.1211 to 1.1227, so this was mainly a softer dollar rather than news about the pound. Reuters reported from Tokyo early on Tuesday that the dollar index had dipped 0.05% to 101.92 and the euro had recovered a little of Monday's 0.25% fall caused by the unrest in France, while Asian shares fell sharply ahead of results from AI companies. Brent rose 0.21% to $109.78 (about £82) a barrel, which would usually support the dollar, so oil was not the cause.",
@@ -378,12 +385,6 @@
    "text": "US government bonds recovered overnight from the sell-off that followed Wednesday's hot inflation figures, taking the ten-year yield to about 5.11%, a three-week low and about two tenths of a point below its post-inflation high, as a slide in technology shares sent money into bonds and an unconfirmed Bloomberg report suggested China is quietly holding more Treasuries through Canada. Lower US yields make the dollar less rewarding to hold, so it weakened across the board and the dollar index fell about 0.6% to about 102, which means more dirhams per pound; the pound itself eased slightly against the euro, so this was a dollar move. GBP/USD rose from 1.3190 at 02:00 Dubai to 1.3232 by 04:00, then from 1.3231 at 06:00 to 1.3250 within fifteen minutes, and was near 1.3253 at 07:39 Dubai.",
    "t": "2026-10-15T03:41:13Z",
    "rate": 1.32525
-  },
-  {
-   "title": "The dollar has eased back from its highs",
-   "text": "No report names a single trigger, but the dollar gave back part of the day's gains across the board: the euro rose against the dollar from 1.1116 to 1.1153 while barely moving against the pound, and Brent crude slipped back to about $106 (about £80) a barrel after the US said it had helped more than 19 million barrels through the Strait of Hormuz. The Fed's Beige Book at 22:00 Dubai found growth in nine of its twelve districts against ten in August and mostly flat consumer spending, though price pressures had broadened, and a slower US economy tends to weaken the dollar, which means more dirhams per pound. GBP/USD rose from a low of 1.3138 at 20:15 Dubai to 1.3169 by the Beige Book and to about 1.3186 by 22:37 Dubai.",
-   "t": "2026-10-14T18:40:24Z",
-   "rate": 1.31836
   }
  ]
 }
