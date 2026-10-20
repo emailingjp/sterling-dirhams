@@ -1,41 +1,53 @@
 {
- "updated": "2026-10-19T16:39:28Z",
- "headline": "Sterling opened the week steady at about 1.333 dollars, near Friday's close and the top of last week's range. The dollar is near its softest this month as traders see little chance of a Fed rise on 28 October, while unrest in France and a slight fall in oil are the weekend's news.",
+ "updated": "2026-10-20T03:39:32Z",
+ "headline": "Sterling is steady at about 1.333 dollars this morning, a little above Monday evening's 1.331, as the dollar eased slightly in Asian trade. UK pay figures at 10:00 Dubai today and UK inflation on Wednesday are the week's main tests for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% after its September rise. On Monday 19 October fed funds futures put the chance of a hold at the 28 October meeting at about 84%, little changed from Friday, Reuters reported, citing the CME FedWatch tool. The Fed is in its quiet period, so no official will comment before the decision."
+   "text": "The Fed's range is 3.75% to 4% after its September rise. On Monday 19 October fed funds futures put the chance of a hold at the 28 October meeting at about 84%, Reuters reported, citing the CME FedWatch tool, and Fed officials have suggested they are in no rush to raise rates again. The Fed is in its quiet period, so no official will comment before the decision."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield fell to about 5.11% on Thursday 15 October, a three-week low, from about 5.33% on Wednesday, and edged up to about 5.12% on Friday, Trading Economics reported. Higher US yields draw money into the dollar and lower ones do the reverse; the dollar index was 101.83 in Asian trade on Monday."
+   "text": "The US ten-year yield rose about 4.6 basis points to 5.127% on Monday afternoon as yields rose worldwide on the unrest in France, FXStreet reported, after falling to a three-week low of about 5.11% on Thursday 15 October. Higher US yields draw money into the dollar and lower ones do the reverse; the dollar index was 101.92 in Asian trade on Tuesday."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent touched $110 (about £83) a barrel on Friday 16 October for the first time since May, as attacks on shipping cut Gulf crude flows to about 8.5 million barrels a day last week from more than 20 million the week before, Kpler said. It slipped to about $108.43 (about £81) early on Monday after the US waiver on Russian sanctions. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent rose 0.21% to $109.78 (about £82) a barrel early on Tuesday, Reuters reported, after slipping to about $108.43 (about £81) on Monday on the US waiver on Russian sanctions; it touched $110 (about £83) on Friday 16 October for the first time since May, as attacks on shipping cut Gulf crude flows. Dearer oil and Gulf tension tend to lift the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and markets have priced a Bank of England rise on 5 November. On Friday 16 October Governor Bailey said the knock-on effects of energy prices on UK inflation look subdued so far, a softer tone than in late September. This week's pay and inflation figures are the last big UK data before that meeting, and investors remain cautious ahead of the Budget later this month."
+   "text": "Bank Rate is 3.75% and markets have priced a Bank of England rise on 5 November. Governor Bailey said on Friday 16 October that the knock-on effects of energy prices on UK inflation look subdued so far. Today's pay figures and Wednesday's inflation figures are the last big UK data before that meeting, and investors remain cautious ahead of the Budget later this month."
   },
   {
-   "title": "Europe",
-   "text": "Violent cost of living protests in France pushed the euro down 0.1% to $1.1225 early on Monday, Reuters reported, with the effect coming mainly through French government bonds. A weaker euro steadies the dollar index. The European Central Bank meets on 29 October, the day after the Fed."
+   "title": "Europe and the wider mood",
+   "text": "Violent cost of living protests in France pushed the euro down 0.25% on Monday, and it steadied in Asian trade on Tuesday, Reuters reported, while Asian shares fell sharply, with South Korea's main index down 3.61%, ahead of results from AI companies. A weaker euro or a nervous mood in markets tends to steady the dollar. The European Central Bank meets on 29 October, the day after the Fed."
   }
  ],
  "lower": [
-  "UK pay growth or inflation coming in below forecast this week, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
-  "More attacks on Gulf shipping or Saudi oil sites pushing oil back above $110 (about £83), which would tend to lift the dollar.",
-  "Deeper unrest in France unsettling European bond markets, which would weaken the euro and strengthen the dollar index.",
+  "UK pay growth today or inflation on Wednesday coming in below forecast, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
+  "More attacks on Gulf shipping pushing Brent back above $110 (about £83), which would tend to lift the dollar.",
+  "Deeper unrest in France or a wider sell off in shares, which would send money into the dollar as a safe haven.",
   "Renewed worries about tax rises in the Budget later this month, which would weigh on the pound."
  ],
  "higher": [
-  "UK inflation on Wednesday at or above the 3.4% forecast, which would support a Bank of England rise on 5 November and lift the pound.",
+  "UK pay growth today above the 3.8% forecast, or inflation on Wednesday at or above 3.4%, which would support a Bank of England rise on 5 November and lift the pound.",
   "More Russian fuel reaching the market or progress on reopening the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "Markets becoming surer that the Fed will hold on 28 October, which would keep US yields and the dollar soft."
  ],
- "watch": "UK pay figures come out at 10:00 Dubai on Tuesday 20 October, with average earnings growth forecast at 3.8% against 3.9% last time. UK inflation for September follows at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1%, and Governor Bailey speaks at 17:00 Dubai that day. Figures above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while figures below would weigh on the pound. UK retail sales and the UK and US business surveys follow on Friday 23 October.",
+ "watch": "UK pay figures come out at 10:00 Dubai today, Tuesday 20 October, with average earnings growth forecast at 3.8% against 3.9% last time; a figure above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. UK inflation for September follows at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1%, and Governor Bailey speaks at 17:00 Dubai that day.",
  "sources": [
+  {
+   "title": "Asian shares tumble, oil rises as markets await AI sector results",
+   "site": "Reuters, via Investing.com",
+   "url": "https://investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
+   "date": "20 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD minute and hourly prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "20 Oct"
+  },
   {
    "title": "British Pound clings to 1.3300 as UK inflation test threatens recovery",
    "site": "FXStreet",
@@ -67,12 +79,6 @@
    "date": "19 Oct"
   },
   {
-   "title": "GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "19 Oct"
-  },
-  {
    "title": "Central bankers urge collaboration as AI reshapes inflation, jobs and financial stability",
    "site": "The Nation",
    "url": "https://www.nationthailand.com/business/banking-finance/40072426",
@@ -100,12 +106,6 @@
    "title": "US dollar index news: dollar near two-week low",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "16 Oct"
-  },
-  {
-   "title": "United States 10-year government bond yield news",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/533342",
    "date": "16 Oct"
   }
  ],
@@ -232,8 +232,21 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-19T16:39:28Z",
+ "calendarUpdated": "2026-10-20T03:39:32Z",
  "feed": [
+  {
+   "title": "The dollar has eased overnight, lifting sterling a little",
+   "text": "GBP/USD rose from about 1.3308 at midnight Dubai to 1.3332 by 07:30 Dubai, while EUR/USD rose by a similar share, from 1.1211 to 1.1227, so this was mainly a softer dollar rather than news about the pound. Reuters reported from Tokyo early on Tuesday that the dollar index had dipped 0.05% to 101.92 and the euro had recovered a little of Monday's 0.25% fall caused by the unrest in France, while Asian shares fell sharply ahead of results from AI companies. Brent rose 0.21% to $109.78 (about £82) a barrel, which would usually support the dollar, so oil was not the cause.",
+   "t": "2026-10-20T03:39:32Z",
+   "rate": 1.33334
+  },
+  {
+   "title": "A brief spike at 07:02 Dubai was a single large trade",
+   "text": "GBP/USD on Kraken jumped from 1.3330 to 1.3358 within the minute to 07:02 Dubai and was back at 1.3331 the next minute. EUR/USD did not move and no news report names a cause, so this looks like one large order meeting a thin early morning market rather than a change in the rate.",
+   "when": "2026-10-20T03:02:00Z",
+   "t": "2026-10-20T03:39:32Z",
+   "rate": 1.33334
+  },
   {
    "title": "The dollar has firmed as US bond yields climbed this afternoon",
    "text": "The US ten-year yield rose about 4.6 basis points to 5.127% by 19:30 Dubai, reversing a fall in the morning, as yields rose worldwide on the unrest in France, FXStreet reported, and the dollar index gained 0.13% to 101.91. Higher US yields draw money into the dollar, so fewer dirhams per pound. The euro fell by a similar share while the pound held steady against the euro, so this was a dollar move: GBP/USD slipped from about 1.3335 at 15:00 Dubai to 1.3311 by 20:38 Dubai.",
@@ -371,18 +384,6 @@
    "text": "No report names a single trigger, but the dollar gave back part of the day's gains across the board: the euro rose against the dollar from 1.1116 to 1.1153 while barely moving against the pound, and Brent crude slipped back to about $106 (about £80) a barrel after the US said it had helped more than 19 million barrels through the Strait of Hormuz. The Fed's Beige Book at 22:00 Dubai found growth in nine of its twelve districts against ten in August and mostly flat consumer spending, though price pressures had broadened, and a slower US economy tends to weaken the dollar, which means more dirhams per pound. GBP/USD rose from a low of 1.3138 at 20:15 Dubai to 1.3169 by the Beige Book and to about 1.3186 by 22:37 Dubai.",
    "t": "2026-10-14T18:40:24Z",
    "rate": 1.31836
-  },
-  {
-   "title": "Sterling has slipped further in the London afternoon",
-   "text": "No report names a fresh trigger for the fall between 18:47 and 19:12 Dubai, and the US ten-year yield and Brent crude were both a little below their earlier highs. This time the pound weakened as well as the dollar strengthening: the euro fell against the dollar from 1.1125 to 1.1112 while it rose against the pound from 0.8446 to 0.8453, so both sides meant fewer dirhams per pound. GBP/USD fell from 1.3169 at 18:47 Dubai to a low of 1.3138 at 19:12, its weakest since late June, then steadied near 1.3146 by 19:38 Dubai.",
-   "t": "2026-10-14T15:40:08Z",
-   "rate": 1.31459
-  },
-  {
-   "title": "The dollar has extended its gains into the US afternoon",
-   "text": "No report names a fresh trigger for the slide between 17:47 and 18:02 Dubai; it was a broad rise in the dollar, with the euro falling at the same time from 1.1128 to 1.1116, as the dollar index reached about 102.9, its highest since April 2025, and US shares fell after the open, Trading Economics reported. A stronger dollar means fewer dirhams per pound, and markets still put the chance of a Fed rise this month at about 50% after the hotter inflation figures. GBP/USD fell from 1.3193 at 17:47 Dubai to a low of 1.3163 at 18:02, the weakest since June, then steadied near 1.3173 by 18:38 Dubai.",
-   "t": "2026-10-14T14:40:08Z",
-   "rate": 1.317
   }
  ]
 }
