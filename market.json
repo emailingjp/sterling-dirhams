@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T09:14:21Z",
+ "updated": "2026-10-20T12:40:01Z",
  "headline": "Sterling is firmer at about 1.335 dollars after UK jobs figures showed unemployment falling to 4.7% against 4.9% expected, while the dollar has stayed soft with the US ten-year yield easing towards 5.1%. UK inflation at 10:00 Dubai on Wednesday is the next big test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
@@ -37,6 +37,18 @@
  "watch": "Bank of England policymaker Megan Greene speaks at 21:00 Dubai today, Tuesday 20 October. UK inflation for September comes out at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1% last time; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai that day.",
  "sources": [
   {
+   "title": "Euro steadies as French protests ease; pound and yen firm",
+   "site": "Reuters, via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/currencies/articles/yen-jumps-jgb-auction-draws-062414344.html",
+   "date": "20 Oct"
+  },
+  {
+   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "20 Oct"
+  },
+  {
    "title": "4.7%: United Kingdom Unemployment Rate unexpectedly falls in three months to August",
    "site": "FXStreet",
    "url": "https://fxstreet.com/news/47-united-kingdom-unemployment-rate-falls-in-its-three-months-to-august-202610200601",
@@ -58,12 +70,6 @@
    "title": "Asian shares tumble, oil rises as markets await AI sector results",
    "site": "Reuters, via Investing.com",
    "url": "https://investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
-   "date": "20 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD minute and hourly prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "20 Oct"
   },
   {
@@ -101,12 +107,6 @@
    "site": "The Nation",
    "url": "https://www.nationthailand.com/business/banking-finance/40072426",
    "date": "17 Oct"
-  },
-  {
-   "title": "Consumer price inflation, UK: September 2026, release date",
-   "site": "ONS",
-   "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
-   "date": "21 Oct"
   }
  ],
  "calendar": [
@@ -232,8 +232,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-20T09:14:21Z",
+ "calendarUpdated": "2026-10-20T12:40:01Z",
  "feed": [
+  {
+   "title": "Sterling has climbed this afternoon with no news to explain it",
+   "text": "GBP/USD rose from 1.3349 at 16:11 Dubai to 1.3375 by 16:26 Dubai and was near 1.3371 at 16:38 Dubai, a 0.20% climb in a quarter of an hour. Both sides moved: the euro gained about 0.08% against the dollar while the pound gained about 0.1% against the euro, so a slightly softer dollar and a firmer pound together. No report names a cause for this move; Reuters had described the dollar index at midday as 0.1% lower at 101.85 and the pound as up 0.3% after this morning's jobs figures, with Bank of England rise bets supporting it.",
+   "t": "2026-10-20T12:40:01Z",
+   "rate": 1.33725
+  },
   {
    "title": "Sterling has risen on stronger UK jobs figures",
    "text": "Unemployment fell to 4.7% in the three months to August against 4.9% expected, and regular pay growth was 3.7% against 3.6% expected, though total pay including bonuses slowed to 3.7% against a 3.8% forecast, the ONS figures showed. A firmer job market and steady pay make the Bank of England rise expected on 5 November more likely, which lifts the pound. GBP/USD rose from 1.3332 to 1.3345 within the minute of the release while EUR/USD did not move, climbed to about 1.3361 by 10:30 Dubai, and held near 1.3349 at 13:10 Dubai even as the euro slipped against the dollar.",
@@ -379,12 +385,6 @@
    "when": "2026-10-15T06:00:00Z",
    "t": "2026-10-15T06:39:59Z",
    "rate": 1.32328
-  },
-  {
-   "title": "The dollar has weakened as US bond yields have fallen back",
-   "text": "US government bonds recovered overnight from the sell-off that followed Wednesday's hot inflation figures, taking the ten-year yield to about 5.11%, a three-week low and about two tenths of a point below its post-inflation high, as a slide in technology shares sent money into bonds and an unconfirmed Bloomberg report suggested China is quietly holding more Treasuries through Canada. Lower US yields make the dollar less rewarding to hold, so it weakened across the board and the dollar index fell about 0.6% to about 102, which means more dirhams per pound; the pound itself eased slightly against the euro, so this was a dollar move. GBP/USD rose from 1.3190 at 02:00 Dubai to 1.3232 by 04:00, then from 1.3231 at 06:00 to 1.3250 within fifteen minutes, and was near 1.3253 at 07:39 Dubai.",
-   "t": "2026-10-15T03:41:13Z",
-   "rate": 1.32525
   }
  ]
 }
