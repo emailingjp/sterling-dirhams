@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:39:47Z",
+ "updated": "2026-10-20T15:40:08Z",
  "headline": "Sterling is firmer at about 1.335 dollars after UK jobs figures showed unemployment falling to 4.7% against 4.9% expected, while the dollar has stayed soft with the US ten-year yield easing towards 5.1%. UK inflation at 10:00 Dubai on Wednesday is the next big test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
@@ -36,6 +36,18 @@
  ],
  "watch": "Bank of England policymaker Megan Greene speaks at 21:00 Dubai today, Tuesday 20 October. UK inflation for September comes out at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1% last time; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai that day.",
  "sources": [
+  {
+   "title": "Unconfirmed Qatar-Pakistan Iran peace proposal lifts stocks, weighs on oil",
+   "site": "Investing.com",
+   "url": "https://in.investing.com/news/stock-market-news/unconfirmed-qatarpakistan-iran-peace-proposal-lifts-stocks-weighs-on-oil-5643326",
+   "date": "20 Oct"
+  },
+  {
+   "title": "British Pound surges to 1.3400 as UK jobs beat, Iran deal hopes grow",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-surges-to-13400-as-uk-jobs-beat-iran-deal-hopes-grow-202610201517",
+   "date": "20 Oct"
+  },
   {
    "title": "Tech stocks decline on AI jitters, dollar falls: markets wrap",
    "site": "Bloomberg, via swissinfo.ch",
@@ -94,18 +106,6 @@
    "title": "US 10-year Treasury yield edges up",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "19 Oct"
-  },
-  {
-   "title": "Dollar firmer, euro weakens as French protests turn violent",
-   "site": "Reuters, via Business Recorder",
-   "url": "https://www.brecorder.com/news/40444885/dollar-firmer-euro-weakens-as-french-protests-turn-violent",
-   "date": "19 Oct"
-  },
-  {
-   "title": "Oil slips as Trump's sanction waiver may lead to more Russian fuel supplies",
-   "site": "Reuters, via Business Recorder",
-   "url": "https://www.brecorder.com/news/40444883/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies",
    "date": "19 Oct"
   }
  ],
@@ -232,8 +232,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-20T14:39:47Z",
+ "calendarUpdated": "2026-10-20T15:40:08Z",
  "feed": [
+  {
+   "title": "Sterling has given back some of its gains as the dollar firms",
+   "text": "GBP/USD fell from 1.3401 at 18:41 Dubai to 1.3381 by 18:51 Dubai and was near 1.3373 at 19:38 Dubai, while EUR/USD fell by a similar share, from 1.1250 to 1.1231, so this was mainly a firmer dollar rather than news about the pound. The afternoon rise had come on an unconfirmed report that Qatar and Pakistan had put forward a compromise to revive US and Iran talks, and Bloomberg later quoted a diplomat involved in the talks disputing that a deal was close, though no source gives the time of that comment, so it cannot be tied to this move with confidence. Less hope of a deal tends to support oil and the dollar, which means fewer dirhams per pound.",
+   "t": "2026-10-20T15:40:08Z",
+   "rate": 1.33735
+  },
   {
    "title": "The dollar has slipped further as US bond yields fall",
    "text": "The US ten-year yield fell about five basis points to 5.09% in New York trading, Bloomberg reported, and the dollar fell against every other major currency, with the dollar index down 0.23% at about 101.76, FXStreet reported; neither names a single piece of news behind it, and no US figures were due today. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound. The euro rose by a similar share, so this was a dollar move: GBP/USD climbed from about 1.3370 at 17:00 Dubai to a high near 1.3407 at 18:25 Dubai, most of it in ten minutes from 18:15, then settled near 1.3399.",
@@ -377,13 +383,6 @@
    "text": "No report names a single trigger for this move, which looks like a continuation of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows ahead of this afternoon's US retail sales and producer prices. The dollar softened across the board, with the euro rising against it from 1.1211 to 1.1222 while the pound also edged up against the euro, so both sides helped and the result is more dirhams per pound. GBP/USD rose from 1.3241 at 12:00 Dubai to 1.3269 by 12:30 and was near 1.3262 at 12:39 Dubai.",
    "t": "2026-10-15T08:40:14Z",
    "rate": 1.32616
-  },
-  {
-   "title": "Governor Bailey's slot has passed with no market reaction",
-   "text": "Bank of England Governor Bailey was listed to speak at 11:30 Dubai, during the IMF and World Bank meetings week in Bangkok, but no report so far carries any new remarks on interest rates; his reported comments in Bangkok on Wednesday were about fraud on social media platforms. With nothing new on rates, the pound had no fresh reason to move, and GBP/USD went from 1.3248 at 11:29 Dubai to 1.3247 at 11:30 and was near 1.3250 at 11:40 Dubai.",
-   "when": "2026-10-15T07:30:00Z",
-   "t": "2026-10-15T07:40:30Z",
-   "rate": 1.32516
   }
  ]
 }
