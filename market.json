@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T12:40:01Z",
+ "updated": "2026-10-20T14:39:47Z",
  "headline": "Sterling is firmer at about 1.335 dollars after UK jobs figures showed unemployment falling to 4.7% against 4.9% expected, while the dollar has stayed soft with the US ten-year yield easing towards 5.1%. UK inflation at 10:00 Dubai on Wednesday is the next big test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
@@ -36,6 +36,18 @@
  ],
  "watch": "Bank of England policymaker Megan Greene speaks at 21:00 Dubai today, Tuesday 20 October. UK inflation for September comes out at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1% last time; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai that day.",
  "sources": [
+  {
+   "title": "Tech stocks decline on AI jitters, dollar falls: markets wrap",
+   "site": "Bloomberg, via swissinfo.ch",
+   "url": "https://www.swissinfo.ch/eng/tech-stocks-decline-on-ai-jitters%2c-dollar-falls%3a-markets-wrap/92241741",
+   "date": "20 Oct"
+  },
+  {
+   "title": "Euro steadies as traders weigh France's budget risks and Fed outlook",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-steadies-as-traders-weigh-frances-budget-risks-and-fed-outlook-202610201355",
+   "date": "20 Oct"
+  },
   {
    "title": "Euro steadies as French protests ease; pound and yen firm",
    "site": "Reuters, via Yahoo Finance",
@@ -95,18 +107,6 @@
    "site": "Reuters, via Business Recorder",
    "url": "https://www.brecorder.com/news/40444883/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies",
    "date": "19 Oct"
-  },
-  {
-   "title": "Economic calendar, this week",
-   "site": "Forex Factory",
-   "url": "https://www.forexfactory.com/calendar",
-   "date": "19 Oct"
-  },
-  {
-   "title": "Central bankers urge collaboration as AI reshapes inflation, jobs and financial stability",
-   "site": "The Nation",
-   "url": "https://www.nationthailand.com/business/banking-finance/40072426",
-   "date": "17 Oct"
   }
  ],
  "calendar": [
@@ -232,8 +232,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-20T12:40:01Z",
+ "calendarUpdated": "2026-10-20T14:39:47Z",
  "feed": [
+  {
+   "title": "The dollar has slipped further as US bond yields fall",
+   "text": "The US ten-year yield fell about five basis points to 5.09% in New York trading, Bloomberg reported, and the dollar fell against every other major currency, with the dollar index down 0.23% at about 101.76, FXStreet reported; neither names a single piece of news behind it, and no US figures were due today. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound. The euro rose by a similar share, so this was a dollar move: GBP/USD climbed from about 1.3370 at 17:00 Dubai to a high near 1.3407 at 18:25 Dubai, most of it in ten minutes from 18:15, then settled near 1.3399.",
+   "t": "2026-10-20T14:39:47Z",
+   "rate": 1.33995
+  },
   {
    "title": "Sterling has climbed this afternoon with no news to explain it",
    "text": "GBP/USD rose from 1.3349 at 16:11 Dubai to 1.3375 by 16:26 Dubai and was near 1.3371 at 16:38 Dubai, a 0.20% climb in a quarter of an hour. Both sides moved: the euro gained about 0.08% against the dollar while the pound gained about 0.1% against the euro, so a slightly softer dollar and a firmer pound together. No report names a cause for this move; Reuters had described the dollar index at midday as 0.1% lower at 101.85 and the pound as up 0.3% after this morning's jobs figures, with Bank of England rise bets supporting it.",
@@ -378,13 +384,6 @@
    "when": "2026-10-15T07:30:00Z",
    "t": "2026-10-15T07:40:30Z",
    "rate": 1.32516
-  },
-  {
-   "title": "The UK economy has grown when a fall was expected",
-   "text": "The ONS said the economy grew by 0.1% in August against a forecast fall of 0.1%, with factory output up 1.2% while services were flat and construction fell for a fourth month, and growth over the year reached 2.1% against 1.7% expected. Stronger UK figures support the Bank of England rise that markets already expect on 5 November, which lifts the pound, and the pound did firm against the euro from 0.8470 to 0.8464. Against the dollar the effect was small: GBP/USD briefly touched 1.3248 at 10:00 Dubai from 1.3238, settled near 1.3243 by 10:05 and was near 1.3233 at 10:38 Dubai as the dollar firmed slightly.",
-   "when": "2026-10-15T06:00:00Z",
-   "t": "2026-10-15T06:39:59Z",
-   "rate": 1.32328
   }
  ]
 }
