@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-19.3">
+<meta name="build" content="2026-10-20.1">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -165,6 +165,9 @@ a { color: var(--accent); }
 .latest .measure.loss { color: var(--loss); }
 .latest .lbl { color: var(--ink-3); font-size: 12.5px; font-weight: 620; margin-right: 6px; }
 .latest .more { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 560; }
+.latest .live-line { margin: 4px 0 2px; font-size: 13.5px; font-weight: 600; color: var(--ink-2); }
+.latest .live-line.gain { color: var(--gain); }
+.latest .live-line.loss { color: var(--loss); }
 .order-row { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 4px 0 10px; }
 .order-row label { color: var(--ink-2); font-size: 14px; }
 .order-row input[type="text"] { width: 6.6em; font-family: var(--display); font-stretch: 85%; font-size: 24px; font-weight: 620; padding: 6px 10px; }
@@ -1720,7 +1723,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     /* The newest update also sits at the top of the page, under the dashboard */
     if (feed.length) {
       var f0 = feed[0], t0 = Date.parse(f0.t) / 1000, w0 = f0.when ? Date.parse(f0.when) / 1000 : null, age = Date.now() / 1000 - t0;
-      $('latestBody').innerHTML = '<span class="at">' + dxbWhen(t0) + ' Dubai' + (age >= 60 ? ', ' + inWords(age).trim() + ' ago' : '') + '</span><span class="ti">' + esc(f0.title) + '</span><p>' + esc(f0.text) + '</p>' + (w0 ? '<p class="measure" data-t="' + w0 + '"></p>' : '');
+      $('latestBody').innerHTML = '<span class="at">' + dxbWhen(t0) + ' Dubai' + (age >= 60 ? ', ' + inWords(age).trim() + ' ago' : '') + '</span><p class="live-line" id="latestLive"></p><span class="ti">' + esc(f0.title) + '</span><p>' + esc(f0.text) + '</p>' + (w0 ? '<p class="measure" data-t="' + w0 + '"></p>' : '');
     } else $('latestBody').innerHTML = '<p class="stamp">No updates have been posted yet.</p>';
     if (feed.length) {
       html += '<ol class="feed">' + feed.slice(0, 5).map(item).join('') + '</ol>';
@@ -1737,7 +1740,24 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (m.watch) html += '<p class="watch">' + esc(m.watch) + '</p>';
     if (m.sources && m.sources.length) html += '<h3>Sources</h3><ol class="srcs">' + m.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>, ' + esc(s.site) + (s.date ? ', ' + esc(s.date) : '') + '</li>'; }).join('') + '</ol>';
     el.innerHTML = html;
-    renderMeasures();
+    renderMeasures(); renderLatestLive();
+  }
+  /* The written updates come from a check at about half past each hour, so a fast move can run ahead of
+     the latest one. This line shows, live, how far the rate has moved since it was written. */
+  function nextCheck(now) {
+    for (var t = Math.floor(now / 1800) * 1800 + 1800, i = 0; i < 300; i++, t += 1800) {
+      var d = dxb(t), wd = d.getUTCDay(), h = d.getUTCHours();
+      if (d.getUTCMinutes() !== 30) continue;
+      if (wd >= 1 && wd <= 5 ? h >= 7 && h <= 23 : [8, 11, 14, 17, 20, 23].indexOf(h) >= 0) return t;
+    }
+    return null;
+  }
+  function renderLatestLive() {
+    var el = $('latestLive'), m = state.market, f0 = m && m.feed && m.feed[0], r0 = f0 ? +f0.rate : 0;
+    if (!el || !state.mid || !(r0 > 0)) return;
+    var mv = state.mid / r0 - 1, d = diffVs(state.mid, r0), nc = nextCheck(Date.now() / 1000);
+    el.className = 'live-line' + (Math.abs(mv) < 0.0003 ? '' : d > 0 ? ' gain' : ' loss');
+    el.innerHTML = '<span class="lbl">Since this update:</span>GBP/USD ' + r0.toFixed(4) + ' to ' + state.mid.toFixed(4) + ', ' + (Math.abs(mv) < 0.00005 ? 'unchanged' : pctSigned(mv) + ', which is ' + withGbpSigned(d) + ' on ' + amountShort()) + '.' + (nc ? ' Next check about ' + dxbTime(nc) + ' Dubai.' : '');
   }
   function renderCalendar() {
     var m = state.market, body = $('calRows');
@@ -1927,7 +1947,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     });
     setInterval(frame, 250);
     setInterval(renderStatus, 1000);
-    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); renderNow(); } }, 2000);
+    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); renderNow(); } renderLatestLive(); }, 2000);
     setInterval(function () { if (state.histOk) { buildRefs(); renderCompareOptions(); } renderCalendar(); }, 60000);
     setInterval(loadMarket, 10 * 60000);
     setInterval(function () { loadCrosses(); loadMinutes(); }, 15 * 60000);
