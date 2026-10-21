@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T03:41:58Z",
+ "updated": "2026-10-21T06:15:27Z",
  "headline": "Sterling is steady at about 1.337 dollars this morning, holding Tuesday's gains from firm UK jobs figures and a softer dollar, with the dollar index near a three week low. UK inflation for September at 10:00 Dubai today is the main test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
@@ -34,8 +34,26 @@
   "Confirmed progress in US and Iran talks, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "US yields falling further as markets grow surer the Fed will hold on 28 October, which would keep the dollar soft."
  ],
- "watch": "UK inflation for September comes out at 10:00 Dubai today, Wednesday 21 October, forecast at 3.4% against 3.1% in August; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai, where a firm tone on rates would also help.",
+ "watch": "Governor Bailey speaks at 17:00 Dubai today, after inflation came in at 3.5%; a firm tone on a rise on 5 November would help someone selling pounds for dirhams, and a cautious one would weigh on the pound. US weekly jobless claims follow at 16:30 Dubai on Thursday, then UK retail sales at 10:00 Dubai and the first UK and US business surveys for October at 12:30 and 17:45 Dubai on Friday.",
  "sources": [
+  {
+   "title": "Live: UK inflation, September 2026 figures",
+   "site": "MoneyWeek",
+   "url": "https://moneyweek.com/economy/news/live/inflation-cpi-september-2026-report",
+   "date": "21 Oct"
+  },
+  {
+   "title": "Jackdaw gas field approved by UK Government",
+   "site": "STV News",
+   "url": "https://news.stv.tv/scotland/jackdaw-gas-field-approved-by-uk-government",
+   "date": "21 Oct"
+  },
+  {
+   "title": "Andy Burnham faces angry backlash as new gas drilling approved in North Sea",
+   "site": "HuffPost UK",
+   "url": "https://www.huffingtonpost.co.uk/entry/burnham-backlash-drilling-north-sea_uk_6ad787d4e4b061c2be464abc",
+   "date": "21 Oct"
+  },
   {
    "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
    "site": "Reuters, via Global Banking and Finance",
@@ -88,24 +106,6 @@
    "title": "British Pound surges to 1.3400 as UK jobs beat, Iran deal hopes grow",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-surges-to-13400-as-uk-jobs-beat-iran-deal-hopes-grow-202610201517",
-   "date": "20 Oct"
-  },
-  {
-   "title": "Tech stocks decline on AI jitters, dollar falls: markets wrap",
-   "site": "Bloomberg, via swissinfo.ch",
-   "url": "https://www.swissinfo.ch/eng/tech-stocks-decline-on-ai-jitters%2c-dollar-falls%3a-markets-wrap/92241741",
-   "date": "20 Oct"
-  },
-  {
-   "title": "Euro steadies as traders weigh France's budget risks and Fed outlook",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-steadies-as-traders-weigh-frances-budget-risks-and-fed-outlook-202610201355",
-   "date": "20 Oct"
-  },
-  {
-   "title": "Euro steadies as French protests ease; pound and yen firm",
-   "site": "Reuters, via Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/currencies/articles/yen-jumps-jgb-auction-draws-062414344.html",
    "date": "20 Oct"
   }
  ],
@@ -232,8 +232,21 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-21T03:41:58Z",
+ "calendarUpdated": "2026-10-21T06:15:27Z",
  "feed": [
+  {
+   "title": "UK inflation has come in a little above forecast",
+   "text": "Prices rose 3.5% in the year to September against 3.4% expected and 3.1% in August, with core inflation up to 2.8% from 2.6% and motor fuel 29.8% dearer than a year earlier, the ONS figures showed. Higher inflation makes the Bank of England rise expected on 5 November more likely, which tends to lift the pound. GBP/USD jumped from 1.3373 to 1.3384 within the minute of the release but gave it back at once and was near 1.3369 at 10:15 Dubai, which suggests the rise was already in the price.",
+   "when": "2026-10-21T06:00:00Z",
+   "t": "2026-10-21T06:15:27Z",
+   "rate": 1.33696
+  },
+  {
+   "title": "The government has approved the Jackdaw gas field",
+   "text": "The government has cleared Shell's Jackdaw gas field, about 150 miles east of Aberdeen, while a decision on the larger Rosebank oil field is still to come, STV and HuffPost reported. At its peak Jackdaw would supply about 6.5% of UK North Sea gas production, which is too small and too far off to move the pound, and no reaction shows in GBP/USD.",
+   "t": "2026-10-21T06:15:27Z",
+   "rate": 1.33696
+  },
   {
    "title": "A Bank of England policymaker has made the case for higher rates",
    "text": "Megan Greene told the London School of Economics on Tuesday evening that the risk of the energy shock feeding into wider inflation is greater than the Bank expected, and that it should lean against that risk early, Reuters reported. Talk of a firmer Bank of England supports the expected rise to 4% on 5 November, which tends to lift the pound. GBP/USD edged up from 1.3370 at 21:00 Dubai to 1.3381 by 21:50 Dubai, a small move that no report ties directly to the speech.",
@@ -371,18 +384,6 @@
    "when": "2026-10-16T02:00:00Z",
    "t": "2026-10-16T03:41:10Z",
    "rate": 1.32831
-  },
-  {
-   "title": "The dollar has won back some ground in the New York afternoon",
-   "text": "No report read so far names a trigger for this move, which reverses part of the dollar's retreat earlier in the New York morning; the reports read describe Thursday as a choppy day after hotter than expected US shop sales and producer prices. The dollar firmed across the board, with the euro falling against it from 1.1220 to 1.1205 while the pound held steady against the euro, so this was a dollar move and it means fewer dirhams per pound. GBP/USD slipped from 1.3274 at 18:41 Dubai to 1.3253 by 18:56 and touched 1.3250 at 19:06, and was near 1.3256 at 19:39 Dubai.",
-   "t": "2026-10-15T15:40:27Z",
-   "rate": 1.32586
-  },
-  {
-   "title": "The dollar has weakened again in the New York morning",
-   "text": "No report read so far names a trigger for this move, which began at 18:30 Dubai, an hour after the New York stock market opened, and looks like a resumption of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows. The dollar softened across the board, with the euro rising against it from 1.1209 to 1.1221 while the pound held steady against the euro, so this was a dollar move and it means more dirhams per pound. GBP/USD rose from 1.3260 at 18:29 Dubai to 1.3273 within five minutes and 1.3275 by 18:37, and was near 1.3273 at 18:39 Dubai.",
-   "t": "2026-10-15T14:40:07Z",
-   "rate": 1.32747
   }
  ]
 }
