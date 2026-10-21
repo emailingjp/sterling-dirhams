@@ -1,41 +1,83 @@
 {
- "updated": "2026-10-20T15:40:08Z",
- "headline": "Sterling is firmer at about 1.335 dollars after UK jobs figures showed unemployment falling to 4.7% against 4.9% expected, while the dollar has stayed soft with the US ten-year yield easing towards 5.1%. UK inflation at 10:00 Dubai on Wednesday is the next big test for the pound ahead of the Bank of England's 5 November decision.",
+ "updated": "2026-10-21T03:41:58Z",
+ "headline": "Sterling is steady at about 1.337 dollars this morning, holding Tuesday's gains from firm UK jobs figures and a softer dollar, with the dollar index near a three week low. UK inflation for September at 10:00 Dubai today is the main test for the pound ahead of the Bank of England's 5 November decision.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% after its September rise. On Monday 19 October fed funds futures put the chance of a hold at the 28 October meeting at about 84%, Reuters reported, citing the CME FedWatch tool, and Fed officials have suggested they are in no rush to raise rates again. The Fed is in its quiet period, so no official will comment before the decision."
+   "text": "The Fed's range is 3.75% to 4% after its September rise. On Monday 19 October fed funds futures put the chance of a hold at the 28 October meeting at about 84%, Reuters reported, and traders still expect no change at that meeting. The Fed is in its quiet period before the decision."
   },
   {
    "title": "US bond yields",
-   "text": "The US ten-year yield rose about 4.6 basis points to 5.127% on Monday afternoon as yields rose worldwide on the unrest in France, FXStreet reported, after falling to a three-week low of about 5.11% on Thursday 15 October. Higher US yields draw money into the dollar and lower ones do the reverse; the dollar index was 101.92 in Asian trade on Tuesday."
+   "text": "US Treasury yields fell on Tuesday as oil came off its highs, with the ten year yield down about five basis points to near 5.09%, Bloomberg reported. Lower US yields make the dollar less rewarding to hold, and the dollar index fell 0.2% to a three week low before steadying at 101.78 in Asian trade on Wednesday, Reuters reported."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent rose 0.21% to $109.78 (about £82) a barrel early on Tuesday, Reuters reported, after slipping to about $108.43 (about £81) on Monday on the US waiver on Russian sanctions; it touched $110 (about £83) on Friday 16 October for the first time since May, as attacks on shipping cut Gulf crude flows. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent settled at $108.79 (about £81) a barrel on Tuesday, down 0.7%, after touching a five month high, as an unconfirmed report of progress in US and Iran talks was later disputed, Bloomberg reported via Rigzone. At least 18 vessels have been attacked in the Strait of Hormuz in the past two weeks, and oil is up more than 10% this month. Dearer oil and Gulf tension tend to lift the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and markets have priced a Bank of England rise to 4% on 5 November, Reuters reported. Tuesday's jobs figures showed unemployment down to 4.7% and regular pay growth at 3.7%, both firmer than expected, which supports that rise. Wednesday's inflation figures are the last big UK data before the meeting, and investors remain cautious ahead of the Budget later this month."
+   "text": "Bank Rate is 3.75% and markets almost fully price a rise to 4% on 5 November, FXStreet reported, citing LSEG data. Tuesday's figures showed unemployment down to 4.7% and regular pay growth at 3.7%, both firmer than expected, and Megan Greene of the Bank's rate setting committee argued on Tuesday for leaning against inflation early. Investors remain cautious ahead of the Budget later this month."
   },
   {
    "title": "Europe and the wider mood",
-   "text": "Violent cost of living protests in France pushed the euro down 0.25% on Monday, and it steadied in Asian trade on Tuesday, Reuters reported, while Asian shares fell sharply, with South Korea's main index down 3.61%, ahead of results from AI companies. A weaker euro or a nervous mood in markets tends to steady the dollar. The European Central Bank meets on 29 October, the day after the Fed."
+   "text": "The euro steadied at about $1.1229 (about £0.84) in Asian trade on Wednesday after Monday's fall on the unrest in France, Reuters reported. A weaker euro or a nervous mood in markets tends to steady the dollar. The European Central Bank meets on 29 October, the day after the Fed."
   }
  ],
  "lower": [
-  "UK inflation on Wednesday coming in below the 3.4% forecast, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
-  "More attacks on Gulf shipping pushing Brent back above $110 (about £83), which would tend to lift the dollar.",
+  "UK inflation today coming in below the 3.4% forecast, which would put the expected Bank of England rise on 5 November in doubt and weigh on the pound.",
+  "More attacks on Gulf shipping pushing Brent back above $110 (about £82), which would tend to lift the dollar.",
   "Deeper unrest in France or a wider sell off in shares, which would send money into the dollar as a safe haven.",
   "Renewed worries about tax rises in the Budget later this month, which would weigh on the pound."
  ],
  "higher": [
-  "UK inflation on Wednesday at or above the 3.4% forecast, which would add to today's firm jobs figures in supporting a Bank of England rise on 5 November and lift the pound.",
-  "More Russian fuel reaching the market or progress on reopening the Strait of Hormuz, which would bring oil down, ease US inflation worries and weaken the dollar.",
-  "Markets becoming surer that the Fed will hold on 28 October, which would keep US yields and the dollar soft."
+  "UK inflation today at or above the 3.4% forecast, which would add to Tuesday's firm jobs figures in supporting a Bank of England rise on 5 November and lift the pound.",
+  "Confirmed progress in US and Iran talks, which would bring oil down, ease US inflation worries and weaken the dollar.",
+  "US yields falling further as markets grow surer the Fed will hold on 28 October, which would keep the dollar soft."
  ],
- "watch": "Bank of England policymaker Megan Greene speaks at 21:00 Dubai today, Tuesday 20 October. UK inflation for September comes out at 10:00 Dubai on Wednesday 21 October, forecast at 3.4% against 3.1% last time; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai that day.",
+ "watch": "UK inflation for September comes out at 10:00 Dubai today, Wednesday 21 October, forecast at 3.4% against 3.1% in August; a figure at or above forecast would support the Bank of England rise expected on 5 November and help someone selling pounds for dirhams, while a figure below would weigh on the pound. Governor Bailey speaks at 17:00 Dubai, where a firm tone on rates would also help.",
  "sources": [
+  {
+   "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
+   "site": "Reuters, via Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed/",
+   "date": "21 Oct"
+  },
+  {
+   "title": "Bank of England's Greene says inflation risks are bigger than thought",
+   "site": "Reuters, via Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/bank-englands-greene-inflation-risks-bigger-thought/",
+   "date": "20 Oct"
+  },
+  {
+   "title": "Oil slips as Iran talks fuel volatility",
+   "site": "Bloomberg, via Rigzone",
+   "url": "https://www.rigzone.com/news/wire/oil_slips_as_iran_talks_fuel_volatility-20-oct-2026-184889-article/",
+   "date": "20 Oct"
+  },
+  {
+   "title": "Brent steadies as traders weigh US-Iran talks",
+   "site": "Trading Economics, via TradingView",
+   "url": "https://www.tradingview.com/news/te_news:593561:0-brent-steadies-as-traders-weigh-us-iran-talks/",
+   "date": "21 Oct"
+  },
+  {
+   "title": "British Pound edges lower below 1.3400 ahead of UK CPI inflation release",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-edges-lower-below-13400-ahead-of-uk-cpi-inflation-release-202610210153",
+   "date": "21 Oct"
+  },
+  {
+   "title": "UK CPI set to accelerate, paving the way for a BoE rate hike in November",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/uk-cpi-set-to-accelerate-paving-the-way-for-a-boe-interest-rate-hike-in-november-202610210200",
+   "date": "21 Oct"
+  },
+  {
+   "title": "GBP/USD minute and hourly prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "21 Oct"
+  },
   {
    "title": "Unconfirmed Qatar-Pakistan Iran peace proposal lifts stocks, weighs on oil",
    "site": "Investing.com",
@@ -65,48 +107,6 @@
    "site": "Reuters, via Yahoo Finance",
    "url": "https://finance.yahoo.com/markets/currencies/articles/yen-jumps-jgb-auction-draws-062414344.html",
    "date": "20 Oct"
-  },
-  {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "20 Oct"
-  },
-  {
-   "title": "4.7%: United Kingdom Unemployment Rate unexpectedly falls in three months to August",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/news/47-united-kingdom-unemployment-rate-falls-in-its-three-months-to-august-202610200601",
-   "date": "20 Oct"
-  },
-  {
-   "title": "UK wages grew by annual 3.7% in three months to August, ONS says",
-   "site": "Reuters, via Investing.com",
-   "url": "https://investing.com/news/economy-news/uk-wages-grew-by-annual-37-in-three-months-to-august-ons-says-4958853",
-   "date": "20 Oct"
-  },
-  {
-   "title": "Forex Today: Pound rises on upbeat employment data, US Dollar retreats as yields turn south",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-pound-rises-on-upbeat-employment-data-us-dollar-retreats-as-yields-turn-south-202610200732",
-   "date": "20 Oct"
-  },
-  {
-   "title": "Asian shares tumble, oil rises as markets await AI sector results",
-   "site": "Reuters, via Investing.com",
-   "url": "https://investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
-   "date": "20 Oct"
-  },
-  {
-   "title": "British Pound clings to 1.3300 as UK inflation test threatens recovery",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-clings-to-13300-as-uk-inflation-test-threatens-recovery-202610191532",
-   "date": "19 Oct"
-  },
-  {
-   "title": "US 10-year Treasury yield edges up",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "19 Oct"
   }
  ],
  "calendar": [
@@ -232,8 +232,21 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-20T15:40:08Z",
+ "calendarUpdated": "2026-10-21T03:41:58Z",
  "feed": [
+  {
+   "title": "A Bank of England policymaker has made the case for higher rates",
+   "text": "Megan Greene told the London School of Economics on Tuesday evening that the risk of the energy shock feeding into wider inflation is greater than the Bank expected, and that it should lean against that risk early, Reuters reported. Talk of a firmer Bank of England supports the expected rise to 4% on 5 November, which tends to lift the pound. GBP/USD edged up from 1.3370 at 21:00 Dubai to 1.3381 by 21:50 Dubai, a small move that no report ties directly to the speech.",
+   "when": "2026-10-20T17:00:00Z",
+   "t": "2026-10-21T03:41:58Z",
+   "rate": 1.33736
+  },
+  {
+   "title": "Sterling has held steady overnight ahead of UK inflation",
+   "text": "GBP/USD was 1.3374 at 07:40 Dubai, where it stood at 19:40 Dubai yesterday, after a quiet night between about 1.3370 and 1.3385. Reuters reported from Tokyo that the dollar index was steady at 101.78 after falling 0.2% on Tuesday to a three week low, as lower US Treasury yields and a dip in oil made the dollar less attractive. Brent settled 0.7% lower at $108.79 (about £81) a barrel on Tuesday after touching a five month high, as traders weighed conflicting reports on US and Iran talks.",
+   "t": "2026-10-21T03:41:58Z",
+   "rate": 1.33736
+  },
   {
    "title": "Sterling has given back some of its gains as the dollar firms",
    "text": "GBP/USD fell from 1.3401 at 18:41 Dubai to 1.3381 by 18:51 Dubai and was near 1.3373 at 19:38 Dubai, while EUR/USD fell by a similar share, from 1.1250 to 1.1231, so this was mainly a firmer dollar rather than news about the pound. The afternoon rise had come on an unconfirmed report that Qatar and Pakistan had put forward a compromise to revive US and Iran talks, and Bloomberg later quoted a diplomat involved in the talks disputing that a deal was close, though no source gives the time of that comment, so it cannot be tied to this move with confidence. Less hope of a deal tends to support oil and the dollar, which means fewer dirhams per pound.",
@@ -370,19 +383,6 @@
    "text": "No report read so far names a trigger for this move, which began at 18:30 Dubai, an hour after the New York stock market opened, and looks like a resumption of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows. The dollar softened across the board, with the euro rising against it from 1.1209 to 1.1221 while the pound held steady against the euro, so this was a dollar move and it means more dirhams per pound. GBP/USD rose from 1.3260 at 18:29 Dubai to 1.3273 within five minutes and 1.3275 by 18:37, and was near 1.3273 at 18:39 Dubai.",
    "t": "2026-10-15T14:40:07Z",
    "rate": 1.32747
-  },
-  {
-   "title": "US shop sales and producer prices have come in hotter than expected",
-   "text": "US retail sales rose 0.8% in September against 0.3% forecast, and producer prices jumped 1.3% against 0.6% forecast, with the core measure up 0.5% against 0.3%. Strong spending and rising costs make a Fed rise more likely, which tends to lift US yields and the dollar, so fewer dirhams per pound. GBP/USD dipped from 1.3251 to 1.3236 within four minutes of the release, then recovered to about 1.3257 within ten minutes; no source read so far explains the quick recovery.",
-   "when": "2026-10-15T12:30:00Z",
-   "t": "2026-10-15T12:40:48Z",
-   "rate": 1.32581
-  },
-  {
-   "title": "The dollar has slipped further in late morning trade",
-   "text": "No report names a single trigger for this move, which looks like a continuation of the dollar's retreat from Wednesday's high as US bond yields stay near three-week lows ahead of this afternoon's US retail sales and producer prices. The dollar softened across the board, with the euro rising against it from 1.1211 to 1.1222 while the pound also edged up against the euro, so both sides helped and the result is more dirhams per pound. GBP/USD rose from 1.3241 at 12:00 Dubai to 1.3269 by 12:30 and was near 1.3262 at 12:39 Dubai.",
-   "t": "2026-10-15T08:40:14Z",
-   "rate": 1.32616
   }
  ]
 }
