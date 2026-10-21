@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T13:39:32Z",
+ "updated": "2026-10-21T17:39:54Z",
  "headline": "Sterling is near 1.339 dollars, close to a one month high, after UK inflation for September came in at 3.5% against 3.4% expected and traders firmed their bets on a Bank of England rise on 5 November. Governor Bailey's talk this afternoon left the rate little changed, and the dollar index remains near a three week low.",
  "drivers": [
   {
@@ -36,6 +36,12 @@
  ],
  "watch": "US weekly jobless claims come out at 16:30 Dubai on Thursday; more claims than expected would point to a cooler US job market and help someone selling pounds for dirhams. UK retail sales follow at 10:00 Dubai on Friday, then the first UK and US business surveys for October at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "Dollar finds support on higher oil prices",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "21 Oct"
+  },
   {
    "title": "Upcoming events: Andrew Bailey, fireside chat at OMFIF",
    "site": "Bank of England",
@@ -100,12 +106,6 @@
    "title": "Brent steadies as traders weigh US-Iran talks",
    "site": "Trading Economics, via TradingView",
    "url": "https://www.tradingview.com/news/te_news:593561:0-brent-steadies-as-traders-weigh-us-iran-talks/",
-   "date": "21 Oct"
-  },
-  {
-   "title": "British Pound edges lower below 1.3400 ahead of UK CPI inflation release",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-edges-lower-below-13400-ahead-of-uk-cpi-inflation-release-202610210153",
    "date": "21 Oct"
   }
  ],
@@ -232,8 +232,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-21T13:39:32Z",
+ "calendarUpdated": "2026-10-21T17:39:54Z",
  "feed": [
+  {
+   "title": "Sterling has edged up as the dollar softened this evening",
+   "text": "GBP/USD climbed from 1.3383 at 20:12 Dubai to 1.3394 by 20:30 Dubai, touched 1.3401 at 20:39 Dubai and was near 1.3398 at 21:30 Dubai. The euro gained against the dollar by a similar margin over the same hour, so this was the dollar softening rather than the pound rising. No report found explains the move: the US oil stocks figures came out two hours earlier, and Trading Economics still describes the dollar index as near 101.7, close to its three week low, with the Fed expected to hold next week.",
+   "t": "2026-10-21T17:39:54Z",
+   "rate": 1.33983
+  },
   {
    "title": "Sterling held steady through Governor Bailey's talk",
    "text": "Governor Bailey took part in a fireside chat in London on central bank independence, listed by the Bank of England for 14:00 London time. No reported remarks on the 5 November decision had appeared by 13:40 UTC, so no source yet explains any move. GBP/USD was 1.3396 at the start, dipped to 1.3392 within two minutes and was still near 1.3393 a quarter of an hour later, before easing to about 1.3384 by 13:36 UTC.",
@@ -377,12 +383,6 @@
    "text": "The dollar hit an 18-month high on Wednesday after hot US inflation figures, taking GBP/USD down to about 1.3150. It turned on Thursday, when the Fed's Bowman and Daly said the Fed could wait for more clarity, investors worried about heavy debts in the AI sector, and UK output beat forecasts with growth of 0.1% in August against a 0.1% fall expected. Each pound now buys about 1.5% more dirhams than at Wednesday's low.",
    "t": "2026-10-16T10:28:19Z",
    "rate": 1.33454
-  },
-  {
-   "title": "The dollar has weakened as Chair Warsh declines to commit to another rise",
-   "text": "In his Bangkok conversation with IMF Managing Director Georgieva, Fed Chair Warsh said the Fed has made clear it will deliver price stability but that he does not believe in prejudging meetings, and that judgements will be made at the October and December meetings. This week's hot inflation figures had raised talk of a second rise in October, and the absence of a firmer signal weakened the dollar, with the dollar index down to about 101.80, its lowest in ten days, while the pound held steady against the euro; a weaker dollar means more dirhams per pound. GBP/USD rose from 1.3279 at 07:42 Dubai to 1.3303 at 07:50 and 1.3306 at 07:57, eased to near 1.3296 by 08:10 and was near 1.3309 at 08:39 Dubai.",
-   "t": "2026-10-16T04:40:03Z",
-   "rate": 1.33087
   }
  ]
 }
