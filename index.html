@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-21.1">
+<meta name="build" content="2026-10-21.2">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -945,6 +945,13 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     return ohlc('GBPUSD', 1).then(function (b) {
       state.minute = b; state.minuteIdx = new Map(b.map(function (x, i) { return [x.t, i]; }));
       renderMeasures(); renderNow();
+      var iv = state.iv;
+      if (chart && IV[iv].ticks) barsFor(iv).then(function (bars) {
+        if (state.iv !== iv) return;
+        var atEnd = chart.timeScale().scrollPosition() > -2;
+        state.bars = bars; redraw(!atEnd); tickNote();
+        if (atEnd) chart.timeScale().scrollToRealTime();
+      });
     }).catch(function () { /* the reactions show once the prices load */ });
   }
   /* The move in GBP/USD around a piece of news: the close a minute before, and fifteen minutes after.
@@ -982,9 +989,18 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     });
     return out;
   }
+  /* The second-by-second prices are only seen while the page is open. When the phone has been away, the
+     minutes it missed are filled from Kraken's one-minute bars, so the chart shows the real path rather than
+     squeezing the gap into one tall candle (21 October: a 20-minute slide drew as a single drop). */
+  function withMinuteFill() {
+    var seen = new Set(ticks.map(function (b) { return Math.floor(b.t / 60); })), cut = Date.now() / 1000 - 12 * 3600;
+    var fill = (state.minute || []).filter(function (m) { return m.t >= cut && isFxOpen(m.t) && !seen.has(Math.floor(m.t / 60)); })
+      .map(function (m) { return { t: m.t, o: m.o, h: m.h, l: m.l, c: m.c }; });
+    return fill.length ? ticks.concat(fill).sort(function (a, b) { return a.t - b.t; }) : ticks;
+  }
   function barsFor(iv) {
     var spec = IV[iv];
-    if (spec.ticks) return Promise.resolve(bucket(ticks, spec.sec));
+    if (spec.ticks) return Promise.resolve(bucket(withMinuteFill(), spec.sec));
     var get = spec.k === 60 && state.hourly.length ? Promise.resolve(state.hourly) : ohlc('GBPUSD', spec.k);
     return get.then(function (raw) {
       var open = raw.filter(function (b) { return isFxOpen(b.t); }).map(function (b) { return { t: b.t, o: b.o, h: b.h, l: b.l, c: b.c }; });
@@ -1291,7 +1307,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function tickNote() {
     var n = $('chartNote');
     n.hidden = !(IV[state.iv].ticks && state.bars.length < 3);
-    if (!n.hidden) n.textContent = 'The 1s to 30s bars are built from the live price while this page is open, and kept for 12 hours. Use 1m or longer for history.';
+    if (!n.hidden) n.textContent = 'The 1s to 30s bars are built from the live price while this page is open, with any minutes it missed filled from Kraken\'s one-minute prices.';
   }
   function setStyle(st) {
     state.style = st === 'line' ? 'line' : 'candles'; save(KEYS.style, state.style);
