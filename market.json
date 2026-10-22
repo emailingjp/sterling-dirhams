@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T10:39:42Z",
+ "updated": "2026-10-22T11:39:39Z",
  "headline": "Sterling is just below 1.340 dollars, close to its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil has climbed to near $112 (about £84) after reports of seven tankers damaged in the Strait of Hormuz and a drone strike on a Saudi oil field, and the dollar firmed a little on Thursday afternoon ahead of the Fed's decision and the UK Budget, both on 28 October.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "US weekly jobless claims come out at 16:30 Dubai today, forecast at 200,000; more claims than expected would point to a cooler US job market and help someone selling pounds for dirhams. UK retail sales follow at 10:00 Dubai on Friday, forecast to fall 0.1%, then the first UK and US business surveys for October at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
+   "site": "CNBC Africa",
+   "url": "https://www.cnbcafrica.com/2026/oil-prices-jump-on-middle-east-worries-as-u-s-israel-reportedly-weigh-fresh-iran-strikes",
+   "date": "22 Oct"
+  },
   {
    "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
    "site": "Associated Press, via ABC News",
@@ -101,12 +107,6 @@
    "title": "UK September CPI surges to 3.5%; markets bet on Bank of England rate hike next month",
    "site": "BigGo Finance",
    "url": "https://finance.biggo.com/news/2fd6cf1e-71d3-4726-b38b-4be62e40c13b",
-   "date": "21 Oct"
-  },
-  {
-   "title": "British Pound wavers following overshot UK inflation data, higher public debt",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/currencies/gbpusd",
    "date": "21 Oct"
   }
  ],
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-22T10:39:42Z",
+ "calendarUpdated": "2026-10-22T11:39:39Z",
  "feed": [
+  {
+   "title": "The dollar has firmed on reports of planned strikes on Iran",
+   "text": "GBP/USD fell from 1.3382 at 14:54 Dubai to 1.3361 by 15:09 Dubai and was near 1.3366 at 15:36 Dubai, while EUR/USD fell by a similar margin and the pound hardly moved against the euro, so this was the dollar strengthening. No report ties a piece of news to that quarter hour, but just before it CNBC reported a New York Times account that the US and Israeli militaries have drawn up plans for a short but intensive operation against Iran after next month's midterm elections, with Brent near $112 (about £84). Gulf tension and dearer oil tend to lift the dollar, so fewer dirhams per pound.",
+   "t": "2026-10-22T11:39:39Z",
+   "rate": 1.33679
+  },
   {
    "title": "Sterling has slipped as the dollar firmed in a nervous market",
    "text": "GBP/USD fell from 1.3407 at 13:42 Dubai to 1.3379 by 14:09 Dubai and was near 1.3382 at 14:36 Dubai. EUR/USD fell by about 0.12% over the same half hour while the pound eased only slightly against the euro, so this was mostly the dollar strengthening. No report ties a piece of news to that half hour, but the mood is nervous: Iranian state television said seven tankers were damaged overnight in the Strait of Hormuz, Brent rose about 3% to near $112 (about £84), European shares fell by around 1%, and a nervous market with dearer oil tends to lift the dollar, so fewer dirhams per pound.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD edged up from 1.3317 at 22:45 Dubai to about 1.3328 at 23:39, recovering part of the early evening dip. EUR/USD rose a little, from 1.1230 to 1.1234, and the pound gained slightly on the euro, so this was a softer dollar with a slightly firmer pound in thin late Friday trade. Trading Economics reported the dollar index at about 101.6 on Friday, its lowest in two weeks and down about 0.4% on the week, with markets putting the chance of no Fed change in October at about 85%; no single report explains this last hour.",
    "t": "2026-10-16T19:40:02Z",
    "rate": 1.33288
-  },
-  {
-   "title": "The dollar has firmed into the weekend",
-   "text": "GBP/USD fell from 1.3343 at 19:40 Dubai to about 1.3316 at 20:39, and EUR/USD fell by a similar share, from 1.1244 to 1.1213, while the pound held steady against the euro, so this was the dollar gaining across the board rather than the pound weakening. No UK or US figure was due in that hour; Trading Economics reported the US ten-year yield edging up to about 5.12% on Friday after Thursday's sharp fall, which makes holding dollars a little more rewarding, but no report read so far explains this particular move. Reports still describe the dollar as set for its first weekly fall in about a month.",
-   "t": "2026-10-16T16:40:44Z",
-   "rate": 1.33167
   }
  ]
 }
