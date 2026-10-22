@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T17:40:34Z",
- "headline": "Sterling is just below 1.340 dollars, close to its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil has climbed to near $112 (about £84) after reports of seven tankers damaged in the Strait of Hormuz and a drone strike on a Saudi oil field, and the dollar firmed a little on Thursday afternoon ahead of the Fed's decision and the UK Budget, both on 28 October.",
+ "updated": "2026-10-22T18:39:54Z",
+ "headline": "Sterling is just above 1.340 dollars, close to its one month high, after the dollar weakened on Thursday evening as US bond yields fell sharply on a sell off in technology shares. Markets fully price a Bank of England rise on 5 November after Wednesday's 3.5% inflation reading, while oil near $112 (about £84) on Gulf tension is a counterweight, ahead of the Fed's decision and the UK Budget on 28 October.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -8,7 +8,7 @@
   },
   {
    "title": "US bond yields and the dollar",
-   "text": "The US ten year yield is near 5.09%, a little lower this week as markets settle on a hold next week, Trading Economics reported on 22 October. The dollar index is near 101.6, having paused after touching a three week low of about 101.5 on 20 October. Lower US yields make the dollar less rewarding to hold."
+   "text": "The US ten year yield fell 11 basis points to 5.02% on Thursday 22 October and slipped below 5%, on track for its biggest one day fall in more than two years as investors moved from technology shares into bonds, Yahoo Finance reported. The dollar index touched a three week low near 101.5 earlier in the day. Lower US yields make the dollar less rewarding to hold."
   },
   {
    "title": "Oil and the Gulf",
@@ -38,15 +38,15 @@
  "watch": "UK retail sales come out at 10:00 Dubai on Friday, forecast to fall 0.1%; a better figure would help someone selling pounds for dirhams. The first UK and US business surveys for October follow at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
   {
-   "title": "United States 10 year bond yield",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "title": "Stock market today: Dow, S&P 500, Nasdaq tumble as oil climbs, investors weigh Meta, Tesla earnings",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
    "date": "22 Oct"
   },
   {
-   "title": "US dollar index",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
+   "title": "Dollar struggles to recover as US bond yields continue falling",
+   "site": "FX Leaders",
+   "url": "https://www.fxleaders.com/news/2026/10/22/dollar-struggles-to-recover-as-us-bond-yields-continue-falling/",
    "date": "22 Oct"
   },
   {
@@ -86,6 +86,12 @@
    "date": "22 Oct"
   },
   {
+   "title": "Dollar stabilizes as Fed meeting eyed",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "22 Oct"
+  },
+  {
    "title": "Dip in the dollar takes a breather with Fed in focus",
    "site": "Reuters, via Global Banking and Finance",
    "url": "https://www.globalbankingandfinance.com/dip-dollar-takes-breather-fed-focus/",
@@ -102,12 +108,6 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "22 Oct"
-  },
-  {
-   "title": "John Healey to deliver Autumn Budget on 28 October",
-   "site": "Professional Adviser",
-   "url": "https://www.professionaladviser.com/news/4533780/john-healey-deliver-autumn-budget-october",
-   "date": "3 Aug"
   }
  ],
  "calendar": [
@@ -233,13 +233,13 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-22T17:40:34Z",
+ "calendarUpdated": "2026-10-22T18:39:54Z",
  "feed": [
   {
-   "title": "The dollar has weakened as US bond yields fall below 5%",
-   "text": "The US ten year yield fell by more than a tenth of a point on Thursday to about 4.97%, its lowest in about a month, as worries about technology share prices and the Gulf sent money into government bonds, Trading Economics reported. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound: GBP/USD rose from about 1.3368 at 19:30 Dubai to 1.3408 by 21:15 Dubai and was near 1.3403 at 21:38 Dubai. EUR/USD rose by a similar margin while the pound hardly moved against the euro, so this was the dollar softening rather than the pound rising.",
-   "t": "2026-10-22T17:40:34Z",
-   "rate": 1.34017
+   "title": "The dollar has weakened as US bond yields fell sharply",
+   "text": "US government bond yields had their biggest one day fall in more than two years as investors left technology shares for bonds after disappointing results from Meta and Tesla: the ten year yield was down 11 basis points to 5.02% by 19:13 Dubai and below 5% by 20:55 Dubai, Yahoo Finance reported. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound; EUR/USD rose by a similar margin while the pound hardly moved against the euro, so this was the dollar softening. GBP/USD rose from 1.3369 at 19:25 Dubai to 1.3407 by 21:15 Dubai and was near 1.3403 at 22:35 Dubai.",
+   "t": "2026-10-22T18:39:54Z",
+   "rate": 1.34031
   },
   {
    "title": "Fewer Americans claimed jobless benefits last week",
