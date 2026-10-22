@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-21.2">
+<meta name="build" content="2026-10-22.1">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -493,7 +493,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     <h3 class="ladder-title">Levels either side of your order</h3>
     <div class="table-wrap">
       <table class="ladder">
-        <thead><tr><th scope="col">You receive</th><th scope="col">Mid needed</th><th scope="col">GBP/USD</th><th scope="col" id="ladLeft">Left after completion</th><th scope="col">From now</th></tr></thead>
+        <thead><tr><th scope="col">You receive</th><th scope="col" id="ladTrig">Bid needed</th><th scope="col" id="ladUsd">GBP/USD bid</th><th scope="col" id="ladLeft">Left after completion</th><th scope="col">From now</th></tr></thead>
         <tbody id="ladderRows"></tbody>
       </table>
     </div>
@@ -547,6 +547,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
           <p class="hint" id="startHint">Leave the rate blank to use the ECB reference rate for that day.</p>
           <label for="setNeed">Dirhams still to pay (optional)</label><input id="setNeed" type="text" inputmode="decimal" autocomplete="off">
           <label for="setTarget">Target left after paying, in pounds (optional)</label><input id="setTarget" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setFeeOn">The bank takes its fee off</label><select id="setFeeOn"><option value="bid">Its market bid</option><option value="mid">The mid</option></select>
           <label for="setPeg">Dirhams to the dollar</label><input id="setPeg" type="text" inputmode="decimal" autocomplete="off">
           <button type="button" class="btn" id="resetSettings">Restore the defaults</button>
         </div>
@@ -625,7 +626,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
   /* ---------- settings ---------- */
-  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725, target: 0, orderRate: null, orderBasis: 'allin', orderShow: true }/*END*/;
+  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725, target: 0, orderRate: null, orderBasis: 'allin', orderShow: true, feeOn: 'bid' }/*END*/;
   var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v2', oldTicks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v2', ecb: 'gbpaed.ecb.v1', style: 'gbpaed.style.v1' };
   function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
@@ -1360,28 +1361,40 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
 
   /* What is left after paying, in pounds, if GBP/AED mid is m: the dirhams left over, valued at m. */
   function leftAt(m) { return cfg.amount * (1 - mg()) - cfg.need / m; }
-  /* The GBP/AED mid at which what is left reaches the target. */
-  function targetMid() {
+  /* 22 October: the bank takes its 0.12% off its market bid, not the mid. The bid sits half the spread
+     below the mid, so rates are worked from the bid. Kraken's bid stands in for the bank's, which can be
+     a pip or two wider. */
+  function onBid() { return cfg.feeOn !== 'mid'; }
+  function halfSpread() { return state.bid && state.ask && state.ask > state.bid ? (state.ask - state.bid) / 2 : 0.00004; }
+  function dealUsd() { return onBid() ? state.mid - halfSpread() : state.mid; }
+  function basisWord() { return onBid() ? 'bid' : 'mid'; }
+  function spreadAed() { return onBid() ? halfSpread() * cfg.peg : 0; }
+  /* Dealing now: what the amount brings, and what is left after paying, valued at the live mid. */
+  function getNow() { return cfg.amount * toAed(dealUsd()) * (1 - mg()); }
+  function leftNow() { return (getNow() - cfg.need) / toAed(state.mid); }
+  /* The GBP/AED rate, on the bank's basis, at which what is left reaches the target, and the mid that goes with it. */
+  function targetTrig() {
     if (!(cfg.target > 0) || !(cfg.need > 0)) return null;
     var room = cfg.amount * (1 - mg()) - cfg.target;
     return room > 0 ? cfg.need / room : null;
   }
+  function targetMid() { var t = targetTrig(); return t ? t + spreadAed() : null; }
   function renderLeft() {
-    var get = brings(state.mid), liveMid = toAed(state.mid), tile = $('tileLeft'), goal = $('goal');
+    var get = getNow(), liveMid = toAed(state.mid), tile = $('tileLeft'), goal = $('goal');
     if (!(cfg.need > 0)) {
       $('leftLabel').textContent = amountShort() + ' brings, after ' + pct();
       $('leftBig').textContent = aed(get);
-      $('leftAed').textContent = 'At your rate of ' + (liveMid * (1 - mg())).toFixed(4) + ' dirhams per pound';
+      $('leftAed').textContent = 'At your rate of ' + (toAed(dealUsd()) * (1 - mg())).toFixed(4) + ' dirhams per pound';
       $('leftSub').textContent = '';
       goal.innerHTML = '<p class="goal">Put the dirhams still to pay under <button type="button" class="linkbtn" data-open-settings>Settings</button> to see what is left after paying them, in pounds.</p>';
       tone(tile, 0);
       return;
     }
-    var spareAed = get - cfg.need, spare = leftAt(liveMid), breakMid = cfg.need / cfg.amount / (1 - mg()), fall = 1 - breakMid / liveMid;
+    var spareAed = get - cfg.need, spare = leftNow(), breakMid = cfg.need / cfg.amount / (1 - mg()), fall = 1 - breakMid / liveMid;
     $('leftLabel').textContent = 'Left after completion';
     $('leftBig').textContent = (spare < 0 ? MINUS : '') + gbpExact(Math.abs(round100(spare)));
     $('leftAed').textContent = (spareAed < 0 ? MINUS : '') + aed(Math.abs(spareAed));
-    $('leftSub').textContent = 'After paying ' + aed(cfg.need) + ', dealing at the live rate less ' + pct() + '.';
+    $('leftSub').textContent = 'After paying ' + aed(cfg.need) + ', dealing now at the live ' + basisWord() + ' less ' + pct() + '.';
     var html = '', tm = targetMid();
     if (spare < 0) html = '<p class="goal">Short of what is still to pay. It is covered again at GBP/AED <b>' + breakMid.toFixed(4) + '</b>.</p>';
     else if (cfg.target > 0 && tm) {
@@ -1421,7 +1434,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     return null;
   }
   function renderDash() {
-    var a = toAed(state.mid), your = a * (1 - mg()), get = brings(state.mid);
+    var a = toAed(state.mid), your = toAed(dealUsd()) * (1 - mg()), get = getNow();
     renderLeft();
     $('mid').innerHTML = dealerHTML(a); flash($('mid'));
     /* At weekends the banks are shut but Kraken keeps trading. The page keeps showing Kraken's price,
@@ -1437,7 +1450,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     }
     $('yourLabel').textContent = 'Your rate after ' + pct();
     $('your').innerHTML = dealerHTML(your);
-    $('yourSub').innerHTML = amountShort() + ' brings <b>' + aed(get) + '</b>. A quote at or above ' + your.toFixed(4) + ' is within ' + pct() + '.';
+    $('yourSub').innerHTML = amountShort() + ' brings <b>' + aed(get) + '</b>. That is the live ' + basisWord() + ' of ' + toAed(dealUsd()).toFixed(4) + ' less ' + pct() + ', so a quote at or above ' + your.toFixed(4) + ' is within it.';
 
     var td = todayInfo(), li = londonInfo();
     if (td && !td.open && fc) {
@@ -1517,13 +1530,14 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
      triggers it. Either way the planner works out the other, what it brings and what is left. */
   function suggestOrder() { var r = toAed(state.mid) * (1 - mg()); return (Math.floor(r * 100 + 1e-9) + 1) / 100; }
   function orderRate() { return cfg.orderRate > 0 ? cfg.orderRate : (state.orderDraft || null); }
-  /* The order rate is what JP receives after the fee. The bank's fee is a share of the market mid, so the
-     mid has to reach the order rate divided by (1 less the fee): 4.9300 / 0.9988 = 4.9359. */
+  /* The order rate is what JP receives after the fee. The fee is a share of the bank's market bid, so the
+     bid has to reach the order rate divided by (1 less the fee): 4.9225 / 0.9988 = 4.9284. The mid sits
+     half the spread above that. */
   function orderInfo() {
     var r = orderRate();
     if (!(r > 0)) return null;
-    var mid = r / (1 - mg());
-    return { rate: r, mid: mid, usd: mid / cfg.peg, dealt: r, aed: cfg.amount * r };
+    var trig = r / (1 - mg()), mid = trig + spreadAed();
+    return { rate: r, trig: trig, trigUsd: trig / cfg.peg, mid: mid, usd: mid / cfg.peg, dealt: r, aed: cfg.amount * r };
   }
   /* When GBP/USD last traded at or above a level, from Kraken's hourly bars (the last 30 days). */
   function lastTradedAt(usd) {
@@ -1533,14 +1547,14 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function orderWording(o) {
     var amt = 'GBP ' + nf0.format(cfg.amount), dir = 'AED ' + nf0.format(Math.round(o.aed));
     return ['Please place a limit order on my account, good till cancelled:', '',
-      'Sell ' + amt + ' and buy dirhams at an all-in rate of ' + o.rate.toFixed(4) + ' GBP/AED or better, net of your margin of ' + pct() + ' and all charges, so that I receive at least ' + dir + '. At that margin the interbank mid needs to reach ' + o.mid.toFixed(4) + ', which is GBP/USD ' + o.usd.toFixed(4) + '.', '',
+      'Sell ' + amt + ' and buy dirhams at an all-in rate of ' + o.rate.toFixed(4) + ' GBP/AED or better, net of your margin of ' + pct() + ' and all charges, so that I receive at least ' + dir + '. At that margin your market ' + basisWord() + ' needs to reach ' + o.trig.toFixed(4) + ', which is GBP/USD ' + o.trigUsd.toFixed(4) + '.', '',
       'Please debit my sterling account and credit my dirham account in the same name, and deal it in one amount.', '',
       'Please confirm when the order is in place, and again when it is filled, with the rate and the dirham amount.'].join('\n');
   }
   function asksHTML(o) {
-    return ['Is your margin ' + pct() + ', which is ' + Math.round(cfg.marginPct * 100) + ' basis points, of the interbank mid, with no other charges?',
-      'Is my order rate' + (o ? ' of ' + o.rate.toFixed(4) : '') + ' the rate I receive, after your margin?' + (o ? ' Then the mid has to reach ' + o.mid.toFixed(4) + ', GBP/USD ' + o.usd.toFixed(4) + '.' : ''),
-      'Which price triggers the order: the interbank mid, the market bid, or your own dealing rate?',
+    return ['Is your margin ' + pct() + ', which is ' + Math.round(cfg.marginPct * 100) + ' basis points, of your market ' + basisWord() + ', with no other charges?',
+      'Is my order rate' + (o ? ' of ' + o.rate.toFixed(4) : '') + ' the rate I receive, after your margin?' + (o ? ' Then your ' + basisWord() + ' has to reach ' + o.trig.toFixed(4) + ', GBP/USD ' + o.trigUsd.toFixed(4) + '.' : ''),
+      onBid() ? 'How far below the interbank mid is your market bid, in GBP/USD pips?' : 'Which price triggers the order: the interbank mid, the market bid, or your own dealing rate?',
       'Is the order watched around the clock until I cancel it, including overnight, or only in your dealing hours?',
       'If the market jumps through my level, do I get my rate or better?',
       'Will it be dealt in one amount?',
@@ -1560,38 +1574,42 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       $('orderWording').textContent = ''; setHTML('asks', asksHTML(null));
       return;
     }
-    var fee = o.mid - o.dealt, rows = [];
-    rows.push(workRow('Market mid must reach<span class="note2">GBP/USD ' + o.usd.toFixed(4) + '</span>', o.mid.toFixed(4), 'key'));
-    rows.push(workRow('Less the ' + pct() + ' fee<span class="note2">' + pct() + ' of ' + o.mid.toFixed(4) + '</span>', MINUS + fee.toFixed(4)));
+    var fee = o.trig - o.dealt, rows = [], bw = basisWord();
+    rows.push(workRow('Market ' + bw + ' must reach<span class="note2">GBP/USD ' + bw + ' ' + o.trigUsd.toFixed(4) + '</span>', o.trig.toFixed(4), 'key'));
+    if (onBid()) rows.push(workRow('Mid at that point, about<span class="note2">the bid is ' + (halfSpread() * 1e4).toFixed(1) + ' GBP/USD pips below it on Kraken now</span>', o.mid.toFixed(4)));
+    rows.push(workRow('Less the ' + pct() + ' fee<span class="note2">' + pct() + ' of ' + o.trig.toFixed(4) + '</span>', MINUS + fee.toFixed(4)));
     rows.push(workRow('You receive', o.dealt.toFixed(4), 'key'));
-    rows.push(workRow(amountShort() + ' brings<span class="note2">' + aed(cfg.amount * o.mid) + ' at mid, less the fee of ' + aed(cfg.amount * fee) + ' (' + gbp(cfg.amount * fee / o.mid) + ')</span>', aed(o.aed)));
+    rows.push(workRow(amountShort() + ' brings<span class="note2">' + aed(cfg.amount * o.trig) + ' at the ' + bw + ', less the fee of ' + aed(cfg.amount * fee) + ' (' + gbp(cfg.amount * fee / o.mid) + ')</span>', aed(o.aed)));
     if (cfg.need > 0) {
-      var left = leftAt(o.mid);
+      var left = (o.aed - cfg.need) / o.mid;
       rows.push(workRow('Paid at completion', MINUS + aed(cfg.need)));
       rows.push(workRow('Left after completion' + (cfg.target > 0 ? '<span class="note2">' + (left >= cfg.target ? gbpExact(round100(left - cfg.target)) + ' above' : gbpExact(round100(cfg.target - left)) + ' short of') + ' your ' + gbpExact(cfg.target) + ' target</span>' : ''),
         gbpExact(round100(left)) + '<span class="note2">' + aed(o.aed - cfg.need) + '</span>', 'key' + (cfg.target > 0 && left >= cfg.target ? ' hit' : '')));
     }
     setHTML('orderRows', rows.join(''));
-    var items = [], vsNow = o.aed - brings(state.mid), sref = state.refs.get('start');
-    if (o.mid > liveMid) {
+    var items = [], vsNow = o.aed - getNow(), sref = state.refs.get('start'), liveB = toAed(dealUsd());
+    if (o.trig > liveB) {
       var lt = lastTradedAt(o.usd);
-      items.push('From the live mid of ' + liveMid.toFixed(4) + ', the market has to rise <b>' + ((o.mid / liveMid - 1) * 100).toFixed(2) + '%</b>, ' + Math.round((o.usd - state.mid) / 0.0001) + ' GBP/USD pips. ' +
+      items.push('From the live ' + bw + ' of ' + liveB.toFixed(4) + ', the market has to rise <b>' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%</b>, ' + Math.round((o.trigUsd - dealUsd()) / 0.0001) + ' GBP/USD pips. ' +
         (lt ? 'GBP/USD last traded there on ' + dxbDay(lt) + ', around ' + dxbTime(lt) + ' Dubai.' : 'GBP/USD has not traded there in the last 30 days.'));
-    } else items.push('<span class="gain">The market is already there.</span> The live mid of ' + liveMid.toFixed(4) + ' is at or above ' + o.mid.toFixed(4) + ', so this order would be dealt now.');
+    } else items.push('<span class="gain">The market is already there.</span> The live ' + bw + ' of ' + liveB.toFixed(4) + ' is at or above ' + o.trig.toFixed(4) + ', so this order would be dealt now.');
     items.push('Against dealing now: <span class="' + (vsNow >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsNow) + '</span>.');
     if (sref) { var vsS = o.aed - brings(sref.usd); items.push('Against ' + sref.short + ': <span class="' + (vsS >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsS) + '</span>.'); }
     setHTML('orderOut', items.map(function (x) { return '<li>' + x + '</li>'; }).join(''));
-    var alt = o.rate * (1 - mg()), tm = targetMid();
-    var hint = 'If the desk treats ' + o.rate.toFixed(4) + ' as the market level and takes its fee from that, you receive ' + alt.toFixed(4) + ', which is ' + aed(cfg.amount * alt) + ', ' + gbp(cfg.amount * (o.rate - alt) / o.mid) + ' less. Ask which they mean.';
+    var tm = targetTrig(), hint;
+    if (onBid()) hint = 'Kraken\'s bid stands in for the bank\'s. If the bank\'s bid sits 2 GBP/USD pips below the mid rather than ' + (halfSpread() * 1e4).toFixed(1) + ', the mid needs to reach about ' + (o.trig + 0.0002 * cfg.peg).toFixed(4) + ' instead of ' + o.mid.toFixed(4) + '.';
+    else { var alt = o.rate * (1 - mg()); hint = 'If the desk treats ' + o.rate.toFixed(4) + ' as the market level and takes its fee from that, you receive ' + alt.toFixed(4) + ', which is ' + aed(cfg.amount * alt) + ', ' + gbp(cfg.amount * (o.rate - alt) / o.mid) + ' less. Ask which they mean.'; }
     if (tm) hint += ' <button type="button" class="linkbtn" id="orderToTarget">Use the rate that leaves ' + gbpExact(cfg.target) + '</button>';
     setHTML('orderHint', hint);
     /* The ladder: the order rate and the levels either side, a hundredth of a dirham apart */
     $('ladLeft').textContent = cfg.need > 0 ? 'Left after completion' : amountShort() + ' brings';
+    $('ladTrig').textContent = onBid() ? 'Bid needed' : 'Mid needed';
+    $('ladUsd').textContent = onBid() ? 'GBP/USD bid' : 'GBP/USD';
     var lad = '';
     [-0.02, -0.01, 0, 0.01, 0.02].forEach(function (st) {
-      var net = Math.round((o.rate + st) * 10000) / 10000, mid = net / (1 - mg()), from = mid / liveMid - 1;
-      var lf = cfg.need > 0 ? leftAt(mid) : null, hit = cfg.target > 0 && lf != null && lf >= cfg.target;
-      lad += '<tr' + (st === 0 ? ' class="cur"' : '') + '><td>' + net.toFixed(4) + '</td><td>' + mid.toFixed(4) + '</td><td>' + (mid / cfg.peg).toFixed(4) + '</td><td' + (hit ? ' class="hit"' : '') + '>' + (lf != null ? gbpExact(round100(lf)) : aed(cfg.amount * net)) + '</td><td>' + (from > 0 ? '+' + (from * 100).toFixed(2) + '%' : 'reached') + '</td></tr>';
+      var net = Math.round((o.rate + st) * 10000) / 10000, trig = net / (1 - mg()), from = trig / liveB - 1;
+      var lf = cfg.need > 0 ? (cfg.amount * net - cfg.need) / (trig + spreadAed()) : null, hit = cfg.target > 0 && lf != null && lf >= cfg.target;
+      lad += '<tr' + (st === 0 ? ' class="cur"' : '') + '><td>' + net.toFixed(4) + '</td><td>' + trig.toFixed(4) + '</td><td>' + (trig / cfg.peg).toFixed(4) + '</td><td' + (hit ? ' class="hit"' : '') + '>' + (lf != null ? gbpExact(round100(lf)) : aed(cfg.amount * net)) + '</td><td>' + (from > 0 ? '+' + (from * 100).toFixed(2) + '%' : 'reached') + '</td></tr>';
     });
     setHTML('ladderRows', lad);
     setHTML('asks', asksHTML(o));
@@ -1650,22 +1668,22 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   /* ---------- rendering: side panels ---------- */
   /* Deal now: the live mid, the fee taken off it, the fair rate, and a check of whatever rate the desk quotes. */
   function renderQuote() {
-    var midA = toAed(state.mid), fee = midA * mg(), fair = midA - fee, get = brings(state.mid), rows = [];
-    rows.push(workRow('Market mid now<span class="note2">GBP/USD ' + state.mid.toFixed(5) + ' × ' + cfg.peg + '</span>', midA.toFixed(4)));
-    rows.push(workRow('Less the ' + pct() + ' fee<span class="note2">' + pct() + ' of ' + midA.toFixed(4) + '</span>', MINUS + fee.toFixed(4)));
+    var midA = toAed(state.mid), base = toAed(dealUsd()), fee = base * mg(), fair = base - fee, get = getNow(), rows = [], bw = basisWord();
+    rows.push(workRow('Market ' + bw + ' now<span class="note2">GBP/USD ' + bw + ' ' + dealUsd().toFixed(5) + ' × ' + cfg.peg + (onBid() ? ', mid ' + midA.toFixed(4) : '') + '</span>', base.toFixed(4)));
+    rows.push(workRow('Less the ' + pct() + ' fee<span class="note2">' + pct() + ' of ' + base.toFixed(4) + '</span>', MINUS + fee.toFixed(4)));
     rows.push(workRow('Fair rate for you', fair.toFixed(4) + ' or better', 'key'));
     rows.push(workRow(amountShort() + ' brings', aed(get)));
-    if (cfg.need > 0) rows.push(workRow('Left after completion', gbpExact(round100(leftAt(midA))) + '<span class="note2">' + aed(get - cfg.need) + '</span>', 'key'));
+    if (cfg.need > 0) rows.push(workRow('Left after completion', gbpExact(round100(leftNow())) + '<span class="note2">' + aed(get - cfg.need) + '</span>', 'key'));
     setHTML('dnRows', rows.join(''));
-    setHTML('dealIntro', 'For the call to the treasury desk. Prices are live from Kraken. The fee is a percentage of the market mid, taken off it: at ' + pct() + ' it is ' + fee.toFixed(4) + ' dirhams per pound at today\'s rate, not ' + cfg.marginPct + ' of a dirham.');
+    setHTML('dealIntro', 'For the call to the treasury desk. Prices are live from Kraken. The fee is a percentage of the bank\'s market ' + bw + ', taken off it: at ' + pct() + ' it is ' + fee.toFixed(4) + ' dirhams per pound at today\'s rate, not ' + cfg.marginPct + ' of a dirham.' + (onBid() ? ' The bid is half the spread below the mid, ' + (halfSpread() * 1e4).toFixed(1) + ' GBP/USD pips on Kraken now.' : ''));
     var out = $('quoteOut'), raw = $('quoteIn').value.trim().replace(',', '.');
     if (!raw) { setHTML('quoteOut', '<p class="tiny">Type the rate the desk quotes to see whether it is within the ' + pct() + ' and what it leaves you.</p>'); return; }
     var q = parseFloat(raw), note = '';
     if (!(q > 0)) { out.innerHTML = '<p>Type the rate as a number, for example ' + fair.toFixed(4) + '.</p>'; return; }
     if (q < 2.5) { note = ' Read as GBP/USD ' + q + ', which is GBP/AED ' + (q * cfg.peg).toFixed(4) + '.'; q = q * cfg.peg; }
-    var gap = midA - q, share = gap / midA, vs = cfg.amount * (gap - fee), deal = cfg.amount * q, lines = [];
-    if (gap <= 0) lines.push('<p class="verdict gain">' + q.toFixed(4) + ' is at or above the live mid of ' + midA.toFixed(4) + '. That is better than mid, so check the quote is for selling pounds.' + note + '</p>');
-    else lines.push('<p class="verdict ' + (vs <= 0 ? 'gain' : 'loss') + '">' + q.toFixed(4) + ' is ' + (share * 100).toFixed(3) + '% below the live mid, ' + (share * 1e4).toFixed(1) + ' basis points. ' +
+    var gap = base - q, share = gap / base, vs = cfg.amount * (gap - fee), deal = cfg.amount * q, lines = [];
+    if (gap <= 0) lines.push('<p class="verdict gain">' + q.toFixed(4) + ' is at or above the live ' + bw + ' of ' + base.toFixed(4) + '. That is better than the market, so check the quote is for selling pounds.' + note + '</p>');
+    else lines.push('<p class="verdict ' + (vs <= 0 ? 'gain' : 'loss') + '">' + q.toFixed(4) + ' is ' + (share * 100).toFixed(3) + '% below the live ' + bw + ', ' + (share * 1e4).toFixed(1) + ' basis points. ' +
       (vs <= 0 ? 'That is within the ' + pct() + ', ' + withGbp(-vs) + ' better on ' + amountShort() + '.' : 'That is more than the ' + pct() + ', costing ' + withGbp(vs) + ' extra on ' + amountShort() + '.') + note + '</p>');
     lines.push('<p>Dealing at ' + q.toFixed(4) + ', ' + amountShort() + ' brings <b>' + aed(deal) + '</b>' + (cfg.need > 0 ? ' and leaves <b>' + gbpExact(round100((deal - cfg.need) / midA)) + '</b> (' + aed(deal - cfg.need) + ') after completion' : '') + '.</p>');
     out.innerHTML = lines.join('');
@@ -1675,7 +1693,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var items = [
       'GBP/USD mid <b>' + usd.toFixed(5) + '</b>' + (state.bid ? ', halfway between Kraken\'s best bid of ' + state.bid.toFixed(5) + ' and best offer of ' + state.ask.toFixed(5) : '') + '.',
       usd.toFixed(5) + ' × ' + cfg.peg + ' dirhams to the dollar = GBP/AED mid <b>' + a.toFixed(5) + '</b>.',
-      gbpExact(cfg.amount) + ' × ' + a.toFixed(5) + ' = ' + aed(gross) + '.',
+      gbpExact(cfg.amount) + ' × ' + a.toFixed(5) + ' = ' + aed(gross) + '.' + (onBid() ? ' The bank takes its fee off its market bid instead, half the spread lower: GBP/USD ' + dealUsd().toFixed(5) + ', GBP/AED ' + toAed(dealUsd()).toFixed(5) + ', so dealing now brings ' + aed(getNow()) + '.' : ''),
       'Less ' + pct() + ', which is ' + withGbp(charge) + ', leaves <b>' + aedWithGbp(net) + '</b>. That is a rate of ' + (a * (1 - mg())).toFixed(5) + '.'
     ];
     if (cfg.need > 0) items.push(aed(net) + ' less the ' + aed(cfg.need) + ' still to pay leaves ' + aed(net - cfg.need) + ', which is <b>' + gbp(gbpOf(net - cfg.need)) + '</b> at the live mid of ' + a.toFixed(4) + '.');
@@ -1905,6 +1923,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     { id: 'setStartRate', key: 'startRate', kind: 'opt' },
     { id: 'setNeed', key: 'need', kind: 'opt0' },
     { id: 'setTarget', key: 'target', kind: 'opt0' },
+    { id: 'setFeeOn', key: 'feeOn', kind: 'sel' },
     { id: 'setPeg', key: 'peg', kind: 'num' }
   ];
   function fill() {
@@ -1913,13 +1932,16 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     FIELDS.forEach(function (f) {
       var v = cfg[f.key], el = $(f.id);
       if (f.kind === 'date') el.value = startDate();
+      else if (f.kind === 'sel') el.value = v === 'mid' ? 'mid' : 'bid';
       else if (v == null || (f.kind === 'opt0' && !(v > 0))) el.value = '';
       else el.value = v >= 1000 ? nf0.format(v) : v;
     });
   }
   function onField(f) {
     var raw = String($(f.id).value).replace(/,/g, '').trim();
-    if (f.kind === 'date') {
+    if (f.kind === 'sel') {
+      cfg[f.key] = raw === 'mid' ? 'mid' : 'bid';
+    } else if (f.kind === 'date') {
       if (!parseYmd(raw)) { fill(); return; }
       cfg.startDate = raw; cfg.startRate = null; cfg.startIsEcb = false;
       fetchEcb(raw);
@@ -1980,7 +2002,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     document.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-ref]'); if (b) { setCompare(b.dataset.ref); return; }
       if (e.target.closest('#orderToTarget')) {
-        var tm = targetMid();
+        var tm = targetTrig();
         if (tm) { cfg.orderRate = Math.ceil(tm * (1 - mg()) * 10000) / 10000; save(KEYS.cfg, cfg); $('orderIn').value = cfg.orderRate.toFixed(4); renderOrder(); drawLines(); renderLegend(null); }
         return;
       }
