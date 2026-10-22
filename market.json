@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T03:41:47Z",
+ "updated": "2026-10-22T08:39:21Z",
  "headline": "Sterling is near 1.340 dollars, around its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil is back near $110 (about £82) after a drone strike on a Saudi oil field, while the dollar index is steady near 101.7 ahead of the Fed's decision and the UK Budget, both on 28 October.",
  "drivers": [
   {
@@ -38,6 +38,12 @@
  "watch": "US weekly jobless claims come out at 16:30 Dubai today, forecast at 200,000; more claims than expected would point to a cooler US job market and help someone selling pounds for dirhams. UK retail sales follow at 10:00 Dubai on Friday, forecast to fall 0.1%, then the first UK and US business surveys for October at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
   {
+   "title": "Dollar stabilizes as Fed meeting eyed",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "22 Oct"
+  },
+  {
    "title": "Dip in the dollar takes a breather with Fed in focus",
    "site": "Reuters, via Global Banking and Finance",
    "url": "https://www.globalbankingandfinance.com/dip-dollar-takes-breather-fed-focus/",
@@ -53,12 +59,6 @@
    "title": "Brent crude oil: prices and news",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
-   "date": "22 Oct"
-  },
-  {
-   "title": "US dollar index: dollar stabilizes",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
    "date": "22 Oct"
   },
   {
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-22T03:41:47Z",
+ "calendarUpdated": "2026-10-22T08:39:21Z",
  "feed": [
+  {
+   "title": "The dollar has slipped again around midday",
+   "text": "GBP/USD fell to 1.3397 at 12:08 Dubai, then climbed to 1.3418 by 12:26 Dubai before settling near 1.3408 at 12:38 Dubai. EUR/USD rose from 1.1229 to 1.1242 over the same quarter hour while the euro hardly moved against the pound, so this was the dollar softening rather than the pound rising. No report found explains the move: Trading Economics describes the dollar index as steady near 101.7 on Thursday, with a Fed hold expected next week, and oil has risen rather than fallen this morning.",
+   "t": "2026-10-22T08:39:21Z",
+   "rate": 1.34074
+  },
   {
    "title": "Oil has climbed after a drone strike on a Saudi oil field",
    "text": "Brent rose about 1.7% to near $110.70 (about £82.60) a barrel on Thursday morning, Trading Economics reported, after debris from a drone shot down near Aramco's Shaybah field killed two workers and the US ordered non-emergency embassy staff out of Saudi Arabia. Dearer oil and Gulf tension tend to lift the dollar, yet sterling held its ground overnight: GBP/USD dipped from 1.3400 at 22:00 Dubai on Wednesday to 1.3381 by 23:00 Dubai, recovered to about 1.3394, and was near 1.3383 at 06:00 Dubai.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD slipped from about 1.3372 at 18:30 Dubai to 1.3342 at 19:39, giving back most of the afternoon's climb. The pound also lost ground to the euro, with EUR/GBP up from 0.8420 to about 0.8430, while EUR/USD dipped only from 1.1254 to 1.1244, so this was mainly the pound easing rather than fresh dollar strength. No UK or US figure was due in that hour and no report read so far explains the move.",
    "t": "2026-10-16T15:40:01Z",
    "rate": 1.3343
-  },
-  {
-   "title": "Sterling has climbed again as US trading opens",
-   "text": "GBP/USD rose from 1.3336 at 17:29 Dubai to about 1.3372 by 18:30, its highest this week, and was near 1.3365 at 18:40 Dubai. The rise was partly a weaker dollar and partly a firmer pound, with EUR/USD up from 1.1241 to 1.1253 and the euro down against the pound from 0.8429 to 0.8420. US industrial production, out at 17:15 Dubai, rose 0.7% in September after 0.1% in August, a firm figure that would normally help the dollar, and no report read so far explains this latest leg beyond the dollar's slide since Chair Warsh's remarks this morning.",
-   "t": "2026-10-16T14:41:21Z",
-   "rate": 1.33649
   }
  ]
 }
