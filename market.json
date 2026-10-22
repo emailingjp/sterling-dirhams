@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T08:39:21Z",
- "headline": "Sterling is near 1.340 dollars, around its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil is back near $110 (about £82) after a drone strike on a Saudi oil field, while the dollar index is steady near 101.7 ahead of the Fed's decision and the UK Budget, both on 28 October.",
+ "updated": "2026-10-22T10:39:42Z",
+ "headline": "Sterling is just below 1.340 dollars, close to its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil has climbed to near $112 (about £84) after reports of seven tankers damaged in the Strait of Hormuz and a drone strike on a Saudi oil field, and the dollar firmed a little on Thursday afternoon ahead of the Fed's decision and the UK Budget, both on 28 October.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -8,19 +8,19 @@
   },
   {
    "title": "US bond yields and the dollar",
-   "text": "The US ten year yield is near 5.09%, a little lower this week as markets settle on a hold next week, Trading Economics reported on 22 October. The dollar index is near 101.7, having paused after touching a three week low of about 101.5 on 20 October. Lower US yields make the dollar less rewarding to hold."
+   "text": "The US ten year yield is near 5.09%, a little lower this week as markets settle on a hold next week, Trading Economics reported on 22 October. The dollar index is near 101.6, having paused after touching a three week low of about 101.5 on 20 October. Lower US yields make the dollar less rewarding to hold."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent was near $110.70 (about £82.60) a barrel on Thursday morning, up about 1.7%, after a drone attack near Aramco's Shaybah field killed two workers and the US ordered some embassy staff out of Saudi Arabia, Trading Economics reported. Iran's Revolutionary Guards said on Wednesday that mines had halted three tankers, while the US Secretary of State said Strait of Hormuz shipments were nearing prewar levels. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent rose about 3% to near $112 (about £84) a barrel on Thursday 22 October, close to its four year high of $114.44 (about £85.50) from 4 May, Trading Economics and the Associated Press reported. Iranian state television said seven tankers were damaged overnight in the Strait of Hormuz, three of them by mines, after a drone attack near Aramco's Shaybah field on Wednesday led the US to order some embassy staff out of Saudi Arabia. Dearer oil and Gulf tension tend to lift the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and markets fully price a rise to 4% on 5 November after September inflation of 3.5% against 3.4% expected and unemployment down to 4.7%, Trading Economics reported. The Chancellor, John Healey, presents the Budget on Wednesday 28 October, and public borrowing came in above forecast on 21 October. Higher expected UK rates support the pound, while worry about borrowing or tax rises can weigh on it."
+   "text": "Bank Rate is 3.75% and markets fully price a rise to 4% on 5 November after September inflation of 3.5% against 3.4% expected and unemployment down to 4.7%, Trading Economics reported. The Chancellor, John Healey, presents the Budget on Wednesday 28 October and is expected to stress fiscal discipline, after public borrowing came in above forecast on 21 October. Higher expected UK rates support the pound, while worry about borrowing or tax rises can weigh on it."
   },
   {
    "title": "Europe and the wider mood",
-   "text": "The euro has held just above $1.12 (about £0.84) after a month of losses on unrest in France and its budget problems, Reuters reported on 22 October. The European Central Bank meets on 29 October and is expected to hold at 2.5%. A weaker euro or a nervous mood in markets tends to steady the dollar."
+   "text": "European shares fell by around 1% on Thursday morning as oil rose, the Associated Press reported, and the euro has held just above $1.12 (about £0.84) after a month of losses on unrest in France and its budget problems. The European Central Bank meets on 29 October and is expected to hold at 2.5%. A weaker euro or a nervous mood in markets tends to steady the dollar."
   }
  ],
  "lower": [
@@ -37,6 +37,30 @@
  ],
  "watch": "US weekly jobless claims come out at 16:30 Dubai today, forecast at 200,000; more claims than expected would point to a cooler US job market and help someone selling pounds for dirhams. UK retail sales follow at 10:00 Dubai on Friday, forecast to fall 0.1%, then the first UK and US business surveys for October at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "World shares retreat as report of damage to oil tankers pushes oil prices higher",
+   "site": "Associated Press, via ABC News",
+   "url": "https://abcnews.com/Business/wireStory/world-shares-retreat-report-damage-oil-takers-pushes-137466921",
+   "date": "22 Oct"
+  },
+  {
+   "title": "Iran says 7 tankers on fire or damaged in the Strait of Hormuz, and other Mideast news",
+   "site": "Associated Press, via KSAT",
+   "url": "https://www.ksat.com/business/2026/10/22/iran-says-7-tankers-on-fire-or-damaged-in-the-strait-of-hormuz-and-other-mideast-news/",
+   "date": "22 Oct"
+  },
+  {
+   "title": "Sterling today: Pound edges higher on U.S. tech drag",
+   "site": "Investing.com",
+   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-higher-on-us-tech-drag-4965127",
+   "date": "22 Oct"
+  },
+  {
+   "title": "Sterling holds at one month high",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-kingdom/currency",
+   "date": "22 Oct"
+  },
   {
    "title": "Dollar stabilizes as Fed meeting eyed",
    "site": "Trading Economics",
@@ -62,12 +86,6 @@
    "date": "22 Oct"
   },
   {
-   "title": "Sterling strengthens on strong CPI data",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "21 Oct"
-  },
-  {
    "title": "John Healey to deliver Autumn Budget on 28 October",
    "site": "Professional Adviser",
    "url": "https://www.professionaladviser.com/news/4533780/john-healey-deliver-autumn-budget-october",
@@ -89,24 +107,6 @@
    "title": "British Pound wavers following overshot UK inflation data, higher public debt",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/currencies/gbpusd",
-   "date": "21 Oct"
-  },
-  {
-   "title": "Live: UK inflation, September 2026 figures",
-   "site": "MoneyWeek",
-   "url": "https://moneyweek.com/economy/news/live/inflation-cpi-september-2026-report",
-   "date": "21 Oct"
-  },
-  {
-   "title": "Jackdaw gas field approved by UK Government",
-   "site": "STV News",
-   "url": "https://news.stv.tv/scotland/jackdaw-gas-field-approved-by-uk-government",
-   "date": "21 Oct"
-  },
-  {
-   "title": "Andy Burnham faces angry backlash as new gas drilling approved in North Sea",
-   "site": "HuffPost UK",
-   "url": "https://www.huffingtonpost.co.uk/entry/burnham-backlash-drilling-north-sea_uk_6ad787d4e4b061c2be464abc",
    "date": "21 Oct"
   }
  ],
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-22T08:39:21Z",
+ "calendarUpdated": "2026-10-22T10:39:42Z",
  "feed": [
+  {
+   "title": "Sterling has slipped as the dollar firmed in a nervous market",
+   "text": "GBP/USD fell from 1.3407 at 13:42 Dubai to 1.3379 by 14:09 Dubai and was near 1.3382 at 14:36 Dubai. EUR/USD fell by about 0.12% over the same half hour while the pound eased only slightly against the euro, so this was mostly the dollar strengthening. No report ties a piece of news to that half hour, but the mood is nervous: Iranian state television said seven tankers were damaged overnight in the Strait of Hormuz, Brent rose about 3% to near $112 (about £84), European shares fell by around 1%, and a nervous market with dearer oil tends to lift the dollar, so fewer dirhams per pound.",
+   "t": "2026-10-22T10:39:42Z",
+   "rate": 1.33821
+  },
   {
    "title": "The dollar has slipped again around midday",
    "text": "GBP/USD fell to 1.3397 at 12:08 Dubai, then climbed to 1.3418 by 12:26 Dubai before settling near 1.3408 at 12:38 Dubai. EUR/USD rose from 1.1229 to 1.1242 over the same quarter hour while the euro hardly moved against the pound, so this was the dollar softening rather than the pound rising. No report found explains the move: Trading Economics describes the dollar index as steady near 101.7 on Thursday, with a Fed hold expected next week, and oil has risen rather than fallen this morning.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD fell from 1.3343 at 19:40 Dubai to about 1.3316 at 20:39, and EUR/USD fell by a similar share, from 1.1244 to 1.1213, while the pound held steady against the euro, so this was the dollar gaining across the board rather than the pound weakening. No UK or US figure was due in that hour; Trading Economics reported the US ten-year yield edging up to about 5.12% on Friday after Thursday's sharp fall, which makes holding dollars a little more rewarding, but no report read so far explains this particular move. Reports still describe the dollar as set for its first weekly fall in about a month.",
    "t": "2026-10-16T16:40:44Z",
    "rate": 1.33167
-  },
-  {
-   "title": "Sterling has eased back from this week's high",
-   "text": "GBP/USD slipped from about 1.3372 at 18:30 Dubai to 1.3342 at 19:39, giving back most of the afternoon's climb. The pound also lost ground to the euro, with EUR/GBP up from 0.8420 to about 0.8430, while EUR/USD dipped only from 1.1254 to 1.1244, so this was mainly the pound easing rather than fresh dollar strength. No UK or US figure was due in that hour and no report read so far explains the move.",
-   "t": "2026-10-16T15:40:01Z",
-   "rate": 1.3343
   }
  ]
 }
