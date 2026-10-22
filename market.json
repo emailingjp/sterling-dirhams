@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T11:39:39Z",
+ "updated": "2026-10-22T12:39:06Z",
  "headline": "Sterling is just below 1.340 dollars, close to its one month high, held up by Tuesday's firm UK jobs figures and Wednesday's 3.5% inflation reading, which leave markets fully pricing a Bank of England rise on 5 November. Oil has climbed to near $112 (about £84) after reports of seven tankers damaged in the Strait of Hormuz and a drone strike on a Saudi oil field, and the dollar firmed a little on Thursday afternoon ahead of the Fed's decision and the UK Budget, both on 28 October.",
  "drivers": [
   {
@@ -35,8 +35,14 @@
   "A Budget that reassures the gilt market, which would remove a weight on the pound.",
   "US yields falling further as markets grow surer the Fed will hold, which would keep the dollar soft."
  ],
- "watch": "US weekly jobless claims come out at 16:30 Dubai today, forecast at 200,000; more claims than expected would point to a cooler US job market and help someone selling pounds for dirhams. UK retail sales follow at 10:00 Dubai on Friday, forecast to fall 0.1%, then the first UK and US business surveys for October at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
+ "watch": "UK retail sales come out at 10:00 Dubai on Friday, forecast to fall 0.1%; a better figure would help someone selling pounds for dirhams. The first UK and US business surveys for October follow at 12:30 and 17:45 Dubai; firmer UK figures would help, firmer US ones would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "Unemployment Insurance Weekly Claims",
+   "site": "US Department of Labor",
+   "url": "https://www.dol.gov/ui/data.pdf",
+   "date": "22 Oct"
+  },
   {
    "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
    "site": "CNBC Africa",
@@ -101,12 +107,6 @@
    "title": "Upcoming events: Andrew Bailey, fireside chat at OMFIF",
    "site": "Bank of England",
    "url": "https://www.bankofengland.co.uk/events/upcoming-events",
-   "date": "21 Oct"
-  },
-  {
-   "title": "UK September CPI surges to 3.5%; markets bet on Bank of England rate hike next month",
-   "site": "BigGo Finance",
-   "url": "https://finance.biggo.com/news/2fd6cf1e-71d3-4726-b38b-4be62e40c13b",
    "date": "21 Oct"
   }
  ],
@@ -233,8 +233,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-22T11:39:39Z",
+ "calendarUpdated": "2026-10-22T12:39:06Z",
  "feed": [
+  {
+   "title": "Fewer Americans claimed jobless benefits last week",
+   "text": "New claims for unemployment benefits fell to 194,000 in the week to 17 October, against 200,000 expected, and the week before was revised up to 200,000. Fewer claims point to a US job market that is still firm, which supports the dollar, but the effect was small: GBP/USD dipped from 1.3373 to 1.3368 within a minute of the release, then recovered to about 1.3372 by 12:32 UTC.",
+   "when": "2026-10-22T12:30:00Z",
+   "t": "2026-10-22T12:39:06Z",
+   "rate": 1.33728
+  },
   {
    "title": "The dollar has firmed on reports of planned strikes on Iran",
    "text": "GBP/USD fell from 1.3382 at 14:54 Dubai to 1.3361 by 15:09 Dubai and was near 1.3366 at 15:36 Dubai, while EUR/USD fell by a similar margin and the pound hardly moved against the euro, so this was the dollar strengthening. No report ties a piece of news to that quarter hour, but just before it CNBC reported a New York Times account that the US and Israeli militaries have drawn up plans for a short but intensive operation against Iran after next month's midterm elections, with Brent near $112 (about £84). Gulf tension and dearer oil tend to lift the dollar, so fewer dirhams per pound.",
@@ -378,12 +385,6 @@
    "when": "2026-10-17T06:45:00Z",
    "t": "2026-10-17T22:30:34Z",
    "rate": 1.33218
-  },
-  {
-   "title": "The dollar has slipped back as the week closes",
-   "text": "GBP/USD edged up from 1.3317 at 22:45 Dubai to about 1.3328 at 23:39, recovering part of the early evening dip. EUR/USD rose a little, from 1.1230 to 1.1234, and the pound gained slightly on the euro, so this was a softer dollar with a slightly firmer pound in thin late Friday trade. Trading Economics reported the dollar index at about 101.6 on Friday, its lowest in two weeks and down about 0.4% on the week, with markets putting the chance of no Fed change in October at about 85%; no single report explains this last hour.",
-   "t": "2026-10-16T19:40:02Z",
-   "rate": 1.33288
   }
  ]
 }
