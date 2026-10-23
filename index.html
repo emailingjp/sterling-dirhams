@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-23.2">
+<meta name="build" content="2026-10-23.3">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -1557,7 +1557,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function moveLt(label, usdThen) {
     if (!(usdThen > 0)) return lt(label, 'Waiting', 'for prices', 0);
     var d = diffVs(state.mid, usdThen), p = state.mid / usdThen - 1, sign = Math.abs(p) < 0.00005 ? 0 : d;
-    return lt(label, gbp(gbpOf(d), true), aedSigned(d), sign, pctSigned(p));
+    return lt(label, gbp(gbpOf(d), true), aedSigned(d), sign, Math.abs(p) < 0.00005 ? '0.00%' : pctSigned(p));
   }
   function renderLive() {
     if (!state.mid) return;
@@ -1569,7 +1569,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     top.push(moveLt('Today', td && td.prev));
     top.push(moveLt(ref ? 'vs ' + ref.short : 'vs the start', ref && ref.usd));
     if (o) {
-      var liveB = toAed(dealUsd()), pips = Math.round((o.trigUsd - dealUsd()) / 0.0001), gain = o.aed - getNow();
+      /* Pips are GBP/AED pips, 0.0001 of the rate shown on the page, so they add up with the rates on screen */
+      var liveB = toAed(dealUsd()), pips = Math.round((o.trig - liveB) / 0.0001), gain = o.aed - getNow();
       top.push(o.trig > liveB ? lt('To order', pips + ' pips', gbpK(gbpOf(gain), true) + ' when filled', 0, '+' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%')
         : lt('Your order', 'Level reached', o.rate.toFixed(4) + ' after the fee', 1));
     } else top.push(lt('Your order', 'Not set', 'see Dealing below', 0));
@@ -1584,7 +1585,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (td) {
       var lo = state.mid, hi = state.mid;
       state.hourly.forEach(function (b) { if (b.t >= td.start && isFxOpen(b.t)) { if (b.l < lo) lo = b.l; if (b.h > hi) hi = b.h; } });
-      var off = Math.round((hi - state.mid) / 0.0001);
+      var off = Math.round((toAed(hi) - toAed(state.mid)) / 0.0001);
       bot.push(lt('Range since ' + dxbTime(td.start), toAed(lo).toFixed(4) + ' to ' + toAed(hi).toFixed(4), off <= 0 ? 'now at the high' : 'now ' + off + ' pips below the high', 0));
     }
     if (cfg.need > 0) {
@@ -1604,7 +1605,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (state.fitOrder) { f.hidden = false; f.className = 'order-flag'; f.textContent = 'Order in view · tap to zoom back'; return; }
     var above = o.mid > e.hi, below = o.mid < e.lo;
     if (!above && !below) { f.hidden = true; return; }
-    var pips = Math.abs(Math.round((o.usd - state.mid) / 0.0001));
+    var pips = Math.abs(Math.round((o.mid - toAed(state.mid)) / 0.0001));
     f.hidden = false; f.className = 'order-flag' + (below ? ' below' : '');
     f.textContent = (above ? '▲ ' : '▼ ') + 'Order ' + o.mid.toFixed(4) + ' · ' + pips + ' pips ' + (above ? 'above' : 'below') + ' · tap to show';
   }
@@ -1643,7 +1644,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function asksHTML(o) {
     return ['Is your margin ' + pct() + ', which is ' + Math.round(cfg.marginPct * 100) + ' basis points, of your market ' + basisWord() + ', with no other charges?',
       'Is my order rate' + (o ? ' of ' + o.rate.toFixed(4) : '') + ' the rate I receive, after your margin?' + (o ? ' Then your ' + basisWord() + ' has to reach ' + o.trig.toFixed(4) + ', GBP/USD ' + o.trigUsd.toFixed(4) + '.' : ''),
-      onBid() ? 'How far below the interbank mid is your market bid, in GBP/USD pips?' : 'Which price triggers the order: the interbank mid, the market bid, or your own dealing rate?',
+      onBid() ? 'How far below the interbank mid is your market bid, in pips?' : 'Which price triggers the order: the interbank mid, the market bid, or your own dealing rate?',
       'Is the order watched around the clock until I cancel it, including overnight, or only in your dealing hours?',
       'If the market jumps through my level, do I get my rate or better?',
       'Will it be dealt in one amount?',
@@ -1665,7 +1666,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     }
     var fee = o.trig - o.dealt, rows = [], bw = basisWord();
     rows.push(workRow('Market ' + bw + ' must reach<span class="note2">GBP/USD ' + bw + ' ' + o.trigUsd.toFixed(4) + '</span>', o.trig.toFixed(4), 'key'));
-    if (onBid()) rows.push(workRow('Mid at that point, about<span class="note2">the bid is ' + (halfSpread() * 1e4).toFixed(1) + ' GBP/USD pips below it on Kraken now</span>', o.mid.toFixed(4)));
+    if (onBid()) rows.push(workRow('Mid at that point, about<span class="note2">the bid is ' + (spreadAed() * 1e4).toFixed(1) + ' pips below it on Kraken now</span>', o.mid.toFixed(4)));
     rows.push(workRow('Less the ' + pct() + ' fee<span class="note2">' + pct() + ' of ' + o.trig.toFixed(4) + '</span>', MINUS + fee.toFixed(4)));
     rows.push(workRow('You receive', o.dealt.toFixed(4), 'key'));
     rows.push(workRow(amountShort() + ' brings<span class="note2">' + aed(cfg.amount * o.trig) + ' at the ' + bw + ', less the fee of ' + aed(cfg.amount * fee) + ' (' + gbp(cfg.amount * fee / o.mid) + ')</span>', aed(o.aed)));
@@ -1679,14 +1680,14 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var items = [], vsNow = o.aed - getNow(), sref = state.refs.get('start'), liveB = toAed(dealUsd());
     if (o.trig > liveB) {
       var lt = lastTradedAt(o.usd);
-      items.push('From the live ' + bw + ' of ' + liveB.toFixed(4) + ', the market has to rise <b>' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%</b>, ' + Math.round((o.trigUsd - dealUsd()) / 0.0001) + ' GBP/USD pips. ' +
+      items.push('From the live ' + bw + ' of ' + liveB.toFixed(4) + ', the market has to rise <b>' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%</b>, which is ' + Math.round((o.trig - liveB) / 0.0001) + ' pips (' + Math.round((o.trigUsd - dealUsd()) / 0.0001) + ' in GBP/USD). ' +
         (lt ? 'GBP/USD last traded there on ' + dxbDay(lt) + ', around ' + dxbTime(lt) + ' Dubai.' : 'GBP/USD has not traded there in the last 30 days.'));
     } else items.push('<span class="gain">The market is already there.</span> The live ' + bw + ' of ' + liveB.toFixed(4) + ' is at or above ' + o.trig.toFixed(4) + ', so this order would be dealt now.');
     items.push('Against dealing now: <span class="' + (vsNow >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsNow) + '</span>.');
     if (sref) { var vsS = o.aed - brings(sref.usd); items.push('Against ' + sref.short + ': <span class="' + (vsS >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(vsS) + '</span>.'); }
     setHTML('orderOut', items.map(function (x) { return '<li>' + x + '</li>'; }).join(''));
     var tm = targetTrig(), hint;
-    if (onBid()) hint = 'Kraken\'s bid stands in for the bank\'s. If the bank\'s bid sits 2 GBP/USD pips below the mid rather than ' + (halfSpread() * 1e4).toFixed(1) + ', the mid needs to reach about ' + (o.trig + 0.0002 * cfg.peg).toFixed(4) + ' instead of ' + o.mid.toFixed(4) + '.';
+    if (onBid()) hint = 'Kraken\'s bid stands in for the bank\'s. If the bank\'s bid sits 7 pips below the mid rather than ' + (spreadAed() * 1e4).toFixed(1) + ', the mid needs to reach about ' + (o.trig + 0.0002 * cfg.peg).toFixed(4) + ' instead of ' + o.mid.toFixed(4) + '.';
     else { var alt = o.rate * (1 - mg()); hint = 'If the desk treats ' + o.rate.toFixed(4) + ' as the market level and takes its fee from that, you receive ' + alt.toFixed(4) + ', which is ' + aed(cfg.amount * alt) + ', ' + gbp(cfg.amount * (o.rate - alt) / o.mid) + ' less. Ask which they mean.'; }
     if (tm) hint += ' <button type="button" class="linkbtn" id="orderToTarget">Use the rate that leaves ' + gbpExact(cfg.target) + '</button>';
     setHTML('orderHint', hint);
@@ -1764,7 +1765,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     rows.push(workRow(amountShort() + ' brings', aed(get)));
     if (cfg.need > 0) rows.push(workRow('Left after completion', gbpExact(round100(leftNow())) + '<span class="note2">' + aed(get - cfg.need) + '</span>', 'key'));
     setHTML('dnRows', rows.join(''));
-    setHTML('dealIntro', 'For the call to the treasury desk. Prices are live from Kraken. The fee is a percentage of the bank\'s market ' + bw + ', taken off it: at ' + pct() + ' it is ' + fee.toFixed(4) + ' dirhams per pound at today\'s rate, not ' + cfg.marginPct + ' of a dirham.' + (onBid() ? ' The bid is half the spread below the mid, ' + (halfSpread() * 1e4).toFixed(1) + ' GBP/USD pips on Kraken now.' : ''));
+    setHTML('dealIntro', 'For the call to the treasury desk. Prices are live from Kraken. A pip is the fourth decimal place of GBP/AED, 0.0001, worth ' + aed(cfg.amount * 0.0001 * (1 - mg())) + ' (' + gbp(gbpOf(cfg.amount * 0.0001 * (1 - mg()))) + ') on ' + amountShort() + '. The fee is a percentage of the bank\'s market ' + bw + ', taken off it: at ' + pct() + ' it is ' + fee.toFixed(4) + ' dirhams per pound at today\'s rate, not ' + cfg.marginPct + ' of a dirham.' + (onBid() ? ' The bid is half the spread below the mid, ' + (spreadAed() * 1e4).toFixed(1) + ' pips on Kraken now.' : ''));
     var out = $('quoteOut'), raw = $('quoteIn').value.trim().replace(',', '.');
     if (!raw) { setHTML('quoteOut', '<p class="tiny">Type the rate the desk quotes to see whether it is within the ' + pct() + ' and what it leaves you.</p>'); return; }
     var q = parseFloat(raw), note = '';
