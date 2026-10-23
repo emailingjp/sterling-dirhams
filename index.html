@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-22.1">
+<meta name="build" content="2026-10-23.2">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -226,7 +226,35 @@ select, input { font: inherit; color: var(--ink); background: var(--raised); bor
 .btn { font: inherit; font-size: 13.5px; color: var(--accent); background: transparent; border: 1px solid var(--rule); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
 .seg button:focus-visible, .btn:focus-visible, .linkbtn:focus-visible, select:focus-visible, input:focus-visible, .cellbtn:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.legend { min-height: 22px; margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 2px 16px; }
+.legend { min-height: 20px; margin: 0 0 6px; font-size: 13px; color: var(--ink-2); line-height: 1.45; }
+/* The live strips around the chart: each move on the amount, in pounds with dirhams and the percentage */
+.live-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; margin: 0 0 8px; }
+.live-grid:empty { display: none; }
+#liveBottom { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 8px 0 0; }
+@media (max-width: 700px) { #liveTop { grid-template-columns: repeat(3, minmax(0, 1fr)); } #liveBottom { grid-template-columns: repeat(2, minmax(0, 1fr)); } .lt { padding: 6px 6px 7px; } .lt-l { font-size: 11px; } }
+.lt { background: var(--raised); padding: 6px 8px 7px; min-width: 0; }
+.lt.gain { background: var(--gain-tile); }
+.lt.loss { background: var(--loss-tile); }
+.lt-l { display: flex; justify-content: space-between; gap: 4px; font-size: 11.5px; font-weight: 600; color: var(--ink-3); white-space: nowrap; }
+.lt-l span { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.lt-l i { font-style: normal; flex: none; color: var(--ink-2); }
+.lt.gain .lt-l i { color: var(--gain); }
+.lt.loss .lt-l i { color: var(--loss); }
+.lt b { display: block; font-size: 15.5px; font-weight: 700; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lt.gain b { color: var(--gain); }
+.lt.loss b { color: var(--loss); }
+.lt-s { display: block; font-size: 11.5px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.order-flag { position: absolute; right: 74px; top: 6px; z-index: 3; font: inherit; font-size: 12px; font-weight: 650; color: var(--on-accent); background: var(--accent); border: 0; border-radius: 5px; padding: 4px 8px; cursor: pointer; }
+.order-flag.below { top: auto; bottom: 30px; }
+@media (max-width: 520px) {
+  .chart { height: clamp(260px, 42vh, 420px); }
+  .chart-head { margin: 10px 0 6px; gap: 8px; }
+  .tools { flex-wrap: nowrap; width: 100%; }
+  .tools label { flex: 1; min-width: 0; display: flex; }
+  .tools select { flex: 1; min-width: 0; }
+  .cw { display: none; }
+  .order-flag { right: 62px; }
+}
 .legend b { color: var(--ink); font-weight: 600; }
 .legend .gain { color: var(--gain); font-weight: 650; }
 .legend .loss { color: var(--loss); font-weight: 650; }
@@ -442,21 +470,20 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         <button type="button" data-iv="4h" aria-pressed="false">4h</button>
       </div>
       <div class="tools">
-        <div class="seg" role="group" aria-label="Chart style" id="styleSeg">
-          <button type="button" data-style="candles" aria-pressed="true">Candles</button>
-          <button type="button" data-style="line" aria-pressed="false">Line</button>
-        </div>
-        <label for="compare">Compare with <select id="compare"></select></label>
+        <label for="compare"><span class="cw">Compare with</span> <select id="compare"></select></label>
         <button type="button" class="btn" id="resetView">Reset view</button>
       </div>
     </div>
-    <div class="legend" id="legend"></div>
+    <p class="legend" id="legend"></p>
+    <div class="live-grid" id="liveTop" aria-label="Live moves on your amount"></div>
     <div class="chart-frame">
       <div class="chart" id="chart"></div>
+      <button type="button" class="order-flag" id="orderFlag" hidden></button>
       <div class="chart-msg" id="chartMsg" hidden></div>
       <div class="chart-note" id="chartNote" hidden></div>
     </div>
-    <div class="axis-notes"><span id="axisLeft">Left scale: pounds gained or lost against the comparison</span><span>Right scale: GBP/AED mid. Scroll or pinch to zoom, drag to move.</span></div>
+    <div class="live-grid" id="liveBottom" aria-label="Today at a glance"></div>
+    <span id="axisLeft" hidden></span>
   </section>
 
   <section class="card latest solo" id="latest" aria-labelledby="latestTitle">
@@ -661,7 +688,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     bid: null, ask: null, mid: null, at: 0, via: '', alive: 0,
     hourly: [], hourIdx: new Map(),
     bars: [], iv: IV[savedIv] ? savedIv : '1h',
-    style: load(KEYS.style, 'candles') === 'line' ? 'line' : 'candles', wide: true, orderDraft: null,
+    style: 'candles', wide: true, orderDraft: null, fitOrder: false,
     cmp: load(KEYS.cmp, 'start'),
     refs: new Map(), refOrder: [],
     dir: 0, hovering: false, dirty: false, histOk: false,
@@ -786,7 +813,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   /* The left-hand scale of the chart: pounds, with dirhams beside them when there is room. */
   function axisMoney(aedV) {
     var g = gbpOf(aedV), s = g < 0 ? MINUS : g > 0 ? '+' : '';
-    return s + '£' + kNum(Math.abs(g)) + (state.wide ? ' (AED ' + kNum(Math.abs(aedV)) + ')' : '');
+    var k1 = function (a) { return a >= 1e6 ? (a / 1e6).toFixed(2) + 'm' : a >= 1e3 ? (a / 1e3).toFixed(1) + 'k' : String(Math.round(a)); };
+    return s + '£' + k1(Math.abs(g)) + (state.wide ? ' (AED ' + k1(Math.abs(aedV)) + ')' : '');
   }
   function amountShort() { var a = cfg.amount; return a >= 1e6 && a % 1e5 === 0 ? '£' + (a / 1e6) + 'm' : gbpExact(a); }
   function pct() { return cfg.marginPct + '%'; }
@@ -1165,6 +1193,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       if (dn < lo) lo = dn; if (up > hi) hi = up;
     }
     lo = toAed(lo); hi = toAed(hi);
+    if (state.fitOrder) { var fo = orderInfo(); if (fo) { hi = Math.max(hi, fo.mid + 0.0004); lo = Math.min(lo, fo.mid - 0.0004); } }
     if (hi - lo < 0.0006) { var c = (hi + lo) / 2; lo = c - 0.0003; hi = c + 0.0003; }
     return { lo: lo, hi: hi };
   }
@@ -1309,14 +1338,6 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var n = $('chartNote');
     n.hidden = !(IV[state.iv].ticks && state.bars.length < 3);
     if (!n.hidden) n.textContent = 'The 1s to 30s bars are built from the live price while this page is open, with any minutes it missed filled from Kraken\'s one-minute prices.';
-  }
-  function setStyle(st) {
-    state.style = st === 'line' ? 'line' : 'candles'; save(KEYS.style, state.style);
-    Array.prototype.forEach.call(document.querySelectorAll('#styleSeg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.style === state.style)); });
-    if (!chart) return;
-    candleSeries.applyOptions({ visible: state.style !== 'line' });
-    lineSeries.applyOptions({ visible: state.style === 'line' });
-    drawLines(); drawMarkers(); renderLegend(null);
   }
   var ivToken = 0;
   function chooseInterval(iv) {
@@ -1510,19 +1531,87 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     else document.title = rate + ' · Sterling into dirhams';
   }
   function renderLegend(pt) {
-    var el = $('legend'), ref = currentRef();
-    if ((!state.mid && !pt) || !ref) { el.textContent = ''; return; }
-    var rate, when, px;
+    var el = $('legend');
+    if (!state.mid && !pt) { el.textContent = ''; return; }
     if (pt) {
-      rate = pt.rate; when = timeFmt(pt.t + DXB) + ' Dubai';
-      px = pt.o != null ? '<span>O <b>' + pt.o.toFixed(4) + '</b> H <b>' + pt.h.toFixed(4) + '</b> L <b>' + pt.l.toFixed(4) + '</b> C <b>' + rate.toFixed(4) + '</b></span>' : '<span>mid <b>' + rate.toFixed(4) + '</b></span>';
+      var d = diffVs(state.mid, pt.rate / cfg.peg);
+      el.innerHTML = '<b>' + timeFmt(pt.t + DXB) + '</b>' + (pt.o != null ? ' · O ' + pt.o.toFixed(4) + ' H ' + pt.h.toFixed(4) + ' L ' + pt.l.toFixed(4) + ' C <b>' + pt.rate.toFixed(4) + '</b>' : ' · <b>' + pt.rate.toFixed(4) + '</b>') +
+        ' · now against it <span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + gbp(gbpOf(d), true) + ' (' + aedSigned(d) + ')</span>';
     } else {
-      rate = toAed(state.mid); when = state.via === 'saved' ? 'Last seen' : 'Now';
-      px = '<span>mid <b>' + rate.toFixed(4) + '</b></span>';
+      el.innerHTML = '<b>' + (state.via === 'saved' ? 'Last seen' : 'Now') + '</b> mid <b>' + toAed(state.mid).toFixed(4) + '</b>' + (onBid() ? ' · bid ' + toAed(dealUsd()).toFixed(4) : '') + ' · GBP/USD ' + state.mid.toFixed(5) + ' · ' + dxbTime((state.at || Date.now()) / 1000, true);
     }
-    var d = cfg.amount * (1 - mg()) * (rate - toAed(ref.usd)), o = cfg.orderShow ? orderInfo() : null;
-    el.innerHTML = '<span><b>' + when + '</b></span>' + px + '<span>' + amountShort() + ' brings <b>' + aed(cfg.amount * rate * (1 - mg())) + '</b></span><span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + withGbpSigned(d) + ' against ' + ref.label + '</span>' +
-      (o && !pt ? '<span>Order at mid <b>' + o.mid.toFixed(4) + '</b>, ' + (o.mid > rate ? (((o.mid / rate) - 1) * 100).toFixed(2) + '% above' : 'reached') + '</span>' : '');
+  }
+
+  /* ---------- the live strips around the chart ---------- */
+  /* GBP/USD a given number of seconds ago: the page's own second-by-second prices, then Kraken's minutes, then its hours. */
+  function priceAgo(sec) {
+    var t = Date.now() / 1000 - sec, i;
+    for (i = ticks.length - 1; i >= 0; i--) { if (ticks[i].t <= t) { if (t - ticks[i].t < 120) return ticks[i].c; break; } }
+    var m = state.minute || [];
+    for (i = m.length - 1; i >= 0; i--) { if (m[i].t <= t) { if (t - m[i].t < 180) return m[i].c; break; } }
+    return priceAtHour(t);
+  }
+  function lt(label, big, small, sign, tag) {
+    return '<div class="lt' + (sign > 0 ? ' gain' : sign < 0 ? ' loss' : '') + '"><span class="lt-l"><span>' + label + '</span>' + (tag ? '<i>' + tag + '</i>' : '') + '</span><b>' + big + '</b><span class="lt-s">' + small + '</span></div>';
+  }
+  function moveLt(label, usdThen) {
+    if (!(usdThen > 0)) return lt(label, 'Waiting', 'for prices', 0);
+    var d = diffVs(state.mid, usdThen), p = state.mid / usdThen - 1, sign = Math.abs(p) < 0.00005 ? 0 : d;
+    return lt(label, gbp(gbpOf(d), true), aedSigned(d), sign, pctSigned(p));
+  }
+  function renderLive() {
+    if (!state.mid) return;
+    var top = [], bot = [], td = todayInfo(), li = londonInfo(), ref = state.refs.get('start'), o = orderInfo();
+    top.push(moveLt('15 min', priceAgo(900)));
+    top.push(moveLt('1 hour', priceAgo(3600)));
+    /* Since London opened at 8am, or before that since 4pm London the day before; Today runs from the 01:00 Dubai roll */
+    top.push(moveLt(li && /8am/.test(li.label) ? 'London open' : 'Since 4pm', li && li.usd));
+    top.push(moveLt('Today', td && td.prev));
+    top.push(moveLt(ref ? 'vs ' + ref.short : 'vs the start', ref && ref.usd));
+    if (o) {
+      var liveB = toAed(dealUsd()), pips = Math.round((o.trigUsd - dealUsd()) / 0.0001), gain = o.aed - getNow();
+      top.push(o.trig > liveB ? lt('To order', pips + ' pips', gbpK(gbpOf(gain), true) + ' when filled', 0, '+' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%')
+        : lt('Your order', 'Level reached', o.rate.toFixed(4) + ' after the fee', 1));
+    } else top.push(lt('Your order', 'Not set', 'see Dealing below', 0));
+    /* Dollar or pound today: the dollar's move shows in EUR/USD, the pound's in EUR/GBP */
+    var eu = td ? crossToday('EUR/USD', td.start, td.ref, td.open) : null, eg = td ? crossToday('EUR/GBP', td.start, td.ref, td.open) : null;
+    if (eu != null && eg != null) {
+      var per = cfg.amount * (1 - mg()), base = toAed(td.prev), dA = per * base * eu, pA = per * base * (-eg);
+      var who = Math.abs(dA) >= 1.5 * Math.abs(pA) ? 'The dollar' : Math.abs(pA) >= 1.5 * Math.abs(dA) ? 'The pound' : 'Both';
+      bot.push(lt('Dollar or pound, today', who, 'Dollar ' + gbpK(gbpOf(dA), true) + ', pound ' + gbpK(gbpOf(pA), true), 0));
+    } else bot.push(lt('Dollar or pound, today', 'Waiting', 'for the euro prices', 0));
+    /* The range since the market's day began, from the hourly bars and the live price */
+    if (td) {
+      var lo = state.mid, hi = state.mid;
+      state.hourly.forEach(function (b) { if (b.t >= td.start && isFxOpen(b.t)) { if (b.l < lo) lo = b.l; if (b.h > hi) hi = b.h; } });
+      var off = Math.round((hi - state.mid) / 0.0001);
+      bot.push(lt('Range since ' + dxbTime(td.start), toAed(lo).toFixed(4) + ' to ' + toAed(hi).toFixed(4), off <= 0 ? 'now at the high' : 'now ' + off + ' pips below the high', 0));
+    }
+    if (cfg.need > 0) {
+      var left = leftNow();
+      bot.push(lt('Left after completion', gbpExact(round100(left)), cfg.target > 0 ? (left >= cfg.target ? gbpK(left - cfg.target) + ' above ' + gbpK(cfg.target) : gbpK(cfg.target - left) + ' to ' + gbpK(cfg.target)) : aed(getNow() - cfg.need), cfg.target > 0 && left >= cfg.target ? 1 : 0));
+    }
+    var cal = state.market && state.market.calendar, now = Date.now() / 1000, nx = null;
+    (cal || []).forEach(function (e) { var t = Date.parse(e.t) / 1000; if (!nx && t > now) nx = e; });
+    if (nx) { var tt = Date.parse(nx.t) / 1000; bot.push(lt('Next event, ' + dxbTime(tt) + ' Dubai', esc(nx.name), 'in ' + inWords(tt - now).trim(), 0)); }
+    setHTML('liveTop', top.join('')); setHTML('liveBottom', bot.join(''));
+    renderOrderFlag();
+  }
+  /* The order line is often off the top of a short chart. A flag says how far it is, and a tap brings it into view. */
+  function renderOrderFlag() {
+    var f = $('orderFlag'), o = cfg.orderShow ? orderInfo() : null, e = chart ? visibleExtent() : null;
+    if (!o || !e) { f.hidden = true; return; }
+    if (state.fitOrder) { f.hidden = false; f.className = 'order-flag'; f.textContent = 'Order in view · tap to zoom back'; return; }
+    var above = o.mid > e.hi, below = o.mid < e.lo;
+    if (!above && !below) { f.hidden = true; return; }
+    var pips = Math.abs(Math.round((o.usd - state.mid) / 0.0001));
+    f.hidden = false; f.className = 'order-flag' + (below ? ' below' : '');
+    f.textContent = (above ? '▲ ' : '▼ ') + 'Order ' + o.mid.toFixed(4) + ' · ' + pips + ' pips ' + (above ? 'above' : 'below') + ' · tap to show';
+  }
+  function toggleFitOrder() {
+    state.fitOrder = !state.fitOrder;
+    if (chart) { chart.priceScale('right').applyOptions({ autoScale: true }); chart.priceScale('left').applyOptions({ autoScale: true }); redraw(true); }
+    renderOrderFlag();
   }
 
   /* ---------- the order planner ---------- */
@@ -1910,7 +1999,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function frame() {
     if (!state.dirty || !state.mid) return;
     state.dirty = false;
-    renderDash(); renderHeadline(); renderOrder(); renderQuote(); renderWorkings();
+    renderDash(); renderHeadline(); renderOrder(); renderQuote(); renderWorkings(); renderLive();
     pushLive(); tickNote();
     if (!state.hovering) renderLegend(null);
   }
@@ -1992,7 +2081,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var hiddenAt = 0;
   function bindUi() {
     $('seg').addEventListener('click', function (e) { var b = e.target.closest('button[data-iv]'); if (b) chooseInterval(b.dataset.iv); });
-    $('styleSeg').addEventListener('click', function (e) { var b = e.target.closest('button[data-style]'); if (b) setStyle(b.dataset.style); });
+    $('orderFlag').addEventListener('click', toggleFitOrder);
     $('compare').addEventListener('change', function (e) { setCompare(e.target.value); });
     $('resetView').addEventListener('click', function () { defaultView(); });
     $('orderIn').addEventListener('input', onOrderInput);
@@ -2044,7 +2133,6 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     buildRefs(); renderCompareOptions(); renderLabels();
     initChart();
     Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === state.iv)); });
-    Array.prototype.forEach.call(document.querySelectorAll('#styleSeg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.style === state.style)); });
     $('orderShow').checked = cfg.orderShow !== false;
     if (cfg.orderRate > 0) $('orderIn').value = (+cfg.orderRate).toFixed(4);
     renderStatus(); frame();
@@ -2057,10 +2145,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     });
     setInterval(frame, 250);
     setInterval(renderStatus, 1000);
-    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); renderNow(); } renderLatestLive(); }, 2000);
+    setInterval(function () { if (state.mid && state.histOk) { renderDays(); renderMarks(); renderGauges(); renderNext(); renderNow(); } renderLatestLive(); renderLive(); }, 2000);
     setInterval(function () { if (state.histOk) { buildRefs(); renderCompareOptions(); } renderCalendar(); }, 60000);
     setInterval(loadMarket, 10 * 60000);
-    setInterval(function () { loadCrosses(); loadMinutes(); }, 15 * 60000);
+    setInterval(loadCrosses, 15 * 60000);
+    setInterval(loadMinutes, 5 * 60000);
     setInterval(function () { loadDaily(); }, 60 * 60000);
     setInterval(refreshHistory, 15 * 60000);
     setInterval(function () {
