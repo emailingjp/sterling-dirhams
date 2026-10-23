@@ -1,18 +1,18 @@
 {
- "updated": "2026-10-23T14:40:05Z",
- "headline": "Sterling is near 1.3377 dollars, close to its one month high, after UK business surveys for October beat forecasts; mixed US surveys and a firmer US consumer reading this afternoon barely moved it. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week, while oil near $113.7 (about £85.00) on Gulf tension is a counterweight.",
+ "updated": "2026-10-23T17:40:08Z",
+ "headline": "Sterling has eased to about 1.3362 dollars this evening, still near its one month high after UK business surveys for October beat forecasts, as Brent climbed above $116 (about £86.90) on Gulf tension and the dollar firmed. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% after its September rise. On Friday 23 October Trading Economics put the chance of a hold at the meeting ending on 28 October at about 91%, and the chance of a rise in December at about 80%; Reuters reported on 22 October that oil driven inflation keeps a December rise in view. The Fed is in its quiet period before the decision."
+   "text": "The Fed's range is 3.75% to 4% after its September rise. On Friday 23 October Trading Economics put the chance of a hold at the meeting ending on 28 October at about 91%, and the chance of a rise in December at about 76% to 80%; Reuters reported on 22 October that oil driven inflation keeps a December rise in view. The Fed is in its quiet period before the decision."
   },
   {
    "title": "US bond yields and the dollar",
-   "text": "The US ten year yield fell by more than 10 basis points to below 5% on Thursday 22 October, a one month low, and was about 4.97% on Friday morning, Trading Economics reported. The dollar index was near 101.6, close to a three week low. Lower US yields make the dollar less rewarding to hold."
+   "text": "The US ten year yield fell by about 17 basis points to below 5% on Thursday 22 October, a one month low, and was back near 4.99% on Friday 23 October as oil rose, Trading Economics reported. The dollar index was near 101.8 on Friday. Lower US yields make the dollar less rewarding to hold, and higher ones the reverse."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent was near $113.7 (about £84.90) a barrel on Friday 23 October, up about 0.5% in Asian trading and close to its four year high of $114.44 (about £85.40) from 4 May, Trading Economics reported. Iran said seven tankers were damaged in the Strait of Hormuz on Thursday, the New York Times reported US and Israeli plans for renewed strikes after the 3 November midterms, and President Trump said the US was not negotiating with Iran. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent was up about 2.6% at $116.13 (about £86.90) a barrel on Friday 23 October, its highest since 30 April and on course for a third weekly rise, CNBC reported. The US has ordered non-essential government staff out of Saudi Arabia after Houthi attacks, Aramco told staff to leave its Dhahran headquarters, and US officials told the New York Times of plans for renewed strikes on Iran after the 3 November midterms, while President Trump said the US was not negotiating with Iran. Dearer oil and Gulf tension tend to lift the dollar."
   },
   {
    "title": "The UK side",
@@ -20,11 +20,11 @@
   },
   {
    "title": "Europe and the wider mood",
-   "text": "The euro has held just above $1.12 (about £0.84) after a month of losses on unrest in France and its budget problems, and the European Central Bank meets on 29 October, expected to hold at 2.5%. Technology shares sold off on Thursday after results from Meta and Tesla. A weaker euro or a nervous mood in markets tends to steady the dollar."
+   "text": "The euro has held near $1.12 (about £0.84) after a month of losses on unrest in France and its budget problems, and the European Central Bank meets on 29 October, expected to hold at 2.5%. Worry about heavy spending on artificial intelligence has weighed on shares this week. A weaker euro or a nervous mood in markets tends to steady the dollar."
   }
  ],
  "lower": [
-  "Further attacks on Gulf shipping or Saudi oil sites pushing Brent above its May high of $114.44 (about £85.40), which would tend to lift the dollar.",
+  "Further attacks on Gulf shipping or Saudi oil sites pushing Brent higher still from about $116 (about £86.90), which would tend to lift the dollar.",
   "US prices rising at their fastest since 2022 in the October business surveys, which keep a December Fed rise in view and support the dollar.",
   "A Fed statement on 28 October that leans towards a December rise, which would lift US yields and the dollar.",
   "A Budget on 28 October that unsettles the gilt market with more borrowing than expected, which would weigh on the pound."
@@ -37,6 +37,30 @@
  ],
  "watch": "This week's figures are out. The next big events are on Wednesday 28 October: the UK Budget, and the Fed's decision at 22:00 Dubai, where markets expect a hold. A Fed statement that plays down a December rise would help someone selling pounds for dirhams; one that leans towards a rise would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+   "date": "23 Oct"
+  },
+  {
+   "title": "United States 10 year bond yield",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "date": "23 Oct"
+  },
+  {
+   "title": "Saudi Aramco tells staff to evacuate Dhahran headquarters",
+   "site": "Cyprus Mail",
+   "url": "https://cyprus-mail.com/2026/10/22/saudi-aramco-tells-staff-to-evacuate-dhahran-headquarters",
+   "date": "22 Oct"
+  },
+  {
+   "title": "GBP/USD, EUR/USD, EUR/GBP minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "23 Oct"
+  },
   {
    "title": "US S&P Global flash October services PMI 57.9 vs 58.0 expected",
    "site": "investingLive",
@@ -80,34 +104,10 @@
    "date": "23 Oct"
   },
   {
-   "title": "GBP/USD, EUR/USD, EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "23 Oct"
-  },
-  {
    "title": "Retail sales, Great Britain: September 2026",
    "site": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2026",
    "date": "23 Oct"
-  },
-  {
-   "title": "United Kingdom Retail Sales falls 0.4% MoM in September vs. -0.1% estimates",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/united-kingdom-retail-sales-falls-04-mom-in-september-vs-01-estimates-202610230601",
-   "date": "23 Oct"
-  },
-  {
-   "title": "Sterling holds at one month high",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/currency",
-   "date": "23 Oct"
-  },
-  {
-   "title": "Liveblog, 22 October 2026: Iran, Hormuz and the US",
-   "site": "Times of Israel",
-   "url": "https://timesofisrael.com/liveblog-october-22-2026",
-   "date": "22 Oct"
   }
  ],
  "calendar": [
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-23T14:40:05Z",
+ "calendarUpdated": "2026-10-23T17:40:08Z",
  "feed": [
+  {
+   "title": "The dollar has firmed as oil tops $116",
+   "text": "Brent rose about 2.6% to $116.13 (about £86.90) a barrel on Friday, its highest since 30 April, as traders priced in renewed US strikes on Iran and Houthi attacks on Saudi Arabia went on; the US ten year yield edged back up to about 4.99%. Dearer oil and Gulf tension tend to lift the dollar, and EUR/USD fell from 1.1204 to 1.1193 over the same hours, so this was mainly the dollar firming, with the pound also a touch softer against the euro. GBP/USD eased from 1.3385 at 18:55 Dubai to 1.3360 by 21:20 Dubai and was near 1.3362 at 21:35 Dubai; no single headline marks the start of the slide.",
+   "t": "2026-10-23T17:40:08Z",
+   "rate": 1.33644
+  },
   {
    "title": "US business surveys were mixed, with prices rising fast",
    "text": "The flash October surveys put US manufacturing at 56.0 against 55.5 expected and services at 57.9 against 58.0, with the composite down to 57.6 from 58.4; firms raised selling prices at the sharpest rate since August 2022. Faster price rises add to the case for a December Fed rise, which tends to lift the dollar. GBP/USD dipped from 1.3373 just before 17:45 Dubai to 1.3366 within four minutes, then recovered to 1.3377 by 17:53 Dubai.",
@@ -380,13 +386,6 @@
    "text": "GBP/USD rose from 1.3349 at 16:11 Dubai to 1.3375 by 16:26 Dubai and was near 1.3371 at 16:38 Dubai, a 0.20% climb in a quarter of an hour. Both sides moved: the euro gained about 0.08% against the dollar while the pound gained about 0.1% against the euro, so a slightly softer dollar and a firmer pound together. No report names a cause for this move; Reuters had described the dollar index at midday as 0.1% lower at 101.85 and the pound as up 0.3% after this morning's jobs figures, with Bank of England rise bets supporting it.",
    "t": "2026-10-20T12:40:01Z",
    "rate": 1.33725
-  },
-  {
-   "title": "Sterling has risen on stronger UK jobs figures",
-   "text": "Unemployment fell to 4.7% in the three months to August against 4.9% expected, and regular pay growth was 3.7% against 3.6% expected, though total pay including bonuses slowed to 3.7% against a 3.8% forecast, the ONS figures showed. A firmer job market and steady pay make the Bank of England rise expected on 5 November more likely, which lifts the pound. GBP/USD rose from 1.3332 to 1.3345 within the minute of the release while EUR/USD did not move, climbed to about 1.3361 by 10:30 Dubai, and held near 1.3349 at 13:10 Dubai even as the euro slipped against the dollar.",
-   "when": "2026-10-20T06:00:00Z",
-   "t": "2026-10-20T09:14:21Z",
-   "rate": 1.33431
   }
  ]
 }
