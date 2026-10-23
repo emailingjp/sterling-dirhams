@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:39:57Z",
+ "updated": "2026-10-23T11:39:52Z",
  "headline": "Sterling is near 1.3375 dollars, close to its one month high, after UK business surveys for October beat forecasts. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week, while oil near $113.7 (about £85.00) on Gulf tension is a counterweight, with the US surveys due this afternoon.",
  "drivers": [
   {
@@ -38,6 +38,24 @@
  "watch": "The US business surveys come out at 17:45 Dubai today (manufacturing forecast 55.4, services 57.9). Softer US figures would help someone selling pounds for dirhams; firmer ones would weigh on the pound against the dollar.",
  "sources": [
   {
+   "title": "Brent jumps over 114 dollars due to Houthi attacks",
+   "site": "Demócrata",
+   "url": "https://www.democrata.es/en/economy/brent-crude-surpasses-114-dollars-after-new-houthi-attacks-on-saudi-infrastructures/",
+   "date": "23 Oct"
+  },
+  {
+   "title": "Brent crude oil",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "date": "23 Oct"
+  },
+  {
+   "title": "US dollar index",
+   "site": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/currency",
+   "date": "23 Oct"
+  },
+  {
    "title": "United Kingdom Services PMI",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/services-pmi",
@@ -68,12 +86,6 @@
    "date": "23 Oct"
   },
   {
-   "title": "Dollar pressured by lower Treasury yields",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "23 Oct"
-  },
-  {
    "title": "Sterling holds at one month high",
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/united-kingdom/currency",
@@ -95,18 +107,6 @@
    "title": "Dollar struggles to recover as US bond yields continue falling",
    "site": "FX Leaders",
    "url": "https://www.fxleaders.com/news/2026/10/22/dollar-struggles-to-recover-as-us-bond-yields-continue-falling/",
-   "date": "22 Oct"
-  },
-  {
-   "title": "Unemployment Insurance Weekly Claims",
-   "site": "US Department of Labor",
-   "url": "https://www.dol.gov/ui/data.pdf",
-   "date": "22 Oct"
-  },
-  {
-   "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
-   "site": "CNBC Africa",
-   "url": "https://www.cnbcafrica.com/2026/oil-prices-jump-on-middle-east-worries-as-u-s-israel-reportedly-weigh-fresh-iran-strikes",
    "date": "22 Oct"
   }
  ],
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-23T08:39:57Z",
+ "calendarUpdated": "2026-10-23T11:39:52Z",
  "feed": [
+  {
+   "title": "The dollar has firmed as oil climbs on attacks on Saudi Arabia",
+   "text": "Brent rose above $114 (about £85.30) a barrel on Friday morning, up more than 1% and at its highest in over five months, after Yemen's Houthis claimed strikes on Saudi targets including the Yanbu refinery, which caught fire. Dearer oil and Gulf tension tend to lift the dollar, and the dollar index rose about 0.2% on the day. GBP/USD eased from 1.3382 at 14:15 Dubai to 1.3370 by 15:35 Dubai while EUR/USD fell by a similar share and the pound held steady against the euro, so this was the dollar firming; no report ties the late morning dip to a single headline.",
+   "t": "2026-10-23T11:39:52Z",
+   "rate": 1.33676
+  },
   {
    "title": "UK business surveys have beaten forecasts",
    "text": "The flash October surveys showed UK services at 53.1 against 51.8 expected and manufacturing at 52.8 against about 51.8, both up on September. Firmer UK activity supports the case for a Bank of England rise on 5 November, and the pound gained on the euro, while GBP/USD rose from 1.3380 to 1.3385 within a minute, then slipped to 1.3374 by 08:36 UTC as the dollar firmed across the board, a move no source has yet explained.",
@@ -380,12 +386,6 @@
    "when": "2026-10-20T03:02:00Z",
    "t": "2026-10-20T03:39:32Z",
    "rate": 1.33334
-  },
-  {
-   "title": "The dollar has firmed as US bond yields climbed this afternoon",
-   "text": "The US ten-year yield rose about 4.6 basis points to 5.127% by 19:30 Dubai, reversing a fall in the morning, as yields rose worldwide on the unrest in France, FXStreet reported, and the dollar index gained 0.13% to 101.91. Higher US yields draw money into the dollar, so fewer dirhams per pound. The euro fell by a similar share while the pound held steady against the euro, so this was a dollar move: GBP/USD slipped from about 1.3335 at 15:00 Dubai to 1.3311 by 20:38 Dubai.",
-   "t": "2026-10-19T16:39:28Z",
-   "rate": 1.33097
   }
  ]
 }
