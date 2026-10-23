@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T11:39:52Z",
- "headline": "Sterling is near 1.3375 dollars, close to its one month high, after UK business surveys for October beat forecasts. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week, while oil near $113.7 (about £85.00) on Gulf tension is a counterweight, with the US surveys due this afternoon.",
+ "updated": "2026-10-23T14:40:05Z",
+ "headline": "Sterling is near 1.3377 dollars, close to its one month high, after UK business surveys for October beat forecasts; mixed US surveys and a firmer US consumer reading this afternoon barely moved it. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week, while oil near $113.7 (about £85.00) on Gulf tension is a counterweight.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -25,18 +25,30 @@
  ],
  "lower": [
   "Further attacks on Gulf shipping or Saudi oil sites pushing Brent above its May high of $114.44 (about £85.40), which would tend to lift the dollar.",
-  "Firmer US business surveys this afternoon, which would add to the case for a December Fed rise and lift the dollar.",
+  "US prices rising at their fastest since 2022 in the October business surveys, which keep a December Fed rise in view and support the dollar.",
   "A Fed statement on 28 October that leans towards a December rise, which would lift US yields and the dollar.",
   "A Budget on 28 October that unsettles the gilt market with more borrowing than expected, which would weigh on the pound."
  ],
  "higher": [
   "Stronger UK business surveys, out this morning above forecast, which add to the case for a Bank of England rise on 5 November and support the pound.",
-  "Softer US business surveys this afternoon, which would make a December Fed rise less likely and weaken the dollar.",
+  "Slower growth in US business activity, with the composite survey down to 57.6 from 58.4, which could make a December Fed rise less certain and weaken the dollar.",
   "Any sign of talks between the US and Iran, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "A Budget that reassures the gilt market, which would remove a weight on the pound."
  ],
- "watch": "The US business surveys come out at 17:45 Dubai today (manufacturing forecast 55.4, services 57.9). Softer US figures would help someone selling pounds for dirhams; firmer ones would weigh on the pound against the dollar.",
+ "watch": "This week's figures are out. The next big events are on Wednesday 28 October: the UK Budget, and the Fed's decision at 22:00 Dubai, where markets expect a hold. A Fed statement that plays down a December rise would help someone selling pounds for dirhams; one that leans towards a rise would weigh on the pound against the dollar.",
  "sources": [
+  {
+   "title": "US S&P Global flash October services PMI 57.9 vs 58.0 expected",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/us-s-p-global-flash-october-services-pmi-57-9-vs-58-0-expected/",
+   "date": "23 Oct"
+  },
+  {
+   "title": "Surveys of Consumers, final October 2026",
+   "site": "University of Michigan",
+   "url": "https://www.sca.isr.umich.edu/",
+   "date": "23 Oct"
+  },
   {
    "title": "Brent jumps over 114 dollars due to Houthi attacks",
    "site": "Demócrata",
@@ -95,18 +107,6 @@
    "title": "Liveblog, 22 October 2026: Iran, Hormuz and the US",
    "site": "Times of Israel",
    "url": "https://timesofisrael.com/liveblog-october-22-2026",
-   "date": "22 Oct"
-  },
-  {
-   "title": "Stock market today: Dow, S&P 500, Nasdaq tumble as oil climbs, investors weigh Meta, Tesla earnings",
-   "site": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
-   "date": "22 Oct"
-  },
-  {
-   "title": "Dollar struggles to recover as US bond yields continue falling",
-   "site": "FX Leaders",
-   "url": "https://www.fxleaders.com/news/2026/10/22/dollar-struggles-to-recover-as-us-bond-yields-continue-falling/",
    "date": "22 Oct"
   }
  ],
@@ -233,8 +233,22 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-23T11:39:52Z",
+ "calendarUpdated": "2026-10-23T14:40:05Z",
  "feed": [
+  {
+   "title": "US business surveys were mixed, with prices rising fast",
+   "text": "The flash October surveys put US manufacturing at 56.0 against 55.5 expected and services at 57.9 against 58.0, with the composite down to 57.6 from 58.4; firms raised selling prices at the sharpest rate since August 2022. Faster price rises add to the case for a December Fed rise, which tends to lift the dollar. GBP/USD dipped from 1.3373 just before 17:45 Dubai to 1.3366 within four minutes, then recovered to 1.3377 by 17:53 Dubai.",
+   "when": "2026-10-23T13:45:00Z",
+   "t": "2026-10-23T14:40:05Z",
+   "rate": 1.33766
+  },
+  {
+   "title": "US consumer mood was revised up, with inflation worries steady",
+   "text": "The University of Michigan's final October sentiment reading was 48.0 against 46.3 expected from the first estimate, little changed on September's 48.1, while consumers' year ahead inflation expectation held at 4.7% and the long run measure rose to 3.5%. A firmer reading and rising inflation expectations lean slightly towards a stronger dollar, but the reaction was small: GBP/USD moved from 1.3376 to 1.3377 at 18:01 Dubai, slipped to 1.3372 by 18:05 Dubai and was back near 1.3377 by 18:38 Dubai.",
+   "when": "2026-10-23T14:00:00Z",
+   "t": "2026-10-23T14:40:05Z",
+   "rate": 1.33766
+  },
   {
    "title": "The dollar has firmed as oil climbs on attacks on Saudi Arabia",
    "text": "Brent rose above $114 (about £85.30) a barrel on Friday morning, up more than 1% and at its highest in over five months, after Yemen's Houthis claimed strikes on Saudi targets including the Yanbu refinery, which caught fire. Dearer oil and Gulf tension tend to lift the dollar, and the dollar index rose about 0.2% on the day. GBP/USD eased from 1.3382 at 14:15 Dubai to 1.3370 by 15:35 Dubai while EUR/USD fell by a similar share and the pound held steady against the euro, so this was the dollar firming; no report ties the late morning dip to a single headline.",
@@ -373,19 +387,6 @@
    "when": "2026-10-20T06:00:00Z",
    "t": "2026-10-20T09:14:21Z",
    "rate": 1.33431
-  },
-  {
-   "title": "The dollar has eased overnight, lifting sterling a little",
-   "text": "GBP/USD rose from about 1.3308 at midnight Dubai to 1.3332 by 07:30 Dubai, while EUR/USD rose by a similar share, from 1.1211 to 1.1227, so this was mainly a softer dollar rather than news about the pound. Reuters reported from Tokyo early on Tuesday that the dollar index had dipped 0.05% to 101.92 and the euro had recovered a little of Monday's 0.25% fall caused by the unrest in France, while Asian shares fell sharply ahead of results from AI companies. Brent rose 0.21% to $109.78 (about £82) a barrel, which would usually support the dollar, so oil was not the cause.",
-   "t": "2026-10-20T03:39:32Z",
-   "rate": 1.33334
-  },
-  {
-   "title": "A brief spike at 07:02 Dubai was a single large trade",
-   "text": "GBP/USD on Kraken jumped from 1.3330 to 1.3358 within the minute to 07:02 Dubai and was back at 1.3331 the next minute. EUR/USD did not move and no news report names a cause, so this looks like one large order meeting a thin early morning market rather than a change in the rate.",
-   "when": "2026-10-20T03:02:00Z",
-   "t": "2026-10-20T03:39:32Z",
-   "rate": 1.33334
   }
  ]
 }
