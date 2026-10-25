@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-23.3">
+<meta name="build" content="2026-10-26.2">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -665,13 +665,15 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var ECB_URL = 'https://api.frankfurter.dev/v1/';
   var MARKET_URL = 'https://emailingjp.github.io/sterling-dirhams/market.json';
   var IV = {
-    '1s': { sec: 1, ticks: true, span: 300 },
-    '5s': { sec: 5, ticks: true, span: 900 },
-    '10s': { sec: 10, ticks: true, span: 1800 },
-    '30s': { sec: 30, ticks: true, span: 5400 },
-    '1m': { sec: 60, k: 1, span: 3 * 3600 },
-    '5m': { sec: 300, k: 5, span: 24 * 3600 },
-    '10m': { sec: 600, k: 5, span: 48 * 3600 },
+    /* span: how much time the chart shows when it opens or Reset view is pressed (26 October: widened, as
+       the short charts opened zoomed in too far) */
+    '1s': { sec: 1, ticks: true, span: 600 },
+    '5s': { sec: 5, ticks: true, span: 1800 },
+    '10s': { sec: 10, ticks: true, span: 3600 },
+    '30s': { sec: 30, ticks: true, span: 3 * 3600 },
+    '1m': { sec: 60, k: 1, span: 6 * 3600 },
+    '5m': { sec: 300, k: 5, span: 3 * 86400 },
+    '10m': { sec: 600, k: 5, span: 5 * 86400 },
     '30m': { sec: 1800, k: 30 },
     '1h': { sec: 3600, k: 60 },
     '4h': { sec: 14400, k: 240 }
@@ -1027,12 +1029,25 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       .map(function (m) { return { t: m.t, o: m.o, h: m.h, l: m.l, c: m.c }; });
     return fill.length ? ticks.concat(fill).sort(function (a, b) { return a.t - b.t; }) : ticks;
   }
+  /* Kraken keeps only twelve hours of one-minute prices, so at weekends and early on a Monday the short charts
+     had almost no history and opened on a few fat candles. Before the earliest bar, Kraken's five-minute prices
+     (two and a half days) fill in, so the opening view always has history to show. */
+  function withOlder(bars) {
+    var first = bars.length ? bars[0].t : Infinity;
+    var older = (state.five || []).filter(function (b) { return b.t + 300 <= first && isFxOpen(b.t); })
+      .map(function (b) { return { t: b.t, o: b.o, h: b.h, l: b.l, c: b.c }; });
+    return older.length ? older.concat(bars) : bars;
+  }
+  function loadFive() {
+    return ohlc('GBPUSD', 5).then(function (b) { state.five = b; }).catch(function () { /* the short charts manage without */ });
+  }
   function barsFor(iv) {
     var spec = IV[iv];
-    if (spec.ticks) return Promise.resolve(bucket(withMinuteFill(), spec.sec));
+    if (spec.ticks) return Promise.resolve(bucket(withOlder(withMinuteFill()), spec.sec));
     var get = spec.k === 60 && state.hourly.length ? Promise.resolve(state.hourly) : ohlc('GBPUSD', spec.k);
     return get.then(function (raw) {
       var open = raw.filter(function (b) { return isFxOpen(b.t); }).map(function (b) { return { t: b.t, o: b.o, h: b.h, l: b.l, c: b.c }; });
+      if (spec.k === 1) open = withOlder(open);
       return spec.sec === spec.k * 60 ? open : bucket(open, spec.sec);
     });
   }
@@ -1314,9 +1329,12 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function defaultView() {
     if (!chart || !state.bars.length) return;
     var spec = IV[state.iv], now = Date.now() / 1000, s = parseYmd(startDate());
-    var from = spec.span ? now - spec.span : Date.UTC(s.y, s.m - 1, s.d) / 1000 - 86400;
+    var from = spec.span ? now - spec.span : Date.UTC(s.y, s.m - 1, s.d) / 1000 - 86400, last = state.bars.length - 1;
     from = Math.max(from, state.bars[0].t);
-    try { chart.timeScale().setVisibleRange({ from: from + DXB, to: state.bars[state.bars.length - 1].t + DXB }); }
+    /* At least 90 candles in view, so a chart filled from minute prices does not open on a few fat bars */
+    var first = state.bars.findIndex(function (b) { return b.t >= from; });
+    if (first < 0 || last - first < 90) from = state.bars[Math.max(0, last - 90)].t;
+    try { chart.timeScale().setVisibleRange({ from: from + DXB, to: state.bars[last].t + DXB }); }
     catch (e) { chart.timeScale().fitContent(); }
   }
   function pushLive() {
@@ -2117,7 +2135,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     window.addEventListener('pageshow', function (e) { if (e.persisted) { checkVersion(); reconnectNow(); pollOnce(); refreshHistory(); loadMarket(); } });
   }
   function refreshHistory() {
-    loadCrosses(); loadDaily();
+    loadCrosses(); loadDaily(); loadFive();
     loadHourly().then(function () {
       if (IV[state.iv].ticks) return;
       var iv = state.iv;
@@ -2140,7 +2158,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     connect();
     fetchEcb(startDate());
     loadMarket(); loadCrosses(); loadDaily(); loadMinutes(); pollOnce();
-    loadHourly().then(function () { return chooseInterval(state.iv); }).catch(function (e) {
+    Promise.all([loadHourly(), loadFive()]).then(function () { return chooseInterval(state.iv); }).catch(function (e) {
       showMsg('Kraken did not send the price history (' + e.message + '). Trying again in 30 seconds.');
       setTimeout(retry, 30000);
     });
