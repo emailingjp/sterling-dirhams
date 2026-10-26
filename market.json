@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T05:50:26Z",
+ "updated": "2026-10-26T08:40:50Z",
  "headline": "Sterling is about 1.3381 dollars this morning, a little above Friday's close, as the dollar eased with oil and US yields at the start of a week that brings the UK Budget and the Fed's decision on Wednesday 28 October. Markets expect the Fed to hold while pricing about an 80% chance of a December rise, and they price at least three Bank of England rises by April 2027.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "The next figure is US consumer confidence from the Conference Board on Tuesday 27 October at 18:00 Dubai, forecast at 80.5 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. The big events follow on Wednesday 28 October: the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected and a statement that plays down a December rise would help.",
  "sources": [
+  {
+   "title": "FTSE 100 today: Stocks rise as gold, miners gain; oil eases",
+   "site": "Investing.com",
+   "url": "https://za.investing.com/news/stock-market-news/ftse-100-today-stocks-rise-as-gold-miners-gain-oil-eases-4524484",
+   "date": "26 Oct"
+  },
   {
    "title": "Sterling faces asymmetric risks ahead of UK budget",
    "site": "FXStreet",
@@ -101,12 +107,6 @@
    "title": "US S&P Global flash October services PMI 57.9 vs 58.0 expected",
    "site": "investingLive",
    "url": "https://investinglive.com/news/us-s-p-global-flash-october-services-pmi-57-9-vs-58-0-expected/",
-   "date": "23 Oct"
-  },
-  {
-   "title": "Surveys of Consumers, final October 2026",
-   "site": "University of Michigan",
-   "url": "https://www.sca.isr.umich.edu/",
    "date": "23 Oct"
   }
  ],
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-26T05:50:26Z",
+ "calendarUpdated": "2026-10-26T08:40:50Z",
  "feed": [
+  {
+   "title": "Sterling has slipped since London opened",
+   "text": "GBP/USD fell from 1.3373 at the London opening at 11:00 Dubai to 1.3343 by 12:40 Dubai, with roughly half the fall from a firmer dollar (EUR/USD eased from 1.1217 to 1.1206) and half from a softer pound (EUR/GBP rose from 0.8388 to 0.8396). No report found names a cause; the morning's coverage notes only that sterling was 0.14% lower at 1.3358 dollars while oil eased and investors waited for Wednesday's Budget. Cheaper oil would usually weaken the dollar, so the oil price does not explain this morning's firmer dollar.",
+   "t": "2026-10-26T08:40:50Z",
+   "rate": 1.33437
+  },
   {
    "title": "The pound has slipped against the euro ahead of Wednesday's Budget",
    "text": "The dollar has eased about 0.2% against the euro since Friday's close, but the pound has lost a similar share against the euro, with EUR/GBP up from 0.8371 to 0.8390, so GBP/USD is little changed and slipped from 1.3380 at 07:30 Dubai to 1.3370 by 09:50 Dubai. No report names a cause this morning, but investors are cautious before the Budget at 16:30 Dubai on Wednesday, after long-dated gilt yields traded above 6% this month for the first time since 1998, and analysts see the pound's risks into the Budget as tilted to the downside. At least three Bank of England rises by April 2027 are already priced, so the rate outlook on its own is not lifting the pound further.",
@@ -378,12 +384,6 @@
    "title": "A Bank of England policymaker has made the case for higher rates",
    "text": "Megan Greene told the London School of Economics on Tuesday evening that the risk of the energy shock feeding into wider inflation is greater than the Bank expected, and that it should lean against that risk early, Reuters reported. Talk of a firmer Bank of England supports the expected rise to 4% on 5 November, which tends to lift the pound. GBP/USD edged up from 1.3370 at 21:00 Dubai to 1.3381 by 21:50 Dubai, a small move that no report ties directly to the speech.",
    "when": "2026-10-20T17:00:00Z",
-   "t": "2026-10-21T03:41:58Z",
-   "rate": 1.33736
-  },
-  {
-   "title": "Sterling has held steady overnight ahead of UK inflation",
-   "text": "GBP/USD was 1.3374 at 07:40 Dubai, where it stood at 19:40 Dubai yesterday, after a quiet night between about 1.3370 and 1.3385. Reuters reported from Tokyo that the dollar index was steady at 101.78 after falling 0.2% on Tuesday to a three week low, as lower US Treasury yields and a dip in oil made the dollar less attractive. Brent settled 0.7% lower at $108.79 (about £81) a barrel on Tuesday after touching a five month high, as traders weighed conflicting reports on US and Iran talks.",
    "t": "2026-10-21T03:41:58Z",
    "rate": 1.33736
   }
