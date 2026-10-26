@@ -1,42 +1,72 @@
 {
- "updated": "2026-10-23T17:40:08Z",
- "headline": "Sterling has eased to about 1.3362 dollars this evening, still near its one month high after UK business surveys for October beat forecasts, as Brent climbed above $116 (about £86.90) on Gulf tension and the dollar firmed. Markets price at least three Bank of England rises by April 2027 and expect the Fed to hold next week.",
+ "updated": "2026-10-26T03:41:45Z",
+ "headline": "Sterling is about 1.3381 dollars this morning, a little above Friday's close, as the dollar eased with oil and US yields at the start of a week that brings the UK Budget and the Fed's decision on Wednesday 28 October. Markets expect the Fed to hold while pricing about an 80% chance of a December rise, and they price at least three Bank of England rises by April 2027.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% after its September rise. On Friday 23 October Trading Economics put the chance of a hold at the meeting ending on 28 October at about 91%, and the chance of a rise in December at about 76% to 80%; Reuters reported on 22 October that oil driven inflation keeps a December rise in view. The Fed is in its quiet period before the decision."
+   "text": "The Fed's range is 3.75% to 4% after its September rise, and its decision is due on Wednesday 28 October at 22:00 Dubai. Markets expect a hold but imply about an 80% chance of a rise in December, Reuters reported on Monday 26 October. A Fed that leans towards a rise lifts the dollar."
   },
   {
    "title": "US bond yields and the dollar",
-   "text": "The US ten year yield fell by about 17 basis points to below 5% on Thursday 22 October, a one month low, and was back near 4.99% on Friday 23 October as oil rose, Trading Economics reported. The dollar index was near 101.8 on Friday. Lower US yields make the dollar less rewarding to hold, and higher ones the reverse."
+   "text": "The US ten year yield was 4.97% early on Monday 26 October, well below its early October peak of 5.36%, Reuters reported, and the dollar index was near 101.7, down about 0.1% on the day. Lower US yields make the dollar less rewarding to hold, and higher ones the reverse."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent was up about 2.6% at $116.13 (about £86.90) a barrel on Friday 23 October, its highest since 30 April and on course for a third weekly rise, CNBC reported. The US has ordered non-essential government staff out of Saudi Arabia after Houthi attacks, Aramco told staff to leave its Dhahran headquarters, and US officials told the New York Times of plans for renewed strikes on Iran after the 3 November midterms, while President Trump said the US was not negotiating with Iran. Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent rose 6.2% last week to its highest weekly close since mid 2022 on Houthi attacks in Saudi Arabia, then fell 1.6% to $114.88 (about £85.90) on Monday 26 October as Qatari mediators visited Tehran, Reuters reported. On Sunday President Trump said he would soon choose between a deal with Iran and resuming strikes, which he suggested could follow the 3 November midterms. Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and money markets price at least three quarter point rises by April 2027, the first possibly on 5 November, after September inflation of 3.5% against 3.4% expected, Trading Economics reported. Sterling held near a one month high on Thursday as money moved into UK bonds. The Chancellor, John Healey, presents the Budget on Wednesday 28 October after public borrowing came in above forecast on 21 October; higher expected UK rates support the pound, while worry about borrowing or tax rises can weigh on it."
+   "text": "Bank Rate is 3.75% and on Friday 23 October money markets priced at least three quarter point rises by April 2027, the first possibly on 5 November, after September inflation of 3.5% against 3.4% expected, Trading Economics reported. The Chancellor, John Healey, presents his first Budget on Wednesday 28 October at 16:30 Dubai, amid high borrowing costs and energy prices. Higher expected UK rates support the pound, while worry about borrowing or tax rises can weigh on it."
   },
   {
    "title": "Europe and the wider mood",
-   "text": "The euro has held near $1.12 (about £0.84) after a month of losses on unrest in France and its budget problems, and the European Central Bank meets on 29 October, expected to hold at 2.5%. Worry about heavy spending on artificial intelligence has weighed on shares this week. A weaker euro or a nervous mood in markets tends to steady the dollar."
+   "text": "The euro rose to $1.1222 (about £0.84) on Monday after France avoided a credit downgrade last week, Reuters reported, and the European Central Bank meets on 29 October. Results from Alphabet, Microsoft and Amazon this week could shape confidence in spending on artificial intelligence. A firmer euro tends to go with a softer dollar, while a nervous mood in markets tends to steady it."
   }
  ],
  "lower": [
-  "Further attacks on Gulf shipping or Saudi oil sites pushing Brent higher still from about $116 (about £86.90), which would tend to lift the dollar.",
-  "US prices rising at their fastest since 2022 in the October business surveys, which keep a December Fed rise in view and support the dollar.",
+  "Renewed US strikes on Iran or further Houthi attacks on Saudi Arabia pushing oil back up from about $115 (about £85.90), which would tend to lift the dollar.",
   "A Fed statement on 28 October that leans towards a December rise, which would lift US yields and the dollar.",
+  "US core inflation (PCE) on 29 October above the 0.3% expected, or growth above the 3.2% forecast, which would keep a December Fed rise in view and support the dollar.",
   "A Budget on 28 October that unsettles the gilt market with more borrowing than expected, which would weigh on the pound."
  ],
  "higher": [
-  "Stronger UK business surveys, out this morning above forecast, which add to the case for a Bank of England rise on 5 November and support the pound.",
-  "Slower growth in US business activity, with the composite survey down to 57.6 from 58.4, which could make a December Fed rise less certain and weaken the dollar.",
-  "Any sign of talks between the US and Iran, which would bring oil down, ease US inflation worries and weaken the dollar.",
-  "A Budget that reassures the gilt market, which would remove a weight on the pound."
+  "Progress in Qatar's mediation or a deal between the US and Iran, which would bring oil down, ease US inflation worries and weaken the dollar.",
+  "A Fed statement on 28 October that plays down a December rise, which would lower US yields and weaken the dollar.",
+  "Softer US core inflation or growth on 29 October than forecast, which would make a December Fed rise less certain.",
+  "A Budget that reassures the gilt market, which would remove a weight on the pound while the case for a Bank of England rise on 5 November stands."
  ],
- "watch": "This week's figures are out. The next big events are on Wednesday 28 October: the UK Budget, and the Fed's decision at 22:00 Dubai, where markets expect a hold. A Fed statement that plays down a December rise would help someone selling pounds for dirhams; one that leans towards a rise would weigh on the pound against the dollar.",
+ "watch": "The next figure is US consumer confidence from the Conference Board on Tuesday 27 October at 18:00 Dubai, forecast at 80.5 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. The big events follow on Wednesday 28 October: the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected and a statement that plays down a December rise would help.",
  "sources": [
+  {
+   "title": "Asian shares make cautious start, Brent eases from six-month high",
+   "site": "Reuters via SRN News",
+   "url": "https://srnnews.com/asian-shares-make-cautious-start-brent-eases-from-six-month-high",
+   "date": "26 Oct"
+  },
+  {
+   "title": "Trump says decision time nears on Iran: deal or finish it off",
+   "site": "Bloomberg via The Spokesman-Review",
+   "url": "https://www.spokesman.com/stories/2026/oct/25/trump-says-decision-time-nears-on-iran-deal-or-fin/",
+   "date": "25 Oct"
+  },
+  {
+   "title": "Oil retreats from recent highs as Iran conflict risks keep markets on edge",
+   "site": "Newswav",
+   "url": "https://newswav.com/article/oil-retreats-from-recent-highs-as-iran-conflict-risks-keep-markets-on-edge-A2610_zfpRQW",
+   "date": "26 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD minute and hourly prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "26 Oct"
+  },
+  {
+   "title": "This week's economic calendar",
+   "site": "Forex Factory",
+   "url": "https://www.forexfactory.com/calendar",
+   "date": "26 Oct"
+  },
   {
    "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
    "site": "CNBC",
@@ -54,12 +84,6 @@
    "site": "Cyprus Mail",
    "url": "https://cyprus-mail.com/2026/10/22/saudi-aramco-tells-staff-to-evacuate-dhahran-headquarters",
    "date": "22 Oct"
-  },
-  {
-   "title": "GBP/USD, EUR/USD, EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "23 Oct"
   },
   {
    "title": "US S&P Global flash October services PMI 57.9 vs 58.0 expected",
@@ -84,157 +108,145 @@
    "site": "Trading Economics",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
    "date": "23 Oct"
-  },
-  {
-   "title": "US dollar index",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/currency",
-   "date": "23 Oct"
-  },
-  {
-   "title": "United Kingdom Services PMI",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/services-pmi",
-   "date": "23 Oct"
-  },
-  {
-   "title": "United Kingdom Manufacturing PMI",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-kingdom/manufacturing-pmi",
-   "date": "23 Oct"
-  },
-  {
-   "title": "Retail sales, Great Britain: September 2026",
-   "site": "Office for National Statistics",
-   "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/september2026",
-   "date": "23 Oct"
   }
  ],
  "calendar": [
   {
-   "t": "2026-10-20T06:00:00Z",
-   "ccy": "GBP",
+   "t": "2026-10-27T14:00:00Z",
+   "ccy": "USD",
    "impact": "Medium",
-   "name": "UK wages, three months on a year earlier",
-   "title": "Average Earnings Index 3m/y",
-   "forecast": "3.8%",
-   "previous": "3.9%",
-   "good": "Higher than 3.8%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+   "name": "US consumer confidence (Conference Board)",
+   "title": "CB Consumer Confidence",
+   "forecast": "80.5",
+   "previous": "81.9",
+   "good": "Lower than 80.5",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-10-21T06:00:00Z",
+   "t": "2026-10-28T12:30:00Z",
    "ccy": "GBP",
    "impact": "High",
-   "name": "UK inflation (CPI), year on year",
-   "title": "CPI y/y",
-   "forecast": "3.4%",
-   "previous": "3.1%",
-   "good": "Higher than 3.4%",
+   "name": "UK: Annual Budget Release",
+   "title": "Annual Budget Release",
+   "forecast": "",
+   "previous": "",
+   "good": "Higher than forecast",
    "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
   },
   {
-   "t": "2026-10-21T13:00:00Z",
+   "t": "2026-10-28T12:30:00Z",
    "ccy": "GBP",
    "impact": "Medium",
-   "name": "Bank of England Governor Bailey speaks",
-   "title": "BOE Gov Bailey Speaks",
+   "name": "UK: Autumn Forecast Statement",
+   "title": "Autumn Forecast Statement",
    "forecast": "",
    "previous": "",
-   "good": "A firm tone on rates",
-   "why": "Talk of Bank of England rises lifts the pound."
+   "good": "Higher than forecast",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
   },
   {
-   "t": "2026-10-22T12:30:00Z",
+   "t": "2026-10-28T18:00:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "Fed interest rate decision",
+   "title": "Federal Funds Rate",
+   "forecast": "4.00%",
+   "previous": "4.00%",
+   "good": "No rise, or fewer rises signalled",
+   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
+  },
+  {
+   "t": "2026-10-28T18:00:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "Fed statement",
+   "title": "FOMC Statement",
+   "forecast": "",
+   "previous": "",
+   "good": "No rise, or fewer rises signalled",
+   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
+  },
+  {
+   "t": "2026-10-28T18:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "Fed press conference",
+   "title": "FOMC Press Conference",
+   "forecast": "",
+   "previous": "",
+   "good": "No rise, or fewer rises signalled",
+   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
+  },
+  {
+   "t": "2026-10-29T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US GDP, first estimate",
+   "title": "Advance GDP q/q",
+   "forecast": "3.2%",
+   "previous": "1.5%",
+   "good": "Lower than 3.2%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-10-29T12:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US core inflation (PCE), month on month",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%",
+   "good": "Lower than 0.3%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-10-29T12:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: Advance GDP Price Index q/q",
+   "title": "Advance GDP Price Index q/q",
+   "forecast": "3.5%",
+   "previous": "6.2%",
+   "good": "Lower than 3.5%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-10-29T12:30:00Z",
    "ccy": "USD",
    "impact": "Medium",
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
-   "forecast": "200K",
-   "previous": "199K",
-   "good": "Higher than 200K",
+   "forecast": "198K",
+   "previous": "194K",
+   "good": "Higher than 198K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-10-23T06:00:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "UK retail sales, month on month",
-   "title": "Retail Sales m/m",
-   "forecast": "-0.1%",
-   "previous": "0.5%",
-   "good": "Higher than -0.1%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-10-23T08:30:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "UK: Flash Manufacturing PMI",
-   "title": "Flash Manufacturing PMI",
-   "forecast": "51.8",
-   "previous": "52.0",
-   "good": "Higher than 51.8",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-10-23T08:30:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "UK: Flash Services PMI",
-   "title": "Flash Services PMI",
-   "forecast": "51.8",
-   "previous": "51.7",
-   "good": "Higher than 51.8",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-10-23T13:45:00Z",
+   "t": "2026-10-30T12:30:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US: Flash Manufacturing PMI",
-   "title": "Flash Manufacturing PMI",
-   "forecast": "55.4",
-   "previous": "57.0",
-   "good": "Lower than 55.4",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-23T13:45:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US: Flash Services PMI",
-   "title": "Flash Services PMI",
-   "forecast": "57.9",
-   "previous": "58.7",
-   "good": "Lower than 57.9",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-23T14:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US consumer sentiment (University of Michigan), revised",
-   "title": "Revised UoM Consumer Sentiment",
-   "forecast": "46.3",
-   "previous": "46.3",
-   "good": "Lower than 46.3",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-23T14:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US inflation expectations (University of Michigan), revised",
-   "title": "Revised UoM Inflation Expectations",
-   "forecast": "",
-   "previous": "4.7%",
-   "good": "Lower than forecast",
+   "name": "US: Employment Cost Index q/q",
+   "title": "Employment Cost Index q/q",
+   "forecast": "0.8%",
+   "previous": "0.9%",
+   "good": "Lower than 0.8%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-23T17:40:08Z",
+ "calendarUpdated": "2026-10-26T03:41:45Z",
  "feed": [
+  {
+   "title": "The dollar has eased as oil slips on Qatari mediation",
+   "text": "Brent fell 1.6% to $114.88 (about £85.90) a barrel in early Asian trade on Monday after reports that Qatari mediators were in Tehran on Sunday, working with the US to ease tensions, and the US ten year yield eased to 4.97%, Reuters reported. Cheaper oil and lower US yields tend to weaken the dollar, and EUR/USD rose from 1.1199 to 1.1222 over the same hours, so this was the dollar easing rather than the pound gaining. GBP/USD held near 1.3366 after the reopening at 01:00 Dubai, then rose from 1.3362 at 03:20 Dubai to 1.3378 by 04:00 Dubai and was near 1.3380 at 07:30 Dubai.",
+   "t": "2026-10-26T03:41:45Z",
+   "rate": 1.338
+  },
+  {
+   "title": "Trump says it is decision time on Iran",
+   "text": "In a Fox News interview on Sunday, President Trump said he must choose between a deal with Iran and resuming strikes, suggested strikes could follow the 3 November midterms, and said there would be no strike that day. Gulf tension tends to lift the dollar, but the weekend price took it calmly: Kraken's GBP/USD eased from 1.3375 at Friday's close and stayed mostly between 1.3360 and 1.3376 through Sunday.",
+   "t": "2026-10-26T03:41:45Z",
+   "rate": 1.338
+  },
   {
    "title": "The dollar has firmed as oil tops $116",
    "text": "Brent rose about 2.6% to $116.13 (about £86.90) a barrel on Friday, its highest since 30 April, as traders priced in renewed US strikes on Iran and Houthi attacks on Saudi Arabia went on; the US ten year yield edged back up to about 4.99%. Dearer oil and Gulf tension tend to lift the dollar, and EUR/USD fell from 1.1204 to 1.1193 over the same hours, so this was mainly the dollar firming, with the pound also a touch softer against the euro. GBP/USD eased from 1.3385 at 18:55 Dubai to 1.3360 by 21:20 Dubai and was near 1.3362 at 21:35 Dubai; no single headline marks the start of the slide.",
@@ -374,18 +386,6 @@
    "text": "GBP/USD fell from 1.3401 at 18:41 Dubai to 1.3381 by 18:51 Dubai and was near 1.3373 at 19:38 Dubai, while EUR/USD fell by a similar share, from 1.1250 to 1.1231, so this was mainly a firmer dollar rather than news about the pound. The afternoon rise had come on an unconfirmed report that Qatar and Pakistan had put forward a compromise to revive US and Iran talks, and Bloomberg later quoted a diplomat involved in the talks disputing that a deal was close, though no source gives the time of that comment, so it cannot be tied to this move with confidence. Less hope of a deal tends to support oil and the dollar, which means fewer dirhams per pound.",
    "t": "2026-10-20T15:40:08Z",
    "rate": 1.33735
-  },
-  {
-   "title": "The dollar has slipped further as US bond yields fall",
-   "text": "The US ten-year yield fell about five basis points to 5.09% in New York trading, Bloomberg reported, and the dollar fell against every other major currency, with the dollar index down 0.23% at about 101.76, FXStreet reported; neither names a single piece of news behind it, and no US figures were due today. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound. The euro rose by a similar share, so this was a dollar move: GBP/USD climbed from about 1.3370 at 17:00 Dubai to a high near 1.3407 at 18:25 Dubai, most of it in ten minutes from 18:15, then settled near 1.3399.",
-   "t": "2026-10-20T14:39:47Z",
-   "rate": 1.33995
-  },
-  {
-   "title": "Sterling has climbed this afternoon with no news to explain it",
-   "text": "GBP/USD rose from 1.3349 at 16:11 Dubai to 1.3375 by 16:26 Dubai and was near 1.3371 at 16:38 Dubai, a 0.20% climb in a quarter of an hour. Both sides moved: the euro gained about 0.08% against the dollar while the pound gained about 0.1% against the euro, so a slightly softer dollar and a firmer pound together. No report names a cause for this move; Reuters had described the dollar index at midday as 0.1% lower at 101.85 and the pound as up 0.3% after this morning's jobs figures, with Bank of England rise bets supporting it.",
-   "t": "2026-10-20T12:40:01Z",
-   "rate": 1.33725
   }
  ]
 }
