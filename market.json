@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:31:42Z",
+ "updated": "2026-10-27T09:40:36Z",
  "headline": "Sterling is about 1.3326 dollars this morning, down from 1.3355 last night, as the dollar firmed against the euro as well as the pound. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, with markets pricing at least three Bank of England rises by April 2027 and long-dated gilt yields near their highest in decades.",
  "drivers": [
   {
@@ -35,8 +35,26 @@
   "Softer US core inflation or growth on 29 October than forecast, which would make a December Fed rise less certain.",
   "A Budget that reassures the gilt market, which would remove a weight on the pound while the case for a Bank of England rise on 5 November stands."
  ],
- "watch": "US consumer confidence from the Conference Board comes out at 18:00 Dubai today, forecast at 80.5 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected: a Budget that calms the gilt market, and a Fed that plays down a December rise, would both help.",
+ "watch": "US consumer confidence from the Conference Board comes out at 18:00 Dubai today, forecast at 81.2 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected: a Budget that calms the gilt market, and a Fed that plays down a December rise, would both help.",
  "sources": [
+  {
+   "title": "GBP/USD Forecast: Slides to one week low near 1.3320 on firm USD",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-drops-to-one-week-low-near-13320-382-fibo-on-firmer-usd-202610270907",
+   "date": "27 Oct"
+  },
+  {
+   "title": "Forex Today: US Dollar holds ground ahead of mid-tier data releases, FOMC meeting",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-holds-ground-ahead-of-mid-tier-data-releases-fomc-meeting-202610270704",
+   "date": "27 Oct"
+  },
+  {
+   "title": "GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "27 Oct"
+  },
   {
    "title": "UK Budget decision could send gilt yields soaring",
    "site": "CMC Markets",
@@ -90,24 +108,6 @@
    "site": "Bloomberg via The Spokesman-Review",
    "url": "https://www.spokesman.com/stories/2026/oct/25/trump-says-decision-time-nears-on-iran-deal-or-fin/",
    "date": "25 Oct"
-  },
-  {
-   "title": "Oil retreats from recent highs as Iran conflict risks keep markets on edge",
-   "site": "Newswav",
-   "url": "https://newswav.com/article/oil-retreats-from-recent-highs-as-iran-conflict-risks-keep-markets-on-edge-A2610_zfpRQW",
-   "date": "26 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD minute and hourly prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "26 Oct"
-  },
-  {
-   "title": "This week's economic calendar",
-   "site": "Forex Factory",
-   "url": "https://www.forexfactory.com/calendar",
-   "date": "26 Oct"
   }
  ],
  "calendar": [
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-27T07:31:42Z",
+ "calendarUpdated": "2026-10-27T09:40:36Z",
  "feed": [
+  {
+   "title": "The dollar has kept firming through the London morning",
+   "text": "GBP/USD eased from 1.3325 at 11:30 Dubai to 1.3322 at 13:05 Dubai, then slid to a one week low of 1.3306 by 13:35 Dubai, while EUR/USD fell by a similar share, from 1.1164 to 1.1137, so this was the dollar gaining against both rather than the pound weakening. FXStreet puts it down to steady dollar buying ahead of the Fed's two day meeting, which starts today, and names no single news item; markets expect a hold on Wednesday but a rise in December, and expected US rises tend to strengthen the dollar and lower the number of dirhams per pound.",
+   "t": "2026-10-27T09:40:36Z",
+   "rate": 1.33079
+  },
   {
    "title": "The dollar has firmed overnight, taking sterling to about 1.3326",
    "text": "GBP/USD eased from 1.3355 at 22:07 Dubai to about 1.3340 by midnight, held there through Asian trading, then slipped to a low of 1.3315 by 11:00 Dubai, while EUR/USD fell by a similar share, from 1.1190 to 1.1163, and the pound barely moved against the euro, so this was the dollar firming rather than news about the pound. No report found names a single cause; traders are positioning before the UK Budget at 16:30 Dubai on Wednesday and the Fed's decision at 22:00 Dubai the same evening.",
@@ -378,13 +384,6 @@
    "text": "GBP/USD rose from 1.3372 at 11:35 Dubai to 1.3393 by 12:00 Dubai and held near 1.3392 at 12:38 Dubai, while EUR/USD barely moved and the euro fell from 0.8391 to 0.8381 pounds, so this was the pound gaining rather than the dollar weakening. No report ties the climb to fresh news at that time; Trading Economics and BigGo say traders now treat a Bank of England rise to 4% on 5 November as all but certain after this morning's 3.5% inflation figure, with many also expecting a further rise in December. Firmer expectations for UK rates tend to lift the pound, which means more dirhams per pound.",
    "t": "2026-10-21T08:40:02Z",
    "rate": 1.3392
-  },
-  {
-   "title": "UK inflation has come in a little above forecast",
-   "text": "Prices rose 3.5% in the year to September against 3.4% expected and 3.1% in August, with core inflation up to 2.8% from 2.6% and motor fuel 29.8% dearer than a year earlier, the ONS figures showed. Higher inflation makes the Bank of England rise expected on 5 November more likely, which tends to lift the pound. GBP/USD jumped from 1.3373 to 1.3384 within the minute of the release but gave it back at once and was near 1.3369 at 10:15 Dubai, which suggests the rise was already in the price.",
-   "when": "2026-10-21T06:00:00Z",
-   "t": "2026-10-21T06:15:27Z",
-   "rate": 1.33696
   }
  ]
 }
