@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T18:07:06Z",
- "headline": "Sterling is about 1.3381 dollars this morning, a little above Friday's close, as the dollar eased with oil and US yields at the start of a week that brings the UK Budget and the Fed's decision on Wednesday 28 October. Markets expect the Fed to hold while pricing about an 80% chance of a December rise, and they price at least three Bank of England rises by April 2027.",
+ "updated": "2026-10-27T07:31:42Z",
+ "headline": "Sterling is about 1.3326 dollars this morning, down from 1.3355 last night, as the dollar firmed against the euro as well as the pound. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, with markets pricing at least three Bank of England rises by April 2027 and long-dated gilt yields near their highest in decades.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -35,8 +35,20 @@
   "Softer US core inflation or growth on 29 October than forecast, which would make a December Fed rise less certain.",
   "A Budget that reassures the gilt market, which would remove a weight on the pound while the case for a Bank of England rise on 5 November stands."
  ],
- "watch": "The next figure is US consumer confidence from the Conference Board on Tuesday 27 October at 18:00 Dubai, forecast at 80.5 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. The big events follow on Wednesday 28 October: the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected and a statement that plays down a December rise would help.",
+ "watch": "US consumer confidence from the Conference Board comes out at 18:00 Dubai today, forecast at 80.5 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected: a Budget that calms the gilt market, and a Fed that plays down a December rise, would both help.",
  "sources": [
+  {
+   "title": "UK Budget decision could send gilt yields soaring",
+   "site": "CMC Markets",
+   "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/uk-budget-decision-could-send-gilt-yields-soaring",
+   "date": "Oct"
+  },
+  {
+   "title": "Sterling drops vs euro and dollar ahead of UK Budget",
+   "site": "Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/sterling-drops-against-euro-dollar-ahead-uk-budget/",
+   "date": "Oct"
+  },
   {
    "title": "British Pound slips as Fed decision, UK budget test Sterling bulls",
    "site": "FXStreet",
@@ -96,18 +108,6 @@
    "site": "Forex Factory",
    "url": "https://www.forexfactory.com/calendar",
    "date": "26 Oct"
-  },
-  {
-   "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
-   "date": "23 Oct"
-  },
-  {
-   "title": "United States 10 year bond yield",
-   "site": "Trading Economics",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-   "date": "23 Oct"
   }
  ],
  "calendar": [
@@ -117,9 +117,9 @@
    "impact": "Medium",
    "name": "US consumer confidence (Conference Board)",
    "title": "CB Consumer Confidence",
-   "forecast": "80.7",
+   "forecast": "81.2",
    "previous": "81.9",
-   "good": "Lower than 80.7",
+   "good": "Lower than 81.2",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -205,9 +205,9 @@
    "impact": "Medium",
    "name": "US: Advance GDP Price Index q/q",
    "title": "Advance GDP Price Index q/q",
-   "forecast": "3.5%",
+   "forecast": "3.3%",
    "previous": "6.2%",
-   "good": "Lower than 3.5%",
+   "good": "Lower than 3.3%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-26T18:07:06Z",
+ "calendarUpdated": "2026-10-27T07:31:42Z",
  "feed": [
+  {
+   "title": "The dollar has firmed overnight, taking sterling to about 1.3326",
+   "text": "GBP/USD eased from 1.3355 at 22:07 Dubai to about 1.3340 by midnight, held there through Asian trading, then slipped to a low of 1.3315 by 11:00 Dubai, while EUR/USD fell by a similar share, from 1.1190 to 1.1163, and the pound barely moved against the euro, so this was the dollar firming rather than news about the pound. No report found names a single cause; traders are positioning before the UK Budget at 16:30 Dubai on Wednesday and the Fed's decision at 22:00 Dubai the same evening.",
+   "t": "2026-10-27T07:31:42Z",
+   "rate": 1.33265
+  },
   {
    "title": "The dollar firmed this afternoon as oil rose, then eased back",
    "text": "GBP/USD fell from 1.3378 before London opened to about 1.3340 by 13:30 Dubai, as the pound weakened against the euro ahead of Wednesday's Budget, then dipped to 1.3327 at about 18:00 Dubai as the dollar firmed against everything, with EUR/USD down from 1.1213 to 1.1179. Brent rose to about $117 (about £87.60) a barrel and analysts pointed to a third US aircraft carrier group in the Gulf, and dearer oil and Gulf tension tend to lift the dollar, while the pound held up better against the euro in the afternoon. By 22:00 Dubai both had recovered, with GBP/USD back near 1.3354 and the US ten year yield about 4.98%, so the day has been a round trip inside about 0.4%.",
@@ -377,12 +383,6 @@
    "title": "UK inflation has come in a little above forecast",
    "text": "Prices rose 3.5% in the year to September against 3.4% expected and 3.1% in August, with core inflation up to 2.8% from 2.6% and motor fuel 29.8% dearer than a year earlier, the ONS figures showed. Higher inflation makes the Bank of England rise expected on 5 November more likely, which tends to lift the pound. GBP/USD jumped from 1.3373 to 1.3384 within the minute of the release but gave it back at once and was near 1.3369 at 10:15 Dubai, which suggests the rise was already in the price.",
    "when": "2026-10-21T06:00:00Z",
-   "t": "2026-10-21T06:15:27Z",
-   "rate": 1.33696
-  },
-  {
-   "title": "The government has approved the Jackdaw gas field",
-   "text": "The government has cleared Shell's Jackdaw gas field, about 150 miles east of Aberdeen, while a decision on the larger Rosebank oil field is still to come, STV and HuffPost reported. At its peak Jackdaw would supply about 6.5% of UK North Sea gas production, which is too small and too far off to move the pound, and no reaction shows in GBP/USD.",
    "t": "2026-10-21T06:15:27Z",
    "rate": 1.33696
   }
