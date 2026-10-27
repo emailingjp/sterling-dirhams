@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:08:42Z",
+ "updated": "2026-10-27T14:39:49Z",
  "headline": "Sterling is about 1.3326 dollars this morning, down from 1.3355 last night, as the dollar firmed against the euro as well as the pound. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, with markets pricing at least three Bank of England rises by April 2027 and long-dated gilt yields near their highest in decades.",
  "drivers": [
   {
@@ -35,8 +35,20 @@
   "Softer US core inflation or growth on 29 October than forecast, which would make a December Fed rise less certain.",
   "A Budget that reassures the gilt market, which would remove a weight on the pound while the case for a Bank of England rise on 5 November stands."
  ],
- "watch": "US consumer confidence from the Conference Board comes out at 18:00 Dubai today, forecast at 81.2 against 81.9 last month; a weaker reading would help someone selling pounds for dirhams. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected: a Budget that calms the gilt market, and a Fed that plays down a December rise, would both help.",
+ "watch": "Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; US core inflation (PCE) and growth follow on Thursday 29 October.",
  "sources": [
+  {
+   "title": "US Consumer Confidence Increased in October",
+   "site": "The Conference Board via PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
+   "date": "27 Oct"
+  },
+  {
+   "title": "US CB Consumer Confidence Index improves to 91.7 in October",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-917-in-october-202610271412",
+   "date": "27 Oct"
+  },
   {
    "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
    "site": "Kraken",
@@ -96,18 +108,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-buckles-as-30-year-gilts-tops-6-us-yields-soar-202610071736",
    "date": "7 Oct"
-  },
-  {
-   "title": "Asian shares make cautious start, Brent eases from six-month high",
-   "site": "Reuters via SRN News",
-   "url": "https://srnnews.com/asian-shares-make-cautious-start-brent-eases-from-six-month-high",
-   "date": "26 Oct"
-  },
-  {
-   "title": "Trump says decision time nears on Iran: deal or finish it off",
-   "site": "Bloomberg via The Spokesman-Review",
-   "url": "https://www.spokesman.com/stories/2026/oct/25/trump-says-decision-time-nears-on-iran-deal-or-fin/",
-   "date": "25 Oct"
   }
  ],
  "calendar": [
@@ -233,8 +233,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-27T12:08:42Z",
+ "calendarUpdated": "2026-10-27T14:39:49Z",
  "feed": [
+  {
+   "title": "US consumer confidence has jumped, with little lasting effect on sterling",
+   "text": "The Conference Board's index rose to 91.7 in October against 81.2 expected, up from a revised 84.2 in September, helped by lower petrol prices. A stronger US consumer usually firms the dollar by keeping a December Fed rise in view, and GBP/USD did dip from 1.3320 to 1.3316 in the first minute, but it then rose to 1.3333 by 18:10 Dubai and settled near 1.3329, so the surprise did not move the rate for long ahead of Wednesday's Fed decision.",
+   "when": "2026-10-27T14:00:00Z",
+   "t": "2026-10-27T14:39:49Z",
+   "rate": 1.33261
+  },
   {
    "title": "The dollar has eased back from this morning's high",
    "text": "GBP/USD has climbed from a one week low of 1.3305 at 13:40 Dubai to 1.3327 by 16:07 Dubai, while EUR/USD rose by a similar share, from 1.1138 to 1.1150, and the pound barely moved against the euro, so this is the dollar giving back part of the gains it made this morning ahead of the Fed's meeting. No report found names a cause; the last leg, from 1.3317 to 1.3327, came in the minutes after New York desks opened at 16:00 Dubai.",
@@ -377,13 +384,6 @@
    "text": "GBP/USD climbed from 1.3383 at 20:12 Dubai to 1.3394 by 20:30 Dubai, touched 1.3401 at 20:39 Dubai and was near 1.3398 at 21:30 Dubai. The euro gained against the dollar by a similar margin over the same hour, so this was the dollar softening rather than the pound rising. No report found explains the move: the US oil stocks figures came out two hours earlier, and Trading Economics still describes the dollar index as near 101.7, close to its three week low, with the Fed expected to hold next week.",
    "t": "2026-10-21T17:39:54Z",
    "rate": 1.33983
-  },
-  {
-   "title": "Sterling held steady through Governor Bailey's talk",
-   "text": "Governor Bailey took part in a fireside chat in London on central bank independence, listed by the Bank of England for 14:00 London time. No reported remarks on the 5 November decision had appeared by 13:40 UTC, so no source yet explains any move. GBP/USD was 1.3396 at the start, dipped to 1.3392 within two minutes and was still near 1.3393 a quarter of an hour later, before easing to about 1.3384 by 13:36 UTC.",
-   "when": "2026-10-21T13:00:00Z",
-   "t": "2026-10-21T13:39:32Z",
-   "rate": 1.33852
   }
  ]
 }
