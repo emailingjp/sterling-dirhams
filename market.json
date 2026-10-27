@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T14:39:49Z",
+ "updated": "2026-10-27T16:40:19Z",
  "headline": "Sterling is about 1.3326 dollars this morning, down from 1.3355 last night, as the dollar firmed against the euro as well as the pound. Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, with markets pricing at least three Bank of England rises by April 2027 and long-dated gilt yields near their highest in decades.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "Wednesday brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; US core inflation (PCE) and growth follow on Thursday 29 October.",
  "sources": [
+  {
+   "title": "British Pound extends slide as Fed decision, UK budget loom",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-extends-4-day-slide-as-fed-decision-uk-budget-loom-202610271528",
+   "date": "27 Oct"
+  },
   {
    "title": "US Consumer Confidence Increased in October",
    "site": "The Conference Board via PR Newswire",
@@ -102,12 +108,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/analysis/sterling-faces-asymmetric-risks-ahead-of-uk-budget-a-disappointing-one-202610141324",
    "date": "14 Oct"
-  },
-  {
-   "title": "British Pound buckles as 30-year Gilts top 6%",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-buckles-as-30-year-gilts-tops-6-us-yields-soar-202610071736",
-   "date": "7 Oct"
   }
  ],
  "calendar": [
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-27T14:39:49Z",
+ "calendarUpdated": "2026-10-27T16:40:19Z",
  "feed": [
+  {
+   "title": "Sterling has slipped on the eve of the Budget",
+   "text": "GBP/USD eased from 1.3333 at 18:34 Dubai to a low of 1.3306 at 20:20 Dubai and was near 1.3312 at 20:40 Dubai, while EUR/USD fell only slightly, from 1.1150 to 1.1143, and the pound lost a little against the euro too, so this leg was mostly the pound softening rather than the dollar firming. FXStreet describes a third day of losses for sterling as traders wait for the UK Budget at 16:30 Dubai on Wednesday and the Fed's decision that evening; no report found names a single news item behind this afternoon's dip.",
+   "t": "2026-10-27T16:40:19Z",
+   "rate": 1.33122
+  },
   {
    "title": "US consumer confidence has jumped, with little lasting effect on sterling",
    "text": "The Conference Board's index rose to 91.7 in October against 81.2 expected, up from a revised 84.2 in September, helped by lower petrol prices. A stronger US consumer usually firms the dollar by keeping a December Fed rise in view, and GBP/USD did dip from 1.3320 to 1.3316 in the first minute, but it then rose to 1.3333 by 18:10 Dubai and settled near 1.3329, so the surprise did not move the rate for long ahead of Wednesday's Fed decision.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD rose from 1.3390 at 06:45 Dubai to 1.3406 by 07:15 Dubai, while EUR/USD rose by a similar margin and the euro barely moved against the pound, so this was the dollar softening rather than the pound rising. No report found explains the move; Reuters described the dollar's recent slide as pausing in Asian trade, with traders waiting for next week's Fed, European Central Bank and Bank of Japan meetings. A softer dollar means more dirhams per pound.",
    "t": "2026-10-22T03:41:47Z",
    "rate": 1.34045
-  },
-  {
-   "title": "Sterling has edged up as the dollar softened this evening",
-   "text": "GBP/USD climbed from 1.3383 at 20:12 Dubai to 1.3394 by 20:30 Dubai, touched 1.3401 at 20:39 Dubai and was near 1.3398 at 21:30 Dubai. The euro gained against the dollar by a similar margin over the same hour, so this was the dollar softening rather than the pound rising. No report found explains the move: the US oil stocks figures came out two hours earlier, and Trading Economics still describes the dollar index as near 101.7, close to its three week low, with the Fed expected to hold next week.",
-   "t": "2026-10-21T17:39:54Z",
-   "rate": 1.33983
   }
  ]
 }
