@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-26.2">
+<meta name="build" content="2026-10-27.1">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -665,15 +665,16 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var ECB_URL = 'https://api.frankfurter.dev/v1/';
   var MARKET_URL = 'https://emailingjp.github.io/sterling-dirhams/market.json';
   var IV = {
-    /* span: how much time the chart shows when it opens or Reset view is pressed (26 October: widened, as
-       the short charts opened zoomed in too far) */
-    '1s': { sec: 1, ticks: true, span: 600 },
-    '5s': { sec: 5, ticks: true, span: 1800 },
-    '10s': { sec: 10, ticks: true, span: 3600 },
-    '30s': { sec: 30, ticks: true, span: 3 * 3600 },
-    '1m': { sec: 60, k: 1, span: 6 * 3600 },
-    '5m': { sec: 300, k: 5, span: 3 * 86400 },
-    '10m': { sec: 600, k: 5, span: 5 * 86400 },
+    /* span: how much time the chart shows when it opens or Reset view is pressed. 26 October: widened from
+       30 minutes (10s) and 3 hours (1m), which opened zoomed in; 27 October: JP found the wider view too far
+       out, so it sits between the two. */
+    '1s': { sec: 1, ticks: true, span: 420 },
+    '5s': { sec: 5, ticks: true, span: 1200 },
+    '10s': { sec: 10, ticks: true, span: 2400 },
+    '30s': { sec: 30, ticks: true, span: 2 * 3600 },
+    '1m': { sec: 60, k: 1, span: 4 * 3600 },
+    '5m': { sec: 300, k: 5, span: 2 * 86400 },
+    '10m': { sec: 600, k: 5, span: 3 * 86400 },
     '30m': { sec: 1800, k: 30 },
     '1h': { sec: 3600, k: 60 },
     '4h': { sec: 14400, k: 240 }
