@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T15:40:30Z",
+ "updated": "2026-10-28T17:39:55Z",
  "headline": "Sterling is about 1.3303 dollars this evening, a little firmer after a Budget that kept headroom at £15bn, in line with forecasts, and left gilts calm. The Fed's decision at 22:00 Dubai is next, where a hold is expected but markets price about an 86% chance of a rise by December.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "The Fed's decision is at 22:00 Dubai tonight, with Chair Warsh's press conference at 22:30. A hold at 3.75% to 4.00% is expected, with about a 91% chance priced; a signal that plays down a December rise would help someone selling pounds for dirhams, and a firm hint of one, or several members voting for a rise now, would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
  "sources": [
+  {
+   "title": "British Pound clings to 1.3300 on UK budget ahead of Fed's decision",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/currencies/gbpusd",
+   "date": "28 Oct"
+  },
   {
    "name": "ActionForex: UK Budget shrinks fiscal buffer without market shock (28 October 2026)",
    "url": "https://www.actionforex.com/action-insight/market-overview/659039-uk-budget-shrinks-fiscal-buffer-without-market-shock-fed-dissent-in-focus/"
@@ -93,12 +99,6 @@
    "title": "Oil Price Forecast: Brent and WTI Ease as Iran Peace Hopes Grow",
    "site": "FX Empire",
    "url": "https://www.fxempire.com/forecasts/article/oil-price-forecast-brent-and-wti-ease-as-iran-peace-hopes-grow-1640568",
-   "date": "27 Oct"
-  },
-  {
-   "title": "British Pound extends slide as Fed decision, UK budget loom",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-extends-4-day-slide-as-fed-decision-uk-budget-loom-202610271528",
    "date": "27 Oct"
   }
  ],
@@ -225,8 +225,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T15:40:30Z",
+ "calendarUpdated": "2026-10-28T17:39:55Z",
  "feed": [
+  {
+   "title": "Sterling has edged up as the dollar eased before the Fed",
+   "text": "GBP/USD dipped to 1.3295 at 19:49 Dubai, rose to a high of 1.3320 at 20:55 Dubai and was near 1.3308 at 21:39 Dubai. EUR/USD moved the same way, from 1.1131 to 1.1149 and back to 1.1140, so this was the dollar softening a little rather than news about the pound. No source names a cause for the move; FXStreet reports that traders are waiting for the Fed's decision at 22:00 Dubai, where a hold is expected.",
+   "t": "2026-10-28T17:39:55Z",
+   "rate": 1.33054
+  },
   {
    "title": "Sterling has edged up as the Budget passes without a shock",
    "text": "The Chancellor, John Healey, told the Commons that the Office for Budget Responsibility puts headroom against the borrowing rules at £15bn in 2029/30, down from £23.6bn in March but in line with forecasts, and the 10 year gilt yield eased from 5.355% to 5.344%. A Budget that calms the gilt market tends to support the pound, and GBP/USD rose from 1.3290 at 17:25 Dubai to 1.3304 by 17:40 Dubai, slipped back to 1.3289 at 18:15 Dubai, then climbed to a high of 1.3311 at 19:20 Dubai and was near 1.3303 at 19:35 Dubai. EUR/USD barely moved (1.1131 to 1.1135), so the gain was the pound firming rather than the dollar weakening; ING describes the reaction in gilts and sterling as small.",
@@ -370,12 +376,6 @@
    "text": "GBP/USD drifted from 1.3401 at 05:35 Dubai to 1.3392 by 06:00 Dubai and was near 1.3394 at 07:35 Dubai, while EUR/USD fell by the same 0.07%, from 1.1220 to 1.1211, so this was the dollar firming rather than the pound weakening. No report explains the move; it came in quiet Asian trading with Brent steady near $113.7 (about £84.90) and the US ten year yield still below 5% at about 4.97%.",
    "t": "2026-10-23T03:40:00Z",
    "rate": 1.33938
-  },
-  {
-   "title": "The dollar has weakened as US bond yields fell sharply",
-   "text": "US government bond yields had their biggest one day fall in more than two years as investors left technology shares for bonds after disappointing results from Meta and Tesla: the ten year yield was down 11 basis points to 5.02% by 19:13 Dubai and below 5% by 20:55 Dubai, Yahoo Finance reported. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound; EUR/USD rose by a similar margin while the pound hardly moved against the euro, so this was the dollar softening. GBP/USD rose from 1.3369 at 19:25 Dubai to 1.3407 by 21:15 Dubai and was near 1.3403 at 22:35 Dubai.",
-   "t": "2026-10-22T18:39:54Z",
-   "rate": 1.34031
   }
  ]
 }
