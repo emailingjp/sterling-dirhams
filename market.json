@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:40:08Z",
+ "updated": "2026-10-28T12:40:32Z",
  "headline": "Sterling is about 1.3303 dollars this morning, edging down from 1.3312 last night as the dollar held near a two week high against the pound and the euro. Today brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected but markets price about an 84% chance of a rise in December.",
  "drivers": [
   {
@@ -37,6 +37,18 @@
  ],
  "watch": "The UK Budget is at 16:30 Dubai today and the Fed's decision at 22:00 Dubai, with Chair Warsh's press conference at 22:30. The rate can move sharply in the minutes after each. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; the reverse of either would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
  "sources": [
+  {
+   "title": "Investors brace for smooth-sailing fiscal event but any relief in sterling and gilts to be short lived",
+   "site": "FXStreet (Ebury)",
+   "url": "https://www.fxstreet.com/analysis/investors-brace-for-smooth-sailing-fiscal-event-but-any-relief-in-sterling-and-gilts-to-be-short-lived-202610280659",
+   "date": "28 Oct"
+  },
+  {
+   "title": "British Pound trades lower ahead of UK budget announcement",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-trades-lower-ahead-of-uk-budget-announcement-202610281053",
+   "date": "28 Oct"
+  },
   {
    "name": "FXStreet, British Pound trims losses but remains below 1.3300 with all eyes on the UK budget, 28 October 2026",
    "url": "https://www.fxstreet.com/news/british-pound-trims-losses-but-remains-below-13300-with-all-eyes-on-the-uk-budget-202610280947"
@@ -91,18 +103,6 @@
    "title": "US CB Consumer Confidence Index improves to 91.7 in October",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-917-in-october-202610271412",
-   "date": "27 Oct"
-  },
-  {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "27 Oct"
-  },
-  {
-   "title": "GBP/USD Forecast: Slides to one week low near 1.3320 on firm USD",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-drops-to-one-week-low-near-13320-382-fibo-on-firmer-usd-202610270907",
    "date": "27 Oct"
   }
  ],
@@ -229,8 +229,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T11:40:08Z",
+ "calendarUpdated": "2026-10-28T12:40:32Z",
  "feed": [
+  {
+   "title": "The Budget is under way, with little effect on sterling so far",
+   "text": "The Chancellor began his first Budget at 16:30 Dubai, and the Office for Budget Responsibility's forecasts, including the headroom against the borrowing rules, follow the speech. In the first ten minutes GBP/USD dipped from 1.3291 to 1.3288 and was back at 1.3293 by 16:39 Dubai, while EUR/USD held near 1.1133, so neither the pound nor the dollar has moved on the news yet. Ebury expects headroom of about £15bn and ABN AMRO says a figure below £14bn could unsettle gilts, so a larger cushion would tend to support the pound and a smaller one would tend to weigh on it.",
+   "when": "2026-10-28T12:30:00Z",
+   "t": "2026-10-28T12:40:32Z",
+   "rate": 1.32919
+  },
   {
    "title": "Sterling has held steady in the hours before the Budget",
    "text": "GBP/USD has traded in a narrow band since late morning, rising from 1.3289 at 11:44 Dubai to 1.3297 at 12:30 Dubai, easing to a low of 1.3275 at 15:00 Dubai and recovering to 1.3288 by 15:39 Dubai, while EUR/USD barely moved (1.1124 to 1.1125), so neither the pound nor the dollar has had fresh news. FXStreet reports that markets are waiting for the Budget at 16:30 Dubai, with UK public debt above £3 trillion in September and jumpy gilt markets, and that the dollar is supported by caution before the Fed's decision at 22:00 Dubai, where a hold is expected and the question is whether Chair Warsh backs a rise in December.",
@@ -374,12 +381,6 @@
    "when": "2026-10-22T12:30:00Z",
    "t": "2026-10-22T12:39:06Z",
    "rate": 1.33728
-  },
-  {
-   "title": "The dollar has firmed on reports of planned strikes on Iran",
-   "text": "GBP/USD fell from 1.3382 at 14:54 Dubai to 1.3361 by 15:09 Dubai and was near 1.3366 at 15:36 Dubai, while EUR/USD fell by a similar margin and the pound hardly moved against the euro, so this was the dollar strengthening. No report ties a piece of news to that quarter hour, but just before it CNBC reported a New York Times account that the US and Israeli militaries have drawn up plans for a short but intensive operation against Iran after next month's midterm elections, with Brent near $112 (about £84). Gulf tension and dearer oil tend to lift the dollar, so fewer dirhams per pound.",
-   "t": "2026-10-22T11:39:39Z",
-   "rate": 1.33679
   }
  ]
 }
