@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:40:56Z",
+ "updated": "2026-10-28T06:40:33Z",
  "headline": "Sterling is about 1.3303 dollars this morning, edging down from 1.3312 last night as the dollar held near a two week high against the pound and the euro. Today brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected but markets price about an 84% chance of a rise in December.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "Today brings the UK Budget at 16:30 Dubai, then the Fed's decision at 22:00 Dubai, where a hold is expected, and Chair Warsh's press conference at 22:30 Dubai. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
  "sources": [
+  {
+   "title": "British Pound declines ahead of UK Finance Minister Healey's budget",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-declines-ahead-of-uk-finance-minister-healeys-budget-202610280611",
+   "date": "28 Oct"
+  },
   {
    "title": "British Pound weakens to near 1.3300 ahead of UK budget, Fed rate decision",
    "site": "FXStreet",
@@ -101,12 +107,6 @@
    "title": "UK Budget decision could send gilt yields soaring",
    "site": "CMC Markets",
    "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/uk-budget-decision-could-send-gilt-yields-soaring",
-   "date": "Oct"
-  },
-  {
-   "title": "Sterling drops vs euro and dollar ahead of UK Budget",
-   "site": "Global Banking and Finance",
-   "url": "https://www.globalbankingandfinance.com/sterling-drops-against-euro-dollar-ahead-uk-budget/",
    "date": "Oct"
   }
  ],
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T03:40:56Z",
+ "calendarUpdated": "2026-10-28T06:40:33Z",
  "feed": [
+  {
+   "title": "Sterling has slipped further on Budget morning",
+   "text": "GBP/USD eased from 1.3303 at 07:40 Dubai to a low of 1.3285 at 10:36 Dubai, its fourth day of losses, with the last step from 1.3292 to 1.3286 in the two minutes after 10:30 Dubai. The pound also lost ground against the euro (EUR/GBP rose from 0.8363 to 0.8370) while EUR/USD slipped only from 1.1126 to 1.1120, so most of this fall was the pound weakening and a smaller part was a firmer dollar. FXStreet points to caution before the Chancellor's first Budget at 16:30 Dubai, where tight borrowing limits and high government borrowing costs leave him little room, and to a dollar steadied by caution before the Fed's decision at 22:00 Dubai; no single news item this morning explains the latest step.",
+   "t": "2026-10-28T06:40:33Z",
+   "rate": 1.32854
+  },
   {
    "title": "The dollar has stayed firm overnight ahead of the Budget and the Fed",
    "text": "GBP/USD drifted from 1.3312 at 20:40 Dubai last night to a low of 1.3301 at 05:49 Dubai and was near 1.3303 at 07:40 Dubai, while EUR/USD eased by a similar share, from 1.1131 to 1.1126, and the pound did not move against the euro, so this was the dollar holding near a two week high rather than news about the pound. FXStreet reports no single news item behind it, pointing to caution before the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, and to rising bond yields around the world, which tend to support the dollar.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD fell to 1.3397 at 12:08 Dubai, then climbed to 1.3418 by 12:26 Dubai before settling near 1.3408 at 12:38 Dubai. EUR/USD rose from 1.1229 to 1.1242 over the same quarter hour while the euro hardly moved against the pound, so this was the dollar softening rather than the pound rising. No report found explains the move: Trading Economics describes the dollar index as steady near 101.7 on Thursday, with a Fed hold expected next week, and oil has risen rather than fallen this morning.",
    "t": "2026-10-22T08:39:21Z",
    "rate": 1.34074
-  },
-  {
-   "title": "Oil has climbed after a drone strike on a Saudi oil field",
-   "text": "Brent rose about 1.7% to near $110.70 (about £82.60) a barrel on Thursday morning, Trading Economics reported, after debris from a drone shot down near Aramco's Shaybah field killed two workers and the US ordered non-emergency embassy staff out of Saudi Arabia. Dearer oil and Gulf tension tend to lift the dollar, yet sterling held its ground overnight: GBP/USD dipped from 1.3400 at 22:00 Dubai on Wednesday to 1.3381 by 23:00 Dubai, recovered to about 1.3394, and was near 1.3383 at 06:00 Dubai.",
-   "t": "2026-10-22T03:41:47Z",
-   "rate": 1.34045
   }
  ]
 }
