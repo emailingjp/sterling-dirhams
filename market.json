@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:40:29Z",
+ "updated": "2026-10-28T19:40:28Z",
  "headline": "Sterling is about 1.332 dollars this evening after the Fed held its range at 3.75% to 4% in a 10 to 2 vote, with two members wanting a rise. US growth and core inflation figures at 16:30 Dubai on Thursday are next, with the European Central Bank meeting the same day.",
  "drivers": [
   {
@@ -38,7 +38,7 @@
  "watch": "US growth for the third quarter (3.2% forecast) and core inflation (PCE, 0.3% forecast for the month) come out at 16:30 Dubai on Thursday 29 October, and the European Central Bank announces its decision the same day. Lower US figures than forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; higher ones would hurt.",
  "sources": [
   {
-   "title": "Fed meeting live updates: Federal Reserve holds interest rates steady in split vote",
+   "title": "Fed meeting live updates: Interest rates held steady in split vote, Warsh says politics played no role",
    "site": "Yahoo Finance",
    "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
    "date": "28 Oct"
@@ -225,8 +225,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T18:40:29Z",
+ "calendarUpdated": "2026-10-28T19:40:28Z",
  "feed": [
+  {
+   "title": "Sterling has peaked and eased back as Warsh's briefing ended",
+   "text": "During the press conference Chair Warsh said the committee's policy is starting to work some but there are no firm conclusions, and that he is unwilling to call financial conditions tight; Yahoo Finance reports the dollar slipped against the euro while he spoke, though no report ties the move to one remark. GBP/USD rose from 1.3299 at 22:30 Dubai to a high of 1.3337 at 22:43 Dubai, and EUR/USD rose in step (1.1136 to 1.1163), so this was the dollar easing rather than news about the pound. The pound then slipped back to about 1.3321 by 23:39 Dubai as the US ten year yield returned above 5% and traders still priced about an 85% chance of a Fed rise on 9 December, which tends to support the dollar.",
+   "when": "2026-10-28T18:30:00Z",
+   "t": "2026-10-28T19:40:28Z",
+   "rate": 1.3321
+  },
   {
    "title": "The Fed has held rates, with two members voting for a rise",
    "text": "The Fed kept its range at 3.75% to 4% as expected, but Governor Lisa Cook and Cleveland Fed President Beth Hammack voted for a quarter point rise, and the statement upgraded growth to a strong pace while dropping its earlier wording on bringing inflation back to 2%. Two votes for a rise keep a December increase in view, which supports the dollar, though the ten year Treasury yield rose only from about 5.02% to 5.04%. GBP/USD rose from 1.3298 to about 1.3310 within two minutes, then settled near 1.3293 by 22:24 Dubai; the jump to 1.3370 on Kraken at 22:01 was a single stray trade, not a real move.",
@@ -370,13 +377,6 @@
    "text": "Brent rose above $114 (about £85.30) a barrel on Friday morning, up more than 1% and at its highest in over five months, after Yemen's Houthis claimed strikes on Saudi targets including the Yanbu refinery, which caught fire. Dearer oil and Gulf tension tend to lift the dollar, and the dollar index rose about 0.2% on the day. GBP/USD eased from 1.3382 at 14:15 Dubai to 1.3370 by 15:35 Dubai while EUR/USD fell by a similar share and the pound held steady against the euro, so this was the dollar firming; no report ties the late morning dip to a single headline.",
    "t": "2026-10-23T11:39:52Z",
    "rate": 1.33676
-  },
-  {
-   "title": "UK business surveys have beaten forecasts",
-   "text": "The flash October surveys showed UK services at 53.1 against 51.8 expected and manufacturing at 52.8 against about 51.8, both up on September. Firmer UK activity supports the case for a Bank of England rise on 5 November, and the pound gained on the euro, while GBP/USD rose from 1.3380 to 1.3385 within a minute, then slipped to 1.3374 by 08:36 UTC as the dollar firmed across the board, a move no source has yet explained.",
-   "when": "2026-10-23T08:30:00Z",
-   "t": "2026-10-23T08:39:57Z",
-   "rate": 1.33793
   }
  ]
 }
