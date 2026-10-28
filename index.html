@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-28.1">
+<meta name="build" content="2026-10-28.2">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -1511,12 +1511,24 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   /* What the dirhams held are worth in pounds now, at the live mid, and at the deal's market rate */
   function renderHeld() {
+    /* 28 October: with a property entered, the tile shows what it would be worth in pounds if it sold at that
+       price, against the same price at the deal's market rate, so the difference is the currency alone */
+    if (cfg.propertyAed > 0) {
+      var m = toAed(state.mid), dm = dealMidAed(), pNow = cfg.propertyAed / m, pThen = cfg.propertyAed / dm, pCh = pNow - pThen, dt = dealTime();
+      $('yourLabel').textContent = 'Your property in pounds';
+      $('your').className = 'big';
+      $('your').innerHTML = '<span>' + gbpExact(round100(pNow)) + '</span><span class="eq">(' + aed(cfg.propertyAed) + ')</span>';
+      $('yourSub').innerHTML = 'Sold at ' + aed(cfg.propertyAed) + ' and valued at the live mid of ' + m.toFixed(4) + '. ' + (dt ? 'On ' + dxbDay(dt) + ', at' : 'At') + ' your deal\'s market rate of ' + dm.toFixed(4) + ', it was ' + gbpExact(round100(pThen)) + ', so <b>' + gbp(round100(pNow) - round100(pThen), true) + '</b> since.' +
+        (cfg.cashAed > 0 ? ' With your ' + aed(cfg.cashAed) + ' of cash, your dirhams are worth ' + gbpExact(round100(heldAed() / m)) + '.' : '');
+      tone($('tileRate'), roundGbp(pCh) === 0 ? 0 : pCh);
+      return;
+    }
     var h = heldAed(), now = h / toAed(state.mid), then = h / dealMidAed(), ch = now - then, own = cfg.propertyAed + cfg.cashAed > 0;
     $('yourLabel').textContent = own ? 'Your dirhams in pounds' : 'The dirhams from your deal, in pounds';
     $('your').className = 'big';
     $('your').innerHTML = '<span>' + gbpExact(round100(now)) + '</span><span class="eq">(' + aed(h) + ')</span>';
     $('yourSub').innerHTML = (own ? (cfg.propertyAed > 0 ? 'Property ' + aed(cfg.propertyAed) : '') + (cfg.propertyAed > 0 && cfg.cashAed > 0 ? ' and cash ' : cfg.cashAed > 0 ? 'Cash ' : '') + (cfg.cashAed > 0 ? aed(cfg.cashAed) : '') + ', at' : 'At') +
-      ' the live mid. At your deal\'s market rate they were worth ' + gbpExact(round100(then)) + ', so <b>' + gbp(ch, true) + '</b> since.';
+      ' the live mid. At your deal\'s market rate they were worth ' + gbpExact(round100(then)) + ', so <b>' + gbp(round100(now) - round100(then), true) + '</b> since.';
     tone($('tileRate'), roundGbp(ch) === 0 ? 0 : ch);
   }
   function renderLeft() {
@@ -1704,7 +1716,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       /* Your deal against dealing now, as at the top, and what the dirhams are worth in pounds */
       var v = dealAed() - getNow(), dp = Math.round((toAed(dealUsd()) - dealMidAed()) / 0.0001), h = heldAed(), hNow = h / toAed(state.mid), hCh = hNow - h / dealMidAed();
       top.push(lt('vs deal', gbp(gbpOf(v), true), aedSigned(v), Math.round(gbpOf(v)) === 0 ? 0 : v, (dp > 0 ? '+' : dp < 0 ? MINUS : '') + Math.abs(dp) + ' pips'));
-      top.push(lt('Dirhams in £', gbpK(hNow), gbpK(hCh, true) + ' since deal', Math.round(hCh) === 0 ? 0 : hCh));
+      if (cfg.propertyAed > 0) { hNow = cfg.propertyAed / toAed(state.mid); hCh = round100(hNow) - round100(cfg.propertyAed / dealMidAed()); }
+      top.push(lt(cfg.propertyAed > 0 ? 'Property in £' : 'Dirhams in £', gbpK(hNow), gbpK(hCh, true) + ' since deal', Math.round(hCh) === 0 ? 0 : hCh));
     } else {
     top.push(moveLt(ref ? 'vs ' + ref.short : 'vs the start', ref && ref.usd));
     if (o) {
@@ -1942,6 +1955,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       var dv = dealAed() - getNow(), h = heldAed();
       items.push('Your deal: ' + gbpExact(cfg.amount) + ' × ' + cfg.dealRate.toFixed(4) + ' = <b>' + aed(dealAed()) + '</b>. The ' + pct() + ' came off the bank\'s ' + basisWord() + ', so the market rate before the fee was ' + cfg.dealRate.toFixed(4) + ' ÷ ' + (1 - mg()).toFixed(4) + ' = ' + dealMidAed().toFixed(4) + ', GBP/USD ' + (dealMidAed() / cfg.peg).toFixed(4) + '.');
       items.push('Dealing now brings ' + aed(getNow()) + ', so your deal brought <b>' + withGbp(Math.abs(dv)) + (dv >= 0 ? ' more' : ' less') + '</b> than dealing today, in pounds at the live mid.');
+      if (cfg.propertyAed > 0) items.push('Your property: ' + aed(cfg.propertyAed) + ' ÷ ' + a.toFixed(4) + ' = <b>' + gbpExact(round100(cfg.propertyAed / a)) + '</b> at the live mid. At your deal\'s market rate, ' + aed(cfg.propertyAed) + ' ÷ ' + dealMidAed().toFixed(4) + ' = ' + gbpExact(round100(cfg.propertyAed / dealMidAed())) + '. At the rate after the fee, ' + cfg.dealRate.toFixed(4) + ', it cost ' + gbpExact(round100(cfg.propertyAed / cfg.dealRate)) + '; the gap is the ' + pct() + ' fee.');
       items.push(aed(h) + ' ÷ ' + a.toFixed(4) + ' = <b>' + gbpExact(round100(h / a)) + '</b>, what your dirhams are worth in pounds at the live mid. At your deal\'s market rate, ' + aed(h) + ' ÷ ' + dealMidAed().toFixed(4) + ' = ' + gbpExact(round100(h / dealMidAed())) + '.');
     }
     $('workings').innerHTML = items.map(function (x) { return '<li>' + x + '</li>'; }).join('');
