@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T12:40:32Z",
- "headline": "Sterling is about 1.3303 dollars this morning, edging down from 1.3312 last night as the dollar held near a two week high against the pound and the euro. Today brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected but markets price about an 84% chance of a rise in December.",
+ "updated": "2026-10-28T15:40:30Z",
+ "headline": "Sterling is about 1.3303 dollars this evening, a little firmer after a Budget that kept headroom at £15bn, in line with forecasts, and left gilts calm. The Fed's decision at 22:00 Dubai is next, where a hold is expected but markets price about an 86% chance of a rise by December.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -35,8 +35,20 @@
   "Progress in the mediation with Iran or a deal with the US, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "Softer US core inflation or growth on Thursday than forecast, which would make a December Fed rise less certain."
  ],
- "watch": "The UK Budget is at 16:30 Dubai today and the Fed's decision at 22:00 Dubai, with Chair Warsh's press conference at 22:30. The rate can move sharply in the minutes after each. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; the reverse of either would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
+ "watch": "The Fed's decision is at 22:00 Dubai tonight, with Chair Warsh's press conference at 22:30. A hold at 3.75% to 4.00% is expected, with about a 91% chance priced; a signal that plays down a December rise would help someone selling pounds for dirhams, and a firm hint of one, or several members voting for a rise now, would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
  "sources": [
+  {
+   "name": "ActionForex: UK Budget shrinks fiscal buffer without market shock (28 October 2026)",
+   "url": "https://www.actionforex.com/action-insight/market-overview/659039-uk-budget-shrinks-fiscal-buffer-without-market-shock-fed-dissent-in-focus/"
+  },
+  {
+   "name": "UK Fact Check: Budget 2026 live (28 October 2026)",
+   "url": "https://www.ukfactcheck.com/live/budget-2026-live-latest-updates-analysis-and-fact-checks"
+  },
+  {
+   "name": "Kraken public GBP/USD and EUR/USD prices (28 October 2026)",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
+  },
   {
    "title": "Investors brace for smooth-sailing fiscal event but any relief in sterling and gilts to be short lived",
    "site": "FXStreet (Ebury)",
@@ -52,10 +64,6 @@
   {
    "name": "FXStreet, British Pound trims losses but remains below 1.3300 with all eyes on the UK budget, 28 October 2026",
    "url": "https://www.fxstreet.com/news/british-pound-trims-losses-but-remains-below-13300-with-all-eyes-on-the-uk-budget-202610280947"
-  },
-  {
-   "name": "Kraken public GBP/USD and EUR/USD prices, 28 October 2026",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
   },
   {
    "title": "GBP/USD, EUR/USD and EUR/GBP hourly prices",
@@ -91,18 +99,6 @@
    "title": "British Pound extends slide as Fed decision, UK budget loom",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-extends-4-day-slide-as-fed-decision-uk-budget-loom-202610271528",
-   "date": "27 Oct"
-  },
-  {
-   "title": "US Consumer Confidence Increased in October",
-   "site": "The Conference Board via PR Newswire",
-   "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
-   "date": "27 Oct"
-  },
-  {
-   "title": "US CB Consumer Confidence Index improves to 91.7 in October",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-917-in-october-202610271412",
    "date": "27 Oct"
   }
  ],
@@ -229,8 +225,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T12:40:32Z",
+ "calendarUpdated": "2026-10-28T15:40:30Z",
  "feed": [
+  {
+   "title": "Sterling has edged up as the Budget passes without a shock",
+   "text": "The Chancellor, John Healey, told the Commons that the Office for Budget Responsibility puts headroom against the borrowing rules at £15bn in 2029/30, down from £23.6bn in March but in line with forecasts, and the 10 year gilt yield eased from 5.355% to 5.344%. A Budget that calms the gilt market tends to support the pound, and GBP/USD rose from 1.3290 at 17:25 Dubai to 1.3304 by 17:40 Dubai, slipped back to 1.3289 at 18:15 Dubai, then climbed to a high of 1.3311 at 19:20 Dubai and was near 1.3303 at 19:35 Dubai. EUR/USD barely moved (1.1131 to 1.1135), so the gain was the pound firming rather than the dollar weakening; ING describes the reaction in gilts and sterling as small.",
+   "t": "2026-10-28T15:40:30Z",
+   "rate": 1.33037
+  },
   {
    "title": "The Budget is under way, with little effect on sterling so far",
    "text": "The Chancellor began his first Budget at 16:30 Dubai, and the Office for Budget Responsibility's forecasts, including the headroom against the borrowing rules, follow the speech. In the first ten minutes GBP/USD dipped from 1.3291 to 1.3288 and was back at 1.3293 by 16:39 Dubai, while EUR/USD held near 1.1133, so neither the pound nor the dollar has moved on the news yet. Ebury expects headroom of about £15bn and ABN AMRO says a figure below £14bn could unsettle gilts, so a larger cushion would tend to support the pound and a smaller one would tend to weigh on it.",
@@ -374,13 +376,6 @@
    "text": "US government bond yields had their biggest one day fall in more than two years as investors left technology shares for bonds after disappointing results from Meta and Tesla: the ten year yield was down 11 basis points to 5.02% by 19:13 Dubai and below 5% by 20:55 Dubai, Yahoo Finance reported. Lower US yields make the dollar less rewarding to hold, so more dirhams per pound; EUR/USD rose by a similar margin while the pound hardly moved against the euro, so this was the dollar softening. GBP/USD rose from 1.3369 at 19:25 Dubai to 1.3407 by 21:15 Dubai and was near 1.3403 at 22:35 Dubai.",
    "t": "2026-10-22T18:39:54Z",
    "rate": 1.34031
-  },
-  {
-   "title": "Fewer Americans claimed jobless benefits last week",
-   "text": "New claims for unemployment benefits fell to 194,000 in the week to 17 October, against 200,000 expected, and the week before was revised up to 200,000. Fewer claims point to a US job market that is still firm, which supports the dollar, but the effect was small: GBP/USD dipped from 1.3373 to 1.3368 within a minute of the release, then recovered to about 1.3372 by 12:32 UTC.",
-   "when": "2026-10-22T12:30:00Z",
-   "t": "2026-10-22T12:39:06Z",
-   "rate": 1.33728
   }
  ]
 }
