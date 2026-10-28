@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Sterling into dirhams</title>
-<meta name="build" content="2026-10-27.1">
+<meta name="build" content="2026-10-28.1">
 <!--webapp-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -205,6 +205,18 @@ table.work td + td .note2 { white-space: nowrap; }
 .ladder td.hit, .ladder tr.cur td.hit { color: var(--gain); font-weight: 650; }
 @media (max-width: 520px) { .ladder th { white-space: normal; font-size: 12px; } .ladder th, .ladder td { padding-right: 7px; } .ladder td { font-size: 13px; } }
 .deal-more { margin-top: 12px; }
+/* 28 October: the dealing sheet folds away once a conversion is entered, and opens with a tap */
+details.deal > summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; color: var(--ink); font-size: inherit; font-weight: inherit; }
+details.deal > summary::-webkit-details-marker { display: none; }
+details.deal > summary h2 { margin: 0; }
+details.deal > summary .deal-toggle { flex: none; color: var(--accent); font-size: 14px; font-weight: 560; }
+details.deal > summary .deal-toggle::after { content: 'Show'; }
+details.deal[open] > summary .deal-toggle::after { content: 'Hide'; }
+details.deal[open] > summary { margin-bottom: 8px; }
+/* Where the deal sits in the range since the start: a tick for the deal, a dot for now */
+.rangebar { position: relative; height: 8px; border-radius: 4px; background: var(--grid); margin: 14px 0 5px; }
+.rangebar .rb-deal { position: absolute; top: -5px; bottom: -5px; width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--accent); }
+.rangebar .rb-now { position: absolute; top: 50%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--ink); border: 2px solid var(--raised); }
 .deal-more summary { cursor: pointer; color: var(--accent); font-weight: 560; font-size: 14px; }
 .asks { margin: 8px 0 0; padding-left: 1.3em; display: grid; gap: 7px; font-size: 14.5px; max-width: 80ch; }
 .chk input { width: 16px; height: 16px; margin: 0; }
@@ -433,7 +445,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       <p class="dealer xl" id="mid">&nbsp;</p>
       <p class="sub" id="midSub">&nbsp;</p>
     </div>
-    <div class="tile t-rate">
+    <div class="tile t-rate" id="tileRate">
       <p class="label" id="yourLabel">Your rate after the charge</p>
       <p class="dealer lg" id="your">&nbsp;</p>
       <p class="sub" id="yourSub">&nbsp;</p>
@@ -492,8 +504,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     <a class="more" href="#market">All updates, the calendar and what moves the rate</a>
   </section>
 
-  <section class="card deal order" id="order" aria-labelledby="orderTitle">
-    <h2 id="orderTitle">Dealing with the bank</h2>
+  <details class="card deal order" id="order" open>
+    <summary><h2 id="orderTitle">Dealing with the bank</h2><span class="deal-toggle"></span></summary>
     <p class="deal-intro" id="dealIntro">For the call to the treasury desk. Prices are live from Kraken.</p>
     <div class="deal-grid">
       <section class="deal-col" id="check" aria-labelledby="dnTitle">
@@ -533,7 +545,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       <p class="wording" id="orderWording"></p>
       <button type="button" class="btn" id="orderCopy">Copy the wording</button>
     </details>
-  </section>
+  </details>
 
   <p class="lede" id="lede">Figures are in pounds first, with dirhams in brackets, after the dealing charge.</p>
 
@@ -551,7 +563,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       </div>
       <div class="marks table-wrap">
         <table>
-          <thead><tr><th scope="col">Reference</th><th scope="col" class="num">GBP/AED</th><th scope="col" class="num" id="marksBrought">Brought</th><th scope="col">Now against it</th></tr></thead>
+          <thead><tr><th scope="col">Reference</th><th scope="col" class="num">GBP/AED</th><th scope="col" class="num" id="marksBrought">Brought</th><th scope="col" id="marksVs">Now against it</th></tr></thead>
           <tbody id="markRows"></tbody>
         </table>
       </div>
@@ -574,6 +586,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
           <p class="hint" id="startHint">Leave the rate blank to use the ECB reference rate for that day.</p>
           <label for="setNeed">Dirhams still to pay (optional)</label><input id="setNeed" type="text" inputmode="decimal" autocomplete="off">
           <label for="setTarget">Target left after paying, in pounds (optional)</label><input id="setTarget" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setDealRate">Rate you converted at, GBP/AED after the fee (optional)</label><input id="setDealRate" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setDealAt">When you converted, Dubai time</label><input id="setDealAt" type="datetime-local">
+          <label for="setProperty">Property held in dirhams (optional)</label><input id="setProperty" type="text" inputmode="decimal" autocomplete="off">
+          <label for="setCash">Dirham cash held (optional)</label><input id="setCash" type="text" inputmode="decimal" autocomplete="off">
+          <p class="hint">Once a converted rate is in, the page reviews that deal: what it brought against dealing today, and what your dirhams are worth in pounds.</p>
           <label for="setFeeOn">The bank takes its fee off</label><select id="setFeeOn"><option value="bid">Its market bid</option><option value="mid">The mid</option></select>
           <label for="setPeg">Dirhams to the dollar</label><input id="setPeg" type="text" inputmode="decimal" autocomplete="off">
           <button type="button" class="btn" id="resetSettings">Restore the defaults</button>
@@ -653,8 +670,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 
   /* ---------- settings ---------- */
-  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725, target: 0, orderRate: null, orderBasis: 'allin', orderShow: true, feeOn: 'bid' }/*END*/;
-  var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v2', oldTicks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v2', ecb: 'gbpaed.ecb.v1', style: 'gbpaed.style.v1' };
+  var DEFAULTS = /*DEFAULTS*/{ example: true, amount: 1000000, marginPct: 0.12, startDate: '', startRate: null, startIsEcb: false, need: 0, peg: 3.6725, target: 0, orderRate: null, orderBasis: 'allin', orderShow: true, feeOn: 'bid', dealRate: null, dealAt: '', propertyAed: 0, cashAed: 0 }/*END*/;
+  var KEYS = { cfg: 'gbpaed.cfg.v2', ticks: 'gbpaed.ticks.v2', oldTicks: 'gbpaed.ticks.v1', last: 'gbpaed.last.v1', iv: 'gbpaed.iv.v1', cmp: 'gbpaed.cmp.v3', ecb: 'gbpaed.ecb.v1', style: 'gbpaed.style.v1' };
   function load(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
   var cfg = Object.assign({}, DEFAULTS, load(KEYS.cfg, {}));
@@ -692,7 +709,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     hourly: [], hourIdx: new Map(),
     bars: [], iv: IV[savedIv] ? savedIv : '1h',
     style: 'candles', wide: true, orderDraft: null, fitOrder: false,
-    cmp: load(KEYS.cmp, 'start'),
+    cmp: load(KEYS.cmp, null), cmpChosen: load(KEYS.cmp, null) !== null,
     refs: new Map(), refOrder: [],
     dir: 0, hovering: false, dirty: false, histOk: false,
     daily: null, market: null, marketAt: 0, minute: [], minuteIdx: null
@@ -790,6 +807,20 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function toAed(usd) { return usd * cfg.peg; }
   function brings(usd) { return cfg.amount * toAed(usd) * (1 - mg()); }
   function diffVs(usdNow, usdThen) { return brings(usdNow) - brings(usdThen); }
+  /* 28 October: once a conversion is entered, the page reviews it. Gains and losses are then shown from
+     the deal's side: green means the deal looks better against the market, and the dirhams it bought are
+     worth more in pounds. Before a deal, green means dealing now brings more. */
+  function dealMode() { return cfg.dealRate > 0; }
+  function sd() { return dealMode() ? -1 : 1; }
+  function moveOf(usdNow, usdThen) { return sd() * diffVs(usdNow, usdThen); }
+  function dealAed() { return cfg.amount * cfg.dealRate; }
+  /* The market rate before the fee: the fee came off the bank's bid (or the mid), so the deal rate divided by (1 less the fee) */
+  function dealMidAed() { return cfg.dealRate / (1 - mg()); }
+  function dealVs(usd) { return dealAed() - brings(usd); }
+  function dealTime() { var p = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(cfg.dealAt || ''); return p ? Date.UTC(+p[1], +p[2] - 1, +p[3], +p[4], +p[5]) / 1000 - DXB : null; }
+  function onYour() { return dealMode() ? 'For your deal' : 'On your ' + gbpExact(cfg.amount); }
+  /* The dirhams held: the property and cash entered in Settings, or else the dirhams the deal brought */
+  function heldAed() { return cfg.propertyAed + cfg.cashAed > 0 ? cfg.propertyAed + cfg.cashAed : dealAed(); }
   function gbpOf(aed) { return aed / toAed(state.mid || startInfo().usd || 1.32); }
   function roundGbp(n) { var a = Math.abs(n), s = a >= 100000 ? 1000 : a >= 10000 ? 100 : 10; return Math.round(n / s) * s; }
   function gbpExact(n) { return '£' + nf0.format(n); }
@@ -863,7 +894,13 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       when: dayName(s.ecbDate || s.date) + ', ' + (s.ecb ? 'ECB reference rate' : s.approx ? 'Kraken at 1pm London' : 'your rate')
     };
   }
-  function currentRef() { return state.refs.get(state.cmp) || state.refs.get('start') || null; }
+  function dealRef() {
+    if (!dealMode()) return null;
+    var t = dealTime();
+    return { key: 'deal', usd: dealMidAed() / cfg.peg, t: t, name: 'Your deal' + (t ? ', ' + dxbDay(t) : ''), label: 'your deal', short: 'Deal',
+      when: (t ? dxbWhen(t) + ' Dubai, ' : '') + cfg.dealRate.toFixed(4) + ' after the fee' };
+  }
+  function currentRef() { return state.refs.get(state.cmp) || state.refs.get('deal') || state.refs.get('start') || null; }
   function londonDays() {
     var s = parseYmd(startDate()), t = londonToday();
     var end = Date.UTC(t.y, t.m - 1, t.d), from = Math.max(Date.UTC(s.y, s.m - 1, s.d), end - 30 * 86400000), out = [];
@@ -878,6 +915,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function buildRefs() {
     var refs = new Map(), order = [];
     function add(r) { if (r) { refs.set(r.key, r); order.push(r.key); } }
+    add(dealRef());
     add(startRef());
     if (state.hourly.length) {
       var now = Date.now() / 1000;
@@ -891,7 +929,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
           add({ key: day.y + '-' + day.m + '-' + day.d + '-' + hh, usd: usd, t: t, name: dn + ', ' + when, label: dn + ', ' + when, short: day.d + ' ' + MON[day.m - 1] + ' ' + (hh === 8 ? '8am' : '4pm') });
         });
       });
-      var s = parseYmd(startDate()), from = londonToUtc(s.y, s.m, s.d, 8), best = null, worst = null, since = s.d + ' ' + MON[s.m - 1];
+      /* Kraken's hourly prices go back 30 days, so best and worst are labelled from the first hour there is */
+      var s = parseYmd(startDate()), from = Math.max(londonToUtc(s.y, s.m, s.d, 8), state.hourly[0].t), best = null, worst = null, since = dxbDay(from).replace(/^\w+ /, '');
       state.hourly.forEach(function (b) {
         if (b.t < from || b.t > now || !isFxOpen(b.t)) return;
         var p = lonParts(b.t), h = +p.hour;
@@ -903,7 +942,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       if (worst) add({ key: 'worst', usd: worst.o, t: worst.t, name: 'Worst since ' + since, label: 'the worst since ' + since + ' (' + lonLabel(worst.t) + ')', short: 'worst', when: lonLabel(worst.t) });
     }
     state.refs = refs; state.refOrder = order;
-    if (!refs.has(state.cmp)) state.cmp = refs.has('start') ? 'start' : (order[0] || 'start');
+    if (!state.cmpChosen || !refs.has(state.cmp)) state.cmp = refs.has('deal') ? 'deal' : refs.has('start') ? 'start' : (order[0] || 'start');
   }
   function renderCompareOptions() {
     var sel = $('compare'), keys = state.refOrder.map(function (k) { return k + ':' + state.refs.get(k).name; }).join('|');
@@ -915,7 +954,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   function setCompare(key) {
     if (!state.refs.has(key)) return;
-    state.cmp = key; save(KEYS.cmp, key);
+    state.cmp = key; state.cmpChosen = true; save(KEYS.cmp, key);
     renderCompareOptions(); redraw(true); renderDays(); renderMarks(); renderLegend(null);
   }
 
@@ -1001,9 +1040,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     Array.prototype.forEach.call(document.querySelectorAll('.measure[data-t]'), function (el) {
       var t = +el.dataset.t, r = reaction(t);
       if (!r || Date.now() / 1000 < t + 60) { el.textContent = ''; return; }
-      var d = diffVs(r.after, r.before);
+      var d = moveOf(r.after, r.before);
       el.className = 'measure ' + (d > 0 ? 'gain' : d < 0 ? 'loss' : '');
-      el.innerHTML = '<span class="lbl">Measured:</span>GBP/USD ' + r.before.toFixed(4) + ' ' + r.from + ', ' + r.after.toFixed(4) + ' ' + r.span + ' (' + pctSigned(r.after / r.before - 1) + '). On your ' + gbpExact(cfg.amount) + ' that is ' + withGbpSigned(d) + '.';
+      el.innerHTML = '<span class="lbl">Measured:</span>GBP/USD ' + r.before.toFixed(4) + ' ' + r.from + ', ' + r.after.toFixed(4) + ' ' + r.span + ' (' + pctSigned(r.after / r.before - 1) + '). ' + onYour() + ' that is ' + withGbpSigned(d) + '.';
     });
   }
   function loadDaily() {
@@ -1195,7 +1234,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   var L = window.LightweightCharts, chart = null, candleSeries = null, lineSeries = null, pnlSeries = null, markersC = null, markersL = null, lines = [];
   function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
   function baseAed() { var r = currentRef(); return r ? toAed(r.usd) : toAed(state.mid || 1.32); }
-  function pnlOf(rateAed) { return cfg.amount * (1 - mg()) * (rateAed - baseAed()); }
+  function pnlOf(rateAed) { return sd() * cfg.amount * (1 - mg()) * (rateAed - baseAed()); }
   function mainSeries() { return state.style === 'line' ? lineSeries : candleSeries; }
   function candleOf(b) { return { time: b.t + DXB, open: toAed(b.o), high: toAed(b.h), low: toAed(b.l), close: toAed(b.c) }; }
   function visibleExtent() {
@@ -1247,7 +1286,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       color: 'rgba(0,0,0,0)', lineWidth: 1, priceScaleId: 'left',
       lastValueVisible: false, priceLineVisible: false, crosshairMarkerVisible: false,
       priceFormat: { type: 'custom', minMove: 1, formatter: function (p) { return axisMoney(p); } },
-      autoscaleInfoProvider: function () { var e = visibleExtent(); return e ? { priceRange: { minValue: pnlOf(e.lo), maxValue: pnlOf(e.hi) } } : null; }
+      autoscaleInfoProvider: function () { var e = visibleExtent(); if (!e) return null; var a = pnlOf(e.lo), b = pnlOf(e.hi); return { priceRange: { minValue: Math.min(a, b), maxValue: Math.max(a, b) } }; }
     });
     markersC = L.createSeriesMarkers(candleSeries, []);
     markersL = L.createSeriesMarkers(lineSeries, []);
@@ -1293,9 +1332,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var s = mainSeries();
     if (!s) return;
     function add(price, color, style, title) { lines.push({ s: s, l: s.createPriceLine({ price: price, color: color, lineWidth: 1, lineStyle: style, axisLabelVisible: true, title: title }) }); }
-    var ref = currentRef();
-    if (ref) add(toAed(ref.usd), css('--ink-3'), L.LineStyle.Dashed, ref.short);
-    if (cfg.orderShow) {
+    var ref = currentRef(), dr = state.refs.get('deal');
+    if (ref) add(toAed(ref.usd), ref.key === 'deal' ? css('--accent') : css('--ink-3'), L.LineStyle.Dashed, ref.short);
+    if (dr && ref !== dr) add(toAed(dr.usd), css('--accent'), L.LineStyle.Dashed, 'Deal');
+    if (orderLines()) {
       var o = orderInfo();
       if (o) add(o.mid, css('--accent'), L.LineStyle.Dashed, 'Order');
       var tm = targetMid();
@@ -1317,7 +1357,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   function redraw(keepRange) {
     if (!chart) return;
-    var base = baseAed(), k = cfg.amount * (1 - mg());
+    var base = baseAed(), k = sd() * cfg.amount * (1 - mg());
+    /* From the deal's side the pounds fall as the rate rises, so the left scale runs the other way up */
+    chart.priceScale('left').applyOptions({ invertScale: dealMode() });
     var line = state.bars.map(function (b) { return { time: b.t + DXB, value: toAed(b.c) }; });
     var pnl = state.bars.map(function (b) { return { time: b.t + DXB, value: k * (toAed(b.c) - base) }; });
     var range = keepRange ? chart.timeScale().getVisibleLogicalRange() : null;
@@ -1389,12 +1431,16 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     $('exampleNote').hidden = !cfg.example;
     var basis = !s.usd ? 'Tracked from ' + longDate(s.date) + '. '
       : 'Tracked against ' + (s.ecb ? 'the ECB reference rate for ' + longDate(d) : s.approx ? 'Kraken\'s rate at 1pm London on ' + longDate(s.date) : 'your starting rate for ' + longDate(s.date)) + ', GBP/USD ' + s.usd + '. ';
-    $('lede').textContent = basis + 'Figures are in pounds first, with dirhams in brackets, after the ' + pct() + ' dealing charge.';
+    var dt = dealTime();
+    if (dealMode()) $('lede').textContent = 'Your deal: ' + gbpExact(cfg.amount) + ' at ' + cfg.dealRate.toFixed(4) + (dt ? ' on ' + dxbDay(dt) : '') + ', which brought ' + aed(dealAed()) + '. Gains and losses are shown from the deal\'s side: green means your deal looks better against the market and your dirhams are worth more in pounds, red the reverse. ' + basis + 'Pounds first, with dirhams in brackets.';
+    else $('lede').textContent = basis + 'Figures are in pounds first, with dirhams in brackets, after the ' + pct() + ' dealing charge.';
     $('daysTitle').textContent = 'Day by day since ' + dayName(s.date);
-    $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge, in pounds with dirhams in brackets. Green means dealing now brings more, red means less. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.';
-    $('axisLeft').textContent = 'Left scale: pounds gained or lost on ' + gbpExact(cfg.amount) + ' against the comparison' + (state.wide ? ', with dirhams in brackets' : '');
+    if (dealMode()) $('daysNote').textContent = 'Each figure is your deal against dealing at that moment instead, on ' + gbpExact(cfg.amount) + ' after the dealing charge, in pounds with dirhams in brackets. Green means your deal brought more than dealing then would have, red means less. Click a figure to chart against it. 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set.';
+    else $('daysNote').textContent = 'Each figure is the difference between dealing now and dealing at that moment, on ' + gbpExact(cfg.amount) + ' after the dealing charge, in pounds with dirhams in brackets. Green means dealing now brings more, red means less. Click a figure to chart against it. The market trades around the clock from 01:00 Monday to 01:00 Saturday Dubai, so these are two fixed moments in the London day, not an opening and a close: 8am is when London starts dealing, and 4pm is when the benchmark rate that UK banks use is set. Trading carries on after both, in New York and then Asia.';
+    $('axisLeft').textContent = (dealMode() ? 'Left scale: the comparison against dealing at each level, in pounds on ' : 'Left scale: pounds gained or lost on ') + gbpExact(cfg.amount) + (dealMode() ? '' : ' against the comparison') + (state.wide ? ', with dirhams in brackets' : '');
     $('marksBrought').textContent = amountShort() + ' brought';
-    $('sinceLabel').textContent = 'Since ' + shortDay(s.date);
+    $('marksVs').textContent = dealMode() ? 'Your deal against it' : 'Now against it';
+    $('sinceLabel').textContent = (dealMode() ? 'Your deal against ' : 'Since ') + shortDay(s.date);
     var e = ecbCache[startDate()];
     $('startHint').textContent = e ? 'Leave the rate blank to use the ECB reference rate for ' + dayName(e.date) + ', which was ' + e.rate + '.' : 'Leave the rate blank to use the ECB reference rate for that day.';
   }
@@ -1419,7 +1465,62 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     return room > 0 ? cfg.need / room : null;
   }
   function targetMid() { var t = targetTrig(); return t ? t + spreadAed() : null; }
+  /* The range since the start, the days before the deal that closed above it, and the range since the deal. */
+  function dealRange() {
+    var s = parseYmd(startDate()), from = Date.UTC(s.y, s.m - 1, s.d) / 1000, dt = dealTime(), now = Date.now() / 1000, dm = dealMidAed();
+    var out = { lo: null, hi: null, n: 0, above: 0, lastDay: null, after: null }, h0 = state.hourly.length ? state.hourly[0].t : Infinity;
+    function take(o, lo, hi, t) {
+      if (!o.lo || lo < o.lo.v) o.lo = { v: lo, t: t };
+      if (!o.hi || hi > o.hi.v) o.hi = { v: hi, t: t };
+    }
+    /* Highs and lows from the hourly prices, which are cleaned of stray trades; before those, daily closes */
+    (state.daily || []).forEach(function (b) {
+      if (b.t < from) return;
+      if (b.t + 86400 <= h0) take(out, b.c, b.c, b.t);
+      if (dt && b.t + 86400 <= Math.floor(dt / 86400) * 86400) { out.n++; if (toAed(b.c) > dm) out.above++; out.lastDay = b.t; }
+    });
+    state.hourly.forEach(function (b) { if (b.t >= from && isFxOpen(b.t)) take(out, b.l, b.h, b.t); });
+    var st = startInfo(); if (st.usd) take(out, st.usd, st.usd, from);
+    if (state.mid) take(out, state.mid, state.mid, now);
+    if (dt && dt < now) {
+      var a = {}, next = Math.floor(dt / 86400) * 86400 + 86400;
+      state.hourly.forEach(function (b) { if (b.t >= dt && b.t < next && isFxOpen(b.t)) take(a, b.l, b.h, b.t); });
+      state.hourly.forEach(function (b) { if (b.t >= next && isFxOpen(b.t)) take(a, b.l, b.h, b.t); });
+      (state.daily || []).forEach(function (b) { if (b.t >= next && b.t + 86400 <= h0) take(a, b.c, b.c, b.t); });
+      if (state.mid && isFxOpen(now)) take(a, state.mid, state.mid, now);
+      if (a.lo) out.after = a;
+    }
+    return out;
+  }
+  function renderDeal() {
+    var tile = $('tileLeft'), goal = $('goal'), get = getNow(), v = dealAed() - get, g = gbpOf(v), dt = dealTime(), dm = dealMidAed();
+    $('leftLabel').textContent = 'Your deal' + (dt ? ', ' + dxbDay(dt) + ',' : '') + ' against dealing today';
+    $('leftBig').textContent = gbp(g, true);
+    $('leftAed').textContent = '(' + aedSigned(v) + ')';
+    $('leftSub').textContent = (v >= 0 ? 'Ahead. ' : 'Behind. ') + gbpExact(cfg.amount) + ' brought ' + aed(dealAed()) + ' at ' + cfg.dealRate.toFixed(4) + '. Dealing today, at the live ' + basisWord() + ' less ' + pct() + ', would bring ' + aed(get) + ', at ' + (get / cfg.amount).toFixed(4) + '.';
+    var r = dealRange(), html = '';
+    if (r.lo && r.hi && r.hi.v > r.lo.v) {
+      var lo = toAed(r.lo.v), hi = toAed(r.hi.v), at = function (x) { return Math.max(0, Math.min(100, (x - lo) / (hi - lo) * 100)).toFixed(1) + '%'; };
+      html += '<div class="rangebar" role="img" aria-label="Where your deal sits in the range since ' + shortDay(startDate()) + '"><i class="rb-deal" style="left:' + at(dm) + '"></i><i class="rb-now" style="left:' + at(toAed(state.mid)) + '"></i></div>' +
+        '<div class="goalends"><span>Low ' + lo.toFixed(4) + ', ' + dxbDay(r.lo.t).replace(/^\w+ /, '') + '</span><span>High ' + hi.toFixed(4) + ', ' + dxbDay(r.hi.t).replace(/^\w+ /, '') + '</span></div>' +
+        '<p class="goal">The range since ' + shortDay(startDate()) + '. The line is your deal\'s market rate before the fee, <b>' + dm.toFixed(4) + '</b>, ' + Math.round((dm - lo) / (hi - lo) * 100) + '% of the way up; the dot is now.' +
+        (r.after ? ' Since your deal the rate has ranged from <b>' + toAed(r.after.lo.v).toFixed(4) + '</b> to <b>' + toAed(r.after.hi.v).toFixed(4) + '</b>.' : '') + '</p>';
+    }
+    if (goal.innerHTML !== html) goal.innerHTML = html;
+    tone(tile, roundGbp(g) === 0 ? 0 : v);
+  }
+  /* What the dirhams held are worth in pounds now, at the live mid, and at the deal's market rate */
+  function renderHeld() {
+    var h = heldAed(), now = h / toAed(state.mid), then = h / dealMidAed(), ch = now - then, own = cfg.propertyAed + cfg.cashAed > 0;
+    $('yourLabel').textContent = own ? 'Your dirhams in pounds' : 'The dirhams from your deal, in pounds';
+    $('your').className = 'big';
+    $('your').innerHTML = '<span>' + gbpExact(round100(now)) + '</span><span class="eq">(' + aed(h) + ')</span>';
+    $('yourSub').innerHTML = (own ? (cfg.propertyAed > 0 ? 'Property ' + aed(cfg.propertyAed) : '') + (cfg.propertyAed > 0 && cfg.cashAed > 0 ? ' and cash ' : cfg.cashAed > 0 ? 'Cash ' : '') + (cfg.cashAed > 0 ? aed(cfg.cashAed) : '') + ', at' : 'At') +
+      ' the live mid. At your deal\'s market rate they were worth ' + gbpExact(round100(then)) + ', so <b>' + gbp(ch, true) + '</b> since.';
+    tone($('tileRate'), roundGbp(ch) === 0 ? 0 : ch);
+  }
   function renderLeft() {
+    if (dealMode()) { renderDeal(); return; }
     var get = getNow(), liveMid = toAed(state.mid), tile = $('tileLeft'), goal = $('goal');
     if (!(cfg.need > 0)) {
       $('leftLabel').textContent = amountShort() + ' brings, after ' + pct();
@@ -1488,33 +1589,44 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     } else {
       $('midSub').innerHTML = 'GBP/USD <b>' + state.mid.toFixed(5) + '</b>' + (state.bid ? ', bid ' + state.bid.toFixed(5) + ', offer ' + state.ask.toFixed(5) : '') + ', times ' + cfg.peg + ' dirhams to the dollar';
     }
+    if (dealMode()) renderHeld();
+    else {
+    tone($('tileRate'), 0);
     $('yourLabel').textContent = 'Your rate after ' + pct();
+    $('your').className = 'dealer lg';
     $('your').innerHTML = dealerHTML(your);
     $('yourSub').innerHTML = amountShort() + ' brings <b>' + aed(get) + '</b>. That is the live ' + basisWord() + ' of ' + toAed(dealUsd()).toFixed(4) + ' less ' + pct() + ', so a quote at or above ' + your.toFixed(4) + ' is within it.';
+    }
 
     var td = todayInfo(), li = londonInfo();
     if (td && !td.open && fc) {
-      var wk = diffVs(state.mid, fc);
+      var wk = moveOf(state.mid, fc);
       $('todayLabel').textContent = 'This weekend, since the banks shut';
       $('today').innerHTML = twoLine(wk, true);
-      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / fc - 1) + ' on Kraken since the close. The last full session before it: ' + withGbpSigned(td.aed) + '.';
+      $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / fc - 1) + ' on Kraken since the close. The last full session before it: ' + withGbpSigned(sd() * td.aed) + '.';
       tone($('tileToday'), Math.round(wk) === 0 ? 0 : wk);
     } else if (li) {
-      var dl = diffVs(state.mid, li.usd), ind = indicators();
+      var dl = moveOf(state.mid, li.usd), ind = indicators();
       $('todayLabel').textContent = li.label;
       $('today').innerHTML = twoLine(dl, true);
       $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / li.usd - 1) + (ind ? ', against a normal day of about ' + (ind.typical * 100).toFixed(2) + '% either way' : '') + '.' +
-        (td ? ' Since the market\'s day began at ' + dxbTime(td.start) + ' Dubai: ' + withGbpSigned(td.aed) + '.' : '');
+        (td ? ' Since the market\'s day began at ' + dxbTime(td.start) + ' Dubai: ' + withGbpSigned(sd() * td.aed) + '.' : '');
       tone($('tileToday'), Math.round(dl) === 0 ? 0 : dl);
     } else if (td) {
       $('todayLabel').textContent = 'Today, since ' + dxbTime(td.start) + ' Dubai';
-      $('today').innerHTML = twoLine(td.aed, true);
+      $('today').innerHTML = twoLine(sd() * td.aed, true);
       $('todaySub').innerHTML = 'GBP/USD ' + pctSigned(td.pct) + '.';
-      tone($('tileToday'), Math.round(td.aed) === 0 ? 0 : td.aed);
+      tone($('tileToday'), Math.round(td.aed) === 0 ? 0 : sd() * td.aed);
     } else { $('today').textContent = 'Waiting'; $('todaySub').textContent = 'Needs the hourly history from Kraken.'; }
 
     var ref = state.refs.get('start');
-    if (ref) {
+    if (ref && dealMode()) {
+      var dv = dealVs(ref.usd), rg = dealRange(), dm = dealMidAed();
+      $('since').innerHTML = twoLine(dv, true);
+      $('sinceSub').innerHTML = toAed(ref.usd).toFixed(4) + ' on ' + shortDay(startDate()) + ' brought ' + aed(brings(ref.usd)) + '.' +
+        (rg.n ? ' Of the ' + rg.n + ' trading days from ' + shortDay(startDate()) + ' to ' + dxbDay(rg.lastDay).replace(/^\w+ /, '') + ', ' + rg.above + ' closed above your deal\'s market rate of ' + dm.toFixed(4) + '.' : '');
+      tone($('tileSince'), Math.round(dv) === 0 ? 0 : dv);
+    } else if (ref) {
       var d = diffVs(state.mid, ref.usd), need = ref.usd / state.mid - 1;
       $('since').innerHTML = twoLine(d, true);
       $('sinceSub').innerHTML = 'GBP/USD ' + pctSigned(state.mid / ref.usd - 1) + '. Back to level needs ' + ref.usd.toFixed(4) + (need > 0 ? ', ' + (need * 100).toFixed(2) + '% higher.' : ', already passed.');
@@ -1536,7 +1648,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   function renderHeadline() {
     var stripe = $('stripe'), ref = state.refs.get('start'), shut = !isFxOpen(Date.now() / 1000), rate = toAed(state.mid).toFixed(4);
-    var d = ref ? diffVs(state.mid, ref.usd) : 0;
+    var d = dealMode() ? dealAed() - getNow() : ref ? diffVs(state.mid, ref.usd) : 0;
+    if (dealMode()) ref = state.refs.get('deal');
     stripe.className = 'stripe' + (shut ? ' shut' : ref ? (d >= 0 ? ' gain' : ' loss') : '');
     if (ref) {
       var fill = shut ? '#8a6420' : d >= 0 ? '#08784b' : '#c02f29';
@@ -1545,7 +1658,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         $('fav').href = 'data:image/svg+xml,' + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='" + fill + "'/><text x='16' y='23' font-family='Arial' font-weight='700' font-size='20' text-anchor='middle' fill='white'>£</text></svg>");
       }
     }
-    if (cfg.need > 0) document.title = gbpK(leftAt(toAed(state.mid))) + ' left · ' + rate + ' · ' + amountShort() + ' into dirhams';
+    if (dealMode()) document.title = 'Deal ' + gbpK(gbpOf(d), true) + ' · ' + rate + ' · Sterling into dirhams';
+    else if (cfg.need > 0) document.title = gbpK(leftAt(toAed(state.mid))) + ' left · ' + rate + ' · ' + amountShort() + ' into dirhams';
     else if (ref) document.title = rate + ' · ' + gbpK(gbpOf(d), true) + ' · ' + amountShort() + ' into dirhams';
     else document.title = rate + ' · Sterling into dirhams';
   }
@@ -1553,9 +1667,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var el = $('legend');
     if (!state.mid && !pt) { el.textContent = ''; return; }
     if (pt) {
-      var d = diffVs(state.mid, pt.rate / cfg.peg);
+      var d = dealMode() ? dealVs(pt.rate / cfg.peg) : diffVs(state.mid, pt.rate / cfg.peg);
       el.innerHTML = '<b>' + timeFmt(pt.t + DXB) + '</b>' + (pt.o != null ? ' · O ' + pt.o.toFixed(4) + ' H ' + pt.h.toFixed(4) + ' L ' + pt.l.toFixed(4) + ' C <b>' + pt.rate.toFixed(4) + '</b>' : ' · <b>' + pt.rate.toFixed(4) + '</b>') +
-        ' · now against it <span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + gbp(gbpOf(d), true) + ' (' + aedSigned(d) + ')</span>';
+        (dealMode() ? ' · your deal against it' : ' · now against it') + ' <span class="' + (d >= 0 ? 'gain' : 'loss') + '">' + gbp(gbpOf(d), true) + ' (' + aedSigned(d) + ')</span>';
     } else {
       el.innerHTML = '<b>' + (state.via === 'saved' ? 'Last seen' : 'Now') + '</b> mid <b>' + toAed(state.mid).toFixed(4) + '</b>' + (onBid() ? ' · bid ' + toAed(dealUsd()).toFixed(4) : '') + ' · GBP/USD ' + state.mid.toFixed(5) + ' · ' + dxbTime((state.at || Date.now()) / 1000, true);
     }
@@ -1575,7 +1689,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   function moveLt(label, usdThen) {
     if (!(usdThen > 0)) return lt(label, 'Waiting', 'for prices', 0);
-    var d = diffVs(state.mid, usdThen), p = state.mid / usdThen - 1, sign = Math.abs(p) < 0.00005 ? 0 : d;
+    var d = moveOf(state.mid, usdThen), p = state.mid / usdThen - 1, sign = Math.abs(p) < 0.00005 ? 0 : d;
     return lt(label, gbp(gbpOf(d), true), aedSigned(d), sign, Math.abs(p) < 0.00005 ? '0.00%' : pctSigned(p));
   }
   function renderLive() {
@@ -1586,6 +1700,12 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     /* Since London opened at 8am, or before that since 4pm London the day before; Today runs from the 01:00 Dubai roll */
     top.push(moveLt(li && /8am/.test(li.label) ? 'London open' : 'Since 4pm', li && li.usd));
     top.push(moveLt('Today', td && td.prev));
+    if (dealMode()) {
+      /* Your deal against dealing now, as at the top, and what the dirhams are worth in pounds */
+      var v = dealAed() - getNow(), dp = Math.round((toAed(dealUsd()) - dealMidAed()) / 0.0001), h = heldAed(), hNow = h / toAed(state.mid), hCh = hNow - h / dealMidAed();
+      top.push(lt('vs deal', gbp(gbpOf(v), true), aedSigned(v), Math.round(gbpOf(v)) === 0 ? 0 : v, (dp > 0 ? '+' : dp < 0 ? MINUS : '') + Math.abs(dp) + ' pips'));
+      top.push(lt('Dirhams in £', gbpK(hNow), gbpK(hCh, true) + ' since deal', Math.round(hCh) === 0 ? 0 : hCh));
+    } else {
     top.push(moveLt(ref ? 'vs ' + ref.short : 'vs the start', ref && ref.usd));
     if (o) {
       /* Pips are GBP/AED pips, 0.0001 of the rate shown on the page, so they add up with the rates on screen */
@@ -1593,10 +1713,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       top.push(o.trig > liveB ? lt('To order', pips + ' pips', gbpK(gbpOf(gain), true) + ' when filled', 0, '+' + ((o.trig / liveB - 1) * 100).toFixed(2) + '%')
         : lt('Your order', 'Level reached', o.rate.toFixed(4) + ' after the fee', 1));
     } else top.push(lt('Your order', 'Not set', 'see Dealing below', 0));
+    }
     /* Dollar or pound today: the dollar's move shows in EUR/USD, the pound's in EUR/GBP */
     var eu = td ? crossToday('EUR/USD', td.start, td.ref, td.open) : null, eg = td ? crossToday('EUR/GBP', td.start, td.ref, td.open) : null;
     if (eu != null && eg != null) {
-      var per = cfg.amount * (1 - mg()), base = toAed(td.prev), dA = per * base * eu, pA = per * base * (-eg);
+      var per = sd() * cfg.amount * (1 - mg()), base = toAed(td.prev), dA = per * base * eu, pA = per * base * (-eg);
       var who = Math.abs(dA) >= 1.5 * Math.abs(pA) ? 'The dollar' : Math.abs(pA) >= 1.5 * Math.abs(dA) ? 'The pound' : 'Both';
       bot.push(lt('Dollar or pound, today', who, 'Dollar ' + gbpK(gbpOf(dA), true) + ', pound ' + gbpK(gbpOf(pA), true), 0));
     } else bot.push(lt('Dollar or pound, today', 'Waiting', 'for the euro prices', 0));
@@ -1607,7 +1728,11 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       var off = Math.round((toAed(hi) - toAed(state.mid)) / 0.0001);
       bot.push(lt('Range since ' + dxbTime(td.start), toAed(lo).toFixed(4) + ' to ' + toAed(hi).toFixed(4), off <= 0 ? 'now at the high' : 'now ' + off + ' pips below the high', 0));
     }
-    if (cfg.need > 0) {
+    if (dealMode()) {
+      var ra = dealRange().after, dp2 = Math.round((toAed(dealUsd()) - dealMidAed()) / 0.0001);
+      bot.push(ra ? lt('Since your deal', toAed(ra.lo.v).toFixed(4) + ' to ' + toAed(ra.hi.v).toFixed(4), 'now ' + Math.abs(dp2) + ' pips ' + (dp2 >= 0 ? 'above' : 'below') + ' it', 0)
+        : lt('Your deal', cfg.dealRate.toFixed(4), 'market ' + dealMidAed().toFixed(4) + ' before the fee', 0));
+    } else if (cfg.need > 0) {
       var left = leftNow();
       bot.push(lt('Left after completion', gbpExact(round100(left)), cfg.target > 0 ? (left >= cfg.target ? gbpK(left - cfg.target) + ' above ' + gbpK(cfg.target) : gbpK(cfg.target - left) + ' to ' + gbpK(cfg.target)) : aed(getNow() - cfg.need), cfg.target > 0 && left >= cfg.target ? 1 : 0));
     }
@@ -1619,7 +1744,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   }
   /* The order line is often off the top of a short chart. A flag says how far it is, and a tap brings it into view. */
   function renderOrderFlag() {
-    var f = $('orderFlag'), o = cfg.orderShow ? orderInfo() : null, e = chart ? visibleExtent() : null;
+    var f = $('orderFlag'), o = orderLines() ? orderInfo() : null, e = chart ? visibleExtent() : null;
     if (!o || !e) { f.hidden = true; return; }
     if (state.fitOrder) { f.hidden = false; f.className = 'order-flag'; f.textContent = 'Order in view · tap to zoom back'; return; }
     var above = o.mid > e.hi, below = o.mid < e.lo;
@@ -1747,7 +1872,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (t > now) return '<td class="pending">at ' + dxbTime(t) + ' Dubai</td>';
     var r = state.refs.get(key);
     if (!r) return '<td class="pending">no price</td>';
-    var d = diffVs(state.mid, r.usd);
+    var d = dealMode() ? dealVs(r.usd) : diffVs(state.mid, r.usd);
     return '<td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '" title="Chart against ' + r.name + ', ' + dxbTime(t) + ' Dubai"><span class="pnl">' + gbp(gbpOf(d), true) + '</span><span class="alt">(' + aedSigned(d) + ')</span><span class="rt">' + toAed(r.usd).toFixed(4) + ' at ' + dxbTime(t) + ' Dubai</span></button></td>';
   }
   function renderDays() {
@@ -1766,7 +1891,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function markRow(key, title) {
     var r = state.refs.get(key);
     if (!r) return '';
-    var d = diffVs(state.mid, r.usd);
+    var d = dealMode() ? dealVs(r.usd) : diffVs(state.mid, r.usd);
     return '<tr><th scope="row">' + title + '<br><span class="when">' + r.when + '</span></th><td class="num">' + toAed(r.usd).toFixed(4) + '</td><td class="num">' + aed(brings(r.usd)) + '</td><td><button type="button" class="cellbtn ' + (d >= 0 ? 'gain' : 'loss') + (state.cmp === key ? ' sel' : '') + '" data-ref="' + key + '"><span class="pnl">' + gbp(gbpOf(d), true) + '</span><span class="alt">(' + aedSigned(d) + ')</span></button></td></tr>';
   }
   function renderMarks() {
@@ -1813,6 +1938,12 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         ? aed(lnet) + ' less ' + aed(net) + ' = <b>' + withGbp(-d) + '</b>. That is how many fewer dirhams ' + gbpExact(cfg.amount) + ' brings now than on ' + dayMonth(s.date) + '.'
         : aed(net) + ' less ' + aed(lnet) + ' = <b>' + withGbp(d) + '</b>. That is how many more dirhams ' + gbpExact(cfg.amount) + ' brings now than on ' + dayMonth(s.date) + '.');
     }
+    if (dealMode()) {
+      var dv = dealAed() - getNow(), h = heldAed();
+      items.push('Your deal: ' + gbpExact(cfg.amount) + ' × ' + cfg.dealRate.toFixed(4) + ' = <b>' + aed(dealAed()) + '</b>. The ' + pct() + ' came off the bank\'s ' + basisWord() + ', so the market rate before the fee was ' + cfg.dealRate.toFixed(4) + ' ÷ ' + (1 - mg()).toFixed(4) + ' = ' + dealMidAed().toFixed(4) + ', GBP/USD ' + (dealMidAed() / cfg.peg).toFixed(4) + '.');
+      items.push('Dealing now brings ' + aed(getNow()) + ', so your deal brought <b>' + withGbp(Math.abs(dv)) + (dv >= 0 ? ' more' : ' less') + '</b> than dealing today, in pounds at the live mid.');
+      items.push(aed(h) + ' ÷ ' + a.toFixed(4) + ' = <b>' + gbpExact(round100(h / a)) + '</b>, what your dirhams are worth in pounds at the live mid. At your deal\'s market rate, ' + aed(h) + ' ÷ ' + dealMidAed().toFixed(4) + ' = ' + gbpExact(round100(h / dealMidAed())) + '.');
+    }
     $('workings').innerHTML = items.map(function (x) { return '<li>' + x + '</li>'; }).join('');
     $('pipsNote').innerHTML = 'The ' + pct() + ' is a percentage of the rate, not pips. At the live rate it is ' + (a * mg()).toFixed(4) + ' dirhams per pound, which is ' + Math.round(a * mg() / 0.0001) + ' GBP/AED pips or ' + Math.round(usd * mg() / 0.0001) + ' GBP/USD pips. On ' + gbpExact(cfg.amount) + ' it is ' + gbpExact(Math.round(cfg.amount * mg())) + '.';
   }
@@ -1829,7 +1960,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     if (td) {
       var eu = crossToday('EUR/USD', td.start, td.ref, td.open), eg = crossToday('EUR/GBP', td.start, td.ref, td.open);
       if (eu != null && eg != null) {
-        var base = toAed(td.prev), dollarAed = per * base * eu, poundAed = per * base * (-eg), max = Math.max(Math.abs(dollarAed), Math.abs(poundAed), 1);
+        var base = toAed(td.prev), dollarAed = sd() * per * base * eu, poundAed = sd() * per * base * (-eg), max = Math.max(Math.abs(dollarAed), Math.abs(poundAed), 1);
         var verdict;
         if (Math.abs(dollarAed) >= 1.5 * Math.abs(poundAed)) verdict = 'Mostly the dollar. It is ' + (eu < 0 ? 'stronger' : 'weaker') + ' across the board: the euro is ' + (eu < 0 ? 'down ' : 'up ') + (Math.abs(eu) * 100).toFixed(2) + '% against it as well.';
         else if (Math.abs(poundAed) >= 1.5 * Math.abs(dollarAed)) verdict = 'Mostly the pound. Sterling is ' + (eg > 0 ? 'weaker' : 'stronger') + ' against the euro too, by ' + (Math.abs(eg) * 100).toFixed(2) + '%.';
@@ -1839,7 +1970,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
           '<div class="split-row"><span>Dollar effect</span>' + barHTML(dollarAed, max) + '<span class="val ' + (dollarAed >= 0 ? 'gain' : 'loss') + '">' + gbpK(gbpOf(dollarAed), true) + '</span></div>' +
           '<div class="split-row"><span>Pound effect</span>' + barHTML(poundAed, max) + '<span class="val ' + (poundAed >= 0 ? 'gain' : 'loss') + '">' + gbpK(gbpOf(poundAed), true) + '</span></div>' +
           '</div>' +
-          '<p class="sub">In pounds on ' + gbpExact(cfg.amount) + (td.open ? ' since ' + dxbTime(td.start) + ' Dubai' : ' over the last session before the weekend') + '. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
+          '<p class="sub">' + (dealMode() ? 'In pounds, for your deal, ' : 'In pounds on ' + gbpExact(cfg.amount)) + (td.open ? ' since ' + dxbTime(td.start) + ' Dubai' : ' over the last session before the weekend') + '. EUR/USD ' + pctSigned(eu) + ' measures the dollar; EUR/GBP ' + pctSigned(eg) + ' measures the pound against the euro. Together they make GBP/USD ' + pctSigned(td.pct) + '.</p>';
       }
     }
     /* How big is today's move? */
@@ -1902,7 +2033,8 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     items.push({ html: sessionLine(now) });
     if (open && td) {
       var monday = nyWH(td.start).wd === 'Sun';
-      items.push({ cls: td.aed > 0 ? 'gain' : td.aed < 0 ? 'loss' : '', html: 'Since ' + (monday ? 'Friday\'s close' : dxbTime(td.start) + ' Dubai') + ' GBP/USD is ' + (td.pct >= 0 ? 'up ' : 'down ') + (Math.abs(td.pct) * 100).toFixed(2) + '%. On your ' + gbpExact(cfg.amount) + ' that is <b>' + withGbpSigned(td.aed) + '</b>.' });
+      var tdv = sd() * td.aed;
+      items.push({ cls: tdv > 0 ? 'gain' : tdv < 0 ? 'loss' : '', html: 'Since ' + (monday ? 'Friday\'s close' : dxbTime(td.start) + ' Dubai') + ' GBP/USD is ' + (td.pct >= 0 ? 'up ' : 'down ') + (Math.abs(td.pct) * 100).toFixed(2) + '%. ' + onYour() + ' that is <b>' + withGbpSigned(tdv) + '</b>.' });
       var eu = crossToday('EUR/USD', td.start, td.ref, td.open), eg = crossToday('EUR/GBP', td.start, td.ref, td.open);
       if (eu != null && eg != null && Math.abs(td.pct) >= 0.0003) {
         var who;
@@ -1913,7 +2045,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
       }
     } else if (!open && state.hourly.length) {
       var fc = closeBefore(state.hourly, state.hourIdx, lastOpenHour(now) + 3600);
-      if (fc) { var wk = diffVs(state.mid, fc); items.push({ cls: wk > 0 ? 'gain' : wk < 0 ? 'loss' : '', html: 'Since the banks shut, Kraken\'s price has moved ' + pctSigned(state.mid / fc - 1) + '. On your ' + gbpExact(cfg.amount) + ' that would be <b>' + withGbpSigned(wk) + '</b> if they reopened here.' }); }
+      if (fc) { var wk = moveOf(state.mid, fc); items.push({ cls: wk > 0 ? 'gain' : wk < 0 ? 'loss' : '', html: 'Since the banks shut, Kraken\'s price has moved ' + pctSigned(state.mid / fc - 1) + '. ' + onYour() + ' that would be <b>' + withGbpSigned(wk) + '</b> if they reopened here.' }); }
     }
     var sh = sharpest();
     if (sh && Math.abs(sh.ch) >= 0.0006) {
@@ -1972,9 +2104,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
   function renderLatestLive() {
     var el = $('latestLive'), m = state.market, f0 = m && m.feed && m.feed[0], r0 = f0 ? +f0.rate : 0;
     if (!el || !state.mid || !(r0 > 0)) return;
-    var mv = state.mid / r0 - 1, d = diffVs(state.mid, r0), nc = nextCheck(Date.now() / 1000);
+    var mv = state.mid / r0 - 1, d = moveOf(state.mid, r0), nc = nextCheck(Date.now() / 1000);
     el.className = 'live-line' + (Math.abs(mv) < 0.0003 ? '' : d > 0 ? ' gain' : ' loss');
-    el.innerHTML = '<span class="lbl">Since this update:</span>GBP/USD ' + r0.toFixed(4) + ' to ' + state.mid.toFixed(4) + ', ' + (Math.abs(mv) < 0.00005 ? 'unchanged' : pctSigned(mv) + ', which is ' + withGbpSigned(d) + ' on ' + amountShort()) + '.' + (nc ? ' Next check about ' + dxbTime(nc) + ' Dubai.' : '');
+    el.innerHTML = '<span class="lbl">Since this update:</span>GBP/USD ' + r0.toFixed(4) + ' to ' + state.mid.toFixed(4) + ', ' + (Math.abs(mv) < 0.00005 ? 'unchanged' : pctSigned(mv) + ', which is ' + withGbpSigned(d) + (dealMode() ? ' for your deal' : ' on ' + amountShort())) + '.' + (nc ? ' Next check about ' + dxbTime(nc) + ' Dubai.' : '');
   }
   function renderCalendar() {
     var m = state.market, body = $('calRows');
@@ -2032,6 +2164,10 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     { id: 'setStartRate', key: 'startRate', kind: 'opt' },
     { id: 'setNeed', key: 'need', kind: 'opt0' },
     { id: 'setTarget', key: 'target', kind: 'opt0' },
+    { id: 'setDealRate', key: 'dealRate', kind: 'opt0' },
+    { id: 'setDealAt', key: 'dealAt', kind: 'dt' },
+    { id: 'setProperty', key: 'propertyAed', kind: 'opt0' },
+    { id: 'setCash', key: 'cashAed', kind: 'opt0' },
     { id: 'setFeeOn', key: 'feeOn', kind: 'sel' },
     { id: 'setPeg', key: 'peg', kind: 'num' }
   ];
@@ -2041,6 +2177,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     FIELDS.forEach(function (f) {
       var v = cfg[f.key], el = $(f.id);
       if (f.kind === 'date') el.value = startDate();
+      else if (f.kind === 'dt') el.value = cfg.dealAt || '';
       else if (f.kind === 'sel') el.value = v === 'mid' ? 'mid' : 'bid';
       else if (v == null || (f.kind === 'opt0' && !(v > 0))) el.value = '';
       else el.value = v >= 1000 ? nf0.format(v) : v;
@@ -2050,6 +2187,9 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     var raw = String($(f.id).value).replace(/,/g, '').trim();
     if (f.kind === 'sel') {
       cfg[f.key] = raw === 'mid' ? 'mid' : 'bid';
+    } else if (f.kind === 'dt') {
+      if (raw !== '' && !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(raw)) { fill(); return; }
+      cfg.dealAt = raw.slice(0, 16);
     } else if (f.kind === 'date') {
       if (!parseYmd(raw)) { fill(); return; }
       cfg.startDate = raw; cfg.startRate = null; cfg.startIsEcb = false;
@@ -2070,8 +2210,13 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     cfg.example = false;
     save(KEYS.cfg, cfg); fill(); settingsChanged();
   }
+  /* The dealing sheet starts folded once a deal is in, and open before one */
+  var foldedFor = null;
+  /* After a deal, the order and target lines show only while the dealing sheet is open */
+  function orderLines() { return cfg.orderShow && (!dealMode() || $('order').open); }
+  function foldDealing() { if (foldedFor !== dealMode()) { foldedFor = dealMode(); $('order').open = !foldedFor; } }
   function settingsChanged() {
-    buildRefs(); renderCompareOptions(); renderLabels(); redraw(true); renderDays(); renderMarks();
+    foldDealing(); buildRefs(); renderCompareOptions(); renderLabels(); redraw(true); renderDays(); renderMarks();
     state.dirty = true; frame(); renderGauges();
   }
   function openSettings() {
@@ -2108,6 +2253,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     $('orderIn').addEventListener('change', function () { var o = orderInfo(); if (o) $('orderIn').value = o.rate.toFixed(4); });
     $('orderShow').addEventListener('change', function (e) { cfg.orderShow = e.target.checked; save(KEYS.cfg, cfg); drawLines(); renderLegend(null); });
     $('orderCopy').addEventListener('click', copyWording);
+    $('order').addEventListener('toggle', function () { drawLines(); renderOrderFlag(); });
     document.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-ref]'); if (b) { setCompare(b.dataset.ref); return; }
       if (e.target.closest('#orderToTarget')) {
@@ -2115,6 +2261,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
         if (tm) { cfg.orderRate = Math.ceil(tm * (1 - mg()) * 10000) / 10000; save(KEYS.cfg, cfg); $('orderIn').value = cfg.orderRate.toFixed(4); renderOrder(); drawLines(); renderLegend(null); }
         return;
       }
+      if (e.target.closest('a[href="#order"]')) $('order').open = true;
       var s = e.target.closest('[data-open-settings]'); if (s) { e.preventDefault(); openSettings(); }
     });
     window.addEventListener('resize', function () { if (chart) checkWide(); });
@@ -2149,7 +2296,7 @@ details.older summary { cursor: pointer; color: var(--accent); font-size: 14px; 
     }).catch(function () { /* the next refresh tries again */ });
   }
   function start() {
-    bindUi(); checkVersion();
+    bindUi(); checkVersion(); foldDealing();
     buildRefs(); renderCompareOptions(); renderLabels();
     initChart();
     Array.prototype.forEach.call(document.querySelectorAll('#seg button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.iv === state.iv)); });
