@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:40:33Z",
+ "updated": "2026-10-28T07:44:49Z",
  "headline": "Sterling is about 1.3303 dollars this morning, edging down from 1.3312 last night as the dollar held near a two week high against the pound and the euro. Today brings the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, where a hold is expected but markets price about an 84% chance of a rise in December.",
  "drivers": [
   {
@@ -35,8 +35,14 @@
   "Progress in the mediation with Iran or a deal with the US, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "Softer US core inflation or growth on Thursday than forecast, which would make a December Fed rise less certain."
  ],
- "watch": "Today brings the UK Budget at 16:30 Dubai, then the Fed's decision at 22:00 Dubai, where a hold is expected, and Chair Warsh's press conference at 22:30 Dubai. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
+ "watch": "The UK Budget is at 16:30 Dubai today and the Fed's decision at 22:00 Dubai, with Chair Warsh's press conference at 22:30. The rate can move sharply in the minutes after each. A Budget that calms the gilt market, and a Fed that plays down a December rise, would both help someone selling pounds for dirhams; the reverse of either would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
  "sources": [
+  {
+   "title": "GBP/USD, EUR/USD and EUR/GBP hourly prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
+   "date": "28 Oct"
+  },
   {
    "title": "British Pound declines ahead of UK Finance Minister Healey's budget",
    "site": "FXStreet",
@@ -60,12 +66,6 @@
    "site": "FX Empire",
    "url": "https://www.fxempire.com/forecasts/article/oil-price-forecast-brent-and-wti-ease-as-iran-peace-hopes-grow-1640568",
    "date": "27 Oct"
-  },
-  {
-   "title": "GBP/USD, EUR/USD and EUR/GBP minute and hourly prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
-   "date": "28 Oct"
   },
   {
    "title": "British Pound extends slide as Fed decision, UK budget loom",
@@ -233,8 +233,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T06:40:33Z",
+ "calendarUpdated": "2026-10-28T07:44:49Z",
  "feed": [
+  {
+   "title": "Sterling is near a two week low ahead of the Budget and the Fed",
+   "text": "GBP/USD touched 1.3275 in the last hour and was 1.3289 at 11:44 Dubai, down from 1.3373 at Friday's close, as the dollar has firmed all week against the euro as well as the pound, and the pound has also slipped a little against the euro this morning. Today brings the two biggest events of the week: the UK Budget at 16:30 Dubai, where a plan that calms the gilt market would tend to support the pound and one that worries it would weigh on it, and the Fed's decision at 22:00 Dubai with Chair Warsh speaking at 22:30, where a hold is expected and a firm signal of a December rise would tend to lift the dollar.",
+   "t": "2026-10-28T07:44:49Z",
+   "rate": 1.3289
+  },
   {
    "title": "Sterling has slipped further on Budget morning",
    "text": "GBP/USD eased from 1.3303 at 07:40 Dubai to a low of 1.3285 at 10:36 Dubai, its fourth day of losses, with the last step from 1.3292 to 1.3286 in the two minutes after 10:30 Dubai. The pound also lost ground against the euro (EUR/GBP rose from 0.8363 to 0.8370) while EUR/USD slipped only from 1.1126 to 1.1120, so most of this fall was the pound weakening and a smaller part was a firmer dollar. FXStreet points to caution before the Chancellor's first Budget at 16:30 Dubai, where tight borrowing limits and high government borrowing costs leave him little room, and to a dollar steadied by caution before the Fed's decision at 22:00 Dubai; no single news item this morning explains the latest step.",
@@ -378,12 +384,6 @@
    "text": "GBP/USD fell from 1.3407 at 13:42 Dubai to 1.3379 by 14:09 Dubai and was near 1.3382 at 14:36 Dubai. EUR/USD fell by about 0.12% over the same half hour while the pound eased only slightly against the euro, so this was mostly the dollar strengthening. No report ties a piece of news to that half hour, but the mood is nervous: Iranian state television said seven tankers were damaged overnight in the Strait of Hormuz, Brent rose about 3% to near $112 (about £84), European shares fell by around 1%, and a nervous market with dearer oil tends to lift the dollar, so fewer dirhams per pound.",
    "t": "2026-10-22T10:39:42Z",
    "rate": 1.33821
-  },
-  {
-   "title": "The dollar has slipped again around midday",
-   "text": "GBP/USD fell to 1.3397 at 12:08 Dubai, then climbed to 1.3418 by 12:26 Dubai before settling near 1.3408 at 12:38 Dubai. EUR/USD rose from 1.1229 to 1.1242 over the same quarter hour while the euro hardly moved against the pound, so this was the dollar softening rather than the pound rising. No report found explains the move: Trading Economics describes the dollar index as steady near 101.7 on Thursday, with a Fed hold expected next week, and oil has risen rather than fallen this morning.",
-   "t": "2026-10-22T08:39:21Z",
-   "rate": 1.34074
   }
  ]
 }
