@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-28T17:39:55Z",
- "headline": "Sterling is about 1.3303 dollars this evening, a little firmer after a Budget that kept headroom at £15bn, in line with forecasts, and left gilts calm. The Fed's decision at 22:00 Dubai is next, where a hold is expected but markets price about an 86% chance of a rise by December.",
+ "updated": "2026-10-28T18:40:29Z",
+ "headline": "Sterling is about 1.332 dollars this evening after the Fed held its range at 3.75% to 4% in a 10 to 2 vote, with two members wanting a rise. US growth and core inflation figures at 16:30 Dubai on Thursday are next, with the European Central Bank meeting the same day.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The Fed's range is 3.75% to 4% and its decision is due today, Wednesday 28 October, at 22:00 Dubai, with Chair Kevin Warsh speaking at 22:30 Dubai. CME FedWatch implied a 92.8% chance of a hold today and an 84.4% chance of a rise in December, FXStreet reported early on 28 October. A statement or press conference that leans towards a December rise would lift the dollar."
+   "text": "The Fed held its range at 3.75% to 4% on Wednesday 28 October in a 10 to 2 vote, with Governor Lisa Cook and Cleveland Fed President Beth Hammack wanting a quarter point rise. The statement called growth strong and said more information will help set policy; before the meeting traders priced about an 84% chance of a rise in December. Signs that keep a December rise in view tend to lift the dollar."
   },
   {
    "title": "Bond yields and the dollar",
@@ -16,7 +16,7 @@
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75% and on 23 October money markets priced at least three quarter point rises by April 2027, the first possibly on 5 November, after September inflation of 3.5%. Bank of England policymaker Megan Greene said in remarks reported on 28 October that wage growth has stopped slowing at a level above what fits 2% inflation, which FXStreet read as leaning towards higher rates. The Chancellor, John Healey, presents his first Budget today at 16:30 Dubai; Scotiabank expects a Budget that keeps borrowing credible to leave the pound little changed at worst, while more borrowing than expected could weigh on it."
+   "text": "Bank Rate is 3.75% and on 23 October money markets priced at least three quarter point rises by April 2027, the first possibly on 5 November, after September inflation of 3.5%. Bank of England policymaker Megan Greene said in remarks reported on 28 October that wage growth has stopped slowing at a level above what fits 2% inflation, which FXStreet read as leaning towards higher rates. The Chancellor's first Budget on 28 October kept headroom at £15bn, in line with forecasts, and left gilts calm. The Bank of England's next decision is on 5 November."
   },
   {
    "title": "Europe and the wider mood",
@@ -24,19 +24,37 @@
   }
  ],
  "lower": [
-  "A Fed statement or press conference today that leans towards a December rise, which would lift US yields and the dollar.",
-  "A Budget today that unsettles the gilt market with more borrowing than expected, which would weigh on the pound.",
+  "Fed speakers or US figures that firm up a December rise after two members voted for one today, which would lift US yields and the dollar.",
+  "Renewed worry about UK borrowing unsettling the gilt market, which would weigh on the pound.",
   "Renewed US strikes on Iran or further Houthi attacks pushing oil back up from about $115 (about £86.30), which would tend to lift the dollar.",
   "US core inflation (PCE) on Thursday above the 0.3% expected, or growth above the 3.2% forecast, which would keep a December Fed rise in view and support the dollar."
  ],
  "higher": [
-  "A Fed that plays down a December rise today, which would lower US yields and weaken the dollar.",
-  "A Budget that reassures the gilt market, which would remove a weight on the pound while the case for a Bank of England rise on 5 November stands.",
+  "Fed speakers or softer US figures that make a December rise look less likely, which would lower US yields and weaken the dollar.",
+  "A Bank of England that signals a rise on 5 November, which would lift the pound.",
   "Progress in the mediation with Iran or a deal with the US, which would bring oil down, ease US inflation worries and weaken the dollar.",
   "Softer US core inflation or growth on Thursday than forecast, which would make a December Fed rise less certain."
  ],
- "watch": "The Fed's decision is at 22:00 Dubai tonight, with Chair Warsh's press conference at 22:30. A hold at 3.75% to 4.00% is expected, with about a 91% chance priced; a signal that plays down a December rise would help someone selling pounds for dirhams, and a firm hint of one, or several members voting for a rise now, would hurt. US growth (3.2% forecast) and core inflation (PCE, 0.3% forecast) follow at 16:30 Dubai on Thursday, where lower figures would help.",
+ "watch": "US growth for the third quarter (3.2% forecast) and core inflation (PCE, 0.3% forecast for the month) come out at 16:30 Dubai on Thursday 29 October, and the European Central Bank announces its decision the same day. Lower US figures than forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; higher ones would hurt.",
  "sources": [
+  {
+   "title": "Fed meeting live updates: Federal Reserve holds interest rates steady in split vote",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
+   "date": "28 Oct"
+  },
+  {
+   "title": "Fed Holds Rates Steady as Two Officials Dissent",
+   "site": "WealthManagement.com",
+   "url": "https://www.wealthmanagement.com/fixed-income/fed-holds-rates-says-more-data-will-help-next-decision",
+   "date": "28 Oct"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "28 Oct"
+  },
   {
    "title": "British Pound clings to 1.3300 on UK budget ahead of Fed's decision",
    "site": "FXStreet",
@@ -82,24 +100,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-declines-ahead-of-uk-finance-minister-healeys-budget-202610280611",
    "date": "28 Oct"
-  },
-  {
-   "title": "British Pound weakens to near 1.3300 ahead of UK budget, Fed rate decision",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-weakens-to-near-13300-ahead-of-uk-budget-fed-rate-decision-202610280236",
-   "date": "28 Oct"
-  },
-  {
-   "title": "Crude Oil Prices Today: Brent falls below $115 as US-Iran diplomatic efforts raise hopes of de-escalation",
-   "site": "Equentis",
-   "url": "https://www.equentis.com/blog/crude-oil-prices-today-brent-falls-below-115-as-us-iran-diplomatic-efforts-raise-hopes-of-de-escalation/",
-   "date": "27 Oct"
-  },
-  {
-   "title": "Oil Price Forecast: Brent and WTI Ease as Iran Peace Hopes Grow",
-   "site": "FX Empire",
-   "url": "https://www.fxempire.com/forecasts/article/oil-price-forecast-brent-and-wti-ease-as-iran-peace-hopes-grow-1640568",
-   "date": "27 Oct"
   }
  ],
  "calendar": [
@@ -225,8 +225,22 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-28T17:39:55Z",
+ "calendarUpdated": "2026-10-28T18:40:29Z",
  "feed": [
+  {
+   "title": "The Fed has held rates, with two members voting for a rise",
+   "text": "The Fed kept its range at 3.75% to 4% as expected, but Governor Lisa Cook and Cleveland Fed President Beth Hammack voted for a quarter point rise, and the statement upgraded growth to a strong pace while dropping its earlier wording on bringing inflation back to 2%. Two votes for a rise keep a December increase in view, which supports the dollar, though the ten year Treasury yield rose only from about 5.02% to 5.04%. GBP/USD rose from 1.3298 to about 1.3310 within two minutes, then settled near 1.3293 by 22:24 Dubai; the jump to 1.3370 on Kraken at 22:01 was a single stray trade, not a real move.",
+   "when": "2026-10-28T18:00:00Z",
+   "t": "2026-10-28T18:40:29Z",
+   "rate": 1.33205
+  },
+  {
+   "title": "Sterling has edged up during Chair Warsh's press conference",
+   "text": "Chair Kevin Warsh opened by saying activity is expanding at a strong pace, inflation remains elevated and the committee will deliver price stability. GBP/USD rose from 1.3294 at 22:32 Dubai to about 1.3320 by 22:36, and was about 1.3323 at 22:40. No report read so far names the remark behind that rise, so the cause is not yet clear.",
+   "when": "2026-10-28T18:30:00Z",
+   "t": "2026-10-28T18:40:29Z",
+   "rate": 1.33205
+  },
   {
    "title": "Sterling has edged up as the dollar eased before the Fed",
    "text": "GBP/USD dipped to 1.3295 at 19:49 Dubai, rose to a high of 1.3320 at 20:55 Dubai and was near 1.3308 at 21:39 Dubai. EUR/USD moved the same way, from 1.1131 to 1.1149 and back to 1.1140, so this was the dollar softening a little rather than news about the pound. No source names a cause for the move; FXStreet reports that traders are waiting for the Fed's decision at 22:00 Dubai, where a hold is expected.",
@@ -363,19 +377,6 @@
    "when": "2026-10-23T08:30:00Z",
    "t": "2026-10-23T08:39:57Z",
    "rate": 1.33793
-  },
-  {
-   "title": "UK shoppers spent less than expected in September",
-   "text": "Retail sales volumes fell 0.4% in September against a forecast fall of 0.1%, and fell 0.7% without fuel, though August was revised up to a 0.7% rise; the ONS put the drop down to warm weather hitting winter clothing and a dip in supermarket sales. Weaker spending trims slightly the case for a Bank of England rise on 5 November, which tends to weigh on the pound. The reaction was small: GBP/USD slipped from 1.3388 just before 10:00 Dubai to 1.3384 within a minute, held near 1.3386 for twenty minutes, then recovered to 1.3392.",
-   "when": "2026-10-23T06:00:00Z",
-   "t": "2026-10-23T06:39:10Z",
-   "rate": 1.33875
-  },
-  {
-   "title": "Sterling has eased slightly overnight as the dollar steadied",
-   "text": "GBP/USD drifted from 1.3401 at 05:35 Dubai to 1.3392 by 06:00 Dubai and was near 1.3394 at 07:35 Dubai, while EUR/USD fell by the same 0.07%, from 1.1220 to 1.1211, so this was the dollar firming rather than the pound weakening. No report explains the move; it came in quiet Asian trading with Brent steady near $113.7 (about £84.90) and the US ten year yield still below 5% at about 4.97%.",
-   "t": "2026-10-23T03:40:00Z",
-   "rate": 1.33938
   }
  ]
 }
