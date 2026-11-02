@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T15:39:23Z",
- "headline": "Sterling is about 1.34 dollars on Monday morning, a little above Friday's close, as falling oil and hopes for Iran diplomacy soften the dollar, though Washington has not publicly answered Iran's two-day plan for the Strait of Hormuz. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
+ "updated": "2026-11-02T19:39:46Z",
+ "headline": "Sterling is about 1.34 dollars on Monday evening, little changed since the late afternoon, even though oil has fallen sharply on hopes for Iran diplomacy; no deal has been confirmed. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -8,7 +8,7 @@
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent was about $111 (about £83) on 2 November, down about $2, on the Qatari mediated plan to reopen Hormuz. Against that, investingLive counts at least ten shipping incidents in the region since 31 October, including a tanker hit by two projectiles off Saudi Arabia on 2 November, and Goldman Sachs raised its December Brent forecast to $105 (about £78) from $90 (about £67). Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
+   "text": "Brent was down 7.7% at $104.66 (about £78) at 21:11 Dubai on 2 November, and US crude touched $95.15 (about £71), on hopes for US and Iran diplomacy. Iran's Foreign Minister said a deal is possible if Washington shows goodwill, but an Iranian report of a preliminary agreement has no official confirmation. investingLive counts at least ten shipping incidents in the region since 31 October, and Goldman Sachs raised its December Brent forecast to $105 (about £78) from $90 (about £67). Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
   },
   {
    "title": "Iran talks",
@@ -37,6 +37,24 @@
  ],
  "watch": "The US midterm elections are on Tuesday 3 November. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams, and a cautious one would hurt. US jobs figures come at 17:30 Dubai on Friday 6 November (63,000 forecast); a lower number would help and a higher one would hurt.",
  "sources": [
+  {
+   "title": "Iran and US reportedly on verge of preliminary agreement",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/iran-and-us-reportedly-on-verge-of-preliminary-agreement/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+   "date": "2 Nov"
+  },
+  {
+   "title": "NASDAQ indices have given up their gains",
+   "site": "investingLive",
+   "url": "https://investinglive.com/stocks/nasdaq-indices-have-given-up-their-gains-trade-in-negative-territory/",
+   "date": "2 Nov"
+  },
   {
    "title": "US ISM manufacturing PMI for October 55.5 versus 54.5 estimate",
    "site": "investingLive",
@@ -89,24 +107,6 @@
    "title": "What are the main events for today?",
    "site": "investingLive",
    "url": "https://investinglive.com/news/what-are-the-main-events-for-today-76/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "GBP/USD Price Forecast: Sticks to bullish near 1.3400 ahead of BoE decision",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-sticks-to-bullish-near-13400-ahead-of-boe-decision-on-wednesday-202611020529",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
-   "site": "The National",
-   "url": "https://www.thenationalnews.com/business/2026/11/02/oil-prices-slide-more-than-3-as-trump-signals-more-time-for-iran-diplomacy/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Oil slips as Iran says Qatar-brokered plan could reopen Hormuz in two days",
-   "site": "investingLive",
-   "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
    "date": "2 Nov"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-02T15:39:23Z",
+ "calendarUpdated": "2026-11-02T19:39:46Z",
  "feed": [
+  {
+   "title": "Sterling is little changed as oil slumps and US shares fade",
+   "text": "Brent fell 7.7% to $104.66 (about £78) on hopes for US and Iran diplomacy, and an Iranian report at 22:25 Dubai said the two sides were close to a preliminary agreement, although neither government has confirmed it. Cheaper oil and easier tension tend to weaken the dollar, yet GBP/USD fell from about 1.3419 at 21:50 Dubai to about 1.3402 at 22:50 Dubai, and EUR/USD fell from about 1.1204 to about 1.1190, which points to a firmer dollar. No report read names a cause for that step, though it came as US technology shares turned lower on selling in chip stocks. GBP/USD then recovered to about 1.3409, little changed from about 1.3415 four hours earlier, with a high of about 1.3422 and a low of about 1.3402 over that time, leaving aside one stray trade at 1.3431.",
+   "t": "2026-11-02T19:39:46Z",
+   "rate": 1.34089
+  },
   {
    "title": "Sterling has edged lower after a stronger US factory survey",
    "text": "The ISM manufacturing index for October came in at 55.5 against 54.5 expected and 54.5 last time, while its prices measure fell to 75.2 against about 77.5 expected. Stronger activity tends to support the dollar by keeping a December Fed rise in view, but softer price pressure limits that effect, and investingLive notes that some of the gain came from inventories and slower deliveries rather than new orders. GBP/USD slipped from about 1.3421 at 19:00 Dubai to 1.3416 within three minutes, returned to about 1.3423 by 19:10 Dubai and was about 1.3414 at 19:38 Dubai, a small move, and EUR/USD eased from about 1.1212 to about 1.1196, which points to the dollar.",
@@ -424,12 +430,6 @@
    "when": "2026-10-27T14:00:00Z",
    "t": "2026-10-27T14:39:49Z",
    "rate": 1.33261
-  },
-  {
-   "title": "The dollar has eased back from this morning's high",
-   "text": "GBP/USD has climbed from a one week low of 1.3305 at 13:40 Dubai to 1.3327 by 16:07 Dubai, while EUR/USD rose by a similar share, from 1.1138 to 1.1150, and the pound barely moved against the euro, so this is the dollar giving back part of the gains it made this morning ahead of the Fed's meeting. No report found names a cause; the last leg, from 1.3317 to 1.3327, came in the minutes after New York desks opened at 16:00 Dubai.",
-   "t": "2026-10-27T12:08:42Z",
-   "rate": 1.33266
   }
  ]
 }
