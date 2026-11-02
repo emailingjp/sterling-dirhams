@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T05:40:12Z",
+ "updated": "2026-11-02T07:40:21Z",
  "headline": "Sterling is about 1.34 dollars on Monday morning, a little above Friday's close, as falling oil and hopes for Iran diplomacy soften the dollar, though Washington has not publicly answered Iran's two-day plan for the Strait of Hormuz. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
  "drivers": [
   {
@@ -35,8 +35,20 @@
   "A Democratic sweep in the midterms, which ING says could weigh slightly on the dollar through shutdown and debt ceiling risks.",
   "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound."
  ],
- "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai today, Monday 2 November (54.7 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November, then the Bank of England at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected, and US jobs figures at 17:30 Dubai on Friday 6 November.",
+ "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai today, Monday 2 November (54.5 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November, then the Bank of England at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected, and US jobs figures at 17:30 Dubai on Friday 6 November.",
  "sources": [
+  {
+   "title": "Forex Today: US Dollar edges lower as mood improves ahead of midterm elections",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-edges-lower-as-mood-improves-ahead-of-midterm-elections-202611020713",
+   "date": "2 Nov"
+  },
+  {
+   "title": "What are the main events for today?",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/what-are-the-main-events-for-today-76/",
+   "date": "2 Nov"
+  },
   {
    "title": "GBP/USD Price Forecast: Sticks to bullish near 1.3400 ahead of BoE decision",
    "site": "FXStreet",
@@ -95,18 +107,6 @@
    "title": "Week ahead: Elections, rate decisions and jobs take center stage",
    "site": "investingLive",
    "url": "https://investinglive.com/news/week-ahead-elections-rate-decisions-and-jobs-take-center-stage/",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Fed's Logan: at least two more quarter-point rate hikes needed",
-   "site": "investingLive",
-   "url": "https://investinglive.com/central-banks/fed-s-logan-at-least-two-more-quarter-point-rate-hikes-needed/",
-   "date": "30 Oct"
-  },
-  {
-   "title": "British Pound hovers around 1.34 as BoE hike bets outshine Fed doubts",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-hovers-around-134-as-boe-hike-bets-outshine-fed-doubts-202610301553",
    "date": "30 Oct"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-02T05:40:12Z",
+ "calendarUpdated": "2026-11-02T07:40:21Z",
  "feed": [
+  {
+   "title": "The dollar has slipped further as the mood improved before the midterms",
+   "text": "US stock futures rose between 0.4% and 0.9% and West Texas crude fell about 2%, after a weekend with no US strikes on Iran and talk of a shorter timetable for reopening Hormuz, though Washington has not accepted that plan. Better risk appetite reduces demand for the dollar as a safe haven, and ING says traders may also trim dollar positions before Tuesday's vote. GBP/USD rose from about 1.3395 at 10:30 Dubai to about 1.3416 at 11:35 Dubai and EUR/USD rose from 1.1175 to 1.1187, which points mainly to the dollar, with the pound slightly the stronger; no report read names a single event behind the step, and no UK figure had come out.",
+   "t": "2026-11-02T07:40:21Z",
+   "rate": 1.34166
+  },
   {
    "title": "The dollar has eased as oil fell further on hopes for Iran diplomacy",
    "text": "Brent was down more than 3% at about $110 (about £82) at 07:55 Dubai, after Axios reported that President Trump told Israel's prime minister he wanted to give diplomacy more time before any further strikes. FXStreet says optimism about a breakthrough is weakening the dollar as a safe haven, while the expected Bank of England rise is supporting the pound. GBP/USD rose from about 1.3389 at 08:55 Dubai to about 1.3401 by 09:20 Dubai and EUR/USD rose in step from 1.1167 to 1.1178, which points to the dollar rather than news about the pound.",
@@ -423,12 +429,6 @@
    "text": "GBP/USD fell from 1.3373 at the London opening at 11:00 Dubai to 1.3343 by 12:40 Dubai, with roughly half the fall from a firmer dollar (EUR/USD eased from 1.1217 to 1.1206) and half from a softer pound (EUR/GBP rose from 0.8388 to 0.8396). No report found names a cause; the morning's coverage notes only that sterling was 0.14% lower at 1.3358 dollars while oil eased and investors waited for Wednesday's Budget. Cheaper oil would usually weaken the dollar, so the oil price does not explain this morning's firmer dollar.",
    "t": "2026-10-26T08:40:50Z",
    "rate": 1.33437
-  },
-  {
-   "title": "The pound has slipped against the euro ahead of Wednesday's Budget",
-   "text": "The dollar has eased about 0.2% against the euro since Friday's close, but the pound has lost a similar share against the euro, with EUR/GBP up from 0.8371 to 0.8390, so GBP/USD is little changed and slipped from 1.3380 at 07:30 Dubai to 1.3370 by 09:50 Dubai. No report names a cause this morning, but investors are cautious before the Budget at 16:30 Dubai on Wednesday, after long-dated gilt yields traded above 6% this month for the first time since 1998, and analysts see the pound's risks into the Budget as tilted to the downside. At least three Bank of England rises by April 2027 are already priced, so the rate outlook on its own is not lifting the pound further.",
-   "t": "2026-10-26T05:50:26Z",
-   "rate": 1.33698
   }
  ]
 }
