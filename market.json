@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T07:40:21Z",
+ "updated": "2026-11-02T09:39:06Z",
  "headline": "Sterling is about 1.34 dollars on Monday morning, a little above Friday's close, as falling oil and hopes for Iran diplomacy soften the dollar, though Washington has not publicly answered Iran's two-day plan for the Strait of Hormuz. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai today, Monday 2 November (54.5 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November, then the Bank of England at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected, and US jobs figures at 17:30 Dubai on Friday 6 November.",
  "sources": [
+  {
+   "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
+   "site": "Investing.com",
+   "url": "https://in.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-5670668",
+   "date": "2 Nov"
+  },
   {
    "title": "Forex Today: US Dollar edges lower as mood improves ahead of midterm elections",
    "site": "FXStreet",
@@ -102,12 +108,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/middle-east-war-updates-iran-warns-of-expanded-strikes-against-us-despite-progress-in-talks-202611012230",
    "date": "1 Nov"
-  },
-  {
-   "title": "Week ahead: Elections, rate decisions and jobs take center stage",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/week-ahead-elections-rate-decisions-and-jobs-take-center-stage/",
-   "date": "30 Oct"
   }
  ],
  "calendar": [
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-02T07:40:21Z",
+ "calendarUpdated": "2026-11-02T09:39:06Z",
  "feed": [
+  {
+   "title": "Sterling has touched 1.3444 on a weaker dollar, then given part of it back",
+   "text": "Investing.com says the dollar eased as oil fell 2% to 3% on reports that President Trump wants diplomacy with Iran to run its course, and that the pound's gain owes more to the dollar than to UK fundamentals. GBP/USD rose from about 1.3419 at 12:30 Dubai to about 1.3444 by 13:15 Dubai, and EUR/USD rose in step from about 1.1197 to about 1.1232, which points to the dollar. GBP/USD then slipped back to about 1.3423 by 13:40 Dubai and EUR/USD to about 1.1216; no report read names a cause for that pullback.",
+   "t": "2026-11-02T09:39:06Z",
+   "rate": 1.34244
+  },
   {
    "title": "The dollar has slipped further as the mood improved before the midterms",
    "text": "US stock futures rose between 0.4% and 0.9% and West Texas crude fell about 2%, after a weekend with no US strikes on Iran and talk of a shorter timetable for reopening Hormuz, though Washington has not accepted that plan. Better risk appetite reduces demand for the dollar as a safe haven, and ING says traders may also trim dollar positions before Tuesday's vote. GBP/USD rose from about 1.3395 at 10:30 Dubai to about 1.3416 at 11:35 Dubai and EUR/USD rose from 1.1175 to 1.1187, which points mainly to the dollar, with the pound slightly the stronger; no report read names a single event behind the step, and no UK figure had come out.",
@@ -423,12 +429,6 @@
    "text": "GBP/USD fell from 1.3378 before London opened to about 1.3340 by 13:30 Dubai, as the pound weakened against the euro ahead of Wednesday's Budget, then dipped to 1.3327 at about 18:00 Dubai as the dollar firmed against everything, with EUR/USD down from 1.1213 to 1.1179. Brent rose to about $117 (about £87.60) a barrel and analysts pointed to a third US aircraft carrier group in the Gulf, and dearer oil and Gulf tension tend to lift the dollar, while the pound held up better against the euro in the afternoon. By 22:00 Dubai both had recovered, with GBP/USD back near 1.3354 and the US ten year yield about 4.98%, so the day has been a round trip inside about 0.4%.",
    "t": "2026-10-26T18:07:06Z",
    "rate": 1.33545
-  },
-  {
-   "title": "Sterling has slipped since London opened",
-   "text": "GBP/USD fell from 1.3373 at the London opening at 11:00 Dubai to 1.3343 by 12:40 Dubai, with roughly half the fall from a firmer dollar (EUR/USD eased from 1.1217 to 1.1206) and half from a softer pound (EUR/GBP rose from 0.8388 to 0.8396). No report found names a cause; the morning's coverage notes only that sterling was 0.14% lower at 1.3358 dollars while oil eased and investors waited for Wednesday's Budget. Cheaper oil would usually weaken the dollar, so the oil price does not explain this morning's firmer dollar.",
-   "t": "2026-10-26T08:40:50Z",
-   "rate": 1.33437
   }
  ]
 }
