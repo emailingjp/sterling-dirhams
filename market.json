@@ -1,42 +1,96 @@
 {
- "updated": "2026-10-30T17:34:45Z",
- "headline": "Sterling is about 1.339 dollars on Friday evening, up from 1.331 on Thursday morning, after touching about 1.343 at 15:00 Dubai as the dollar weakened on falling US tech shares and trimmed Fed bets. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
+ "updated": "2026-11-02T03:41:07Z",
+ "headline": "Sterling is about 1.3385 dollars on Monday morning, almost where it closed on Friday, as hopes for a deal on the Strait of Hormuz offset continuing attacks on shipping. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "The odds of a Fed rise in December fell from about 84% after Wednesday's meeting to about 70% on Friday 30 October, according to FXStreet, while a week ahead report on MarketScreener put them at 76% for 9 December. On 30 October the Fed's Alberto Musalem said rates will need to rise again soon, and Tom Barkin was reported as favouring a gradual approach. Signs that keep a December rise in view tend to lift the dollar."
-  },
-  {
-   "title": "US tech shares and bond yields",
-   "text": "Nasdaq futures fell about 2% on Friday 30 October after results from Amazon and Intel disappointed investors, and the US ten year Treasury yield was reported at about 4.91%, down from 5.01% on 28 October. Falling tech shares have prompted buying of Treasuries, and lower yields make the dollar less rewarding to hold. ING notes that the dollar has found buyers whenever tech is not leading the news."
+   "text": "CME FedWatch put the chance of a Fed rise in December at about 75% on 2 November, according to FXStreet, supported by last Thursday's strong US figures. On 30 October the Fed's Lorie Logan was reported as saying that at least two more quarter point rises are needed. Signs that keep a December rise in view tend to lift the dollar."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent's expiring December contract rose as much as 2.5% to about $117.76 (about £87.90) on Friday 30 October, after Iran claimed that two tankers were hit and stopped in the Strait of Hormuz, following reports of a tanker and a dhow hit there on Thursday. Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
+   "text": "Brent was about $111 (about £83) on 2 November, down about $2, on the Qatari mediated plan to reopen Hormuz. Against that, investingLive counts at least ten shipping incidents in the region since 31 October, including a tanker hit by two projectiles off Saudi Arabia on 2 November, and Goldman Sachs raised its December Brent forecast to $105 (about £78) from $90 (about £67). Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
+  },
+  {
+   "title": "Iran talks",
+   "text": "Iranian negotiators held a third day of talks with Qatari mediators on Sunday 1 November. President Trump said the talks were going fine but did not rule out further military action after the midterms, Secretary of State Rubio said no decision has been made to resume strikes, and Iran's Supreme Leader told his commanders to prepare for renewed confrontation. Each turn in these talks can move oil and the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75%, and on 30 October swaps markets priced a rise to 4% on 5 November as fully expected, according to FXStreet. Analysts quoted on MarketScreener expect the Bank to push back against market bets on more than four rises over the next 12 months. A rise that is already priced in gives the pound less of a lift than a surprise would, and the vote split and guidance will count for more."
+   "text": "Bank Rate is 3.75%, and economists polled by Reuters expect a rise to 4% on 5 November, which would be the first rise since August 2023. OCBC says the pound has held up better than expected after a Budget that stayed within the fiscal rules, but warns that much of the tightening is already priced in. A rise that is already priced in gives the pound less of a lift than a surprise would, so the guidance from the Bank will count for more."
   },
   {
-   "title": "The midterms and Europe",
-   "text": "US midterm elections are on Tuesday 3 November, with prediction markets putting a Democratic sweep near 68% on 30 October; ING says that could weigh slightly on the dollar through shutdown and debt ceiling risks. The European Central Bank held rates on 29 October and markets read it as dovish, which took EUR/USD to about 1.1105 before it recovered, and a weaker euro tends to go with a firmer dollar."
+   "title": "The midterms",
+   "text": "US midterm elections are on Tuesday 3 November. Republicans hold the Senate 53 to 47 and the House 220 to 215, and prediction markets put a Democratic sweep near 68% on 30 October; ING says that could weigh slightly on the dollar through shutdown and debt ceiling risks."
   }
  ],
  "lower": [
-  "Firmer US figures next week, such as a jobs number above the 55,000 forecast on 6 November, which would firm up a December Fed rise and lift the dollar.",
-  "Further attacks in the Strait of Hormuz pushing oil higher, which would tend to lift the dollar.",
-  "A Bank of England that rises on 5 November but pushes back on further rises, or a split vote, which would take away support that the pound already has.",
-  "More Fed members saying rates must rise soon, as Alberto Musalem did on 30 October, which would support the dollar."
+  "Firmer US figures this week, such as a jobs number above the forecast of 63,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
+  "A breakdown in the Hormuz talks or more attacks on shipping pushing oil higher, which would tend to lift the dollar.",
+  "A Bank of England that raises rates on 5 November but signals that rates will not reach the level markets expect, as Oxford Economics suggests it may, which would take away support that the pound already has.",
+  "US military action against Iran after the midterms, which President Trump has not ruled out and which would tend to lift the dollar as a safe haven."
  ],
  "higher": [
-  "A US jobs number below the 55,000 forecast on 6 November, which would make a December Fed rise less certain and weaken the dollar.",
+  "A US jobs number below the forecast of 63,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar.",
+  "Progress on the plan to reopen Hormuz, which would bring oil down and tend to weaken the dollar.",
   "A Democratic sweep in the midterms, which ING says could weigh slightly on the dollar through shutdown and debt ceiling risks.",
-  "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound.",
-  "Further falls in US tech shares that send money into Treasuries and pull yields lower, or progress in talks with Iran that brings oil down, either of which would tend to weaken the dollar."
+  "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound."
  ],
- "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai on Monday 2 November (54.7 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November and the Bank of England on Thursday 5 November, where a rise to 4% is fully priced.",
+ "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai today, Monday 2 November (54.7 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November, then the Bank of England at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected, and US jobs figures at 17:30 Dubai on Friday 6 November.",
  "sources": [
+  {
+   "title": "British Pound steadies near 1.3400 amid BoE rate hike expectations",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-steadies-near-13400-amid-boe-rate-hike-expectations-202611020215",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Euro edges higher as Iran diplomacy hopes weigh on the USD",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-edges-higher-as-iran-diplomacy-hopes-weigh-on-the-usd-french-debt-worries-cap-gains-202611020117",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Oil slips as Iran says Qatar-brokered plan could reopen Hormuz in two days",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Tanker hit by two projectiles off Saudi coast as Gulf incidents reach 10 in three days",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/tanker-hit-by-two-projectiles-off-saudi-coast-as-gulf-incidents-reach-10-in-three-days/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Goldman lifts December Brent forecast to $105",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/goldman-lifts-december-brent-forecast-to-105-on-middle-east-and-russia-supply-risks/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Brent slips to $111 as a two-day Hormuz plan lands",
+   "site": "Mitrade",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/oil-news/brent-111-hormuz-two-day-plan-premium-20261102J1102",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Middle East War updates: Iran warns of expanded strikes against US despite progress in talks",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/middle-east-war-updates-iran-warns-of-expanded-strikes-against-us-despite-progress-in-talks-202611012230",
+   "date": "1 Nov"
+  },
+  {
+   "title": "Week ahead: Elections, rate decisions and jobs take center stage",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/week-ahead-elections-rate-decisions-and-jobs-take-center-stage/",
+   "date": "30 Oct"
+  },
+  {
+   "title": "Fed's Logan: at least two more quarter-point rate hikes needed",
+   "site": "investingLive",
+   "url": "https://investinglive.com/central-banks/fed-s-logan-at-least-two-more-quarter-point-rate-hikes-needed/",
+   "date": "30 Oct"
+  },
   {
    "title": "British Pound hovers around 1.34 as BoE hike bets outshine Fed doubts",
    "site": "FXStreet",
@@ -54,187 +108,183 @@
    "site": "ING on FXStreet",
    "url": "https://www.fxstreet.com/analysis/fx-daily-time-to-think-about-the-midterms-202610301035",
    "date": "30 Oct"
-  },
-  {
-   "title": "Fed's Musalem calls for rate hike soon as policy remains too loose",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/feds-musalem-calls-for-rate-hike-soon-as-policy-remains-too-loose-202610301658",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Fed's Barkin favors gradual approach as inflation pressure spreads",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/feds-barkin-favors-gradual-approach-as-inflation-pressure-spreads-202610301605",
-   "date": "30 Oct"
-  },
-  {
-   "title": "US Employment Cost Index (Q3) 0.8% vs. Exp. 0.8%",
-   "site": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/us-employment-cost-index-q3-qq-08-vs-exp-08-prev-09",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Futures Slide As AI Reckoning Claims Amazon, Intel; Oil Jumps On Hormuz Tanker Hits",
-   "site": "ZeroHedge",
-   "url": "https://www.zerohedge.com/markets/futures-slide-ai-reckoning-claims-amazon-intel-oil-jumps-hormuz-tanker-hits",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Fed hikes fail to stick",
-   "site": "Convera",
-   "url": "https://convera.com/blog/market-insights/fx-research/daily-market-updates/fed-hikes-fail-to-stick/",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Week in Focus, 2nd to 6th November 2026",
-   "site": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/week-in-focus-2nd-6th-november-2026-highlights-include-us-midterm-election-nfp-ism-pmis-rba-boe-and-ez-cpi-",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Week Ahead for FX, Bonds: U.S. Midterms, Jobs Data in Focus; BOE Expected to Raise Rates",
-   "site": "MarketScreener",
-   "url": "https://www.marketscreener.com/news/week-ahead-for-fx-bonds-u-s-midterms-jobs-data-in-focus-boe-expected-to-raise-rates-ce785fdbde80f321",
-   "date": "30 Oct"
-  },
-  {
-   "title": "US GDP Advance for the 3rd quarter 3.4% vs 3.2% estimate",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/us-gdp-advance-for-the-3rd-quarter-3-4-vs-3-2-estimate/",
-   "date": "29 Oct"
-  },
-  {
-   "title": "GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "30 Oct"
   }
  ],
  "calendar": [
   {
-   "t": "2026-10-27T14:00:00Z",
+   "t": "2026-11-02T15:00:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US consumer confidence (Conference Board)",
-   "title": "CB Consumer Confidence",
-   "forecast": "81.2",
-   "previous": "81.9",
-   "good": "Lower than 81.2",
+   "name": "US factory survey (ISM)",
+   "title": "ISM Manufacturing PMI",
+   "forecast": "54.5",
+   "previous": "54.5",
+   "good": "Lower than 54.5",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-10-28T12:30:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "UK: Annual Budget Release",
-   "title": "Annual Budget Release",
-   "forecast": "",
-   "previous": "",
-   "good": "Higher than forecast",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-10-28T12:30:00Z",
-   "ccy": "GBP",
+   "t": "2026-11-03T15:00:00Z",
+   "ccy": "USD",
    "impact": "Medium",
-   "name": "UK: Autumn Forecast Statement",
-   "title": "Autumn Forecast Statement",
-   "forecast": "",
-   "previous": "",
-   "good": "Higher than forecast",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+   "name": "US job openings (JOLTS)",
+   "title": "JOLTS Job Openings",
+   "forecast": "7.11M",
+   "previous": "7.08M",
+   "good": "Lower than 7.11M",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-10-28T18:00:00Z",
+   "t": "2026-11-03T15:16:00Z",
    "ccy": "USD",
    "impact": "High",
-   "name": "Fed interest rate decision",
-   "title": "Federal Funds Rate",
+   "name": "US: Congressional Elections",
+   "title": "Congressional Elections",
+   "forecast": "",
+   "previous": "",
+   "good": "Lower than forecast",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-04T15:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US services survey (ISM)",
+   "title": "ISM Services PMI",
+   "forecast": "54.9",
+   "previous": "54.9",
+   "good": "Lower than 54.9",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-05T12:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "UK: BOE Monetary Policy Report",
+   "title": "BOE Monetary Policy Report",
+   "forecast": "",
+   "previous": "",
+   "good": "A rise, or more votes for one",
+   "why": "UK rates higher than expected lift the pound."
+  },
+  {
+   "t": "2026-11-05T12:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "Bank of England policy summary",
+   "title": "Monetary Policy Summary",
+   "forecast": "",
+   "previous": "",
+   "good": "A rise, or more votes for one",
+   "why": "UK rates higher than expected lift the pound."
+  },
+  {
+   "t": "2026-11-05T12:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "Bank of England vote split",
+   "title": "MPC Official Bank Rate Votes",
+   "forecast": "7-0-2",
+   "previous": "3-0-6",
+   "good": "A rise, or more votes for one",
+   "why": "UK rates higher than expected lift the pound."
+  },
+  {
+   "t": "2026-11-05T12:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "Bank of England rate decision",
+   "title": "Official Bank Rate",
    "forecast": "4.00%",
-   "previous": "4.00%",
-   "good": "No rise, or fewer rises signalled",
-   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
+   "previous": "3.75%",
+   "good": "A rise, or more votes for one",
+   "why": "UK rates higher than expected lift the pound."
   },
   {
-   "t": "2026-10-28T18:00:00Z",
-   "ccy": "USD",
+   "t": "2026-11-05T12:30:00Z",
+   "ccy": "GBP",
    "impact": "High",
-   "name": "Fed statement",
-   "title": "FOMC Statement",
+   "name": "Bank of England Governor Bailey speaks",
+   "title": "BOE Gov Bailey Speaks",
    "forecast": "",
    "previous": "",
-   "good": "No rise, or fewer rises signalled",
-   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
+   "good": "A firm tone on rates",
+   "why": "Talk of Bank of England rises lifts the pound."
   },
   {
-   "t": "2026-10-28T18:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "Fed press conference",
-   "title": "FOMC Press Conference",
-   "forecast": "",
-   "previous": "",
-   "good": "No rise, or fewer rises signalled",
-   "why": "US rates lower than expected weaken the dollar and lift GBP/USD."
-  },
-  {
-   "t": "2026-10-29T12:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US GDP, first estimate",
-   "title": "Advance GDP q/q",
-   "forecast": "3.2%",
-   "previous": "1.5%",
-   "good": "Lower than 3.2%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-29T12:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US core inflation (PCE), month on month",
-   "title": "Core PCE Price Index m/m",
-   "forecast": "0.3%",
-   "previous": "0.2%",
-   "good": "Lower than 0.3%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-29T12:30:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US: Advance GDP Price Index q/q",
-   "title": "Advance GDP Price Index q/q",
-   "forecast": "3.2%",
-   "previous": "6.2%",
-   "good": "Lower than 3.2%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-10-29T12:30:00Z",
+   "t": "2026-11-05T13:30:00Z",
    "ccy": "USD",
    "impact": "Medium",
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
-   "forecast": "198K",
+   "forecast": "197K",
    "previous": "194K",
-   "good": "Higher than 198K",
+   "good": "Higher than 197K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-10-30T12:30:00Z",
+   "t": "2026-11-06T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US wages, month on month",
+   "title": "Average Hourly Earnings m/m",
+   "forecast": "0.3%",
+   "previous": "0.1%",
+   "good": "Lower than 0.3%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-06T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US jobs report: payrolls",
+   "title": "Non-Farm Employment Change",
+   "forecast": "63K",
+   "previous": "29K",
+   "good": "Lower than 63K",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-06T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US unemployment rate",
+   "title": "Unemployment Rate",
+   "forecast": "4.2%",
+   "previous": "4.2%",
+   "good": "Higher than 4.2%",
+   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-06T15:00:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US: Employment Cost Index q/q",
-   "title": "Employment Cost Index q/q",
-   "forecast": "0.8%",
-   "previous": "0.9%",
-   "good": "Lower than 0.8%",
+   "name": "US consumer sentiment (University of Michigan)",
+   "title": "Prelim UoM Consumer Sentiment",
+   "forecast": "47.8",
+   "previous": "46.3",
+   "good": "Lower than 47.8",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-06T15:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US inflation expectations (University of Michigan)",
+   "title": "Prelim UoM Inflation Expectations",
+   "forecast": "",
+   "previous": "4.7%",
+   "good": "Lower than forecast",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-10-30T17:34:45Z",
+ "calendarUpdated": "2026-11-02T03:41:07Z",
  "feed": [
+  {
+   "title": "Oil has fallen on a two-day plan to reopen Hormuz",
+   "text": "The banks' market has reopened with sterling little changed: GBP/USD closed Friday near 1.3389, stayed between about 1.3373 and 1.3391 in thin weekend trading, and was about 1.3385 at 07:40 Dubai on Monday. Brent fell about $2 to about $111 (about £83) in early Asian trade after Iran's foreign minister said Qatari mediators had agreed a plan with Tehran to reopen the Strait of Hormuz within two days, if the US meets a list of demands; Washington has not responded publicly. Cheaper oil tends to soften the dollar, but FXStreet says the chance of a December Fed rise, about 75%, is still supporting it, and at least ten shipping incidents have been reported in the region since 31 October. No report read names a cause for sterling's small moves overnight.",
+   "t": "2026-11-02T03:41:07Z",
+   "rate": 1.33848
+  },
   {
    "title": "Sterling has given back part of today's gain as the dollar recovered",
    "text": "US employment costs rose 0.8% in the third quarter, exactly as forecast, so that figure gave little reason to move. GBP/USD still fell from 1.3429 at 16:25 Dubai to about 1.3378 at 18:00 Dubai, and EUR/USD fell in step from 1.1188 to 1.1144, which points to a firmer dollar rather than news about the pound. No report read so far names the cause of the slide, which began before the Fed's Tom Barkin spoke at 17:30 Dubai; later, at about 20:30 Dubai, the Fed's Alberto Musalem said rates will need to rise again soon, which tends to support the dollar. GBP/USD was about 1.3390 at 21:30 Dubai.",
@@ -377,12 +427,6 @@
   {
    "title": "The dollar has eased as oil slips on Qatari mediation",
    "text": "Brent fell 1.6% to $114.88 (about £85.90) a barrel in early Asian trade on Monday after reports that Qatari mediators were in Tehran on Sunday, working with the US to ease tensions, and the US ten year yield eased to 4.97%, Reuters reported. Cheaper oil and lower US yields tend to weaken the dollar, and EUR/USD rose from 1.1199 to 1.1222 over the same hours, so this was the dollar easing rather than the pound gaining. GBP/USD held near 1.3366 after the reopening at 01:00 Dubai, then rose from 1.3362 at 03:20 Dubai to 1.3378 by 04:00 Dubai and was near 1.3380 at 07:30 Dubai.",
-   "t": "2026-10-26T03:41:45Z",
-   "rate": 1.338
-  },
-  {
-   "title": "Trump says it is decision time on Iran",
-   "text": "In a Fox News interview on Sunday, President Trump said he must choose between a deal with Iran and resuming strikes, suggested strikes could follow the 3 November midterms, and said there would be no strike that day. Gulf tension tends to lift the dollar, but the weekend price took it calmly: Kraken's GBP/USD eased from 1.3375 at Friday's close and stayed mostly between 1.3360 and 1.3376 through Sunday.",
    "t": "2026-10-26T03:41:45Z",
    "rate": 1.338
   }
