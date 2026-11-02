@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-02T03:41:07Z",
- "headline": "Sterling is about 1.3385 dollars on Monday morning, almost where it closed on Friday, as hopes for a deal on the Strait of Hormuz offset continuing attacks on shipping. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
+ "updated": "2026-11-02T05:40:12Z",
+ "headline": "Sterling is about 1.34 dollars on Monday morning, a little above Friday's close, as falling oil and hopes for Iran diplomacy soften the dollar, though Washington has not publicly answered Iran's two-day plan for the Strait of Hormuz. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
  "drivers": [
   {
    "title": "Fed rate expectations",
@@ -38,6 +38,24 @@
  "watch": "The US ISM manufacturing survey comes out at 19:00 Dubai today, Monday 2 November (54.7 forecast, 54.5 last time). A reading below forecast would make a December Fed rise less certain and help someone selling pounds for dirhams; a higher one would hurt. The midterm elections follow on Tuesday 3 November, then the Bank of England at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected, and US jobs figures at 17:30 Dubai on Friday 6 November.",
  "sources": [
   {
+   "title": "GBP/USD Price Forecast: Sticks to bullish near 1.3400 ahead of BoE decision",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-sticks-to-bullish-near-13400-ahead-of-boe-decision-on-wednesday-202611020529",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
+   "site": "The National",
+   "url": "https://www.thenationalnews.com/business/2026/11/02/oil-prices-slide-more-than-3-as-trump-signals-more-time-for-iran-diplomacy/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Oil slips as Iran says Qatar-brokered plan could reopen Hormuz in two days",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
+   "date": "2 Nov"
+  },
+  {
    "title": "British Pound steadies near 1.3400 amid BoE rate hike expectations",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-steadies-near-13400-amid-boe-rate-hike-expectations-202611020215",
@@ -47,12 +65,6 @@
    "title": "Euro edges higher as Iran diplomacy hopes weigh on the USD",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-edges-higher-as-iran-diplomacy-hopes-weigh-on-the-usd-french-debt-worries-cap-gains-202611020117",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Oil slips as Iran says Qatar-brokered plan could reopen Hormuz in two days",
-   "site": "investingLive",
-   "url": "https://investinglive.com/commodities/oil-slips-as-iran-says-qatar-brokered-plan-could-reopen-hormuz-in-two-days/",
    "date": "2 Nov"
   },
   {
@@ -95,18 +107,6 @@
    "title": "British Pound hovers around 1.34 as BoE hike bets outshine Fed doubts",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-hovers-around-134-as-boe-hike-bets-outshine-fed-doubts-202610301553",
-   "date": "30 Oct"
-  },
-  {
-   "title": "Sterling today: Pound firms as dollar slips on midterm, AI jitters",
-   "site": "Investing.com",
-   "url": "https://za.investing.com/news/forex-news/sterling-today-pound-firms-as-dollar-slips-on-midterm-ai-jitters-4538724",
-   "date": "30 Oct"
-  },
-  {
-   "title": "FX daily: Time to think about the midterms?",
-   "site": "ING on FXStreet",
-   "url": "https://www.fxstreet.com/analysis/fx-daily-time-to-think-about-the-midterms-202610301035",
    "date": "30 Oct"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-02T03:41:07Z",
+ "calendarUpdated": "2026-11-02T05:40:12Z",
  "feed": [
+  {
+   "title": "The dollar has eased as oil fell further on hopes for Iran diplomacy",
+   "text": "Brent was down more than 3% at about $110 (about £82) at 07:55 Dubai, after Axios reported that President Trump told Israel's prime minister he wanted to give diplomacy more time before any further strikes. FXStreet says optimism about a breakthrough is weakening the dollar as a safe haven, while the expected Bank of England rise is supporting the pound. GBP/USD rose from about 1.3389 at 08:55 Dubai to about 1.3401 by 09:20 Dubai and EUR/USD rose in step from 1.1167 to 1.1178, which points to the dollar rather than news about the pound.",
+   "t": "2026-11-02T05:40:12Z",
+   "rate": 1.33986
+  },
   {
    "title": "Oil has fallen on a two-day plan to reopen Hormuz",
    "text": "The banks' market has reopened with sterling little changed: GBP/USD closed Friday near 1.3389, stayed between about 1.3373 and 1.3391 in thin weekend trading, and was about 1.3385 at 07:40 Dubai on Monday. Brent fell about $2 to about $111 (about £83) in early Asian trade after Iran's foreign minister said Qatari mediators had agreed a plan with Tehran to reopen the Strait of Hormuz within two days, if the US meets a list of demands; Washington has not responded publicly. Cheaper oil tends to soften the dollar, but FXStreet says the chance of a December Fed rise, about 75%, is still supporting it, and at least ten shipping incidents have been reported in the region since 31 October. No report read names a cause for sterling's small moves overnight.",
@@ -423,12 +429,6 @@
    "text": "The dollar has eased about 0.2% against the euro since Friday's close, but the pound has lost a similar share against the euro, with EUR/GBP up from 0.8371 to 0.8390, so GBP/USD is little changed and slipped from 1.3380 at 07:30 Dubai to 1.3370 by 09:50 Dubai. No report names a cause this morning, but investors are cautious before the Budget at 16:30 Dubai on Wednesday, after long-dated gilt yields traded above 6% this month for the first time since 1998, and analysts see the pound's risks into the Budget as tilted to the downside. At least three Bank of England rises by April 2027 are already priced, so the rate outlook on its own is not lifting the pound further.",
    "t": "2026-10-26T05:50:26Z",
    "rate": 1.33698
-  },
-  {
-   "title": "The dollar has eased as oil slips on Qatari mediation",
-   "text": "Brent fell 1.6% to $114.88 (about £85.90) a barrel in early Asian trade on Monday after reports that Qatari mediators were in Tehran on Sunday, working with the US to ease tensions, and the US ten year yield eased to 4.97%, Reuters reported. Cheaper oil and lower US yields tend to weaken the dollar, and EUR/USD rose from 1.1199 to 1.1222 over the same hours, so this was the dollar easing rather than the pound gaining. GBP/USD held near 1.3366 after the reopening at 01:00 Dubai, then rose from 1.3362 at 03:20 Dubai to 1.3378 by 04:00 Dubai and was near 1.3380 at 07:30 Dubai.",
-   "t": "2026-10-26T03:41:45Z",
-   "rate": 1.338
   }
  ]
 }
