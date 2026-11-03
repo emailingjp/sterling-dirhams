@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:39:48Z",
+ "updated": "2026-11-03T10:40:06Z",
  "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -37,6 +37,18 @@
  ],
  "watch": "Americans vote in the midterm elections today, with results coming through overnight into Wednesday in Dubai. US job openings come at 19:00 Dubai today (7.11 million forecast); a lower number would help someone selling pounds for dirhams and a higher one would hurt. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt.",
  "sources": [
+  {
+   "title": "Oil prices rise as Iran tensions lift Brent to $106",
+   "site": "Grafa",
+   "url": "https://grafa.com/en/news/united-states/oil-prices-rise-iran-qeshm-island-strikes-peace-talks",
+   "date": "3 Nov"
+  },
+  {
+   "title": "Oil prices cross $105 after US strikes on Iran's Qeshm Island",
+   "site": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/11/03/oil-prices-cross-105-after-us-strikes-on-irans-qeshm-island/",
+   "date": "3 Nov"
+  },
   {
    "title": "investingLive Asia-Pacific market news: RBA hikes to 18-year high",
    "site": "investingLive",
@@ -95,18 +107,6 @@
    "title": "European session wrap: Oil sinks, stocks steady as US midterm elections loom",
    "site": "investingLive",
    "url": "https://investinglive.com/news/investinglive-european-session-wrap-oil-sinks-stocks-steady-as-us-midterm-elections-loom/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "UK manufacturing PMI shows fastest output growth in two years",
-   "site": "Global Banking and Finance (Reuters)",
-   "url": "https://www.globalbankingandfinance.com/uk-october-manufacturing-pmi-shows-fastest-output-growth-two/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Bank of England poised to raise rates but may push back on bets for more",
-   "site": "Business Recorder (Reuters)",
-   "url": "https://www.brecorder.com/news/40447002/bank-of-england-poised-to-raise-rates-but-may-push-back-on-bets-for-more",
    "date": "2 Nov"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-03T06:39:48Z",
+ "calendarUpdated": "2026-11-03T10:40:06Z",
  "feed": [
+  {
+   "title": "Sterling is flat as oil climbs back towards $107",
+   "text": "GBP/USD has barely moved over four hours, from about 1.3415 at 10:35 Dubai to about 1.3412 at 14:35 Dubai, with a high of about 1.3426 at 12:10 Dubai and a low of about 1.3405 at 10:45 Dubai. Brent extended its rise after the reports of US strikes on Qeshm Island, reaching $106.61 (about £79) at 11:44 Dubai and nearly $107 (about £80) by 12:52 Dubai, while an Iranian official said peace negotiations were far from an agreement; dearer oil and Gulf tension tend to lift the dollar, and EUR/USD eased from about 1.1205 at 11:30 Dubai to about 1.1181 at 14:00 Dubai, which points to a slightly firmer dollar through the European morning. No UK figures were due today, and the market is waiting for the US midterm results, the Bank of England on Thursday and the US jobs figures on Friday.",
+   "t": "2026-11-03T10:40:06Z",
+   "rate": 1.34124
+  },
   {
    "title": "Sterling has edged back up as the dollar eased through the Asian morning",
    "text": "GBP/USD rose from an overnight low of about 1.3397 at 07:15 Dubai to about 1.3415 by 09:35 Dubai and was still near 1.3415 at 10:35 Dubai, leaving aside one stray trade at 1.3478, while EUR/USD rose in step from about 1.1182 to about 1.1193, which points to a slightly softer dollar rather than news about the pound. No report read names a cause for the drift: oil has held its small early rise after the reports of US strikes on Qeshm Island, and no further escalation has been reported. The Reserve Bank of Australia raised its rate to 4.85% this morning as expected, and the Australian dollar fell, so that decision did not weaken the dollar more widely.",
@@ -423,12 +429,6 @@
    "text": "GBP/USD eased from 1.3303 at 07:40 Dubai to a low of 1.3285 at 10:36 Dubai, its fourth day of losses, with the last step from 1.3292 to 1.3286 in the two minutes after 10:30 Dubai. The pound also lost ground against the euro (EUR/GBP rose from 0.8363 to 0.8370) while EUR/USD slipped only from 1.1126 to 1.1120, so most of this fall was the pound weakening and a smaller part was a firmer dollar. FXStreet points to caution before the Chancellor's first Budget at 16:30 Dubai, where tight borrowing limits and high government borrowing costs leave him little room, and to a dollar steadied by caution before the Fed's decision at 22:00 Dubai; no single news item this morning explains the latest step.",
    "t": "2026-10-28T06:40:33Z",
    "rate": 1.32854
-  },
-  {
-   "title": "The dollar has stayed firm overnight ahead of the Budget and the Fed",
-   "text": "GBP/USD drifted from 1.3312 at 20:40 Dubai last night to a low of 1.3301 at 05:49 Dubai and was near 1.3303 at 07:40 Dubai, while EUR/USD eased by a similar share, from 1.1131 to 1.1126, and the pound did not move against the euro, so this was the dollar holding near a two week high rather than news about the pound. FXStreet reports no single news item behind it, pointing to caution before the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, and to rising bond yields around the world, which tend to support the dollar.",
-   "t": "2026-10-28T03:40:56Z",
-   "rate": 1.33031
   }
  ]
 }
