@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T10:40:06Z",
+ "updated": "2026-11-03T14:40:13Z",
  "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -37,6 +37,30 @@
  ],
  "watch": "Americans vote in the midterm elections today, with results coming through overnight into Wednesday in Dubai. US job openings come at 19:00 Dubai today (7.11 million forecast); a lower number would help someone selling pounds for dirhams and a higher one would hurt. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt.",
  "sources": [
+  {
+   "title": "Trump on Israel: The aid gets cut off at year-end",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/trump-on-israel-the-aid-gets-cut-off-at-year-end/",
+   "date": "3 Nov"
+  },
+  {
+   "title": "Tough to buy into the Iran headlines in the context of the election",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/tough-to-buy-into-the-iran-headlines-in-the-context-of-the-election/",
+   "date": "3 Nov"
+  },
+  {
+   "title": "Morning Kickstart: Election uncertainty, Iran tensions and rising yields frame the session",
+   "site": "investingLive",
+   "url": "https://investinglive.com/technical-analysis/morning-kickstart-election-uncertainty-iran-tensions-and-rising-yields-frame-the-session/",
+   "date": "3 Nov"
+  },
+  {
+   "title": "investingLive European news wrap: Markets remain cautious as focus shifts to US midterm elections",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-remain-cautious-as-focus-shifts-to-us-midterm-elections/",
+   "date": "3 Nov"
+  },
   {
    "title": "Oil prices rise as Iran tensions lift Brent to $106",
    "site": "Grafa",
@@ -83,30 +107,6 @@
    "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
    "site": "CNBC",
    "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-   "date": "2 Nov"
-  },
-  {
-   "title": "NASDAQ indices have given up their gains",
-   "site": "investingLive",
-   "url": "https://investinglive.com/stocks/nasdaq-indices-have-given-up-their-gains-trade-in-negative-territory/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "US ISM manufacturing PMI for October 55.5 versus 54.5 estimate",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/us-ism-manufacturing-pmi-for-october-55-5-versus-54-5-estimate/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Morning Kickstart: Oil tumbles as Iran talks continue. USD mixed ahead of ISM",
-   "site": "investingLive",
-   "url": "https://investinglive.com/technical-analysis/morning-kickstart-oil-tumbles-as-iran-talks-continue-usd-mixed-ahead-of-ism/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "European session wrap: Oil sinks, stocks steady as US midterm elections loom",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/investinglive-european-session-wrap-oil-sinks-stocks-steady-as-us-midterm-elections-loom/",
    "date": "2 Nov"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-03T10:40:06Z",
+ "calendarUpdated": "2026-11-03T14:40:13Z",
  "feed": [
+  {
+   "title": "The dollar has eased as oil slipped on Iran deal reports",
+   "text": "GBP/USD went from about 1.3412 at 14:40 Dubai to a low of about 1.3401 at 16:30 Dubai, then jumped from about 1.3414 to 1.3427 in the two minutes to 17:30 Dubai and was near 1.3423 at 18:40 Dubai; EUR/USD rose at the same moment from about 1.1182 to 1.1197, so the move came from a weaker dollar rather than from the pound. It came as oil slid, with WTI falling from $98.50 (about £73) around 16:30 Dubai to $94.05 (about £70) by 17:45 Dubai after President Trump told Fox News that US aid to Israel ends at the year end and an unconfirmed report said Washington had approved a draft agreement with Iran; cheaper oil and hopes of a deal tend to weaken the dollar. Iran's Mohsen Rezaei later called the US response unconvincing and oil recovered to about flat, while US ten year yields were about 4.93%, up on the day, ahead of the job openings figures at 19:00 Dubai and the midterm results overnight.",
+   "t": "2026-11-03T14:40:13Z",
+   "rate": 1.34216
+  },
   {
    "title": "Sterling is flat as oil climbs back towards $107",
    "text": "GBP/USD has barely moved over four hours, from about 1.3415 at 10:35 Dubai to about 1.3412 at 14:35 Dubai, with a high of about 1.3426 at 12:10 Dubai and a low of about 1.3405 at 10:45 Dubai. Brent extended its rise after the reports of US strikes on Qeshm Island, reaching $106.61 (about £79) at 11:44 Dubai and nearly $107 (about £80) by 12:52 Dubai, while an Iranian official said peace negotiations were far from an agreement; dearer oil and Gulf tension tend to lift the dollar, and EUR/USD eased from about 1.1205 at 11:30 Dubai to about 1.1181 at 14:00 Dubai, which points to a slightly firmer dollar through the European morning. No UK figures were due today, and the market is waiting for the US midterm results, the Bank of England on Thursday and the US jobs figures on Friday.",
@@ -423,12 +429,6 @@
    "text": "GBP/USD touched 1.3275 in the last hour and was 1.3289 at 11:44 Dubai, down from 1.3373 at Friday's close, as the dollar has firmed all week against the euro as well as the pound, and the pound has also slipped a little against the euro this morning. Today brings the two biggest events of the week: the UK Budget at 16:30 Dubai, where a plan that calms the gilt market would tend to support the pound and one that worries it would weigh on it, and the Fed's decision at 22:00 Dubai with Chair Warsh speaking at 22:30, where a hold is expected and a firm signal of a December rise would tend to lift the dollar.",
    "t": "2026-10-28T07:44:49Z",
    "rate": 1.3289
-  },
-  {
-   "title": "Sterling has slipped further on Budget morning",
-   "text": "GBP/USD eased from 1.3303 at 07:40 Dubai to a low of 1.3285 at 10:36 Dubai, its fourth day of losses, with the last step from 1.3292 to 1.3286 in the two minutes after 10:30 Dubai. The pound also lost ground against the euro (EUR/GBP rose from 0.8363 to 0.8370) while EUR/USD slipped only from 1.1126 to 1.1120, so most of this fall was the pound weakening and a smaller part was a firmer dollar. FXStreet points to caution before the Chancellor's first Budget at 16:30 Dubai, where tight borrowing limits and high government borrowing costs leave him little room, and to a dollar steadied by caution before the Fed's decision at 22:00 Dubai; no single news item this morning explains the latest step.",
-   "t": "2026-10-28T06:40:33Z",
-   "rate": 1.32854
   }
  ]
 }
