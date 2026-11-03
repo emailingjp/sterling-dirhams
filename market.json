@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:40:13Z",
+ "updated": "2026-11-03T18:13:03Z",
  "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -35,8 +35,26 @@
   "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound.",
   "A US jobs number below the forecast of 63,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar."
  ],
- "watch": "Americans vote in the midterm elections today, with results coming through overnight into Wednesday in Dubai. US job openings come at 19:00 Dubai today (7.11 million forecast); a lower number would help someone selling pounds for dirhams and a higher one would hurt. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt.",
+ "watch": "US midterm results come through overnight into Wednesday in Dubai; a surprise either way could move the dollar. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. The US jobs figures follow on Friday 6 November, where weaker numbers would help and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "Job Openings and Labor Turnover Summary, September 2026",
+   "site": "US Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+   "date": "3 Nov"
+  },
+  {
+   "title": "JOLTs job openings 7.523M vs 7.100M estimate",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/jolts-job-openings-7-523m-vs-7-100m-estimate/",
+   "date": "3 Nov"
+  },
+  {
+   "title": "Stock market today: midterm election results, AMD earnings",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
+   "date": "3 Nov"
+  },
   {
    "title": "Trump on Israel: The aid gets cut off at year-end",
    "site": "investingLive",
@@ -89,24 +107,6 @@
    "title": "US launches defensive strikes on Iranian targets as Trump says Iran wants a settlement",
    "site": "CBS News",
    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-4990380",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Iran and US reportedly on verge of preliminary agreement",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/iran-and-us-reportedly-on-verge-of-preliminary-agreement/",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
    "date": "2 Nov"
   }
  ],
@@ -277,8 +277,21 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-03T14:40:13Z",
+ "calendarUpdated": "2026-11-03T18:13:03Z",
  "feed": [
+  {
+   "title": "The dollar has firmed after more US job openings than expected",
+   "text": "US job openings rose to 7.52 million in September against about 7.1 million expected, up from a revised 7.19 million in August, a sign that demand for workers is holding up. A firm job market keeps a Fed rise in December in view and supports US yields, with the ten year yield near 4.95% and up on the day, so the dollar gained: GBP/USD fell from about 1.3431 at 19:00 Dubai to about 1.3423 within two minutes and to about 1.3410 by 19:30 Dubai, while EUR/USD fell in step from about 1.1196 to 1.1176. Hires and quits also rose, and sterling has since recovered to about 1.3424 at 22:10 Dubai.",
+   "when": "2026-11-03T15:00:00Z",
+   "t": "2026-11-03T18:13:03Z",
+   "rate": 1.34256
+  },
+  {
+   "title": "Americans are voting in the midterm elections",
+   "text": "Polls are open across the United States today and results will come through overnight into Wednesday in Dubai, so there is no result yet to measure. Pollsters and prediction markets make the Democrats favourites to win the House and the Senate, with prediction markets giving them about a 73% chance of the Senate as of Monday. A divided Congress would make large new spending or tax plans harder to pass, and a result different from what is priced could move the dollar overnight.",
+   "t": "2026-11-03T18:13:03Z",
+   "rate": 1.34256
+  },
   {
    "title": "The dollar has eased as oil slipped on Iran deal reports",
    "text": "GBP/USD went from about 1.3412 at 14:40 Dubai to a low of about 1.3401 at 16:30 Dubai, then jumped from about 1.3414 to 1.3427 in the two minutes to 17:30 Dubai and was near 1.3423 at 18:40 Dubai; EUR/USD rose at the same moment from about 1.1182 to 1.1197, so the move came from a weaker dollar rather than from the pound. It came as oil slid, with WTI falling from $98.50 (about £73) around 16:30 Dubai to $94.05 (about £70) by 17:45 Dubai after President Trump told Fox News that US aid to Israel ends at the year end and an unconfirmed report said Washington had approved a draft agreement with Iran; cheaper oil and hopes of a deal tend to weaken the dollar. Iran's Mohsen Rezaei later called the US response unconvincing and oil recovered to about flat, while US ten year yields were about 4.93%, up on the day, ahead of the job openings figures at 19:00 Dubai and the midterm results overnight.",
@@ -417,18 +430,6 @@
    "when": "2026-10-28T12:30:00Z",
    "t": "2026-10-28T12:40:32Z",
    "rate": 1.32919
-  },
-  {
-   "title": "Sterling has held steady in the hours before the Budget",
-   "text": "GBP/USD has traded in a narrow band since late morning, rising from 1.3289 at 11:44 Dubai to 1.3297 at 12:30 Dubai, easing to a low of 1.3275 at 15:00 Dubai and recovering to 1.3288 by 15:39 Dubai, while EUR/USD barely moved (1.1124 to 1.1125), so neither the pound nor the dollar has had fresh news. FXStreet reports that markets are waiting for the Budget at 16:30 Dubai, with UK public debt above £3 trillion in September and jumpy gilt markets, and that the dollar is supported by caution before the Fed's decision at 22:00 Dubai, where a hold is expected and the question is whether Chair Warsh backs a rise in December.",
-   "t": "2026-10-28T11:40:08Z",
-   "rate": 1.32889
-  },
-  {
-   "title": "Sterling is near a two week low ahead of the Budget and the Fed",
-   "text": "GBP/USD touched 1.3275 in the last hour and was 1.3289 at 11:44 Dubai, down from 1.3373 at Friday's close, as the dollar has firmed all week against the euro as well as the pound, and the pound has also slipped a little against the euro this morning. Today brings the two biggest events of the week: the UK Budget at 16:30 Dubai, where a plan that calms the gilt market would tend to support the pound and one that worries it would weigh on it, and the Fed's decision at 22:00 Dubai with Chair Warsh speaking at 22:30, where a hold is expected and a firm signal of a December rise would tend to lift the dollar.",
-   "t": "2026-10-28T07:44:49Z",
-   "rate": 1.3289
   }
  ]
 }
