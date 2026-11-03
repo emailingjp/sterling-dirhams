@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T03:40:00Z",
+ "updated": "2026-11-03T06:39:48Z",
  "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -37,6 +37,12 @@
  ],
  "watch": "Americans vote in the midterm elections today, with results coming through overnight into Wednesday in Dubai. US job openings come at 19:00 Dubai today (7.11 million forecast); a lower number would help someone selling pounds for dirhams and a higher one would hurt. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt.",
  "sources": [
+  {
+   "title": "investingLive Asia-Pacific market news: RBA hikes to 18-year high",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-rba-hikes-to-18-year-high/",
+   "date": "3 Nov"
+  },
   {
    "title": "Oil rises after report of US strike on Iran's Qeshm Island",
    "site": "Reuters via Global Banking and Finance",
@@ -101,12 +107,6 @@
    "title": "Bank of England poised to raise rates but may push back on bets for more",
    "site": "Business Recorder (Reuters)",
    "url": "https://www.brecorder.com/news/40447002/bank-of-england-poised-to-raise-rates-but-may-push-back-on-bets-for-more",
-   "date": "2 Nov"
-  },
-  {
-   "title": "British Pound trades positive at the start of the BoE's policy week",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-trades-positive-at-the-start-of-the-boes-policy-week-202611020845",
    "date": "2 Nov"
   }
  ],
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-03T03:40:00Z",
+ "calendarUpdated": "2026-11-03T06:39:48Z",
  "feed": [
+  {
+   "title": "Sterling has edged back up as the dollar eased through the Asian morning",
+   "text": "GBP/USD rose from an overnight low of about 1.3397 at 07:15 Dubai to about 1.3415 by 09:35 Dubai and was still near 1.3415 at 10:35 Dubai, leaving aside one stray trade at 1.3478, while EUR/USD rose in step from about 1.1182 to about 1.1193, which points to a slightly softer dollar rather than news about the pound. No report read names a cause for the drift: oil has held its small early rise after the reports of US strikes on Qeshm Island, and no further escalation has been reported. The Reserve Bank of Australia raised its rate to 4.85% this morning as expected, and the Australian dollar fell, so that decision did not weaken the dollar more widely.",
+   "t": "2026-11-03T06:39:48Z",
+   "rate": 1.3415
+  },
   {
    "title": "The dollar has firmed after reports of US strikes on Iran",
    "text": "US officials told the Wall Street Journal and CBS News that American forces made limited defensive strikes on Iran's Qeshm Island near the Strait of Hormuz, after Revolutionary Guard forces fired on a US aircraft, and Brent rose 0.5% to $105.25 (about £79) by 05:04 Dubai after falling 7.6% on Monday. Gulf tension tends to lift the dollar as a safe haven, and GBP/USD fell from about 1.3414 at 04:39 Dubai to about 1.3401 at 04:42 Dubai while EUR/USD fell in step from about 1.1192 to 1.1184, which points to the dollar, though no report read gives the exact time the news broke. Sterling has since held near 1.3400, a little below Monday evening's 1.3409, with an overnight low of about 1.3395.",
@@ -423,12 +429,6 @@
    "text": "GBP/USD drifted from 1.3312 at 20:40 Dubai last night to a low of 1.3301 at 05:49 Dubai and was near 1.3303 at 07:40 Dubai, while EUR/USD eased by a similar share, from 1.1131 to 1.1126, and the pound did not move against the euro, so this was the dollar holding near a two week high rather than news about the pound. FXStreet reports no single news item behind it, pointing to caution before the UK Budget at 16:30 Dubai and the Fed's decision at 22:00 Dubai, and to rising bond yields around the world, which tend to support the dollar.",
    "t": "2026-10-28T03:40:56Z",
    "rate": 1.33031
-  },
-  {
-   "title": "Sterling has slipped on the eve of the Budget",
-   "text": "GBP/USD eased from 1.3333 at 18:34 Dubai to a low of 1.3306 at 20:20 Dubai and was near 1.3312 at 20:40 Dubai, while EUR/USD fell only slightly, from 1.1150 to 1.1143, and the pound lost a little against the euro too, so this leg was mostly the pound softening rather than the dollar firming. FXStreet describes a third day of losses for sterling as traders wait for the UK Budget at 16:30 Dubai on Wednesday and the Fed's decision that evening; no report found names a single news item behind this afternoon's dip.",
-   "t": "2026-10-27T16:40:19Z",
-   "rate": 1.33122
   }
  ]
 }
