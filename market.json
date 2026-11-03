@@ -1,42 +1,60 @@
 {
- "updated": "2026-11-02T19:39:46Z",
- "headline": "Sterling is about 1.34 dollars on Monday evening, little changed since the late afternoon, even though oil has fallen sharply on hopes for Iran diplomacy; no deal has been confirmed. The US midterm elections on Tuesday 3 November, the Bank of England on Thursday 5 November and US jobs figures on Friday 6 November are the next tests.",
+ "updated": "2026-11-03T03:40:00Z",
+ "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
    "title": "Fed rate expectations",
-   "text": "CME FedWatch put the chance of a Fed rise in December at about 75% on 2 November, according to FXStreet, supported by last Thursday's strong US figures. On 30 October the Fed's Lorie Logan was reported as saying that at least two more quarter point rises are needed. Signs that keep a December rise in view tend to lift the dollar."
+   "text": "CME FedWatch put the chance of a Fed rise in December at about 75% on 2 November, according to FXStreet, supported by last Thursday's strong US figures and a firmer than expected US factory survey on Monday (55.5 against 54.5). Signs that keep a December rise in view tend to lift the dollar."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent was down 7.7% at $104.66 (about £78) at 21:11 Dubai on 2 November, and US crude touched $95.15 (about £71), on hopes for US and Iran diplomacy. Iran's Foreign Minister said a deal is possible if Washington shows goodwill, but an Iranian report of a preliminary agreement has no official confirmation. investingLive counts at least ten shipping incidents in the region since 31 October, and Goldman Sachs raised its December Brent forecast to $105 (about £78) from $90 (about £67). Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
+   "text": "Brent settled 7.63% lower at $104.77 (about £78) on 2 November, its biggest fall since July, on hopes for US and Iran diplomacy, then rose 0.5% to $105.25 (about £79) in early Asian trade on 3 November after reports of US strikes on Qeshm Island. Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
   },
   {
    "title": "Iran talks",
-   "text": "Iranian negotiators held a third day of talks with Qatari mediators on Sunday 1 November. President Trump said the talks were going fine but did not rule out further military action after the midterms, Secretary of State Rubio said no decision has been made to resume strikes, and Iran's Supreme Leader told his commanders to prepare for renewed confrontation. Each turn in these talks can move oil and the dollar."
+   "text": "President Trump said on 2 November that a deal with Iran could happen and that Iran wants a settlement, and Tehran said contacts with Washington were continuing, though talks through Qatari mediators have produced no breakthrough. Hours later US officials described limited defensive strikes near the Strait of Hormuz. Each turn in these talks can move oil and the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75%, and economists polled by Reuters expect a rise to 4% on 5 November, which would be the first rise since August 2023. OCBC says the pound has held up better than expected after a Budget that stayed within the fiscal rules, but warns that much of the tightening is already priced in. A rise that is already priced in gives the pound less of a lift than a surprise would, so the guidance from the Bank will count for more."
+   "text": "Bank Rate is 3.75%, and economists polled by Reuters expect a rise to 4% on 5 November, which would be the first rise since August 2023. Reuters notes the Bank may push back on the further rises priced for 2027. A rise that is already priced in gives the pound less of a lift than a surprise would, so the guidance from the Bank will count for more."
   },
   {
    "title": "The midterms",
-   "text": "US midterm elections are on Tuesday 3 November. Republicans hold the Senate 53 to 47 and the House 220 to 215, and prediction markets put a Democratic sweep near 68% on 30 October; ING says that could weigh slightly on the dollar through shutdown and debt ceiling risks."
+   "text": "US midterm elections are today, 3 November. Republicans hold the Senate 53 to 47 and the House 220 to 215, and betting markets gave the Democrats about a 70% chance of taking both chambers on 2 November; ING says a Democratic sweep could weigh slightly on the dollar through shutdown and debt ceiling risks."
   }
  ],
  "lower": [
-  "Firmer US figures this week, such as a jobs number above the forecast of 63,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
-  "A breakdown in the Hormuz talks or more attacks on shipping pushing oil higher, which would tend to lift the dollar.",
-  "A Bank of England that raises rates on 5 November but signals that rates will not reach the level markets expect, as Oxford Economics suggests it may, which would take away support that the pound already has.",
-  "US military action against Iran after the midterms, which President Trump has not ruled out and which would tend to lift the dollar as a safe haven."
+  "More US strikes on Iran or attacks on shipping that push oil higher, which would tend to lift the dollar as a safe haven.",
+  "Firmer US figures this week, such as job openings above 7.11 million today or a jobs number above 63,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
+  "A Bank of England that raises rates on 5 November but pushes back on the further rises markets expect, which would take away support that the pound already has.",
+  "A midterm result that keeps Republican control of Congress, against the betting markets, which would remove the slight dollar weakness ING links to a Democratic sweep."
  ],
  "higher": [
-  "A US jobs number below the forecast of 63,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar.",
-  "Progress on the plan to reopen Hormuz, which would bring oil down and tend to weaken the dollar.",
+  "Progress in the Iran talks or on reopening Hormuz, which would bring oil down and tend to weaken the dollar.",
   "A Democratic sweep in the midterms, which ING says could weigh slightly on the dollar through shutdown and debt ceiling risks.",
-  "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound."
+  "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound.",
+  "A US jobs number below the forecast of 63,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar."
  ],
- "watch": "The US midterm elections are on Tuesday 3 November. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams, and a cautious one would hurt. US jobs figures come at 17:30 Dubai on Friday 6 November (63,000 forecast); a lower number would help and a higher one would hurt.",
+ "watch": "Americans vote in the midterm elections today, with results coming through overnight into Wednesday in Dubai. US job openings come at 19:00 Dubai today (7.11 million forecast); a lower number would help someone selling pounds for dirhams and a higher one would hurt. The Bank of England follows at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt.",
  "sources": [
+  {
+   "title": "Oil rises after report of US strike on Iran's Qeshm Island",
+   "site": "Reuters via Global Banking and Finance",
+   "url": "https://www.globalbankingandfinance.com/oil-rises-report-us-strike-irans-qeshm-island/",
+   "date": "3 Nov"
+  },
+  {
+   "title": "US launches defensive strikes on Iranian targets as Trump says Iran wants a settlement",
+   "site": "CBS News",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
+   "date": "2 Nov"
+  },
+  {
+   "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
+   "site": "Investing.com",
+   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-4990380",
+   "date": "2 Nov"
+  },
   {
    "title": "Iran and US reportedly on verge of preliminary agreement",
    "site": "investingLive",
@@ -90,24 +108,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-trades-positive-at-the-start-of-the-boes-policy-week-202611020845",
    "date": "2 Nov"
-  },
-  {
-   "title": "Sterling today: Pound gains as dollar slips on Iran diplomacy bets",
-   "site": "Investing.com",
-   "url": "https://in.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-iran-diplomacy-bets-5670668",
-   "date": "2 Nov"
-  },
-  {
-   "title": "Forex Today: US Dollar edges lower as mood improves ahead of midterm elections",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-edges-lower-as-mood-improves-ahead-of-midterm-elections-202611020713",
-   "date": "2 Nov"
-  },
-  {
-   "title": "What are the main events for today?",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/what-are-the-main-events-for-today-76/",
-   "date": "2 Nov"
   }
  ],
  "calendar": [
@@ -128,9 +128,9 @@
    "impact": "Medium",
    "name": "US job openings (JOLTS)",
    "title": "JOLTS Job Openings",
-   "forecast": "7.11M",
+   "forecast": "7.15M",
    "previous": "7.08M",
-   "good": "Lower than 7.11M",
+   "good": "Lower than 7.15M",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -150,9 +150,9 @@
    "impact": "Medium",
    "name": "US services survey (ISM)",
    "title": "ISM Services PMI",
-   "forecast": "54.9",
+   "forecast": "54.8",
    "previous": "54.9",
-   "good": "Lower than 54.9",
+   "good": "Lower than 54.8",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -238,9 +238,9 @@
    "impact": "High",
    "name": "US jobs report: payrolls",
    "title": "Non-Farm Employment Change",
-   "forecast": "63K",
+   "forecast": "65K",
    "previous": "29K",
-   "good": "Lower than 63K",
+   "good": "Lower than 65K",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -260,9 +260,9 @@
    "impact": "Medium",
    "name": "US consumer sentiment (University of Michigan)",
    "title": "Prelim UoM Consumer Sentiment",
-   "forecast": "47.8",
+   "forecast": "48.1",
    "previous": "46.3",
-   "good": "Lower than 47.8",
+   "good": "Lower than 48.1",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -277,8 +277,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-02T19:39:46Z",
+ "calendarUpdated": "2026-11-03T03:40:00Z",
  "feed": [
+  {
+   "title": "The dollar has firmed after reports of US strikes on Iran",
+   "text": "US officials told the Wall Street Journal and CBS News that American forces made limited defensive strikes on Iran's Qeshm Island near the Strait of Hormuz, after Revolutionary Guard forces fired on a US aircraft, and Brent rose 0.5% to $105.25 (about £79) by 05:04 Dubai after falling 7.6% on Monday. Gulf tension tends to lift the dollar as a safe haven, and GBP/USD fell from about 1.3414 at 04:39 Dubai to about 1.3401 at 04:42 Dubai while EUR/USD fell in step from about 1.1192 to 1.1184, which points to the dollar, though no report read gives the exact time the news broke. Sterling has since held near 1.3400, a little below Monday evening's 1.3409, with an overnight low of about 1.3395.",
+   "t": "2026-11-03T03:40:00Z",
+   "rate": 1.34044
+  },
   {
    "title": "Sterling is little changed as oil slumps and US shares fade",
    "text": "Brent fell 7.7% to $104.66 (about £78) on hopes for US and Iran diplomacy, and an Iranian report at 22:25 Dubai said the two sides were close to a preliminary agreement, although neither government has confirmed it. Cheaper oil and easier tension tend to weaken the dollar, yet GBP/USD fell from about 1.3419 at 21:50 Dubai to about 1.3402 at 22:50 Dubai, and EUR/USD fell from about 1.1204 to about 1.1190, which points to a firmer dollar. No report read names a cause for that step, though it came as US technology shares turned lower on selling in chip stocks. GBP/USD then recovered to about 1.3409, little changed from about 1.3415 four hours earlier, with a high of about 1.3422 and a low of about 1.3402 over that time, leaving aside one stray trade at 1.3431.",
@@ -423,13 +429,6 @@
    "text": "GBP/USD eased from 1.3333 at 18:34 Dubai to a low of 1.3306 at 20:20 Dubai and was near 1.3312 at 20:40 Dubai, while EUR/USD fell only slightly, from 1.1150 to 1.1143, and the pound lost a little against the euro too, so this leg was mostly the pound softening rather than the dollar firming. FXStreet describes a third day of losses for sterling as traders wait for the UK Budget at 16:30 Dubai on Wednesday and the Fed's decision that evening; no report found names a single news item behind this afternoon's dip.",
    "t": "2026-10-27T16:40:19Z",
    "rate": 1.33122
-  },
-  {
-   "title": "US consumer confidence has jumped, with little lasting effect on sterling",
-   "text": "The Conference Board's index rose to 91.7 in October against 81.2 expected, up from a revised 84.2 in September, helped by lower petrol prices. A stronger US consumer usually firms the dollar by keeping a December Fed rise in view, and GBP/USD did dip from 1.3320 to 1.3316 in the first minute, but it then rose to 1.3333 by 18:10 Dubai and settled near 1.3329, so the surprise did not move the rate for long ahead of Wednesday's Fed decision.",
-   "when": "2026-10-27T14:00:00Z",
-   "t": "2026-10-27T14:39:49Z",
-   "rate": 1.33261
   }
  ]
 }
