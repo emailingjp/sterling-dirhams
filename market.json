@@ -1,42 +1,61 @@
 {
- "updated": "2026-11-03T18:13:03Z",
- "headline": "Sterling is about 1.34 dollars early on Tuesday, a touch lower overnight after reports of US defensive strikes on Iran's Qeshm Island lifted oil and the dollar slightly. Americans vote in the midterm elections today, the Bank of England decides on Thursday 5 November and US jobs figures follow on Friday 6 November.",
+ "updated": "2026-11-04T08:46:33Z",
+ "headline": "Sterling is about 1.348 dollars on Wednesday morning, up about 0.4% since Tuesday evening, after the Democrats won control of Congress and the dollar fell to its lowest since late September. The Bank of England decides on Thursday 5 November and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
-   "title": "Fed rate expectations",
-   "text": "CME FedWatch put the chance of a Fed rise in December at about 75% on 2 November, according to FXStreet, supported by last Thursday's strong US figures and a firmer than expected US factory survey on Monday (55.5 against 54.5). Signs that keep a December rise in view tend to lift the dollar."
+   "title": "The midterms",
+   "text": "Democrats won the Senate overnight and the House on the latest reports, the result betting markets had favoured. The dollar index fell to about 101.25 in Asian trade on 4 November, its lowest since late September, as US ten year yields fell to about 4.92%."
   },
   {
-   "title": "Oil and the Gulf",
-   "text": "Brent settled 7.63% lower at $104.77 (about £78) on 2 November, its biggest fall since July, on hopes for US and Iran diplomacy, then rose 0.5% to $105.25 (about £79) in early Asian trade on 3 November after reports of US strikes on Qeshm Island. Dearer oil and Gulf tension tend to lift the dollar, and easing tension the reverse."
-  },
-  {
-   "title": "Iran talks",
-   "text": "President Trump said on 2 November that a deal with Iran could happen and that Iran wants a settlement, and Tehran said contacts with Washington were continuing, though talks through Qatari mediators have produced no breakthrough. Hours later US officials described limited defensive strikes near the Strait of Hormuz. Each turn in these talks can move oil and the dollar."
+   "title": "The Fed",
+   "text": "Markets still price more than a 75% chance of a Fed rise in December, according to the FedWatch tool on 4 November, after job openings rose to 7.52 million in September against about 7.1 million expected. Firmer US figures keep that rise in view and support the dollar."
   },
   {
    "title": "The UK side",
-   "text": "Bank Rate is 3.75%, and economists polled by Reuters expect a rise to 4% on 5 November, which would be the first rise since August 2023. Reuters notes the Bank may push back on the further rises priced for 2027. A rise that is already priced in gives the pound less of a lift than a surprise would, so the guidance from the Bank will count for more."
+   "text": "Bank Rate is 3.75%, and a rise to 4% is expected at 16:00 Dubai on 5 November, which would be the first rise since August 2023. A rise that is already priced in gives the pound less of a lift than a surprise would, so the vote split and the Bank's guidance on further rises will count for more."
   },
   {
-   "title": "The midterms",
-   "text": "US midterm elections are today, 3 November. Republicans hold the Senate 53 to 47 and the House 220 to 215, and betting markets gave the Democrats about a 70% chance of taking both chambers on 2 November; ING says a Democratic sweep could weigh slightly on the dollar through shutdown and debt ceiling risks."
+   "title": "Oil and Iran",
+   "text": "Oil was little changed near $103.85 a barrel (about £77) early on 4 November after easing about 1% on Tuesday to its lowest in nearly four weeks, as markets weigh talks to end the Iran war against recent attacks. The President has said he could restart bombing in Iran after the election, and an escalation would tend to lift oil and the dollar."
   }
  ],
  "lower": [
-  "More US strikes on Iran or attacks on shipping that push oil higher, which would tend to lift the dollar as a safe haven.",
-  "Firmer US figures this week, such as job openings above 7.11 million today or a jobs number above 63,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
-  "A Bank of England that raises rates on 5 November but pushes back on the further rises markets expect, which would take away support that the pound already has.",
-  "A midterm result that keeps Republican control of Congress, against the betting markets, which would remove the slight dollar weakness ING links to a Democratic sweep."
+  "A renewed US bombing campaign in Iran or attacks on shipping that push oil higher, which would tend to lift the dollar as a safe haven.",
+  "Strong US services figures today, with the ISM index above the forecast of 54.8, or a jobs number above 65,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
+  "A Bank of England that raises rates on 5 November but signals no more to come, or a split vote with members against the rise, which would take away support that the pound already has."
  ],
  "higher": [
   "Progress in the Iran talks or on reopening Hormuz, which would bring oil down and tend to weaken the dollar.",
-  "A Democratic sweep in the midterms, which ING says could weigh slightly on the dollar through shutdown and debt ceiling risks.",
   "A Bank of England that raises rates on 5 November and hints at more, which would lift the pound.",
-  "A US jobs number below the forecast of 63,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar."
+  "Weak US figures this week, with the ISM services index below 54.8 today or a jobs number below 65,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar.",
+  "Further selling of the dollar as markets digest a Democratic Congress, with lower US yields narrowing the gap with UK rates."
  ],
- "watch": "US midterm results come through overnight into Wednesday in Dubai; a surprise either way could move the dollar. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. The US jobs figures follow on Friday 6 November, where weaker numbers would help and stronger ones would hurt.",
+ "watch": "The US ISM services index comes out at 19:00 Dubai today, forecast at 54.8 against 54.9 last month; a weaker figure would help someone selling pounds for dirhams and a stronger one would hurt. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000.",
  "sources": [
+  {
+   "title": "Forex Today: US Dollar under pressure as Democrats take control of Congress",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-under-pressure-as-democrats-take-control-of-congress-202611040737",
+   "date": "4 Nov"
+  },
+  {
+   "title": "US Dollar Index dips to late September lows as Democrats gain edge",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-dives-to-late-september-lows-near-10125-on-us-election-results-202611040523",
+   "date": "4 Nov"
+  },
+  {
+   "title": "Dollar dips with U.S. midterm results in focus",
+   "site": "CNBC (Reuters)",
+   "url": "https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html",
+   "date": "4 Nov"
+  },
+  {
+   "title": "Democrats take control of the Senate after winning key midterm races",
+   "site": "PBS NewsHour (AP)",
+   "url": "https://www.pbs.org/newshour/politics/democrats-take-control-of-the-senate-after-winning-key-midterm-races",
+   "date": "3 Nov"
+  },
   {
    "title": "Job Openings and Labor Turnover Summary, September 2026",
    "site": "US Bureau of Labor Statistics",
@@ -84,30 +103,6 @@
    "site": "Grafa",
    "url": "https://grafa.com/en/news/united-states/oil-prices-rise-iran-qeshm-island-strikes-peace-talks",
    "date": "3 Nov"
-  },
-  {
-   "title": "Oil prices cross $105 after US strikes on Iran's Qeshm Island",
-   "site": "The National",
-   "url": "https://www.thenationalnews.com/business/energy/2026/11/03/oil-prices-cross-105-after-us-strikes-on-irans-qeshm-island/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "investingLive Asia-Pacific market news: RBA hikes to 18-year high",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-rba-hikes-to-18-year-high/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Oil rises after report of US strike on Iran's Qeshm Island",
-   "site": "Reuters via Global Banking and Finance",
-   "url": "https://www.globalbankingandfinance.com/oil-rises-report-us-strike-irans-qeshm-island/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "US launches defensive strikes on Iranian targets as Trump says Iran wants a settlement",
-   "site": "CBS News",
-   "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/",
-   "date": "2 Nov"
   }
  ],
  "calendar": [
@@ -277,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-03T18:13:03Z",
+ "calendarUpdated": "2026-11-04T08:46:33Z",
  "feed": [
+  {
+   "title": "The dollar has weakened as Democrats win Congress",
+   "text": "Democrats have won the Senate and, on the latest reports, the House, ending Republican control of Congress for the last two years of the President's term. Markets read a divided Washington as less room for new spending and borrowing, and US ten year yields fell about 4 basis points to 4.92%, so the dollar fell across the board: GBP/USD rose from about 1.3407 at 03:00 Dubai, as the early returns came in, to about 1.3471 by 05:30 Dubai, while EUR/USD rose in step from about 1.1188 to 1.1258. Sterling has held the gain and was near 1.3484 at 12:30 Dubai, its highest since mid September.",
+   "t": "2026-11-04T08:46:33Z",
+   "rate": 1.34854
+  },
   {
    "title": "The dollar has firmed after more US job openings than expected",
    "text": "US job openings rose to 7.52 million in September against about 7.1 million expected, up from a revised 7.19 million in August, a sign that demand for workers is holding up. A firm job market keeps a Fed rise in December in view and supports US yields, with the ten year yield near 4.95% and up on the day, so the dollar gained: GBP/USD fell from about 1.3431 at 19:00 Dubai to about 1.3423 within two minutes and to about 1.3410 by 19:30 Dubai, while EUR/USD fell in step from about 1.1196 to 1.1176. Hires and quits also rose, and sterling has since recovered to about 1.3424 at 22:10 Dubai.",
@@ -423,13 +424,6 @@
    "text": "The Chancellor, John Healey, told the Commons that the Office for Budget Responsibility puts headroom against the borrowing rules at £15bn in 2029/30, down from £23.6bn in March but in line with forecasts, and the 10 year gilt yield eased from 5.355% to 5.344%. A Budget that calms the gilt market tends to support the pound, and GBP/USD rose from 1.3290 at 17:25 Dubai to 1.3304 by 17:40 Dubai, slipped back to 1.3289 at 18:15 Dubai, then climbed to a high of 1.3311 at 19:20 Dubai and was near 1.3303 at 19:35 Dubai. EUR/USD barely moved (1.1131 to 1.1135), so the gain was the pound firming rather than the dollar weakening; ING describes the reaction in gilts and sterling as small.",
    "t": "2026-10-28T15:40:30Z",
    "rate": 1.33037
-  },
-  {
-   "title": "The Budget is under way, with little effect on sterling so far",
-   "text": "The Chancellor began his first Budget at 16:30 Dubai, and the Office for Budget Responsibility's forecasts, including the headroom against the borrowing rules, follow the speech. In the first ten minutes GBP/USD dipped from 1.3291 to 1.3288 and was back at 1.3293 by 16:39 Dubai, while EUR/USD held near 1.1133, so neither the pound nor the dollar has moved on the news yet. Ebury expects headroom of about £15bn and ABN AMRO says a figure below £14bn could unsettle gilts, so a larger cushion would tend to support the pound and a smaller one would tend to weigh on it.",
-   "when": "2026-10-28T12:30:00Z",
-   "t": "2026-10-28T12:40:32Z",
-   "rate": 1.32919
   }
  ]
 }
