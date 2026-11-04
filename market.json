@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:39:12Z",
+ "updated": "2026-11-04T12:39:30Z",
  "headline": "Sterling is about 1.348 dollars on Wednesday morning, up about 0.4% since Tuesday evening, after the Democrats won control of Congress and the dollar fell to its lowest since late September. The Bank of England decides on Thursday 5 November and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -32,6 +32,12 @@
  ],
  "watch": "The US ISM services index comes out at 19:00 Dubai today, forecast at 54.8 against 54.9 last month; a weaker figure would help someone selling pounds for dirhams and a stronger one would hurt. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000.",
  "sources": [
+  {
+   "title": "Why Treasury Yields and the Dollar Fell After the Midterms",
+   "site": "Multibagg, citing Reuters and CNBC",
+   "url": "https://www.multibagg.ai/market-pulse/articles/treasury-yields-dollar-slip-midterm-result-cmw1vbcug000bl82rcc4kaoq9",
+   "date": "4 Nov"
+  },
   {
    "title": "Sterling today: Pound gains as dollar slips on Democratic midterm sweep",
    "site": "Investing.com",
@@ -96,12 +102,6 @@
    "title": "Morning Kickstart: Election uncertainty, Iran tensions and rising yields frame the session",
    "site": "investingLive",
    "url": "https://investinglive.com/technical-analysis/morning-kickstart-election-uncertainty-iran-tensions-and-rising-yields-frame-the-session/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "investingLive European news wrap: Markets remain cautious as focus shifts to US midterm elections",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-remain-cautious-as-focus-shifts-to-us-midterm-elections/",
    "date": "3 Nov"
   }
  ],
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-04T11:39:12Z",
+ "calendarUpdated": "2026-11-04T12:39:30Z",
  "feed": [
+  {
+   "title": "Sterling has touched 1.35 and slipped back",
+   "text": "GBP/USD rose from about 1.3484 at 16:20 Dubai to about 1.3498 by 16:30 Dubai, its highest since mid September, then eased to about 1.3487 by 16:35 Dubai; EUR/USD rose and fell in step, from about 1.1255 to about 1.1267 and back to 1.1257, so the swing came from the dollar rather than from news about the pound. No report read names a fresh cause for it: the dollar index was about 0.4% lower on the day after the midterm result, with US ten year yields down about 6 basis points to about 4.91%, and the US ISM services index at 19:00 Dubai is the next scheduled figure.",
+   "t": "2026-11-04T12:39:30Z",
+   "rate": 1.34878
+  },
   {
    "title": "The dollar has steadied after its overnight fall",
    "text": "GBP/USD slipped from about 1.3493 at 14:25 Dubai to about 1.3476 by 14:45 Dubai and touched about 1.3469 at 15:05 Dubai, before recovering to about 1.3480 by 15:35 Dubai; EUR/USD fell in step from about 1.1258 to a low of about 1.1234, so the move came from a slightly firmer dollar rather than from news about the pound. No report read names a single cause: euro area inflation came in as expected at 4% (core 2.5%) shortly before, giving the euro no fresh lift, and ING called the dollar's fall on the midterm result tentative, noting that a strong US economy and a Fed ready to raise rates still support it. The US ADP jobs and ISM services figures come out later today.",
@@ -418,12 +424,6 @@
    "when": "2026-10-28T18:30:00Z",
    "t": "2026-10-28T18:40:29Z",
    "rate": 1.33205
-  },
-  {
-   "title": "Sterling has edged up as the dollar eased before the Fed",
-   "text": "GBP/USD dipped to 1.3295 at 19:49 Dubai, rose to a high of 1.3320 at 20:55 Dubai and was near 1.3308 at 21:39 Dubai. EUR/USD moved the same way, from 1.1131 to 1.1149 and back to 1.1140, so this was the dollar softening a little rather than news about the pound. No source names a cause for the move; FXStreet reports that traders are waiting for the Fed's decision at 22:00 Dubai, where a hold is expected.",
-   "t": "2026-10-28T17:39:55Z",
-   "rate": 1.33054
   }
  ]
 }
