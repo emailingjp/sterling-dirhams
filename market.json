@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:46:33Z",
+ "updated": "2026-11-04T11:39:12Z",
  "headline": "Sterling is about 1.348 dollars on Wednesday morning, up about 0.4% since Tuesday evening, after the Democrats won control of Congress and the dollar fell to its lowest since late September. The Bank of England decides on Thursday 5 November and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -32,6 +32,12 @@
  ],
  "watch": "The US ISM services index comes out at 19:00 Dubai today, forecast at 54.8 against 54.9 last month; a weaker figure would help someone selling pounds for dirhams and a stronger one would hurt. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000.",
  "sources": [
+  {
+   "title": "Sterling today: Pound gains as dollar slips on Democratic midterm sweep",
+   "site": "Investing.com",
+   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-democratic-midterm-sweep-4998167",
+   "date": "4 Nov"
+  },
   {
    "title": "Forex Today: US Dollar under pressure as Democrats take control of Congress",
    "site": "FXStreet",
@@ -96,12 +102,6 @@
    "title": "investingLive European news wrap: Markets remain cautious as focus shifts to US midterm elections",
    "site": "investingLive",
    "url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-remain-cautious-as-focus-shifts-to-us-midterm-elections/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Oil prices rise as Iran tensions lift Brent to $106",
-   "site": "Grafa",
-   "url": "https://grafa.com/en/news/united-states/oil-prices-rise-iran-qeshm-island-strikes-peace-talks",
    "date": "3 Nov"
   }
  ],
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-04T08:46:33Z",
+ "calendarUpdated": "2026-11-04T11:39:12Z",
  "feed": [
+  {
+   "title": "The dollar has steadied after its overnight fall",
+   "text": "GBP/USD slipped from about 1.3493 at 14:25 Dubai to about 1.3476 by 14:45 Dubai and touched about 1.3469 at 15:05 Dubai, before recovering to about 1.3480 by 15:35 Dubai; EUR/USD fell in step from about 1.1258 to a low of about 1.1234, so the move came from a slightly firmer dollar rather than from news about the pound. No report read names a single cause: euro area inflation came in as expected at 4% (core 2.5%) shortly before, giving the euro no fresh lift, and ING called the dollar's fall on the midterm result tentative, noting that a strong US economy and a Fed ready to raise rates still support it. The US ADP jobs and ISM services figures come out later today.",
+   "t": "2026-11-04T11:39:12Z",
+   "rate": 1.34801
+  },
   {
    "title": "The dollar has weakened as Democrats win Congress",
    "text": "Democrats have won the Senate and, on the latest reports, the House, ending Republican control of Congress for the last two years of the President's term. Markets read a divided Washington as less room for new spending and borrowing, and US ten year yields fell about 4 basis points to 4.92%, so the dollar fell across the board: GBP/USD rose from about 1.3407 at 03:00 Dubai, as the early returns came in, to about 1.3471 by 05:30 Dubai, while EUR/USD rose in step from about 1.1188 to 1.1258. Sterling has held the gain and was near 1.3484 at 12:30 Dubai, its highest since mid September.",
@@ -418,12 +424,6 @@
    "text": "GBP/USD dipped to 1.3295 at 19:49 Dubai, rose to a high of 1.3320 at 20:55 Dubai and was near 1.3308 at 21:39 Dubai. EUR/USD moved the same way, from 1.1131 to 1.1149 and back to 1.1140, so this was the dollar softening a little rather than news about the pound. No source names a cause for the move; FXStreet reports that traders are waiting for the Fed's decision at 22:00 Dubai, where a hold is expected.",
    "t": "2026-10-28T17:39:55Z",
    "rate": 1.33054
-  },
-  {
-   "title": "Sterling has edged up as the Budget passes without a shock",
-   "text": "The Chancellor, John Healey, told the Commons that the Office for Budget Responsibility puts headroom against the borrowing rules at £15bn in 2029/30, down from £23.6bn in March but in line with forecasts, and the 10 year gilt yield eased from 5.355% to 5.344%. A Budget that calms the gilt market tends to support the pound, and GBP/USD rose from 1.3290 at 17:25 Dubai to 1.3304 by 17:40 Dubai, slipped back to 1.3289 at 18:15 Dubai, then climbed to a high of 1.3311 at 19:20 Dubai and was near 1.3303 at 19:35 Dubai. EUR/USD barely moved (1.1131 to 1.1135), so the gain was the pound firming rather than the dollar weakening; ING describes the reaction in gilts and sterling as small.",
-   "t": "2026-10-28T15:40:30Z",
-   "rate": 1.33037
   }
  ]
 }
