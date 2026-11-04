@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:39:30Z",
+ "updated": "2026-11-04T15:40:24Z",
  "headline": "Sterling is about 1.348 dollars on Wednesday morning, up about 0.4% since Tuesday evening, after the Democrats won control of Congress and the dollar fell to its lowest since late September. The Bank of England decides on Thursday 5 November and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -30,8 +30,20 @@
   "Weak US figures this week, with the ISM services index below 54.8 today or a jobs number below 65,000 on 6 November, which would make a December Fed rise less certain and weaken the dollar.",
   "Further selling of the dollar as markets digest a Democratic Congress, with lower US yields narrowing the gap with UK rates."
  ],
- "watch": "The US ISM services index comes out at 19:00 Dubai today, forecast at 54.8 against 54.9 last month; a weaker figure would help someone selling pounds for dirhams and a stronger one would hurt. The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000.",
+ "watch": "The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000; a weaker figure would help and a stronger one would hurt.",
  "sources": [
+  {
+   "title": "October US ISM services 54.5 vs 54.8 expected",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/october-us-ism-services-vs-54-8-expected/",
+   "date": "4 Nov"
+  },
+  {
+   "title": "Services PMI at 54.5%; October 2026 ISM Services PMI Report",
+   "site": "ISM via PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html",
+   "date": "4 Nov"
+  },
   {
    "title": "Why Treasury Yields and the Dollar Fell After the Midterms",
    "site": "Multibagg, citing Reuters and CNBC",
@@ -90,18 +102,6 @@
    "title": "Trump on Israel: The aid gets cut off at year-end",
    "site": "investingLive",
    "url": "https://investinglive.com/news/trump-on-israel-the-aid-gets-cut-off-at-year-end/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Tough to buy into the Iran headlines in the context of the election",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/tough-to-buy-into-the-iran-headlines-in-the-context-of-the-election/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Morning Kickstart: Election uncertainty, Iran tensions and rising yields frame the session",
-   "site": "investingLive",
-   "url": "https://investinglive.com/technical-analysis/morning-kickstart-election-uncertainty-iran-tensions-and-rising-yields-frame-the-session/",
    "date": "3 Nov"
   }
  ],
@@ -272,8 +272,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-04T12:39:30Z",
+ "calendarUpdated": "2026-11-04T15:40:24Z",
  "feed": [
+  {
+   "title": "The dollar has firmed despite softer US services figures",
+   "text": "The US ISM services index came in at 54.5 against 54.8 expected and 54.9 in September, with new orders down to 55.9 from 59.8, but the prices index stayed high at 73.0 and the employment index rose to 51.4 from 50.1. A softer reading usually weakens the dollar, while stubborn prices keep a Fed rise in December in view, and the dollar kept the firmer tone it had found in the hour before: GBP/USD, already down from about 1.3486 at 18:35 Dubai to 1.3477 just before the release, dipped to about 1.3470 within a minute and slid to about 1.3463 by 19:20 Dubai. EUR/USD fell in step from about 1.1265 at 18:30 Dubai to 1.1234, so the dollar has won back part of its overnight fall across the board; no report read names a single cause beyond the release.",
+   "when": "2026-11-04T15:00:00Z",
+   "t": "2026-11-04T15:40:24Z",
+   "rate": 1.34631
+  },
   {
    "title": "Sterling has touched 1.35 and slipped back",
    "text": "GBP/USD rose from about 1.3484 at 16:20 Dubai to about 1.3498 by 16:30 Dubai, its highest since mid September, then eased to about 1.3487 by 16:35 Dubai; EUR/USD rose and fell in step, from about 1.1255 to about 1.1267 and back to 1.1257, so the swing came from the dollar rather than from news about the pound. No report read names a fresh cause for it: the dollar index was about 0.4% lower on the day after the midterm result, with US ten year yields down about 6 basis points to about 4.91%, and the US ISM services index at 19:00 Dubai is the next scheduled figure.",
@@ -415,13 +422,6 @@
    "title": "The Fed has held rates, with two members voting for a rise",
    "text": "The Fed kept its range at 3.75% to 4% as expected, but Governor Lisa Cook and Cleveland Fed President Beth Hammack voted for a quarter point rise, and the statement upgraded growth to a strong pace while dropping its earlier wording on bringing inflation back to 2%. Two votes for a rise keep a December increase in view, which supports the dollar, though the ten year Treasury yield rose only from about 5.02% to 5.04%. GBP/USD rose from 1.3298 to about 1.3310 within two minutes, then settled near 1.3293 by 22:24 Dubai; the jump to 1.3370 on Kraken at 22:01 was a single stray trade, not a real move.",
    "when": "2026-10-28T18:00:00Z",
-   "t": "2026-10-28T18:40:29Z",
-   "rate": 1.33205
-  },
-  {
-   "title": "Sterling has edged up during Chair Warsh's press conference",
-   "text": "Chair Kevin Warsh opened by saying activity is expanding at a strong pace, inflation remains elevated and the committee will deliver price stability. GBP/USD rose from 1.3294 at 22:32 Dubai to about 1.3320 by 22:36, and was about 1.3323 at 22:40. No report read so far names the remark behind that rise, so the cause is not yet clear.",
-   "when": "2026-10-28T18:30:00Z",
    "t": "2026-10-28T18:40:29Z",
    "rate": 1.33205
   }
