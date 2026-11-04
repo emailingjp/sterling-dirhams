@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-04T15:40:24Z",
+ "updated": "2026-11-04T19:39:38Z",
  "headline": "Sterling is about 1.348 dollars on Wednesday morning, up about 0.4% since Tuesday evening, after the Democrats won control of Congress and the dollar fell to its lowest since late September. The Bank of England decides on Thursday 5 November and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
    "title": "The midterms",
-   "text": "Democrats won the Senate overnight and the House on the latest reports, the result betting markets had favoured. The dollar index fell to about 101.25 in Asian trade on 4 November, its lowest since late September, as US ten year yields fell to about 4.92%."
+   "text": "Democrats won the Senate overnight and the House on the latest reports, the result betting markets had favoured. The dollar index fell to about 101.25 in Asian trade on 4 November, its lowest since late September, and US ten year yields were about 4.88% on the evening of 4 November, near their lowest since 10 September."
   },
   {
    "title": "The Fed",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Oil and Iran",
-   "text": "Oil was little changed near $103.85 a barrel (about £77) early on 4 November after easing about 1% on Tuesday to its lowest in nearly four weeks, as markets weigh talks to end the Iran war against recent attacks. The President has said he could restart bombing in Iran after the election, and an escalation would tend to lift oil and the dollar."
+   "text": "US crude fell about 8% on the evening of 4 November to about $88.57 a barrel (about £65.80), after Senate Democratic leader Chuck Schumer said Democrats would move to end the Iran war and House leader Hakeem Jeffries said he would pass a bill to end it. Cheaper oil tends to weaken the dollar, while any renewed escalation would tend to lift oil and the dollar."
   }
  ],
  "lower": [
@@ -32,6 +32,24 @@
  ],
  "watch": "The Bank of England decides at 16:00 Dubai on Thursday 5 November, where a rise to 4% is expected; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. The US jobs figures follow at 17:30 Dubai on Friday 6 November, forecast at 65,000; a weaker figure would help and a stronger one would hurt.",
  "sources": [
+  {
+   "title": "Crude oil futures tumbled. Down close to 8%",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/crude-oil-futures-tumbled-down-close-to-8/",
+   "date": "4 Nov"
+  },
+  {
+   "title": "House Democratic leader Jeffries says will pass bill to stop tariffs and to end the Iran war",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/house-democratic-leader-jeffries-says-will-pass-bill-to-stop-tariffs-and-to-end-the-iran-war/",
+   "date": "4 Nov"
+  },
+  {
+   "title": "Gold is taking its clue from the USD and yields moving lower",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/gold-is-taking-it-clue-from-the-usd-and-yields-moving-lower-technicals-are-also-giving-the-buyers-a-push/",
+   "date": "4 Nov"
+  },
   {
    "title": "October US ISM services 54.5 vs 54.8 expected",
    "site": "investingLive",
@@ -84,24 +102,6 @@
    "title": "Job Openings and Labor Turnover Summary, September 2026",
    "site": "US Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
-   "date": "3 Nov"
-  },
-  {
-   "title": "JOLTs job openings 7.523M vs 7.100M estimate",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/jolts-job-openings-7-523m-vs-7-100m-estimate/",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Stock market today: midterm election results, AMD earnings",
-   "site": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
-   "date": "3 Nov"
-  },
-  {
-   "title": "Trump on Israel: The aid gets cut off at year-end",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/trump-on-israel-the-aid-gets-cut-off-at-year-end/",
    "date": "3 Nov"
   }
  ],
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-04T15:40:24Z",
+ "calendarUpdated": "2026-11-04T19:39:38Z",
  "feed": [
+  {
+   "title": "Oil has tumbled as Democrats vow to end the Iran war",
+   "text": "US crude fell about 8% this evening to about $88.57 a barrel (about £65.80) from a session high of $97.15 (about £72.20), after Senate Democratic leader Chuck Schumer said Democrats would move to end the war with Iran, and US ten year yields fell about 7 basis points to about 4.88%, near their lowest since 10 September. Cheaper oil and lower yields tend to weaken the dollar, and GBP/USD rose from about 1.3454 at 21:03 Dubai to about 1.3474 by 21:27 Dubai, with EUR/USD rising in step. Sterling has since eased back to about 1.3461 as the dollar won back part of that move, for which no report read names a cause, leaving the rate a little below where it stood at the last update.",
+   "t": "2026-11-04T19:39:38Z",
+   "rate": 1.34614
+  },
   {
    "title": "The dollar has firmed despite softer US services figures",
    "text": "The US ISM services index came in at 54.5 against 54.8 expected and 54.9 in September, with new orders down to 55.9 from 59.8, but the prices index stayed high at 73.0 and the employment index rose to 51.4 from 50.1. A softer reading usually weakens the dollar, while stubborn prices keep a Fed rise in December in view, and the dollar kept the firmer tone it had found in the hour before: GBP/USD, already down from about 1.3486 at 18:35 Dubai to 1.3477 just before the release, dipped to about 1.3470 within a minute and slid to about 1.3463 by 19:20 Dubai. EUR/USD fell in step from about 1.1265 at 18:30 Dubai to 1.1234, so the dollar has won back part of its overnight fall across the board; no report read names a single cause beyond the release.",
@@ -417,13 +423,6 @@
    "when": "2026-10-28T18:30:00Z",
    "t": "2026-10-28T19:40:28Z",
    "rate": 1.3321
-  },
-  {
-   "title": "The Fed has held rates, with two members voting for a rise",
-   "text": "The Fed kept its range at 3.75% to 4% as expected, but Governor Lisa Cook and Cleveland Fed President Beth Hammack voted for a quarter point rise, and the statement upgraded growth to a strong pace while dropping its earlier wording on bringing inflation back to 2%. Two votes for a rise keep a December increase in view, which supports the dollar, though the ten year Treasury yield rose only from about 5.02% to 5.04%. GBP/USD rose from 1.3298 to about 1.3310 within two minutes, then settled near 1.3293 by 22:24 Dubai; the jump to 1.3370 on Kraken at 22:01 was a single stray trade, not a real move.",
-   "when": "2026-10-28T18:00:00Z",
-   "t": "2026-10-28T18:40:29Z",
-   "rate": 1.33205
   }
  ]
 }
