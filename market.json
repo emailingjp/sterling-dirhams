@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:39:15Z",
+ "updated": "2026-11-05T19:39:35Z",
  "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), US jobless claims came in lower than expected with little effect on the pound, and the US jobs figures on Friday 6 November are next.",
  "drivers": [
   {
@@ -32,6 +32,14 @@
  ],
  "watch": "The US jobs figures come out at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "FXStreet: Forex Today, US Payrolls and U-Mich come next (5 November 2026)",
+   "url": "https://www.fxstreet.com/news/forex-today-us-payrolls-and-u-mich-come-next-202611051837"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD prices",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
+  },
   {
    "title": "GBP/USD and EUR/USD one-minute prices",
    "site": "Kraken",
@@ -90,18 +98,6 @@
    "title": "Sterling set for seventh daily rise versus dollar ahead of BoE meeting (Reuters)",
    "site": "Global Banking and Finance Review",
    "url": "https://www.globalbankingandfinance.com/sterling-set-seventh-daily-rise-versus-dollar-ahead-boe/",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Financial Market Review, 5 November",
-   "site": "GetLeveraged",
-   "url": "https://getleveraged.com/reviews/5-11-26",
-   "date": "5 Nov"
-  },
-  {
-   "title": "GBP/USD Price Forecast: Holds a bullish bias above key support ahead of BoE decision",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-holds-a-bullish-bias-above-key-support-ahead-of-boe-decision-202611050534",
    "date": "5 Nov"
   }
  ],
@@ -272,8 +268,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T16:39:15Z",
+ "calendarUpdated": "2026-11-05T19:39:35Z",
  "feed": [
+  {
+   "title": "Sterling has slipped late in New York as the dollar firms",
+   "text": "GBP/USD eased from about 1.3484 at 22:00 Dubai to about 1.3447 by 23:38 Dubai, and EUR/USD fell in step from about 1.1236 to about 1.1212, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause; it came on a day when US shares fell sharply on a sell off in technology and chip companies, with the Nasdaq down about 4% in the morning, and a nervous stock market tends to draw money into the dollar. FXStreet reports the dollar index revisiting about 101.70 as traders wait for Friday's US jobs figures.",
+   "t": "2026-11-05T19:39:35Z",
+   "rate": 1.34476
+  },
   {
    "title": "Sterling has dipped and recovered as the dollar firmed briefly",
    "text": "GBP/USD fell from about 1.3474 at 20:01 Dubai to about 1.3456 by 20:11 Dubai, then recovered to about 1.3470 by 20:24 Dubai and stood near 1.3470 at 20:38 Dubai. EUR/USD fell in step from about 1.1222 to about 1.1211 and recovered with it, so the move came from a briefly firmer dollar rather than from news about the pound. No report read names a cause: there was no scheduled US or UK figure at the time, and the dip began just after the 20:00 Dubai London fix, when large currency orders are often settled.",
@@ -417,12 +419,6 @@
    "text": "GBP/USD fell from about 1.3444 at 13:15 Dubai to about 1.3405 at 14:40 Dubai, a drop of 0.29%, while EUR/USD fell 0.22% from about 1.1232 to about 1.1207, which points mainly to the dollar recovering, with the pound slightly the weaker. No report read names a cause for the slide. UK factory figures at 13:30 Dubai matched the first estimate at 52.8, so they were no surprise, and the fall had begun before them. Reuters notes the Bank of England rise to 4% on Thursday is widely expected and that the Bank may push back on the three to four further rises priced for 2027, which would weigh on the pound if it does.",
    "t": "2026-11-02T10:39:45Z",
    "rate": 1.34058
-  },
-  {
-   "title": "Sterling has touched 1.3444 on a weaker dollar, then given part of it back",
-   "text": "Investing.com says the dollar eased as oil fell 2% to 3% on reports that President Trump wants diplomacy with Iran to run its course, and that the pound's gain owes more to the dollar than to UK fundamentals. GBP/USD rose from about 1.3419 at 12:30 Dubai to about 1.3444 by 13:15 Dubai, and EUR/USD rose in step from about 1.1197 to about 1.1232, which points to the dollar. GBP/USD then slipped back to about 1.3423 by 13:40 Dubai and EUR/USD to about 1.1216; no report read names a cause for that pullback.",
-   "t": "2026-11-02T09:39:06Z",
-   "rate": 1.34244
   }
  ]
 }
