@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T15:39:30Z",
+ "updated": "2026-11-05T16:39:15Z",
  "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), US jobless claims came in lower than expected with little effect on the pound, and the US jobs figures on Friday 6 November are next.",
  "drivers": [
   {
@@ -32,6 +32,12 @@
  ],
  "watch": "The US jobs figures come out at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "GBP/USD and EUR/USD one-minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "5 Nov"
+  },
   {
    "title": "British Pound subdued despite BoE hike as US jobs, Fed hawks dominate",
    "site": "FXStreet",
@@ -97,12 +103,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-holds-a-bullish-bias-above-key-support-ahead-of-boe-decision-202611050534",
    "date": "5 Nov"
-  },
-  {
-   "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
-   "date": "4 Nov"
   }
  ],
  "calendar": [
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T15:39:30Z",
+ "calendarUpdated": "2026-11-05T16:39:15Z",
  "feed": [
+  {
+   "title": "Sterling has dipped and recovered as the dollar firmed briefly",
+   "text": "GBP/USD fell from about 1.3474 at 20:01 Dubai to about 1.3456 by 20:11 Dubai, then recovered to about 1.3470 by 20:24 Dubai and stood near 1.3470 at 20:38 Dubai. EUR/USD fell in step from about 1.1222 to about 1.1211 and recovered with it, so the move came from a briefly firmer dollar rather than from news about the pound. No report read names a cause: there was no scheduled US or UK figure at the time, and the dip began just after the 20:00 Dubai London fix, when large currency orders are often settled.",
+   "t": "2026-11-05T16:39:15Z",
+   "rate": 1.34689
+  },
   {
    "title": "The dollar has dipped again in New York trade",
    "text": "GBP/USD slipped to about 1.3454 at 19:00 Dubai, then rose from about 1.3466 at 19:21 to 1.3481 at 19:29 Dubai before settling near 1.3472 by 19:38 Dubai, and EUR/USD rose in step from about 1.1216 to 1.1225, so the move came from a softer dollar rather than from news about the pound. No report read names a cause for the late dip. Earlier, FXStreet reported that Cleveland Fed President Hammack and Richmond Fed President Barkin backed a gradual approach to further rises, with Barkin calling inflation too high, which had held the pound back after the Bank of England's decision.",
@@ -417,12 +423,6 @@
    "text": "Investing.com says the dollar eased as oil fell 2% to 3% on reports that President Trump wants diplomacy with Iran to run its course, and that the pound's gain owes more to the dollar than to UK fundamentals. GBP/USD rose from about 1.3419 at 12:30 Dubai to about 1.3444 by 13:15 Dubai, and EUR/USD rose in step from about 1.1197 to about 1.1232, which points to the dollar. GBP/USD then slipped back to about 1.3423 by 13:40 Dubai and EUR/USD to about 1.1216; no report read names a cause for that pullback.",
    "t": "2026-11-02T09:39:06Z",
    "rate": 1.34244
-  },
-  {
-   "title": "The dollar has slipped further as the mood improved before the midterms",
-   "text": "US stock futures rose between 0.4% and 0.9% and West Texas crude fell about 2%, after a weekend with no US strikes on Iran and talk of a shorter timetable for reopening Hormuz, though Washington has not accepted that plan. Better risk appetite reduces demand for the dollar as a safe haven, and ING says traders may also trim dollar positions before Tuesday's vote. GBP/USD rose from about 1.3395 at 10:30 Dubai to about 1.3416 at 11:35 Dubai and EUR/USD rose from 1.1175 to 1.1187, which points mainly to the dollar, with the pound slightly the stronger; no report read names a single event behind the step, and no UK figure had come out.",
-   "t": "2026-11-02T07:40:21Z",
-   "rate": 1.34166
   }
  ]
 }
