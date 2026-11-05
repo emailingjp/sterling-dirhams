@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:39:32Z",
+ "updated": "2026-11-05T10:39:12Z",
  "headline": "Sterling is about 1.349 dollars on Thursday morning, near its highest since mid September, as the dollar stays soft after the midterms and oil has dropped below $100 a barrel (about £74). The Bank of England decides at 16:00 Dubai today, where a rise to 4% is expected, and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -32,6 +32,18 @@
  ],
  "watch": "The Bank of England decides at 16:00 Dubai today, Thursday 5 November, where a rise to 4% on a vote of seven to two is expected, and the Governor speaks at 16:30 Dubai; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. US weekly jobless claims follow at 17:30 Dubai, forecast at 197,000, and the US jobs figures at 17:30 Dubai on Friday 6 November, forecast at 65,000; weaker figures would help and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "British Pound struggles to extend gains ahead of BoE's policy decision",
+   "site": "FXStreet",
+   "url": "https://fxstreet.com/news/british-pound-struggles-to-extend-gains-ahead-of-boes-policy-decision-202611050905",
+   "date": "5 Nov"
+  },
+  {
+   "title": "Sterling set for seventh daily rise versus dollar ahead of BoE meeting (Reuters)",
+   "site": "Global Banking and Finance Review",
+   "url": "https://www.globalbankingandfinance.com/sterling-set-seventh-daily-rise-versus-dollar-ahead-boe/",
+   "date": "5 Nov"
+  },
   {
    "title": "Financial Market Review, 5 November",
    "site": "GetLeveraged",
@@ -90,18 +102,6 @@
    "title": "Why Treasury Yields and the Dollar Fell After the Midterms",
    "site": "Multibagg, citing Reuters and CNBC",
    "url": "https://www.multibagg.ai/market-pulse/articles/treasury-yields-dollar-slip-midterm-result-cmw1vbcug000bl82rcc4kaoq9",
-   "date": "4 Nov"
-  },
-  {
-   "title": "Sterling today: Pound gains as dollar slips on Democratic midterm sweep",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-gains-as-dollar-slips-on-democratic-midterm-sweep-4998167",
-   "date": "4 Nov"
-  },
-  {
-   "title": "Forex Today: US Dollar under pressure as Democrats take control of Congress",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-under-pressure-as-democrats-take-control-of-congress-202611040737",
    "date": "4 Nov"
   }
  ],
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T07:39:32Z",
+ "calendarUpdated": "2026-11-05T10:39:12Z",
  "feed": [
+  {
+   "title": "Sterling has eased as the dollar recovers ahead of the Bank of England",
+   "text": "GBP/USD slipped from about 1.3480 at 13:00 Dubai to about 1.3461 by 13:45 Dubai and has held between about 1.3458 and 1.3465 since, while EUR/USD fell in step from about 1.1245 to about 1.1230, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports that the dollar index has recovered most of its early losses to stand near 101.44, after touching a monthly low of 101.10 on Wednesday; no report read names a fresh cause. A rise in Bank Rate to 4% is expected at 16:00 Dubai, and Ebury notes that a split of six to three, rather than the seven to two most expect, would weigh on the pound.",
+   "t": "2026-11-05T10:39:12Z",
+   "rate": 1.3456
+  },
   {
    "title": "Sterling has slipped as the dollar firms at the London open",
    "text": "GBP/USD fell from about 1.3499 at 11:06 Dubai to about 1.3469 by 11:34 Dubai, then steadied near 1.3475, and EUR/USD fell in step from about 1.1262 to about 1.1239, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause for it: there was no scheduled US or UK figure at the time, and the dollar is giving back part of a fall of about 0.3% in its index on Wednesday after the midterm result. The Bank of England decision at 16:00 Dubai is the next scheduled event for the pound.",
@@ -413,13 +419,6 @@
   {
    "title": "Sterling has climbed as US tech shares fell and traders trimmed dollar positions",
    "text": "GBP/USD rose from about 1.3392 at 10:00 Dubai to about 1.3432 at 15:00 Dubai on Friday. Amazon and Intel disappointed investors, Nasdaq futures fell about 2%, and buying of US Treasuries pulled yields lower, which weakened the dollar; ING also pointed to traders reducing dollar positions before Tuesday's midterm elections. ING described the move as led by the dollar, since there was no UK data, and swaps markets were pricing a Bank of England rise on 5 November as fully expected, which gives the pound support.",
-   "t": "2026-10-30T17:34:45Z",
-   "rate": 1.33903
-  },
-  {
-   "title": "The dollar has weakened despite strong US growth figures",
-   "text": "On Thursday US growth came in at 3.4% against 3.2% forecast, core inflation (PCE) rose 0.3% in September as expected, and jobless claims were 194,000 against 198,000 forecast. Figures like these usually firm up a Fed rise and lift the dollar, yet the odds of a December rise fell from about 84% to about 70%, according to FXStreet, as traders trimmed their bets. GBP/USD rose from 1.3326 to 1.3335 within ten minutes, slipped to 1.3313 by 17:00 Dubai, then climbed from 1.3332 at 18:15 Dubai to 1.3375 by 19:20 Dubai.",
-   "when": "2026-10-29T12:30:00Z",
    "t": "2026-10-30T17:34:45Z",
    "rate": 1.33903
   }
