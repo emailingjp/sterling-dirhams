@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05T12:39:43Z",
- "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), and US weekly jobless claims at 17:30 Dubai today and the US jobs figures on Friday 6 November are next.",
+ "updated": "2026-11-05T13:39:28Z",
+ "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), US jobless claims came in lower than expected with little effect on the pound, and the US jobs figures on Friday 6 November are next.",
  "drivers": [
   {
    "title": "The midterms",
@@ -30,8 +30,20 @@
   "Weak US jobs figures on 6 November, with payrolls below 65,000 or unemployment above 4.2%, which would make a December Fed rise less certain and weaken the dollar.",
   "Further falls in US yields as markets digest a Democratic Congress, narrowing the gap with UK rates."
  ],
- "watch": "US weekly jobless claims come out at 17:30 Dubai today, Thursday 5 November, forecast at 197,000, and the US jobs figures at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
+ "watch": "The US jobs figures come out at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "US Initial Jobless Claims dropped to 189K last week",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-dropped-to-189k-last-week-202611051334",
+   "date": "5 Nov"
+  },
+  {
+   "title": "US initial jobless claims 189K vs 196K estimate",
+   "site": "InvestingLive",
+   "url": "https://investinglive.com/news/us-initial-jobless-claims-189k-vs-196k-estimate",
+   "date": "5 Nov"
+  },
   {
    "title": "Monetary Policy Summary, November 2026",
    "site": "Bank of England",
@@ -90,18 +102,6 @@
    "title": "Dollar edges lower as US election outcome cheers global markets",
    "site": "Reuters via Investing.com",
    "url": "https://investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958",
-   "date": "5 Nov"
-  },
-  {
-   "title": "British Pound edges higher above 1.3450 ahead of BoE rate decision",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-edges-higher-above-13450-ahead-of-boe-rate-decision-202611050232",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Asia Market Quick Take",
-   "site": "Saxo",
-   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take-05-november-2026-05112026",
    "date": "5 Nov"
   }
  ],
@@ -272,8 +272,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T12:39:43Z",
+ "calendarUpdated": "2026-11-05T13:39:28Z",
  "feed": [
+  {
+   "title": "US jobless claims have come in lower than expected",
+   "text": "New US claims for unemployment benefit fell to 189,000 in the week to 31 October, against about 196,000 expected and a revised 195,000 the week before, though continuing claims rose to 1.718 million. Fewer people losing their jobs points to a firm US job market, which keeps a Fed rise in December in play and tends to support the dollar, and FXStreet reports the dollar index edging up to about 101.60. The effect on the pound was small: GBP/USD dipped from 1.3462 to 1.3457 within the minute of the 17:30 Dubai release, was back at 1.3463 a minute later and stood near 1.3464 by 17:38 Dubai.",
+   "when": "2026-11-05T13:30:00Z",
+   "t": "2026-11-05T13:39:28Z",
+   "rate": 1.34621
+  },
   {
    "title": "The Bank of England has raised rates to 4%",
    "text": "The Bank of England raised Bank Rate from 3.75% to 4%, its first rise since 2023, on a vote of eight to one against the seven to two most expected, and the one dissenter, Catherine Mann, wanted a larger rise to 4.25%. A vote firmer than forecast supports the pound, and the Bank now expects inflation to reach about 5% by mid 2027. GBP/USD jumped from 1.3451 to about 1.3477 within a minute of the 16:00 Dubai announcement, held near 1.3470 and touched about 1.3480 by 16:20 Dubai.",
@@ -416,12 +423,6 @@
    "text": "Brent was down more than 3% at about $110 (about £82) at 07:55 Dubai, after Axios reported that President Trump told Israel's prime minister he wanted to give diplomacy more time before any further strikes. FXStreet says optimism about a breakthrough is weakening the dollar as a safe haven, while the expected Bank of England rise is supporting the pound. GBP/USD rose from about 1.3389 at 08:55 Dubai to about 1.3401 by 09:20 Dubai and EUR/USD rose in step from 1.1167 to 1.1178, which points to the dollar rather than news about the pound.",
    "t": "2026-11-02T05:40:12Z",
    "rate": 1.33986
-  },
-  {
-   "title": "Oil has fallen on a two-day plan to reopen Hormuz",
-   "text": "The banks' market has reopened with sterling little changed: GBP/USD closed Friday near 1.3389, stayed between about 1.3373 and 1.3391 in thin weekend trading, and was about 1.3385 at 07:40 Dubai on Monday. Brent fell about $2 to about $111 (about £83) in early Asian trade after Iran's foreign minister said Qatari mediators had agreed a plan with Tehran to reopen the Strait of Hormuz within two days, if the US meets a list of demands; Washington has not responded publicly. Cheaper oil tends to soften the dollar, but FXStreet says the chance of a December Fed rise, about 75%, is still supporting it, and at least ten shipping incidents have been reported in the region since 31 October. No report read names a cause for sterling's small moves overnight.",
-   "t": "2026-11-02T03:41:07Z",
-   "rate": 1.33848
   }
  ]
 }
