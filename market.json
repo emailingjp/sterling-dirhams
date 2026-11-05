@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T03:40:08Z",
+ "updated": "2026-11-05T07:39:32Z",
  "headline": "Sterling is about 1.349 dollars on Thursday morning, near its highest since mid September, as the dollar stays soft after the midterms and oil has dropped below $100 a barrel (about £74). The Bank of England decides at 16:00 Dubai today, where a rise to 4% is expected, and the US jobs figures follow on Friday 6 November.",
  "drivers": [
   {
@@ -32,6 +32,18 @@
  ],
  "watch": "The Bank of England decides at 16:00 Dubai today, Thursday 5 November, where a rise to 4% on a vote of seven to two is expected, and the Governor speaks at 16:30 Dubai; a firmer message on further rises would help someone selling pounds for dirhams and a cautious one would hurt. US weekly jobless claims follow at 17:30 Dubai, forecast at 197,000, and the US jobs figures at 17:30 Dubai on Friday 6 November, forecast at 65,000; weaker figures would help and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "Financial Market Review, 5 November",
+   "site": "GetLeveraged",
+   "url": "https://getleveraged.com/reviews/5-11-26",
+   "date": "5 Nov"
+  },
+  {
+   "title": "GBP/USD Price Forecast: Holds a bullish bias above key support ahead of BoE decision",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-holds-a-bullish-bias-above-key-support-ahead-of-boe-decision-202611050534",
+   "date": "5 Nov"
+  },
   {
    "title": "Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
    "site": "CNBC",
@@ -90,18 +102,6 @@
    "title": "Forex Today: US Dollar under pressure as Democrats take control of Congress",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-us-dollar-under-pressure-as-democrats-take-control-of-congress-202611040737",
-   "date": "4 Nov"
-  },
-  {
-   "title": "US Dollar Index dips to late September lows as Democrats gain edge",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-dives-to-late-september-lows-near-10125-on-us-election-results-202611040523",
-   "date": "4 Nov"
-  },
-  {
-   "title": "Dollar dips with U.S. midterm results in focus",
-   "site": "CNBC (Reuters)",
-   "url": "https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html",
    "date": "4 Nov"
   }
  ],
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T03:40:08Z",
+ "calendarUpdated": "2026-11-05T07:39:32Z",
  "feed": [
+  {
+   "title": "Sterling has slipped as the dollar firms at the London open",
+   "text": "GBP/USD fell from about 1.3499 at 11:06 Dubai to about 1.3469 by 11:34 Dubai, then steadied near 1.3475, and EUR/USD fell in step from about 1.1262 to about 1.1239, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause for it: there was no scheduled US or UK figure at the time, and the dollar is giving back part of a fall of about 0.3% in its index on Wednesday after the midterm result. The Bank of England decision at 16:00 Dubai is the next scheduled event for the pound.",
+   "t": "2026-11-05T07:39:32Z",
+   "rate": 1.34734
+  },
   {
    "title": "Oil has fallen below $100 after the midterms",
    "text": "Brent crude fell 8.7% on Wednesday to settle at $94.62 a barrel (about £70), its first close below $100 since late August, and US crude fell 8.3% to $88.12 (about £65), taking the fall this week to more than 14%. Traders read the Democratic win in Congress, the Vice President's remark that the war cost the party the election, and the President's comment that he has no immediate plans to strike Iran as signs that the conflict may end sooner. Cheaper oil and less Gulf tension tend to weaken the dollar, and US ten year yields fell about 8 basis points to 4.89%.",
@@ -416,12 +422,6 @@
    "when": "2026-10-29T12:30:00Z",
    "t": "2026-10-30T17:34:45Z",
    "rate": 1.33903
-  },
-  {
-   "title": "Sterling has held steady overnight as oil eased on talk of Iran diplomacy",
-   "text": "Brent slipped to $114.10 (about £85.70) at 07:48 Dubai, down from a close of $115.32 (about £86.60) on Wednesday, after the Wall Street Journal reported that Vice President JD Vance had written to Iran's National Security Council chief to revive peace talks, though President Trump said he had not directed the letter. Cheaper oil tends to soften the dollar, but FXStreet read Chair Warsh's tone on Wednesday as firmly hawkish, which supports it, and the two roughly cancelled out. GBP/USD stayed between 1.3301 and 1.3335 through the night and was about 1.3311 at 12:39 Dubai, against 1.3321 at the last update.",
-   "t": "2026-10-29T08:41:05Z",
-   "rate": 1.33098
   }
  ]
 }
