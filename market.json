@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:39:28Z",
+ "updated": "2026-11-05T15:39:30Z",
  "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), US jobless claims came in lower than expected with little effect on the pound, and the US jobs figures on Friday 6 November are next.",
  "drivers": [
   {
@@ -21,7 +21,7 @@
  ],
  "lower": [
   "A breakdown in the Iran talks or renewed US strikes that send oil back above $100 (about £74), which would tend to lift the dollar as a safe haven.",
-  "Low US jobless claims today, below the forecast of 197,000, or a jobs number above 65,000 on 6 November, which would firm up a December Fed rise and lift the dollar.",
+  "US payrolls above 65,000 or unemployment below 4.2% on 6 November, which would firm up a December Fed rise and lift the dollar.",
   "Bank of England speakers leaning towards no further rise after today, which would take away support the pound already has."
  ],
  "higher": [
@@ -32,6 +32,12 @@
  ],
  "watch": "The US jobs figures come out at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "British Pound subdued despite BoE hike as US jobs, Fed hawks dominate",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-subdued-despite-boe-hike-as-us-jobs-fed-hawks-dominate-202611051527",
+   "date": "5 Nov"
+  },
   {
    "title": "US Initial Jobless Claims dropped to 189K last week",
    "site": "FXStreet",
@@ -97,12 +103,6 @@
    "site": "CNBC",
    "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
    "date": "4 Nov"
-  },
-  {
-   "title": "Dollar edges lower as US election outcome cheers global markets",
-   "site": "Reuters via Investing.com",
-   "url": "https://investing.com/news/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets-5001958",
-   "date": "5 Nov"
   }
  ],
  "calendar": [
@@ -272,8 +272,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T13:39:28Z",
+ "calendarUpdated": "2026-11-05T15:39:30Z",
  "feed": [
+  {
+   "title": "The dollar has dipped again in New York trade",
+   "text": "GBP/USD slipped to about 1.3454 at 19:00 Dubai, then rose from about 1.3466 at 19:21 to 1.3481 at 19:29 Dubai before settling near 1.3472 by 19:38 Dubai, and EUR/USD rose in step from about 1.1216 to 1.1225, so the move came from a softer dollar rather than from news about the pound. No report read names a cause for the late dip. Earlier, FXStreet reported that Cleveland Fed President Hammack and Richmond Fed President Barkin backed a gradual approach to further rises, with Barkin calling inflation too high, which had held the pound back after the Bank of England's decision.",
+   "t": "2026-11-05T15:39:30Z",
+   "rate": 1.34748
+  },
   {
    "title": "US jobless claims have come in lower than expected",
    "text": "New US claims for unemployment benefit fell to 189,000 in the week to 31 October, against about 196,000 expected and a revised 195,000 the week before, though continuing claims rose to 1.718 million. Fewer people losing their jobs points to a firm US job market, which keeps a Fed rise in December in play and tends to support the dollar, and FXStreet reports the dollar index edging up to about 101.60. The effect on the pound was small: GBP/USD dipped from 1.3462 to 1.3457 within the minute of the 17:30 Dubai release, was back at 1.3463 a minute later and stood near 1.3464 by 17:38 Dubai.",
@@ -417,12 +423,6 @@
    "text": "US stock futures rose between 0.4% and 0.9% and West Texas crude fell about 2%, after a weekend with no US strikes on Iran and talk of a shorter timetable for reopening Hormuz, though Washington has not accepted that plan. Better risk appetite reduces demand for the dollar as a safe haven, and ING says traders may also trim dollar positions before Tuesday's vote. GBP/USD rose from about 1.3395 at 10:30 Dubai to about 1.3416 at 11:35 Dubai and EUR/USD rose from 1.1175 to 1.1187, which points mainly to the dollar, with the pound slightly the stronger; no report read names a single event behind the step, and no UK figure had come out.",
    "t": "2026-11-02T07:40:21Z",
    "rate": 1.34166
-  },
-  {
-   "title": "The dollar has eased as oil fell further on hopes for Iran diplomacy",
-   "text": "Brent was down more than 3% at about $110 (about £82) at 07:55 Dubai, after Axios reported that President Trump told Israel's prime minister he wanted to give diplomacy more time before any further strikes. FXStreet says optimism about a breakthrough is weakening the dollar as a safe haven, while the expected Bank of England rise is supporting the pound. GBP/USD rose from about 1.3389 at 08:55 Dubai to about 1.3401 by 09:20 Dubai and EUR/USD rose in step from 1.1167 to 1.1178, which points to the dollar rather than news about the pound.",
-   "t": "2026-11-02T05:40:12Z",
-   "rate": 1.33986
   }
  ]
 }
