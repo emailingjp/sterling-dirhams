@@ -1,40 +1,60 @@
 {
- "updated": "2026-11-05T19:39:35Z",
- "headline": "Sterling is about 1.346 dollars on Thursday afternoon, near its highest since mid September, after the Bank of England raised rates to 4% on a vote firmer than expected but gave back the gain as the Governor played down a long run of rises. The dollar stays soft after the midterms and oil below $100 a barrel (about £74), US jobless claims came in lower than expected with little effect on the pound, and the US jobs figures on Friday 6 November are next.",
+ "updated": "2026-11-06T03:40:35Z",
+ "headline": "Sterling is about 1.343 dollars early on Friday, a little lower overnight as the dollar firmed in Asian trade ahead of the US jobs figures. It remains close to its highest since mid September, reached on Wednesday, after the Bank of England raised rates to 4% on Thursday.",
  "drivers": [
   {
-   "title": "The midterms",
-   "text": "Democrats won both houses of Congress, which markets read as gridlock in Washington and a lower chance of renewed strikes on Iran. The dollar index fell 0.36% on 4 November and was about 101.41 in Asian trade on 5 November, while US ten year yields closed at 4.89%, down about 8 basis points."
+   "title": "The US jobs figures",
+   "text": "October payrolls come out at 17:30 Dubai today, forecast at 65,000 after 29,000 in September, with unemployment forecast at 4.2% and average hourly earnings at 0.3% for the month. Earlier this week private payrolls (ADP) rose 86,000 and new jobless claims fell to 189,000 against 196,000 expected, while third quarter unit labour costs fell 0.7% against a 0.6% rise expected, according to FXStreet on 5 November."
   },
   {
    "title": "The Fed",
-   "text": "Markets price about an 81% chance of a Fed rise in December, up from about 77%, according to the CME FedWatch tool as reported by Reuters on 5 November, after private payrolls (ADP) rose 86,000 in October against 69,000 expected. Dallas Fed President Logan has said the Fed needs at least two more quarter point rises, which keeps support under the dollar."
+   "text": "Markets price about a 68% chance of a Fed rise in December, down from nearly 83% a day earlier, according to FX.co on 6 November, after the midterm results and softer labour cost figures. New York Fed President Williams speaks at 13:30 Dubai today and Governor Bowman at 21:15 Dubai, and US consumer prices for October follow on 10 November."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November on a vote of eight to one, with Catherine Mann voting for 4.25%, and expects inflation, 3.5% in September, to reach about 5% by mid 2027. The Committee says policy is not on a preset path; the Governor and Deputy Governor Lombardelli see a case for another rise unless inflation risks ease, while Alan Taylor says this is not the start of a run of rises. The next decision is on 17 December."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November on a vote of eight to one, with Catherine Mann voting for 4.25%, and expects inflation, 3.5% in September, to reach about 5% by mid 2027. Markets now price about an even chance of another rise on 17 December, up from about one in three before the vote, according to FXStreet. The Governor speaks on Monday 9 November at 21:25 Dubai and UK third quarter growth figures follow on 12 November."
   },
   {
-   "title": "Oil and Iran",
-   "text": "Brent settled at $94.62 a barrel (about £70) on 4 November, down 8.7% on the day and more than 14% this week, as US and Iranian officials signal openness to a settlement and a Democratic Congress may curb war funding. The Bank of England notes that oil near $130 (about £97) would push UK inflation towards 6.2%, and renewed fighting would tend to lift oil and the dollar."
+   "title": "The midterms and oil",
+   "text": "Democrats won both houses of Congress, which markets read as gridlock in Washington and a better chance of winding down the Iran conflict; the dollar index fell to about 101.35 after the result but was back near 101.7 on 6 November. Brent settled at $94.62 a barrel (about £70) on 4 November, and December US crude dipped to about $86 (about £64) before rebounding above $90 (about £67) on 5 November amid uncertainty over Iran and the Strait of Hormuz."
   }
  ],
  "lower": [
-  "A breakdown in the Iran talks or renewed US strikes that send oil back above $100 (about £74), which would tend to lift the dollar as a safe haven.",
-  "US payrolls above 65,000 or unemployment below 4.2% on 6 November, which would firm up a December Fed rise and lift the dollar.",
-  "Bank of England speakers leaning towards no further rise after today, which would take away support the pound already has."
+  "US payrolls above 65,000, unemployment below 4.2% or wages rising faster than 0.3% today, which would firm up a December Fed rise and lift the dollar.",
+  "A breakdown in the Iran talks or renewed fighting that sends oil back above $100 a barrel (about £74), which would tend to lift the dollar as a safe haven.",
+  "Bank of England speakers, including the Governor on Monday, leaning against a further rise in December, which would take away support the pound has."
  ],
  "higher": [
-  "Further progress in the Iran talks that keeps oil falling, which would tend to weaken the dollar.",
+  "Weak US jobs figures today, with payrolls below 65,000 or unemployment above 4.2%, which would make a December Fed rise less certain and weaken the dollar.",
   "Bank of England speakers pointing to another rise in December, which would lift the pound.",
-  "Weak US jobs figures on 6 November, with payrolls below 65,000 or unemployment above 4.2%, which would make a December Fed rise less certain and weaken the dollar.",
+  "Further progress in the Iran talks that keeps oil falling, which would tend to weaken the dollar.",
   "Further falls in US yields as markets digest a Democratic Congress, narrowing the gap with UK rates."
  ],
- "watch": "The US jobs figures come out at 17:30 Dubai on Friday 6 November, with payrolls forecast at 65,000 and unemployment at 4.2%. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
+ "watch": "The US jobs figures come out at 17:30 Dubai today, Friday 6 November, with payrolls forecast at 65,000, unemployment at 4.2% and average hourly earnings up 0.3%; US consumer sentiment follows at 19:00 Dubai, forecast at 48.1. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
   {
-   "title": "FXStreet: Forex Today, US Payrolls and U-Mich come next (5 November 2026)",
-   "url": "https://www.fxstreet.com/news/forex-today-us-payrolls-and-u-mich-come-next-202611051837"
+   "title": "Dollar rises ahead of key jobs report",
+   "site": "FX.co",
+   "url": "https://www.fx.co/en/forex-news/3277977",
+   "date": "6 Nov"
+  },
+  {
+   "title": "The Pound loses its BoE hike bounce before Friday's US payrolls",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/the-pound-loses-its-boe-hike-bounce-before-fridays-us-payrolls-202611052233",
+   "date": "5 Nov"
+  },
+  {
+   "title": "Forex Today: US Payrolls and U-Mich come next",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-payrolls-and-u-mich-come-next-202611051837",
+   "date": "5 Nov"
+  },
+  {
+   "title": "GBPUSD and EURUSD price bars",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "6 Nov"
   },
   {
    "title": "Kraken public GBP/USD and EUR/USD prices",
@@ -80,24 +100,6 @@
    "title": "Sterling today: Pound flat as BoE hikes 25 bps, dollar steadies before payrolls",
    "site": "Investing.com",
    "url": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-ahead-of-boe-decision-as-dollar-slide-pauses-5003115",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Bank of England raises interest rates",
-   "site": "MoneyWeek",
-   "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england",
-   "date": "5 Nov"
-  },
-  {
-   "title": "British Pound struggles to extend gains ahead of BoE's policy decision",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/news/british-pound-struggles-to-extend-gains-ahead-of-boes-policy-decision-202611050905",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Sterling set for seventh daily rise versus dollar ahead of BoE meeting (Reuters)",
-   "site": "Global Banking and Finance Review",
-   "url": "https://www.globalbankingandfinance.com/sterling-set-seventh-daily-rise-versus-dollar-ahead-boe/",
    "date": "5 Nov"
   }
  ],
@@ -268,8 +270,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-05T19:39:35Z",
+ "calendarUpdated": "2026-11-06T03:40:35Z",
  "feed": [
+  {
+   "title": "Sterling has slipped overnight as the dollar firms before the jobs figures",
+   "text": "GBP/USD eased from about 1.3459 at 03:15 Dubai to about 1.3432 by 07:35 Dubai, and EUR/USD fell in step from about 1.1220 to about 1.1198, so the move came from a firmer dollar rather than from news about the pound. FX.co reports the dollar index rising to about 101.7 in Asian trade as investors position for the US jobs figures due at 17:30 Dubai; no other news read names a cause. A firmer dollar means fewer dirhams per pound.",
+   "t": "2026-11-06T03:40:35Z",
+   "rate": 1.34316
+  },
   {
    "title": "Sterling has slipped late in New York as the dollar firms",
    "text": "GBP/USD eased from about 1.3484 at 22:00 Dubai to about 1.3447 by 23:38 Dubai, and EUR/USD fell in step from about 1.1236 to about 1.1212, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause; it came on a day when US shares fell sharply on a sell off in technology and chip companies, with the Nasdaq down about 4% in the morning, and a nervous stock market tends to draw money into the dollar. FXStreet reports the dollar index revisiting about 101.70 as traders wait for Friday's US jobs figures.",
@@ -413,12 +421,6 @@
    "text": "West Texas crude was down about 4% near $99.80 (about £74) on hopes for a US and Iran deal, although no agreement has been confirmed, and cheaper oil and easier tension tend to weaken the dollar. GBP/USD rose from about 1.3402 at 15:00 Dubai to about 1.3425 at 17:38 Dubai, then eased to about 1.3418. The last step came between 17:36 and 17:38 Dubai, when EUR/USD also rose from about 1.1210 to about 1.1220, which points to the dollar, but no report read names a cause for that step, and the US factory survey is still to come at 19:00 Dubai.",
    "t": "2026-11-02T13:39:33Z",
    "rate": 1.34179
-  },
-  {
-   "title": "Sterling has given back its morning gain as the dollar steadied",
-   "text": "GBP/USD fell from about 1.3444 at 13:15 Dubai to about 1.3405 at 14:40 Dubai, a drop of 0.29%, while EUR/USD fell 0.22% from about 1.1232 to about 1.1207, which points mainly to the dollar recovering, with the pound slightly the weaker. No report read names a cause for the slide. UK factory figures at 13:30 Dubai matched the first estimate at 52.8, so they were no surprise, and the fall had begun before them. Reuters notes the Bank of England rise to 4% on Thursday is widely expected and that the Bank may push back on the three to four further rises priced for 2027, which would weigh on the pound if it does.",
-   "t": "2026-11-02T10:39:45Z",
-   "rate": 1.34058
   }
  ]
 }
