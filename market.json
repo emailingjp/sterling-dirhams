@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:40:04Z",
+ "updated": "2026-11-06T18:39:58Z",
  "headline": "Sterling is about 1.336 dollars on Friday evening in Dubai, down from about 1.339 before the US jobs figures, after October payrolls far beat forecasts and lifted bets on a Fed rise in December. The pound is now well below where it stood before the Bank of England raised rates to 4% on Thursday.",
  "drivers": [
   {
@@ -8,7 +8,7 @@
   },
   {
    "title": "The Fed",
-   "text": "After the jobs figures, markets price about a 78% chance of a Fed rise in December, up from 70% earlier on 6 November, and the two year Treasury yield rose to 4.52%, according to Reuters. Governor Bowman speaks at 21:15 Dubai today and US consumer prices for October follow on 10 November."
+   "text": "After the jobs figures, markets price about an 80% chance of a Fed rise in December, up from 70% earlier on 6 November, and the two year Treasury yield rose to 4.52%, according to Reuters. US consumer prices for October follow on 10 November."
   },
   {
    "title": "The UK side",
@@ -31,8 +31,20 @@
   "Further progress in the Iran talks that keeps oil falling, which would tend to weaken the dollar.",
   "A recovery in share markets that eases demand for the dollar as a safe haven."
  ],
- "watch": "Fed Governor Bowman speaks at 21:15 Dubai tonight, Friday 6 November, and markets will listen for her view on a December rise after the strong jobs figures. The next large release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai; softer US inflation would help someone selling pounds for dirhams and hotter inflation would hurt.",
+ "watch": "The next large release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, which will show whether inflation supports the Fed rise in December that markets now largely expect. Softer US inflation would help someone selling pounds for dirhams and hotter inflation would hurt.",
  "sources": [
+  {
+   "title": "Australian Dollar falls to lowest since March as robust NFP reinforces Fed hike bets",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/australian-dollar-falls-to-lowest-since-march-as-robust-nfp-reinforces-fed-hike-bets-202611061801",
+   "date": "6 Nov"
+  },
+  {
+   "title": "Traders raise bets of Fed rate hike after jobs report",
+   "site": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/traders-raise-bets-of-fed-rate-hike-after-jobs-report-5008229",
+   "date": "6 Nov"
+  },
   {
    "title": "U.S. Michigan Consumer Sentiment Edges Higher in November",
    "site": "FX.co",
@@ -92,18 +104,6 @@
    "site": "FX.co",
    "url": "https://www.fx.co/en/forex-news/3277977",
    "date": "6 Nov"
-  },
-  {
-   "title": "The Pound loses its BoE hike bounce before Friday's US payrolls",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/the-pound-loses-its-boe-hike-bounce-before-fridays-us-payrolls-202611052233",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Forex Today: US Payrolls and U-Mich come next",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-payrolls-and-u-mich-come-next-202611051837",
-   "date": "5 Nov"
   }
  ],
  "calendar": [
@@ -273,8 +273,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-06T15:40:04Z",
+ "calendarUpdated": "2026-11-06T18:39:58Z",
  "feed": [
+  {
+   "title": "The dollar has firmed again late in New York trading",
+   "text": "GBP/USD fell from about 1.3369 at 21:38 Dubai to about 1.3350 by 21:53 Dubai and stood near 1.3353 at 22:36 Dubai, while EUR/USD fell in step from about 1.1150 to about 1.1139, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar index near 102.15 at 22:01 Dubai, up from a five week low near 101.24 earlier in the week, with traders pricing an 80% chance of a Fed rise in December after the strong jobs figures. No report read names a cause for this particular fall, and none reports what Fed Governor Bowman said at 21:15 Dubai; a firmer dollar means fewer dirhams per pound.",
+   "t": "2026-11-06T18:39:58Z",
+   "rate": 1.33524
+  },
   {
    "title": "The dollar has eased as US shares rebound at the open",
    "text": "GBP/USD rose from about 1.3346 at 18:30 Dubai to about 1.3365 by 18:37 Dubai, as Wall Street opened, and EUR/USD rose in step from about 1.1129 to 1.1143, so the move came from a softer dollar rather than from news about the pound. Yahoo Finance reports the Nasdaq up 1.7% and Treasury yields pulling back from their highs after the jobs figures; no report read names a direct cause for the currency move, but a calmer stock market tends to reduce demand for the dollar as a safe haven, which means more dirhams per pound.",
@@ -420,12 +426,6 @@
    "text": "GBP/USD went from about 1.3412 at 14:40 Dubai to a low of about 1.3401 at 16:30 Dubai, then jumped from about 1.3414 to 1.3427 in the two minutes to 17:30 Dubai and was near 1.3423 at 18:40 Dubai; EUR/USD rose at the same moment from about 1.1182 to 1.1197, so the move came from a weaker dollar rather than from the pound. It came as oil slid, with WTI falling from $98.50 (about £73) around 16:30 Dubai to $94.05 (about £70) by 17:45 Dubai after President Trump told Fox News that US aid to Israel ends at the year end and an unconfirmed report said Washington had approved a draft agreement with Iran; cheaper oil and hopes of a deal tend to weaken the dollar. Iran's Mohsen Rezaei later called the US response unconvincing and oil recovered to about flat, while US ten year yields were about 4.93%, up on the day, ahead of the job openings figures at 19:00 Dubai and the midterm results overnight.",
    "t": "2026-11-03T14:40:13Z",
    "rate": 1.34216
-  },
-  {
-   "title": "Sterling is flat as oil climbs back towards $107",
-   "text": "GBP/USD has barely moved over four hours, from about 1.3415 at 10:35 Dubai to about 1.3412 at 14:35 Dubai, with a high of about 1.3426 at 12:10 Dubai and a low of about 1.3405 at 10:45 Dubai. Brent extended its rise after the reports of US strikes on Qeshm Island, reaching $106.61 (about £79) at 11:44 Dubai and nearly $107 (about £80) by 12:52 Dubai, while an Iranian official said peace negotiations were far from an agreement; dearer oil and Gulf tension tend to lift the dollar, and EUR/USD eased from about 1.1205 at 11:30 Dubai to about 1.1181 at 14:00 Dubai, which points to a slightly firmer dollar through the European morning. No UK figures were due today, and the market is waiting for the US midterm results, the Bank of England on Thursday and the US jobs figures on Friday.",
-   "t": "2026-11-03T10:40:06Z",
-   "rate": 1.34124
   }
  ]
 }
