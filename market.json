@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T14:39:58Z",
+ "updated": "2026-11-06T15:40:04Z",
  "headline": "Sterling is about 1.336 dollars on Friday evening in Dubai, down from about 1.339 before the US jobs figures, after October payrolls far beat forecasts and lifted bets on a Fed rise in December. The pound is now well below where it stood before the Bank of England raised rates to 4% on Thursday.",
  "drivers": [
   {
@@ -31,8 +31,26 @@
   "Further progress in the Iran talks that keeps oil falling, which would tend to weaken the dollar.",
   "A recovery in share markets that eases demand for the dollar as a safe haven."
  ],
- "watch": "US consumer sentiment comes out at 19:00 Dubai today, Friday 6 November, forecast at 48.1, and Fed Governor Bowman speaks at 21:15 Dubai. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt; the next large release is US consumer prices for October on Tuesday 10 November.",
+ "watch": "Fed Governor Bowman speaks at 21:15 Dubai tonight, Friday 6 November, and markets will listen for her view on a December rise after the strong jobs figures. The next large release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai; softer US inflation would help someone selling pounds for dirhams and hotter inflation would hurt.",
  "sources": [
+  {
+   "title": "U.S. Michigan Consumer Sentiment Edges Higher in November",
+   "site": "FX.co",
+   "url": "https://www.fx.co/en/forex-news/3280293",
+   "date": "6 Nov"
+  },
+  {
+   "title": "Michigan consumer sentiment ticked up in November",
+   "site": "Finimize",
+   "url": "https://finimize.com/content/michigan-consumer-sentiment-ticked-up-in-november",
+   "date": "6 Nov"
+  },
+  {
+   "title": "Strong October jobs report sends yields higher",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html",
+   "date": "6 Nov"
+  },
   {
    "title": "The Employment Situation, October 2026",
    "site": "Bureau of Labor Statistics",
@@ -85,22 +103,6 @@
    "title": "Forex Today: US Payrolls and U-Mich come next",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-us-payrolls-and-u-mich-come-next-202611051837",
-   "date": "5 Nov"
-  },
-  {
-   "title": "GBPUSD and EURUSD price bars",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD prices",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
-  },
-  {
-   "title": "GBP/USD and EUR/USD one-minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "5 Nov"
   }
  ],
@@ -271,8 +273,22 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-06T14:39:58Z",
+ "calendarUpdated": "2026-11-06T15:40:04Z",
  "feed": [
+  {
+   "title": "The dollar has eased as US shares rebound at the open",
+   "text": "GBP/USD rose from about 1.3346 at 18:30 Dubai to about 1.3365 by 18:37 Dubai, as Wall Street opened, and EUR/USD rose in step from about 1.1129 to 1.1143, so the move came from a softer dollar rather than from news about the pound. Yahoo Finance reports the Nasdaq up 1.7% and Treasury yields pulling back from their highs after the jobs figures; no report read names a direct cause for the currency move, but a calmer stock market tends to reduce demand for the dollar as a safe haven, which means more dirhams per pound.",
+   "when": "2026-11-06T14:30:00Z",
+   "t": "2026-11-06T15:40:04Z",
+   "rate": 1.33664
+  },
+  {
+   "title": "US consumer mood has improved and inflation fears have eased",
+   "text": "The University of Michigan's early November survey of consumer sentiment rose to 51.0 against a forecast of about 48.1, and households' expectations for inflation a year ahead fell to 4.3% from 4.7%, with five year expectations at 3.4% from 3.5%. Firmer sentiment usually helps the dollar, but lower inflation expectations ease pressure on the Fed to raise rates. GBP/USD dipped from 1.3361 to 1.3355 in the first two minutes, then climbed to about 1.3375 by 19:24 Dubai and stood near 1.3368 at 19:38 Dubai.",
+   "when": "2026-11-06T15:00:00Z",
+   "t": "2026-11-06T15:40:04Z",
+   "rate": 1.33664
+  },
   {
    "title": "The dollar has strengthened after strong US jobs figures",
    "text": "US employers added 165,000 jobs in October against about 65,000 expected, unemployment fell to 4.1% against 4.2% expected, and average hourly earnings rose 0.4% in the month against 0.3% expected, with August and September revised up by a combined 84,000, according to the Bureau of Labor Statistics. A firmer job market makes a Fed rise in December more likely: Reuters reports bets on a rise up from 70% to 78%, the two year Treasury yield up 5 basis points to 4.52% and the dollar index up 0.7%. GBP/USD fell from 1.3387 to a low of 1.3363 within a minute of the release, recovered to about 1.3383 by 17:34 Dubai, then slid to about 1.3343 by 18:24 Dubai as EUR/USD fell in step, before edging back to about 1.3361; a firmer dollar means fewer dirhams per pound.",
@@ -410,18 +426,6 @@
    "text": "GBP/USD has barely moved over four hours, from about 1.3415 at 10:35 Dubai to about 1.3412 at 14:35 Dubai, with a high of about 1.3426 at 12:10 Dubai and a low of about 1.3405 at 10:45 Dubai. Brent extended its rise after the reports of US strikes on Qeshm Island, reaching $106.61 (about £79) at 11:44 Dubai and nearly $107 (about £80) by 12:52 Dubai, while an Iranian official said peace negotiations were far from an agreement; dearer oil and Gulf tension tend to lift the dollar, and EUR/USD eased from about 1.1205 at 11:30 Dubai to about 1.1181 at 14:00 Dubai, which points to a slightly firmer dollar through the European morning. No UK figures were due today, and the market is waiting for the US midterm results, the Bank of England on Thursday and the US jobs figures on Friday.",
    "t": "2026-11-03T10:40:06Z",
    "rate": 1.34124
-  },
-  {
-   "title": "Sterling has edged back up as the dollar eased through the Asian morning",
-   "text": "GBP/USD rose from an overnight low of about 1.3397 at 07:15 Dubai to about 1.3415 by 09:35 Dubai and was still near 1.3415 at 10:35 Dubai, leaving aside one stray trade at 1.3478, while EUR/USD rose in step from about 1.1182 to about 1.1193, which points to a slightly softer dollar rather than news about the pound. No report read names a cause for the drift: oil has held its small early rise after the reports of US strikes on Qeshm Island, and no further escalation has been reported. The Reserve Bank of Australia raised its rate to 4.85% this morning as expected, and the Australian dollar fell, so that decision did not weaken the dollar more widely.",
-   "t": "2026-11-03T06:39:48Z",
-   "rate": 1.3415
-  },
-  {
-   "title": "The dollar has firmed after reports of US strikes on Iran",
-   "text": "US officials told the Wall Street Journal and CBS News that American forces made limited defensive strikes on Iran's Qeshm Island near the Strait of Hormuz, after Revolutionary Guard forces fired on a US aircraft, and Brent rose 0.5% to $105.25 (about £79) by 05:04 Dubai after falling 7.6% on Monday. Gulf tension tends to lift the dollar as a safe haven, and GBP/USD fell from about 1.3414 at 04:39 Dubai to about 1.3401 at 04:42 Dubai while EUR/USD fell in step from about 1.1192 to 1.1184, which points to the dollar, though no report read gives the exact time the news broke. Sterling has since held near 1.3400, a little below Monday evening's 1.3409, with an overnight low of about 1.3395.",
-   "t": "2026-11-03T03:40:00Z",
-   "rate": 1.34044
   }
  ]
 }
