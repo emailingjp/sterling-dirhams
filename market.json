@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06T03:40:35Z",
- "headline": "Sterling is about 1.343 dollars early on Friday, a little lower overnight as the dollar firmed in Asian trade ahead of the US jobs figures. It remains close to its highest since mid September, reached on Wednesday, after the Bank of England raised rates to 4% on Thursday.",
+ "updated": "2026-11-06T07:40:03Z",
+ "headline": "Sterling is about 1.340 dollars late on Friday morning in Dubai, down from about 1.343 overnight, as investors buy the dollar for safety after Thursday's sell off in US shares. It is now below where it stood before the Bank of England raised rates to 4% on Thursday, with the US jobs figures due at 17:30 Dubai.",
  "drivers": [
   {
    "title": "The US jobs figures",
@@ -32,6 +32,18 @@
  ],
  "watch": "The US jobs figures come out at 17:30 Dubai today, Friday 6 November, with payrolls forecast at 65,000, unemployment at 4.2% and average hourly earnings up 0.3%; US consumer sentiment follows at 19:00 Dubai, forecast at 48.1. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "Canadian Dollar weakens ahead of US, Canadian jobs data releases",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/canadian-dollar-weakens-ahead-of-us-canadian-jobs-data-releases-202611060652",
+   "date": "6 Nov"
+  },
+  {
+   "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+   "site": "Reuters via Investing.com",
+   "url": "https://za.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-4556507",
+   "date": "6 Nov"
+  },
   {
    "title": "Dollar rises ahead of key jobs report",
    "site": "FX.co",
@@ -88,18 +100,6 @@
    "title": "Monetary Policy Summary, November 2026",
    "site": "Bank of England",
    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Bank of England raises rates for first time since 2023, signals more may come",
-   "site": "The Globe and Mail",
-   "url": "https://www.theglobeandmail.com/business/article-bank-of-england-raises-interest-rates-inflation/",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Sterling today: Pound flat as BoE hikes 25 bps, dollar steadies before payrolls",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-ahead-of-boe-decision-as-dollar-slide-pauses-5003115",
    "date": "5 Nov"
   }
  ],
@@ -270,8 +270,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-06T03:40:35Z",
+ "calendarUpdated": "2026-11-06T07:40:03Z",
  "feed": [
+  {
+   "title": "Sterling has fallen as investors turn to the dollar for safety",
+   "text": "GBP/USD fell from about 1.3424 at 09:40 Dubai to a low of 1.3393 at 11:34 Dubai, with sharp drops at 11:02 and 11:28, and stood near 1.3397 at 11:38 Dubai; EUR/USD fell in step from about 1.1194 to 1.1166, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar edging up in early European trade on demand for safety after Thursday's sell off in US shares, which Reuters links to the Democratic sweep of Congress and fears of tighter scrutiny of artificial intelligence companies, with the Nasdaq having its deepest one day fall since April 2025. No report read names a cause for the two sharp drops themselves, and a firmer dollar means fewer dirhams per pound.",
+   "t": "2026-11-06T07:40:03Z",
+   "rate": 1.34
+  },
   {
    "title": "Sterling has slipped overnight as the dollar firms before the jobs figures",
    "text": "GBP/USD eased from about 1.3459 at 03:15 Dubai to about 1.3432 by 07:35 Dubai, and EUR/USD fell in step from about 1.1220 to about 1.1198, so the move came from a firmer dollar rather than from news about the pound. FX.co reports the dollar index rising to about 101.7 in Asian trade as investors position for the US jobs figures due at 17:30 Dubai; no other news read names a cause. A firmer dollar means fewer dirhams per pound.",
@@ -415,12 +421,6 @@
    "when": "2026-11-02T15:00:00Z",
    "t": "2026-11-02T15:39:23Z",
    "rate": 1.34148
-  },
-  {
-   "title": "Sterling has recovered part of its slide as oil stayed lower",
-   "text": "West Texas crude was down about 4% near $99.80 (about £74) on hopes for a US and Iran deal, although no agreement has been confirmed, and cheaper oil and easier tension tend to weaken the dollar. GBP/USD rose from about 1.3402 at 15:00 Dubai to about 1.3425 at 17:38 Dubai, then eased to about 1.3418. The last step came between 17:36 and 17:38 Dubai, when EUR/USD also rose from about 1.1210 to about 1.1220, which points to the dollar, but no report read names a cause for that step, and the US factory survey is still to come at 19:00 Dubai.",
-   "t": "2026-11-02T13:39:33Z",
-   "rate": 1.34179
   }
  ]
 }
