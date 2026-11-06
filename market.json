@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T07:40:03Z",
+ "updated": "2026-11-06T09:40:29Z",
  "headline": "Sterling is about 1.340 dollars late on Friday morning in Dubai, down from about 1.343 overnight, as investors buy the dollar for safety after Thursday's sell off in US shares. It is now below where it stood before the Bank of England raised rates to 4% on Thursday, with the US jobs figures due at 17:30 Dubai.",
  "drivers": [
   {
@@ -32,6 +32,18 @@
  ],
  "watch": "The US jobs figures come out at 17:30 Dubai today, Friday 6 November, with payrolls forecast at 65,000, unemployment at 4.2% and average hourly earnings up 0.3%; US consumer sentiment follows at 19:00 Dubai, forecast at 48.1. Weaker US figures would help someone selling pounds for dirhams and stronger ones would hurt.",
  "sources": [
+  {
+   "title": "US Dollar: Safe haven support as AI stocks slide, MUFG",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-dollar-safe-haven-support-as-ai-stocks-slide-mufg-202611060845",
+   "date": "6 Nov"
+  },
+  {
+   "title": "Global market rout deepens after midterms intensify AI fears",
+   "site": "NBC News",
+   "url": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794",
+   "date": "6 Nov"
+  },
   {
    "title": "Canadian Dollar weakens ahead of US, Canadian jobs data releases",
    "site": "FXStreet",
@@ -88,18 +100,6 @@
    "title": "US Initial Jobless Claims dropped to 189K last week",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-dropped-to-189k-last-week-202611051334",
-   "date": "5 Nov"
-  },
-  {
-   "title": "US initial jobless claims 189K vs 196K estimate",
-   "site": "InvestingLive",
-   "url": "https://investinglive.com/news/us-initial-jobless-claims-189k-vs-196k-estimate",
-   "date": "5 Nov"
-  },
-  {
-   "title": "Monetary Policy Summary, November 2026",
-   "site": "Bank of England",
-   "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
    "date": "5 Nov"
   }
  ],
@@ -270,8 +270,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-06T07:40:03Z",
+ "calendarUpdated": "2026-11-06T09:40:29Z",
  "feed": [
+  {
+   "title": "Sterling has slipped again as share markets fall worldwide",
+   "text": "GBP/USD edged up from about 1.3401 at 11:40 Dubai to 1.3406 at 12:15 Dubai, then fell to about 1.3383 by 13:35 Dubai; EUR/USD rose and fell in step, from about 1.1170 to 1.1184 and back to 1.1166, so the move came mainly from a firmer dollar rather than from news about the pound. NBC News reports London's FTSE 100 down 1.6% at the open after heavy falls in Asia, with South Korea's Kospi down more than 8%, as worries over artificial intelligence companies after the Democratic sweep of Congress spread, and MUFG, quoted by FXStreet, says the dollar is drawing safe haven demand as AI shares slide. No report read names a cause for the precise timing of the fall, and a firmer dollar means fewer dirhams per pound.",
+   "t": "2026-11-06T09:40:29Z",
+   "rate": 1.33879
+  },
   {
    "title": "Sterling has fallen as investors turn to the dollar for safety",
    "text": "GBP/USD fell from about 1.3424 at 09:40 Dubai to a low of 1.3393 at 11:34 Dubai, with sharp drops at 11:02 and 11:28, and stood near 1.3397 at 11:38 Dubai; EUR/USD fell in step from about 1.1194 to 1.1166, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar edging up in early European trade on demand for safety after Thursday's sell off in US shares, which Reuters links to the Democratic sweep of Congress and fears of tighter scrutiny of artificial intelligence companies, with the Nasdaq having its deepest one day fall since April 2025. No report read names a cause for the two sharp drops themselves, and a firmer dollar means fewer dirhams per pound.",
@@ -414,13 +420,6 @@
    "text": "Brent fell 7.7% to $104.66 (about £78) on hopes for US and Iran diplomacy, and an Iranian report at 22:25 Dubai said the two sides were close to a preliminary agreement, although neither government has confirmed it. Cheaper oil and easier tension tend to weaken the dollar, yet GBP/USD fell from about 1.3419 at 21:50 Dubai to about 1.3402 at 22:50 Dubai, and EUR/USD fell from about 1.1204 to about 1.1190, which points to a firmer dollar. No report read names a cause for that step, though it came as US technology shares turned lower on selling in chip stocks. GBP/USD then recovered to about 1.3409, little changed from about 1.3415 four hours earlier, with a high of about 1.3422 and a low of about 1.3402 over that time, leaving aside one stray trade at 1.3431.",
    "t": "2026-11-02T19:39:46Z",
    "rate": 1.34089
-  },
-  {
-   "title": "Sterling has edged lower after a stronger US factory survey",
-   "text": "The ISM manufacturing index for October came in at 55.5 against 54.5 expected and 54.5 last time, while its prices measure fell to 75.2 against about 77.5 expected. Stronger activity tends to support the dollar by keeping a December Fed rise in view, but softer price pressure limits that effect, and investingLive notes that some of the gain came from inventories and slower deliveries rather than new orders. GBP/USD slipped from about 1.3421 at 19:00 Dubai to 1.3416 within three minutes, returned to about 1.3423 by 19:10 Dubai and was about 1.3414 at 19:38 Dubai, a small move, and EUR/USD eased from about 1.1212 to about 1.1196, which points to the dollar.",
-   "when": "2026-11-02T15:00:00Z",
-   "t": "2026-11-02T15:39:23Z",
-   "rate": 1.34148
   }
  ]
 }
