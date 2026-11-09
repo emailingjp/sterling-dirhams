@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:40:01Z",
+ "updated": "2026-11-09T17:39:39Z",
  "headline": "Sterling is about 1.340 dollars on Monday evening in Dubai, up from about 1.337 early this morning after the dollar eased on calmer Iran news and cheaper oil, though it has given back part of that gain this afternoon. Markets still price about an 80% chance of a Fed rise in December, so the Bank of England Governor tonight and US consumer prices on Tuesday are the next tests.",
  "drivers": [
   {
@@ -33,6 +33,18 @@
  ],
  "watch": "The Bank of England Governor speaks today, Monday 9 November, at 21:25 Dubai; a firm tone on rates would help someone selling pounds for dirhams. The larger release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy; softer figures would help and hotter figures would hurt.",
  "sources": [
+  {
+   "title": "Upcoming events: Andrew Bailey at the University of Zurich, 5.25pm GMT",
+   "site": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/events/upcoming-events",
+   "date": "9 Nov"
+  },
+  {
+   "title": "Sterling edges up as hawkish BoE counters strong US data",
+   "site": "TradingPedia",
+   "url": "https://www.tradingpedia.com/2026/11/09/sterling-edges-up-as-hawkish-boe-counters-strong-us-data/",
+   "date": "9 Nov"
+  },
   {
    "title": "Euro advances toward 1.1200 as US Dollar retreats, US CPI looms",
    "site": "FXStreet",
@@ -92,18 +104,6 @@
    "site": "investingLive",
    "url": "https://investinglive.com/commodities/gold-ticks-higher-on-softer-oil-but-fed-s-80-december-hike-odds-cap-gain/",
    "date": "9 Nov"
-  },
-  {
-   "title": "Australian Dollar holds gains following China's CPI data",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/news/australian-dollar-holds-gains-following-chinas-cpi-data-202611090202",
-   "date": "9 Nov"
-  },
-  {
-   "title": "Saudi Aramco Riyadh office hit as Houthi missiles target kingdom",
-   "site": "Investing.com",
-   "url": "https://ca.investing.com/news/economy-news/saudi-aramco-riyadh-office-hit-as-houthi-missiles-target-kingdom-4941407",
-   "date": "8 Nov"
   }
  ],
  "calendar": [
@@ -207,8 +207,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-09T16:40:01Z",
+ "calendarUpdated": "2026-11-09T17:39:39Z",
  "feed": [
+  {
+   "title": "The Bank of England Governor has begun his Zurich talk with little effect so far",
+   "text": "Andrew Bailey began his lecture at the University of Zurich at 21:25 Dubai, a few days after the Bank raised its rate by a quarter point to 4.00%, its first rise in more than three years; the event is billed as opening remarks followed by discussion, and no report read so far carries anything new he has said on rates. GBP/USD barely moved, standing near 1.3420 just before he began and near 1.3420 at 21:38 Dubai, after a small rise from about 1.3414 to 1.3421 in the ten minutes beforehand that EUR/USD matched, so that step came from a slightly softer dollar. A firm line on further rises would tend to lift the pound and more dirhams per pound would follow, while a cautious one would tend to weigh on it.",
+   "when": "2026-11-09T17:25:00Z",
+   "t": "2026-11-09T17:39:39Z",
+   "rate": 1.34199
+  },
   {
    "title": "The dollar has slipped again after the London close",
    "text": "GBP/USD rose from about 1.3396 at 20:04 Dubai to about 1.3412 by 20:19 Dubai and settled near 1.3409, while EUR/USD rose in step from about 1.1190 to 1.1201, so the gain came from a softer dollar rather than news about the pound. FXStreet put the dollar index at about 101.85, down 0.44% on the day, with US crude more than 3% lower at about $86.85 a barrel (about £65) as President Trump played down the chance of new strikes on Iran; cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. No report read names a fresh trigger for this step itself: it began just after the 4pm London benchmark rates were set, and a New York Fed survey at 20:12 Dubai showed inflation expectations unchanged at 3% for one year ahead.",
@@ -353,13 +360,6 @@
    "text": "GBP/USD dipped to about 1.3455 at 20:45 Dubai on Wednesday evening, recovered to about 1.3475 by 21:30 Dubai and held between about 1.3460 and 1.3470 overnight, then rose from about 1.3477 at 04:00 Dubai to about 1.3490 by 07:15 Dubai. EUR/USD rose in step, from about 1.1233 to about 1.1257, so the move came mainly from a softer dollar, with the dollar index near 101.41 in Asian trade after falling 0.36% on Wednesday. Societe Generale also points to traders in the pound closing bets against it ahead of the Bank of England decision today.",
    "t": "2026-11-05T03:40:08Z",
    "rate": 1.34898
-  },
-  {
-   "title": "The dollar has firmed despite softer US services figures",
-   "text": "The US ISM services index came in at 54.5 against 54.8 expected and 54.9 in September, with new orders down to 55.9 from 59.8, but the prices index stayed high at 73.0 and the employment index rose to 51.4 from 50.1. A softer reading usually weakens the dollar, while stubborn prices keep a Fed rise in December in view, and the dollar kept the firmer tone it had found in the hour before: GBP/USD, already down from about 1.3486 at 18:35 Dubai to 1.3477 just before the release, dipped to about 1.3470 within a minute and slid to about 1.3463 by 19:20 Dubai. EUR/USD fell in step from about 1.1265 at 18:30 Dubai to 1.1234, so the dollar has won back part of its overnight fall across the board; no report read names a single cause beyond the release.",
-   "when": "2026-11-04T15:00:00Z",
-   "t": "2026-11-04T15:40:24Z",
-   "rate": 1.34631
   }
  ]
 }
