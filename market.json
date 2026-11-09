@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:39:49Z",
+ "updated": "2026-11-09T08:39:33Z",
  "headline": "Sterling is about 1.337 dollars on Monday morning in Dubai, slightly above Friday's close, after the dollar eased in Asian trading as President Trump played down new strikes on Iran and oil slipped. Markets still price about an 80% chance of a Fed rise in December, so US consumer prices on Tuesday are the main test this week.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "The Bank of England Governor speaks today, Monday 9 November, at 21:25 Dubai; a firm tone on rates would help someone selling pounds for dirhams. The larger release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy; softer figures would help and hotter figures would hurt.",
  "sources": [
+  {
+   "title": "FTSE 100 today: Stocks jump as miners lead; oil falls on Iran hopes",
+   "site": "Investing.com",
+   "url": "https://za.investing.com/news/stock-market-news/ftse-100-today-stocks-jump-as-miners-lead-oil-falls-on-iran-hopes-4560545",
+   "date": "9 Nov"
+  },
   {
    "title": "United States Dollar Index remains subdued as lower oil prices ease inflation pressure",
    "site": "FXStreet",
@@ -97,12 +103,6 @@
    "title": "Strong October jobs report sends yields higher",
    "site": "Yahoo Finance",
    "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html",
-   "date": "6 Nov"
-  },
-  {
-   "title": "The Employment Situation, October 2026",
-   "site": "Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
    "date": "6 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-09T06:39:49Z",
+ "calendarUpdated": "2026-11-09T08:39:33Z",
  "feed": [
+  {
+   "title": "The dollar has fallen further at the London open as oil slides",
+   "text": "Brent crude fell nearly 2% to $96.39 a barrel (about £72) on Monday morning on hopes of a deal between the US and Iran, according to Investing.com, after President Trump said new strikes were highly unlikely while talks progressed, though Secretary of State Rubio said there had been no progress. Cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. GBP/USD rose from about 1.3387 at 12:00 Dubai to about 1.3410 by 12:35 Dubai, and EUR/USD rose in step from about 1.1168 to 1.1185, so the move came from a softer dollar rather than from news about the pound.",
+   "t": "2026-11-09T08:39:33Z",
+   "rate": 1.34103
+  },
   {
    "title": "The dollar has kept edging lower through the Dubai morning",
    "text": "GBP/USD climbed steadily from about 1.3365 at 08:00 Dubai to about 1.3382 by 10:38 Dubai, and EUR/USD rose in step from about 1.1150 to 1.1160, so the move came from a softer dollar rather than from news about the pound. FXStreet reported at 08:14 Dubai that the dollar index had slipped to around 102.20 after two days of gains, as lower oil prices eased inflation worries following President Trump's remark that new strikes on Iran were highly unlikely while talks continued; no report read names a fresh cause for the later rise. A softer dollar means more dirhams per pound.",
@@ -353,13 +359,6 @@
    "text": "Democrats have won the Senate and, on the latest reports, the House, ending Republican control of Congress for the last two years of the President's term. Markets read a divided Washington as less room for new spending and borrowing, and US ten year yields fell about 4 basis points to 4.92%, so the dollar fell across the board: GBP/USD rose from about 1.3407 at 03:00 Dubai, as the early returns came in, to about 1.3471 by 05:30 Dubai, while EUR/USD rose in step from about 1.1188 to 1.1258. Sterling has held the gain and was near 1.3484 at 12:30 Dubai, its highest since mid September.",
    "t": "2026-11-04T08:46:33Z",
    "rate": 1.34854
-  },
-  {
-   "title": "The dollar has firmed after more US job openings than expected",
-   "text": "US job openings rose to 7.52 million in September against about 7.1 million expected, up from a revised 7.19 million in August, a sign that demand for workers is holding up. A firm job market keeps a Fed rise in December in view and supports US yields, with the ten year yield near 4.95% and up on the day, so the dollar gained: GBP/USD fell from about 1.3431 at 19:00 Dubai to about 1.3423 within two minutes and to about 1.3410 by 19:30 Dubai, while EUR/USD fell in step from about 1.1196 to 1.1176. Hires and quits also rose, and sterling has since recovered to about 1.3424 at 22:10 Dubai.",
-   "when": "2026-11-03T15:00:00Z",
-   "t": "2026-11-03T18:13:03Z",
-   "rate": 1.34256
   }
  ]
 }
