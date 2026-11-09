@@ -1,38 +1,68 @@
 {
- "updated": "2026-11-06T18:39:58Z",
- "headline": "Sterling is about 1.336 dollars on Friday evening in Dubai, down from about 1.339 before the US jobs figures, after October payrolls far beat forecasts and lifted bets on a Fed rise in December. The pound is now well below where it stood before the Bank of England raised rates to 4% on Thursday.",
+ "updated": "2026-11-09T03:40:44Z",
+ "headline": "Sterling is about 1.337 dollars on Monday morning in Dubai, slightly above Friday's close, after the dollar eased in Asian trading as President Trump played down new strikes on Iran and oil slipped. Markets still price about an 80% chance of a Fed rise in December, so US consumer prices on Tuesday are the main test this week.",
  "drivers": [
   {
-   "title": "The US jobs figures",
-   "text": "October payrolls rose 165,000 against about 65,000 expected; unemployment fell to 4.1% and average hourly earnings rose 0.4% in the month and 3.1% over the year, with August and September revised up by a combined 84,000, according to the Bureau of Labor Statistics on 6 November. A firmer job market supports the case for a Fed rise in December."
+   "title": "The Fed",
+   "text": "Markets price about an 80% chance of a Fed rise at the meeting on 8 and 9 December, up from about 70% before the strong October jobs figures, according to CME FedWatch as reported by investingLive and FXStreet on 9 November. US consumer prices for October follow on 10 November, forecast at 0.3% for the month and 0.2% excluding food and energy, and Fed Governor Waller speaks the same day."
   },
   {
-   "title": "The Fed",
-   "text": "After the jobs figures, markets price about an 80% chance of a Fed rise in December, up from 70% earlier on 6 November, and the two year Treasury yield rose to 4.52%, according to Reuters. US consumer prices for October follow on 10 November."
+   "title": "The US jobs figures",
+   "text": "October payrolls rose 165,000 against about 65,000 expected and unemployment fell to 4.1%, according to the Bureau of Labor Statistics on 6 November. A firmer job market supports the case for a Fed rise in December and has kept the dollar supported."
+  },
+  {
+   "title": "Iran and oil",
+   "text": "Brent fell more than 16% last week on hopes of a deal with Iran and slipped a further 0.75% to $97.58 a barrel (about £73) early on 9 November after President Trump said new strikes were highly unlikely while talks progressed, according to Investing.com. Secretary of State Rubio described the talks as not productive over the weekend, and Houthi missiles were aimed at Riyadh on 8 November, so the region remains unsettled."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November on a vote of eight to one, with Catherine Mann voting for 4.25%, and expects inflation, 3.5% in September, to reach about 5% by mid 2027. Markets now price about an even chance of another rise on 17 December, up from about one in three before the vote, according to FXStreet. The Governor speaks on Monday 9 November at 21:25 Dubai and UK third quarter growth figures follow on 12 November."
-  },
-  {
-   "title": "Shares, the midterms and oil",
-   "text": "Democrats won both houses of Congress, and the sell off in technology shares that followed has drawn money into the dollar for safety, with London's FTSE 100 down 1.6% at Friday's open. Brent settled at $94.62 a barrel (about £70) on 4 November amid uncertainty over Iran and the Strait of Hormuz."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November on a vote of eight to one, and markets price about an even chance of another rise on 17 December, according to FXStreet. The Governor speaks on 9 November at 21:25 Dubai, and UK third quarter growth figures on 12 November are forecast at 0.7%."
   }
  ],
  "lower": [
   "Hotter US consumer prices on 10 November, which would make a December Fed rise near certain and lift the dollar.",
-  "A further slide in share markets, which tends to draw money into the dollar for safety.",
-  "A breakdown in the Iran talks or renewed fighting that sends oil back above $100 a barrel (about £74), which would tend to lift the dollar as a safe haven.",
-  "Bank of England speakers, including the Governor on Monday, leaning against a further rise in December, which would take away support the pound has."
+  "A breakdown in the Iran talks or further attacks in the Gulf that send oil back above $100 a barrel (about £75), which would tend to lift the dollar as a safe haven.",
+  "Bank of England speakers, including the Governor this evening, leaning against a further rise in December, which would take away support the pound has.",
+  "Renewed falls in share markets, which tend to draw money into the dollar for safety."
  ],
  "higher": [
   "Softer US consumer prices on 10 November, which would make a December Fed rise less certain and weaken the dollar.",
   "Bank of England speakers pointing to another rise in December, which would lift the pound.",
   "Further progress in the Iran talks that keeps oil falling, which would tend to weaken the dollar.",
-  "A recovery in share markets that eases demand for the dollar as a safe haven."
+  "UK growth figures on 12 November above the 0.7% forecast, which would support the case for higher UK rates and lift the pound."
  ],
- "watch": "The next large release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, which will show whether inflation supports the Fed rise in December that markets now largely expect. Softer US inflation would help someone selling pounds for dirhams and hotter inflation would hurt.",
+ "watch": "The Bank of England Governor speaks today, Monday 9 November, at 21:25 Dubai; a firm tone on rates would help someone selling pounds for dirhams. The larger release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy; softer figures would help and hotter figures would hurt.",
  "sources": [
+  {
+   "title": "Oil prices dip as Trump says new Iran attacks unlikely if talks progress",
+   "site": "Investing.com",
+   "url": "https://za.investing.com/news/commodities-news/oil-prices-dip-as-trump-says-new-iran-attacks-unlikely-if-talks-progress-4560249",
+   "date": "9 Nov"
+  },
+  {
+   "title": "Gold ticks higher on softer oil, but Fed's 80% December hike odds cap gain",
+   "site": "investingLive",
+   "url": "https://investinglive.com/commodities/gold-ticks-higher-on-softer-oil-but-fed-s-80-december-hike-odds-cap-gain/",
+   "date": "9 Nov"
+  },
+  {
+   "title": "Australian Dollar holds gains following China's CPI data",
+   "site": "FXStreet",
+   "url": "https://fxstreet.com/news/australian-dollar-holds-gains-following-chinas-cpi-data-202611090202",
+   "date": "9 Nov"
+  },
+  {
+   "title": "Saudi Aramco Riyadh office hit as Houthi missiles target kingdom",
+   "site": "Investing.com",
+   "url": "https://ca.investing.com/news/economy-news/saudi-aramco-riyadh-office-hit-as-houthi-missiles-target-kingdom-4941407",
+   "date": "8 Nov"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60",
+   "date": "9 Nov"
+  },
   {
    "title": "Australian Dollar falls to lowest since March as robust NFP reinforces Fed hike bets",
    "site": "FXStreet",
@@ -74,131 +104,13 @@
    "site": "Reuters via Investing.com",
    "url": "https://au.investing.com/news/economic-indicators/strong-october-jobs-report-sends-yields-higher-4751801",
    "date": "6 Nov"
-  },
-  {
-   "title": "US Dollar: Safe haven support as AI stocks slide, MUFG",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-dollar-safe-haven-support-as-ai-stocks-slide-mufg-202611060845",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Global market rout deepens after midterms intensify AI fears",
-   "site": "NBC News",
-   "url": "https://www.nbcnews.com/business/markets/global-markets-tech-stocks-ai-midterms-democrats-asia-europe-rcna607794",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Canadian Dollar weakens ahead of US, Canadian jobs data releases",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/canadian-dollar-weakens-ahead-of-us-canadian-jobs-data-releases-202611060652",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
-   "site": "Reuters via Investing.com",
-   "url": "https://za.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-4556507",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Dollar rises ahead of key jobs report",
-   "site": "FX.co",
-   "url": "https://www.fx.co/en/forex-news/3277977",
-   "date": "6 Nov"
   }
  ],
  "calendar": [
   {
-   "t": "2026-11-02T15:00:00Z",
-   "ccy": "USD",
+   "t": "2026-11-09T17:25:00Z",
+   "ccy": "GBP",
    "impact": "Medium",
-   "name": "US factory survey (ISM)",
-   "title": "ISM Manufacturing PMI",
-   "forecast": "54.5",
-   "previous": "54.5",
-   "good": "Lower than 54.5",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-03T15:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US job openings (JOLTS)",
-   "title": "JOLTS Job Openings",
-   "forecast": "7.15M",
-   "previous": "7.08M",
-   "good": "Lower than 7.15M",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-03T15:16:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US: Congressional Elections",
-   "title": "Congressional Elections",
-   "forecast": "",
-   "previous": "",
-   "good": "Lower than forecast",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-04T15:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US services survey (ISM)",
-   "title": "ISM Services PMI",
-   "forecast": "54.8",
-   "previous": "54.9",
-   "good": "Lower than 54.8",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-05T12:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "UK: BOE Monetary Policy Report",
-   "title": "BOE Monetary Policy Report",
-   "forecast": "",
-   "previous": "",
-   "good": "A rise, or more votes for one",
-   "why": "UK rates higher than expected lift the pound."
-  },
-  {
-   "t": "2026-11-05T12:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "Bank of England policy summary",
-   "title": "Monetary Policy Summary",
-   "forecast": "",
-   "previous": "",
-   "good": "A rise, or more votes for one",
-   "why": "UK rates higher than expected lift the pound."
-  },
-  {
-   "t": "2026-11-05T12:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "Bank of England vote split",
-   "title": "MPC Official Bank Rate Votes",
-   "forecast": "7-0-2",
-   "previous": "3-0-6",
-   "good": "A rise, or more votes for one",
-   "why": "UK rates higher than expected lift the pound."
-  },
-  {
-   "t": "2026-11-05T12:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "Bank of England rate decision",
-   "title": "Official Bank Rate",
-   "forecast": "4.00%",
-   "previous": "3.75%",
-   "good": "A rise, or more votes for one",
-   "why": "UK rates higher than expected lift the pound."
-  },
-  {
-   "t": "2026-11-05T12:30:00Z",
-   "ccy": "GBP",
-   "impact": "High",
    "name": "Bank of England Governor Bailey speaks",
    "title": "BOE Gov Bailey Speaks",
    "forecast": "",
@@ -207,74 +119,102 @@
    "why": "Talk of Bank of England rises lifts the pound."
   },
   {
-   "t": "2026-11-05T13:30:00Z",
+   "t": "2026-11-10T09:00:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US weekly jobless claims",
-   "title": "Unemployment Claims",
-   "forecast": "197K",
-   "previous": "194K",
-   "good": "Higher than 197K",
-   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+   "name": "Fed's Waller speaks",
+   "title": "FOMC Member Waller Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-06T13:30:00Z",
+   "t": "2026-11-10T13:30:00Z",
    "ccy": "USD",
    "impact": "High",
-   "name": "US wages, month on month",
-   "title": "Average Hourly Earnings m/m",
+   "name": "US core inflation (CPI), month on month",
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.3%",
+   "good": "Lower than 0.2%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-10T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US inflation (CPI), month on month",
+   "title": "CPI m/m",
    "forecast": "0.3%",
-   "previous": "0.1%",
+   "previous": "0.6%",
    "good": "Lower than 0.3%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-06T13:30:00Z",
-   "ccy": "USD",
+   "t": "2026-11-12T07:00:00Z",
+   "ccy": "GBP",
    "impact": "High",
-   "name": "US jobs report: payrolls",
-   "title": "Non-Farm Employment Change",
-   "forecast": "65K",
-   "previous": "29K",
-   "good": "Lower than 65K",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+   "name": "UK GDP, month on month",
+   "title": "GDP m/m",
+   "forecast": "0.0%",
+   "previous": "0.1%",
+   "good": "Higher than 0.0%",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
   },
   {
-   "t": "2026-11-06T13:30:00Z",
+   "t": "2026-11-12T07:00:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "UK GDP, first estimate",
+   "title": "Prelim GDP q/q",
+   "forecast": "0.7%",
+   "previous": "0.5%",
+   "good": "Higher than 0.7%",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-12T13:30:00Z",
    "ccy": "USD",
-   "impact": "High",
-   "name": "US unemployment rate",
-   "title": "Unemployment Rate",
-   "forecast": "4.2%",
-   "previous": "4.2%",
-   "good": "Higher than 4.2%",
+   "impact": "Medium",
+   "name": "US weekly jobless claims",
+   "title": "Unemployment Claims",
+   "forecast": "194K",
+   "previous": "189K",
+   "good": "Higher than 194K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-06T15:00:00Z",
+   "t": "2026-11-13T13:30:00Z",
    "ccy": "USD",
-   "impact": "Medium",
-   "name": "US consumer sentiment (University of Michigan)",
-   "title": "Prelim UoM Consumer Sentiment",
-   "forecast": "48.1",
-   "previous": "46.3",
-   "good": "Lower than 48.1",
+   "impact": "High",
+   "name": "US core producer prices, month on month",
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.7%",
+   "good": "Lower than 0.3%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-06T15:00:00Z",
+   "t": "2026-11-13T13:30:00Z",
    "ccy": "USD",
-   "impact": "Medium",
-   "name": "US inflation expectations (University of Michigan)",
-   "title": "Prelim UoM Inflation Expectations",
-   "forecast": "",
-   "previous": "4.7%",
-   "good": "Lower than forecast",
+   "impact": "High",
+   "name": "US producer prices, month on month",
+   "title": "PPI m/m",
+   "forecast": "0.4%",
+   "previous": "1.3%",
+   "good": "Lower than 0.4%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-06T18:39:58Z",
+ "calendarUpdated": "2026-11-09T03:40:44Z",
  "feed": [
+  {
+   "title": "The dollar has eased as Trump plays down new strikes on Iran",
+   "text": "In a CNN interview on Sunday, President Trump said new US strikes on Iran were highly unlikely as long as talks progressed, and Brent crude fell 0.75% to $97.58 a barrel (about £73) in early Asian trading, according to Investing.com, even after a Houthi missile attack caused limited damage to Saudi Aramco's offices in Riyadh. Calmer Gulf tension and cheaper oil tend to weaken the dollar, which means more dirhams per pound. GBP/USD reopened near 1.3329 at 02:00 Dubai on Monday, a little below Friday's close of about 1.3349, then rose to about 1.3368 by 06:00 Dubai, with EUR/USD rising in step from about 1.1128 to 1.1151, so the move came from a softer dollar rather than from news about the pound.",
+   "t": "2026-11-09T03:40:44Z",
+   "rate": 1.33658
+  },
   {
    "title": "The dollar has firmed again late in New York trading",
    "text": "GBP/USD fell from about 1.3369 at 21:38 Dubai to about 1.3350 by 21:53 Dubai and stood near 1.3353 at 22:36 Dubai, while EUR/USD fell in step from about 1.1150 to about 1.1139, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar index near 102.15 at 22:01 Dubai, up from a five week low near 101.24 earlier in the week, with traders pricing an 80% chance of a Fed rise in December after the strong jobs figures. No report read names a cause for this particular fall, and none reports what Fed Governor Bowman said at 21:15 Dubai; a firmer dollar means fewer dirhams per pound.",
@@ -420,12 +360,6 @@
    "text": "Polls are open across the United States today and results will come through overnight into Wednesday in Dubai, so there is no result yet to measure. Pollsters and prediction markets make the Democrats favourites to win the House and the Senate, with prediction markets giving them about a 73% chance of the Senate as of Monday. A divided Congress would make large new spending or tax plans harder to pass, and a result different from what is priced could move the dollar overnight.",
    "t": "2026-11-03T18:13:03Z",
    "rate": 1.34256
-  },
-  {
-   "title": "The dollar has eased as oil slipped on Iran deal reports",
-   "text": "GBP/USD went from about 1.3412 at 14:40 Dubai to a low of about 1.3401 at 16:30 Dubai, then jumped from about 1.3414 to 1.3427 in the two minutes to 17:30 Dubai and was near 1.3423 at 18:40 Dubai; EUR/USD rose at the same moment from about 1.1182 to 1.1197, so the move came from a weaker dollar rather than from the pound. It came as oil slid, with WTI falling from $98.50 (about £73) around 16:30 Dubai to $94.05 (about £70) by 17:45 Dubai after President Trump told Fox News that US aid to Israel ends at the year end and an unconfirmed report said Washington had approved a draft agreement with Iran; cheaper oil and hopes of a deal tend to weaken the dollar. Iran's Mohsen Rezaei later called the US response unconvincing and oil recovered to about flat, while US ten year yields were about 4.93%, up on the day, ahead of the job openings figures at 19:00 Dubai and the midterm results overnight.",
-   "t": "2026-11-03T14:40:13Z",
-   "rate": 1.34216
   }
  ]
 }
