@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-09T08:39:33Z",
- "headline": "Sterling is about 1.337 dollars on Monday morning in Dubai, slightly above Friday's close, after the dollar eased in Asian trading as President Trump played down new strikes on Iran and oil slipped. Markets still price about an 80% chance of a Fed rise in December, so US consumer prices on Tuesday are the main test this week.",
+ "updated": "2026-11-09T11:42:57Z",
+ "headline": "Sterling is about 1.342 dollars on Monday afternoon in Dubai, up from about 1.337 early this morning, after the dollar eased as President Trump played down new strikes on Iran and oil slipped. Markets still price about an 80% chance of a Fed rise in December, so US consumer prices on Tuesday are the main test this week.",
  "drivers": [
   {
    "title": "The Fed",
@@ -33,6 +33,12 @@
  ],
  "watch": "The Bank of England Governor speaks today, Monday 9 November, at 21:25 Dubai; a firm tone on rates would help someone selling pounds for dirhams. The larger release is US consumer prices for October on Tuesday 10 November at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy; softer figures would help and hotter figures would hurt.",
  "sources": [
+  {
+   "title": "Forex Today: US Dollar retreats following NFP-inspired rally",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-following-nfp-inspired-rally-202611090714",
+   "date": "9 Nov"
+  },
   {
    "title": "FTSE 100 today: Stocks jump as miners lead; oil falls on Iran hopes",
    "site": "Investing.com",
@@ -97,12 +103,6 @@
    "title": "Michigan consumer sentiment ticked up in November",
    "site": "Finimize",
    "url": "https://finimize.com/content/michigan-consumer-sentiment-ticked-up-in-november",
-   "date": "6 Nov"
-  },
-  {
-   "title": "Strong October jobs report sends yields higher",
-   "site": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html",
    "date": "6 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-09T08:39:33Z",
+ "calendarUpdated": "2026-11-09T11:42:57Z",
  "feed": [
+  {
+   "title": "The pound has held its gains in a quiet London morning",
+   "text": "GBP/USD has moved in a narrow band since the last update, from 1.3410 at 12:39 Dubai to a low of about 1.3403 near 13:15 Dubai and a high of about 1.3426 near 13:50 Dubai, and stood near 1.3416 at 15:40 Dubai. EUR/USD drifted up in step, from about 1.1183 to about 1.1192, so the small gain came from a slightly softer dollar rather than from news about the pound. FXStreet reported the dollar index holding just above 102.00 in European trading after Friday's jobs rally, with oil lower on the Iran talks; no report read names a fresh cause for the moves since, and traders are waiting for the Bank of England Governor in Zurich this evening and US consumer prices on Tuesday.",
+   "t": "2026-11-09T11:42:57Z",
+   "rate": 1.34191
+  },
   {
    "title": "The dollar has fallen further at the London open as oil slides",
    "text": "Brent crude fell nearly 2% to $96.39 a barrel (about £72) on Monday morning on hopes of a deal between the US and Iran, according to Investing.com, after President Trump said new strikes were highly unlikely while talks progressed, though Secretary of State Rubio said there had been no progress. Cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. GBP/USD rose from about 1.3387 at 12:00 Dubai to about 1.3410 by 12:35 Dubai, and EUR/USD rose in step from about 1.1168 to 1.1185, so the move came from a softer dollar rather than from news about the pound.",
@@ -353,12 +359,6 @@
    "text": "GBP/USD slipped from about 1.3493 at 14:25 Dubai to about 1.3476 by 14:45 Dubai and touched about 1.3469 at 15:05 Dubai, before recovering to about 1.3480 by 15:35 Dubai; EUR/USD fell in step from about 1.1258 to a low of about 1.1234, so the move came from a slightly firmer dollar rather than from news about the pound. No report read names a single cause: euro area inflation came in as expected at 4% (core 2.5%) shortly before, giving the euro no fresh lift, and ING called the dollar's fall on the midterm result tentative, noting that a strong US economy and a Fed ready to raise rates still support it. The US ADP jobs and ISM services figures come out later today.",
    "t": "2026-11-04T11:39:12Z",
    "rate": 1.34801
-  },
-  {
-   "title": "The dollar has weakened as Democrats win Congress",
-   "text": "Democrats have won the Senate and, on the latest reports, the House, ending Republican control of Congress for the last two years of the President's term. Markets read a divided Washington as less room for new spending and borrowing, and US ten year yields fell about 4 basis points to 4.92%, so the dollar fell across the board: GBP/USD rose from about 1.3407 at 03:00 Dubai, as the early returns came in, to about 1.3471 by 05:30 Dubai, while EUR/USD rose in step from about 1.1188 to 1.1258. Sterling has held the gain and was near 1.3484 at 12:30 Dubai, its highest since mid September.",
-   "t": "2026-11-04T08:46:33Z",
-   "rate": 1.34854
   }
  ]
 }
