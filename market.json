@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T08:39:10Z",
+ "updated": "2026-11-10T09:39:20Z",
  "headline": "Sterling is about 1.344 dollars early on Tuesday in Dubai, up from about 1.342 last night after reports of revived talks between the US and Iran pushed oil and the dollar lower. US consumer prices for October at 17:30 Dubai today are the main test, with markets pricing about an 84% chance of a Fed rise in December.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "Markets price about an 84% chance of a Fed rise at the meeting on 8 and 9 December, up from about 73% before the strong October jobs figures, according to CME FedWatch as reported by FXStreet on 10 November. Fed Presidents Barkin and Goolsbee made firm comments on Monday that limited the dollar's fall, and Governor Waller speaks today."
+   "text": "Markets price better than an 80% chance of a Fed rise at the meeting on 8 and 9 December, according to CME FedWatch as reported by CNBC on 10 November. Governor Waller said in London on 10 November that he backs a quarter point rise and that a half point may be needed if October core inflation is around 0.3% or higher, after firm comments from Fed Presidents Barkin and Goolsbee on Monday."
   },
   {
    "title": "The US jobs figures",
@@ -31,8 +31,20 @@
   "Bank of England speakers pointing to another rise in December, which would lift the pound.",
   "UK growth figures on 12 November above the 0.7% forecast, which would support the case for higher UK rates and lift the pound."
  ],
- "watch": "US consumer prices for October come out today, Tuesday 10 November, at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy, with no yearly figure this time; softer figures would help someone selling pounds for dirhams and hotter figures would hurt. Fed Governor Waller speaks earlier, at 13:00 Dubai, and UK growth figures follow on Thursday at 11:00 Dubai, forecast at 0.7% for the quarter.",
+ "watch": "US consumer prices for October come out today, Tuesday 10 November, at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy, with no yearly figure this time; Governor Waller has said a core figure around 0.3% or higher could justify a half point Fed rise, so softer figures would help someone selling pounds for dirhams and hotter figures would hurt. UK growth figures follow on Thursday at 11:00 Dubai, forecast at 0.7% for the quarter.",
  "sources": [
+  {
+   "title": "Fed's Waller: Further policy tightening will be needed",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/feds-waller-further-policy-tightening-will-be-needed-202611100908",
+   "date": "10 Nov"
+  },
+  {
+   "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+   "date": "10 Nov"
+  },
   {
    "title": "Euro holds recent gains with markets focusing on US inflation numbers",
    "site": "FXStreet",
@@ -91,18 +103,6 @@
    "title": "FX Daily Briefing: Pound Sterling Nears 1.20 Against Euro Before Bailey Speech",
    "site": "Exchange Rates UK",
    "url": "https://www.exchangerates.org.uk/news/47717/2026-11-09-fx-daily-briefing-pound-sterling-nears-1-20-against-euro-before-bailey-speech.html",
-   "date": "9 Nov"
-  },
-  {
-   "title": "GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "9 Nov"
-  },
-  {
-   "title": "Forex Today: US Dollar retreats following NFP-inspired rally",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-following-nfp-inspired-rally-202611090714",
    "date": "9 Nov"
   }
  ],
@@ -207,8 +207,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-10T08:39:10Z",
+ "calendarUpdated": "2026-11-10T09:39:20Z",
  "feed": [
+  {
+   "title": "The dollar has firmed as Fed Governor Waller calls for a December rise",
+   "text": "Speaking in London at 13:00 Dubai, Fed Governor Waller said US inflation is too high and that he would support a quarter point rise in December even if October prices improve, with a half point rise possibly needed if core inflation comes in around 0.3% or higher, according to FXStreet and CNBC. A firmer Fed means higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3452 just before he began to about 1.3434 within two minutes and to about 1.3429 by 13:10 Dubai, while EUR/USD fell in step from about 1.1248 to 1.1227, so the move came from the dollar rather than the pound.",
+   "when": "2026-11-10T09:00:00Z",
+   "t": "2026-11-10T09:39:20Z",
+   "rate": 1.34309
+  },
   {
    "title": "The dollar has eased at the European open ahead of US prices",
    "text": "GBP/USD rose from about 1.3444 at 10:55 Dubai to about 1.3455 by 11:35 Dubai and stood near 1.3454 at 12:35 Dubai, while EUR/USD rose in step from about 1.1222 to 1.1241, so the gain came from a slightly softer dollar rather than news about the pound. FXStreet reported Brent crude down more than 20% over the past week at fresh two-month lows on progress in Middle East diplomacy, and Brown Brothers Harriman said the dollar had pared some of Friday's jobs gains; cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. No single fresh trigger is named for this step, and traders are waiting for Fed Governor Waller at 13:00 Dubai and US consumer prices at 17:30 Dubai.",
@@ -354,12 +361,6 @@
    "text": "GBP/USD slipped from about 1.3480 at 13:00 Dubai to about 1.3461 by 13:45 Dubai and has held between about 1.3458 and 1.3465 since, while EUR/USD fell in step from about 1.1245 to about 1.1230, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports that the dollar index has recovered most of its early losses to stand near 101.44, after touching a monthly low of 101.10 on Wednesday; no report read names a fresh cause. A rise in Bank Rate to 4% is expected at 16:00 Dubai, and Ebury notes that a split of six to three, rather than the seven to two most expect, would weigh on the pound.",
    "t": "2026-11-05T10:39:12Z",
    "rate": 1.3456
-  },
-  {
-   "title": "Sterling has slipped as the dollar firms at the London open",
-   "text": "GBP/USD fell from about 1.3499 at 11:06 Dubai to about 1.3469 by 11:34 Dubai, then steadied near 1.3475, and EUR/USD fell in step from about 1.1262 to about 1.1239, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause for it: there was no scheduled US or UK figure at the time, and the dollar is giving back part of a fall of about 0.3% in its index on Wednesday after the midterm result. The Bank of England decision at 16:00 Dubai is the next scheduled event for the pound.",
-   "t": "2026-11-05T07:39:32Z",
-   "rate": 1.34734
   }
  ]
 }
