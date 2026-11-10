@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10T15:39:46Z",
- "headline": "Sterling is about 1.335 dollars on Tuesday evening in Dubai, down from about 1.344 this morning, as hotter US consumer prices for October and hawkish words from Fed Governor Waller have lifted the dollar through the day. A December Fed rise now looks firmly in the market's sights, and UK growth figures on Thursday are the next scheduled test for the pound.",
+ "updated": "2026-11-10T16:39:58Z",
+ "headline": "Sterling is about 1.331 dollars on Tuesday evening in Dubai, down from about 1.344 this morning, as hotter US consumer prices for October and hawkish words from Fed Governor Waller have lifted the dollar through the day. Markets now price a December Fed rise as very likely and a further rise in January as more likely than not, and UK growth figures on Thursday are the next scheduled test for the pound.",
  "drivers": [
   {
    "title": "The Fed",
@@ -33,6 +33,12 @@
  ],
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter; a stronger figure would support the case for higher UK rates and help someone selling pounds for dirhams, and a weaker one would hurt.",
  "sources": [
+  {
+   "title": "British Pound falls below 1.34 as hot CPI puts 50-bps Fed hike in play",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-falls-below-134-as-hot-cpi-puts-50-bps-fed-hike-in-play-202611101516",
+   "date": "10 Nov"
+  },
   {
    "title": "British Pound falls below 1.34 as hot CPI puts 50-bps Fed hike in play",
    "site": "FXStreet",
@@ -97,12 +103,6 @@
    "title": "Stock markets hit fresh highs on Iran headlines",
    "site": "investingLive",
    "url": "https://investinglive.com/commodities/stock-markets-hit-fresh-highs-on-iran-headlines/",
-   "date": "9 Nov"
-  },
-  {
-   "title": "Upcoming events: Andrew Bailey at the University of Zurich, 5.25pm GMT",
-   "site": "Bank of England",
-   "url": "https://www.bankofengland.co.uk/events/upcoming-events",
    "date": "9 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-10T15:39:46Z",
+ "calendarUpdated": "2026-11-10T16:39:58Z",
  "feed": [
+  {
+   "title": "Sterling has slipped further as the dollar keeps climbing",
+   "text": "No report read so far names a fresh trigger for the fall since 19:36 Dubai; it extends the dollar's gains after this afternoon's hotter US inflation figures, with FXStreet reporting the CME FedWatch tool at 85% for a quarter point Fed rise in December and 55% for another rise in January. Higher expected US rates mean higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3366 at 19:36 Dubai to about 1.3336 by 19:51 Dubai and to about 1.3312 by 20:36 Dubai, while EUR/USD fell from about 1.1167 to 1.1143, so most of the move came from the dollar, with the pound a little weaker as well.",
+   "t": "2026-11-10T16:39:58Z",
+   "rate": 1.3313
+  },
   {
    "title": "Sterling has slid further as the dollar extends its gains after US prices",
    "text": "The dollar kept rising through the afternoon after hotter US inflation and Fed Governor Waller's call for a December rise, with FXStreet reporting the CME FedWatch tool at about 85% for a quarter point Fed rise in December and 14% for a half point rise; a firmer Fed means higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD eased from about 1.3392 at 17:39 Dubai to about 1.3370 by 19:00 Dubai, then dropped from about 1.3372 at 19:22 Dubai to about 1.3350 by 19:37 Dubai, while EUR/USD fell only from about 1.1186 to 1.1167 over the whole period, so the pound did a little worse than the euro. No report read names a trigger for the sharp step after 19:20 Dubai, and nothing new about the UK economy or the Bank of England has been found to explain the pound's extra weakness.",
@@ -354,13 +360,6 @@
    "when": "2026-11-05T13:30:00Z",
    "t": "2026-11-05T13:39:28Z",
    "rate": 1.34621
-  },
-  {
-   "title": "The Bank of England has raised rates to 4%",
-   "text": "The Bank of England raised Bank Rate from 3.75% to 4%, its first rise since 2023, on a vote of eight to one against the seven to two most expected, and the one dissenter, Catherine Mann, wanted a larger rise to 4.25%. A vote firmer than forecast supports the pound, and the Bank now expects inflation to reach about 5% by mid 2027. GBP/USD jumped from 1.3451 to about 1.3477 within a minute of the 16:00 Dubai announcement, held near 1.3470 and touched about 1.3480 by 16:20 Dubai.",
-   "when": "2026-11-05T12:00:00Z",
-   "t": "2026-11-05T12:39:43Z",
-   "rate": 1.34679
   }
  ]
 }
