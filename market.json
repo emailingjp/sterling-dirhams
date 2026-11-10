@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10T16:39:58Z",
- "headline": "Sterling is about 1.331 dollars on Tuesday evening in Dubai, down from about 1.344 this morning, as hotter US consumer prices for October and hawkish words from Fed Governor Waller have lifted the dollar through the day. Markets now price a December Fed rise as very likely and a further rise in January as more likely than not, and UK growth figures on Thursday are the next scheduled test for the pound.",
+ "updated": "2026-11-10T17:39:30Z",
+ "headline": "Sterling is about 1.332 dollars on Tuesday night in Dubai, down from about 1.344 this morning, as hotter US consumer prices for October and hawkish words from Fed Governor Waller have lifted US yields and the dollar through the day. A December Fed rise now looks firmly in the market's sights, and UK growth figures on Thursday are the next scheduled test for the pound.",
  "drivers": [
   {
    "title": "The Fed",
@@ -34,9 +34,15 @@
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter; a stronger figure would support the case for higher UK rates and help someone selling pounds for dirhams, and a weaker one would hurt.",
  "sources": [
   {
-   "title": "British Pound falls below 1.34 as hot CPI puts 50-bps Fed hike in play",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-falls-below-134-as-hot-cpi-puts-50-bps-fed-hike-in-play-202611101516",
+   "title": "Market spooked because now the Fed may need a supersized hike in December",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html",
+   "date": "10 Nov"
+  },
+  {
+   "title": "Dollar rebounds as Fed Waller's hawkish warning and hot CPI lift Fed rate expectations",
+   "site": "ActionForex",
+   "url": "https://www.actionforex.com/action-insight/market-overview/660473-dollar-rebounds-as-fed-wallers-hawkish-warning-and-hot-cpi-lift-fed-rate-expectations/",
    "date": "10 Nov"
   },
   {
@@ -97,12 +103,6 @@
    "title": "Australian Dollar recovers as Iran peace hopes sink Oil ahead US CPI",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318",
-   "date": "9 Nov"
-  },
-  {
-   "title": "Stock markets hit fresh highs on Iran headlines",
-   "site": "investingLive",
-   "url": "https://investinglive.com/commodities/stock-markets-hit-fresh-highs-on-iran-headlines/",
    "date": "9 Nov"
   }
  ],
@@ -207,13 +207,13 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-10T16:39:58Z",
+ "calendarUpdated": "2026-11-10T17:39:30Z",
  "feed": [
   {
-   "title": "Sterling has slipped further as the dollar keeps climbing",
-   "text": "No report read so far names a fresh trigger for the fall since 19:36 Dubai; it extends the dollar's gains after this afternoon's hotter US inflation figures, with FXStreet reporting the CME FedWatch tool at 85% for a quarter point Fed rise in December and 55% for another rise in January. Higher expected US rates mean higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3366 at 19:36 Dubai to about 1.3336 by 19:51 Dubai and to about 1.3312 by 20:36 Dubai, while EUR/USD fell from about 1.1167 to 1.1143, so most of the move came from the dollar, with the pound a little weaker as well.",
-   "t": "2026-11-10T16:39:58Z",
-   "rate": 1.3313
+   "title": "Sterling has slipped again as the dollar holds its gains after US prices",
+   "text": "The dollar kept its footing into the evening after October's hotter US consumer prices and Fed Governor Waller's call for a December rise, with CNBC reporting the CME FedWatch tool at about 88% for a quarter point rise in December and 11% for a half point rise, and the US two year yield up about 0.12 points on the day at about 4.68%, according to ActionForex. Higher US yields and a firmer Fed mean a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3350 at 19:40 Dubai to a low near 1.3309 at 20:40 Dubai and stood near 1.3322 at 21:35 Dubai, while EUR/USD fell from about 1.1164 to 1.1140, so most of the move came from the dollar; no fresh news was found to explain this particular step, and it looks like a continuation of the day's move.",
+   "t": "2026-11-10T17:39:30Z",
+   "rate": 1.33222
   },
   {
    "title": "Sterling has slid further as the dollar extends its gains after US prices",
