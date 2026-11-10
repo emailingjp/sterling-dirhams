@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:39:30Z",
+ "updated": "2026-11-10T19:39:13Z",
  "headline": "Sterling is about 1.332 dollars on Tuesday night in Dubai, down from about 1.344 this morning, as hotter US consumer prices for October and hawkish words from Fed Governor Waller have lifted US yields and the dollar through the day. A December Fed rise now looks firmly in the market's sights, and UK growth figures on Thursday are the next scheduled test for the pound.",
  "drivers": [
   {
@@ -33,6 +33,18 @@
  ],
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter; a stronger figure would support the case for higher UK rates and help someone selling pounds for dirhams, and a weaker one would hurt.",
  "sources": [
+  {
+   "title": "10 yr auction soft",
+   "site": "The Boock Report",
+   "url": "https://peterboockvar.substack.com/p/10-yr-auction-soft",
+   "date": "10 Nov"
+  },
+  {
+   "title": "Treasury Yields Jump on Hot CPI, but the Curve Still Sits Far Below Early October's Peak",
+   "site": "The Private Banker",
+   "url": "https://leprivatebanker.com/2026/11/10/treasury-yields-jump-on-hot-cpi-but-the-curve-still-sits-far-below-early-octobers-peak/",
+   "date": "10 Nov"
+  },
   {
    "title": "Market spooked because now the Fed may need a supersized hike in December",
    "site": "CNBC",
@@ -92,18 +104,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-holds-recent-gains-with-markets-focusing-on-us-inflation-numbers-202611100725",
    "date": "10 Nov"
-  },
-  {
-   "title": "British Pound steadies below 1.3450 ahead of US CPI data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-steadies-below-13450-ahead-of-us-cpi-data-202611100145",
-   "date": "10 Nov"
-  },
-  {
-   "title": "Australian Dollar recovers as Iran peace hopes sink Oil ahead US CPI",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318",
-   "date": "9 Nov"
   }
  ],
  "calendar": [
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-10T17:39:30Z",
+ "calendarUpdated": "2026-11-10T19:39:13Z",
  "feed": [
+  {
+   "title": "Sterling has recovered a little as the dollar eases in late New York trade",
+   "text": "GBP/USD rose from about 1.3322 at 21:40 Dubai to about 1.3340 by 22:45 Dubai, after a step from about 1.3334 to 1.3340 between 22:35 and 22:40 Dubai, and stood near 1.3342 at 23:35 Dubai, while EUR/USD rose in step from about 1.1144 to 1.1160, so the gain came from a slightly softer dollar rather than news about the pound. No report read names a trigger: the US ten year auction at 22:00 Dubai was described as soft, at a yield of 5.02% with dealers left holding 10%, and Treasury yields stayed near the day's highs, which would normally support the dollar rather than weaken it. The move looks like some of the day's dollar gains after hotter US prices being given back, with a December Fed rise still almost fully priced.",
+   "t": "2026-11-10T19:39:13Z",
+   "rate": 1.33432
+  },
   {
    "title": "Sterling has slipped again as the dollar holds its gains after US prices",
    "text": "The dollar kept its footing into the evening after October's hotter US consumer prices and Fed Governor Waller's call for a December rise, with CNBC reporting the CME FedWatch tool at about 88% for a quarter point rise in December and 11% for a half point rise, and the US two year yield up about 0.12 points on the day at about 4.68%, according to ActionForex. Higher US yields and a firmer Fed mean a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3350 at 19:40 Dubai to a low near 1.3309 at 20:40 Dubai and stood near 1.3322 at 21:35 Dubai, while EUR/USD fell from about 1.1164 to 1.1140, so most of the move came from the dollar; no fresh news was found to explain this particular step, and it looks like a continuation of the day's move.",
@@ -353,13 +359,6 @@
    "text": "GBP/USD slipped to about 1.3454 at 19:00 Dubai, then rose from about 1.3466 at 19:21 to 1.3481 at 19:29 Dubai before settling near 1.3472 by 19:38 Dubai, and EUR/USD rose in step from about 1.1216 to 1.1225, so the move came from a softer dollar rather than from news about the pound. No report read names a cause for the late dip. Earlier, FXStreet reported that Cleveland Fed President Hammack and Richmond Fed President Barkin backed a gradual approach to further rises, with Barkin calling inflation too high, which had held the pound back after the Bank of England's decision.",
    "t": "2026-11-05T15:39:30Z",
    "rate": 1.34748
-  },
-  {
-   "title": "US jobless claims have come in lower than expected",
-   "text": "New US claims for unemployment benefit fell to 189,000 in the week to 31 October, against about 196,000 expected and a revised 195,000 the week before, though continuing claims rose to 1.718 million. Fewer people losing their jobs points to a firm US job market, which keeps a Fed rise in December in play and tends to support the dollar, and FXStreet reports the dollar index edging up to about 101.60. The effect on the pound was small: GBP/USD dipped from 1.3462 to 1.3457 within the minute of the 17:30 Dubai release, was back at 1.3463 a minute later and stood near 1.3464 by 17:38 Dubai.",
-   "when": "2026-11-05T13:30:00Z",
-   "t": "2026-11-05T13:39:28Z",
-   "rate": 1.34621
   }
  ]
 }
