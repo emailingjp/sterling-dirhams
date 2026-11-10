@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T03:40:07Z",
+ "updated": "2026-11-10T08:39:10Z",
  "headline": "Sterling is about 1.344 dollars early on Tuesday in Dubai, up from about 1.342 last night after reports of revived talks between the US and Iran pushed oil and the dollar lower. US consumer prices for October at 17:30 Dubai today are the main test, with markets pricing about an 84% chance of a Fed rise in December.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "US consumer prices for October come out today, Tuesday 10 November, at 17:30 Dubai, forecast at 0.3% for the month and 0.2% excluding food and energy, with no yearly figure this time; softer figures would help someone selling pounds for dirhams and hotter figures would hurt. Fed Governor Waller speaks earlier, at 13:00 Dubai, and UK growth figures follow on Thursday at 11:00 Dubai, forecast at 0.7% for the quarter.",
  "sources": [
+  {
+   "title": "Euro holds recent gains with markets focusing on US inflation numbers",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-holds-recent-gains-with-markets-focusing-on-us-inflation-numbers-202611100725",
+   "date": "10 Nov"
+  },
   {
    "title": "British Pound steadies below 1.3450 ahead of US CPI data",
    "site": "FXStreet",
@@ -97,12 +103,6 @@
    "title": "Forex Today: US Dollar retreats following NFP-inspired rally",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-us-dollar-retreats-following-nfp-inspired-rally-202611090714",
-   "date": "9 Nov"
-  },
-  {
-   "title": "FTSE 100 today: Stocks jump as miners lead; oil falls on Iran hopes",
-   "site": "Investing.com",
-   "url": "https://za.investing.com/news/stock-market-news/ftse-100-today-stocks-jump-as-miners-lead-oil-falls-on-iran-hopes-4560545",
    "date": "9 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-10T03:40:07Z",
+ "calendarUpdated": "2026-11-10T08:39:10Z",
  "feed": [
+  {
+   "title": "The dollar has eased at the European open ahead of US prices",
+   "text": "GBP/USD rose from about 1.3444 at 10:55 Dubai to about 1.3455 by 11:35 Dubai and stood near 1.3454 at 12:35 Dubai, while EUR/USD rose in step from about 1.1222 to 1.1241, so the gain came from a slightly softer dollar rather than news about the pound. FXStreet reported Brent crude down more than 20% over the past week at fresh two-month lows on progress in Middle East diplomacy, and Brown Brothers Harriman said the dollar had pared some of Friday's jobs gains; cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. No single fresh trigger is named for this step, and traders are waiting for Fed Governor Waller at 13:00 Dubai and US consumer prices at 17:30 Dubai.",
+   "t": "2026-11-10T08:39:10Z",
+   "rate": 1.34534
+  },
   {
    "title": "The dollar has weakened on reports that US and Iran talks have revived",
    "text": "Late on Monday, Al Arabiya reported, citing unnamed sources, that a proposal from Qatar and Pakistan had revived serious talks between the US and Iran, including a limit of 3.67% on Iranian uranium enrichment; neither government has confirmed the terms, and US crude fell nearly 4.5% on the day to $86.37 a barrel (about £64), according to FXStreet. Calmer Gulf tension and cheaper oil tend to weaken the dollar, which means more dirhams per pound. GBP/USD rose from about 1.3425 at 23:35 Dubai to about 1.3438 by 23:42 Dubai and touched 1.3451 just before midnight, while EUR/USD rose in step from about 1.1204 to 1.1220, and the pair has held near 1.3440 through the quiet Asian morning.",
@@ -354,12 +360,6 @@
    "text": "GBP/USD fell from about 1.3499 at 11:06 Dubai to about 1.3469 by 11:34 Dubai, then steadied near 1.3475, and EUR/USD fell in step from about 1.1262 to about 1.1239, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause for it: there was no scheduled US or UK figure at the time, and the dollar is giving back part of a fall of about 0.3% in its index on Wednesday after the midterm result. The Bank of England decision at 16:00 Dubai is the next scheduled event for the pound.",
    "t": "2026-11-05T07:39:32Z",
    "rate": 1.34734
-  },
-  {
-   "title": "Oil has fallen below $100 after the midterms",
-   "text": "Brent crude fell 8.7% on Wednesday to settle at $94.62 a barrel (about £70), its first close below $100 since late August, and US crude fell 8.3% to $88.12 (about £65), taking the fall this week to more than 14%. Traders read the Democratic win in Congress, the Vice President's remark that the war cost the party the election, and the President's comment that he has no immediate plans to strike Iran as signs that the conflict may end sooner. Cheaper oil and less Gulf tension tend to weaken the dollar, and US ten year yields fell about 8 basis points to 4.89%.",
-   "t": "2026-11-05T03:40:08Z",
-   "rate": 1.34898
   }
  ]
 }
