@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T03:39:58Z",
+ "updated": "2026-11-11T06:39:45Z",
  "headline": "Sterling is about 1.335 dollars on Wednesday morning in Dubai, flat overnight after falling from about 1.344 on Tuesday, when hotter US consumer prices and hawkish words from Fed Governor Waller lifted US yields and the dollar. The US bond market is shut today for Veterans Day, so the next scheduled test is UK growth figures on Thursday morning.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter and 0.0% for September alone; stronger figures would support the case for higher UK rates and help someone selling pounds for dirhams, and weaker ones would hurt.",
  "sources": [
+  {
+   "title": "United States Dollar Index steadies on Fed rate-hike odds",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/united-states-dollar-index-steadies-on-fed-rate-hike-odds-202611110347",
+   "date": "11 Nov"
+  },
   {
    "title": "Dollar gains traction as Fed speakers warn of risks from inflation (Reuters)",
    "site": "Business Recorder",
@@ -97,12 +103,6 @@
    "title": "Consumer Price Index, October 2026",
    "site": "Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-   "date": "10 Nov"
-  },
-  {
-   "title": "Higher than expected CPI reignites inflation concern: live updates",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
    "date": "10 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-11T03:39:58Z",
+ "calendarUpdated": "2026-11-11T06:39:45Z",
  "feed": [
+  {
+   "title": "Sterling has edged lower as the dollar firms again in the European morning",
+   "text": "GBP/USD eased from about 1.3349 at 09:25 Dubai to about 1.3331 by 10:35 Dubai, while EUR/USD fell in step from about 1.1165 to 1.1153, so most of the move came from a slightly firmer dollar rather than news about the pound. No report read names a fresh trigger: FXStreet described the dollar index as steady near 102.20 in Asian trade, with futures still pricing about a 91% chance of a December Fed rise after Tuesday's hotter US prices and Chicago Fed President Goolsbee calling them borderline disturbing. A firmer Fed outlook keeps the dollar supported, which means fewer dirhams per pound, and no UK figures are due until Thursday.",
+   "t": "2026-11-11T06:39:45Z",
+   "rate": 1.33312
+  },
   {
    "title": "Sterling has held steady overnight as the dollar keeps its gains",
    "text": "Asian trading brought no fresh news for the pound or the dollar: Reuters reported the dollar index steady at 102.22, near its highest since 28 October, after Tuesday's 0.5% rise on hotter US prices, with futures now pricing a 91.9% chance of a quarter point Fed rise in December. The US bond market is shut today for Veterans Day, and no US or UK figures are due until Thursday. GBP/USD stayed between about 1.3342 and 1.3352 from midnight to 07:30 Dubai and stood near 1.3346 at 07:30 Dubai, close to where it ended in New York.",
@@ -353,12 +359,6 @@
    "text": "GBP/USD eased from about 1.3484 at 22:00 Dubai to about 1.3447 by 23:38 Dubai, and EUR/USD fell in step from about 1.1236 to about 1.1212, so the move came from a firmer dollar rather than from news about the pound. No report read names a cause; it came on a day when US shares fell sharply on a sell off in technology and chip companies, with the Nasdaq down about 4% in the morning, and a nervous stock market tends to draw money into the dollar. FXStreet reports the dollar index revisiting about 101.70 as traders wait for Friday's US jobs figures.",
    "t": "2026-11-05T19:39:35Z",
    "rate": 1.34476
-  },
-  {
-   "title": "Sterling has dipped and recovered as the dollar firmed briefly",
-   "text": "GBP/USD fell from about 1.3474 at 20:01 Dubai to about 1.3456 by 20:11 Dubai, then recovered to about 1.3470 by 20:24 Dubai and stood near 1.3470 at 20:38 Dubai. EUR/USD fell in step from about 1.1222 to about 1.1211 and recovered with it, so the move came from a briefly firmer dollar rather than from news about the pound. No report read names a cause: there was no scheduled US or UK figure at the time, and the dip began just after the 20:00 Dubai London fix, when large currency orders are often settled.",
-   "t": "2026-11-05T16:39:15Z",
-   "rate": 1.34689
   }
  ]
 }
