@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T12:39:06Z",
- "headline": "Sterling is about 1.335 dollars on Wednesday morning in Dubai, flat overnight after falling from about 1.344 on Tuesday, when hotter US consumer prices and hawkish words from Fed Governor Waller lifted US yields and the dollar. The US bond market is shut today for Veterans Day, so the next scheduled test is UK growth figures on Thursday morning.",
+ "updated": "2026-11-11T14:39:43Z",
+ "headline": "Sterling is about 1.327 dollars on Wednesday evening in Dubai, down from about 1.335 in the morning and 1.344 on Tuesday, as the dollar keeps gaining on bets of a December Fed rise after hotter US consumer prices. The US bond market is shut today for Veterans Day, so the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
  "drivers": [
   {
    "title": "The Fed",
@@ -33,6 +33,24 @@
  ],
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter and 0.0% for September alone; stronger figures would support the case for higher UK rates and help someone selling pounds for dirhams, and weaker ones would hurt.",
  "sources": [
+  {
+   "title": "Dollar gains as hot inflation, Fed lift rate hike bets (Reuters)",
+   "site": "Gurutrade",
+   "url": "https://www.gurutrade.com/news/dollar-gains-as-hot-inflation-fed-lift-rate-hike-bets-1794390046.html",
+   "date": "11 Nov"
+  },
+  {
+   "title": "European gas rebounds on Strait of Hormuz shipping risks",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/energy/articles/european-gas-rebounds-strait-hormuz-101044228.html",
+   "date": "11 Nov"
+  },
+  {
+   "title": "EUR/USD Price Forecast: Rising US Dollar backs fresh downside leg below 1.1100",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-rising-us-dollar-backs-fresh-downside-leg-below-11100-202611111100",
+   "date": "11 Nov"
+  },
   {
    "title": "British Pound hangs near one-week low as Fed hike bets lift USD",
    "site": "FXStreet",
@@ -85,24 +103,6 @@
    "title": "10 yr auction soft",
    "site": "The Boock Report",
    "url": "https://peterboockvar.substack.com/p/10-yr-auction-soft",
-   "date": "10 Nov"
-  },
-  {
-   "title": "Treasury Yields Jump on Hot CPI, but the Curve Still Sits Far Below Early October's Peak",
-   "site": "The Private Banker",
-   "url": "https://leprivatebanker.com/2026/11/10/treasury-yields-jump-on-hot-cpi-but-the-curve-still-sits-far-below-early-octobers-peak/",
-   "date": "10 Nov"
-  },
-  {
-   "title": "Market spooked because now the Fed may need a supersized hike in December",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html",
-   "date": "10 Nov"
-  },
-  {
-   "title": "Dollar rebounds as Fed Waller's hawkish warning and hot CPI lift Fed rate expectations",
-   "site": "ActionForex",
-   "url": "https://www.actionforex.com/action-insight/market-overview/660473-dollar-rebounds-as-fed-wallers-hawkish-warning-and-hot-cpi-lift-fed-rate-expectations/",
    "date": "10 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-11T12:39:06Z",
+ "calendarUpdated": "2026-11-11T14:39:43Z",
  "feed": [
+  {
+   "title": "Sterling has fallen as the dollar extends its gains in New York trade",
+   "text": "GBP/USD slid from about 1.3309 at 17:10 Dubai to about 1.3278 by 18:00 Dubai, with the sharpest step from 1.3299 to 1.3278 between 17:45 and 18:00, and stood near 1.3272 at 18:35 Dubai, while EUR/USD fell in step from about 1.1126 to 1.1088, so the move came from a broadly firmer dollar rather than news about the pound. No report read names a single fresh trigger for this step: Reuters described the dollar index up 0.2% at about 102.4 near a two week high as traders fully price a December Fed rise after Tuesday's hotter US prices, and oil has rebounded after fresh attacks on shipping in the Strait of Hormuz dented hopes of a US and Iran truce. A firmer Fed outlook and Gulf tension both support the dollar, which means fewer dirhams per pound, and the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
+   "t": "2026-11-11T14:39:43Z",
+   "rate": 1.32719
+  },
   {
    "title": "Sterling has drifted in a narrow range through the London afternoon",
    "text": "GBP/USD has moved little since the last update, from about 1.3318 at 12:39 Dubai to a high near 1.3327 at 14:30 Dubai and a low near 1.3307 at 15:55 Dubai, and stood near 1.3312 at 16:35 Dubai, while EUR/USD eased only from about 1.1143 to 1.1133. FXStreet described the pound as holding near a one and a half week low just above 1.3300, with the dollar supported by Tuesday's hotter US prices, Fed Governor Waller's call for a December rise and tension in the Strait of Hormuz, while Bank of England Deputy Governor Lombardelli said further UK rate rises remain likely. No fresh trigger was found for the afternoon's small moves, the US bond market is shut for Veterans Day, and the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
@@ -353,12 +359,6 @@
    "text": "GBP/USD edged up from about 1.3401 at 11:40 Dubai to 1.3406 at 12:15 Dubai, then fell to about 1.3383 by 13:35 Dubai; EUR/USD rose and fell in step, from about 1.1170 to 1.1184 and back to 1.1166, so the move came mainly from a firmer dollar rather than from news about the pound. NBC News reports London's FTSE 100 down 1.6% at the open after heavy falls in Asia, with South Korea's Kospi down more than 8%, as worries over artificial intelligence companies after the Democratic sweep of Congress spread, and MUFG, quoted by FXStreet, says the dollar is drawing safe haven demand as AI shares slide. No report read names a cause for the precise timing of the fall, and a firmer dollar means fewer dirhams per pound.",
    "t": "2026-11-06T09:40:29Z",
    "rate": 1.33879
-  },
-  {
-   "title": "Sterling has fallen as investors turn to the dollar for safety",
-   "text": "GBP/USD fell from about 1.3424 at 09:40 Dubai to a low of 1.3393 at 11:34 Dubai, with sharp drops at 11:02 and 11:28, and stood near 1.3397 at 11:38 Dubai; EUR/USD fell in step from about 1.1194 to 1.1166, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar edging up in early European trade on demand for safety after Thursday's sell off in US shares, which Reuters links to the Democratic sweep of Congress and fears of tighter scrutiny of artificial intelligence companies, with the Nasdaq having its deepest one day fall since April 2025. No report read names a cause for the two sharp drops themselves, and a firmer dollar means fewer dirhams per pound.",
-   "t": "2026-11-06T07:40:03Z",
-   "rate": 1.34
   }
  ]
 }
