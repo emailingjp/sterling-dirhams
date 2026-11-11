@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T08:39:29Z",
+ "updated": "2026-11-11T12:39:06Z",
  "headline": "Sterling is about 1.335 dollars on Wednesday morning in Dubai, flat overnight after falling from about 1.344 on Tuesday, when hotter US consumer prices and hawkish words from Fed Governor Waller lifted US yields and the dollar. The US bond market is shut today for Veterans Day, so the next scheduled test is UK growth figures on Thursday morning.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "UK growth figures for the third quarter come out on Thursday 12 November at 11:00 Dubai, forecast at 0.7% for the quarter and 0.0% for September alone; stronger figures would support the case for higher UK rates and help someone selling pounds for dirhams, and weaker ones would hurt.",
  "sources": [
+  {
+   "title": "British Pound hangs near one-week low as Fed hike bets lift USD",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-hangs-near-one-week-low-eyes-13300-as-fed-hike-bets-lift-usd-202611110901",
+   "date": "11 Nov"
+  },
   {
    "title": "Kraken GBP/USD and EUR/USD five minute prices",
    "site": "Kraken",
@@ -97,12 +103,6 @@
    "title": "Dollar rebounds as Fed Waller's hawkish warning and hot CPI lift Fed rate expectations",
    "site": "ActionForex",
    "url": "https://www.actionforex.com/action-insight/market-overview/660473-dollar-rebounds-as-fed-wallers-hawkish-warning-and-hot-cpi-lift-fed-rate-expectations/",
-   "date": "10 Nov"
-  },
-  {
-   "title": "British Pound falls below 1.34 as hot CPI puts 50-bps Fed hike in play",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/currencies/gbpusd",
    "date": "10 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-11T08:39:29Z",
+ "calendarUpdated": "2026-11-11T12:39:06Z",
  "feed": [
+  {
+   "title": "Sterling has drifted in a narrow range through the London afternoon",
+   "text": "GBP/USD has moved little since the last update, from about 1.3318 at 12:39 Dubai to a high near 1.3327 at 14:30 Dubai and a low near 1.3307 at 15:55 Dubai, and stood near 1.3312 at 16:35 Dubai, while EUR/USD eased only from about 1.1143 to 1.1133. FXStreet described the pound as holding near a one and a half week low just above 1.3300, with the dollar supported by Tuesday's hotter US prices, Fed Governor Waller's call for a December rise and tension in the Strait of Hormuz, while Bank of England Deputy Governor Lombardelli said further UK rate rises remain likely. No fresh trigger was found for the afternoon's small moves, the US bond market is shut for Veterans Day, and the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
+   "t": "2026-11-11T12:39:06Z",
+   "rate": 1.33121
+  },
   {
    "title": "Sterling has dipped as the dollar firms in the London morning",
    "text": "GBP/USD rose from about 1.3331 at 10:40 Dubai to about 1.3344 by 11:20 Dubai, then fell to a low near 1.3312 at 12:20 Dubai and stood near 1.3319 at 12:35 Dubai, while EUR/USD fell in step from about 1.1157 to 1.1138, so most of the fall came from a firmer dollar, with the pound doing slightly worse than the euro. No report read names a trigger for this swing: the US bond market is shut for Veterans Day, no US or UK figures were due this morning, and the backdrop is unchanged, with a December Fed rise almost fully priced after Tuesday's hotter US prices. A firmer dollar means fewer dirhams per pound, and the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
@@ -353,12 +359,6 @@
    "text": "GBP/USD fell from about 1.3424 at 09:40 Dubai to a low of 1.3393 at 11:34 Dubai, with sharp drops at 11:02 and 11:28, and stood near 1.3397 at 11:38 Dubai; EUR/USD fell in step from about 1.1194 to 1.1166, so the move came from a firmer dollar rather than from news about the pound. FXStreet reports the dollar edging up in early European trade on demand for safety after Thursday's sell off in US shares, which Reuters links to the Democratic sweep of Congress and fears of tighter scrutiny of artificial intelligence companies, with the Nasdaq having its deepest one day fall since April 2025. No report read names a cause for the two sharp drops themselves, and a firmer dollar means fewer dirhams per pound.",
    "t": "2026-11-06T07:40:03Z",
    "rate": 1.34
-  },
-  {
-   "title": "Sterling has slipped overnight as the dollar firms before the jobs figures",
-   "text": "GBP/USD eased from about 1.3459 at 03:15 Dubai to about 1.3432 by 07:35 Dubai, and EUR/USD fell in step from about 1.1220 to about 1.1198, so the move came from a firmer dollar rather than from news about the pound. FX.co reports the dollar index rising to about 101.7 in Asian trade as investors position for the US jobs figures due at 17:30 Dubai; no other news read names a cause. A firmer dollar means fewer dirhams per pound.",
-   "t": "2026-11-06T03:40:35Z",
-   "rate": 1.34316
   }
  ]
 }
