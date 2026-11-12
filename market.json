@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:39:58Z",
+ "updated": "2026-11-12T19:39:50Z",
  "headline": "Sterling is about 1.3229 dollars on Thursday evening in Dubai, down from about 1.3345 a day earlier, as the dollar index holds near its highest since April 2025 on bets of a December Fed rise after hotter US prices. The pound slipped further after New York opened, as Nvidia shares fell on its chief executive's resignation and oil firmed on fresh Iran remarks; US producer prices follow on Friday at 17:30 Dubai.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "US producer prices come out on Friday 13 November at 17:30 Dubai, forecast to rise 0.4% in October; a lower figure would tend to weaken the dollar and help someone selling pounds for dirhams, and a higher one would hurt.",
  "sources": [
+  {
+   "title": "Stock market today: S&P 500, Nasdaq fall as Nvidia CEO exit, rising bond yields roil markets",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-slides-jensen-huang-resigns-invest-165632931.html",
+   "date": "12 Nov"
+  },
   {
    "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation",
    "site": "CNBC",
@@ -98,12 +104,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/uk-gdp-is-set-to-show-that-the-economy-continued-growing-in-q3-202611120300",
    "date": "12 Nov"
-  },
-  {
-   "title": "Crude Oil Rebounds as Hormuz Attacks Revive Supply Fears",
-   "site": "HDFC Sky",
-   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-11-2026-brent-rises-1-14percent-to-92-5-as-strait-of-hormuz-attacks-dent-peace-hopes",
-   "date": "11 Nov"
   }
  ],
  "calendar": [
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-12T15:39:58Z",
+ "calendarUpdated": "2026-11-12T19:39:50Z",
  "feed": [
+  {
+   "title": "Sterling has held steady as US bond yields climb",
+   "text": "US government bond yields rose through the New York afternoon, with the ten year yield up about 12 basis points to about 5.12% and the thirty year at about 5.44%, while US shares gave up an early recovery from the fall in Nvidia, according to Yahoo Finance's market reports on Thursday. Higher US yields usually support the dollar and so mean fewer dirhams per pound, but GBP/USD stayed within a narrow range since the last update, between a low of about 1.3220 at 19:42 Dubai and a high of about 1.3242 at 20:43 Dubai, and stood near 1.3231 at 23:38 Dubai. EUR/USD moved little over the same hours, from about 1.1056 to 1.1051, so the dollar was broadly steady; none of the reports read explains why the rise in yields did not lift it further.",
+   "t": "2026-11-12T19:39:50Z",
+   "rate": 1.32304
+  },
   {
    "title": "Sterling has slipped as Wall Street opens lower",
    "text": "Nvidia announced on Thursday that its chief executive Jensen Huang would step down at once, and its shares fell nearly 10%, pulling US technology shares lower when New York opened at 18:30 Dubai. Brent crude also rose to about $93.29 a barrel (about £70.50) after President Trump said the US does not need a deal with Iran, and dearer oil and Gulf tension tend to lift the dollar. GBP/USD fell from about 1.3272 just before 18:30 Dubai to 1.3223 by 19:20 and has since steadied near 1.3229; none of the sources read names the reason for the currency move itself, so the timing alongside these two stories is the only link.",
@@ -353,12 +359,6 @@
    "text": "Brent crude fell nearly 2% to $96.39 a barrel (about £72) on Monday morning on hopes of a deal between the US and Iran, according to Investing.com, after President Trump said new strikes were highly unlikely while talks progressed, though Secretary of State Rubio said there had been no progress. Cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. GBP/USD rose from about 1.3387 at 12:00 Dubai to about 1.3410 by 12:35 Dubai, and EUR/USD rose in step from about 1.1168 to 1.1185, so the move came from a softer dollar rather than from news about the pound.",
    "t": "2026-11-09T08:39:33Z",
    "rate": 1.34103
-  },
-  {
-   "title": "The dollar has kept edging lower through the Dubai morning",
-   "text": "GBP/USD climbed steadily from about 1.3365 at 08:00 Dubai to about 1.3382 by 10:38 Dubai, and EUR/USD rose in step from about 1.1150 to 1.1160, so the move came from a softer dollar rather than from news about the pound. FXStreet reported at 08:14 Dubai that the dollar index had slipped to around 102.20 after two days of gains, as lower oil prices eased inflation worries following President Trump's remark that new strikes on Iran were highly unlikely while talks continued; no report read names a fresh cause for the later rise. A softer dollar means more dirhams per pound.",
-   "t": "2026-11-09T06:39:49Z",
-   "rate": 1.33809
   }
  ]
 }
