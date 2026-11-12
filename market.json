@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T03:40:00Z",
- "headline": "Sterling is about 1.3255 dollars on Thursday morning in Dubai, down from about 1.3345 a day earlier and 1.344 on Tuesday, as the dollar index climbs to its highest since April 2025 on bets of a December Fed rise after hotter US prices. The first test today is UK growth figures for the third quarter at 11:00 Dubai, forecast at 0.7%, followed by US weekly jobless claims at 17:30 Dubai.",
+ "updated": "2026-11-12T07:39:02Z",
+ "headline": "Sterling is about 1.3260 dollars on Thursday morning in Dubai, down from about 1.3345 a day earlier, as the dollar index holds near its highest since April 2025 on bets of a December Fed rise after hotter US prices. UK growth of 0.7% in the third quarter, as forecast, with a firmer September, gave the pound a small lift; US weekly jobless claims follow at 17:30 Dubai.",
  "drivers": [
   {
    "title": "The Fed",
@@ -20,19 +20,37 @@
   }
  ],
  "lower": [
-  "UK growth figures today below the 0.7% forecast, which would weaken the case for a further UK rise in December and weigh on the pound.",
   "More Fed speakers backing a half point rise in December, which would lift US yields and the dollar further.",
   "Fresh attacks on shipping in the Strait of Hormuz or a breakdown in the Iran talks, which would tend to lift oil and the dollar as a safe haven.",
-  "Bank of England speakers leaning against a further rise in December, which would take away support the pound has."
+  "Bank of England speakers leaning against a further rise in December, which would take away support the pound has.",
+  "Fewer US jobless claims today than the 194,000 forecast, which would point to a firm job market and support the dollar."
  ],
  "higher": [
-  "UK growth figures today above the 0.7% forecast, which would support the case for higher UK rates and lift the pound.",
   "Fed speakers playing down a half point rise, which would take some strength out of the dollar.",
   "Confirmed progress in the Iran talks that pushes oil down, which would tend to weaken the dollar.",
-  "Softer US producer prices on 13 November than forecast, which would ease pressure for Fed rises and weaken the dollar."
+  "Softer US producer prices on 13 November than forecast, which would ease pressure for Fed rises and weaken the dollar.",
+  "Bank of England speakers reading today's growth figures as backing a December rise, which would lift the pound."
  ],
- "watch": "UK growth figures for the third quarter come out today, Thursday 12 November, at 11:00 Dubai, forecast at 0.7% for the quarter and 1.9% for the year; stronger figures would support the case for higher UK rates and help someone selling pounds for dirhams, and weaker ones would hurt. US weekly jobless claims follow at 17:30 Dubai, where a higher count would tend to weaken the dollar and help.",
+ "watch": "US weekly jobless claims come out today, Thursday 12 November, at 17:30 Dubai, forecast at 194,000 against 189,000 the week before; a higher count would tend to weaken the dollar and help someone selling pounds for dirhams, and a lower one would hurt. US producer prices follow on Friday 13 November at 17:30 Dubai, forecast at 0.4% for the month.",
  "sources": [
+  {
+   "title": "GDP first quarterly estimate, UK: July to September 2026",
+   "site": "ONS",
+   "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026",
+   "date": "12 Nov"
+  },
+  {
+   "title": "September GDP growth offers little reassurance as wider economic outlook remains bleak",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/september-gdp-growth-offers-little-reassurance-as-wider-economic-outlook-remains-bleak-202611120725",
+   "date": "12 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "12 Nov"
+  },
   {
    "title": "US Dollar Index (DXY) rises above 103.00, highest since April 2025 on Fed bets, Iran risks",
    "site": "FXStreet",
@@ -56,12 +74,6 @@
    "site": "HDFC Sky",
    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-11-2026-brent-rises-1-14percent-to-92-5-as-strait-of-hormuz-attacks-dent-peace-hopes",
    "date": "11 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "12 Nov"
   },
   {
    "title": "British Pound tumbles below 1.33 post hot US CPI, Fed hawkish rhetoric",
@@ -91,18 +103,6 @@
    "title": "EUR/USD Price Forecast: Rising US Dollar backs fresh downside leg below 1.1100",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-rising-us-dollar-backs-fresh-downside-leg-below-11100-202611111100",
-   "date": "11 Nov"
-  },
-  {
-   "title": "British Pound hangs near one-week low as Fed hike bets lift USD",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-hangs-near-one-week-low-eyes-13300-as-fed-hike-bets-lift-usd-202611110901",
-   "date": "11 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD five minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
    "date": "11 Nov"
   }
  ],
@@ -207,8 +207,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-12T03:40:00Z",
+ "calendarUpdated": "2026-11-12T07:39:02Z",
  "feed": [
+  {
+   "title": "UK growth has matched forecasts and September beat them",
+   "text": "The UK economy grew 0.7% in the third quarter, in line with the 0.7% forecast and up from 0.5% in the second, and output rose 0.2% in September against no growth expected, according to the ONS. Firmer growth supports the case for further Bank of England rises and so the pound, and GBP/USD rose from 1.3251 to 1.3264 within three minutes, then settled near 1.3255 before edging up to about 1.3261.",
+   "when": "2026-11-12T07:00:00Z",
+   "t": "2026-11-12T07:39:02Z",
+   "rate": 1.32611
+  },
   {
    "title": "Sterling has slipped as the dollar index hits an 18 month high",
    "text": "The dollar strengthened again in Asian trade, with FXStreet reporting the dollar index above 103.00 for the first time since April 2025 as traders weigh a half point Fed rise in December after hotter US prices, and as continuing clashes around the Strait of Hormuz dent hopes of a US and Iran deal. A firmer dollar means fewer dirhams per pound: GBP/USD eased from about 1.3271 at 06:15 Dubai to a low near 1.3253 at 06:39 Dubai and stood near 1.3255 at 07:30 Dubai, while EUR/USD fell in step from about 1.1091 to 1.1070, so the move came from the dollar rather than news about the pound. UK growth figures for the third quarter come out at 11:00 Dubai, forecast at 0.7%.",
@@ -349,13 +356,6 @@
    "title": "The dollar has eased as US shares rebound at the open",
    "text": "GBP/USD rose from about 1.3346 at 18:30 Dubai to about 1.3365 by 18:37 Dubai, as Wall Street opened, and EUR/USD rose in step from about 1.1129 to 1.1143, so the move came from a softer dollar rather than from news about the pound. Yahoo Finance reports the Nasdaq up 1.7% and Treasury yields pulling back from their highs after the jobs figures; no report read names a direct cause for the currency move, but a calmer stock market tends to reduce demand for the dollar as a safe haven, which means more dirhams per pound.",
    "when": "2026-11-06T14:30:00Z",
-   "t": "2026-11-06T15:40:04Z",
-   "rate": 1.33664
-  },
-  {
-   "title": "US consumer mood has improved and inflation fears have eased",
-   "text": "The University of Michigan's early November survey of consumer sentiment rose to 51.0 against a forecast of about 48.1, and households' expectations for inflation a year ahead fell to 4.3% from 4.7%, with five year expectations at 3.4% from 3.5%. Firmer sentiment usually helps the dollar, but lower inflation expectations ease pressure on the Fed to raise rates. GBP/USD dipped from 1.3361 to 1.3355 in the first two minutes, then climbed to about 1.3375 by 19:24 Dubai and stood near 1.3368 at 19:38 Dubai.",
-   "when": "2026-11-06T15:00:00Z",
    "t": "2026-11-06T15:40:04Z",
    "rate": 1.33664
   }
