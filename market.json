@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T13:39:19Z",
- "headline": "Sterling is about 1.3262 dollars on Thursday evening in Dubai, down from about 1.3345 a day earlier, as the dollar index holds near its highest since April 2025 on bets of a December Fed rise after hotter US prices. UK growth of 0.7% in the third quarter, as forecast, gave the pound a small lift, and US jobless claims of 200,000 against 194,000 forecast eased the dollar slightly; US producer prices follow on Friday at 17:30 Dubai.",
+ "updated": "2026-11-12T15:39:58Z",
+ "headline": "Sterling is about 1.3229 dollars on Thursday evening in Dubai, down from about 1.3345 a day earlier, as the dollar index holds near its highest since April 2025 on bets of a December Fed rise after hotter US prices. The pound slipped further after New York opened, as Nvidia shares fell on its chief executive's resignation and oil firmed on fresh Iran remarks; US producer prices follow on Friday at 17:30 Dubai.",
  "drivers": [
   {
    "title": "The Fed",
@@ -33,6 +33,24 @@
  ],
  "watch": "US producer prices come out on Friday 13 November at 17:30 Dubai, forecast to rise 0.4% in October; a lower figure would tend to weaken the dollar and help someone selling pounds for dirhams, and a higher one would hurt.",
  "sources": [
+  {
+   "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "date": "12 Nov"
+  },
+  {
+   "title": "Brent rises to $93.29 as Trump's no-deal Iran remarks revive war premium",
+   "site": "CNBC via Zetik",
+   "url": "https://www.zetik.com/news/article/story_id-p008-231700",
+   "date": "12 Nov"
+  },
+  {
+   "title": "Wall Street set to open lower after Nvidia rout, oil gains",
+   "site": "Reuters via The Globe and Mail",
+   "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks/",
+   "date": "12 Nov"
+  },
   {
    "title": "Unemployment Insurance Weekly Claims, week ending 7 November",
    "site": "US Department of Labor",
@@ -85,24 +103,6 @@
    "title": "Crude Oil Rebounds as Hormuz Attacks Revive Supply Fears",
    "site": "HDFC Sky",
    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-11-2026-brent-rises-1-14percent-to-92-5-as-strait-of-hormuz-attacks-dent-peace-hopes",
-   "date": "11 Nov"
-  },
-  {
-   "title": "British Pound tumbles below 1.33 post hot US CPI, Fed hawkish rhetoric",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-tumbles-below-133-post-hot-us-cpi-fed-hawkish-rhetoric-202611111533",
-   "date": "11 Nov"
-  },
-  {
-   "title": "What is fuelling the rally in the US Dollar?",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/united-states-dollar-index-extends-rally-as-feds-50-bps-rate-hike-prospects-heat-up-202611111157",
-   "date": "11 Nov"
-  },
-  {
-   "title": "Dollar gains as hot inflation, Fed lift rate hike bets (Reuters)",
-   "site": "Gurutrade",
-   "url": "https://www.gurutrade.com/news/dollar-gains-as-hot-inflation-fed-lift-rate-hike-bets-1794390046.html",
    "date": "11 Nov"
   }
  ],
@@ -207,8 +207,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-12T13:39:19Z",
+ "calendarUpdated": "2026-11-12T15:39:58Z",
  "feed": [
+  {
+   "title": "Sterling has slipped as Wall Street opens lower",
+   "text": "Nvidia announced on Thursday that its chief executive Jensen Huang would step down at once, and its shares fell nearly 10%, pulling US technology shares lower when New York opened at 17:30 Dubai. Brent crude also rose to about $93.29 a barrel (about £70.50) after President Trump said the US does not need a deal with Iran, and dearer oil and Gulf tension tend to lift the dollar. GBP/USD fell from about 1.3272 just before 18:30 Dubai to 1.3223 by 19:20 and has since steadied near 1.3229; none of the sources read names the reason for the currency move itself, so the timing alongside these two stories is the only link.",
+   "when": "2026-11-12T14:30:00Z",
+   "t": "2026-11-12T15:39:58Z",
+   "rate": 1.32269
+  },
   {
    "title": "The dollar has eased a little after higher US jobless claims",
    "text": "New US claims for unemployment benefits rose to 200,000 in the week to 7 November against 194,000 forecast, up from a revised 191,000, according to the Labor Department. More claims point to a slightly softer job market, which trims the case for Fed rises and so weakens the dollar a little, meaning more dirhams per pound: GBP/USD rose from about 1.3256 just before the release at 17:30 Dubai to about 1.3263 eight minutes later, while EUR/USD rose in step from about 1.1082 to 1.1085. Earlier in the afternoon GBP/USD had drifted down from about 1.3274 at 15:00 Dubai to a low near 1.3251 at 17:15 Dubai, with EUR/USD falling in step, as the dollar stayed near its 19 month high on bets of a December Fed rise; no report read names a fresh trigger for that drift.",
@@ -352,12 +359,6 @@
    "text": "GBP/USD climbed steadily from about 1.3365 at 08:00 Dubai to about 1.3382 by 10:38 Dubai, and EUR/USD rose in step from about 1.1150 to 1.1160, so the move came from a softer dollar rather than from news about the pound. FXStreet reported at 08:14 Dubai that the dollar index had slipped to around 102.20 after two days of gains, as lower oil prices eased inflation worries following President Trump's remark that new strikes on Iran were highly unlikely while talks continued; no report read names a fresh cause for the later rise. A softer dollar means more dirhams per pound.",
    "t": "2026-11-09T06:39:49Z",
    "rate": 1.33809
-  },
-  {
-   "title": "The dollar has eased as Trump plays down new strikes on Iran",
-   "text": "In a CNN interview on Sunday, President Trump said new US strikes on Iran were highly unlikely as long as talks progressed, and Brent crude fell 0.75% to $97.58 a barrel (about £73) in early Asian trading, according to Investing.com, even after a Houthi missile attack caused limited damage to Saudi Aramco's offices in Riyadh. Calmer Gulf tension and cheaper oil tend to weaken the dollar, which means more dirhams per pound. GBP/USD reopened near 1.3329 at 02:00 Dubai on Monday, a little below Friday's close of about 1.3349, then rose to about 1.3368 by 06:00 Dubai, with EUR/USD rising in step from about 1.1128 to 1.1151, so the move came from a softer dollar rather than from news about the pound.",
-   "t": "2026-11-09T03:40:44Z",
-   "rate": 1.33658
   }
  ]
 }
