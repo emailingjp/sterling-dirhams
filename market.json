@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T03:40:54Z",
+ "updated": "2026-11-13T08:39:56Z",
  "headline": "Sterling is about 1.3231 dollars on Friday morning in Dubai, little changed overnight but down from about 1.3345 on Wednesday, as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil jumped on Thursday after claimed Houthi strikes on Saudi oil sites and US ten year yields closed at 5.10%; US producer prices come out at 17:30 Dubai, followed by several Fed speakers.",
  "drivers": [
   {
@@ -33,6 +33,12 @@
  ],
  "watch": "US producer prices come out today, Friday 13 November, at 17:30 Dubai, forecast to rise 0.4% in October and 0.3% excluding food and energy; lower figures would tend to weaken the dollar and help someone selling pounds for dirhams, and higher ones would hurt. Fed speakers follow from 18:10 Dubai, with Collins, Logan, Bowman and Daly during the evening.",
  "sources": [
+  {
+   "title": "Brent holds near $95 in Asia after Thursday's 3% jump on tanker and Saudi attack claims (Reuters report)",
+   "site": "MLQ.ai",
+   "url": "https://mlq.ai/news/brent-holds-near-95-in-asia-after-thursdays-3-jump-on-tanker-and-saudi-attack-claims/",
+   "date": "13 Nov"
+  },
   {
    "title": "Yemen's Houthis say targeted Saudi East-West pipeline, Yanbu",
    "site": "The New Arab (AFP)",
@@ -97,12 +103,6 @@
    "title": "US Dollar Index (DXY) trims gains after hitting 19-month highs at 103.08",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-trims-gains-after-hitting-19-month-highs-at-10308-202611121025",
-   "date": "12 Nov"
-  },
-  {
-   "title": "GDP first quarterly estimate, UK: July to September 2026",
-   "site": "ONS",
-   "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026",
    "date": "12 Nov"
   }
  ],
@@ -207,8 +207,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-13T03:40:54Z",
+ "calendarUpdated": "2026-11-13T08:39:56Z",
  "feed": [
+  {
+   "title": "Sterling has stayed in a narrow range ahead of US producer prices",
+   "text": "Oil eased slightly in Asian trading, with Brent at $95.41 a barrel (about £72.10) at 06:42 Dubai, down 1 cent, after President Trump said a deal with Iran was not needed to end the war, which Reuters said lowers the chance of renewed large-scale fighting; US crude stocks also rose 4.7 million barrels last week against an expected fall. GBP/USD drifted from about 1.3231 at 07:40 Dubai to a low of about 1.3219 at 10:32 Dubai, then rose to a high of about 1.3241 at 12:20 Dubai and stood near 1.3234 at 12:38 Dubai, while EUR/USD moved in a similarly narrow band, so the dollar has been broadly steady. With no UK figures out today, markets are waiting for US producer prices at 17:30 Dubai, where a hotter result would tend to strengthen the dollar and mean fewer dirhams per pound.",
+   "t": "2026-11-13T08:39:56Z",
+   "rate": 1.32339
+  },
   {
    "title": "Sterling has held steady overnight as oil climbs on Gulf attacks",
    "text": "Brent crude settled 3.3% higher at $95.82 a barrel (about £72.40) on Thursday after Yemen's Houthis claimed strikes on Saudi Arabia's East-West oil pipeline, the Yanbu oil facility and an Aramco building in Riyadh, none of them independently confirmed, while the Saudi-led coalition said it intercepted two drones. US yields also rose, with the ten year at 5.10% and the two year up about 15 basis points to 4.88%, and the dollar index closed up 0.27% at 103.19; dearer oil, Gulf tension and higher US yields all tend to lift the dollar and mean fewer dirhams per pound. Even so, GBP/USD barely moved overnight, trading between about 1.3227 and 1.3243 apart from a brief dip to 1.3206 in the thin trading around 02:11 Dubai, and stood near 1.3231 at 07:40 Dubai, much where it was on Thursday evening.",
@@ -353,12 +359,6 @@
    "text": "GBP/USD eased from about 1.3415 at 18:15 Dubai to a low of about 1.3397 at 19:30 Dubai and stood near 1.3399 at 19:40 Dubai, while EUR/USD held near 1.1192, so the fall came from a slightly softer pound rather than a stronger dollar. No report read names a cause for it; traders are waiting for the Bank of England Governor in Zurich at 21:25 Dubai, where a firm tone on rates would tend to lift the pound and a cautious one would tend to weigh on it, and for US consumer prices on Tuesday.",
    "t": "2026-11-09T15:40:13Z",
    "rate": 1.33997
-  },
-  {
-   "title": "The pound has held its gains in a quiet London morning",
-   "text": "GBP/USD has moved in a narrow band since the last update, from 1.3410 at 12:39 Dubai to a low of about 1.3403 near 13:15 Dubai and a high of about 1.3426 near 13:50 Dubai, and stood near 1.3416 at 15:40 Dubai. EUR/USD drifted up in step, from about 1.1183 to about 1.1192, so the small gain came from a slightly softer dollar rather than from news about the pound. FXStreet reported the dollar index holding just above 102.00 in European trading after Friday's jobs rally, with oil lower on the Iran talks; no report read names a fresh cause for the moves since, and traders are waiting for the Bank of England Governor in Zurich this evening and US consumer prices on Tuesday.",
-   "t": "2026-11-09T11:42:57Z",
-   "rate": 1.34191
   }
  ]
 }
