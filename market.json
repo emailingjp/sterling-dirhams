@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T13:39:25Z",
- "headline": "Sterling is about 1.3245 dollars on Friday evening in Dubai, a little higher after US producer prices rose 0.3% in October against 0.4% forecast, though still down from about 1.3345 on Wednesday as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil is near $95 a barrel (about £72) after claimed Houthi strikes on Saudi oil sites, and several Fed speakers follow this evening.",
+ "updated": "2026-11-13T14:39:12Z",
+ "headline": "Sterling is about 1.3235 dollars on Friday evening in Dubai, having risen briefly after US producer prices rose 0.3% in October against 0.4% forecast and then eased back as the US ten year yield climbed above 5.15%; it is down from about 1.3345 on Wednesday as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil is near $95 a barrel (about £72) after claimed Houthi strikes on Saudi oil sites, and several Fed speakers follow this evening.",
  "drivers": [
   {
    "title": "The Fed",
@@ -29,8 +29,20 @@
   "The Houthi claims proving to have caused no damage, or progress towards talks with Iran, which would tend to pull oil down and weaken the dollar.",
   "Bank of England speakers reading Thursday's growth figures as backing a December rise, which would lift the pound."
  ],
- "watch": "Fed speakers follow this evening in Dubai time: Collins at 18:10, Logan at 18:40, Bowman at 19:50, Daly at 21:00 and Jefferson at 04:00 on Saturday. Comments backing a December rise would tend to strengthen the dollar and mean fewer dirhams per pound, and caution about the pace of rises would tend to help someone selling pounds for dirhams.",
+ "watch": "Fed speakers continue this evening in Dubai time: Logan at 18:40, Bowman at 19:50, Daly at 21:00 and Jefferson at 04:00 on Saturday. Comments backing a December rise would tend to strengthen the dollar and mean fewer dirhams per pound, and caution about the pace of rises would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "10-year Treasury yield moves to 5.15% as traders weigh producer price report",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+   "date": "13 Nov"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "13 Nov"
+  },
   {
    "title": "Producer Price Indexes, October 2026",
    "site": "Bureau of Labor Statistics",
@@ -85,18 +97,6 @@
    "title": "Stock market today: S&P 500, Nasdaq fall as Nvidia CEO exit, rising bond yields roil markets",
    "site": "Yahoo Finance",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-slides-jensen-huang-resigns-invest-165632931.html",
-   "date": "12 Nov"
-  },
-  {
-   "title": "Nvidia stock falls nearly 10% as CEO Jensen Huang announces resignation",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-   "date": "12 Nov"
-  },
-  {
-   "title": "Brent rises to $93.29 as Trump's no-deal Iran remarks revive war premium",
-   "site": "CNBC via Zetik",
-   "url": "https://www.zetik.com/news/article/story_id-p008-231700",
    "date": "12 Nov"
   }
  ],
@@ -201,8 +201,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-13T13:39:25Z",
+ "calendarUpdated": "2026-11-13T14:39:12Z",
  "feed": [
+  {
+   "title": "The dollar has firmed again as US yields climb",
+   "text": "The dollar's dip after the producer price figures did not last: CNBC reported on Friday that the US ten year yield rose about 5 basis points to more than 5.15% as traders kept betting on a December Fed rise. GBP/USD slipped from about 1.3246 at 17:39 Dubai to a low near 1.3224 at 18:23, then recovered to about 1.3235 by 18:38, while EUR/USD fell in step from 1.1055 to 1.1040, so the move came from the dollar rather than the pound. No report found so far ties the dip to Boston Fed President Collins, who was due to speak at 18:10 Dubai.",
+   "t": "2026-11-13T14:39:12Z",
+   "rate": 1.32341
+  },
   {
    "title": "The dollar has eased after softer US producer prices",
    "text": "US producer prices rose 0.3% in October against 0.4% forecast, and 0.3% excluding food and energy, in line with forecast, after a 1.4% jump in September, according to the Bureau of Labor Statistics; the yearly rise of 6.5% is still the largest since November 2022. A slightly softer reading eases pressure for Fed rises, which weakens the dollar and means more dirhams per pound: GBP/USD rose from about 1.3228 just before the release at 17:30 Dubai to 1.3243 within a minute and about 1.3248 by 17:34, then held near 1.3245. EUR/USD rose in step from about 1.1048 to 1.1060, so the move came from the dollar rather than the pound.",
@@ -346,13 +352,6 @@
    "text": "Late on Monday, Al Arabiya reported, citing unnamed sources, that a proposal from Qatar and Pakistan had revived serious talks between the US and Iran, including a limit of 3.67% on Iranian uranium enrichment; neither government has confirmed the terms, and US crude fell nearly 4.5% on the day to $86.37 a barrel (about £64), according to FXStreet. Calmer Gulf tension and cheaper oil tend to weaken the dollar, which means more dirhams per pound. GBP/USD rose from about 1.3425 at 23:35 Dubai to about 1.3438 by 23:42 Dubai and touched 1.3451 just before midnight, while EUR/USD rose in step from about 1.1204 to 1.1220, and the pair has held near 1.3440 through the quiet Asian morning.",
    "t": "2026-11-10T03:40:07Z",
    "rate": 1.34424
-  },
-  {
-   "title": "The Bank of England Governor has begun his Zurich talk with little effect so far",
-   "text": "Andrew Bailey began his lecture at the University of Zurich at 21:25 Dubai, a few days after the Bank raised its rate by a quarter point to 4.00%, its first rise in more than three years; the event is billed as opening remarks followed by discussion, and no report read so far carries anything new he has said on rates. GBP/USD barely moved, standing near 1.3420 just before he began and near 1.3420 at 21:38 Dubai, after a small rise from about 1.3414 to 1.3421 in the ten minutes beforehand that EUR/USD matched, so that step came from a slightly softer dollar. A firm line on further rises would tend to lift the pound and more dirhams per pound would follow, while a cautious one would tend to weigh on it.",
-   "when": "2026-11-09T17:25:00Z",
-   "t": "2026-11-09T17:39:39Z",
-   "rate": 1.34199
   }
  ]
 }
