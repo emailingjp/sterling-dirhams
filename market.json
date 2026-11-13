@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T12:11:57Z",
- "headline": "Sterling is about 1.3231 dollars on Friday morning in Dubai, little changed overnight but down from about 1.3345 on Wednesday, as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil jumped on Thursday after claimed Houthi strikes on Saudi oil sites and US ten year yields closed at 5.10%; US producer prices come out at 17:30 Dubai, followed by several Fed speakers.",
+ "updated": "2026-11-13T13:39:25Z",
+ "headline": "Sterling is about 1.3245 dollars on Friday evening in Dubai, a little higher after US producer prices rose 0.3% in October against 0.4% forecast, though still down from about 1.3345 on Wednesday as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil is near $95 a barrel (about £72) after claimed Houthi strikes on Saudi oil sites, and several Fed speakers follow this evening.",
  "drivers": [
   {
    "title": "The Fed",
@@ -20,19 +20,29 @@
   }
  ],
  "lower": [
-  "Hotter US producer prices at 17:30 Dubai than the 0.4% forecast, which would add to the case for Fed rises and strengthen the dollar.",
-  "Fed speakers today, including Collins, Logan, Bowman and Daly, backing a half point rise in December, which would lift US yields and the dollar.",
+  "Fed speakers this evening, including Collins, Logan, Bowman and Daly, backing a half point rise in December, which would lift US yields and the dollar.",
   "Confirmed damage to Saudi oil sites or fresh attacks on shipping near the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven.",
   "Bank of England speakers leaning against a further rise in December, which would take away support the pound has."
  ],
  "higher": [
-  "Softer US producer prices than forecast, which would ease pressure for Fed rises and weaken the dollar.",
-  "Fed speakers playing down a half point rise or the pace of further rises, which would take some strength out of the dollar.",
+  "Fed speakers playing down a half point rise or the pace of further rises, which would take some strength out of the dollar, as the slightly softer producer prices did this afternoon.",
   "The Houthi claims proving to have caused no damage, or progress towards talks with Iran, which would tend to pull oil down and weaken the dollar.",
   "Bank of England speakers reading Thursday's growth figures as backing a December rise, which would lift the pound."
  ],
- "watch": "US producer prices come out today, Friday 13 November, at 17:30 Dubai, forecast to rise 0.4% in October and 0.3% excluding food and energy; lower figures would tend to weaken the dollar and help someone selling pounds for dirhams, and higher ones would hurt. Fed speakers follow from 18:10 Dubai, with Collins, Logan, Bowman and Daly during the evening.",
+ "watch": "Fed speakers follow this evening in Dubai time: Collins at 18:10, Logan at 18:40, Bowman at 19:50, Daly at 21:00 and Jefferson at 04:00 on Saturday. Comments backing a December rise would tend to strengthen the dollar and mean fewer dirhams per pound, and caution about the pace of rises would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Producer Price Indexes, October 2026",
+   "site": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+   "date": "13 Nov"
+  },
+  {
+   "title": "PPI detailed table 1",
+   "site": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/ppi.t01.htm",
+   "date": "13 Nov"
+  },
   {
    "title": "Investing.com: Sterling today, pound steady as hawkish Fed keeps dollar bid (13 November 2026)",
    "url": "https://in.investing.com/news/forex-news/sterling-today-pound-steady-as-hawkish-fed-keeps-dollar-bid-5702185"
@@ -87,18 +97,6 @@
    "title": "Brent rises to $93.29 as Trump's no-deal Iran remarks revive war premium",
    "site": "CNBC via Zetik",
    "url": "https://www.zetik.com/news/article/story_id-p008-231700",
-   "date": "12 Nov"
-  },
-  {
-   "title": "Wall Street set to open lower after Nvidia rout, oil gains",
-   "site": "Reuters via The Globe and Mail",
-   "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks/",
-   "date": "12 Nov"
-  },
-  {
-   "title": "Unemployment Insurance Weekly Claims, week ending 7 November",
-   "site": "US Department of Labor",
-   "url": "https://www.dol.gov/ui/data.pdf",
    "date": "12 Nov"
   }
  ],
@@ -203,8 +201,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-13T12:11:57Z",
+ "calendarUpdated": "2026-11-13T13:39:25Z",
  "feed": [
+  {
+   "title": "The dollar has eased after softer US producer prices",
+   "text": "US producer prices rose 0.3% in October against 0.4% forecast, and 0.3% excluding food and energy, in line with forecast, after a 1.4% jump in September, according to the Bureau of Labor Statistics; the yearly rise of 6.5% is still the largest since November 2022. A slightly softer reading eases pressure for Fed rises, which weakens the dollar and means more dirhams per pound: GBP/USD rose from about 1.3228 just before the release at 17:30 Dubai to 1.3243 within a minute and about 1.3248 by 17:34, then held near 1.3245. EUR/USD rose in step from about 1.1048 to 1.1060, so the move came from the dollar rather than the pound.",
+   "when": "2026-11-13T13:30:00Z",
+   "t": "2026-11-13T13:39:25Z",
+   "rate": 1.32464
+  },
   {
    "title": "Sterling has edged lower as the dollar stays firm",
    "text": "GBP/USD slipped from about 1.3240 at 13:10 Dubai to a low near 1.3218 at 14:45 Dubai, recovered to about 1.3233 by 15:25 and stood near 1.3226 at 16:10 Dubai, while EUR/USD fell in step from about 1.1055 to 1.1043, so the move came from the dollar rather than the pound. Investing.com reported on Friday that the dollar index had reached a new high for the year as markets price back-to-back Fed rises in December and January, with ING noting that short-dated US yields are close to 40 basis points higher since Tuesday; a firmer dollar means fewer dirhams per pound. No report read names a fresh trigger for this afternoon's dip, which came with no UK figures out and ahead of US producer prices at 17:30 Dubai.",
@@ -348,13 +353,6 @@
    "when": "2026-11-09T17:25:00Z",
    "t": "2026-11-09T17:39:39Z",
    "rate": 1.34199
-  },
-  {
-   "title": "The dollar has slipped again after the London close",
-   "text": "GBP/USD rose from about 1.3396 at 20:04 Dubai to about 1.3412 by 20:19 Dubai and settled near 1.3409, while EUR/USD rose in step from about 1.1190 to 1.1201, so the gain came from a softer dollar rather than news about the pound. FXStreet put the dollar index at about 101.85, down 0.44% on the day, with US crude more than 3% lower at about $86.85 a barrel (about £65) as President Trump played down the chance of new strikes on Iran; cheaper oil and calmer Gulf tension tend to weaken the dollar, which means more dirhams per pound. No report read names a fresh trigger for this step itself: it began just after the 4pm London benchmark rates were set, and a New York Fed survey at 20:12 Dubai showed inflation expectations unchanged at 3% for one year ahead.",
-   "when": "2026-11-09T16:05:00Z",
-   "t": "2026-11-09T16:40:01Z",
-   "rate": 1.34084
   }
  ]
 }
