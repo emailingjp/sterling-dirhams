@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:40:00Z",
+ "updated": "2026-11-15T13:42:13Z",
  "headline": "Sterling is about 1.3235 dollars on Friday evening in Dubai, having risen briefly after US producer prices rose 0.3% in October against 0.4% forecast and then eased back as the US ten year yield climbed above 5.15%; it is down from about 1.3345 on Wednesday as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil is near $95 a barrel (about £72) after claimed Houthi strikes on Saudi oil sites, and several Fed speakers follow this evening.",
  "drivers": [
   {
@@ -29,8 +29,26 @@
   "The Houthi claims proving to have caused no damage, or progress towards talks with Iran, which would tend to pull oil down and weaken the dollar.",
   "Bank of England speakers reading Thursday's growth figures as backing a December rise, which would lift the pound."
  ],
- "watch": "Fed Governor Jefferson is due to speak at 04:00 on Saturday, Dubai time, and UK jobs and inflation figures follow next week. Comments backing a December Fed rise would tend to strengthen the dollar and mean fewer dirhams per pound, while firm UK wage and price figures would tend to lift the pound and help someone selling pounds for dirhams.",
+ "watch": "Fed Chair Warsh speaks at 21:00 on Monday, Dubai time. UK wage figures follow at 11:00 on Tuesday and US retail sales at 17:30, then UK inflation at 11:00 on Wednesday, with Governor Bailey speaking at 11:30 and 19:00 and the minutes of the Fed's last meeting at 23:00. A cautious tone from Warsh or weak US retail sales would tend to weaken the dollar and mean more dirhams per pound, while firm UK wages and inflation, or a firm tone from Bailey, would tend to lift the pound and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+   "site": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh",
+   "date": "15 Nov"
+  },
+  {
+   "title": "Fed's Jefferson says he is taking his policy cues from inflation",
+   "site": "Reuters via AOL",
+   "url": "https://www.aol.com/articles/feds-jefferson-says-taking-policy-000319000.html",
+   "date": "14 Nov"
+  },
+  {
+   "title": "Economic calendar for the week of 16 November",
+   "site": "Forex Factory",
+   "url": "https://www.forexfactory.com/calendar",
+   "date": "15 Nov"
+  },
   {
    "title": "US Dollar Index Forecast: Treasury Yields Break 5%. Is DXY Heading for 104?",
    "site": "InvestingCube",
@@ -84,27 +102,68 @@
    "site": "Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/ppi.t01.htm",
    "date": "13 Nov"
-  },
-  {
-   "title": "Investing.com: Sterling today, pound steady as hawkish Fed keeps dollar bid (13 November 2026)",
-   "url": "https://in.investing.com/news/forex-news/sterling-today-pound-steady-as-hawkish-fed-keeps-dollar-bid-5702185"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD prices",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
-  },
-  {
-   "title": "Brent holds near $95 in Asia after Thursday's 3% jump on tanker and Saudi attack claims (Reuters report)",
-   "site": "MLQ.ai",
-   "url": "https://mlq.ai/news/brent-holds-near-95-in-asia-after-thursdays-3-jump-on-tanker-and-saudi-attack-claims/",
-   "date": "13 Nov"
   }
  ],
  "calendar": [
   {
-   "t": "2026-11-09T17:25:00Z",
+   "t": "2026-11-16T17:00:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US: Fed Chairman Warsh Speaks",
+   "title": "Fed Chairman Warsh Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-17T07:00:00Z",
    "ccy": "GBP",
    "impact": "Medium",
+   "name": "UK wages, three months on a year earlier",
+   "title": "Average Earnings Index 3m/y",
+   "forecast": "3.5%",
+   "previous": "3.7%",
+   "good": "Higher than 3.5%",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-17T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US core retail sales, month on month",
+   "title": "Core Retail Sales m/m",
+   "forecast": "0.4%",
+   "previous": "0.9%",
+   "good": "Lower than 0.4%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-17T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US retail sales, month on month",
+   "title": "Retail Sales m/m",
+   "forecast": "0.2%",
+   "previous": "0.8%",
+   "good": "Lower than 0.2%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-18T07:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "UK inflation (CPI), year on year",
+   "title": "CPI y/y",
+   "forecast": "3.6%",
+   "previous": "3.5%",
+   "good": "Higher than 3.6%",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-18T07:30:00Z",
+   "ccy": "GBP",
+   "impact": "High",
    "name": "Bank of England Governor Bailey speaks",
    "title": "BOE Gov Bailey Speaks",
    "forecast": "",
@@ -113,7 +172,62 @@
    "why": "Talk of Bank of England rises lifts the pound."
   },
   {
-   "t": "2026-11-10T09:00:00Z",
+   "t": "2026-11-18T15:00:00Z",
+   "ccy": "GBP",
+   "impact": "High",
+   "name": "Bank of England Governor Bailey speaks",
+   "title": "BOE Gov Bailey Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A firm tone on rates",
+   "why": "Talk of Bank of England rises lifts the pound."
+  },
+  {
+   "t": "2026-11-18T19:00:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "Fed minutes",
+   "title": "FOMC Meeting Minutes",
+   "forecast": "",
+   "previous": "",
+   "good": "Signs of doubt about further rises",
+   "why": "Minutes showing less appetite for rate rises weaken the dollar and lift GBP/USD."
+  },
+  {
+   "t": "2026-11-19T13:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: Philly Fed Manufacturing Index",
+   "title": "Philly Fed Manufacturing Index",
+   "forecast": "19.2",
+   "previous": "20.9",
+   "good": "Lower than 19.2",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-19T13:30:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US weekly jobless claims",
+   "title": "Unemployment Claims",
+   "forecast": "199K",
+   "previous": "200K",
+   "good": "Higher than 199K",
+   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-20T07:00:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "UK retail sales, month on month",
+   "title": "Retail Sales m/m",
+   "forecast": "0.0%",
+   "previous": "-0.4%",
+   "good": "Higher than 0.0%",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-20T13:25:00Z",
    "ccy": "USD",
    "impact": "Medium",
    "name": "Fed's Waller speaks",
@@ -124,85 +238,36 @@
    "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-10T13:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US core inflation (CPI), month on month",
-   "title": "Core CPI m/m",
-   "forecast": "0.2%",
-   "previous": "0.3%",
-   "good": "Lower than 0.2%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-10T13:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US inflation (CPI), month on month",
-   "title": "CPI m/m",
-   "forecast": "0.3%",
-   "previous": "0.6%",
-   "good": "Lower than 0.3%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-12T07:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "UK GDP, month on month",
-   "title": "GDP m/m",
-   "forecast": "0.0%",
-   "previous": "0.1%",
-   "good": "Higher than 0.0%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-11-12T07:00:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "UK GDP, first estimate",
-   "title": "Prelim GDP q/q",
-   "forecast": "0.7%",
-   "previous": "0.5%",
-   "good": "Higher than 0.7%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-11-12T13:30:00Z",
+   "t": "2026-11-20T15:00:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US weekly jobless claims",
-   "title": "Unemployment Claims",
-   "forecast": "194K",
-   "previous": "189K",
-   "good": "Higher than 194K",
-   "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-13T13:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US core producer prices, month on month",
-   "title": "Core PPI m/m",
-   "forecast": "0.3%",
-   "previous": "0.7%",
-   "good": "Lower than 0.3%",
+   "name": "US consumer sentiment (University of Michigan), revised",
+   "title": "Revised UoM Consumer Sentiment",
+   "forecast": "52.1",
+   "previous": "51.0",
+   "good": "Lower than 52.1",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-13T13:30:00Z",
+   "t": "2026-11-20T15:00:00Z",
    "ccy": "USD",
-   "impact": "High",
-   "name": "US producer prices, month on month",
-   "title": "PPI m/m",
-   "forecast": "0.4%",
-   "previous": "1.3%",
-   "good": "Lower than 0.4%",
+   "impact": "Medium",
+   "name": "US inflation expectations (University of Michigan), revised",
+   "title": "Revised UoM Inflation Expectations",
+   "forecast": "",
+   "previous": "4.3%",
+   "good": "Lower than forecast",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-13T17:40:00Z",
+ "calendarUpdated": "2026-11-15T13:42:13Z",
  "feed": [
+  {
+   "title": "The dollar has firmed at the weekend as Houthi attacks on Saudi Arabia go on",
+   "text": "The Saudi-led coalition said early on Sunday that it had intercepted two Houthi ballistic missiles fired towards Riyadh and three drones over the oil-producing Eastern Province, a day after the US Embassy in Riyadh issued a nationwide security alert, according to Al Jazeera; no damage was reported. Gulf tension tends to lift the dollar as a safe haven, which means fewer dirhams per pound, and Fed Vice Chair Jefferson said late on Friday that inflation is now his main guide for policy, without giving a timetable for further rises. Kraken's weekend price, a guide to the reopening, has eased from 1.3209 at Friday's close to about 1.3169, with EUR/USD down by a similar share from 1.1014 to 1.0982, so the move comes from the dollar rather than the pound, though no report read ties it directly to the weekend news.",
+   "t": "2026-11-15T13:42:13Z",
+   "rate": 1.31693
+  },
   {
    "title": "Sterling has slipped further as the dollar stays firm into the weekend",
    "text": "GBP/USD fell from about 1.3230 at 19:35 Dubai to about 1.3220 by 19:45, a few minutes before Fed Vice Chair Bowman was due to speak, and drifted to a low near 1.3207 at 20:50 Dubai before standing near 1.3205 at 21:35. EUR/USD fell over the same period from about 1.1034 to 1.1023, roughly half as far, so the dollar firmed and the pound was also slightly softer against it; a firmer dollar means fewer dirhams per pound. No report read names a fresh trigger for the slide, which came with no new US or UK figures out, while Investing.com and InvestingCube described a dollar near its highest since April 2025 on bets of further Fed rises, with the US two year yield up 34 basis points in two sessions to 4.89% earlier on Friday.",
@@ -346,13 +411,6 @@
    "when": "2026-11-10T13:30:00Z",
    "t": "2026-11-10T13:39:14Z",
    "rate": 1.33921
-  },
-  {
-   "title": "The dollar has firmed as Fed Governor Waller calls for a December rise",
-   "text": "Speaking in London at 13:00 Dubai, Fed Governor Waller said US inflation is too high and that he would support a quarter point rise in December even if October prices improve, with a half point rise possibly needed if core inflation comes in around 0.3% or higher, according to FXStreet and CNBC. A firmer Fed means higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3452 just before he began to about 1.3434 within two minutes and to about 1.3429 by 13:10 Dubai, while EUR/USD fell in step from about 1.1248 to 1.1227, so the move came from the dollar rather than the pound.",
-   "when": "2026-11-10T09:00:00Z",
-   "t": "2026-11-10T09:39:20Z",
-   "rate": 1.34309
   }
  ]
 }
