@@ -1,36 +1,60 @@
 {
- "updated": "2026-11-15T13:42:13Z",
- "headline": "Sterling is about 1.3235 dollars on Friday evening in Dubai, having risen briefly after US producer prices rose 0.3% in October against 0.4% forecast and then eased back as the US ten year yield climbed above 5.15%; it is down from about 1.3345 on Wednesday as the dollar holds near its highest since April 2025 on bets of a December Fed rise. Oil is near $95 a barrel (about £72) after claimed Houthi strikes on Saudi oil sites, and several Fed speakers follow this evening.",
+ "updated": "2026-11-16T03:40:15Z",
+ "headline": "Sterling is about 1.3201 dollars early on Monday in Dubai, back near Friday's close of 1.3209 after a dip in the weekend price, while the dollar index stands at 103.44, near its highest since April 2025, on bets of a Fed rise in December. Oil has eased to about $95 a barrel (about £72) on the IEA's outlook for a surplus despite weekend attacks in the Gulf, and Fed Chair Warsh speaks at 21:00 Dubai.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "CME FedWatch shows a quarter point Fed rise at the meeting ending on 9 December as fully priced, with about a 13% chance of a half point, according to a market close report on 12 November. Cleveland Fed President Hammack said on 12 November that policy needs to become restrictive through smaller, more frequent rises, and Governor Waller has said he would back a quarter point in December."
+   "text": "CME FedWatch on Monday 16 November showed a 93.9% chance of a quarter point Fed rise at the meeting ending on 9 December and a 6% chance of a half point, down from 11.5% on Friday, with traders narrowly pricing four rises by September 2027, according to Reuters. Kansas City Fed President Schmid said on Sunday that the Fed has some work to do on inflation."
   },
   {
    "title": "US inflation and yields",
-   "text": "US consumer prices rose 0.4% in October against 0.3% expected, according to the Bureau of Labor Statistics on 10 November. On 12 November the US ten year yield rose about 12 basis points to 5.10% and the two year about 15 basis points to 4.88%, and the dollar index closed at 103.19, near its highest since April 2025."
+   "text": "US consumer prices rose 0.4% in October against 0.3% expected, according to the Bureau of Labor Statistics on 10 November, while producer prices rose 0.3% against 0.4% forecast on 13 November. The US ten year yield stood at 5.143% early on 16 November, slightly lower on the day, and the dollar index at 103.44, near its highest since April 2025."
   },
   {
    "title": "Gulf attacks and oil",
-   "text": "Brent crude settled at $95.82 a barrel (about £72.40) on 12 November, up 3.3%, after Yemen's Houthis claimed strikes on Saudi Arabia's East-West pipeline, the Yanbu oil facility and an Aramco building in Riyadh, according to AFP. President Trump also said the US does not need a deal with Iran, and the standoff around the Strait of Hormuz continues; Gulf tension and dearer oil tend to support the dollar."
+   "text": "Over the weekend Bahrain said it intercepted Iranian drones aimed at US radar sites, Iran claimed two tankers hit mines south of the Strait of Hormuz, and Saudi Arabia intercepted Houthi missiles and drones with no damage reported, according to Reuters reports relayed by Fox News on 15 November. Brent still eased to $95.00 a barrel (about £72) early on 16 November after the IEA forecast a return to surplus in the fourth quarter; Gulf tension and dearer oil tend to support the dollar."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November, its first rise in more than three years. UK output grew 0.7% in the third quarter and 0.2% in September, against no growth expected, according to the ONS on 12 November, and Deputy Governor Lombardelli has said she would not rule out a further rise in December."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November, its first rise in more than three years. UK output grew 0.7% in the third quarter and 0.2% in September, against no growth expected, according to the ONS on 12 November, and Deputy Governor Lombardelli has said a December rise is in play."
   }
  ],
  "lower": [
-  "Fed speakers this evening, including Collins, Logan, Bowman and Daly, backing a half point rise in December, which would lift US yields and the dollar.",
-  "Confirmed damage to Saudi oil sites or fresh attacks on shipping near the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven.",
-  "Bank of England speakers leaning against a further rise in December, which would take away support the pound has."
+  "Fed Chair Warsh this evening backing a faster pace of rises or a half point in December, which would lift US yields and the dollar and mean fewer dirhams per pound.",
+  "Confirmed damage to Saudi oil sites or tankers near the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven.",
+  "Weak UK wage figures on Tuesday or softer UK inflation on Wednesday, which would make a December Bank of England rise less likely and take support from the pound."
  ],
  "higher": [
-  "Fed speakers playing down a half point rise or the pace of further rises, which would take some strength out of the dollar, as the slightly softer producer prices did this afternoon.",
-  "The Houthi claims proving to have caused no damage, or progress towards talks with Iran, which would tend to pull oil down and weaken the dollar.",
-  "Bank of England speakers reading Thursday's growth figures as backing a December rise, which would lift the pound."
+  "A cautious tone from Warsh, or US retail sales on Tuesday below the 0.2% forecast, which would ease bets on Fed rises and weaken the dollar.",
+  "Progress at Iran's talks with Oman in Muscat on Tuesday, or a calmer weekend in the Gulf proving lasting, which would tend to pull oil down and soften the dollar.",
+  "UK wages above 3.5% on Tuesday or UK inflation above 3.6% on Wednesday, which would firm bets on a December Bank of England rise and lift the pound."
  ],
- "watch": "Fed Chair Warsh speaks at 21:00 on Monday, Dubai time. UK wage figures follow at 11:00 on Tuesday and US retail sales at 17:30, then UK inflation at 11:00 on Wednesday, with Governor Bailey speaking at 11:30 and 19:00 and the minutes of the Fed's last meeting at 23:00. A cautious tone from Warsh or weak US retail sales would tend to weaken the dollar and mean more dirhams per pound, while firm UK wages and inflation, or a firm tone from Bailey, would tend to lift the pound and help someone selling pounds for dirhams.",
+ "watch": "Fed Chair Warsh speaks at 21:00 on Monday, Dubai time. UK wage figures follow at 11:00 on Tuesday, forecast 3.5% against 3.7% before, and US retail sales at 17:30, forecast 0.2%, then UK inflation at 11:00 on Wednesday, forecast 3.6%, with Governor Bailey speaking at 11:30 and 19:00 and the Fed minutes at 23:00. A cautious Warsh or weak US retail sales would tend to weaken the dollar and mean more dirhams per pound, while UK wages and inflation above forecast would tend to lift the pound and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Yen steady against euro and dollar after soft Japanese GDP data (Reuters)",
+   "site": "Business Recorder",
+   "url": "https://brecorder.com/news/40449131/yen-steady-against-euro-and-dollar-after-soft-japanese-gdp-data",
+   "date": "16 Nov"
+  },
+  {
+   "title": "Oil prices dip as markets look to recovering supplies, Middle East tensions",
+   "site": "Investing.com",
+   "url": "https://uk.investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-4983435",
+   "date": "16 Nov"
+  },
+  {
+   "title": "Iran war live: Bahrain air defences foil IRGC strike on US base radar",
+   "site": "Fox News",
+   "url": "https://foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
+   "date": "15 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "16 Nov"
+  },
   {
    "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
    "site": "Al Jazeera",
@@ -78,30 +102,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/feds-logan-sees-two-more-hikes-flags-faster-winter-tightening-202611101613",
    "date": "10 Nov"
-  },
-  {
-   "title": "10-year Treasury yield moves to 5.15% as traders weigh producer price report",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-   "date": "13 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "13 Nov"
-  },
-  {
-   "title": "Producer Price Indexes, October 2026",
-   "site": "Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-   "date": "13 Nov"
-  },
-  {
-   "title": "PPI detailed table 1",
-   "site": "Bureau of Labor Statistics",
-   "url": "https://www.bls.gov/news.release/ppi.t01.htm",
-   "date": "13 Nov"
   }
  ],
  "calendar": [
@@ -163,7 +163,7 @@
   {
    "t": "2026-11-18T07:30:00Z",
    "ccy": "GBP",
-   "impact": "High",
+   "impact": "Medium",
    "name": "Bank of England Governor Bailey speaks",
    "title": "BOE Gov Bailey Speaks",
    "forecast": "",
@@ -227,17 +227,6 @@
    "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
   },
   {
-   "t": "2026-11-20T13:25:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "Fed's Waller speaks",
-   "title": "FOMC Member Waller Speaks",
-   "forecast": "",
-   "previous": "",
-   "good": "A cautious tone on further rises",
-   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
-  },
-  {
    "t": "2026-11-20T15:00:00Z",
    "ccy": "USD",
    "impact": "Medium",
@@ -260,8 +249,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-15T13:42:13Z",
+ "calendarUpdated": "2026-11-16T03:40:15Z",
  "feed": [
+  {
+   "title": "The market has reopened with sterling back near Friday's close",
+   "text": "When the banks' market reopened late on Sunday, GBP/USD jumped from about 1.3190 to 1.3208 within a minute at 02:05 Dubai, undoing the weekend dip in Kraken's price to about 1.3166, and stood near 1.3201 at 07:40 Dubai, against 1.3209 at Friday's close. EUR/USD rose by a similar share since Sunday afternoon, from about 1.0982 to 1.1013, so the move came from a slightly softer dollar, which means a few more dirhams per pound. The Saudi-led coalition reported no damage from the weekend's Houthi missiles and drones, Brent eased about 1% to $95.00 a barrel (about £72) after the IEA said the oil market should return to a surplus this quarter, and CME FedWatch put the chance of a half point Fed rise in December at 6%, down from 11.5% on Friday, though no report read ties the reopening move to any one of these.",
+   "t": "2026-11-16T03:40:15Z",
+   "rate": 1.32025
+  },
   {
    "title": "The dollar has firmed at the weekend as Houthi attacks on Saudi Arabia go on",
    "text": "The Saudi-led coalition said early on Sunday that it had intercepted two Houthi ballistic missiles fired towards Riyadh and three drones over the oil-producing Eastern Province, a day after the US Embassy in Riyadh issued a nationwide security alert, according to Al Jazeera; no damage was reported. Gulf tension tends to lift the dollar as a safe haven, which means fewer dirhams per pound, and Fed Vice Chair Jefferson said late on Friday that inflation is now his main guide for policy, without giving a timetable for further rises. Kraken's weekend price, a guide to the reopening, has eased from 1.3209 at Friday's close to about 1.3169, with EUR/USD down by a similar share from 1.1014 to 1.0982, so the move comes from the dollar rather than the pound, though no report read ties it directly to the weekend news.",
@@ -404,13 +399,6 @@
    "text": "The dollar kept rising through the afternoon after hotter US inflation and Fed Governor Waller's call for a December rise, with FXStreet reporting the CME FedWatch tool at about 85% for a quarter point Fed rise in December and 14% for a half point rise; a firmer Fed means higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD eased from about 1.3392 at 17:39 Dubai to about 1.3370 by 19:00 Dubai, then dropped from about 1.3372 at 19:22 Dubai to about 1.3350 by 19:37 Dubai, while EUR/USD fell only from about 1.1186 to 1.1167 over the whole period, so the pound did a little worse than the euro. No report read names a trigger for the sharp step after 19:20 Dubai, and nothing new about the UK economy or the Bank of England has been found to explain the pound's extra weakness.",
    "t": "2026-11-10T15:39:46Z",
    "rate": 1.33515
-  },
-  {
-   "title": "The dollar has jumped after hotter US inflation figures",
-   "text": "US consumer prices rose 0.4% in October against 0.3% expected, and 0.3% excluding food and energy against 0.2% expected, with energy up 0.7%, according to the Bureau of Labor Statistics. Hotter US inflation makes a December Fed rise more likely and, with Governor Waller saying a core figure around 0.3% could justify a half point rise, lifts US yields and the dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3421 just before the release to about 1.3392 within a minute and stood near 1.3393 eight minutes later, while EUR/USD fell in step from about 1.1209 to 1.1183, so the move came from a stronger dollar.",
-   "when": "2026-11-10T13:30:00Z",
-   "t": "2026-11-10T13:39:14Z",
-   "rate": 1.33921
   }
  ]
 }
