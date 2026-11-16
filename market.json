@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T03:40:15Z",
+ "updated": "2026-11-16T08:39:28Z",
  "headline": "Sterling is about 1.3201 dollars early on Monday in Dubai, back near Friday's close of 1.3209 after a dip in the weekend price, while the dollar index stands at 103.44, near its highest since April 2025, on bets of a Fed rise in December. Oil has eased to about $95 a barrel (about £72) on the IEA's outlook for a surplus despite weekend attacks in the Gulf, and Fed Chair Warsh speaks at 21:00 Dubai.",
  "drivers": [
   {
@@ -29,8 +29,26 @@
   "Progress at Iran's talks with Oman in Muscat on Tuesday, or a calmer weekend in the Gulf proving lasting, which would tend to pull oil down and soften the dollar.",
   "UK wages above 3.5% on Tuesday or UK inflation above 3.6% on Wednesday, which would firm bets on a December Bank of England rise and lift the pound."
  ],
- "watch": "Fed Chair Warsh speaks at 21:00 on Monday, Dubai time. UK wage figures follow at 11:00 on Tuesday, forecast 3.5% against 3.7% before, and US retail sales at 17:30, forecast 0.2%, then UK inflation at 11:00 on Wednesday, forecast 3.6%, with Governor Bailey speaking at 11:30 and 19:00 and the Fed minutes at 23:00. A cautious Warsh or weak US retail sales would tend to weaken the dollar and mean more dirhams per pound, while UK wages and inflation above forecast would tend to lift the pound and help someone selling pounds for dirhams.",
+ "watch": "New York Fed President Williams speaks at about 18:00 on Monday, Dubai time, and Fed Chair Warsh at 21:00. UK wage figures follow at 11:00 on Tuesday, forecast 3.5% against 3.7% before, and US retail sales at 17:30, forecast 0.2%, then UK inflation at 11:00 on Wednesday, forecast 3.6%, with Governor Bailey speaking at 11:30 and 19:00 and the Fed minutes at 23:00. A cautious Warsh or Williams, or weak US retail sales, would tend to weaken the dollar and mean more dirhams per pound, while UK wages and inflation above forecast would tend to lift the pound and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Dollar Index breaks above 103 as risk sentiment deteriorates",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/dollar-index-breaks-above-103-as-risk-sentiment-deteriorates-202611160817",
+   "date": "16 Nov"
+  },
+  {
+   "title": "U.S. Treasury yields top 5% as Warsh speech draws focus",
+   "site": "Seoul Economic Daily",
+   "url": "https://en.sedaily.com/world/2026/11/16/us-10-year-yield-tops-5-percent-as-markets-await-fed-chair",
+   "date": "16 Nov"
+  },
+  {
+   "title": "GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "16 Nov"
+  },
   {
    "title": "Yen steady against euro and dollar after soft Japanese GDP data (Reuters)",
    "site": "Business Recorder",
@@ -48,12 +66,6 @@
    "site": "Fox News",
    "url": "https://foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
    "date": "15 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "16 Nov"
   },
   {
    "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
@@ -90,18 +102,6 @@
    "site": "Newsquawk",
    "url": "https://www.newsquawk.com/headlines/primer--todays-fedspeak-includes-goolsbee-collins-logan-bowman-daly-jefferson",
    "date": "13 Nov"
-  },
-  {
-   "title": "Fed's Logan (2026 voter) does not comment on monetary policy or economic outlook",
-   "site": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/feds-logan-2026-voter-does-not-comment-on-monetary-policy-or-economic-outlook",
-   "date": "13 Nov"
-  },
-  {
-   "title": "Fed's Logan sees two more hikes, flags faster winter tightening",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/feds-logan-sees-two-more-hikes-flags-faster-winter-tightening-202611101613",
-   "date": "10 Nov"
   }
  ],
  "calendar": [
@@ -249,8 +249,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-16T03:40:15Z",
+ "calendarUpdated": "2026-11-16T08:39:28Z",
  "feed": [
+  {
+   "title": "Sterling has held steady as the dollar stays firm ahead of Warsh",
+   "text": "GBP/USD has barely moved this morning, from about 1.3203 at 07:40 Dubai to 1.3202 at 12:38, within a range from a high near 1.3209 at 09:35 to a low near 1.3190 at 10:58; EUR/USD moved in step, from 1.1013 to 1.1010, so the small swings came from the dollar rather than the pound. FXStreet reported at 08:17 GMT that the dollar index had broken above 103 on expectations of another Fed rise, weaker shares and fading appetite for risk, with oil opening lower and then turning higher, while Seoul Economic Daily reported the US ten year yield back above 5% ahead of Fed Chair Warsh's speech. A firm dollar means fewer dirhams per pound, but so far it has only held sterling in place rather than pushed it lower.",
+   "t": "2026-11-16T08:39:28Z",
+   "rate": 1.32021
+  },
   {
    "title": "The market has reopened with sterling back near Friday's close",
    "text": "When the banks' market reopened late on Sunday, GBP/USD jumped from about 1.3190 to 1.3208 within a minute at 02:05 Dubai, undoing the weekend dip in Kraken's price to about 1.3166, and stood near 1.3201 at 07:40 Dubai, against 1.3209 at Friday's close. EUR/USD rose by a similar share since Sunday afternoon, from about 1.0982 to 1.1013, so the move came from a slightly softer dollar, which means a few more dirhams per pound. The Saudi-led coalition reported no damage from the weekend's Houthi missiles and drones, Brent eased about 1% to $95.00 a barrel (about £72) after the IEA said the oil market should return to a surplus this quarter, and CME FedWatch put the chance of a half point Fed rise in December at 6%, down from 11.5% on Friday, though no report read ties the reopening move to any one of these.",
@@ -393,12 +399,6 @@
    "text": "The dollar kept its footing into the evening after October's hotter US consumer prices and Fed Governor Waller's call for a December rise, with CNBC reporting the CME FedWatch tool at about 88% for a quarter point rise in December and 11% for a half point rise, and the US two year yield up about 0.12 points on the day at about 4.68%, according to ActionForex. Higher US yields and a firmer Fed mean a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3350 at 19:40 Dubai to a low near 1.3309 at 20:40 Dubai and stood near 1.3322 at 21:35 Dubai, while EUR/USD fell from about 1.1164 to 1.1140, so most of the move came from the dollar; no fresh news was found to explain this particular step, and it looks like a continuation of the day's move.",
    "t": "2026-11-10T17:39:30Z",
    "rate": 1.33222
-  },
-  {
-   "title": "Sterling has slid further as the dollar extends its gains after US prices",
-   "text": "The dollar kept rising through the afternoon after hotter US inflation and Fed Governor Waller's call for a December rise, with FXStreet reporting the CME FedWatch tool at about 85% for a quarter point Fed rise in December and 14% for a half point rise; a firmer Fed means higher US yields and a stronger dollar, which means fewer dirhams per pound. GBP/USD eased from about 1.3392 at 17:39 Dubai to about 1.3370 by 19:00 Dubai, then dropped from about 1.3372 at 19:22 Dubai to about 1.3350 by 19:37 Dubai, while EUR/USD fell only from about 1.1186 to 1.1167 over the whole period, so the pound did a little worse than the euro. No report read names a trigger for the sharp step after 19:20 Dubai, and nothing new about the UK economy or the Bank of England has been found to explain the pound's extra weakness.",
-   "t": "2026-11-10T15:39:46Z",
-   "rate": 1.33515
   }
  ]
 }
