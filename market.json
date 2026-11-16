@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:39:23Z",
+ "updated": "2026-11-16T16:39:18Z",
  "headline": "Sterling is about 1.3201 dollars early on Monday in Dubai, back near Friday's close of 1.3209 after a dip in the weekend price, while the dollar index stands at 103.44, near its highest since April 2025, on bets of a Fed rise in December. Oil has eased to about $95 a barrel (about £72) on the IEA's outlook for a surplus despite weekend attacks in the Gulf, and Fed Chair Warsh speaks at 21:00 Dubai.",
  "drivers": [
   {
@@ -31,6 +31,12 @@
  ],
  "watch": "New York Fed President Williams speaks at about 18:00 on Monday, Dubai time, and Fed Chair Warsh at 21:00. UK wage figures follow at 11:00 on Tuesday, forecast 3.5% against 3.7% before, and US retail sales at 17:30, forecast 0.2%, then UK inflation at 11:00 on Wednesday, forecast 3.6%, with Governor Bailey speaking at 11:30 and 19:00 and the Fed minutes at 23:00. A cautious Warsh or Williams, or weak US retail sales, would tend to weaken the dollar and mean more dirhams per pound, while UK wages and inflation above forecast would tend to lift the pound and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "US Dollar Index extends gains as traders bet on a longer Fed hiking cycle",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-dollar-index-extends-gains-as-traders-bet-on-a-longer-fed-hiking-cycle-202611161214",
+   "date": "16 Nov"
+  },
   {
    "name": "FXStreet: Pound Sterling Price News and Forecast: GBP/USD needs support, 16 November 2026",
    "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-usd-needs-support-202611161120"
@@ -90,12 +96,6 @@
    "site": "Investing.com",
    "url": "https://uk.investing.com/news/commodities-news/oil-prices-dip-as-markets-look-to-recovering-supplies-meast-tensions-4983435",
    "date": "16 Nov"
-  },
-  {
-   "title": "Iran war live: Bahrain air defences foil IRGC strike on US base radar",
-   "site": "Fox News",
-   "url": "https://foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15",
-   "date": "15 Nov"
   }
  ],
  "calendar": [
@@ -243,8 +243,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-16T13:39:23Z",
+ "calendarUpdated": "2026-11-16T16:39:18Z",
  "feed": [
+  {
+   "title": "The dollar has edged higher again before Warsh speaks",
+   "text": "GBP/USD slipped from about 1.3195 at 18:10 Dubai, around the time New York Fed President Williams was due to speak, to a low near 1.3176 at 19:55 and stood near 1.3183 at 20:30, while EUR/USD fell by a similar share, from about 1.1012 to 1.0998, so the move came from a firmer dollar rather than from the pound; a firmer dollar means fewer dirhams per pound. No report read names a trigger for this small slide, and no report of what Williams said had been found, but FXStreet described the dollar index near 103.50, its highest since April 2025, on bets of a longer run of Fed rises after a third hot core inflation reading, with the US two year yield near 4.85% and the ten year near 5.13%, ahead of Fed Chair Warsh at 21:00 Dubai.",
+   "t": "2026-11-16T16:39:18Z",
+   "rate": 1.31805
+  },
   {
    "title": "Sterling has edged back up as the dollar pauses before the Fed speeches",
    "text": "GBP/USD recovered from about 1.3182 at 13:45 Dubai, after a low near 1.3178 at about 15:15, to around 1.3195 by 16:00 and stayed there until 17:40, while EUR/USD rose a little less, from about 1.1002 to 1.1010, so the dollar eased slightly and the pound was marginally firmer; a softer dollar means a few more dirhams per pound. No report read names a trigger for this small move, which came with no US or UK figures out, and FXStreet described the dollar index as still near its highest since April 2025 on bets of a Fed rise in December, with traders waiting for New York Fed President Williams at about 18:00 Dubai and Fed Chair Warsh at 21:00.",
@@ -387,12 +393,6 @@
    "text": "GBP/USD eased from about 1.3349 at 09:25 Dubai to about 1.3331 by 10:35 Dubai, while EUR/USD fell in step from about 1.1165 to 1.1153, so most of the move came from a slightly firmer dollar rather than news about the pound. No report read names a fresh trigger: FXStreet described the dollar index as steady near 102.20 in Asian trade, with futures still pricing about a 91% chance of a December Fed rise after Tuesday's hotter US prices and Chicago Fed President Goolsbee calling them borderline disturbing. A firmer Fed outlook keeps the dollar supported, which means fewer dirhams per pound, and no UK figures are due until Thursday.",
    "t": "2026-11-11T06:39:45Z",
    "rate": 1.33312
-  },
-  {
-   "title": "Sterling has held steady overnight as the dollar keeps its gains",
-   "text": "Asian trading brought no fresh news for the pound or the dollar: Reuters reported the dollar index steady at 102.22, near its highest since 28 October, after Tuesday's 0.5% rise on hotter US prices, with futures now pricing a 91.9% chance of a quarter point Fed rise in December. The US bond market is shut today for Veterans Day, and no US or UK figures are due until Thursday. GBP/USD stayed between about 1.3342 and 1.3352 from midnight to 07:30 Dubai and stood near 1.3346 at 07:30 Dubai, close to where it ended in New York.",
-   "t": "2026-11-11T03:39:58Z",
-   "rate": 1.33454
   }
  ]
 }
