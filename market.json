@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:39:28Z",
+ "updated": "2026-11-16T09:39:43Z",
  "headline": "Sterling is about 1.3201 dollars early on Monday in Dubai, back near Friday's close of 1.3209 after a dip in the weekend price, while the dollar index stands at 103.44, near its highest since April 2025, on bets of a Fed rise in December. Oil has eased to about $95 a barrel (about £72) on the IEA's outlook for a surplus despite weekend attacks in the Gulf, and Fed Chair Warsh speaks at 21:00 Dubai.",
  "drivers": [
   {
@@ -31,6 +31,24 @@
  ],
  "watch": "New York Fed President Williams speaks at about 18:00 on Monday, Dubai time, and Fed Chair Warsh at 21:00. UK wage figures follow at 11:00 on Tuesday, forecast 3.5% against 3.7% before, and US retail sales at 17:30, forecast 0.2%, then UK inflation at 11:00 on Wednesday, forecast 3.6%, with Governor Bailey speaking at 11:30 and 19:00 and the Fed minutes at 23:00. A cautious Warsh or Williams, or weak US retail sales, would tend to weaken the dollar and mean more dirhams per pound, while UK wages and inflation above forecast would tend to lift the pound and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Forex Today: Markets turn cautious to start week, US Dollar holds firm",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-markets-turn-cautious-to-start-week-us-dollar-holds-firm-202611160721",
+   "date": "16 Nov"
+  },
+  {
+   "title": "Market Quick Take: Fed Chair Warsh to speak today",
+   "site": "Saxo",
+   "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---fed-chair-warsh-to-speak-today---16-november-2026-16112026",
+   "date": "16 Nov"
+  },
+  {
+   "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+   "site": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40449126/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+   "date": "16 Nov"
+  },
   {
    "title": "Dollar Index breaks above 103 as risk sentiment deteriorates",
    "site": "FXStreet",
@@ -84,24 +102,6 @@
    "site": "Forex Factory",
    "url": "https://www.forexfactory.com/calendar",
    "date": "15 Nov"
-  },
-  {
-   "title": "US Dollar Index Forecast: Treasury Yields Break 5%. Is DXY Heading for 104?",
-   "site": "InvestingCube",
-   "url": "https://www.investingcube.com/forex/us-dollar-index-forecast-treasury-yields-break-5-is-dxy-heading-for-104/",
-   "date": "13 Nov"
-  },
-  {
-   "title": "Sterling today: Pound slips as dollar steadies on Fed tightening bets",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-steadies-on-fed-tightening-bets-5014423",
-   "date": "13 Nov"
-  },
-  {
-   "title": "Primer: today's Fedspeak includes Goolsbee, Collins, Logan, Bowman, Daly, Jefferson",
-   "site": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/primer--todays-fedspeak-includes-goolsbee-collins-logan-bowman-daly-jefferson",
-   "date": "13 Nov"
   }
  ],
  "calendar": [
@@ -249,8 +249,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-16T08:39:28Z",
+ "calendarUpdated": "2026-11-16T09:39:43Z",
  "feed": [
+  {
+   "title": "The dollar has firmed in London trading as markets turn cautious",
+   "text": "GBP/USD slipped from about 1.3214 at 13:03 Dubai to a low near 1.3182 at 13:36, while EUR/USD fell by a similar share, from 1.1026 to 1.1002, its weakest in 19 months, so the move came from a firmer dollar rather than from the pound; a firmer dollar means fewer dirhams per pound. No report read names a trigger for this half hour, which came with no US or UK figures out, but FXStreet described markets turning cautious on Monday, with US share futures down between 0.2% and 1% and traders still betting on a Fed rise in December, while Saxo reported Brent back up to $96.60 a barrel (about £73) after Iranian drones were fired at a US base in Bahrain and a tanker hit a mine near the Strait of Hormuz. Gulf tension and bets on higher US interest rates both tend to lift the dollar ahead of Fed Chair Warsh's speech at 21:00 Dubai.",
+   "t": "2026-11-16T09:39:43Z",
+   "rate": 1.31825
+  },
   {
    "title": "Sterling has held steady as the dollar stays firm ahead of Warsh",
    "text": "GBP/USD has barely moved this morning, from about 1.3203 at 07:40 Dubai to 1.3202 at 12:38, within a range from a high near 1.3209 at 09:35 to a low near 1.3190 at 10:58; EUR/USD moved in step, from 1.1013 to 1.1010, so the small swings came from the dollar rather than the pound. FXStreet reported at 08:17 GMT that the dollar index had broken above 103 on expectations of another Fed rise, weaker shares and fading appetite for risk, with oil opening lower and then turning higher, while Seoul Economic Daily reported the US ten year yield back above 5% ahead of Fed Chair Warsh's speech. A firm dollar means fewer dirhams per pound, but so far it has only held sterling in place rather than pushed it lower.",
@@ -393,12 +399,6 @@
    "text": "GBP/USD rose from about 1.3322 at 21:40 Dubai to about 1.3340 by 22:45 Dubai, after a step from about 1.3334 to 1.3340 between 22:35 and 22:40 Dubai, and stood near 1.3342 at 23:35 Dubai, while EUR/USD rose in step from about 1.1144 to 1.1160, so the gain came from a slightly softer dollar rather than news about the pound. No report read names a trigger: the US ten year auction at 22:00 Dubai was described as soft, at a yield of 5.02% with dealers left holding 10%, and Treasury yields stayed near the day's highs, which would normally support the dollar rather than weaken it. The move looks like some of the day's dollar gains after hotter US prices being given back, with a December Fed rise still almost fully priced.",
    "t": "2026-11-10T19:39:13Z",
    "rate": 1.33432
-  },
-  {
-   "title": "Sterling has slipped again as the dollar holds its gains after US prices",
-   "text": "The dollar kept its footing into the evening after October's hotter US consumer prices and Fed Governor Waller's call for a December rise, with CNBC reporting the CME FedWatch tool at about 88% for a quarter point rise in December and 11% for a half point rise, and the US two year yield up about 0.12 points on the day at about 4.68%, according to ActionForex. Higher US yields and a firmer Fed mean a stronger dollar, which means fewer dirhams per pound. GBP/USD fell from about 1.3350 at 19:40 Dubai to a low near 1.3309 at 20:40 Dubai and stood near 1.3322 at 21:35 Dubai, while EUR/USD fell from about 1.1164 to 1.1140, so most of the move came from the dollar; no fresh news was found to explain this particular step, and it looks like a continuation of the day's move.",
-   "t": "2026-11-10T17:39:30Z",
-   "rate": 1.33222
   }
  ]
 }
