@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T11:39:29Z",
- "headline": "Sterling is about 1.3187 dollars on Tuesday morning, little changed after mixed UK jobs figures, and down from just above 1.3500 on 4 November as the dollar has firmed on bets of a Fed rise in December. US retail sales at 17:30 Dubai come next, with UK inflation and the Fed minutes on Wednesday.",
+ "updated": "2026-11-17T13:39:18Z",
+ "headline": "Sterling is about 1.3173 dollars on Tuesday afternoon, a little lower after US retail sales came in slightly above forecast, and down from just above 1.3500 on 4 November as the dollar has firmed on bets of a Fed rise in December. UK inflation and the Fed minutes come on Wednesday.",
  "drivers": [
   {
    "title": "The Fed",
@@ -21,16 +21,22 @@
  ],
  "lower": [
   "UK inflation below forecast on Wednesday, which would make a December Bank of England rise less likely and take support from the pound.",
-  "US retail sales above the 0.2% forecast at 17:30 Dubai today, which would firm bets on further Fed rises and lift the dollar, meaning fewer dirhams per pound.",
+  "Fed minutes on Wednesday that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
   "Fresh damage to tankers or oil sites near the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
   "UK inflation above forecast on Wednesday, which would firm bets on a December Bank of England rise and lift the pound.",
-  "US retail sales below the 0.2% forecast today, or Fed minutes on Wednesday showing doubts about further rises, which would weaken the dollar and mean more dirhams per pound.",
+  "Fed minutes on Wednesday showing doubts about further rises, which would weaken the dollar and mean more dirhams per pound.",
   "Oil continuing to fall as the IEA's expected surplus arrives, which would tend to soften the dollar."
  ],
- "watch": "US retail sales come out at 17:30 Dubai today, forecast 0.2% against 0.8% before. UK inflation follows at 11:00 on Wednesday, forecast between 3.6% and 3.7% against 3.5%, with Governor Bailey at 11:30 and 19:00 and the Fed minutes at 23:00. US retail sales below forecast and UK inflation above would tend to help someone selling pounds for dirhams.",
+ "watch": "UK inflation comes out at 11:00 Dubai on Wednesday, forecast between 3.6% and 3.7% against 3.5%, with Governor Bailey at 11:30 and 19:00 and the Fed minutes at 23:00. UK inflation above forecast, or minutes showing doubts about further Fed rises, would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Advance monthly sales for retail and food services, October 2026",
+   "site": "US Census Bureau",
+   "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+   "date": "17 Nov"
+  },
   {
    "title": "Gold struggles near $3,850 as traders bet on back to back Fed rate hikes",
    "site": "FXStreet",
@@ -96,12 +102,6 @@
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
    "date": "17 Nov"
-  },
-  {
-   "title": "Fed's Warsh doesn't talk about monetary policy in a speech on AI",
-   "site": "investingLive",
-   "url": "https://investinglive.com/central-banks/fed-s-warsh-doesn-t-talk-about-monetary-policy-in-a-speech-on-ai/",
-   "date": "16 Nov"
   }
  ],
  "calendar": [
@@ -249,8 +249,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-17T11:39:29Z",
+ "calendarUpdated": "2026-11-17T13:39:18Z",
  "feed": [
+  {
+   "title": "The dollar has firmed after US retail sales beat forecasts",
+   "text": "US retail sales rose 0.2% in October against 0.1% forecast, and sales excluding cars rose about 0.6% against 0.4% expected, according to the Census Bureau, with September's 0.8% gain left unrevised. Steady spending supports the case for the Fed rise that markets already price for December, which firms the dollar and means fewer dirhams per pound. GBP/USD fell from 1.3187 just before the release to 1.3177 within two minutes and was near 1.3173 eight minutes later, while EUR/USD fell from 1.0986 to 1.0970, so the move came from the dollar rather than the pound.",
+   "when": "2026-11-17T13:30:00Z",
+   "t": "2026-11-17T13:39:18Z",
+   "rate": 1.31737
+  },
   {
    "title": "Sterling has held steady through the London morning",
    "text": "GBP/USD stood near 1.3182 at 11:39 Dubai, dipped to a low near 1.3175 at about 12:10, rose to a high near 1.3198 at about 13:50 and was back near 1.3184 at 15:38, while EUR/USD drifted from about 1.0994 to 1.0990, so the dollar has been broadly steady and the number of dirhams per pound is almost unchanged. No report read names a trigger for these small swings: FXStreet said traders have now fully priced a Fed rise in December and see nearly a 70% chance of another in January, keeping the dollar index near 103.50, while MUFG described the UK jobs figures as a wobble, with private payrolls down 34,000 in October, but still expects the Bank of England to raise rates again, possibly in December. Attention now turns to US retail sales at 17:30 Dubai and Nvidia's results after the US close, which FXStreet says could shift risk appetite and the dollar.",
@@ -395,12 +402,6 @@
    "text": "The dollar strengthened again in Asian trade, with FXStreet reporting the dollar index above 103.00 for the first time since April 2025 as traders weigh a half point Fed rise in December after hotter US prices, and as continuing clashes around the Strait of Hormuz dent hopes of a US and Iran deal. A firmer dollar means fewer dirhams per pound: GBP/USD eased from about 1.3271 at 06:15 Dubai to a low near 1.3253 at 06:39 Dubai and stood near 1.3255 at 07:30 Dubai, while EUR/USD fell in step from about 1.1091 to 1.1070, so the move came from the dollar rather than news about the pound. UK growth figures for the third quarter come out at 11:00 Dubai, forecast at 0.7%.",
    "t": "2026-11-12T03:40:00Z",
    "rate": 1.32537
-  },
-  {
-   "title": "Sterling has held near its low through the New York afternoon",
-   "text": "GBP/USD has moved little since the last update, dipping to a low near 1.3267 at 19:00 Dubai, rising to a high near 1.3287 at 20:35 Dubai and standing near 1.3276 at 22:35 Dubai, while EUR/USD was almost unchanged at about 1.1089, so the dollar has held its gains rather than extended them. FXStreet reported the pound down 0.55% on the day below 1.33, with several Fed officials, including Dallas Fed President Logan and Philadelphia Fed President Paulson, sounding ready to raise rates further after Tuesday's hotter US prices, and a quarter point rise in December now fully priced; no fresh trigger was found for the afternoon's small moves. A firmer Fed outlook keeps the dollar supported, which means fewer dirhams per pound, and the next scheduled test is UK growth figures on Thursday at 11:00 Dubai.",
-   "t": "2026-11-11T18:39:17Z",
-   "rate": 1.32767
   }
  ]
 }
