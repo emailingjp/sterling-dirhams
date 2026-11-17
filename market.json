@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:39:18Z",
+ "updated": "2026-11-17T14:39:15Z",
  "headline": "Sterling is about 1.3173 dollars on Tuesday afternoon, a little lower after US retail sales came in slightly above forecast, and down from just above 1.3500 on 4 November as the dollar has firmed on bets of a Fed rise in December. UK inflation and the Fed minutes come on Wednesday.",
  "drivers": [
   {
@@ -32,6 +32,14 @@
  "watch": "UK inflation comes out at 11:00 Dubai on Wednesday, forecast between 3.6% and 3.7% against 3.5%, with Governor Bailey at 11:30 and 19:00 and the Fed minutes at 23:00. UK inflation above forecast, or minutes showing doubts about further Fed rises, would tend to help someone selling pounds for dirhams.",
  "sources": [
   {
+   "name": "FXStreet: Euro struggles as resilient US economic data backs hawkish Fed outlook (17 November 2026)",
+   "url": "https://www.fxstreet.com/news/euro-struggles-as-resilient-us-economic-data-backs-hawkish-fed-outlook-202611171429"
+  },
+  {
+   "name": "Kraken public GBP/USD and EUR/USD minute prices (17 November 2026)",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1"
+  },
+  {
    "title": "Advance monthly sales for retail and food services, October 2026",
    "site": "US Census Bureau",
    "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
@@ -53,12 +61,6 @@
    "title": "Oil: Lower prices as supply surplus builds, MUFG",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/oil-lower-prices-as-supply-surplus-builds-mufg-202611170945",
-   "date": "17 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "17 Nov"
   },
   {
@@ -96,12 +98,6 @@
    "site": "HDFC Sky",
    "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-16-2026-brent-falls-1percent-to-94-86-wti-slips-below-88-as-supply-surplus-looms",
    "date": "16 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "17 Nov"
   }
  ],
  "calendar": [
@@ -249,8 +245,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-17T13:39:18Z",
+ "calendarUpdated": "2026-11-17T14:39:15Z",
  "feed": [
+  {
+   "title": "The dollar has given back its gain from the retail sales figures",
+   "text": "GBP/USD fell to a low near 1.3172 at about 17:40 Dubai after the US retail sales release, then climbed steadily to about 1.3195 by 18:12 and stood near 1.3192 at 18:36, while EUR/USD rose from a low near 1.0968 to about 1.0990, so the recovery came from a softer dollar rather than the pound and means slightly more dirhams per pound. No report read names a trigger for the dollar easing: FXStreet still described it as firmly bid at 18:29 Dubai, with the dollar index near 103.60 and US two year and ten year yields near 4.85% and 5.14%, close to one month highs.",
+   "t": "2026-11-17T14:39:15Z",
+   "rate": 1.31908
+  },
   {
    "title": "The dollar has firmed after US retail sales beat forecasts",
    "text": "US retail sales rose 0.2% in October against 0.1% forecast, and sales excluding cars rose about 0.6% against 0.4% expected, according to the Census Bureau, with September's 0.8% gain left unrevised. Steady spending supports the case for the Fed rise that markets already price for December, which firms the dollar and means fewer dirhams per pound. GBP/USD fell from 1.3187 just before the release to 1.3177 within two minutes and was near 1.3173 eight minutes later, while EUR/USD fell from 1.0986 to 1.0970, so the move came from the dollar rather than the pound.",
@@ -396,12 +398,6 @@
    "when": "2026-11-12T07:00:00Z",
    "t": "2026-11-12T07:39:02Z",
    "rate": 1.32611
-  },
-  {
-   "title": "Sterling has slipped as the dollar index hits an 18 month high",
-   "text": "The dollar strengthened again in Asian trade, with FXStreet reporting the dollar index above 103.00 for the first time since April 2025 as traders weigh a half point Fed rise in December after hotter US prices, and as continuing clashes around the Strait of Hormuz dent hopes of a US and Iran deal. A firmer dollar means fewer dirhams per pound: GBP/USD eased from about 1.3271 at 06:15 Dubai to a low near 1.3253 at 06:39 Dubai and stood near 1.3255 at 07:30 Dubai, while EUR/USD fell in step from about 1.1091 to 1.1070, so the move came from the dollar rather than news about the pound. UK growth figures for the third quarter come out at 11:00 Dubai, forecast at 0.7%.",
-   "t": "2026-11-12T03:40:00Z",
-   "rate": 1.32537
   }
  ]
 }
