@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:39:15Z",
+ "updated": "2026-11-17T16:39:29Z",
  "headline": "Sterling is about 1.3173 dollars on Tuesday afternoon, a little lower after US retail sales came in slightly above forecast, and down from just above 1.3500 on 4 November as the dollar has firmed on bets of a Fed rise in December. UK inflation and the Fed minutes come on Wednesday.",
  "drivers": [
   {
@@ -31,6 +31,14 @@
  ],
  "watch": "UK inflation comes out at 11:00 Dubai on Wednesday, forecast between 3.6% and 3.7% against 3.5%, with Governor Bailey at 11:30 and 19:00 and the Fed minutes at 23:00. UK inflation above forecast, or minutes showing doubts about further Fed rises, would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "name": "FXStreet: British Pound snaps five-day losing streak amid growing BoE rate hike bets (17 November 2026)",
+   "url": "https://www.fxstreet.com/news/british-pound-snaps-five-day-losing-streak-amid-growing-boe-rate-hike-bets-202611171559"
+  },
+  {
+   "name": "Kraken public GBP/USD and EUR/USD prices (17 November 2026)",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5"
+  },
   {
    "name": "FXStreet: Euro struggles as resilient US economic data backs hawkish Fed outlook (17 November 2026)",
    "url": "https://www.fxstreet.com/news/euro-struggles-as-resilient-us-economic-data-backs-hawkish-fed-outlook-202611171429"
@@ -86,18 +94,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-declines-ahead-of-uk-jobs-data-202611170152",
    "date": "17 Nov"
-  },
-  {
-   "title": "UK jobs and inflation data are next for a Pound on a five-day slide",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/uk-jobs-and-inflation-data-are-next-for-a-pound-on-a-five-day-slide-202611162245",
-   "date": "16 Nov"
-  },
-  {
-   "title": "Crude oil falls as global supply surplus fears intensify",
-   "site": "HDFC Sky",
-   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-16-2026-brent-falls-1percent-to-94-86-wti-slips-below-88-as-supply-surplus-looms",
-   "date": "16 Nov"
   }
  ],
  "calendar": [
@@ -245,8 +241,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-17T14:39:15Z",
+ "calendarUpdated": "2026-11-17T16:39:29Z",
  "feed": [
+  {
+   "title": "The dollar has eased ahead of Nvidia's results",
+   "text": "GBP/USD rose from about 1.3187 at 19:20 Dubai to a high near 1.3218 at about 20:20 and stood near 1.3213 at 20:38, while EUR/USD rose from about 1.0991 to 1.1013, so the gain came mainly from a softer dollar and means slightly more dirhams per pound. FXStreet put the pound's first daily gain in six sessions down to a modest dollar pullback as traders turned cautious ahead of Nvidia's results after the US close, with the pound also supported by Reuters' report that markets price about a 91% chance of a Bank of England rise in December. No single news item marks the start of the move, and the dollar's fall was limited by St. Louis Fed President Musalem saying on Tuesday that several Fed rises would likely be needed before spring.",
+   "t": "2026-11-17T16:39:29Z",
+   "rate": 1.32134
+  },
   {
    "title": "The dollar has given back its gain from the retail sales figures",
    "text": "GBP/USD fell to a low near 1.3172 at about 17:40 Dubai after the US retail sales release, then climbed steadily to about 1.3195 by 18:12 and stood near 1.3192 at 18:36, while EUR/USD rose from a low near 1.0968 to about 1.0990, so the recovery came from a softer dollar rather than the pound and means slightly more dirhams per pound. No report read names a trigger for the dollar easing: FXStreet still described it as firmly bid at 18:29 Dubai, with the dollar index near 103.60 and US two year and ten year yields near 4.85% and 5.14%, close to one month highs.",
@@ -391,13 +393,6 @@
    "text": "The dollar index touched 103.08, its highest in 19 months, and then eased back to about 102.80 in the London morning, which FXStreet described as a correction from overbought levels rather than a change in the outlook, with traders still pricing a December Fed rise after hotter US prices. A softer dollar means more dirhams per pound: GBP/USD rose slowly from about 1.3262 at 11:39 Dubai to about 1.3277 at 14:35 Dubai, while EUR/USD rose in step from about 1.1074 to 1.1095, so the move came from the dollar rather than news about the pound. US weekly jobless claims come out at 17:30 Dubai, forecast at 194,000.",
    "t": "2026-11-12T10:39:23Z",
    "rate": 1.32739
-  },
-  {
-   "title": "UK growth has matched forecasts and September beat them",
-   "text": "The UK economy grew 0.7% in the third quarter, in line with the 0.7% forecast and up from 0.5% in the second, and output rose 0.2% in September against no growth expected, according to the ONS. Firmer growth supports the case for further Bank of England rises and so the pound, and GBP/USD rose from 1.3251 to 1.3264 within three minutes, then settled near 1.3255 before edging up to about 1.3261.",
-   "when": "2026-11-12T07:00:00Z",
-   "t": "2026-11-12T07:39:02Z",
-   "rate": 1.32611
   }
  ]
 }
