@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T16:39:37Z",
+ "updated": "2026-11-18T17:39:12Z",
  "headline": "Sterling is about 1.3164 dollars in the early afternoon on Wednesday, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar holds near its strongest since April 2025 ahead of the Fed minutes at 23:00 Dubai.",
  "drivers": [
   {
@@ -31,6 +31,18 @@
  "watch": "The Fed minutes come out at 23:00 Dubai tonight. Minutes showing doubts among Fed officials about further rises would tend to weaken the dollar and help someone selling pounds for dirhams, while a united call for more rises would tend to do the reverse.",
  "sources": [
   {
+   "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "18 Nov"
+  },
+  {
    "title": "Pound hits five-week low as UK CPI miss meets Fed hike expectations",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/pound-hits-five-week-low-as-uk-cpi-miss-meets-fed-hike-expectations-202611181540",
@@ -61,12 +73,6 @@
    "date": "10 Nov"
   },
   {
-   "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
-   "date": "18 Nov"
-  },
-  {
    "title": "UK inflation rises to 3.6% in October, but softer core data cools Bank of England hike bets",
    "site": "Startup Fortune, citing Reuters",
    "url": "https://startupfortune.com/uk-inflation-rises-to-36-in-october-but-softer-core-data-cools-bank-of-england-hike-bets/",
@@ -76,12 +82,6 @@
    "title": "British Pound retreats further as UK consumer inflation growth moderates",
    "site": "FXStreet",
    "url": "https://fxstreet.com/news/british-pound-retreats-further-as-uk-consumer-inflation-growth-moderates-202611180728",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "18 Nov"
   },
   {
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T16:39:37Z",
+ "calendarUpdated": "2026-11-18T17:39:12Z",
  "feed": [
+  {
+   "title": "The dollar has eased back ahead of the Fed minutes",
+   "text": "GBP/USD rose from a low near 1.3134 at about 20:40 Dubai to about 1.3152 at 21:29 and stood near 1.3150 at 21:38, while EUR/USD rose by a similar share, from about 1.0957 to 1.0972, so the recovery came mainly from a softer dollar and means slightly more dirhams per pound. CNBC reported the US ten year Treasury yield down more than three basis points at about 5.06%, against 5.12% in early Asian trade, and lower US yields tend to weaken the dollar. No report read names a single item of news behind the move, which came in quiet trade ahead of the Fed minutes at 23:00 Dubai.",
+   "t": "2026-11-18T17:39:12Z",
+   "rate": 1.31497
+  },
   {
    "title": "Sterling has slipped to around its low for the year",
    "text": "GBP/USD fell from about 1.3155 at 19:40 Dubai to a low near 1.3134 at about 20:20, close to the year's low of about 1.3137, and stood near 1.3138 at 20:38, while EUR/USD fell by a smaller share, from about 1.0964 to 1.0958, so this leg was mainly the pound and means slightly fewer dirhams per pound. FXStreet reported at 19:40 Dubai that Governor Bailey said UK inflation will rise further but that policy is not on a pre-set path, and that traders had cut the chance of a December Bank of England rise to about 80% from about 90% after this morning's slightly softer inflation figure. No report read ties the slide after 19:55 to a single item of news; it came ahead of the Fed minutes at 23:00 Dubai, where Governor Waller's call for a half point Fed rise has left markets expecting US rates to match or pass UK rates.",
@@ -393,13 +399,6 @@
    "text": "The dollar's dip after the producer price figures did not last: CNBC reported on Friday that the US ten year yield rose about 5 basis points to more than 5.15% as traders kept betting on a December Fed rise. GBP/USD slipped from about 1.3246 at 17:39 Dubai to a low near 1.3224 at 18:23, then recovered to about 1.3235 by 18:38, while EUR/USD fell in step from 1.1055 to 1.1040, so the move came from the dollar rather than the pound. No report found so far ties the dip to Boston Fed President Collins, who was due to speak at 18:10 Dubai.",
    "t": "2026-11-13T14:39:12Z",
    "rate": 1.32341
-  },
-  {
-   "title": "The dollar has eased after softer US producer prices",
-   "text": "US producer prices rose 0.3% in October against 0.4% forecast, and 0.3% excluding food and energy, in line with forecast, after a 1.4% jump in September, according to the Bureau of Labor Statistics; the yearly rise of 6.5% is still the largest since November 2022. A slightly softer reading eases pressure for Fed rises, which weakens the dollar and means more dirhams per pound: GBP/USD rose from about 1.3228 just before the release at 17:30 Dubai to 1.3243 within a minute and about 1.3248 by 17:34, then held near 1.3245. EUR/USD rose in step from about 1.1048 to 1.1060, so the move came from the dollar rather than the pound.",
-   "when": "2026-11-13T13:30:00Z",
-   "t": "2026-11-13T13:39:25Z",
-   "rate": 1.32464
   }
  ]
 }
