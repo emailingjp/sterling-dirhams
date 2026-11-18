@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:39:39Z",
+ "updated": "2026-11-18T16:39:37Z",
  "headline": "Sterling is about 1.3164 dollars in the early afternoon on Wednesday, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar holds near its strongest since April 2025 ahead of the Fed minutes at 23:00 Dubai.",
  "drivers": [
   {
@@ -30,6 +30,12 @@
  ],
  "watch": "The Fed minutes come out at 23:00 Dubai tonight. Minutes showing doubts among Fed officials about further rises would tend to weaken the dollar and help someone selling pounds for dirhams, while a united call for more rises would tend to do the reverse.",
  "sources": [
+  {
+   "title": "Pound hits five-week low as UK CPI miss meets Fed hike expectations",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-hits-five-week-low-as-uk-cpi-miss-meets-fed-hike-expectations-202611181540",
+   "date": "18 Nov"
+  },
   {
    "title": "British Pound: BoE path supports downside risks, BBH",
    "site": "FXStreet",
@@ -94,12 +100,6 @@
    "title": "Forex Today: British Pound slides after mixed UK inflation data, USD awaits FOMC Minutes",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-british-pound-slides-after-mixed-uk-inflation-data-usd-awaits-fomc-minutes-202611180728",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Asia FX subdued as dollar holds near 19 month high on Fed hike bets",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-19mth-high-on-fed-hike-bets-5034711",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T15:39:39Z",
+ "calendarUpdated": "2026-11-18T16:39:37Z",
  "feed": [
+  {
+   "title": "Sterling has slipped to around its low for the year",
+   "text": "GBP/USD fell from about 1.3155 at 19:40 Dubai to a low near 1.3134 at about 20:20, close to the year's low of about 1.3137, and stood near 1.3138 at 20:38, while EUR/USD fell by a smaller share, from about 1.0964 to 1.0958, so this leg was mainly the pound and means slightly fewer dirhams per pound. FXStreet reported at 19:40 Dubai that Governor Bailey said UK inflation will rise further but that policy is not on a pre-set path, and that traders had cut the chance of a December Bank of England rise to about 80% from about 90% after this morning's slightly softer inflation figure. No report read ties the slide after 19:55 to a single item of news; it came ahead of the Fed minutes at 23:00 Dubai, where Governor Waller's call for a half point Fed rise has left markets expecting US rates to match or pass UK rates.",
+   "t": "2026-11-18T16:39:37Z",
+   "rate": 1.31357
+  },
   {
    "title": "Sterling has barely moved during Governor Bailey's evening speech",
    "text": "Bank of England Governor Andrew Bailey was due to speak at 19:00 Dubai, but by 19:40 no report of what he said had appeared in the sources checked, so his words cannot yet be linked to the price. GBP/USD stood near 1.3159 at 19:00, touched about 1.3166 at 19:13 and eased to about 1.3154 by 19:37, a small range that leaves dirhams per pound much as they were. Earlier, BBH said markets had cut the chance of a December Bank of England rise to as low as 70% from 80% after this morning's inflation figures, and it sees support for GBP/USD near 1.3140.",
@@ -394,12 +400,6 @@
    "when": "2026-11-13T13:30:00Z",
    "t": "2026-11-13T13:39:25Z",
    "rate": 1.32464
-  },
-  {
-   "title": "Sterling has edged lower as the dollar stays firm",
-   "text": "GBP/USD slipped from about 1.3240 at 13:10 Dubai to a low near 1.3218 at 14:45 Dubai, recovered to about 1.3233 by 15:25 and stood near 1.3226 at 16:10 Dubai, while EUR/USD fell in step from about 1.1055 to 1.1043, so the move came from the dollar rather than the pound. Investing.com reported on Friday that the dollar index had reached a new high for the year as markets price back-to-back Fed rises in December and January, with ING noting that short-dated US yields are close to 40 basis points higher since Tuesday; a firmer dollar means fewer dirhams per pound. No report read names a fresh trigger for this afternoon's dip, which came with no UK figures out and ahead of US producer prices at 17:30 Dubai.",
-   "t": "2026-11-13T12:11:57Z",
-   "rate": 1.32257
   }
  ]
 }
