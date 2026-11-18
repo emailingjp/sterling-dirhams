@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T17:39:12Z",
- "headline": "Sterling is about 1.3164 dollars in the early afternoon on Wednesday, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar holds near its strongest since April 2025 ahead of the Fed minutes at 23:00 Dubai.",
+ "updated": "2026-11-18T19:39:03Z",
+ "headline": "Sterling is about 1.3137 dollars late on Wednesday evening, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar stayed firm after Fed minutes showed almost all officials expect further rises.",
  "drivers": [
   {
    "title": "The Fed",
@@ -20,16 +20,34 @@
   }
  ],
  "lower": [
-  "Fed minutes at 23:00 Dubai that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
-  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, put as low as 70% this afternoon by BBH, which would take support from the pound.",
+  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, which would take support from the pound.",
+  "More Fed officials backing a half point rise in December, after minutes showing almost all of them expect further rises, which would lift the dollar and mean fewer dirhams per pound.",
   "Fresh clashes between the US and Iran around the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
-  "Reports that Governor Bailey struck a firm tone on further rises this evening, which would tend to lift the pound.",
-  "Fed minutes showing doubts about further rises, or US yields falling back from above 5.1%, which would weaken the dollar and mean more dirhams per pound."
+  "Firm comments on further rises from Bank of England officials, which would tend to lift the pound.",
+  "US jobless claims rising above the 198,000 expected on Thursday, or US yields falling back from above 5%, which would weaken the dollar and mean more dirhams per pound."
  ],
- "watch": "The Fed minutes come out at 23:00 Dubai tonight. Minutes showing doubts among Fed officials about further rises would tend to weaken the dollar and help someone selling pounds for dirhams, while a united call for more rises would tend to do the reverse.",
+ "watch": "US weekly jobless claims come out at 17:30 Dubai on Thursday 19 November, with 198,000 expected. A higher figure would point to a cooling job market, tend to weaken the dollar and help someone selling pounds for dirhams, while a lower one would tend to do the reverse.",
  "sources": [
+  {
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "site": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Fed minutes October 2026: Officials expect more rate hikes, worry about AI",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Fed Minutes keep further rate hikes firmly on the table",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/fed-minutes-set-to-provide-further-clues-on-the-central-banks-hiking-pace-202611181500",
+   "date": "18 Nov"
+  },
   {
    "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
    "site": "CNBC",
@@ -82,24 +100,6 @@
    "title": "British Pound retreats further as UK consumer inflation growth moderates",
    "site": "FXStreet",
    "url": "https://fxstreet.com/news/british-pound-retreats-further-as-uk-consumer-inflation-growth-moderates-202611180728",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Consumer price inflation, UK: October 2026",
-   "site": "Office for National Statistics",
-   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
-   "date": "18 Nov"
-  },
-  {
-   "title": "UK inflation rises to one-year high of 3.6%",
-   "site": "Reuters via Investing.com",
-   "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Forex Today: British Pound slides after mixed UK inflation data, USD awaits FOMC Minutes",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-british-pound-slides-after-mixed-uk-inflation-data-usd-awaits-fomc-minutes-202611180728",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T17:39:12Z",
+ "calendarUpdated": "2026-11-18T19:39:03Z",
  "feed": [
+  {
+   "title": "Fed minutes back further rate rises",
+   "text": "The minutes of the Fed's October meeting, out at 23:00 Dubai, show that almost all officials judged further rises would likely be appropriate, some argued for a rise in October itself and a couple suggested a larger rise could be needed in December. That confirms the firm stance markets already expected, which supports the dollar and means fewer dirhams per pound. GBP/USD slipped from about 1.3150 just before the release to about 1.3138 within eight minutes and stood near 1.3137 at 23:38 Dubai.",
+   "when": "2026-11-18T19:00:00Z",
+   "t": "2026-11-18T19:39:03Z",
+   "rate": 1.31374
+  },
   {
    "title": "The dollar has eased back ahead of the Fed minutes",
    "text": "GBP/USD rose from a low near 1.3134 at about 20:40 Dubai to about 1.3152 at 21:29 and stood near 1.3150 at 21:38, while EUR/USD rose by a similar share, from about 1.0957 to 1.0972, so the recovery came mainly from a softer dollar and means slightly more dirhams per pound. CNBC reported the US ten year Treasury yield down more than three basis points at about 5.06%, against 5.12% in early Asian trade, and lower US yields tend to weaken the dollar. No report read names a single item of news behind the move, which came in quiet trade ahead of the Fed minutes at 23:00 Dubai.",
@@ -393,12 +400,6 @@
    "when": "2026-11-13T14:40:00Z",
    "t": "2026-11-13T15:39:08Z",
    "rate": 1.32303
-  },
-  {
-   "title": "The dollar has firmed again as US yields climb",
-   "text": "The dollar's dip after the producer price figures did not last: CNBC reported on Friday that the US ten year yield rose about 5 basis points to more than 5.15% as traders kept betting on a December Fed rise. GBP/USD slipped from about 1.3246 at 17:39 Dubai to a low near 1.3224 at 18:23, then recovered to about 1.3235 by 18:38, while EUR/USD fell in step from 1.1055 to 1.1040, so the move came from the dollar rather than the pound. No report found so far ties the dip to Boston Fed President Collins, who was due to speak at 18:10 Dubai.",
-   "t": "2026-11-13T14:39:12Z",
-   "rate": 1.32341
   }
  ]
 }
