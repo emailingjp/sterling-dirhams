@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T06:39:28Z",
+ "updated": "2026-11-18T07:39:20Z",
  "headline": "Sterling is about 1.3196 dollars early on Wednesday, slightly lower overnight as the dollar held near its strongest since April 2025 on bets of a Fed rise in December and US ten year yields above 5.1%. UK inflation comes at 11:00 Dubai, with Governor Bailey speaking twice and the Fed minutes late in the evening.",
  "drivers": [
   {
@@ -29,8 +29,26 @@
   "A firm tone on rates from Governor Bailey at 11:30 or 19:00 Dubai, which would tend to lift the pound.",
   "Fed minutes showing doubts about further rises, or US yields falling back from above 5.1%, which would weaken the dollar and mean more dirhams per pound."
  ],
- "watch": "UK inflation comes out at 11:00 Dubai today, forecast 3.6% against 3.5% last month, with core inflation forecast at 2.8%; Governor Bailey speaks at 11:30 and 19:00 and the Fed minutes follow at 23:00. Inflation above forecast, a firm tone from Bailey or minutes showing doubts about further Fed rises would tend to help someone selling pounds for dirhams.",
+ "watch": "Governor Bailey speaks again at 19:00 Dubai today and the Fed minutes follow at 23:00. A firm tone from Bailey on further rises, or minutes showing doubts among Fed officials about more rises, would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Consumer price inflation, UK: October 2026",
+   "site": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+   "date": "18 Nov"
+  },
+  {
+   "title": "UK inflation rises to one-year high of 3.6%",
+   "site": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Forex Today: British Pound slides after mixed UK inflation data, USD awaits FOMC Minutes",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-british-pound-slides-after-mixed-uk-inflation-data-usd-awaits-fomc-minutes-202611180728",
+   "date": "18 Nov"
+  },
   {
    "title": "Asia FX subdued as dollar holds near 19 month high on Fed hike bets",
    "site": "Investing.com",
@@ -76,24 +94,6 @@
   {
    "name": "Kraken public GBP/USD and EUR/USD minute prices (17 November 2026)",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1"
-  },
-  {
-   "title": "Advance monthly sales for retail and food services, October 2026",
-   "site": "US Census Bureau",
-   "url": "https://www.census.gov/retail/marts/www/marts_current.pdf",
-   "date": "17 Nov"
-  },
-  {
-   "title": "Gold struggles near $3,850 as traders bet on back to back Fed rate hikes",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/gold-struggles-near-3-850-as-traders-bet-on-back-to-back-fed-rate-hikes-202611171102",
-   "date": "17 Nov"
-  },
-  {
-   "title": "British Pound: Labour data wobble but BoE support seen, MUFG",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-labour-data-wobble-but-boe-support-seen-mufg-202611171133",
-   "date": "17 Nov"
   }
  ],
  "calendar": [
@@ -241,8 +241,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T06:39:28Z",
+ "calendarUpdated": "2026-11-18T07:39:20Z",
  "feed": [
+  {
+   "title": "Sterling has slipped after softer UK services inflation",
+   "text": "UK inflation rose to 3.6% in October from 3.5%, matching the Reuters poll forecast but below the Bank of England's own 3.7%, while services inflation held at 3.7% against 3.8% expected and core inflation stayed at 2.8% as forecast (ONS, Reuters). Services prices are the part the Bank of England watches most, so a softer reading trims the case for further rate rises and weighs on the pound, which means slightly fewer dirhams per pound. GBP/USD fell from about 1.3188 just before 11:00 Dubai to a low near 1.3168 within ten minutes, then settled near 1.3170 to 1.3175, with little further change around Governor Bailey's 11:30 appearance; markets still put about a 90% chance on a Bank of England rise in December, according to Reuters.",
+   "when": "2026-11-18T07:00:00Z",
+   "t": "2026-11-18T07:39:20Z",
+   "rate": 1.31702
+  },
   {
    "title": "The dollar has edged higher through the Gulf morning",
    "text": "GBP/USD drifted from about 1.3196 at 07:38 Dubai to a low near 1.3185 at about 10:30, while EUR/USD fell by a slightly larger share, from about 1.0991 to 1.0977, so the dip came from a firmer dollar rather than the pound and means slightly fewer dirhams per pound. Investing.com reported the dollar index up 0.2% at 103.66 at 08:42 Dubai, near its highest since April 2025, as traders price a Fed rise in December after US import prices rose 1.1% in October against 0.7% expected and New York Fed President Williams said rates would likely need to rise again. No single news item marks the slide, which came gradually ahead of UK inflation figures at 11:00 Dubai.",
@@ -385,13 +392,6 @@
    "text": "US government bond yields rose through the New York afternoon, with the ten year yield up about 12 basis points to about 5.12% and the thirty year at about 5.44%, while US shares gave up an early recovery from the fall in Nvidia, according to Yahoo Finance's market reports on Thursday. Higher US yields usually support the dollar and so mean fewer dirhams per pound, but GBP/USD stayed within a narrow range since the last update, between a low of about 1.3220 at 19:42 Dubai and a high of about 1.3242 at 20:43 Dubai, and stood near 1.3231 at 23:38 Dubai. EUR/USD moved little over the same hours, from about 1.1056 to 1.1051, so the dollar was broadly steady; none of the reports read explains why the rise in yields did not lift it further.",
    "t": "2026-11-12T19:39:50Z",
    "rate": 1.32304
-  },
-  {
-   "title": "Sterling has slipped as Wall Street opens lower",
-   "text": "Nvidia announced on Thursday that its chief executive Jensen Huang would step down at once, and its shares fell nearly 10%, pulling US technology shares lower when New York opened at 18:30 Dubai. Brent crude also rose to about $93.29 a barrel (about £70.50) after President Trump said the US does not need a deal with Iran, and dearer oil and Gulf tension tend to lift the dollar. GBP/USD fell from about 1.3272 just before 18:30 Dubai to 1.3223 by 19:20 and has since steadied near 1.3229; none of the sources read names the reason for the currency move itself, so the timing alongside these two stories is the only link.",
-   "when": "2026-11-12T14:30:00Z",
-   "t": "2026-11-12T15:39:58Z",
-   "rate": 1.32269
   }
  ]
 }
