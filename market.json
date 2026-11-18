@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:40:03Z",
+ "updated": "2026-11-18T15:39:39Z",
  "headline": "Sterling is about 1.3164 dollars in the early afternoon on Wednesday, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar holds near its strongest since April 2025 ahead of the Fed minutes at 23:00 Dubai.",
  "drivers": [
   {
@@ -21,15 +21,21 @@
  ],
  "lower": [
   "Fed minutes at 23:00 Dubai that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
-  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, put at about 80% after this morning's figures, which would take support from the pound.",
+  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, put as low as 70% this afternoon by BBH, which would take support from the pound.",
   "Fresh clashes between the US and Iran around the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
-  "A firm tone on further rises from Governor Bailey at 19:00 Dubai, which would tend to lift the pound.",
+  "Reports that Governor Bailey struck a firm tone on further rises this evening, which would tend to lift the pound.",
   "Fed minutes showing doubts about further rises, or US yields falling back from above 5.1%, which would weaken the dollar and mean more dirhams per pound."
  ],
- "watch": "Governor Bailey speaks again at 19:00 Dubai today and the Fed minutes follow at 23:00. A firm tone from Bailey on further rises, or minutes showing doubts among Fed officials about more rises, would tend to help someone selling pounds for dirhams.",
+ "watch": "The Fed minutes come out at 23:00 Dubai tonight. Minutes showing doubts among Fed officials about further rises would tend to weaken the dollar and help someone selling pounds for dirhams, while a united call for more rises would tend to do the reverse.",
  "sources": [
+  {
+   "title": "British Pound: BoE path supports downside risks, BBH",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-boe-path-supports-downside-risks-bbh-202611181517",
+   "date": "18 Nov"
+  },
   {
    "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
    "site": "Investing.com",
@@ -94,12 +100,6 @@
    "title": "Asia FX subdued as dollar holds near 19 month high on Fed hike bets",
    "site": "Investing.com",
    "url": "https://www.investing.com/news/forex-news/asia-fx-subdued-as-dollar-holds-near-19mth-high-on-fed-hike-bets-5034711",
-   "date": "18 Nov"
-  },
-  {
-   "title": "US Dollar Index struggles to extend rally beyond 103.80, FOMC Minutes eyed",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/united-states-dollar-index-struggles-to-extend-rally-beyond-10380-fomc-minutes-eyed-202611180311",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T12:40:03Z",
+ "calendarUpdated": "2026-11-18T15:39:39Z",
  "feed": [
+  {
+   "title": "Sterling has barely moved during Governor Bailey's evening speech",
+   "text": "Bank of England Governor Andrew Bailey was due to speak at 19:00 Dubai, but by 19:40 no report of what he said had appeared in the sources checked, so his words cannot yet be linked to the price. GBP/USD stood near 1.3159 at 19:00, touched about 1.3166 at 19:13 and eased to about 1.3154 by 19:37, a small range that leaves dirhams per pound much as they were. Earlier, BBH said markets had cut the chance of a December Bank of England rise to as low as 70% from 80% after this morning's inflation figures, and it sees support for GBP/USD near 1.3140.",
+   "when": "2026-11-18T15:00:00Z",
+   "t": "2026-11-18T15:39:39Z",
+   "rate": 1.3155
+  },
   {
    "title": "The dollar has firmed again ahead of the Fed minutes",
    "text": "GBP/USD eased from about 1.3170 at 14:30 Dubai to a low near 1.3152 at about 15:55, recovered briefly to about 1.3162 and stood near 1.3153 at 16:38, while EUR/USD fell by a similar share, from about 1.0970 to 1.0957, so the dip came mainly from a firmer dollar and means slightly fewer dirhams per pound. Investing.com reported the dollar index up 0.3% near 103.7 at 14:35 Dubai, with ING saying markets still price about 75 basis points of further Fed rises and that Governor Waller's call for more rises has focused minds on a longer Fed tightening cycle. No report read names a single item of news behind this afternoon's slide, which came gradually ahead of Governor Bailey at 19:00 Dubai and the Fed minutes at 23:00.",
@@ -393,12 +400,6 @@
    "text": "GBP/USD slipped from about 1.3240 at 13:10 Dubai to a low near 1.3218 at 14:45 Dubai, recovered to about 1.3233 by 15:25 and stood near 1.3226 at 16:10 Dubai, while EUR/USD fell in step from about 1.1055 to 1.1043, so the move came from the dollar rather than the pound. Investing.com reported on Friday that the dollar index had reached a new high for the year as markets price back-to-back Fed rises in December and January, with ING noting that short-dated US yields are close to 40 basis points higher since Tuesday; a firmer dollar means fewer dirhams per pound. No report read names a fresh trigger for this afternoon's dip, which came with no UK figures out and ahead of US producer prices at 17:30 Dubai.",
    "t": "2026-11-13T12:11:57Z",
    "rate": 1.32257
-  },
-  {
-   "title": "Sterling has stayed in a narrow range ahead of US producer prices",
-   "text": "Oil eased slightly in Asian trading, with Brent at $95.41 a barrel (about £72.10) at 06:42 Dubai, down 1 cent, after President Trump said a deal with Iran was not needed to end the war, which Reuters said lowers the chance of renewed large-scale fighting; US crude stocks also rose 4.7 million barrels last week against an expected fall. GBP/USD drifted from about 1.3231 at 07:40 Dubai to a low of about 1.3219 at 10:32 Dubai, then rose to a high of about 1.3241 at 12:20 Dubai and stood near 1.3234 at 12:38 Dubai, while EUR/USD moved in a similarly narrow band, so the dollar has been broadly steady. With no UK figures out today, markets are waiting for US producer prices at 17:30 Dubai, where a hotter result would tend to strengthen the dollar and mean fewer dirhams per pound.",
-   "t": "2026-11-13T08:39:56Z",
-   "rate": 1.32339
   }
  ]
 }
