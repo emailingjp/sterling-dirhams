@@ -1,36 +1,54 @@
 {
- "updated": "2026-11-17T16:39:29Z",
- "headline": "Sterling is about 1.3173 dollars on Tuesday afternoon, a little lower after US retail sales came in slightly above forecast, and down from just above 1.3500 on 4 November as the dollar has firmed on bets of a Fed rise in December. UK inflation and the Fed minutes come on Wednesday.",
+ "updated": "2026-11-18T03:39:45Z",
+ "headline": "Sterling is about 1.3196 dollars early on Wednesday, slightly lower overnight as the dollar held near its strongest since April 2025 on bets of a Fed rise in December and US ten year yields above 5.1%. UK inflation comes at 11:00 Dubai, with Governor Bailey speaking twice and the Fed minutes late in the evening.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "Traders have fully priced a Fed rise at the meeting ending on 9 December and see a chance of nearly 70% of another in January, according to FXStreet on 17 November, which put the dollar index near 103.50, close to a 19 month high. Kansas City Fed President Schmid said on Sunday that inflation remains too high, and Fed Chair Warsh gave no signal on rates in a speech on AI on Monday evening."
+   "text": "Traders fully price a Fed rise at the meeting ending on 9 December, according to CME FedWatch as reported by FXStreet on 18 November, with a small chance of a half point. St. Louis Fed President Musalem said the Fed may need several rate rises to bring inflation under control, Reuters reported on 18 November, and Kansas City Fed President Schmid said on 15 November that inflation remains too high."
   },
   {
-   "title": "US inflation and the dollar",
-   "text": "US consumer prices rose 0.4% in October against 0.3% expected, according to the Bureau of Labor Statistics on 10 November, and the dollar index has since reached its highest since April 2025. FXStreet noted on 16 November that the dollar rose even after the New York Fed's factory survey came in at 7.8 against 18 forecast, and said most of the pound's fall since 4 November is the dollar's doing."
+   "title": "US yields and the dollar",
+   "text": "The US ten year Treasury yield rose to 5.123% and the dollar index stood at 103.66 in early Asian trade on 18 November, according to Reuters, after reaching its highest since 2 April 2025 on Tuesday. US consumer prices rose 0.4% in October against 0.3% expected (Bureau of Labor Statistics, 10 November), and US retail sales beat forecasts on 17 November, which has kept the dollar firm."
   },
   {
-   "title": "Gulf attacks and oil",
-   "text": "Bahrain, Saudi Arabia and Iran all reported drone, missile or mine incidents around the Gulf over the weekend, but MUFG said on 17 November that Brent has fallen back to near $90 a barrel (about £68) on hopes of a US and Iran deal and an IEA estimate that global supply now exceeds demand for the first time since the war in Iran began. Cheaper oil eases energy driven inflation and, MUFG says, reduces the need for the Fed to raise rates aggressively in 2027, while Gulf tension and dearer oil tend to support the dollar."
+   "title": "Gulf tension and oil",
+   "text": "Brent was near $93 a barrel (about £70) early on 18 November, according to Reuters, against near $90 (about £68) cited by MUFG on 17 November. FXStreet said on 18 November that tension between the US and Iran has helped keep the dollar near its highest since April 2025, while MUFG noted on 17 November an IEA estimate that global supply now exceeds demand, which would ease energy driven inflation."
   },
   {
    "title": "The UK side",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and Chief Economist Pill has said more tightening may be needed in 2027 after an expected December rise. FXStreet reported on 17 November that markets price an 80% chance of a December rise and two more by June 2027, while HSBC expects the pound to stay under pressure against the dollar."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and markets price a high chance of another rise in December, put at about 80% to 90% in reports on 17 November. Tuesday's jobs figures were mixed: unemployment fell to 4.6% but regular pay slowed to 3.5%, which Nomura called broadly weaker than expected. Nomura expects October inflation to rise to 3.6%, from 3.5%."
   }
  ],
  "lower": [
-  "UK inflation below forecast on Wednesday, which would make a December Bank of England rise less likely and take support from the pound.",
-  "Fed minutes on Wednesday that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
-  "Fresh damage to tankers or oil sites near the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
+  "UK inflation below the 3.6% forecast at 11:00 Dubai, which would make a December Bank of England rise less likely and take support from the pound.",
+  "Fed minutes at 23:00 Dubai that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
+  "Fresh clashes between the US and Iran around the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
-  "UK inflation above forecast on Wednesday, which would firm bets on a December Bank of England rise and lift the pound.",
-  "Fed minutes on Wednesday showing doubts about further rises, which would weaken the dollar and mean more dirhams per pound.",
-  "Oil continuing to fall as the IEA's expected surplus arrives, which would tend to soften the dollar."
+  "UK inflation above the 3.6% forecast, or core inflation above 2.8%, which would firm bets on a December Bank of England rise and lift the pound.",
+  "A firm tone on rates from Governor Bailey at 11:30 or 19:00 Dubai, which would tend to lift the pound.",
+  "Fed minutes showing doubts about further rises, or US yields falling back from above 5.1%, which would weaken the dollar and mean more dirhams per pound."
  ],
- "watch": "UK inflation comes out at 11:00 Dubai on Wednesday, forecast between 3.6% and 3.7% against 3.5%, with Governor Bailey at 11:30 and 19:00 and the Fed minutes at 23:00. UK inflation above forecast, or minutes showing doubts about further Fed rises, would tend to help someone selling pounds for dirhams.",
+ "watch": "UK inflation comes out at 11:00 Dubai today, forecast 3.6% against 3.5% last month, with core inflation forecast at 2.8%; Governor Bailey speaks at 11:30 and 19:00 and the Fed minutes follow at 23:00. Inflation above forecast, a firm tone from Bailey or minutes showing doubts about further Fed rises would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "British Pound edges lower vs strong USD as traders eye UK CPI",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-edges-lower-to-13200-vs-bullish-usd-as-traders-look-to-uk-cpi-report-202611180119",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
+   "site": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/economy-news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-5034510",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "18 Nov"
+  },
   {
    "name": "FXStreet: British Pound snaps five-day losing streak amid growing BoE rate hike bets (17 November 2026)",
    "url": "https://www.fxstreet.com/news/british-pound-snaps-five-day-losing-streak-amid-growing-boe-rate-hike-bets-202611171559"
@@ -75,24 +93,6 @@
    "title": "UK wage growth slows to 3.5% in three months to September",
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/economy-news/uk-wage-growth-slows-to-35-in-three-months-to-september-5031823",
-   "date": "17 Nov"
-  },
-  {
-   "title": "United Kingdom Unemployment Rate unexpectedly falls in three months to September",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/46-united-kingdom-unemployment-rate-unexpectedly-falls-in-three-months-to-september-202611170702",
-   "date": "17 Nov"
-  },
-  {
-   "title": "British Pound trims some gains following mixed UK employment data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-trims-some-gains-following-mixed-uk-employment-data-202611170730",
-   "date": "17 Nov"
-  },
-  {
-   "title": "British Pound declines ahead of UK jobs data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-declines-ahead-of-uk-jobs-data-202611170152",
    "date": "17 Nov"
   }
  ],
@@ -191,9 +191,9 @@
    "impact": "Medium",
    "name": "US: Philly Fed Manufacturing Index",
    "title": "Philly Fed Manufacturing Index",
-   "forecast": "19.2",
+   "forecast": "20.6",
    "previous": "20.9",
-   "good": "Lower than 19.2",
+   "good": "Lower than 20.6",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -202,9 +202,9 @@
    "impact": "Medium",
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
-   "forecast": "199K",
+   "forecast": "198K",
    "previous": "200K",
-   "good": "Higher than 199K",
+   "good": "Higher than 198K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -224,9 +224,9 @@
    "impact": "Medium",
    "name": "US consumer sentiment (University of Michigan), revised",
    "title": "Revised UoM Consumer Sentiment",
-   "forecast": "52.1",
+   "forecast": "51.7",
    "previous": "51.0",
-   "good": "Lower than 52.1",
+   "good": "Lower than 51.7",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
@@ -241,8 +241,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-17T16:39:29Z",
+ "calendarUpdated": "2026-11-18T03:39:45Z",
  "feed": [
+  {
+   "title": "The dollar has firmed overnight ahead of UK inflation",
+   "text": "GBP/USD slipped from about 1.3213 at 20:39 Dubai on Tuesday to a low near 1.3192 at about 04:45 Dubai and stood near 1.3196 at 07:38, while EUR/USD fell by a similar share, from about 1.1012 to 1.0990, so the dip came from a firmer dollar rather than the pound and means slightly fewer dirhams per pound. Reuters reported the dollar index up 0.1% at 103.66 in early Asian trade, near its highest since April 2025, with the US ten year yield up 2.2 basis points at 5.123% after St. Louis Fed President Musalem said several rate rises may be needed, even as Nvidia's results lifted Asian shares. FXStreet also pointed to a fully priced Fed rise in December and to tension between the US and Iran as support for the dollar before UK inflation figures at 11:00 Dubai.",
+   "t": "2026-11-18T03:39:45Z",
+   "rate": 1.31961
+  },
   {
    "title": "The dollar has eased ahead of Nvidia's results",
    "text": "GBP/USD rose from about 1.3187 at 19:20 Dubai to a high near 1.3218 at about 20:20 and stood near 1.3213 at 20:38, while EUR/USD rose from about 1.0991 to 1.1013, so the gain came mainly from a softer dollar and means slightly more dirhams per pound. FXStreet put the pound's first daily gain in six sessions down to a modest dollar pullback as traders turned cautious ahead of Nvidia's results after the US close, with the pound also supported by Reuters' report that markets price about a 91% chance of a Bank of England rise in December. No single news item marks the start of the move, and the dollar's fall was limited by St. Louis Fed President Musalem saying on Tuesday that several Fed rises would likely be needed before spring.",
@@ -387,12 +393,6 @@
    "when": "2026-11-12T13:30:00Z",
    "t": "2026-11-12T13:39:19Z",
    "rate": 1.32618
-  },
-  {
-   "title": "Sterling has edged up as the dollar pulls back from its high",
-   "text": "The dollar index touched 103.08, its highest in 19 months, and then eased back to about 102.80 in the London morning, which FXStreet described as a correction from overbought levels rather than a change in the outlook, with traders still pricing a December Fed rise after hotter US prices. A softer dollar means more dirhams per pound: GBP/USD rose slowly from about 1.3262 at 11:39 Dubai to about 1.3277 at 14:35 Dubai, while EUR/USD rose in step from about 1.1074 to 1.1095, so the move came from the dollar rather than news about the pound. US weekly jobless claims come out at 17:30 Dubai, forecast at 194,000.",
-   "t": "2026-11-12T10:39:23Z",
-   "rate": 1.32739
   }
  ]
 }
