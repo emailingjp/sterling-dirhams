@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T09:39:59Z",
+ "updated": "2026-11-18T12:40:03Z",
  "headline": "Sterling is about 1.3164 dollars in the early afternoon on Wednesday, near its lowest in a year, after UK inflation of 3.6% with softer services prices trimmed bets on a December Bank of England rise. The dollar holds near its strongest since April 2025 ahead of the Fed minutes at 23:00 Dubai.",
  "drivers": [
   {
@@ -20,17 +20,34 @@
   }
  ],
  "lower": [
-  "UK inflation below the 3.6% forecast at 11:00 Dubai, which would make a December Bank of England rise less likely and take support from the pound.",
   "Fed minutes at 23:00 Dubai that show broad support for further rises, which would lift the dollar and mean fewer dirhams per pound.",
+  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, put at about 80% after this morning's figures, which would take support from the pound.",
   "Fresh clashes between the US and Iran around the Strait of Hormuz, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
-  "UK inflation above the 3.6% forecast, or core inflation above 2.8%, which would firm bets on a December Bank of England rise and lift the pound.",
-  "A firm tone on rates from Governor Bailey at 11:30 or 19:00 Dubai, which would tend to lift the pound.",
+  "A firm tone on further rises from Governor Bailey at 19:00 Dubai, which would tend to lift the pound.",
   "Fed minutes showing doubts about further rises, or US yields falling back from above 5.1%, which would weaken the dollar and mean more dirhams per pound."
  ],
  "watch": "Governor Bailey speaks again at 19:00 Dubai today and the Fed minutes follow at 23:00. A firm tone from Bailey on further rises, or minutes showing doubts among Fed officials about more rises, would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
+   "site": "Investing.com",
+   "url": "https://za.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-4583073",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Sterling slips to one-month low versus dollar after UK core inflation",
+   "site": "Global Banking and Finance (Reuters)",
+   "url": "https://www.globalbankingandfinance.com/sterling-slips-one-month-low-versus-dollar-uk-core-inflation/",
+   "date": "18 Nov"
+  },
+  {
+   "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+   "date": "10 Nov"
+  },
   {
    "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
    "site": "CNBC",
@@ -83,24 +100,6 @@
    "title": "US Dollar Index struggles to extend rally beyond 103.80, FOMC Minutes eyed",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/united-states-dollar-index-struggles-to-extend-rally-beyond-10380-fomc-minutes-eyed-202611180311",
-   "date": "18 Nov"
-  },
-  {
-   "title": "British Pound edges lower vs strong USD as traders eye UK CPI",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-edges-lower-to-13200-vs-bullish-usd-as-traders-look-to-uk-cpi-report-202611180119",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
-   "site": "Reuters via Investing.com",
-   "url": "https://www.investing.com/news/economy-news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-5034510",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
    "date": "18 Nov"
   }
  ],
@@ -249,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-18T09:39:59Z",
+ "calendarUpdated": "2026-11-18T12:40:03Z",
  "feed": [
+  {
+   "title": "The dollar has firmed again ahead of the Fed minutes",
+   "text": "GBP/USD eased from about 1.3170 at 14:30 Dubai to a low near 1.3152 at about 15:55, recovered briefly to about 1.3162 and stood near 1.3153 at 16:38, while EUR/USD fell by a similar share, from about 1.0970 to 1.0957, so the dip came mainly from a firmer dollar and means slightly fewer dirhams per pound. Investing.com reported the dollar index up 0.3% near 103.7 at 14:35 Dubai, with ING saying markets still price about 75 basis points of further Fed rises and that Governor Waller's call for more rises has focused minds on a longer Fed tightening cycle. No report read names a single item of news behind this afternoon's slide, which came gradually ahead of Governor Bailey at 19:00 Dubai and the Fed minutes at 23:00.",
+   "t": "2026-11-18T12:40:03Z",
+   "rate": 1.31552
+  },
   {
    "title": "Sterling has dipped towards its low for the year, then recovered",
    "text": "The pound kept slipping after this morning's softer UK services inflation, and GBP/USD fell from about 1.3170 at 12:00 Dubai to a low near 1.3145 at about 13:05, close to the year's low of 1.3137 named by FXStreet; EUR/USD fell by a smaller share, so this leg was mainly the pound, as markets trimmed the chance of a December Bank of England rise to about 80% from 90%, according to Reuters. From about 13:20 the pound recovered to near 1.3164 by 13:37 while the euro also rose, a modest easing of the dollar as the US ten year yield slipped about one basis point to 5.09%, according to CNBC. No source names a single item of news behind either leg.",
@@ -394,12 +399,6 @@
    "text": "Oil eased slightly in Asian trading, with Brent at $95.41 a barrel (about £72.10) at 06:42 Dubai, down 1 cent, after President Trump said a deal with Iran was not needed to end the war, which Reuters said lowers the chance of renewed large-scale fighting; US crude stocks also rose 4.7 million barrels last week against an expected fall. GBP/USD drifted from about 1.3231 at 07:40 Dubai to a low of about 1.3219 at 10:32 Dubai, then rose to a high of about 1.3241 at 12:20 Dubai and stood near 1.3234 at 12:38 Dubai, while EUR/USD moved in a similarly narrow band, so the dollar has been broadly steady. With no UK figures out today, markets are waiting for US producer prices at 17:30 Dubai, where a hotter result would tend to strengthen the dollar and mean fewer dirhams per pound.",
    "t": "2026-11-13T08:39:56Z",
    "rate": 1.32339
-  },
-  {
-   "title": "Sterling has held steady overnight as oil climbs on Gulf attacks",
-   "text": "Brent crude settled 3.3% higher at $95.82 a barrel (about £72.40) on Thursday after Yemen's Houthis claimed strikes on Saudi Arabia's East-West oil pipeline, the Yanbu oil facility and an Aramco building in Riyadh, none of them independently confirmed, while the Saudi-led coalition said it intercepted two drones. US yields also rose, with the ten year at 5.10% and the two year up about 15 basis points to 4.88%, and the dollar index closed up 0.27% at 103.19; dearer oil, Gulf tension and higher US yields all tend to lift the dollar and mean fewer dirhams per pound. Even so, GBP/USD barely moved overnight, trading between about 1.3227 and 1.3243 apart from a brief dip to 1.3206 in the thin trading around 02:11 Dubai, and stood near 1.3231 at 07:40 Dubai, much where it was on Thursday evening.",
-   "t": "2026-11-13T03:40:54Z",
-   "rate": 1.32313
   }
  ]
 }
