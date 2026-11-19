@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T08:39:41Z",
+ "updated": "2026-11-19T11:39:14Z",
  "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
@@ -30,6 +30,12 @@
  ],
  "watch": "US weekly jobless claims and the Philadelphia Fed factory survey come out at 17:30 Dubai on Thursday 19 November, with 198,000 claims and a survey reading of 20.6 expected. More claims or a weaker survey would point to a cooling US economy, tend to weaken the dollar and help someone selling pounds for dirhams, while the reverse would tend to strengthen it. UK retail sales follow at 11:00 Dubai on Friday, with no change expected; a stronger figure would help.",
  "sources": [
+  {
+   "title": "British Pound picks up as an improved market mood halts the US Dollar rally",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-picks-up-as-an-improved-market-mood-halts-the-us-dollar-rally-202611191114",
+   "date": "19 Nov"
+  },
   {
    "title": "Canadian Dollar moves little as surging oil prices offset stronger US Dollar",
    "site": "FXStreet",
@@ -94,12 +100,6 @@
    "title": "Fed Minutes keep further rate hikes firmly on the table",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/fed-minutes-set-to-provide-further-clues-on-the-central-banks-hiking-pace-202611181500",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T08:39:41Z",
+ "calendarUpdated": "2026-11-19T11:39:14Z",
  "feed": [
+  {
+   "title": "Sterling has risen as a brighter market mood eases the dollar",
+   "text": "European shares rose and US stock futures pointed to a strong open on Thursday, and FXStreet reported at 15:14 Dubai that the better mood had halted the dollar's rally, although expectations of further Fed rises limited its losses. A softer dollar means slightly more dirhams per pound. GBP/USD rose from about 1.3141 at 13:40 Dubai to about 1.3166 by 14:45 and stood near 1.3162 at 15:35, while EUR/USD rose by a similar share, from about 1.0983 to 1.1005, so the move came from the dollar rather than from UK news.",
+   "t": "2026-11-19T11:39:14Z",
+   "rate": 1.31605
+  },
   {
    "title": "Sterling has firmed as the dollar eases at the London open",
    "text": "GBP/USD rose from about 1.3136 at 11:00 Dubai, as London opened, to about 1.3151 by 11:30 and stood near 1.3151 at 12:35, while EUR/USD rose by a similar share, from about 1.0967 to 1.0981, so the move came from the dollar easing back from its 19 month high rather than from UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with CME FedWatch showing about a 93% chance of a December rise.",
@@ -393,12 +399,6 @@
    "text": "GBP/USD has barely moved this morning, from about 1.3203 at 07:40 Dubai to 1.3202 at 12:38, within a range from a high near 1.3209 at 09:35 to a low near 1.3190 at 10:58; EUR/USD moved in step, from 1.1013 to 1.1010, so the small swings came from the dollar rather than the pound. FXStreet reported at 08:17 GMT that the dollar index had broken above 103 on expectations of another Fed rise, weaker shares and fading appetite for risk, with oil opening lower and then turning higher, while Seoul Economic Daily reported the US ten year yield back above 5% ahead of Fed Chair Warsh's speech. A firm dollar means fewer dirhams per pound, but so far it has only held sterling in place rather than pushed it lower.",
    "t": "2026-11-16T08:39:28Z",
    "rate": 1.32021
-  },
-  {
-   "title": "The market has reopened with sterling back near Friday's close",
-   "text": "When the banks' market reopened late on Sunday, GBP/USD jumped from about 1.3190 to 1.3208 within a minute at 02:05 Dubai, undoing the weekend dip in Kraken's price to about 1.3166, and stood near 1.3201 at 07:40 Dubai, against 1.3209 at Friday's close. EUR/USD rose by a similar share since Sunday afternoon, from about 1.0982 to 1.1013, so the move came from a slightly softer dollar, which means a few more dirhams per pound. The Saudi-led coalition reported no damage from the weekend's Houthi missiles and drones, Brent eased about 1% to $95.00 a barrel (about £72) after the IEA said the oil market should return to a surplus this quarter, and CME FedWatch put the chance of a half point Fed rise in December at 6%, down from 11.5% on Friday, though no report read ties the reopening move to any one of these.",
-   "t": "2026-11-16T03:40:15Z",
-   "rate": 1.32025
   }
  ]
 }
