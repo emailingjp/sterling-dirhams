@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:39:11Z",
+ "updated": "2026-11-19T15:39:02Z",
  "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
@@ -20,16 +20,22 @@
   }
  ],
  "lower": [
-  "US jobless claims coming in below the 198,000 expected on Thursday, which would point to a firm US job market, support more Fed rises and mean fewer dirhams per pound.",
+  "Firmer talk from Fed officials of a December rise, which would support the dollar and mean fewer dirhams per pound.",
   "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, which would take support from the pound.",
   "Fresh tension between the US and Iran, which would tend to lift oil and the dollar as a safe haven."
  ],
  "higher": [
-  "US jobless claims rising above the 198,000 expected, or US yields falling further from above 5%, which would weaken the dollar and mean more dirhams per pound.",
+  "Further soft US figures, such as the revised University of Michigan consumer survey on Friday, or US yields falling further from above 5%, which would weaken the dollar and mean more dirhams per pound.",
   "UK retail sales on Friday beating the flat reading expected, or firm comments on further rises from Bank of England officials, which would tend to lift the pound."
  ],
  "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Several Fed officials also speak through Thursday evening Dubai time, and any firmer talk of a December rise would tend to strengthen the dollar.",
  "sources": [
+  {
+   "title": "Pound falls into fresh lows despite soft US data",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-falls-into-fresh-lows-despite-soft-us-data-202611191522",
+   "date": "19 Nov"
+  },
   {
    "title": "Unemployment Insurance Weekly Claims",
    "site": "US Department of Labor",
@@ -95,12 +101,6 @@
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "19 Nov"
-  },
-  {
-   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
-   "site": "Federal Reserve",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "date": "18 Nov"
   }
  ],
  "calendar": [
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T13:39:11Z",
+ "calendarUpdated": "2026-11-19T15:39:02Z",
  "feed": [
+  {
+   "title": "Sterling has fallen to a fresh low as the rate gap with the US widens",
+   "text": "GBP/USD fell from about 1.3141 at 19:00 Dubai to about 1.3107 by 19:22, below its October low, then steadied near 1.3114 at 19:36; EUR/USD fell over the same minutes, from about 1.0990 to 1.0975, so the dollar firmed broadly and the pound slipped a little further, which means fewer dirhams per pound. No report read names a single item of news at 19:00 Dubai. FXStreet said at 19:22 Dubai that softer US jobless claims and factory figures had not dented bets on a December Fed rise, priced near 95%, while softer UK inflation has cut the chance of a December Bank of England rise to about 80%, so the gap in expected interest rates is weighing on the pound.",
+   "t": "2026-11-19T15:39:02Z",
+   "rate": 1.31168
+  },
   {
    "title": "The dollar has eased after softer US factory and jobs figures",
    "text": "The Philadelphia Fed factory survey fell to 6.3 in November against 20.6 expected, its lowest since May, and new claims for jobless benefits rose to 203,000 against 198,000 expected, although the survey's price measures rose further. Softer activity and a slightly weaker job market make further Fed rises a little less certain, which tends to weaken the dollar and means slightly more dirhams per pound. GBP/USD rose from about 1.3144 just before the 17:30 Dubai release to about 1.3152 within six minutes, then settled near 1.3149, a modest reaction.",
@@ -394,12 +400,6 @@
    "text": "GBP/USD recovered from about 1.3182 at 13:45 Dubai, after a low near 1.3178 at about 15:15, to around 1.3195 by 16:00 and stayed there until 17:40, while EUR/USD rose a little less, from about 1.1002 to 1.1010, so the dollar eased slightly and the pound was marginally firmer; a softer dollar means a few more dirhams per pound. No report read names a trigger for this small move, which came with no US or UK figures out, and FXStreet described the dollar index as still near its highest since April 2025 on bets of a Fed rise in December, with traders waiting for New York Fed President Williams at about 18:00 Dubai and Fed Chair Warsh at 21:00.",
    "t": "2026-11-16T13:39:23Z",
    "rate": 1.3193
-  },
-  {
-   "title": "The dollar has firmed in London trading as markets turn cautious",
-   "text": "GBP/USD slipped from about 1.3214 at 13:03 Dubai to a low near 1.3182 at 13:36, while EUR/USD fell by a similar share, from 1.1026 to 1.1002, its weakest in 19 months, so the move came from a firmer dollar rather than from the pound; a firmer dollar means fewer dirhams per pound. No report read names a trigger for this half hour, which came with no US or UK figures out, but FXStreet described markets turning cautious on Monday, with US share futures down between 0.2% and 1% and traders still betting on a Fed rise in December, while Saxo reported Brent back up to $96.60 a barrel (about £73) after Iranian drones were fired at a US base in Bahrain and a tanker hit a mine near the Strait of Hormuz. Gulf tension and bets on higher US interest rates both tend to lift the dollar ahead of Fed Chair Warsh's speech at 21:00 Dubai.",
-   "t": "2026-11-16T09:39:43Z",
-   "rate": 1.31825
   }
  ]
 }
