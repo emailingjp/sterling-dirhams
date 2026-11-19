@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T07:39:42Z",
- "headline": "Sterling is about 1.3148 dollars in European trade on Thursday, having recovered from a low near 1.3117 in Asian trade, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
+ "updated": "2026-11-19T08:39:41Z",
+ "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
    "title": "The Fed",
@@ -31,15 +31,21 @@
  "watch": "US weekly jobless claims and the Philadelphia Fed factory survey come out at 17:30 Dubai on Thursday 19 November, with 198,000 claims and a survey reading of 20.6 expected. More claims or a weaker survey would point to a cooling US economy, tend to weaken the dollar and help someone selling pounds for dirhams, while the reverse would tend to strengthen it. UK retail sales follow at 11:00 Dubai on Friday, with no change expected; a stronger figure would help.",
  "sources": [
   {
-   "title": "Forex Today: Hawkish repricing of Fed policy outlook continues to support US Dollar",
+   "title": "Canadian Dollar moves little as surging oil prices offset stronger US Dollar",
    "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-hawkish-repricing-of-fed-policy-outlook-continues-to-support-us-dollar-202611190721",
+   "url": "https://www.fxstreet.com/news/canadian-dollar-moves-little-as-surging-oil-prices-offset-stronger-us-dollar-202611190813",
    "date": "19 Nov"
   },
   {
    "title": "Euro holds gains as the British Pound remains weighed down by undershot UK inflation",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-holds-gains-as-the-british-pound-remains-weighed-down-by-undershot-uk-inflation-202611190729",
+   "date": "19 Nov"
+  },
+  {
+   "title": "British Pound: Inflation pressures support Sterling, Commerzbank",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-inflation-pressures-support-sterling-commerzbank-202611190745",
    "date": "19 Nov"
   },
   {
@@ -94,12 +100,6 @@
    "title": "Treasury yields hold steady as investors look ahead to Fed minutes",
    "site": "CNBC",
    "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Pound hits five-week low as UK CPI miss meets Fed hike expectations",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/pound-hits-five-week-low-as-uk-cpi-miss-meets-fed-hike-expectations-202611181540",
    "date": "18 Nov"
   }
  ],
@@ -248,13 +248,13 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T07:39:42Z",
+ "calendarUpdated": "2026-11-19T08:39:41Z",
  "feed": [
   {
-   "title": "Sterling has recovered further as European trading begins",
-   "text": "GBP/USD rose from about 1.3137 at 11:00 Dubai to about 1.3152 at 11:30 and stood near 1.3148 at 11:38, close to where it was before Wednesday's Fed minutes, while EUR/USD rose by a slightly smaller share, from about 1.0964 to 1.0974. So the dollar eased a little from its 19 month high and the pound edged up a touch more, which means slightly more dirhams per pound. No report read names a piece of news behind the move; FXStreet still describes the dollar as supported by the Fed's firm stance, and notes US share futures up nearly 1.7% in the European morning, a firmer mood that usually takes a little demand away from the dollar.",
-   "t": "2026-11-19T07:39:42Z",
-   "rate": 1.31482
+   "title": "Sterling has firmed as the dollar eases at the London open",
+   "text": "GBP/USD rose from about 1.3136 at 11:00 Dubai, as London opened, to about 1.3151 by 11:30 and stood near 1.3151 at 12:35, while EUR/USD rose by a similar share, from about 1.0967 to 1.0981, so the move came from the dollar easing back from its 19 month high rather than from UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with CME FedWatch showing about a 93% chance of a December rise.",
+   "t": "2026-11-19T08:39:41Z",
+   "rate": 1.31506
   },
   {
    "title": "Sterling has edged back up as the dollar steadies",
