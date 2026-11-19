@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T06:39:28Z",
- "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
+ "updated": "2026-11-19T07:39:42Z",
+ "headline": "Sterling is about 1.3148 dollars in European trade on Thursday, having recovered from a low near 1.3117 in Asian trade, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
    "title": "The Fed",
@@ -30,6 +30,18 @@
  ],
  "watch": "US weekly jobless claims and the Philadelphia Fed factory survey come out at 17:30 Dubai on Thursday 19 November, with 198,000 claims and a survey reading of 20.6 expected. More claims or a weaker survey would point to a cooling US economy, tend to weaken the dollar and help someone selling pounds for dirhams, while the reverse would tend to strengthen it. UK retail sales follow at 11:00 Dubai on Friday, with no change expected; a stronger figure would help.",
  "sources": [
+  {
+   "title": "Forex Today: Hawkish repricing of Fed policy outlook continues to support US Dollar",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-hawkish-repricing-of-fed-policy-outlook-continues-to-support-us-dollar-202611190721",
+   "date": "19 Nov"
+  },
+  {
+   "title": "Euro holds gains as the British Pound remains weighed down by undershot UK inflation",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-holds-gains-as-the-british-pound-remains-weighed-down-by-undershot-uk-inflation-202611190729",
+   "date": "19 Nov"
+  },
   {
    "title": "GBP/USD Price Forecast: Softens below 1.3150, holds bearish bias below 100-day SMA",
    "site": "FXStreet",
@@ -88,18 +100,6 @@
    "title": "Pound hits five-week low as UK CPI miss meets Fed hike expectations",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/pound-hits-five-week-low-as-uk-cpi-miss-meets-fed-hike-expectations-202611181540",
-   "date": "18 Nov"
-  },
-  {
-   "title": "British Pound: BoE path supports downside risks, BBH",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-boe-path-supports-downside-risks-bbh-202611181517",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Sterling today: Pound slips as U.S. rate bets outweigh UK CPI rise to 3.6%",
-   "site": "Investing.com",
-   "url": "https://za.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-4583073",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T06:39:28Z",
+ "calendarUpdated": "2026-11-19T07:39:42Z",
  "feed": [
+  {
+   "title": "Sterling has recovered further as European trading begins",
+   "text": "GBP/USD rose from about 1.3137 at 11:00 Dubai to about 1.3152 at 11:30 and stood near 1.3148 at 11:38, close to where it was before Wednesday's Fed minutes, while EUR/USD rose by a slightly smaller share, from about 1.0964 to 1.0974. So the dollar eased a little from its 19 month high and the pound edged up a touch more, which means slightly more dirhams per pound. No report read names a piece of news behind the move; FXStreet still describes the dollar as supported by the Fed's firm stance, and notes US share futures up nearly 1.7% in the European morning, a firmer mood that usually takes a little demand away from the dollar.",
+   "t": "2026-11-19T07:39:42Z",
+   "rate": 1.31482
+  },
   {
    "title": "Sterling has edged back up as the dollar steadies",
    "text": "GBP/USD recovered from a low near 1.3118 at about 07:10 Dubai to about 1.3136 at 10:38, while EUR/USD rose by a similar share, from about 1.0954 to 1.0965, so the move came from the dollar easing slightly from the 19 month high it reached early this morning, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with markets pricing a December Fed rise at close to 90%.",
@@ -393,12 +399,6 @@
    "text": "When the banks' market reopened late on Sunday, GBP/USD jumped from about 1.3190 to 1.3208 within a minute at 02:05 Dubai, undoing the weekend dip in Kraken's price to about 1.3166, and stood near 1.3201 at 07:40 Dubai, against 1.3209 at Friday's close. EUR/USD rose by a similar share since Sunday afternoon, from about 1.0982 to 1.1013, so the move came from a slightly softer dollar, which means a few more dirhams per pound. The Saudi-led coalition reported no damage from the weekend's Houthi missiles and drones, Brent eased about 1% to $95.00 a barrel (about £72) after the IEA said the oil market should return to a surplus this quarter, and CME FedWatch put the chance of a half point Fed rise in December at 6%, down from 11.5% on Friday, though no report read ties the reopening move to any one of these.",
    "t": "2026-11-16T03:40:15Z",
    "rate": 1.32025
-  },
-  {
-   "title": "The dollar has firmed at the weekend as Houthi attacks on Saudi Arabia go on",
-   "text": "The Saudi-led coalition said early on Sunday that it had intercepted two Houthi ballistic missiles fired towards Riyadh and three drones over the oil-producing Eastern Province, a day after the US Embassy in Riyadh issued a nationwide security alert, according to Al Jazeera; no damage was reported. Gulf tension tends to lift the dollar as a safe haven, which means fewer dirhams per pound, and Fed Vice Chair Jefferson said late on Friday that inflation is now his main guide for policy, without giving a timetable for further rises. Kraken's weekend price, a guide to the reopening, has eased from 1.3209 at Friday's close to about 1.3169, with EUR/USD down by a similar share from 1.1014 to 1.0982, so the move comes from the dollar rather than the pound, though no report read ties it directly to the weekend news.",
-   "t": "2026-11-15T13:42:13Z",
-   "rate": 1.31693
   }
  ]
 }
