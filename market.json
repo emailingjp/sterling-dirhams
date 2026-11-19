@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:39:46Z",
+ "updated": "2026-11-19T06:39:28Z",
  "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
@@ -30,6 +30,18 @@
  ],
  "watch": "US weekly jobless claims and the Philadelphia Fed factory survey come out at 17:30 Dubai on Thursday 19 November, with 198,000 claims and a survey reading of 20.6 expected. More claims or a weaker survey would point to a cooling US economy, tend to weaken the dollar and help someone selling pounds for dirhams, while the reverse would tend to strengthen it. UK retail sales follow at 11:00 Dubai on Friday, with no change expected; a stronger figure would help.",
  "sources": [
+  {
+   "title": "GBP/USD Price Forecast: Softens below 1.3150, holds bearish bias below 100-day SMA",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-softens-below-13150-holds-bearish-bias-below-100-day-sma-202611190608",
+   "date": "19 Nov"
+  },
+  {
+   "title": "104.00: United States Dollar Index hits fresh 19-month high on Fed's hawkish undertone",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/10400-united-states-dollar-index-hits-fresh-19-month-high-on-feds-hawkish-undertone-202611190504",
+   "date": "19 Nov"
+  },
   {
    "title": "Canadian Dollar underperforms against US Dollar amid hawkish Fed rhetoric",
    "site": "FXStreet",
@@ -89,18 +101,6 @@
    "site": "Investing.com",
    "url": "https://za.investing.com/news/forex-news/sterling-today-pound-slips-as-us-rate-bets-outweigh-uk-cpi-rise-to-36-4583073",
    "date": "18 Nov"
-  },
-  {
-   "title": "Sterling slips to one-month low versus dollar after UK core inflation",
-   "site": "Global Banking and Finance (Reuters)",
-   "url": "https://www.globalbankingandfinance.com/sterling-slips-one-month-low-versus-dollar-uk-core-inflation/",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-   "date": "10 Nov"
   }
  ],
  "calendar": [
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T03:39:46Z",
+ "calendarUpdated": "2026-11-19T06:39:28Z",
  "feed": [
+  {
+   "title": "Sterling has edged back up as the dollar steadies",
+   "text": "GBP/USD recovered from a low near 1.3118 at about 07:10 Dubai to about 1.3136 at 10:38, while EUR/USD rose by a similar share, from about 1.0954 to 1.0965, so the move came from the dollar easing slightly from the 19 month high it reached early this morning, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with markets pricing a December Fed rise at close to 90%.",
+   "t": "2026-11-19T06:39:28Z",
+   "rate": 1.31352
+  },
   {
    "title": "Sterling has slipped overnight as the dollar firms on Fed rate bets",
    "text": "The dollar gained against most major currencies in Asian trade, with the dollar index up 0.12% at about 104.00 by 07:14 Dubai, according to FXStreet, as Wednesday's Fed minutes and Governor Waller's call for a half point rise kept further US rate rises in view. A firmer dollar means fewer dirhams per pound. GBP/USD eased from about 1.3149 at 05:00 Dubai to a low near 1.3117 at about 07:15 and stood near 1.3124 at 07:38, while EUR/USD fell by a similar share, from about 1.0974 to 1.0955, so the move came from the dollar rather than the pound.",
@@ -393,12 +399,6 @@
    "text": "The Saudi-led coalition said early on Sunday that it had intercepted two Houthi ballistic missiles fired towards Riyadh and three drones over the oil-producing Eastern Province, a day after the US Embassy in Riyadh issued a nationwide security alert, according to Al Jazeera; no damage was reported. Gulf tension tends to lift the dollar as a safe haven, which means fewer dirhams per pound, and Fed Vice Chair Jefferson said late on Friday that inflation is now his main guide for policy, without giving a timetable for further rises. Kraken's weekend price, a guide to the reopening, has eased from 1.3209 at Friday's close to about 1.3169, with EUR/USD down by a similar share from 1.1014 to 1.0982, so the move comes from the dollar rather than the pound, though no report read ties it directly to the weekend news.",
    "t": "2026-11-15T13:42:13Z",
    "rate": 1.31693
-  },
-  {
-   "title": "Sterling has slipped further as the dollar stays firm into the weekend",
-   "text": "GBP/USD fell from about 1.3230 at 19:35 Dubai to about 1.3220 by 19:45, a few minutes before Fed Vice Chair Bowman was due to speak, and drifted to a low near 1.3207 at 20:50 Dubai before standing near 1.3205 at 21:35. EUR/USD fell over the same period from about 1.1034 to 1.1023, roughly half as far, so the dollar firmed and the pound was also slightly softer against it; a firmer dollar means fewer dirhams per pound. No report read names a fresh trigger for the slide, which came with no new US or UK figures out, while Investing.com and InvestingCube described a dollar near its highest since April 2025 on bets of further Fed rises, with the US two year yield up 34 basis points in two sessions to 4.89% earlier on Friday.",
-   "t": "2026-11-13T17:40:00Z",
-   "rate": 1.32041
   }
  ]
 }
