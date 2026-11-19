@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:39:14Z",
+ "updated": "2026-11-19T13:39:11Z",
  "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
  "drivers": [
   {
@@ -28,8 +28,20 @@
   "US jobless claims rising above the 198,000 expected, or US yields falling further from above 5%, which would weaken the dollar and mean more dirhams per pound.",
   "UK retail sales on Friday beating the flat reading expected, or firm comments on further rises from Bank of England officials, which would tend to lift the pound."
  ],
- "watch": "US weekly jobless claims and the Philadelphia Fed factory survey come out at 17:30 Dubai on Thursday 19 November, with 198,000 claims and a survey reading of 20.6 expected. More claims or a weaker survey would point to a cooling US economy, tend to weaken the dollar and help someone selling pounds for dirhams, while the reverse would tend to strengthen it. UK retail sales follow at 11:00 Dubai on Friday, with no change expected; a stronger figure would help.",
+ "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Several Fed officials also speak through Thursday evening Dubai time, and any firmer talk of a December rise would tend to strengthen the dollar.",
  "sources": [
+  {
+   "title": "Unemployment Insurance Weekly Claims",
+   "site": "US Department of Labor",
+   "url": "https://www.dol.gov/ui/data.pdf",
+   "date": "19 Nov"
+  },
+  {
+   "title": "Manufacturing Business Outlook Survey, November 2026",
+   "site": "Federal Reserve Bank of Philadelphia",
+   "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11",
+   "date": "19 Nov"
+  },
   {
    "title": "British Pound picks up as an improved market mood halts the US Dollar rally",
    "site": "FXStreet",
@@ -88,18 +100,6 @@
    "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
    "site": "Federal Reserve",
    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Fed minutes October 2026: Officials expect more rate hikes, worry about AI",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-   "date": "18 Nov"
-  },
-  {
-   "title": "Fed Minutes keep further rate hikes firmly on the table",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/fed-minutes-set-to-provide-further-clues-on-the-central-banks-hiking-pace-202611181500",
    "date": "18 Nov"
   }
  ],
@@ -248,8 +248,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T11:39:14Z",
+ "calendarUpdated": "2026-11-19T13:39:11Z",
  "feed": [
+  {
+   "title": "The dollar has eased after softer US factory and jobs figures",
+   "text": "The Philadelphia Fed factory survey fell to 6.3 in November against 20.6 expected, its lowest since May, and new claims for jobless benefits rose to 203,000 against 198,000 expected, although the survey's price measures rose further. Softer activity and a slightly weaker job market make further Fed rises a little less certain, which tends to weaken the dollar and means slightly more dirhams per pound. GBP/USD rose from about 1.3144 just before the 17:30 Dubai release to about 1.3152 within six minutes, then settled near 1.3149, a modest reaction.",
+   "when": "2026-11-19T13:30:00Z",
+   "t": "2026-11-19T13:39:11Z",
+   "rate": 1.31503
+  },
   {
    "title": "Sterling has risen as a brighter market mood eases the dollar",
    "text": "European shares rose and US stock futures pointed to a strong open on Thursday, and FXStreet reported at 15:14 Dubai that the better mood had halted the dollar's rally, although expectations of further Fed rises limited its losses. A softer dollar means slightly more dirhams per pound. GBP/USD rose from about 1.3141 at 13:40 Dubai to about 1.3166 by 14:45 and stood near 1.3162 at 15:35, while EUR/USD rose by a similar share, from about 1.0983 to 1.1005, so the move came from the dollar rather than from UK news.",
@@ -393,12 +400,6 @@
    "text": "GBP/USD slipped from about 1.3214 at 13:03 Dubai to a low near 1.3182 at 13:36, while EUR/USD fell by a similar share, from 1.1026 to 1.1002, its weakest in 19 months, so the move came from a firmer dollar rather than from the pound; a firmer dollar means fewer dirhams per pound. No report read names a trigger for this half hour, which came with no US or UK figures out, but FXStreet described markets turning cautious on Monday, with US share futures down between 0.2% and 1% and traders still betting on a Fed rise in December, while Saxo reported Brent back up to $96.60 a barrel (about £73) after Iranian drones were fired at a US base in Bahrain and a tanker hit a mine near the Strait of Hormuz. Gulf tension and bets on higher US interest rates both tend to lift the dollar ahead of Fed Chair Warsh's speech at 21:00 Dubai.",
    "t": "2026-11-16T09:39:43Z",
    "rate": 1.31825
-  },
-  {
-   "title": "Sterling has held steady as the dollar stays firm ahead of Warsh",
-   "text": "GBP/USD has barely moved this morning, from about 1.3203 at 07:40 Dubai to 1.3202 at 12:38, within a range from a high near 1.3209 at 09:35 to a low near 1.3190 at 10:58; EUR/USD moved in step, from 1.1013 to 1.1010, so the small swings came from the dollar rather than the pound. FXStreet reported at 08:17 GMT that the dollar index had broken above 103 on expectations of another Fed rise, weaker shares and fading appetite for risk, with oil opening lower and then turning higher, while Seoul Economic Daily reported the US ten year yield back above 5% ahead of Fed Chair Warsh's speech. A firm dollar means fewer dirhams per pound, but so far it has only held sterling in place rather than pushed it lower.",
-   "t": "2026-11-16T08:39:28Z",
-   "rate": 1.32021
   }
  ]
 }
