@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:39:03Z",
+ "updated": "2026-11-20T16:39:25Z",
  "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
@@ -29,6 +29,12 @@
  ],
  "watch": "With the Michigan figures out, no further major US or UK figure is due this week, and next week's calendar will appear here as it is published. US markets close on Thursday 26 November for Thanksgiving, which tends to thin trading in the dollar; softer US news would tend to help someone selling pounds for dirhams, and firmer US news would mean fewer dirhams per pound.",
  "sources": [
+  {
+   "title": "GBP/USD and EUR/USD one minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "20 Nov"
+  },
   {
    "title": "University of Michigan consumer sentiment 51.5 versus 51.5 estimate",
    "site": "investingLive",
@@ -93,12 +99,6 @@
    "title": "Retail sales, Great Britain",
    "site": "Office for National Statistics",
    "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest",
-   "date": "20 Nov"
-  },
-  {
-   "title": "GBP/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "20 Nov"
   }
  ],
@@ -258,8 +258,14 @@
    "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T15:39:03Z",
+ "calendarUpdated": "2026-11-20T16:39:25Z",
  "feed": [
+  {
+   "title": "Sterling has slipped as the dollar firms late on Friday",
+   "text": "GBP/USD fell from about 1.3115 at 19:51 Dubai to about 1.3099 by 20:03 and stayed near 1.3098 to 1.3103 through 20:36, while EUR/USD fell by a similar share, from about 1.0989 to about 1.0975, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the move, which came in the minutes before 4pm London time, when many currency deals are priced, and with no US or UK figure due.",
+   "t": "2026-11-20T16:39:25Z",
+   "rate": 1.31049
+  },
   {
    "title": "US consumer mood and price fears have barely moved the pound",
    "text": "The final University of Michigan reading of US consumer sentiment for November came in at 51.5, in line with the 51.5 InvestingLive's poll expected and a touch below the 51.7 on the calendar, while Americans' expectations for inflation over the next year fell to 3.7% from 4.3% in the first estimate. Lower expected inflation would usually ease pressure for Fed rises and soften the dollar slightly, but with a December rise already almost fully priced the figures made little difference. GBP/USD was about 1.3110 at 19:00 Dubai, dipped to 1.3105 by 19:05, rose to about 1.3117 by 19:15 and was back near 1.3113 by 19:38.",
@@ -403,12 +409,6 @@
    "text": "GBP/USD slipped from about 1.3213 at 20:39 Dubai on Tuesday to a low near 1.3192 at about 04:45 Dubai and stood near 1.3196 at 07:38, while EUR/USD fell by a similar share, from about 1.1012 to 1.0990, so the dip came from a firmer dollar rather than the pound and means slightly fewer dirhams per pound. Reuters reported the dollar index up 0.1% at 103.66 in early Asian trade, near its highest since April 2025, with the US ten year yield up 2.2 basis points at 5.123% after St. Louis Fed President Musalem said several rate rises may be needed, even as Nvidia's results lifted Asian shares. FXStreet also pointed to a fully priced Fed rise in December and to tension between the US and Iran as support for the dollar before UK inflation figures at 11:00 Dubai.",
    "t": "2026-11-18T03:39:45Z",
    "rate": 1.31961
-  },
-  {
-   "title": "The dollar has eased ahead of Nvidia's results",
-   "text": "GBP/USD rose from about 1.3187 at 19:20 Dubai to a high near 1.3218 at about 20:20 and stood near 1.3213 at 20:38, while EUR/USD rose from about 1.0991 to 1.1013, so the gain came mainly from a softer dollar and means slightly more dirhams per pound. FXStreet put the pound's first daily gain in six sessions down to a modest dollar pullback as traders turned cautious ahead of Nvidia's results after the US close, with the pound also supported by Reuters' report that markets price about a 91% chance of a Bank of England rise in December. No single news item marks the start of the move, and the dollar's fall was limited by St. Louis Fed President Musalem saying on Tuesday that several Fed rises would likely be needed before spring.",
-   "t": "2026-11-17T16:39:29Z",
-   "rate": 1.32134
   }
  ]
 }
