@@ -1,35 +1,59 @@
 {
- "updated": "2026-11-19T17:39:29Z",
- "headline": "Sterling is about 1.3124 dollars early on Thursday, around its lowest in about a year, after the dollar firmed overnight on expectations of further Fed rate rises. UK inflation of 3.6% with softer services prices on Wednesday also trimmed bets on a December Bank of England rise.",
+ "updated": "2026-11-20T03:40:50Z",
+ "headline": "Sterling is about 1.3096 dollars early on Friday, near a new low for 2026 after falling below 1.31 overnight, as a firm Fed and a fall in US shares kept the dollar near its highest in 19 months. UK retail sales for October, due at 11:00 Dubai, are the next test for the pound.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "Minutes of the Fed's October meeting, published on 18 November, show that almost all officials judged further rises would likely be appropriate, and some warned a larger rise could be needed in December. Governor Waller said the Fed should either raise rates by half a point in December or signal faster rises in 2027, Reuters reported on 19 November, and traders fully price a December rise, according to CME FedWatch as reported by FXStreet."
+   "text": "Minutes of the Fed's October meeting, published on 18 November, show that nearly all officials expect rates will need to rise further, and Governor Waller has called for the Fed to be more aggressive, including a possible half point rise. CME FedWatch put the chance of a December rise at 97.3% for a quarter point and 2.7% for half a point on 20 November, FXStreet reported."
   },
   {
-   "title": "US yields and the dollar",
-   "text": "The dollar index was up 0.12% at about 104.00 in Asian trade on 19 November, according to FXStreet, near its highest since April 2025. The US ten year Treasury yield fell about four basis points to 5.06% on Wednesday after a solid 20 year auction, Reuters reported, which has slowed but not reversed the dollar's rise."
+   "title": "The gap between US and UK rates",
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and FXStreet reported on 19 November that a quarter point Fed rise on 9 December would take US rates above UK rates. UK inflation of 3.6% in October, with softer services prices, led traders to trim bets on a December Bank of England rise, and the UK ten year gilt yield fell 8.2 basis points to 5.29% on Wednesday, FXStreet reported on 20 November."
+  },
+  {
+   "title": "Shares and the dollar",
+   "text": "US shares fell about 2% on Thursday, FXStreet reported, and the pound has fallen about 400 pips in eleven sessions from a high near 1.3500 on 4 November. Weaker shares tend to support the dollar as a safe haven, and Spectra Markets, quoted by FXStreet, also pointed to dollar buying by companies ahead of Thanksgiving and by funds rebalancing."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Oil settled more than 1% lower on Wednesday after larger than expected rises in US crude and fuel stocks, Reuters reported on 19 November, with Brent near $92 a barrel (about £70). FXStreet said on 19 November that oil has fallen markedly over recent weeks as fears of US strikes on Iran eased, although tension between the US and Iran has helped keep the dollar near its highs."
-  },
-  {
-   "title": "The UK side",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November. UK inflation rose to 3.6% in October, as expected, but softer services prices led traders to cut the chance of a December rise to about 80% from about 90%, according to FXStreet on 18 November. Governor Bailey said on 18 November that UK inflation will rise further but policy is not on a pre-set path."
+   "text": "Iran's navy said two oil tankers hit mines in the Strait of Hormuz on Thursday, and Houthi missiles were fired at Riyadh, FXStreet reported on 20 November. US crude held steady as the tanker reports offset rising US stocks of crude, and Gulf tension tends to support the dollar."
   }
  ],
  "lower": [
-  "Firmer talk from Fed officials of a December rise, which would support the dollar and mean fewer dirhams per pound.",
-  "Further signs that softer UK services inflation has cooled bets on a December Bank of England rise, which would take support from the pound.",
-  "Fresh tension between the US and Iran, which would tend to lift oil and the dollar as a safe haven."
+  "Further falls in shares or fresh tension in the Gulf, which tend to lift the dollar as a safe haven and mean fewer dirhams per pound.",
+  "Firm talk from Fed Governor Waller on Friday afternoon of a larger December rise, which would support the dollar.",
+  "UK retail sales falling short of the flat reading expected, which would add to doubts about a December Bank of England rise and weigh on the pound."
  ],
  "higher": [
-  "Further soft US figures, such as the revised University of Michigan consumer survey on Friday, or US yields falling further from above 5%, which would weaken the dollar and mean more dirhams per pound.",
-  "UK retail sales on Friday beating the flat reading expected, or firm comments on further rises from Bank of England officials, which would tend to lift the pound."
+  "UK retail sales beating the flat reading expected, or firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound.",
+  "A recovery in shares or softer US figures, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Several Fed officials also speak through Thursday evening Dubai time, and any firmer talk of a December rise would tend to strengthen the dollar.",
+ "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected on the month after a 0.4% fall and a rise of 1.7% on the year; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Fed Governor Waller then speaks at 17:25 Dubai, and firm talk of a larger December rise would tend to strengthen the dollar.",
  "sources": [
+  {
+   "title": "British Pound declines below 1.3100 ahead of UK Retail Sales data",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-declines-below-13100-ahead-of-uk-retail-sales-data-202611200207",
+   "date": "20 Nov"
+  },
+  {
+   "title": "UK retail sales are next for a Pound at a new 2026 low",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/uk-retail-sales-are-next-for-a-pound-at-a-new-2026-low-202611192300",
+   "date": "19 Nov"
+  },
+  {
+   "title": "Canadian Dollar gains ground as Middle East geopolitical tensions support Oil prices",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/canadian-dollar-gains-ground-as-middle-east-geopolitical-tensions-support-oil-prices-202611200300",
+   "date": "20 Nov"
+  },
+  {
+   "title": "GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
+   "date": "20 Nov"
+  },
   {
    "title": "Forex Today: Hawkish repricing of Fed policy outlook continues to support US Dollar",
    "site": "FXStreet",
@@ -76,30 +100,6 @@
    "title": "British Pound: Inflation pressures support Sterling, Commerzbank",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/british-pound-inflation-pressures-support-sterling-commerzbank-202611190745",
-   "date": "19 Nov"
-  },
-  {
-   "title": "GBP/USD Price Forecast: Softens below 1.3150, holds bearish bias below 100-day SMA",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/gbp-usd-price-forecast-softens-below-13150-holds-bearish-bias-below-100-day-sma-202611190608",
-   "date": "19 Nov"
-  },
-  {
-   "title": "104.00: United States Dollar Index hits fresh 19-month high on Fed's hawkish undertone",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/10400-united-states-dollar-index-hits-fresh-19-month-high-on-feds-hawkish-undertone-202611190504",
-   "date": "19 Nov"
-  },
-  {
-   "title": "Canadian Dollar underperforms against US Dollar amid hawkish Fed rhetoric",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/canadian-dollar-underperforms-against-us-dollar-amid-hawkish-fed-rhetoric-202611190314",
-   "date": "19 Nov"
-  },
-  {
-   "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
-   "site": "Investing.com (Reuters)",
-   "url": "https://www.investing.com/news/economy-news/us-dollar-hovers-near-19month-high-aussie-falls-after-soft-jobs-data-5037555",
    "date": "19 Nov"
   }
  ],
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-19T17:39:29Z",
+ "calendarUpdated": "2026-11-20T03:40:50Z",
  "feed": [
+  {
+   "title": "Sterling has slipped to a new low for the year as shares fall overnight",
+   "text": "US shares fell about 2% on Thursday, FXStreet reported, and the dollar stayed firm near its 19 month high, helped by a firm Fed and, in the view of Spectra Markets quoted by FXStreet, by overseas buyers of the Anthropic share sale buying an estimated $10 billion to $15 billion (about £7.6 billion to £11.5 billion). A firmer dollar means fewer dirhams per pound. GBP/USD fell from about 1.3092 at 01:15 Dubai to about 1.3077 by 01:30, touched about 1.3074 at 06:10 and had recovered to about 1.3096 by 07:35; EUR/USD fell by a similar share overnight, so the move came from the dollar rather than from UK news.",
+   "t": "2026-11-20T03:40:50Z",
+   "rate": 1.3096
+  },
   {
    "title": "Sterling has dipped and recovered as the dollar firms briefly",
    "text": "GBP/USD slipped from about 1.3112 at 21:00 Dubai to about 1.3090 by 21:07, recovered to about 1.3113 by 21:20 and stood near 1.3106 at 21:35. EUR/USD dipped over the same minutes, from about 1.0978 to 1.0969, so the dollar firmed briefly across the board rather than the pound falling on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the dip; FXStreet still describes the dollar as supported by the Fed's firm stance after minutes showing almost all officials expect further rises.",
@@ -394,12 +400,6 @@
    "when": "2026-11-16T17:00:00Z",
    "t": "2026-11-16T17:39:23Z",
    "rate": 1.31852
-  },
-  {
-   "title": "The dollar has edged higher again before Warsh speaks",
-   "text": "GBP/USD slipped from about 1.3195 at 18:10 Dubai, around the time New York Fed President Williams was due to speak, to a low near 1.3176 at 19:55 and stood near 1.3183 at 20:30, while EUR/USD fell by a similar share, from about 1.1012 to 1.0998, so the move came from a firmer dollar rather than from the pound; a firmer dollar means fewer dirhams per pound. No report read names a trigger for this small slide, and no report of what Williams said had been found, but FXStreet described the dollar index near 103.50, its highest since April 2025, on bets of a longer run of Fed rises after a third hot core inflation reading, with the US two year yield near 4.85% and the ten year near 5.13%, ahead of Fed Chair Warsh at 21:00 Dubai.",
-   "t": "2026-11-16T16:39:18Z",
-   "rate": 1.31805
   }
  ]
 }
