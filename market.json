@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:39:37Z",
+ "updated": "2026-11-20T13:39:38Z",
  "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
@@ -27,18 +27,18 @@
   "Firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound, as would further strong UK figures like October's retail sales.",
   "A recovery in shares or softer US figures, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "Fed Governor Waller speaks at 17:25 Dubai on Friday 20 November, and firm talk of a larger December rise would tend to strengthen the dollar and mean fewer dirhams per pound, while a more cautious tone would tend to help someone selling pounds for dirhams.",
+ "watch": "The revised University of Michigan US consumer sentiment reading comes at 19:00 Dubai on Friday 20 November, forecast 51.7 against 51.0 before; a weaker reading would tend to soften the dollar and help someone selling pounds for dirhams, while a stronger one would tend to firm the dollar and mean fewer dirhams per pound.",
  "sources": [
-  {
-   "title": "Pound Sterling Price News and Forecast: GBP/USD tests yearly lows",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-usd-tests-yearly-lows-202611201155",
-   "date": "20 Nov"
-  },
   {
    "title": "US 10-year Treasury yield slips below 5% as global equity rout deepens",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-10-year-treasury-yield-slips-below-5-as-global-equity-rout-deepens-202611201233",
+   "date": "20 Nov"
+  },
+  {
+   "title": "Pound Sterling Price News and Forecast: GBP/USD tests yearly lows",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-sterling-price-news-and-forecast-gbp-usd-tests-yearly-lows-202611201155",
    "date": "20 Nov"
   },
   {
@@ -247,8 +247,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T12:39:37Z",
+ "calendarUpdated": "2026-11-20T13:39:38Z",
  "feed": [
+  {
+   "title": "Sterling has risen as the dollar eases across the board",
+   "text": "GBP/USD rose from about 1.3099 at 16:53 Dubai to about 1.3126 by 17:08 and held near 1.3120 to 1.3125 through 17:38, while EUR/USD rose from about 1.0975 to about 1.0989 over the same minutes, so the dollar eased generally rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind the move; it came as US Treasury yields fell across the curve, with the 10 year yield at 4.98% and the rout in shares deepening, FXStreet reported. Fed Governor Waller was due to speak at 17:25 Dubai, and GBP/USD moved little around that time, staying near 1.3120.",
+   "t": "2026-11-20T13:39:38Z",
+   "rate": 1.31173
+  },
   {
    "title": "Sterling has dipped and recovered as US yields fall",
    "text": "GBP/USD slipped from about 1.3110 at 15:43 Dubai to about 1.3093 by 16:00, while EUR/USD fell by only about a third as much, so the pound was a little weaker in its own right; no report read names a single item of news behind the dip, and FXStreet at 15:55 Dubai again put the pound's weakness down to markets pricing a December Fed rise at 97.3%. From about 16:35 Dubai the dollar eased across the board as the fall in shares deepened and the 10 year US Treasury yield slipped below 5% to 4.98%, FXStreet reported, which means slightly more dirhams per pound. GBP/USD rose from about 1.3095 at 16:34 to about 1.3109 by 16:38, with EUR/USD rising alongside it.",
@@ -391,13 +397,6 @@
    "text": "GBP/USD fell to a low near 1.3172 at about 17:40 Dubai after the US retail sales release, then climbed steadily to about 1.3195 by 18:12 and stood near 1.3192 at 18:36, while EUR/USD rose from a low near 1.0968 to about 1.0990, so the recovery came from a softer dollar rather than the pound and means slightly more dirhams per pound. No report read names a trigger for the dollar easing: FXStreet still described it as firmly bid at 18:29 Dubai, with the dollar index near 103.60 and US two year and ten year yields near 4.85% and 5.14%, close to one month highs.",
    "t": "2026-11-17T14:39:15Z",
    "rate": 1.31908
-  },
-  {
-   "title": "The dollar has firmed after US retail sales beat forecasts",
-   "text": "US retail sales rose 0.2% in October against 0.1% forecast, and sales excluding cars rose about 0.6% against 0.4% expected, according to the Census Bureau, with September's 0.8% gain left unrevised. Steady spending supports the case for the Fed rise that markets already price for December, which firms the dollar and means fewer dirhams per pound. GBP/USD fell from 1.3187 just before the release to 1.3177 within two minutes and was near 1.3173 eight minutes later, while EUR/USD fell from 1.0986 to 1.0970, so the move came from the dollar rather than the pound.",
-   "when": "2026-11-17T13:30:00Z",
-   "t": "2026-11-17T13:39:18Z",
-   "rate": 1.31737
   }
  ]
 }
