@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:39:38Z",
+ "updated": "2026-11-20T15:39:03Z",
  "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
@@ -27,8 +27,26 @@
   "Firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound, as would further strong UK figures like October's retail sales.",
   "A recovery in shares or softer US figures, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "The revised University of Michigan US consumer sentiment reading comes at 19:00 Dubai on Friday 20 November, forecast 51.7 against 51.0 before; a weaker reading would tend to soften the dollar and help someone selling pounds for dirhams, while a stronger one would tend to firm the dollar and mean fewer dirhams per pound.",
+ "watch": "With the Michigan figures out, no further major US or UK figure is due this week, and next week's calendar will appear here as it is published. US markets close on Thursday 26 November for Thanksgiving, which tends to thin trading in the dollar; softer US news would tend to help someone selling pounds for dirhams, and firmer US news would mean fewer dirhams per pound.",
  "sources": [
+  {
+   "title": "University of Michigan consumer sentiment 51.5 versus 51.5 estimate",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/university-of-michigan-consumer-sentiment-51-5-versus-51-5-estimate/",
+   "date": "20 Nov"
+  },
+  {
+   "title": "Gold price trades near $3,568/oz after final Consumer Sentiment rises to 51.5, inflation expectations drop",
+   "site": "Kitco News",
+   "url": "https://www.kitco.com/news/article/2026-11-20/gold-price-trades-near-3568oz-after-final-consumer-sentiment-rises-515",
+   "date": "20 Nov"
+  },
+  {
+   "title": "Surveys of Consumers",
+   "site": "University of Michigan",
+   "url": "https://www.sca.isr.umich.edu/",
+   "date": "20 Nov"
+  },
   {
    "title": "US 10-year Treasury yield slips below 5% as global equity rout deepens",
    "site": "FXStreet",
@@ -82,24 +100,6 @@
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "20 Nov"
-  },
-  {
-   "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
-   "site": "Reuters via MarketScreener",
-   "url": "https://www.marketscreener.com/news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-ce785ed2de8ef627",
-   "date": "20 Nov"
-  },
-  {
-   "title": "British Pound declines below 1.3100 ahead of UK Retail Sales data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-declines-below-13100-ahead-of-uk-retail-sales-data-202611200207",
-   "date": "20 Nov"
-  },
-  {
-   "title": "UK retail sales are next for a Pound at a new 2026 low",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/uk-retail-sales-are-next-for-a-pound-at-a-new-2026-low-202611192300",
-   "date": "19 Nov"
   }
  ],
  "calendar": [
@@ -245,10 +245,28 @@
    "previous": "4.3%",
    "good": "Lower than forecast",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-20T17:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: President Trump Speaks",
+   "title": "President Trump Speaks",
+   "forecast": "",
+   "previous": "",
+   "good": "A cautious tone on further rises",
+   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T13:39:38Z",
+ "calendarUpdated": "2026-11-20T15:39:03Z",
  "feed": [
+  {
+   "title": "US consumer mood and price fears have barely moved the pound",
+   "text": "The final University of Michigan reading of US consumer sentiment for November came in at 51.5, in line with the 51.5 InvestingLive's poll expected and a touch below the 51.7 on the calendar, while Americans' expectations for inflation over the next year fell to 3.7% from 4.3% in the first estimate. Lower expected inflation would usually ease pressure for Fed rises and soften the dollar slightly, but with a December rise already almost fully priced the figures made little difference. GBP/USD was about 1.3110 at 19:00 Dubai, dipped to 1.3105 by 19:05, rose to about 1.3117 by 19:15 and was back near 1.3113 by 19:38.",
+   "when": "2026-11-20T15:00:00Z",
+   "t": "2026-11-20T15:39:03Z",
+   "rate": 1.31135
+  },
   {
    "title": "Sterling has risen as the dollar eases across the board",
    "text": "GBP/USD rose from about 1.3099 at 16:53 Dubai to about 1.3126 by 17:08 and held near 1.3120 to 1.3125 through 17:38, while EUR/USD rose from about 1.0975 to about 1.0989 over the same minutes, so the dollar eased generally rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind the move; it came as US Treasury yields fell across the curve, with the 10 year yield at 4.98% and the rout in shares deepening, FXStreet reported. Fed Governor Waller was due to speak at 17:25 Dubai, and GBP/USD moved little around that time, staying near 1.3120.",
@@ -391,12 +409,6 @@
    "text": "GBP/USD rose from about 1.3187 at 19:20 Dubai to a high near 1.3218 at about 20:20 and stood near 1.3213 at 20:38, while EUR/USD rose from about 1.0991 to 1.1013, so the gain came mainly from a softer dollar and means slightly more dirhams per pound. FXStreet put the pound's first daily gain in six sessions down to a modest dollar pullback as traders turned cautious ahead of Nvidia's results after the US close, with the pound also supported by Reuters' report that markets price about a 91% chance of a Bank of England rise in December. No single news item marks the start of the move, and the dollar's fall was limited by St. Louis Fed President Musalem saying on Tuesday that several Fed rises would likely be needed before spring.",
    "t": "2026-11-17T16:39:29Z",
    "rate": 1.32134
-  },
-  {
-   "title": "The dollar has given back its gain from the retail sales figures",
-   "text": "GBP/USD fell to a low near 1.3172 at about 17:40 Dubai after the US retail sales release, then climbed steadily to about 1.3195 by 18:12 and stood near 1.3192 at 18:36, while EUR/USD rose from a low near 1.0968 to about 1.0990, so the recovery came from a softer dollar rather than the pound and means slightly more dirhams per pound. No report read names a trigger for the dollar easing: FXStreet still described it as firmly bid at 18:29 Dubai, with the dollar index near 103.60 and US two year and ten year yields near 4.85% and 5.14%, close to one month highs.",
-   "t": "2026-11-17T14:39:15Z",
-   "rate": 1.31908
   }
  ]
 }
