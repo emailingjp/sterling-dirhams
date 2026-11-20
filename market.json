@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:41:06Z",
+ "updated": "2026-11-20T19:39:01Z",
  "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
@@ -30,15 +30,21 @@
  "watch": "With the Michigan figures out, no further major US or UK figure is due this week, and next week's calendar will appear here as it is published. US markets close on Thursday 26 November for Thanksgiving, which tends to thin trading in the dollar; softer US news would tend to help someone selling pounds for dirhams, and firmer US news would mean fewer dirhams per pound.",
  "sources": [
   {
-   "title": "Trump holds press conference after meeting with Xi and Putin",
-   "site": "NPR",
-   "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+   "title": "Pound steadies at three-month low after UK retail sales beat",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-steadies-at-three-month-low-after-uk-retail-sales-beat-202611201554",
    "date": "20 Nov"
   },
   {
    "title": "GBP/USD and EUR/USD one minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "20 Nov"
+  },
+  {
+   "title": "Trump holds press conference after meeting with Xi and Putin",
+   "site": "NPR",
+   "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
    "date": "20 Nov"
   },
   {
@@ -93,12 +99,6 @@
    "title": "UK retail sales beat forecasts after government tells households to stock up",
    "site": "Reuters via 102.7 WBOW",
    "url": "https://1027wbow.com/2026/11/20/uk-retail-sales-rise-0-7-in-october-beating-forecasts/",
-   "date": "20 Nov"
-  },
-  {
-   "title": "UK October retail sales +0.7% vs +0.0% m/m expected",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/uk-october-retail-sales-0-7-vs-0-0-m-m-expected/",
    "date": "20 Nov"
   }
  ],
@@ -258,8 +258,14 @@
    "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T17:41:06Z",
+ "calendarUpdated": "2026-11-20T19:39:01Z",
  "feed": [
+  {
+   "title": "Sterling has drifted lower as the dollar firms into the weekend",
+   "text": "GBP/USD eased from about 1.3100 at 21:40 Dubai to about 1.3085 by 23:30 and was near 1.3087 at 23:38, while EUR/USD fell by a similar share, from about 1.0973 to about 1.0956, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the drift, which came in quiet late Friday trading with no US or UK figure due; FXStreet earlier on Friday put the pound's weakness down to growing expectations of further Fed rises.",
+   "t": "2026-11-20T19:39:01Z",
+   "rate": 1.309
+  },
   {
    "title": "Trump's press conference has barely moved the pound",
    "text": "President Trump spoke at the White House at 21:00 Dubai after his trip to China, saying the United States went into the talks with Xi and Putin from a position of strength, noting that oil prices have been falling and saying Iran wants a deal but not one he would accept, NPR reported; the summit produced few tangible results. With no news on trade, the Fed or the dollar, the remarks gave the market little to act on. GBP/USD was about 1.3103 at 20:58 Dubai, eased to about 1.3098 by 21:06 and stayed near 1.3100 to 1.3103 through 21:38.",
@@ -404,12 +410,6 @@
    "when": "2026-11-18T07:00:00Z",
    "t": "2026-11-18T07:39:20Z",
    "rate": 1.31702
-  },
-  {
-   "title": "The dollar has edged higher through the Gulf morning",
-   "text": "GBP/USD drifted from about 1.3196 at 07:38 Dubai to a low near 1.3185 at about 10:30, while EUR/USD fell by a slightly larger share, from about 1.0991 to 1.0977, so the dip came from a firmer dollar rather than the pound and means slightly fewer dirhams per pound. Investing.com reported the dollar index up 0.2% at 103.66 at 08:42 Dubai, near its highest since April 2025, as traders price a Fed rise in December after US import prices rose 1.1% in October against 0.7% expected and New York Fed President Williams said rates would likely need to rise again. No single news item marks the slide, which came gradually ahead of UK inflation figures at 11:00 Dubai.",
-   "t": "2026-11-18T06:39:28Z",
-   "rate": 1.31855
   }
  ]
 }
