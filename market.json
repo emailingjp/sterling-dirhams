@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:40:50Z",
+ "updated": "2026-11-20T06:39:29Z",
  "headline": "Sterling is about 1.3096 dollars early on Friday, near a new low for 2026 after falling below 1.31 overnight, as a firm Fed and a fall in US shares kept the dollar near its highest in 19 months. UK retail sales for October, due at 11:00 Dubai, are the next test for the pound.",
  "drivers": [
   {
@@ -30,6 +30,12 @@
  ],
  "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected on the month after a 0.4% fall and a rise of 1.7% on the year; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Fed Governor Waller then speaks at 17:25 Dubai, and firm talk of a larger December rise would tend to strengthen the dollar.",
  "sources": [
+  {
+   "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
+   "site": "Reuters via MarketScreener",
+   "url": "https://www.marketscreener.com/news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-ce785ed2de8ef627",
+   "date": "20 Nov"
+  },
   {
    "title": "British Pound declines below 1.3100 ahead of UK Retail Sales data",
    "site": "FXStreet",
@@ -94,12 +100,6 @@
    "title": "Euro holds gains as the British Pound remains weighed down by undershot UK inflation",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-holds-gains-as-the-british-pound-remains-weighed-down-by-undershot-uk-inflation-202611190729",
-   "date": "19 Nov"
-  },
-  {
-   "title": "British Pound: Inflation pressures support Sterling, Commerzbank",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-inflation-pressures-support-sterling-commerzbank-202611190745",
    "date": "19 Nov"
   }
  ],
@@ -248,8 +248,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T03:40:50Z",
+ "calendarUpdated": "2026-11-20T06:39:29Z",
  "feed": [
+  {
+   "title": "Sterling has edged up as the dollar eases slightly",
+   "text": "GBP/USD edged up from about 1.3097 at 07:40 Dubai to about 1.3105 by 09:00, dipped to about 1.3097 at 09:40 and then rose to about 1.3112 by 10:35, while EUR/USD rose by a similar share, from about 1.0969 to 1.0983, so the dollar eased a little across the board rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; Reuters reported early on Friday that the dollar index was steady near its highest since April 2025 and that the 10 year US Treasury yield was near a one week low, even as Asian shares fell sharply. UK retail sales for October follow at 11:00 Dubai.",
+   "t": "2026-11-20T06:39:29Z",
+   "rate": 1.31119
+  },
   {
    "title": "Sterling has slipped to a new low for the year as shares fall overnight",
    "text": "US shares fell about 2% on Thursday, FXStreet reported, and the dollar stayed firm near its 19 month high, helped by a firm Fed and, in the view of Spectra Markets quoted by FXStreet, by overseas buyers of the Anthropic share sale buying an estimated $10 billion to $15 billion (about £7.6 billion to £11.5 billion). A firmer dollar means fewer dirhams per pound. GBP/USD fell from about 1.3092 at 01:15 Dubai to about 1.3077 by 01:30, touched about 1.3074 at 06:10 and had recovered to about 1.3096 by 07:35; EUR/USD fell by a similar share overnight, so the move came from the dollar rather than from UK news.",
@@ -393,13 +399,6 @@
    "text": "GBP/USD slipped from about 1.3185 at 21:39 Dubai on Monday to a low near 1.3163 at about 05:30 Dubai, then recovered to about 1.3188 by 07:30, while EUR/USD moved in step, from about 1.1001 to a low near 1.0982 and back to 1.1004, so the swings came from the dollar rather than the pound. FXStreet described Tuesday's Asian dip as a sixth straight daily loss for the pound, driven by a dollar that has firmed since last week's hotter than expected US inflation figures, with CME FedWatch showing a 95.7% chance of a quarter point Fed rise on 9 December. No report read names a trigger for the overnight recovery, which leaves sterling almost exactly where it stood on Monday evening and the number of dirhams per pound broadly unchanged.",
    "t": "2026-11-17T03:40:05Z",
    "rate": 1.31869
-  },
-  {
-   "title": "Warsh has spoken on AI and said nothing on rates",
-   "text": "Fed Chair Warsh spoke about artificial intelligence and productivity at a conference in San Francisco at 21:00 Dubai, and investingLive reported nothing on inflation, interest rates or the balance sheet beyond a line that AI has implications for monetary policy down the road. With no new signal on a December rise, the dollar eased only slightly: GBP/USD rose from about 1.3180 at 21:00 Dubai to 1.3190 by 21:11 and stood near 1.3184 at 21:37, while EUR/USD moved from about 1.0999 to 1.1005 and back to 1.1001, so the small lift came from the dollar rather than the pound and means very slightly more dirhams per pound.",
-   "when": "2026-11-16T17:00:00Z",
-   "t": "2026-11-16T17:39:23Z",
-   "rate": 1.31852
   }
  ]
 }
