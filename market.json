@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T06:39:29Z",
- "headline": "Sterling is about 1.3096 dollars early on Friday, near a new low for 2026 after falling below 1.31 overnight, as a firm Fed and a fall in US shares kept the dollar near its highest in 19 months. UK retail sales for October, due at 11:00 Dubai, are the next test for the pound.",
+ "updated": "2026-11-20T07:39:04Z",
+ "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
    "title": "The Fed",
@@ -21,15 +21,38 @@
  ],
  "lower": [
   "Further falls in shares or fresh tension in the Gulf, which tend to lift the dollar as a safe haven and mean fewer dirhams per pound.",
-  "Firm talk from Fed Governor Waller on Friday afternoon of a larger December rise, which would support the dollar.",
-  "UK retail sales falling short of the flat reading expected, which would add to doubts about a December Bank of England rise and weigh on the pound."
+  "Firm talk from Fed Governor Waller on Friday afternoon of a larger December rise, which would support the dollar."
  ],
  "higher": [
-  "UK retail sales beating the flat reading expected, or firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound.",
+  "Firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound, as would further strong UK figures like October's retail sales.",
   "A recovery in shares or softer US figures, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "UK retail sales for October come out at 11:00 Dubai on Friday 20 November, with no change expected on the month after a 0.4% fall and a rise of 1.7% on the year; a stronger figure would tend to lift the pound and help someone selling pounds for dirhams, while a weaker one would tend to weigh on it. Fed Governor Waller then speaks at 17:25 Dubai, and firm talk of a larger December rise would tend to strengthen the dollar.",
+ "watch": "Fed Governor Waller speaks at 17:25 Dubai on Friday 20 November, and firm talk of a larger December rise would tend to strengthen the dollar and mean fewer dirhams per pound, while a more cautious tone would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "UK retail sales beat forecasts after government tells households to stock up",
+   "site": "Reuters via 102.7 WBOW",
+   "url": "https://1027wbow.com/2026/11/20/uk-retail-sales-rise-0-7-in-october-beating-forecasts/",
+   "date": "20 Nov"
+  },
+  {
+   "title": "UK October retail sales +0.7% vs +0.0% m/m expected",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/uk-october-retail-sales-0-7-vs-0-0-m-m-expected/",
+   "date": "20 Nov"
+  },
+  {
+   "title": "Retail sales, Great Britain",
+   "site": "Office for National Statistics",
+   "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest",
+   "date": "20 Nov"
+  },
+  {
+   "title": "GBP/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "20 Nov"
+  },
   {
    "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
    "site": "Reuters via MarketScreener",
@@ -76,30 +99,6 @@
    "title": "Unemployment Insurance Weekly Claims",
    "site": "US Department of Labor",
    "url": "https://www.dol.gov/ui/data.pdf",
-   "date": "19 Nov"
-  },
-  {
-   "title": "Manufacturing Business Outlook Survey, November 2026",
-   "site": "Federal Reserve Bank of Philadelphia",
-   "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11",
-   "date": "19 Nov"
-  },
-  {
-   "title": "British Pound picks up as an improved market mood halts the US Dollar rally",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-picks-up-as-an-improved-market-mood-halts-the-us-dollar-rally-202611191114",
-   "date": "19 Nov"
-  },
-  {
-   "title": "Canadian Dollar moves little as surging oil prices offset stronger US Dollar",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/canadian-dollar-moves-little-as-surging-oil-prices-offset-stronger-us-dollar-202611190813",
-   "date": "19 Nov"
-  },
-  {
-   "title": "Euro holds gains as the British Pound remains weighed down by undershot UK inflation",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-holds-gains-as-the-british-pound-remains-weighed-down-by-undershot-uk-inflation-202611190729",
    "date": "19 Nov"
   }
  ],
@@ -248,8 +247,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T06:39:29Z",
+ "calendarUpdated": "2026-11-20T07:39:04Z",
  "feed": [
+  {
+   "title": "UK shoppers spent more than expected in October",
+   "text": "UK retail sales volumes rose 0.7% in October against no change expected, helped by households stocking up on long-life food after the government's Be Ready campaign and by colder weather lifting clothing sales; sales were 2.3% higher than a year earlier against 1.7% expected. Stronger spending tends to support the case for further Bank of England rises and so lifts the pound, but the reaction was small: GBP/USD rose from 1.3111 to 1.3117 within a minute, then settled near 1.3113 before edging up to about 1.3117 a quarter of an hour later.",
+   "when": "2026-11-20T07:00:00Z",
+   "t": "2026-11-20T07:39:04Z",
+   "rate": 1.31154
+  },
   {
    "title": "Sterling has edged up as the dollar eases slightly",
    "text": "GBP/USD edged up from about 1.3097 at 07:40 Dubai to about 1.3105 by 09:00, dipped to about 1.3097 at 09:40 and then rose to about 1.3112 by 10:35, while EUR/USD rose by a similar share, from about 1.0969 to 1.0983, so the dollar eased a little across the board rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; Reuters reported early on Friday that the dollar index was steady near its highest since April 2025 and that the 10 year US Treasury yield was near a one week low, even as Asian shares fell sharply. UK retail sales for October follow at 11:00 Dubai.",
@@ -393,12 +399,6 @@
    "when": "2026-11-17T07:00:00Z",
    "t": "2026-11-17T07:39:22Z",
    "rate": 1.31825
-  },
-  {
-   "title": "Sterling has dipped overnight and recovered before the UK jobs figures",
-   "text": "GBP/USD slipped from about 1.3185 at 21:39 Dubai on Monday to a low near 1.3163 at about 05:30 Dubai, then recovered to about 1.3188 by 07:30, while EUR/USD moved in step, from about 1.1001 to a low near 1.0982 and back to 1.1004, so the swings came from the dollar rather than the pound. FXStreet described Tuesday's Asian dip as a sixth straight daily loss for the pound, driven by a dollar that has firmed since last week's hotter than expected US inflation figures, with CME FedWatch showing a 95.7% chance of a quarter point Fed rise on 9 December. No report read names a trigger for the overnight recovery, which leaves sterling almost exactly where it stood on Monday evening and the number of dirhams per pound broadly unchanged.",
-   "t": "2026-11-17T03:40:05Z",
-   "rate": 1.31869
   }
  ]
 }
