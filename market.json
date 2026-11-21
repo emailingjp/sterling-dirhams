@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:39:01Z",
+ "updated": "2026-11-21T07:42:18Z",
  "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
  "drivers": [
   {
@@ -30,15 +30,15 @@
  "watch": "With the Michigan figures out, no further major US or UK figure is due this week, and next week's calendar will appear here as it is published. US markets close on Thursday 26 November for Thanksgiving, which tends to thin trading in the dollar; softer US news would tend to help someone selling pounds for dirhams, and firmer US news would mean fewer dirhams per pound.",
  "sources": [
   {
-   "title": "Pound steadies at three-month low after UK retail sales beat",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/pound-steadies-at-three-month-low-after-uk-retail-sales-beat-202611201554",
-   "date": "20 Nov"
-  },
-  {
    "title": "GBP/USD and EUR/USD one minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "21 Nov"
+  },
+  {
+   "title": "Pound steadies at three-month low after UK retail sales beat",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/pound-steadies-at-three-month-low-after-uk-retail-sales-beat-202611201554",
    "date": "20 Nov"
   },
   {
@@ -258,8 +258,14 @@
    "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-20T19:39:01Z",
+ "calendarUpdated": "2026-11-21T07:42:18Z",
  "feed": [
+  {
+   "title": "Sterling has dipped in thin Saturday trading as the dollar firms",
+   "text": "Kraken's weekend price for GBP/USD slipped from about 1.3080 at 07:30 Dubai on Saturday to about 1.3073 by 07:33 and was about 1.3063 by 11:40, a fall of about 0.16% from Friday's close of about 1.3084 that is a guide to the reopening rather than a bank price. EUR/USD fell by a similar share in the same minutes, from about 1.0951 to about 1.0938, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names any weekend news behind the move, which came in thin trading with the banks' market shut.",
+   "t": "2026-11-21T07:42:18Z",
+   "rate": 1.30634
+  },
   {
    "title": "Sterling has drifted lower as the dollar firms into the weekend",
    "text": "GBP/USD eased from about 1.3100 at 21:40 Dubai to about 1.3085 by 23:30 and was near 1.3087 at 23:38, while EUR/USD fell by a similar share, from about 1.0973 to about 1.0956, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the drift, which came in quiet late Friday trading with no US or UK figure due; FXStreet earlier on Friday put the pound's weakness down to growing expectations of further Fed rises.",
@@ -403,13 +409,6 @@
    "text": "The pound kept slipping after this morning's softer UK services inflation, and GBP/USD fell from about 1.3170 at 12:00 Dubai to a low near 1.3145 at about 13:05, close to the year's low of 1.3137 named by FXStreet; EUR/USD fell by a smaller share, so this leg was mainly the pound, as markets trimmed the chance of a December Bank of England rise to about 80% from 90%, according to Reuters. From about 13:20 the pound recovered to near 1.3164 by 13:37 while the euro also rose, a modest easing of the dollar as the US ten year yield slipped about one basis point to 5.09%, according to CNBC. No source names a single item of news behind either leg.",
    "t": "2026-11-18T09:39:59Z",
    "rate": 1.31642
-  },
-  {
-   "title": "Sterling has slipped after softer UK services inflation",
-   "text": "UK inflation rose to 3.6% in October from 3.5%, matching the Reuters poll forecast but below the Bank of England's own 3.7%, while services inflation held at 3.7% against 3.8% expected and core inflation stayed at 2.8% as forecast (ONS, Reuters). Services prices are the part the Bank of England watches most, so a softer reading trims the case for further rate rises and weighs on the pound, which means slightly fewer dirhams per pound. GBP/USD fell from about 1.3188 just before 11:00 Dubai to a low near 1.3168 within ten minutes, then settled near 1.3170 to 1.3175, with little further change around Governor Bailey's 11:30 appearance; markets still put about a 90% chance on a Bank of England rise in December, according to Reuters.",
-   "when": "2026-11-18T07:00:00Z",
-   "t": "2026-11-18T07:39:20Z",
-   "rate": 1.31702
   }
  ]
 }
