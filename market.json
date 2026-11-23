@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:39:45Z",
+ "updated": "2026-11-23T15:39:35Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -27,8 +27,26 @@
   "Firm UK figures or Bank of England comments that keep a December rise in play despite this morning's softer business surveys, which would lift the pound.",
   "Softer US surveys or further calls for the Fed to hold back, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "The US flash purchasing managers' surveys for November are due at 18:45 Dubai today, forecast at 54.5 for manufacturing and 55.6 for services; softer figures would tend to help someone selling pounds for dirhams. New York Fed President John Williams speaks at 01:00 Dubai on Tuesday, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
+ "watch": "New York Fed President John Williams speaks at 01:00 Dubai on Tuesday, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday; softer US growth or inflation figures would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "US S&P Manufacturing PMI retreats to 54.5, Services PMI declines to 54.7",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-sp-manufacturing-pmi-retreats-to-545-services-pmi-declines-to-547-202611231502",
+   "date": "23 Nov"
+  },
+  {
+   "title": "S&P Global US services November flash PMI 54.7 vs 55.7 expected",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/s-p-global-us-services-november-flash-pmi-54-7-vs-55-7-expected/",
+   "date": "23 Nov"
+  },
+  {
+   "title": "US PMI: Services Miss Forecast as Price Pressures Ease in November",
+   "site": "FXEmpire",
+   "url": "https://www.fxempire.com/forecasts/article/us-pmi-services-miss-forecast-as-price-pressures-ease-in-november-1646578",
+   "date": "23 Nov"
+  },
   {
    "title": "Live news: Wall Street rebounds as dollar index hits highest since March 2025",
    "site": "CoinDesk",
@@ -81,24 +99,6 @@
    "title": "Morning briefing: EUR/USD could test 1.0950-1.0900",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/analysis/morning-briefing-eur-usd-could-test-10950-10900-202611230358",
-   "date": "23 Nov"
-  },
-  {
-   "title": "British Pound edges higher above 1.3100 on upbeat UK Retail Sales data, hawkish Fed bets fade",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-edges-higher-above-13100-on-upbeat-uk-retail-sales-data-hawkish-fed-bets-fade-202611230154",
-   "date": "23 Nov"
-  },
-  {
-   "title": "US stock futures jump over 2% in relief bounce, gold rallies, but Kospi slides nearly 4%",
-   "site": "investingLive",
-   "url": "https://investinglive.com/stock-market-update/us-stock-futures-jump-over-2-in-relief-bounce-gold-rallies-but-kospi-slides-nearly-4",
-   "date": "23 Nov"
-  },
-  {
-   "title": "WTI slumps below $83.00 as surplus outlook outweighs Middle East tensions",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/wti-slumps-below-8300-as-surplus-outlook-outweighs-middle-east-tensions-202611230244",
    "date": "23 Nov"
   }
  ],
@@ -203,8 +203,15 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T14:39:45Z",
+ "calendarUpdated": "2026-11-23T15:39:35Z",
  "feed": [
+  {
+   "title": "The dollar has kept rising despite softer US business surveys",
+   "text": "The US flash services survey for November fell to 54.7 against about 55.7 expected, manufacturing came in at 54.5 in line with forecasts, and the composite measure eased to 54.6 from 55.9, though S&P Global said its price gauges still point to inflation well above the Fed's 2% target. Softer US activity would usually weigh on the dollar, but the dollar index held near 104.2, its highest since April 2025, so the dollar kept firming across the board and there are slightly fewer dirhams per pound. GBP/USD was about 1.3059 at 18:44 Dubai, slid to about 1.3032 by 19:14 while EUR/USD fell by a similar share, from about 1.0931 to about 1.0909, and was near 1.3046 at 19:38; no report read names a single cause for the extra dollar buying.",
+   "when": "2026-11-23T14:45:00Z",
+   "t": "2026-11-23T15:39:35Z",
+   "rate": 1.30484
+  },
   {
    "title": "The dollar has spiked and fallen back, with no clear cause",
    "text": "GBP/USD eased from about 1.3075 at 17:37 Dubai to about 1.3065 by 17:50, then dropped to about 1.3053 at 17:53 before recovering to about 1.3072 by 17:57, and was near 1.3065 at 18:37. EUR/USD fell by a larger share in the same minutes, from about 1.0940 to about 1.0909, and also recovered, so this was a brief burst of dollar buying across the board rather than the pound falling on UK news, which left slightly fewer dirhams per pound. No report read names the news behind the spike; CoinDesk reported the dollar index above 104, its highest since March 2025, about an hour earlier, and the US flash business surveys are due at 18:45 Dubai.",
@@ -347,12 +354,6 @@
    "text": "GBP/USD rose from about 1.3136 at 11:00 Dubai, as London opened, to about 1.3151 by 11:30 and stood near 1.3151 at 12:35, while EUR/USD rose by a similar share, from about 1.0967 to 1.0981, so the move came from the dollar easing back from its 19 month high rather than from UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with CME FedWatch showing about a 93% chance of a December rise.",
    "t": "2026-11-19T08:39:41Z",
    "rate": 1.31506
-  },
-  {
-   "title": "Sterling has edged back up as the dollar steadies",
-   "text": "GBP/USD recovered from a low near 1.3118 at about 07:10 Dubai to about 1.3136 at 10:38, while EUR/USD rose by a similar share, from about 1.0954 to 1.0965, so the move came from the dollar easing slightly from the 19 month high it reached early this morning, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with markets pricing a December Fed rise at close to 90%.",
-   "t": "2026-11-19T06:39:28Z",
-   "rate": 1.31352
   }
  ]
 }
