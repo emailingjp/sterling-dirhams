@@ -1,34 +1,52 @@
 {
- "updated": "2026-11-21T07:42:18Z",
- "headline": "Sterling is about 1.3115 dollars on Friday morning, close to its low for 2026, as a firm Fed and a fall in US shares keep the dollar near its highest in 19 months. UK retail sales for October rose 0.7% against no change expected, but gave the pound only a small lift.",
+ "updated": "2026-11-23T03:40:44Z",
+ "headline": "Sterling is about 1.3105 dollars on Monday morning, up from Friday's close near 1.3057 and its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "Minutes of the Fed's October meeting, published on 18 November, show that nearly all officials expect rates will need to rise further, and Governor Waller has called for the Fed to be more aggressive, including a possible half point rise. CME FedWatch put the chance of a December rise at 97.3% for a quarter point and 2.7% for half a point on 20 November, FXStreet reported."
+   "text": "CME FedWatch put the chance of a quarter point Fed rise on 9 December at 93.2% on Monday, against 97.3% on 20 November, and a half point rise, seen as an 11.5% chance a week earlier, is now priced out, FXStreet reported on 23 November. Fed Governor Cook has said September's rise was not enough and that financial conditions are too loose, while US Treasury Secretary Scott Bessent warned the Fed over the weekend against raising rates too far, investingLive reported."
   },
   {
    "title": "The gap between US and UK rates",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and FXStreet reported on 19 November that a quarter point Fed rise on 9 December would take US rates above UK rates. UK inflation of 3.6% in October, with softer services prices, led traders to trim bets on a December Bank of England rise, and the UK ten year gilt yield fell 8.2 basis points to 5.29% on Wednesday, FXStreet reported on 20 November."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and a quarter point Fed rise in December would take US rates above UK rates, FXStreet reported on 19 November. UK retail sales rose 0.7% in October against no change expected, which BBH said supports the case for a December Bank of England rise, FXStreet reported on 23 November, although October's inflation of 3.6% led traders to trim those bets last week."
   },
   {
    "title": "Shares and the dollar",
-   "text": "US shares fell about 2% on Thursday, FXStreet reported, and the pound has fallen about 400 pips in eleven sessions from a high near 1.3500 on 4 November. Weaker shares tend to support the dollar as a safe haven, and Spectra Markets, quoted by FXStreet, also pointed to dollar buying by companies ahead of Thanksgiving and by funds rebalancing."
+   "text": "S&P 500 futures rose about 2.2% and Nasdaq futures about 2.8% in early Asian trade on Monday, after US shares fell about 2% last Thursday, investingLive reported, while South Korea's Kospi still fell nearly 4%. Weaker shares tend to support the dollar as a safe haven and a recovery tends to ease it; the pound had fallen about 400 pips from a high near 1.3500 on 4 November."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Iran's navy said two oil tankers hit mines in the Strait of Hormuz on Thursday, and Houthi missiles were fired at Riyadh, FXStreet reported on 20 November. US crude held steady as the tanker reports offset rising US stocks of crude, and Gulf tension tends to support the dollar."
+   "text": "Iran attacked Bahrain again over the weekend, Houthi militants continued to target Saudi Arabia, and two tankers near Oman were struck on Saturday, FXStreet reported on 23 November. Even so, US crude fell to about $82.80 a barrel (about £63) on Monday on signs of a growing world surplus, with Brent near $90 (about £69). Dearer oil and Gulf tension tend to lift the dollar."
   }
  ],
  "lower": [
-  "Further falls in shares or fresh tension in the Gulf, which tend to lift the dollar as a safe haven and mean fewer dirhams per pound.",
-  "Firm talk from Fed Governor Waller on Friday afternoon of a larger December rise, which would support the dollar."
+  "Stronger than expected US business surveys this afternoon, or firm Fed comments, which would revive bets on further Fed rises and mean fewer dirhams per pound.",
+  "A fading of the relief rally in shares or fresh attacks in the Gulf, which tend to lift the dollar as a safe haven."
  ],
  "higher": [
-  "Firm comments from Bank of England officials such as Megan Greene, who said on Thursday that the bigger risk is doing too little on inflation, which would tend to lift the pound, as would further strong UK figures like October's retail sales.",
-  "A recovery in shares or softer US figures, which would ease the dollar and mean more dirhams per pound."
+  "Strong UK business surveys this morning, adding to last week's retail sales, which would support the case for a December Bank of England rise and lift the pound.",
+  "Softer US surveys or further calls for the Fed to hold back, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "With the Michigan figures out, no further major US or UK figure is due this week, and next week's calendar will appear here as it is published. US markets close on Thursday 26 November for Thanksgiving, which tends to thin trading in the dollar; softer US news would tend to help someone selling pounds for dirhams, and firmer US news would mean fewer dirhams per pound.",
+ "watch": "The UK flash purchasing managers' surveys for November are due at 13:30 Dubai today, forecast at 53.0 for manufacturing and 53.0 for services; stronger figures would tend to help someone selling pounds for dirhams. The US surveys follow at 18:45 Dubai, forecast at 54.5 and 55.6, where softer figures would help, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
  "sources": [
+  {
+   "title": "British Pound edges higher above 1.3100 on upbeat UK Retail Sales data, hawkish Fed bets fade",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-edges-higher-above-13100-on-upbeat-uk-retail-sales-data-hawkish-fed-bets-fade-202611230154",
+   "date": "23 Nov"
+  },
+  {
+   "title": "US stock futures jump over 2% in relief bounce, gold rallies, but Kospi slides nearly 4%",
+   "site": "investingLive",
+   "url": "https://investinglive.com/stock-market-update/us-stock-futures-jump-over-2-in-relief-bounce-gold-rallies-but-kospi-slides-nearly-4",
+   "date": "23 Nov"
+  },
+  {
+   "title": "WTI slumps below $83.00 as surplus outlook outweighs Middle East tensions",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/wti-slumps-below-8300-as-surplus-outlook-outweighs-middle-east-tensions-202611230244",
+   "date": "23 Nov"
+  },
   {
    "title": "GBP/USD and EUR/USD one minute prices",
    "site": "Kraken",
@@ -82,184 +100,117 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-hesitates-below-10400-as-ai-jitters-offset-fed-hiking-bets-202611201236",
    "date": "20 Nov"
-  },
-  {
-   "title": "US Dollar: Hawkish Fed risks and safe-haven demand support USD, OCBC",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-dollar-hawkish-fed-risks-and-safe-haven-demand-support-usd-ocbc-202611200930",
-   "date": "20 Nov"
-  },
-  {
-   "title": "British Pound: Downside risks persist despite rebound against US Dollar, UOB",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-downside-risks-persist-despite-rebound-against-us-dollar-uob-202611200835",
-   "date": "20 Nov"
-  },
-  {
-   "title": "UK retail sales beat forecasts after government tells households to stock up",
-   "site": "Reuters via 102.7 WBOW",
-   "url": "https://1027wbow.com/2026/11/20/uk-retail-sales-rise-0-7-in-october-beating-forecasts/",
-   "date": "20 Nov"
   }
  ],
  "calendar": [
   {
-   "t": "2026-11-16T17:00:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US: Fed Chairman Warsh Speaks",
-   "title": "Fed Chairman Warsh Speaks",
-   "forecast": "",
-   "previous": "",
-   "good": "A cautious tone on further rises",
-   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-17T07:00:00Z",
+   "t": "2026-11-23T09:30:00Z",
    "ccy": "GBP",
    "impact": "Medium",
-   "name": "UK wages, three months on a year earlier",
-   "title": "Average Earnings Index 3m/y",
+   "name": "UK: Flash Manufacturing PMI",
+   "title": "Flash Manufacturing PMI",
+   "forecast": "53.0",
+   "previous": "52.8",
+   "good": "Higher than 53.0",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-23T09:30:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "UK: Flash Services PMI",
+   "title": "Flash Services PMI",
+   "forecast": "53.0",
+   "previous": "53.1",
+   "good": "Higher than 53.0",
+   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
+  },
+  {
+   "t": "2026-11-23T14:45:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: Flash Manufacturing PMI",
+   "title": "Flash Manufacturing PMI",
+   "forecast": "54.5",
+   "previous": "56.0",
+   "good": "Lower than 54.5",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-23T14:45:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US: Flash Services PMI",
+   "title": "Flash Services PMI",
+   "forecast": "55.6",
+   "previous": "57.9",
+   "good": "Lower than 55.6",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-24T15:00:00Z",
+   "ccy": "USD",
+   "impact": "Medium",
+   "name": "US consumer confidence (Conference Board)",
+   "title": "CB Consumer Confidence",
+   "forecast": "92.1",
+   "previous": "91.7",
+   "good": "Lower than 92.1",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-25T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US core inflation (PCE), month on month",
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%",
+   "good": "Lower than 0.3%",
+   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-25T13:30:00Z",
+   "ccy": "USD",
+   "impact": "High",
+   "name": "US GDP, second estimate",
+   "title": "Prelim GDP q/q",
    "forecast": "3.5%",
-   "previous": "3.7%",
-   "good": "Higher than 3.5%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-11-17T13:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US core retail sales, month on month",
-   "title": "Core Retail Sales m/m",
-   "forecast": "0.4%",
-   "previous": "0.9%",
-   "good": "Lower than 0.4%",
+   "previous": "3.4%",
+   "good": "Lower than 3.5%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-17T13:30:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "US retail sales, month on month",
-   "title": "Retail Sales m/m",
-   "forecast": "0.1%",
-   "previous": "0.8%",
-   "good": "Lower than 0.1%",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-18T07:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "UK inflation (CPI), year on year",
-   "title": "CPI y/y",
-   "forecast": "3.6%",
-   "previous": "3.5%",
-   "good": "Higher than 3.6%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-11-18T07:30:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "Bank of England Governor Bailey speaks",
-   "title": "BOE Gov Bailey Speaks",
-   "forecast": "",
-   "previous": "",
-   "good": "A firm tone on rates",
-   "why": "Talk of Bank of England rises lifts the pound."
-  },
-  {
-   "t": "2026-11-18T15:00:00Z",
-   "ccy": "GBP",
-   "impact": "High",
-   "name": "Bank of England Governor Bailey speaks",
-   "title": "BOE Gov Bailey Speaks",
-   "forecast": "",
-   "previous": "",
-   "good": "A firm tone on rates",
-   "why": "Talk of Bank of England rises lifts the pound."
-  },
-  {
-   "t": "2026-11-18T19:00:00Z",
-   "ccy": "USD",
-   "impact": "High",
-   "name": "Fed minutes",
-   "title": "FOMC Meeting Minutes",
-   "forecast": "",
-   "previous": "",
-   "good": "Signs of doubt about further rises",
-   "why": "Minutes showing less appetite for rate rises weaken the dollar and lift GBP/USD."
-  },
-  {
-   "t": "2026-11-19T13:30:00Z",
+   "t": "2026-11-25T13:30:00Z",
    "ccy": "USD",
    "impact": "Medium",
-   "name": "US: Philly Fed Manufacturing Index",
-   "title": "Philly Fed Manufacturing Index",
-   "forecast": "20.6",
-   "previous": "20.9",
-   "good": "Lower than 20.6",
+   "name": "US: Prelim GDP Price Index q/q",
+   "title": "Prelim GDP Price Index q/q",
+   "forecast": "2.3%",
+   "previous": "2.3%",
+   "good": "Lower than 2.3%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   },
   {
-   "t": "2026-11-19T13:30:00Z",
+   "t": "2026-11-25T13:30:00Z",
    "ccy": "USD",
    "impact": "Medium",
    "name": "US weekly jobless claims",
    "title": "Unemployment Claims",
-   "forecast": "198K",
-   "previous": "200K",
-   "good": "Higher than 198K",
+   "forecast": "201K",
+   "previous": "203K",
+   "good": "Higher than 201K",
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-20T07:00:00Z",
-   "ccy": "GBP",
-   "impact": "Medium",
-   "name": "UK retail sales, month on month",
-   "title": "Retail Sales m/m",
-   "forecast": "0.0%",
-   "previous": "-0.4%",
-   "good": "Higher than 0.0%",
-   "why": "Stronger UK figures make a Bank of England rise more likely, which lifts the pound."
-  },
-  {
-   "t": "2026-11-20T15:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US consumer sentiment (University of Michigan), revised",
-   "title": "Revised UoM Consumer Sentiment",
-   "forecast": "51.7",
-   "previous": "51.0",
-   "good": "Lower than 51.7",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-20T15:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US inflation expectations (University of Michigan), revised",
-   "title": "Revised UoM Inflation Expectations",
-   "forecast": "",
-   "previous": "4.3%",
-   "good": "Lower than forecast",
-   "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
-  },
-  {
-   "t": "2026-11-20T17:00:00Z",
-   "ccy": "USD",
-   "impact": "Medium",
-   "name": "US: President Trump Speaks",
-   "title": "President Trump Speaks",
-   "forecast": "",
-   "previous": "",
-   "good": "A cautious tone on further rises",
-   "why": "Talk of fewer or slower Fed rises weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-21T07:42:18Z",
+ "calendarUpdated": "2026-11-23T03:40:44Z",
  "feed": [
+  {
+   "title": "The dollar has eased as markets reopen with a relief rally",
+   "text": "US share futures jumped about 2% in early Asian trade on Monday after a weekend in which South Korea and China moved to steady their stock markets and US Treasury Secretary Scott Bessent warned the Fed against raising rates too far, investingLive reported, and the dollar eased against most major currencies. Traders have also pared bets on a large Fed rise: CME FedWatch puts the chance of a quarter point rise in December at 93.2%, down from 97.3% on Friday, and a half point rise, given an 11.5% chance a week ago, is no longer priced, FXStreet reported. GBP/USD rose from about 1.3057 at the Friday close to about 1.3086 by 03:00 Dubai and about 1.3107 by 05:00, gaining more than EUR/USD, which rose from about 1.0962 to about 1.0979, so a softer dollar and support for the pound from last week's strong UK retail sales mean slightly more dirhams per pound.",
+   "t": "2026-11-23T03:40:44Z",
+   "rate": 1.31043
+  },
   {
    "title": "Sterling has dipped in thin Saturday trading as the dollar firms",
    "text": "Kraken's weekend price for GBP/USD slipped from about 1.3080 at 07:30 Dubai on Saturday to about 1.3073 by 07:33 and was about 1.3063 by 11:40, a fall of about 0.16% from Friday's close of about 1.3084 that is a guide to the reopening rather than a bank price. EUR/USD fell by a similar share in the same minutes, from about 1.0951 to about 1.0938, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names any weekend news behind the move, which came in thin trading with the banks' market shut.",
@@ -403,12 +354,6 @@
    "text": "GBP/USD eased from about 1.3170 at 14:30 Dubai to a low near 1.3152 at about 15:55, recovered briefly to about 1.3162 and stood near 1.3153 at 16:38, while EUR/USD fell by a similar share, from about 1.0970 to 1.0957, so the dip came mainly from a firmer dollar and means slightly fewer dirhams per pound. Investing.com reported the dollar index up 0.3% near 103.7 at 14:35 Dubai, with ING saying markets still price about 75 basis points of further Fed rises and that Governor Waller's call for more rises has focused minds on a longer Fed tightening cycle. No report read names a single item of news behind this afternoon's slide, which came gradually ahead of Governor Bailey at 19:00 Dubai and the Fed minutes at 23:00.",
    "t": "2026-11-18T12:40:03Z",
    "rate": 1.31552
-  },
-  {
-   "title": "Sterling has dipped towards its low for the year, then recovered",
-   "text": "The pound kept slipping after this morning's softer UK services inflation, and GBP/USD fell from about 1.3170 at 12:00 Dubai to a low near 1.3145 at about 13:05, close to the year's low of 1.3137 named by FXStreet; EUR/USD fell by a smaller share, so this leg was mainly the pound, as markets trimmed the chance of a December Bank of England rise to about 80% from 90%, according to Reuters. From about 13:20 the pound recovered to near 1.3164 by 13:37 while the euro also rose, a modest easing of the dollar as the US ten year yield slipped about one basis point to 5.09%, according to CNBC. No source names a single item of news behind either leg.",
-   "t": "2026-11-18T09:39:59Z",
-   "rate": 1.31642
   }
  ]
 }
