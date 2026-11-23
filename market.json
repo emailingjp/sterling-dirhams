@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T06:39:56Z",
+ "updated": "2026-11-23T08:41:05Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -29,6 +29,18 @@
  ],
  "watch": "The UK flash purchasing managers' surveys for November are due at 13:30 Dubai today, forecast at 53.0 for manufacturing and 53.0 for services; stronger figures would tend to help someone selling pounds for dirhams. The US surveys follow at 18:45 Dubai, forecast at 54.5 and 55.6, where softer figures would help, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
  "sources": [
+  {
+   "title": "Euro holds gains against British Pound with business activity data in focus",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-holds-gains-against-british-pound-with-business-activity-data-in-focus-202611230807",
+   "date": "23 Nov"
+  },
+  {
+   "title": "GBP/USD and EUR/USD one minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "23 Nov"
+  },
   {
    "title": "Gold Price Forecast: XAU/USD rebounds, but is it out of the woods?",
    "site": "FXStreet",
@@ -60,12 +72,6 @@
    "date": "23 Nov"
   },
   {
-   "title": "GBP/USD and EUR/USD one minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "21 Nov"
-  },
-  {
    "title": "Pound steadies at three-month low after UK retail sales beat",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/pound-steadies-at-three-month-low-after-uk-retail-sales-beat-202611201554",
@@ -93,12 +99,6 @@
    "title": "Surveys of Consumers",
    "site": "University of Michigan",
    "url": "https://www.sca.isr.umich.edu/",
-   "date": "20 Nov"
-  },
-  {
-   "title": "US 10-year Treasury yield slips below 5% as global equity rout deepens",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-10-year-treasury-yield-slips-below-5-as-global-equity-rout-deepens-202611201233",
    "date": "20 Nov"
   }
  ],
@@ -203,8 +203,14 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T06:39:56Z",
+ "calendarUpdated": "2026-11-23T08:41:05Z",
  "feed": [
+  {
+   "title": "Sterling has risen further as European markets get going",
+   "text": "GBP/USD rose from about 1.3117 at 12:23 Dubai to about 1.3135 by 12:38 and held near 1.3134 at 12:40, while EUR/USD rose by about half as much, from about 1.0985 to about 1.0993, so a softer dollar accounts for part of the move and the pound also gained on the euro, which means slightly more dirhams per pound. No report read names the news behind the move; it came as the German business surveys for November were due at 12:30 Dubai, but no report read yet gives their figures, and the UK surveys follow at 13:30 Dubai.",
+   "t": "2026-11-23T08:41:05Z",
+   "rate": 1.31368
+  },
   {
    "title": "Sterling has edged higher as the dollar eases further",
    "text": "GBP/USD rose from about 1.3101 at 08:40 Dubai to about 1.3119 by 10:10 and was near 1.3120 at 10:30, while EUR/USD rose by a similar share, from about 1.0975 to about 1.0991, so the dollar softened across the board rather than the pound gaining on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind the move, which came before London opened; FXStreet earlier on Monday described the dollar retreating from its highest level in 19 months as traders take profits in a week shortened by Thanksgiving, and noted that US Treasury yields have fallen sharply.",
@@ -347,13 +353,6 @@
    "text": "GBP/USD fell from about 1.3155 at 19:40 Dubai to a low near 1.3134 at about 20:20, close to the year's low of about 1.3137, and stood near 1.3138 at 20:38, while EUR/USD fell by a smaller share, from about 1.0964 to 1.0958, so this leg was mainly the pound and means slightly fewer dirhams per pound. FXStreet reported at 19:40 Dubai that Governor Bailey said UK inflation will rise further but that policy is not on a pre-set path, and that traders had cut the chance of a December Bank of England rise to about 80% from about 90% after this morning's slightly softer inflation figure. No report read ties the slide after 19:55 to a single item of news; it came ahead of the Fed minutes at 23:00 Dubai, where Governor Waller's call for a half point Fed rise has left markets expecting US rates to match or pass UK rates.",
    "t": "2026-11-18T16:39:37Z",
    "rate": 1.31357
-  },
-  {
-   "title": "Sterling has barely moved during Governor Bailey's evening speech",
-   "text": "Bank of England Governor Andrew Bailey was due to speak at 19:00 Dubai, but by 19:40 no report of what he said had appeared in the sources checked, so his words cannot yet be linked to the price. GBP/USD stood near 1.3159 at 19:00, touched about 1.3166 at 19:13 and eased to about 1.3154 by 19:37, a small range that leaves dirhams per pound much as they were. Earlier, BBH said markets had cut the chance of a December Bank of England rise to as low as 70% from 80% after this morning's inflation figures, and it sees support for GBP/USD near 1.3140.",
-   "when": "2026-11-18T15:00:00Z",
-   "t": "2026-11-18T15:39:39Z",
-   "rate": 1.3155
   }
  ]
 }
