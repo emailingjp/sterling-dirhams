@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:41:05Z",
+ "updated": "2026-11-23T09:39:47Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -24,11 +24,17 @@
   "A fading of the relief rally in shares or fresh attacks in the Gulf, which tend to lift the dollar as a safe haven."
  ],
  "higher": [
-  "Strong UK business surveys this morning, adding to last week's retail sales, which would support the case for a December Bank of England rise and lift the pound.",
+  "Firm UK figures or Bank of England comments that keep a December rise in play despite this morning's softer business surveys, which would lift the pound.",
   "Softer US surveys or further calls for the Fed to hold back, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "The UK flash purchasing managers' surveys for November are due at 13:30 Dubai today, forecast at 53.0 for manufacturing and 53.0 for services; stronger figures would tend to help someone selling pounds for dirhams. The US surveys follow at 18:45 Dubai, forecast at 54.5 and 55.6, where softer figures would help, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
+ "watch": "The US flash purchasing managers' surveys for November are due at 18:45 Dubai today, forecast at 54.5 for manufacturing and 55.6 for services; softer figures would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
  "sources": [
+  {
+   "title": "United Kingdom flash S&P Global Services PMI unexpectedly drops to 52.0 in November",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933",
+   "date": "23 Nov"
+  },
   {
    "title": "Euro holds gains against British Pound with business activity data in focus",
    "site": "FXStreet",
@@ -93,12 +99,6 @@
    "title": "Gold price trades near $3,568/oz after final Consumer Sentiment rises to 51.5, inflation expectations drop",
    "site": "Kitco News",
    "url": "https://www.kitco.com/news/article/2026-11-20/gold-price-trades-near-3568oz-after-final-consumer-sentiment-rises-515",
-   "date": "20 Nov"
-  },
-  {
-   "title": "Surveys of Consumers",
-   "site": "University of Michigan",
-   "url": "https://www.sca.isr.umich.edu/",
    "date": "20 Nov"
   }
  ],
@@ -203,8 +203,15 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T08:41:05Z",
+ "calendarUpdated": "2026-11-23T09:39:47Z",
  "feed": [
+  {
+   "title": "Sterling has slipped after weaker UK business surveys",
+   "text": "The UK flash services survey for November fell to 52.0 against 53.0 expected, and the composite measure of private sector activity eased to 52.3 from 52.9, with both services and manufacturing slowing, FXStreet reported; no report read yet gives the manufacturing figure. Slower UK growth weakens the case for a December Bank of England rise, which weighs on the pound, so slightly fewer dirhams per pound. GBP/USD was about 1.3122 at 13:29 Dubai, fell to about 1.3115 by 13:31 and was near 1.3114 at 13:38, after drifting down from about 1.3139 at 12:42 as the dollar firmed across the board, with EUR/USD falling by a similar share from about 1.0993 to about 1.0978 before the figures.",
+   "when": "2026-11-23T09:30:00Z",
+   "t": "2026-11-23T09:39:47Z",
+   "rate": 1.3113
+  },
   {
    "title": "Sterling has risen further as European markets get going",
    "text": "GBP/USD rose from about 1.3117 at 12:23 Dubai to about 1.3135 by 12:38 and held near 1.3134 at 12:40, while EUR/USD rose by about half as much, from about 1.0985 to about 1.0993, so a softer dollar accounts for part of the move and the pound also gained on the euro, which means slightly more dirhams per pound. No report read names the news behind the move; it came as the German business surveys for November were due at 12:30 Dubai, but no report read yet gives their figures, and the UK surveys follow at 13:30 Dubai.",
@@ -347,12 +354,6 @@
    "text": "GBP/USD rose from a low near 1.3134 at about 20:40 Dubai to about 1.3152 at 21:29 and stood near 1.3150 at 21:38, while EUR/USD rose by a similar share, from about 1.0957 to 1.0972, so the recovery came mainly from a softer dollar and means slightly more dirhams per pound. CNBC reported the US ten year Treasury yield down more than three basis points at about 5.06%, against 5.12% in early Asian trade, and lower US yields tend to weaken the dollar. No report read names a single item of news behind the move, which came in quiet trade ahead of the Fed minutes at 23:00 Dubai.",
    "t": "2026-11-18T17:39:12Z",
    "rate": 1.31497
-  },
-  {
-   "title": "Sterling has slipped to around its low for the year",
-   "text": "GBP/USD fell from about 1.3155 at 19:40 Dubai to a low near 1.3134 at about 20:20, close to the year's low of about 1.3137, and stood near 1.3138 at 20:38, while EUR/USD fell by a smaller share, from about 1.0964 to 1.0958, so this leg was mainly the pound and means slightly fewer dirhams per pound. FXStreet reported at 19:40 Dubai that Governor Bailey said UK inflation will rise further but that policy is not on a pre-set path, and that traders had cut the chance of a December Bank of England rise to about 80% from about 90% after this morning's slightly softer inflation figure. No report read ties the slide after 19:55 to a single item of news; it came ahead of the Fed minutes at 23:00 Dubai, where Governor Waller's call for a half point Fed rise has left markets expecting US rates to match or pass UK rates.",
-   "t": "2026-11-18T16:39:37Z",
-   "rate": 1.31357
   }
  ]
 }
