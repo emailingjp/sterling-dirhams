@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:39:35Z",
+ "updated": "2026-11-23T16:40:07Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -29,6 +29,30 @@
  ],
  "watch": "New York Fed President John Williams speaks at 01:00 Dubai on Tuesday, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday; softer US growth or inflation figures would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Euro slides to lowest level since April 2025 as Nvidia-led stock rally lifts sentiment",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606",
+   "date": "23 Nov"
+  },
+  {
+   "title": "Canadian Dollar weakens as Nvidia rally lifts the US Dollar",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/canadian-dollar-weakens-as-nvidia-rally-lifts-the-us-dollar-202611231528",
+   "date": "23 Nov"
+  },
+  {
+   "title": "New Zealand Dollar tumbles to 17-year lows as US Dollar hits fresh highs",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/new-zealand-dollar-tumbles-to-17-year-lows-as-us-dollar-hits-fresh-highs-202611231635",
+   "date": "23 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "23 Nov"
+  },
   {
    "title": "US S&P Manufacturing PMI retreats to 54.5, Services PMI declines to 54.7",
    "site": "FXStreet",
@@ -60,12 +84,6 @@
    "date": "23 Nov"
   },
   {
-   "title": "Kraken GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "23 Nov"
-  },
-  {
    "title": "Forex Today: Gold rebounds above $3,600, US Dollar retreats ahead of PMI data",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-gold-rebounds-above-3-600-us-dollar-retreats-ahead-of-pmi-data-202611230735",
@@ -81,24 +99,6 @@
    "title": "United Kingdom flash S&P Global Services PMI unexpectedly drops to 52.0 in November",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Euro holds gains against British Pound with business activity data in focus",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-holds-gains-against-british-pound-with-business-activity-data-in-focus-202611230807",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Gold Price Forecast: XAU/USD rebounds, but is it out of the woods?",
-   "site": "FXStreet",
-   "url": "https://fxstreet.com/analysis/gold-price-forecast-xau-usd-rebounds-but-is-it-out-of-the-woods-202611230335",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Morning briefing: EUR/USD could test 1.0950-1.0900",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/analysis/morning-briefing-eur-usd-could-test-10950-10900-202611230358",
    "date": "23 Nov"
   }
  ],
@@ -203,8 +203,14 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T15:39:35Z",
+ "calendarUpdated": "2026-11-23T16:40:07Z",
  "feed": [
+  {
+   "title": "The dollar has extended its rally as Fed rise bets firm",
+   "text": "GBP/USD fell from about 1.3048 at 19:42 Dubai to about 1.3016 by 20:15, and was near 1.3020 at 20:36, while EUR/USD fell from about 1.0912 to about 1.0880 to its lowest since April 2025, so this was the dollar strengthening across the board rather than the pound falling on UK news. FXStreet linked the dollar's gains to the Nvidia-led rally in US shares after Jensen Huang was reinstated as chief executive, and to traders almost fully pricing a quarter point Fed rise in December. Higher expected US rates support the dollar, which means slightly fewer dirhams per pound.",
+   "t": "2026-11-23T16:40:07Z",
+   "rate": 1.30165
+  },
   {
    "title": "The dollar has kept rising despite softer US business surveys",
    "text": "The US flash services survey for November fell to 54.7 against about 55.7 expected, manufacturing came in at 54.5 in line with forecasts, and the composite measure eased to 54.6 from 55.9, though S&P Global said its price gauges still point to inflation well above the Fed's 2% target. Softer US activity would usually weigh on the dollar, but the dollar index held near 104.2, its highest since April 2025, so the dollar kept firming across the board and there are slightly fewer dirhams per pound. GBP/USD was about 1.3059 at 18:44 Dubai, slid to about 1.3032 by 19:14 while EUR/USD fell by a similar share, from about 1.0931 to about 1.0909, and was near 1.3046 at 19:38; no report read names a single cause for the extra dollar buying.",
@@ -348,12 +354,6 @@
    "text": "European shares rose and US stock futures pointed to a strong open on Thursday, and FXStreet reported at 15:14 Dubai that the better mood had halted the dollar's rally, although expectations of further Fed rises limited its losses. A softer dollar means slightly more dirhams per pound. GBP/USD rose from about 1.3141 at 13:40 Dubai to about 1.3166 by 14:45 and stood near 1.3162 at 15:35, while EUR/USD rose by a similar share, from about 1.0983 to 1.1005, so the move came from the dollar rather than from UK news.",
    "t": "2026-11-19T11:39:14Z",
    "rate": 1.31605
-  },
-  {
-   "title": "Sterling has firmed as the dollar eases at the London open",
-   "text": "GBP/USD rose from about 1.3136 at 11:00 Dubai, as London opened, to about 1.3151 by 11:30 and stood near 1.3151 at 12:35, while EUR/USD rose by a similar share, from about 1.0967 to 1.0981, so the move came from the dollar easing back from its 19 month high rather than from UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; FXStreet still describes the dollar as supported by the Fed's firm stance, with CME FedWatch showing about a 93% chance of a December rise.",
-   "t": "2026-11-19T08:39:41Z",
-   "rate": 1.31506
   }
  ]
 }
