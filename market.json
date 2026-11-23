@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T11:39:36Z",
+ "updated": "2026-11-23T13:40:09Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -27,8 +27,20 @@
   "Firm UK figures or Bank of England comments that keep a December rise in play despite this morning's softer business surveys, which would lift the pound.",
   "Softer US surveys or further calls for the Fed to hold back, which would ease the dollar and mean more dirhams per pound."
  ],
- "watch": "The US flash purchasing managers' surveys for November are due at 18:45 Dubai today, forecast at 54.5 for manufacturing and 55.6 for services; softer figures would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
+ "watch": "The US flash purchasing managers' surveys for November are due at 18:45 Dubai today, forecast at 54.5 for manufacturing and 55.6 for services; softer figures would tend to help someone selling pounds for dirhams. New York Fed President John Williams speaks at 01:00 Dubai on Tuesday, and US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
  "sources": [
+  {
+   "title": "Morning Kickstart. U.S. stock futures surge as the dollar trades mixed",
+   "site": "investingLive",
+   "url": "https://investinglive.com/technical-analysis/morning-kickstart-u-s-stock-futures-surge-as-the-dollar-trades-mixed/",
+   "date": "23 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "23 Nov"
+  },
   {
    "title": "Forex Today: Gold rebounds above $3,600, US Dollar retreats ahead of PMI data",
    "site": "FXStreet",
@@ -51,12 +63,6 @@
    "title": "Euro holds gains against British Pound with business activity data in focus",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-holds-gains-against-british-pound-with-business-activity-data-in-focus-202611230807",
-   "date": "23 Nov"
-  },
-  {
-   "title": "GBP/USD and EUR/USD one minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "23 Nov"
   },
   {
@@ -93,12 +99,6 @@
    "title": "Pound steadies at three-month low after UK retail sales beat",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/pound-steadies-at-three-month-low-after-uk-retail-sales-beat-202611201554",
-   "date": "20 Nov"
-  },
-  {
-   "title": "Trump holds press conference after meeting with Xi and Putin",
-   "site": "NPR",
-   "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
    "date": "20 Nov"
   }
  ],
@@ -203,8 +203,14 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T11:39:36Z",
+ "calendarUpdated": "2026-11-23T13:40:09Z",
  "feed": [
+  {
+   "title": "The dollar has jumped across the board, with no clear cause yet",
+   "text": "GBP/USD eased from about 1.3096 at 16:31 Dubai to about 1.3084 by 16:44, then fell quickly to about 1.3068 by 16:47, recovered to about 1.3080 at 17:00 and was near 1.3074 at 17:36. EUR/USD fell by a slightly larger share in the same minutes, from about 1.0961 to about 1.0933, so this was the dollar strengthening across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names the news behind the jump; investingLive described the euro sliding from 1.1005 to 1.0941 during the day as the dollar trades mixed, and the US flash business surveys are still due at 18:45 Dubai.",
+   "t": "2026-11-23T13:40:09Z",
+   "rate": 1.30707
+  },
   {
    "title": "Sterling has drifted lower as the dollar firms ahead of US surveys",
    "text": "GBP/USD eased from about 1.3116 at 13:45 Dubai to about 1.3101 by 14:20, briefly recovered to about 1.3109 at 14:45 and was near 1.3096 at 15:39, while EUR/USD fell by a similar share, from about 1.0975 to about 1.0959, so the dollar firmed across the board rather than the pound falling on UK news, which means slightly fewer dirhams per pound. No report read names the news behind this afternoon's drift; earlier on Monday FXStreet described the dollar as easing on a recovery in share futures, and the US flash business surveys are due at 18:45 Dubai.",
@@ -347,13 +353,6 @@
    "text": "The dollar gained against most major currencies in Asian trade, with the dollar index up 0.12% at about 104.00 by 07:14 Dubai, according to FXStreet, as Wednesday's Fed minutes and Governor Waller's call for a half point rise kept further US rate rises in view. A firmer dollar means fewer dirhams per pound. GBP/USD eased from about 1.3149 at 05:00 Dubai to a low near 1.3117 at about 07:15 and stood near 1.3124 at 07:38, while EUR/USD fell by a similar share, from about 1.0974 to 1.0955, so the move came from the dollar rather than the pound.",
    "t": "2026-11-19T03:39:46Z",
    "rate": 1.31239
-  },
-  {
-   "title": "Fed minutes back further rate rises",
-   "text": "The minutes of the Fed's October meeting, out at 23:00 Dubai, show that almost all officials judged further rises would likely be appropriate, some argued for a rise in October itself and a couple suggested a larger rise could be needed in December. That confirms the firm stance markets already expected, which supports the dollar and means fewer dirhams per pound. GBP/USD slipped from about 1.3150 just before the release to about 1.3138 within eight minutes and stood near 1.3137 at 23:38 Dubai.",
-   "when": "2026-11-18T19:00:00Z",
-   "t": "2026-11-18T19:39:03Z",
-   "rate": 1.31374
   }
  ]
 }
