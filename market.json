@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:39:47Z",
+ "updated": "2026-11-23T11:39:36Z",
  "headline": "Sterling is about 1.3105 dollars on Monday morning, up from about 1.3057 in late weekend trading and near 1.3084 at Friday's close, its lowest level in almost a year, as the dollar eases in a relief rally for shares. Markets still expect a quarter point Fed rise in December, but bets on a larger rise have gone, and UK and US business surveys due today are the next test.",
  "drivers": [
   {
@@ -29,6 +29,18 @@
  ],
  "watch": "The US flash purchasing managers' surveys for November are due at 18:45 Dubai today, forecast at 54.5 for manufacturing and 55.6 for services; softer figures would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure are due on Wednesday ahead of Thursday's Thanksgiving holiday.",
  "sources": [
+  {
+   "title": "Forex Today: Gold rebounds above $3,600, US Dollar retreats ahead of PMI data",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-gold-rebounds-above-3-600-us-dollar-retreats-ahead-of-pmi-data-202611230735",
+   "date": "23 Nov"
+  },
+  {
+   "title": "GBP/USD and EUR/USD five minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
+   "date": "23 Nov"
+  },
   {
    "title": "United Kingdom flash S&P Global Services PMI unexpectedly drops to 52.0 in November",
    "site": "FXStreet",
@@ -87,18 +99,6 @@
    "title": "Trump holds press conference after meeting with Xi and Putin",
    "site": "NPR",
    "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
-   "date": "20 Nov"
-  },
-  {
-   "title": "University of Michigan consumer sentiment 51.5 versus 51.5 estimate",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/university-of-michigan-consumer-sentiment-51-5-versus-51-5-estimate/",
-   "date": "20 Nov"
-  },
-  {
-   "title": "Gold price trades near $3,568/oz after final Consumer Sentiment rises to 51.5, inflation expectations drop",
-   "site": "Kitco News",
-   "url": "https://www.kitco.com/news/article/2026-11-20/gold-price-trades-near-3568oz-after-final-consumer-sentiment-rises-515",
    "date": "20 Nov"
   }
  ],
@@ -203,8 +203,14 @@
    "why": "A weaker US job market makes Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-23T09:39:47Z",
+ "calendarUpdated": "2026-11-23T11:39:36Z",
  "feed": [
+  {
+   "title": "Sterling has drifted lower as the dollar firms ahead of US surveys",
+   "text": "GBP/USD eased from about 1.3116 at 13:45 Dubai to about 1.3101 by 14:20, briefly recovered to about 1.3109 at 14:45 and was near 1.3096 at 15:39, while EUR/USD fell by a similar share, from about 1.0975 to about 1.0959, so the dollar firmed across the board rather than the pound falling on UK news, which means slightly fewer dirhams per pound. No report read names the news behind this afternoon's drift; earlier on Monday FXStreet described the dollar as easing on a recovery in share futures, and the US flash business surveys are due at 18:45 Dubai.",
+   "t": "2026-11-23T11:39:36Z",
+   "rate": 1.30957
+  },
   {
    "title": "Sterling has slipped after weaker UK business surveys",
    "text": "The UK flash services survey for November fell to 52.0 against 53.0 expected, and the composite measure of private sector activity eased to 52.3 from 52.9, with both services and manufacturing slowing, FXStreet reported; no report read yet gives the manufacturing figure. Slower UK growth weakens the case for a December Bank of England rise, which weighs on the pound, so slightly fewer dirhams per pound. GBP/USD was about 1.3122 at 13:29 Dubai, fell to about 1.3115 by 13:31 and was near 1.3114 at 13:38, after drifting down from about 1.3139 at 12:42 as the dollar firmed across the board, with EUR/USD falling by a similar share from about 1.0993 to about 1.0978 before the figures.",
@@ -348,12 +354,6 @@
    "when": "2026-11-18T19:00:00Z",
    "t": "2026-11-18T19:39:03Z",
    "rate": 1.31374
-  },
-  {
-   "title": "The dollar has eased back ahead of the Fed minutes",
-   "text": "GBP/USD rose from a low near 1.3134 at about 20:40 Dubai to about 1.3152 at 21:29 and stood near 1.3150 at 21:38, while EUR/USD rose by a similar share, from about 1.0957 to 1.0972, so the recovery came mainly from a softer dollar and means slightly more dirhams per pound. CNBC reported the US ten year Treasury yield down more than three basis points at about 5.06%, against 5.12% in early Asian trade, and lower US yields tend to weaken the dollar. No report read names a single item of news behind the move, which came in quiet trade ahead of the Fed minutes at 23:00 Dubai.",
-   "t": "2026-11-18T17:39:12Z",
-   "rate": 1.31497
   }
  ]
 }
