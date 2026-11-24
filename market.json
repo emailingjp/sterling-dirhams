@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:39:58Z",
+ "updated": "2026-11-24T14:40:09Z",
  "headline": "Sterling is about 1.3037 dollars on Tuesday morning, little changed overnight and close to Monday's lows near 1.3010, after the dollar index reached its highest level since April 2025. Markets fully expect a quarter point Fed rise on 9 December after New York Fed President John Williams said inflation is still too high, and US consumer confidence this evening is the next scheduled test.",
  "drivers": [
   {
@@ -27,8 +27,32 @@
   "A softer US consumer confidence reading or softer PCE inflation on Wednesday, which would ease bets on further Fed rises and mean more dirhams per pound.",
   "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "Bank of England policymaker Megan Greene, who favours tighter policy, speaks at 16:30 Dubai today; firm comments would tend to lift the pound. US consumer confidence from the Conference Board follows at 19:00 Dubai, forecast at about 92.1 to 92.4 against 91.7 last month; a lower reading would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure follow at 17:30 Dubai on Wednesday, where softer figures would help.",
+ "watch": "US consumer confidence from the Conference Board comes at 19:00 Dubai today, forecast at about 92.4 against 91.7 last month; a lower reading would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure follow at 17:30 Dubai on Wednesday, where softer figures would help.",
  "sources": [
+  {
+   "title": "US prepares new tariffs on China, EU and other trading partners (WSJ)",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-prepares-new-tariffs-on-china-and-other-trading-partners-wsj-202611241338",
+   "date": "24 Nov"
+  },
+  {
+   "title": "BoE's Greene: Disinflation process has stalled",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/boes-greene-disinflation-process-has-stalled-202611241321",
+   "date": "24 Nov"
+  },
+  {
+   "title": "US ADP Employment Change 4-week average drops to 21K",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-adp-employment-change-4-week-average-drops-to-21k-202611241320",
+   "date": "24 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "24 Nov"
+  },
   {
    "title": "Euro gains against British Pound as German business confidence improves",
    "site": "FXStreet",
@@ -76,30 +100,6 @@
    "site": "CNBC",
    "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
    "date": "23 Nov"
-  },
-  {
-   "title": "Fed's Williams won't rule out back-to-back rate hikes as data drives the path",
-   "site": "investingLive",
-   "url": "https://investinglive.com/central-banks/fed-s-williams-won-t-rule-out-back-to-back-rate-hikes-as-data-drives-the-path/",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Fed's Williams says inflation still too high, signals more rate hikes possible",
-   "site": "Kitco (Reuters)",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes",
-   "date": "23 Nov"
-  },
-  {
-   "title": "investingLive live feed",
-   "site": "investingLive",
-   "url": "https://investinglive.com/live-feed/",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "24 Nov"
   }
  ],
  "calendar": [
@@ -192,8 +192,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-24T12:39:58Z",
+ "calendarUpdated": "2026-11-24T14:40:09Z",
  "feed": [
+  {
+   "title": "The dollar has weakened after reports of new US tariffs",
+   "text": "The Wall Street Journal reported at about 17:38 Dubai that the US is preparing higher tariffs on China, the European Union and 14 other trading partners, and US share futures fell sharply, with Nasdaq futures down about 2.4%, FXStreet reported. The dollar's recent strength has leaned on a rally in US technology shares, and it gave ground across the board as they fell: GBP/USD rose steadily from about 1.3089 at 17:34 Dubai to about 1.3108 by 18:39, and EUR/USD by a slightly larger share, which means more dirhams per pound. Bank of England policymaker Megan Greene said earlier that falls in inflation have stalled and argued for another rise, and a weekly ADP reading showed slower US private hiring, but neither moved the rate at the time.",
+   "when": "2026-11-24T13:38:00Z",
+   "t": "2026-11-24T14:40:09Z",
+   "rate": 1.31107
+  },
   {
    "title": "The dollar has slipped as the euro firms on talk of an ECB rise",
    "text": "ECB policymaker Gediminas Simkus said on Tuesday that the central bank should act sooner rather than later and called the weak euro another inflationary factor, after German business confidence rose for a seventh month to 90.6 against 90.5 expected, FXStreet reported. The euro is the largest weight in the dollar index, so a firmer euro pulled the dollar back across the board: EUR/USD rose from about 1.0930 at 14:40 Dubai to about 1.0955, and GBP/USD climbed steadily from about 1.3064 to about 1.3087 by 16:38, which means slightly more dirhams per pound. No report read names a US cause, and the dollar remains near its strongest since April 2025 ahead of US consumer confidence at 19:00 Dubai.",
@@ -336,12 +343,6 @@
    "when": "2026-11-20T07:00:00Z",
    "t": "2026-11-20T07:39:04Z",
    "rate": 1.31154
-  },
-  {
-   "title": "Sterling has edged up as the dollar eases slightly",
-   "text": "GBP/USD edged up from about 1.3097 at 07:40 Dubai to about 1.3105 by 09:00, dipped to about 1.3097 at 09:40 and then rose to about 1.3112 by 10:35, while EUR/USD rose by a similar share, from about 1.0969 to 1.0983, so the dollar eased a little across the board rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; Reuters reported early on Friday that the dollar index was steady near its highest since April 2025 and that the 10 year US Treasury yield was near a one week low, even as Asian shares fell sharply. UK retail sales for October follow at 11:00 Dubai.",
-   "t": "2026-11-20T06:39:29Z",
-   "rate": 1.31119
   }
  ]
 }
