@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T08:40:28Z",
+ "updated": "2026-11-24T10:39:58Z",
  "headline": "Sterling is about 1.3037 dollars on Tuesday morning, little changed overnight and close to Monday's lows near 1.3010, after the dollar index reached its highest level since April 2025. Markets fully expect a quarter point Fed rise on 9 December after New York Fed President John Williams said inflation is still too high, and US consumer confidence this evening is the next scheduled test.",
  "drivers": [
   {
@@ -29,6 +29,24 @@
  ],
  "watch": "Bank of England policymaker Megan Greene, who favours tighter policy, speaks at 16:30 Dubai today; firm comments would tend to lift the pound. US consumer confidence from the Conference Board follows at 19:00 Dubai, forecast at about 92.1 to 92.4 against 91.7 last month; a lower reading would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure follow at 17:30 Dubai on Wednesday, where softer figures would help.",
  "sources": [
+  {
+   "title": "German Ifo survey hints at a recovery in November but the ECB still can't get too comfortable",
+   "site": "investingLive",
+   "url": "https://investinglive.com/news/german-ifo-survey-hints-at-a-recovery-in-november-but-the-ecb-still-can-t-get-too-comfortable/",
+   "date": "24 Nov"
+  },
+  {
+   "title": "Forex Today: Global stocks rally led by tech shares, US Dollar stabilizes at 20-month highs",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-global-stocks-rally-led-by-tech-shares-us-dollar-stabilizes-at-20-month-highs-202611240725",
+   "date": "24 Nov"
+  },
+  {
+   "title": "Kraken GBP/USD and EUR/USD prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
+   "date": "24 Nov"
+  },
   {
    "title": "US dollar refuses to budge despite the risk-on bounce, so what's keeping it so strong?",
    "site": "investingLive",
@@ -81,24 +99,6 @@
    "title": "Euro slides to lowest level since April 2025 as Nvidia-led stock rally lifts sentiment",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Canadian Dollar weakens as Nvidia rally lifts the US Dollar",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/canadian-dollar-weakens-as-nvidia-rally-lifts-the-us-dollar-202611231528",
-   "date": "23 Nov"
-  },
-  {
-   "title": "New Zealand Dollar tumbles to 17-year lows as US Dollar hits fresh highs",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/new-zealand-dollar-tumbles-to-17-year-lows-as-us-dollar-hits-fresh-highs-202611231635",
-   "date": "23 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "23 Nov"
   }
  ],
@@ -192,8 +192,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-24T08:40:28Z",
+ "calendarUpdated": "2026-11-24T10:39:58Z",
  "feed": [
+  {
+   "title": "The dollar has eased a little across the board, with no clear cause",
+   "text": "GBP/USD rose from about 1.3047 at 13:00 Dubai to a high of about 1.3070 at 14:10 and was near 1.3061 at 14:35, while EUR/USD rose by a similar share, from about 1.0915 to about 1.0931, so this was the dollar giving back a little ground rather than the pound rising on UK news, which means slightly more dirhams per pound. German business confidence improved in November, investingLive reported, which may have helped the euro, but no report read names a US or UK cause, and the dollar remains close to its strongest since early 2025 ahead of US consumer confidence this evening.",
+   "t": "2026-11-24T10:39:58Z",
+   "rate": 1.30636
+  },
   {
    "title": "Sterling has edged up in quiet London trade as the dollar holds firm",
    "text": "GBP/USD dipped to a low of about 1.3027 at 11:00 Dubai as London opened, then rose from about 1.3033 at 12:29 to about 1.3049 by 12:36 with no news that explains the move, and was near 1.3048 at 12:38, a little above about 1.3038 at the last update. The dollar is holding near its strongest since April 2025 despite the rebound in shares, with analysts pointing to Treasury yields and Fed rise bets, while Brent oil near $89 a barrel (about £68) sits close to a three-month low even after Iran said three tankers hit mines, which takes some support away from the dollar.",
@@ -336,12 +342,6 @@
    "text": "US shares fell about 2% on Thursday, FXStreet reported, and the dollar stayed firm near its 19 month high, helped by a firm Fed and, in the view of Spectra Markets quoted by FXStreet, by overseas buyers of the Anthropic share sale buying an estimated $10 billion to $15 billion (about £7.6 billion to £11.5 billion). A firmer dollar means fewer dirhams per pound. GBP/USD fell from about 1.3092 at 01:15 Dubai to about 1.3077 by 01:30, touched about 1.3074 at 06:10 and had recovered to about 1.3096 by 07:35; EUR/USD fell by a similar share overnight, so the move came from the dollar rather than from UK news.",
    "t": "2026-11-20T03:40:50Z",
    "rate": 1.3096
-  },
-  {
-   "title": "Sterling has dipped and recovered as the dollar firms briefly",
-   "text": "GBP/USD slipped from about 1.3112 at 21:00 Dubai to about 1.3090 by 21:07, recovered to about 1.3113 by 21:20 and stood near 1.3106 at 21:35. EUR/USD dipped over the same minutes, from about 1.0978 to 1.0969, so the dollar firmed briefly across the board rather than the pound falling on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the dip; FXStreet still describes the dollar as supported by the Fed's firm stance after minutes showing almost all officials expect further rises.",
-   "t": "2026-11-19T17:39:29Z",
-   "rate": 1.31079
   }
  ]
 }
