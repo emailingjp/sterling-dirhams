@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:39:58Z",
+ "updated": "2026-11-24T12:39:58Z",
  "headline": "Sterling is about 1.3037 dollars on Tuesday morning, little changed overnight and close to Monday's lows near 1.3010, after the dollar index reached its highest level since April 2025. Markets fully expect a quarter point Fed rise on 9 December after New York Fed President John Williams said inflation is still too high, and US consumer confidence this evening is the next scheduled test.",
  "drivers": [
   {
@@ -29,6 +29,12 @@
  ],
  "watch": "Bank of England policymaker Megan Greene, who favours tighter policy, speaks at 16:30 Dubai today; firm comments would tend to lift the pound. US consumer confidence from the Conference Board follows at 19:00 Dubai, forecast at about 92.1 to 92.4 against 91.7 last month; a lower reading would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure follow at 17:30 Dubai on Wednesday, where softer figures would help.",
  "sources": [
+  {
+   "title": "Euro gains against British Pound as German business confidence improves",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-gains-against-british-pound-as-german-business-confidence-improves-202611241230",
+   "date": "24 Nov"
+  },
   {
    "title": "German Ifo survey hints at a recovery in November but the ECB still can't get too comfortable",
    "site": "investingLive",
@@ -94,12 +100,6 @@
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
    "date": "24 Nov"
-  },
-  {
-   "title": "Euro slides to lowest level since April 2025 as Nvidia-led stock rally lifts sentiment",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606",
-   "date": "23 Nov"
   }
  ],
  "calendar": [
@@ -192,8 +192,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-24T10:39:58Z",
+ "calendarUpdated": "2026-11-24T12:39:58Z",
  "feed": [
+  {
+   "title": "The dollar has slipped as the euro firms on talk of an ECB rise",
+   "text": "ECB policymaker Gediminas Simkus said on Tuesday that the central bank should act sooner rather than later and called the weak euro another inflationary factor, after German business confidence rose for a seventh month to 90.6 against 90.5 expected, FXStreet reported. The euro is the largest weight in the dollar index, so a firmer euro pulled the dollar back across the board: EUR/USD rose from about 1.0930 at 14:40 Dubai to about 1.0955, and GBP/USD climbed steadily from about 1.3064 to about 1.3087 by 16:38, which means slightly more dirhams per pound. No report read names a US cause, and the dollar remains near its strongest since April 2025 ahead of US consumer confidence at 19:00 Dubai.",
+   "t": "2026-11-24T12:39:58Z",
+   "rate": 1.30886
+  },
   {
    "title": "The dollar has eased a little across the board, with no clear cause",
    "text": "GBP/USD rose from about 1.3047 at 13:00 Dubai to a high of about 1.3070 at 14:10 and was near 1.3061 at 14:35, while EUR/USD rose by a similar share, from about 1.0915 to about 1.0931, so this was the dollar giving back a little ground rather than the pound rising on UK news, which means slightly more dirhams per pound. German business confidence improved in November, investingLive reported, which may have helped the euro, but no report read names a US or UK cause, and the dollar remains close to its strongest since early 2025 ahead of US consumer confidence this evening.",
@@ -336,12 +342,6 @@
    "text": "GBP/USD edged up from about 1.3097 at 07:40 Dubai to about 1.3105 by 09:00, dipped to about 1.3097 at 09:40 and then rose to about 1.3112 by 10:35, while EUR/USD rose by a similar share, from about 1.0969 to 1.0983, so the dollar eased a little across the board rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind it; Reuters reported early on Friday that the dollar index was steady near its highest since April 2025 and that the 10 year US Treasury yield was near a one week low, even as Asian shares fell sharply. UK retail sales for October follow at 11:00 Dubai.",
    "t": "2026-11-20T06:39:29Z",
    "rate": 1.31119
-  },
-  {
-   "title": "Sterling has slipped to a new low for the year as shares fall overnight",
-   "text": "US shares fell about 2% on Thursday, FXStreet reported, and the dollar stayed firm near its 19 month high, helped by a firm Fed and, in the view of Spectra Markets quoted by FXStreet, by overseas buyers of the Anthropic share sale buying an estimated $10 billion to $15 billion (about £7.6 billion to £11.5 billion). A firmer dollar means fewer dirhams per pound. GBP/USD fell from about 1.3092 at 01:15 Dubai to about 1.3077 by 01:30, touched about 1.3074 at 06:10 and had recovered to about 1.3096 by 07:35; EUR/USD fell by a similar share overnight, so the move came from the dollar rather than from UK news.",
-   "t": "2026-11-20T03:40:50Z",
-   "rate": 1.3096
   }
  ]
 }
