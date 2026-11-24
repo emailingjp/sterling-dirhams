@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:40:09Z",
+ "updated": "2026-11-24T15:39:41Z",
  "headline": "Sterling is about 1.3037 dollars on Tuesday morning, little changed overnight and close to Monday's lows near 1.3010, after the dollar index reached its highest level since April 2025. Markets fully expect a quarter point Fed rise on 9 December after New York Fed President John Williams said inflation is still too high, and US consumer confidence this evening is the next scheduled test.",
  "drivers": [
   {
@@ -27,8 +27,20 @@
   "A softer US consumer confidence reading or softer PCE inflation on Wednesday, which would ease bets on further Fed rises and mean more dirhams per pound.",
   "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "US consumer confidence from the Conference Board comes at 19:00 Dubai today, forecast at about 92.4 against 91.7 last month; a lower reading would tend to help someone selling pounds for dirhams. US GDP and the Fed's preferred PCE inflation measure follow at 17:30 Dubai on Wednesday, where softer figures would help.",
+ "watch": "US GDP for the third quarter (second estimate, forecast 3.5% against 3.4% previously) and the Fed's preferred core PCE inflation measure (forecast 0.3% on the month) both come at 17:30 Dubai on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "US CB Consumer Confidence Index improves to 103.3 in November",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-1033-in-november-202611241512",
+   "date": "24 Nov"
+  },
+  {
+   "title": "US Consumer Confidence Surged in November",
+   "site": "The Conference Board via PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html",
+   "date": "24 Nov"
+  },
   {
    "title": "US prepares new tariffs on China, EU and other trading partners (WSJ)",
    "site": "FXStreet",
@@ -88,18 +100,6 @@
    "site": "investingLive",
    "url": "https://investinglive.com/news/what-are-the-main-events-for-today-92/",
    "date": "24 Nov"
-  },
-  {
-   "title": "Iran says three tankers hit mines, yet oil sits near a three-month low as supply wins",
-   "site": "investingLive",
-   "url": "https://investinglive.com/commodities/iran-says-three-tankers-hit-mines-yet-oil-sits-near-a-three-month-low-as-supply-wins/",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Fed's John Williams indicates higher interest rates likely over time to address inflation",
-   "site": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-   "date": "23 Nov"
   }
  ],
  "calendar": [
@@ -192,8 +192,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-24T14:40:09Z",
+ "calendarUpdated": "2026-11-24T15:39:41Z",
  "feed": [
+  {
+   "title": "US consumer confidence has jumped well above forecasts",
+   "text": "The Conference Board's consumer confidence index rose to 103.3 in November, its highest since January 2025, against about 92.4 expected and 91.9 in October, with the Conference Board pointing to less uncertainty after the midterm elections and lower petrol prices. A stronger US consumer supports the case for further Fed rises and so tends to firm the dollar, but the reaction was small: GBP/USD slipped from about 1.3110 at 19:00 Dubai to a low of about 1.3100 by 19:15, then recovered to about 1.3110 by 19:27 and was near 1.3106 at 19:38, so dirhams per pound are little changed. FXStreet reported that the dollar index stayed below 104.00, as the losses that followed the tariff reports earlier this evening outweighed the strong figure.",
+   "when": "2026-11-24T15:00:00Z",
+   "t": "2026-11-24T15:39:41Z",
+   "rate": 1.31051
+  },
   {
    "title": "The dollar has weakened after reports of new US tariffs",
    "text": "The Wall Street Journal reported at about 17:38 Dubai that the US is preparing higher tariffs on China, the European Union and 14 other trading partners, and US share futures fell sharply, with Nasdaq futures down about 2.4%, FXStreet reported. The dollar's recent strength has leaned on a rally in US technology shares, and it gave ground across the board as they fell: GBP/USD rose steadily from about 1.3089 at 17:34 Dubai to about 1.3108 by 18:39, and EUR/USD by a slightly larger share, which means more dirhams per pound. Bank of England policymaker Megan Greene said earlier that falls in inflation have stalled and argued for another rise, and a weekly ADP reading showed slower US private hiring, but neither moved the rate at the time.",
@@ -336,13 +343,6 @@
    "text": "Investors kept moving into the dollar as a safe haven during the European morning, as the fall in shares over stretched technology valuations widened, and with markets fully pricing a quarter point Fed rise in December, OCBC said in a note reported by FXStreet. No single piece of news set off the move. GBP/USD slipped from 1.3119 just before 08:00 London time to about 1.3096 by 08:46 and stayed near there before edging back to 1.3103 by 09:35.",
    "t": "2026-11-20T09:39:33Z",
    "rate": 1.31051
-  },
-  {
-   "title": "UK shoppers spent more than expected in October",
-   "text": "UK retail sales volumes rose 0.7% in October against no change expected, helped by households stocking up on long-life food after the government's Be Ready campaign and by colder weather lifting clothing sales; sales were 2.3% higher than a year earlier against 1.7% expected. Stronger spending tends to support the case for further Bank of England rises and so lifts the pound, but the reaction was small: GBP/USD rose from 1.3111 to 1.3117 within a minute, then settled near 1.3113 before edging up to about 1.3117 a quarter of an hour later.",
-   "when": "2026-11-20T07:00:00Z",
-   "t": "2026-11-20T07:39:04Z",
-   "rate": 1.31154
   }
  ]
 }
