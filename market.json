@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:40:35Z",
+ "updated": "2026-11-25T12:39:48Z",
  "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
  "drivers": [
   {
@@ -33,6 +33,18 @@
  ],
  "watch": "US core PCE inflation for October (forecast 0.3% on the month, as in September) and the second estimate of third quarter GDP (forecast 3.5% against 3.4%) both come at 17:30 Dubai today, with durable goods orders and jobless claims also due on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams. US markets are shut on Thursday for Thanksgiving.",
  "sources": [
+  {
+   "title": "GBP/USD and EUR/USD minute prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "25 Nov"
+  },
+  {
+   "title": "Euro slips as US PCE inflation puts Fed tightening bets to the test",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-slips-as-us-pce-inflation-puts-fed-tightening-bets-to-the-test-202611251132",
+   "date": "25 Nov"
+  },
   {
    "title": "Forex Today: US Dollar rebounds ahead of critical PCE inflation data",
    "site": "FXStreet",
@@ -91,18 +103,6 @@
    "title": "Canadian Dollar advances as BoC Governor flags persistent inflation risks",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/canadian-dollar-advances-as-boc-governor-flags-persistent-inflation-risks-202611241807",
-   "date": "24 Nov"
-  },
-  {
-   "title": "British Pound rebounds as BoE hike bets counter USD strength",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/british-pound-rebounds-as-boe-hike-bets-counter-usd-strength-202611241528",
-   "date": "24 Nov"
-  },
-  {
-   "title": "US CB Consumer Confidence Index improves to 103.3 in November",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-1033-in-november-202611241512",
    "date": "24 Nov"
   }
  ],
@@ -196,8 +196,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-25T09:40:35Z",
+ "calendarUpdated": "2026-11-25T12:39:48Z",
  "feed": [
+  {
+   "title": "Sterling has edged back up as the dollar eases before the US figures",
+   "text": "The dollar gave back part of its morning gain in the hour before the US inflation and growth figures at 17:30 Dubai, falling against the euro as well as the pound, but none of the news sources checked names a cause for the move. GBP/USD rose from about 1.3055 at 16:03 Dubai to a high of about 1.3077 at 16:21, then settled near 1.3068 by 16:38, and EUR/USD rose by a similar share over the same minutes, which means slightly more dirhams per pound.",
+   "t": "2026-11-25T12:39:48Z",
+   "rate": 1.30673
+  },
   {
    "title": "Sterling has slipped further as the dollar firms ahead of US inflation figures",
    "text": "The dollar has held firmer through the European morning, with the dollar index above 104 and up about 0.2% on the day, FXStreet reported, as markets wait for US core PCE inflation at 17:30 Dubai, expected to rise to 3.2% a year from 3.1%. GBP/USD moved between about 1.3066 and 1.3079 from 10:40 to 13:16 Dubai, then fell to about 1.3060 by 13:34, a larger fall than the euro's, which means slightly fewer dirhams per pound. FXStreet listed a Treasury Committee hearing on the Bank of England's November report with Governor Bailey for today, but no report read explains the drop at 13:20 Dubai, so its cause is not known.",
@@ -340,12 +346,6 @@
    "when": "2026-11-20T17:00:00Z",
    "t": "2026-11-20T17:41:06Z",
    "rate": 1.31025
-  },
-  {
-   "title": "Sterling has slipped as the dollar firms late on Friday",
-   "text": "GBP/USD fell from about 1.3115 at 19:51 Dubai to about 1.3099 by 20:03 and stayed near 1.3098 to 1.3103 through 20:36, while EUR/USD fell by a similar share, from about 1.0989 to about 1.0975, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the move, which came in the minutes before 4pm London time, when many currency deals are priced, and with no US or UK figure due.",
-   "t": "2026-11-20T16:39:25Z",
-   "rate": 1.31049
   }
  ]
 }
