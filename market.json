@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25T14:39:49Z",
- "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
+ "updated": "2026-11-25T15:39:58Z",
+ "headline": "Sterling is about 1.3067 dollars on Wednesday evening, having dipped to about 1.3043 while Bank of England policymakers gave evidence to MPs and then recovered, still above Monday's low near 1.3011. US growth and inflation figures this afternoon came in above forecast, markets put about a 97% chance on a quarter point Fed rise on 9 December, and US markets are shut on Thursday for Thanksgiving.",
  "drivers": [
   {
    "title": "The Fed",
@@ -34,12 +34,18 @@
  "watch": "No further scheduled US or UK figures are listed for the rest of this week, and US markets are shut on Thursday for Thanksgiving. The next big event is the Fed's decision on 9 December, where markets already expect a quarter point rise; any sign the Fed might hold back would tend to weaken the dollar and help someone selling pounds for dirhams.",
  "sources": [
   {
-   "title": "Bank of England: Treasury Select Committee on the November Monetary Policy Report, 25 November 2026",
-   "url": "https://www.bankofengland.co.uk/events/2026/november/tsc-november-monetary-policy-report"
+   "title": "Sterling falls as markets await US inflation data and remarks from Bank of England policymakers",
+   "site": "IUX (Reuters)",
+   "url": "https://www.iux24.com/news/sterling-falls-against-the-dollar-as-investors-await-key-us-inflation-data-and-remarks-from-bank-of-england-policymakers-20261125/",
+   "date": "25 Nov"
   },
   {
    "title": "Kraken public GBP/USD and EUR/USD minute prices, 25 November 2026",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1"
+  },
+  {
+   "title": "Bank of England: Treasury Select Committee on the November Monetary Policy Report, 25 November 2026",
+   "url": "https://www.bankofengland.co.uk/events/2026/november/tsc-november-monetary-policy-report"
   },
   {
    "title": "Personal Income and Outlays, October 2026",
@@ -93,12 +99,6 @@
    "title": "Stocks retreat as AI rebound stumbles, tariff threats loom (Reuters)",
    "site": "Yahoo Finance",
    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Dollar holds near 103.85 ahead of US PCE and GDP data",
-   "site": "PiQ Markets",
-   "url": "https://piqmarkets.com/story/dollar-holds-near-103-85-ahead-of-us-pce-and-gdp-data",
    "date": "25 Nov"
   }
  ],
@@ -190,10 +190,27 @@
    "previous": "2.3%",
    "good": "Lower than 2.3%",
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
+  },
+  {
+   "t": "2026-11-25T14:15:00Z",
+   "ccy": "GBP",
+   "impact": "Medium",
+   "name": "UK: Monetary Policy Report Hearings",
+   "title": "Monetary Policy Report Hearings",
+   "forecast": "",
+   "previous": "",
+   "good": "A rise, or more votes for one",
+   "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-25T14:39:49Z",
+ "calendarUpdated": "2026-11-25T15:39:58Z",
  "feed": [
+  {
+   "title": "Sterling has recovered its dip during the Bank of England hearing",
+   "text": "The pound fell a little further after the last update, to a low of about 1.3043 at 18:42 Dubai, while Governor Bailey and other members of the Bank's rate-setting committee were still giving evidence to MPs, then climbed back to about 1.3067 by 19:08 and was near 1.3067 at 19:38. The move was again the pound's own, since EUR/USD drifted slightly lower over the same hour, from about 1.0945 to about 1.0940, so it points to UK news rather than the dollar. No report read yet says what the Bank's policymakers told MPs, so the cause of the dip and the recovery is not known; before the hearing, LSEG data cited by Reuters put about an 80% chance on a further Bank of England rise in December, and dirhams per pound are now back near where they were before the hearing began.",
+   "t": "2026-11-25T15:39:58Z",
+   "rate": 1.30667
+  },
   {
    "title": "Sterling has slipped while the Bank of England faces MPs",
    "text": "Governor Bailey and three other members of the Bank's rate-setting committee began giving evidence to the Treasury Committee on the November Monetary Policy Report at 18:15 Dubai, but no report read yet says what they told MPs. A hint that the Bank is in less of a hurry to raise rates again would tend to weigh on the pound, and the move was the pound's own rather than the dollar's: GBP/USD fell from about 1.3068 at 18:23 Dubai to about 1.3052 by 18:38, while EUR/USD held steady near 1.0946, which means slightly fewer dirhams per pound.",
@@ -337,12 +354,6 @@
    "text": "US share futures jumped about 2% in early Asian trade on Monday after a weekend in which South Korea and China moved to steady their stock markets and US Treasury Secretary Scott Bessent warned the Fed against raising rates too far, investingLive reported, and the dollar eased against most major currencies. Traders have also pared bets on a large Fed rise: CME FedWatch puts the chance of a quarter point rise in December at 93.2%, down from 97.3% on Friday, and a half point rise, given an 11.5% chance a week ago, is no longer priced, FXStreet reported. GBP/USD rose from about 1.3057 in Kraken's late weekend price, below Friday's close near 1.3084, to about 1.3086 by 03:00 Dubai and about 1.3107 by 05:00, gaining more than EUR/USD, which rose from about 1.0962 to about 1.0979, so a softer dollar and support for the pound from last week's strong UK retail sales mean slightly more dirhams per pound.",
    "t": "2026-11-23T03:40:44Z",
    "rate": 1.31043
-  },
-  {
-   "title": "Sterling has dipped in thin Saturday trading as the dollar firms",
-   "text": "Kraken's weekend price for GBP/USD slipped from about 1.3080 at 07:30 Dubai on Saturday to about 1.3073 by 07:33 and was about 1.3063 by 11:40, a fall of about 0.16% from Friday's close of about 1.3084 that is a guide to the reopening rather than a bank price. EUR/USD fell by a similar share in the same minutes, from about 1.0951 to about 1.0938, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names any weekend news behind the move, which came in thin trading with the banks' market shut.",
-   "t": "2026-11-21T07:42:18Z",
-   "rate": 1.30634
   }
  ]
 }
