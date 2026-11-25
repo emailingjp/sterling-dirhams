@@ -1,34 +1,62 @@
 {
- "updated": "2026-11-24T19:39:55Z",
- "headline": "Sterling is about 1.3037 dollars on Tuesday morning, little changed overnight and close to Monday's lows near 1.3010, after the dollar index reached its highest level since April 2025. Markets fully expect a quarter point Fed rise on 9 December after New York Fed President John Williams said inflation is still too high, and US consumer confidence this evening is the next scheduled test.",
+ "updated": "2026-11-25T03:40:57Z",
+ "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "Markets fully price a quarter point rise from the present 3.75% to 4% range at the Fed meeting on 8 and 9 December, CNBC reported on 23 November. New York Fed President John Williams said that evening he is not ruling out rises at consecutive meetings but sees no case for dramatic action, and he expects inflation of about 3.5% at the end of 2026, investingLive reported. BlackRock said on 24 November that it expects a December rise and one more in the first half of 2027."
+   "text": "CME FedWatch figures quoted on 25 November put about a 97% chance on a quarter point rise from the present 3.75% to 4% range at the Fed meeting on 8 and 9 December, and about 66% on a further rise in January. New York Fed President John Williams said on 23 November that inflation is still too high, and BlackRock said on 24 November that it expects a December rise and one more in the first half of 2027."
   },
   {
    "title": "The gap between US and UK rates",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and a quarter point Fed rise in December would take US rates above UK rates. UK retail sales rose 0.7% in October against no change expected, which BBH said supports the case for a December Bank of England rise, FXStreet reported on 23 November, although October's inflation of 3.6% led traders to trim those bets."
+   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and a quarter point Fed rise in December would take US rates above UK rates. Bank of England policymaker Megan Greene said on 24 November that falls in inflation have stalled, which keeps a December Bank of England rise in play and gives the pound some support."
   },
   {
    "title": "A strong dollar",
-   "text": "The dollar index reached about 104.5 on Monday, its highest level since April 2025, as US shares rebounded on an Nvidia-led rally and traders firmed their Fed bets, while EUR/USD fell to its lowest since April 2025. GBP/USD has fallen about 3.5% from a high near 1.3500 on 4 November, and the move has been mostly dollar strength rather than UK news."
+   "text": "The dollar index reached about 104.5 on Monday 23 November, its highest level since April 2025, then fell 0.44% on Tuesday to about 103.85 as US Treasury yields slipped. GBP/USD has fallen about 3% from a high near 1.3500 on 4 November, and the move has been mostly dollar strength rather than UK news."
+  },
+  {
+   "title": "US tariffs and share prices",
+   "text": "Reuters reported on 24 November that the US Trade Representative is preparing findings of a probe into excess industrial capacity among 16 trading partners, including China and the European Union, which could lead to new tariffs. The dollar fell on Tuesday as US technology shares dropped on the news, then firmed on Wednesday morning as Asian shares fell, so the effect on the dollar has run both ways."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Iran attacked Bahrain again over the weekend, Houthi militants continued to target Saudi Arabia, and two tankers near Oman were struck on Saturday, FXStreet reported on 23 November. Even so, US crude fell to about $82.80 a barrel (about £64) on Monday on signs of a growing world surplus, with Brent near $90 (about £69). Dearer oil and Gulf tension tend to lift the dollar."
+   "text": "Brent oil settled more than 2% higher on 24 November on reports of new attacks on ships in and around the Strait of Hormuz, and opened at $90.97 a barrel (about £69.50) on 25 November. Dearer oil and Gulf tension tend to lift the dollar, which means fewer dirhams per pound."
   }
  ],
  "lower": [
-  "A stronger than expected US consumer confidence reading this evening, or further firm Fed comments, which would support bets on more Fed rises and mean fewer dirhams per pound.",
-  "Hotter than expected US inflation in Wednesday's PCE figures, or fresh attacks in the Gulf, which tend to lift the dollar."
+  "Hotter than expected US core PCE inflation or stronger than expected growth figures this afternoon, which would support bets on more Fed rises and mean fewer dirhams per pound.",
+  "Further sharp falls in shares on tariff worries, or fresh attacks on shipping in the Gulf, which tend to send investors towards the dollar."
  ],
  "higher": [
-  "A softer US consumer confidence reading or softer PCE inflation on Wednesday, which would ease bets on further Fed rises and mean more dirhams per pound.",
+  "Softer than expected US core PCE inflation or weaker growth figures this afternoon, which would ease bets on further Fed rises and mean more dirhams per pound.",
   "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "US GDP for the third quarter (second estimate, forecast 3.5% against 3.4% previously) and the Fed's preferred core PCE inflation measure (forecast 0.3% on the month) both come at 17:30 Dubai on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams.",
+ "watch": "US core PCE inflation for October (forecast 0.3% on the month, as in September) and the second estimate of third quarter GDP (forecast 3.5% against 3.4%) both come at 17:30 Dubai today, with durable goods orders and jobless claims also due on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams. US markets are shut on Thursday for Thanksgiving.",
  "sources": [
+  {
+   "title": "Stocks retreat as AI rebound stumbles, tariff threats loom (Reuters)",
+   "site": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html",
+   "date": "25 Nov"
+  },
+  {
+   "title": "Dollar holds near 103.85 ahead of US PCE and GDP data",
+   "site": "PiQ Markets",
+   "url": "https://piqmarkets.com/story/dollar-holds-near-103-85-ahead-of-us-pce-and-gdp-data",
+   "date": "25 Nov"
+  },
+  {
+   "title": "Forex Today: Australian inflation leads a busy pre-Thanksgiving US docket",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-australian-inflation-leads-a-busy-pre-thanksgiving-us-docket-202611241820",
+   "date": "24 Nov"
+  },
+  {
+   "title": "GBP/USD minute and hourly prices",
+   "site": "Kraken",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "25 Nov"
+  },
   {
    "title": "Canadian Dollar advances as BoC Governor flags persistent inflation risks",
    "site": "FXStreet",
@@ -75,30 +103,6 @@
    "title": "Kraken GBP/USD and EUR/USD minute prices",
    "site": "Kraken",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Euro gains against British Pound as German business confidence improves",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-gains-against-british-pound-as-german-business-confidence-improves-202611241230",
-   "date": "24 Nov"
-  },
-  {
-   "title": "German Ifo survey hints at a recovery in November but the ECB still can't get too comfortable",
-   "site": "investingLive",
-   "url": "https://investinglive.com/news/german-ifo-survey-hints-at-a-recovery-in-november-but-the-ecb-still-can-t-get-too-comfortable/",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Forex Today: Global stocks rally led by tech shares, US Dollar stabilizes at 20-month highs",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-global-stocks-rally-led-by-tech-shares-us-dollar-stabilizes-at-20-month-highs-202611240725",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=5",
    "date": "24 Nov"
   }
  ],
@@ -192,8 +196,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-24T19:39:55Z",
+ "calendarUpdated": "2026-11-25T03:40:57Z",
  "feed": [
+  {
+   "title": "Sterling has slipped as Asian shares fall on US tariff worries",
+   "text": "Asian shares fell sharply on Wednesday morning, with the MSCI Asia-Pacific index outside Japan down 2.3% and South Korea and Taiwan down more than 5% at worst, after Reuters reported that the US Trade Representative is preparing findings of a probe into excess capacity among 16 trading partners, and after the Nasdaq fell 1.5% overnight. Sharp falls in shares tend to send investors towards the dollar, and it edged up against both the pound and the euro: GBP/USD slipped from about 1.3111 at the last update to about 1.3107 at 04:00 Dubai, then to about 1.3094 by 07:00 and was near 1.3092 at 07:38, while EUR/USD fell by a similar share, so dirhams per pound are slightly lower. Brent oil opened 0.5% lower at $90.97 a barrel (about £69.50) after settling more than 2% higher on Tuesday on reports of fresh attacks on ships around the Strait of Hormuz.",
+   "t": "2026-11-25T03:40:57Z",
+   "rate": 1.30897
+  },
   {
    "title": "Sterling has held its gains as US yields slip on the tariff reports",
    "text": "Weaker US shares after the reports of new US tariffs pushed investors into government bonds, and the 10-year Treasury yield slipped to about 4.88%, its lowest since 10 November, FXStreet reported, which leaves the dollar index near 103.77 against Monday's 20-month high of 104.53. Lower US yields make the dollar less rewarding to hold, but markets still price a quarter point Fed rise on 9 December, so the dollar has eased only a little rather than fallen. GBP/USD dipped to a low of about 1.3096 at 19:42 Dubai, rose to a high of about 1.3121 at 21:57 and was near 1.3111 at 23:39, a little above about 1.3105 at the last update, so dirhams per pound are slightly higher.",
@@ -337,12 +347,6 @@
    "text": "GBP/USD rose from about 1.3099 at 16:53 Dubai to about 1.3126 by 17:08 and held near 1.3120 to 1.3125 through 17:38, while EUR/USD rose from about 1.0975 to about 1.0989 over the same minutes, so the dollar eased generally rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind the move; it came as US Treasury yields fell across the curve, with the 10 year yield at 4.98% and the rout in shares deepening, FXStreet reported. Fed Governor Waller was due to speak at 17:25 Dubai, and GBP/USD moved little around that time, staying near 1.3120.",
    "t": "2026-11-20T13:39:38Z",
    "rate": 1.31173
-  },
-  {
-   "title": "Sterling has dipped and recovered as US yields fall",
-   "text": "GBP/USD slipped from about 1.3110 at 15:43 Dubai to about 1.3093 by 16:00, while EUR/USD fell by only about a third as much, so the pound was a little weaker in its own right; no report read names a single item of news behind the dip, and FXStreet at 15:55 Dubai again put the pound's weakness down to markets pricing a December Fed rise at 97.3%. From about 16:35 Dubai the dollar eased across the board as the fall in shares deepened and the 10 year US Treasury yield slipped below 5% to 4.98%, FXStreet reported, which means slightly more dirhams per pound. GBP/USD rose from about 1.3095 at 16:34 to about 1.3109 by 16:38, with EUR/USD rising alongside it.",
-   "t": "2026-11-20T12:39:37Z",
-   "rate": 1.31025
   }
  ]
 }
