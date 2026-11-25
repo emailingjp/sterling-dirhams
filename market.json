@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:40:21Z",
+ "updated": "2026-11-25T14:39:49Z",
  "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
  "drivers": [
   {
@@ -34,6 +34,14 @@
  "watch": "No further scheduled US or UK figures are listed for the rest of this week, and US markets are shut on Thursday for Thanksgiving. The next big event is the Fed's decision on 9 December, where markets already expect a quarter point rise; any sign the Fed might hold back would tend to weaken the dollar and help someone selling pounds for dirhams.",
  "sources": [
   {
+   "title": "Bank of England: Treasury Select Committee on the November Monetary Policy Report, 25 November 2026",
+   "url": "https://www.bankofengland.co.uk/events/2026/november/tsc-november-monetary-policy-report"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD minute prices, 25 November 2026",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1"
+  },
+  {
    "title": "Personal Income and Outlays, October 2026",
    "site": "BEA",
    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
@@ -43,12 +51,6 @@
    "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
    "site": "BEA",
    "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
-   "date": "25 Nov"
-  },
-  {
-   "title": "GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "25 Nov"
   },
   {
@@ -98,12 +100,6 @@
    "site": "PiQ Markets",
    "url": "https://piqmarkets.com/story/dollar-holds-near-103-85-ahead-of-us-pce-and-gdp-data",
    "date": "25 Nov"
-  },
-  {
-   "title": "Forex Today: Australian inflation leads a busy pre-Thanksgiving US docket",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-australian-inflation-leads-a-busy-pre-thanksgiving-us-docket-202611241820",
-   "date": "24 Nov"
   }
  ],
  "calendar": [
@@ -196,8 +192,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-25T13:40:21Z",
+ "calendarUpdated": "2026-11-25T14:39:49Z",
  "feed": [
+  {
+   "title": "Sterling has slipped while the Bank of England faces MPs",
+   "text": "Governor Bailey and three other members of the Bank's rate-setting committee began giving evidence to the Treasury Committee on the November Monetary Policy Report at 18:15 Dubai, but no report read yet says what they told MPs. A hint that the Bank is in less of a hurry to raise rates again would tend to weigh on the pound, and the move was the pound's own rather than the dollar's: GBP/USD fell from about 1.3068 at 18:23 Dubai to about 1.3052 by 18:38, while EUR/USD held steady near 1.0946, which means slightly fewer dirhams per pound.",
+   "when": "2026-11-25T14:15:00Z",
+   "t": "2026-11-25T14:39:49Z",
+   "rate": 1.30532
+  },
   {
    "title": "US growth and inflation have come in above forecast",
    "text": "The second estimate put US growth in the third quarter at an annual rate of 4.3%, well above the 3.5% expected and up from 3.4% in the first estimate, and core PCE inflation for October rose 0.3% on the month as forecast but 3.3% on the year against 3.2% expected. Faster growth and firmer inflation usually support the case for Fed rises, which tends to strengthen the dollar and mean fewer dirhams per pound. In the event the dollar weakened slightly at first: GBP/USD dipped to about 1.3062 at the release, rose to about 1.3076 within a minute, then settled back near 1.3067 by 17:40 Dubai, and none of the sources checked explains the first move up.",
@@ -340,12 +343,6 @@
    "text": "Kraken's weekend price for GBP/USD slipped from about 1.3080 at 07:30 Dubai on Saturday to about 1.3073 by 07:33 and was about 1.3063 by 11:40, a fall of about 0.16% from Friday's close of about 1.3084 that is a guide to the reopening rather than a bank price. EUR/USD fell by a similar share in the same minutes, from about 1.0951 to about 1.0938, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names any weekend news behind the move, which came in thin trading with the banks' market shut.",
    "t": "2026-11-21T07:42:18Z",
    "rate": 1.30634
-  },
-  {
-   "title": "Sterling has drifted lower as the dollar firms into the weekend",
-   "text": "GBP/USD eased from about 1.3100 at 21:40 Dubai to about 1.3085 by 23:30 and was near 1.3087 at 23:38, while EUR/USD fell by a similar share, from about 1.0973 to about 1.0956, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the drift, which came in quiet late Friday trading with no US or UK figure due; FXStreet earlier on Friday put the pound's weakness down to growing expectations of further Fed rises.",
-   "t": "2026-11-20T19:39:01Z",
-   "rate": 1.309
   }
  ]
 }
