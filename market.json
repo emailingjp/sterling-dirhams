@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:40:57Z",
+ "updated": "2026-11-25T06:40:23Z",
  "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
  "drivers": [
   {
@@ -33,6 +33,24 @@
  ],
  "watch": "US core PCE inflation for October (forecast 0.3% on the month, as in September) and the second estimate of third quarter GDP (forecast 3.5% against 3.4%) both come at 17:30 Dubai today, with durable goods orders and jobless claims also due on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams. US markets are shut on Thursday for Thanksgiving.",
  "sources": [
+  {
+   "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
+   "site": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/asian-stocks-slide-as-ai-selloff-deepens-us-tariff-threats-weigh-on-sentiment-5049630",
+   "date": "25 Nov"
+  },
+  {
+   "title": "Asian stocks fall on AI trade worries and US tariff jitters",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/asian-stocks-decline-amid-ai-trade-worries-and-fresh-us-tariff-jitters-202611250439",
+   "date": "25 Nov"
+  },
+  {
+   "title": "Euro softens to near 1.0950 as traders await US PCE, GDP data",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/euro-softens-to-near-10950-as-traders-await-us-pce-gdp-data-202611250215",
+   "date": "25 Nov"
+  },
   {
    "title": "Stocks retreat as AI rebound stumbles, tariff threats loom (Reuters)",
    "site": "Yahoo Finance",
@@ -85,24 +103,6 @@
    "title": "US prepares new tariffs on China, EU and other trading partners (WSJ)",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/us-prepares-new-tariffs-on-china-and-other-trading-partners-wsj-202611241338",
-   "date": "24 Nov"
-  },
-  {
-   "title": "BoE's Greene: Disinflation process has stalled",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/boes-greene-disinflation-process-has-stalled-202611241321",
-   "date": "24 Nov"
-  },
-  {
-   "title": "US ADP Employment Change 4-week average drops to 21K",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/us-adp-employment-change-4-week-average-drops-to-21k-202611241320",
-   "date": "24 Nov"
-  },
-  {
-   "title": "Kraken GBP/USD and EUR/USD minute prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "24 Nov"
   }
  ],
@@ -196,8 +196,14 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-25T03:40:57Z",
+ "calendarUpdated": "2026-11-25T06:40:23Z",
  "feed": [
+  {
+   "title": "The dollar has edged higher as the Asian share sell-off deepens",
+   "text": "The fall in Asian shares deepened through Wednesday morning, with Taiwan's main index down 7.4%, South Korea's KOSPI down 6% and Japan's Nikkei down 3.3%, Investing.com reported, as worries about planned US tariffs on 16 trading partners and about AI spending hit chip makers; investors bought US government bonds, and markets still see a Fed rise on 9 December as almost certain. Sharp share falls and a firm Fed outlook both tend to draw money into the dollar, and it crept up against the pound and the euro by similar shares, so this was the dollar firming rather than UK news: GBP/USD eased from about 1.3088 at 07:40 Dubai to about 1.3079 at 09:40 and a low of about 1.3073 at 10:15, and was near 1.3076 at 10:30, while EUR/USD slipped from about 1.0943 to about 1.0933, which means slightly fewer dirhams per pound. No report read names a single new cause for this morning's drift, and traders are waiting for US inflation and growth figures at 17:30 Dubai.",
+   "t": "2026-11-25T06:40:23Z",
+   "rate": 1.30732
+  },
   {
    "title": "Sterling has slipped as Asian shares fall on US tariff worries",
    "text": "Asian shares fell sharply on Wednesday morning, with the MSCI Asia-Pacific index outside Japan down 2.3% and South Korea and Taiwan down more than 5% at worst, after Reuters reported that the US Trade Representative is preparing findings of a probe into excess capacity among 16 trading partners, and after the Nasdaq fell 1.5% overnight. Sharp falls in shares tend to send investors towards the dollar, and it edged up against both the pound and the euro: GBP/USD slipped from about 1.3111 at the last update to about 1.3107 at 04:00 Dubai, then to about 1.3094 by 07:00 and was near 1.3092 at 07:38, while EUR/USD fell by a similar share, so dirhams per pound are slightly lower. Brent oil opened 0.5% lower at $90.97 a barrel (about £69.50) after settling more than 2% higher on Tuesday on reports of fresh attacks on ships around the Strait of Hormuz.",
@@ -341,12 +347,6 @@
    "when": "2026-11-20T15:00:00Z",
    "t": "2026-11-20T15:39:03Z",
    "rate": 1.31135
-  },
-  {
-   "title": "Sterling has risen as the dollar eases across the board",
-   "text": "GBP/USD rose from about 1.3099 at 16:53 Dubai to about 1.3126 by 17:08 and held near 1.3120 to 1.3125 through 17:38, while EUR/USD rose from about 1.0975 to about 1.0989 over the same minutes, so the dollar eased generally rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names a single item of news behind the move; it came as US Treasury yields fell across the curve, with the 10 year yield at 4.98% and the rout in shares deepening, FXStreet reported. Fed Governor Waller was due to speak at 17:25 Dubai, and GBP/USD moved little around that time, staying near 1.3120.",
-   "t": "2026-11-20T13:39:38Z",
-   "rate": 1.31173
   }
  ]
 }
