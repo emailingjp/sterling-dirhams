@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:39:48Z",
+ "updated": "2026-11-25T13:40:21Z",
  "headline": "Sterling is about 1.3092 dollars on Wednesday morning, slightly lower overnight as Asian shares fell on US tariff worries, but still above Monday's low near 1.3011. Markets put about a 97% chance on a quarter point Fed rise on 9 December, and US inflation and growth figures at 17:30 Dubai this afternoon are the next scheduled test.",
  "drivers": [
   {
@@ -31,8 +31,20 @@
   "Softer than expected US core PCE inflation or weaker growth figures this afternoon, which would ease bets on further Fed rises and mean more dirhams per pound.",
   "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "US core PCE inflation for October (forecast 0.3% on the month, as in September) and the second estimate of third quarter GDP (forecast 3.5% against 3.4%) both come at 17:30 Dubai today, with durable goods orders and jobless claims also due on Wednesday; softer figures than forecast would tend to weaken the dollar and help someone selling pounds for dirhams. US markets are shut on Thursday for Thanksgiving.",
+ "watch": "No further scheduled US or UK figures are listed for the rest of this week, and US markets are shut on Thursday for Thanksgiving. The next big event is the Fed's decision on 9 December, where markets already expect a quarter point rise; any sign the Fed might hold back would tend to weaken the dollar and help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Personal Income and Outlays, October 2026",
+   "site": "BEA",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "date": "25 Nov"
+  },
+  {
+   "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+   "site": "BEA",
+   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+   "date": "25 Nov"
+  },
   {
    "title": "GBP/USD and EUR/USD minute prices",
    "site": "Kraken",
@@ -91,18 +103,6 @@
    "title": "Forex Today: Australian inflation leads a busy pre-Thanksgiving US docket",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-australian-inflation-leads-a-busy-pre-thanksgiving-us-docket-202611241820",
-   "date": "24 Nov"
-  },
-  {
-   "title": "GBP/USD minute and hourly prices",
-   "site": "Kraken",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Canadian Dollar advances as BoC Governor flags persistent inflation risks",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/canadian-dollar-advances-as-boc-governor-flags-persistent-inflation-risks-202611241807",
    "date": "24 Nov"
   }
  ],
@@ -196,8 +196,15 @@
    "why": "Softer US figures make Fed rises less likely, which weakens the dollar and lifts GBP/USD."
   }
  ],
- "calendarUpdated": "2026-11-25T12:39:48Z",
+ "calendarUpdated": "2026-11-25T13:40:21Z",
  "feed": [
+  {
+   "title": "US growth and inflation have come in above forecast",
+   "text": "The second estimate put US growth in the third quarter at an annual rate of 4.3%, well above the 3.5% expected and up from 3.4% in the first estimate, and core PCE inflation for October rose 0.3% on the month as forecast but 3.3% on the year against 3.2% expected. Faster growth and firmer inflation usually support the case for Fed rises, which tends to strengthen the dollar and mean fewer dirhams per pound. In the event the dollar weakened slightly at first: GBP/USD dipped to about 1.3062 at the release, rose to about 1.3076 within a minute, then settled back near 1.3067 by 17:40 Dubai, and none of the sources checked explains the first move up.",
+   "when": "2026-11-25T13:30:00Z",
+   "t": "2026-11-25T13:40:21Z",
+   "rate": 1.30659
+  },
   {
    "title": "Sterling has edged back up as the dollar eases before the US figures",
    "text": "The dollar gave back part of its morning gain in the hour before the US inflation and growth figures at 17:30 Dubai, falling against the euro as well as the pound, but none of the news sources checked names a cause for the move. GBP/USD rose from about 1.3055 at 16:03 Dubai to a high of about 1.3077 at 16:21, then settled near 1.3068 by 16:38, and EUR/USD rose by a similar share over the same minutes, which means slightly more dirhams per pound.",
@@ -339,13 +346,6 @@
    "text": "GBP/USD eased from about 1.3100 at 21:40 Dubai to about 1.3085 by 23:30 and was near 1.3087 at 23:38, while EUR/USD fell by a similar share, from about 1.0973 to about 1.0956, so the dollar firmed across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names a single item of news behind the drift, which came in quiet late Friday trading with no US or UK figure due; FXStreet earlier on Friday put the pound's weakness down to growing expectations of further Fed rises.",
    "t": "2026-11-20T19:39:01Z",
    "rate": 1.309
-  },
-  {
-   "title": "Trump's press conference has barely moved the pound",
-   "text": "President Trump spoke at the White House at 21:00 Dubai after his trip to China, saying the United States went into the talks with Xi and Putin from a position of strength, noting that oil prices have been falling and saying Iran wants a deal but not one he would accept, NPR reported; the summit produced few tangible results. With no news on trade, the Fed or the dollar, the remarks gave the market little to act on. GBP/USD was about 1.3103 at 20:58 Dubai, eased to about 1.3098 by 21:06 and stayed near 1.3100 to 1.3103 through 21:38.",
-   "when": "2026-11-20T17:00:00Z",
-   "t": "2026-11-20T17:41:06Z",
-   "rate": 1.31025
   }
  ]
 }
