@@ -1,38 +1,60 @@
 {
- "updated": "2026-11-25T17:41:01Z",
- "headline": "Sterling is about 1.3114 dollars on Wednesday evening, up from a low near 1.3043 during the Bank of England hearing, after Governor Bailey said further rises are likely if energy prices stay high and the dollar weakened broadly in the evening. US growth and inflation figures this afternoon came in above forecast, markets put about a 97% chance on a quarter point Fed rise on 9 December, and US markets are shut on Thursday for Thanksgiving.",
+ "updated": "2026-11-26T03:40:20Z",
+ "headline": "Sterling is about 1.3096 dollars on Thursday morning, a little below Wednesday evening's 1.3112 after a quiet night in which the dollar firmed slightly in thin holiday trade. US markets are shut for Thanksgiving, and the pound is being pulled between firmer US inflation, which keeps a December Fed rise all but certain, and Bank of England policymakers who say they may also have to raise rates in December if energy prices stay high.",
  "drivers": [
   {
    "title": "The Fed",
-   "text": "CME FedWatch figures quoted on 25 November put about a 97% chance on a quarter point rise from the present 3.75% to 4% range at the Fed meeting on 8 and 9 December, and about 66% on a further rise in January. New York Fed President John Williams said on 23 November that inflation is still too high, and BlackRock said on 24 November that it expects a December rise and one more in the first half of 2027."
+   "text": "October's core PCE inflation came in at 3.3% on the year against 3.2% expected and third quarter US growth was revised up to 4.3%, which Reuters said on 26 November cemented expectations of a quarter point Fed rise on 9 December and another in early 2027. Expected Fed rises support the dollar, which means fewer dirhams per pound."
   },
   {
-   "title": "The gap between US and UK rates",
-   "text": "The Bank of England raised Bank Rate to 4% on 5 November, and a quarter point Fed rise in December would take US rates above UK rates. Bank of England policymaker Megan Greene said on 24 November that falls in inflation have stalled, which keeps a December Bank of England rise in play and gives the pound some support."
+   "title": "The Bank of England",
+   "text": "Governor Bailey, Deputy Governor Lombardelli and Catherine Mann told MPs on 25 November that they cannot ignore the threat to inflation from persistently high energy prices, and markets were pricing almost an 80% chance of a Bank of England rise on 17 December, according to Bloomberg figures cited by FXStreet on 26 November. Expected Bank of England rises support the pound."
   },
   {
-   "title": "A strong dollar",
-   "text": "The dollar index reached about 104.5 on Monday 23 November, its highest level since April 2025, then fell 0.44% on Tuesday to about 103.85 as US Treasury yields slipped. GBP/USD has fallen about 3% from a high near 1.3500 on 4 November, and the move has been mostly dollar strength rather than UK news."
+   "title": "Falling US bond yields",
+   "text": "The US ten year Treasury yield fell 6.2 basis points to 4.84% on 25 November, its seventh fall in eight sessions, despite the firmer US figures. Lower US yields make the dollar less attractive to hold, and the dollar index slipped to a one week low of about 103.7, well off Monday's 19 month high."
   },
   {
    "title": "US tariffs and share prices",
-   "text": "Reuters reported on 24 November that the US Trade Representative is preparing findings of a probe into excess industrial capacity among 16 trading partners, including China and the European Union, which could lead to new tariffs. The dollar fell on Tuesday as US technology shares dropped on the news, then firmed on Wednesday morning as Asian shares fell, so the effect on the dollar has run both ways."
+   "text": "The US administration proposed new tariffs on goods from 14 trading partners on 25 November, with the highest rates aimed at China. The Nasdaq fell more than 4% during the day before closing 0.62% lower, and the pull on the dollar has run both ways, between demand for a safe haven and worry that the tariffs will slow US growth."
   },
   {
    "title": "Oil and the Gulf",
-   "text": "Brent oil settled more than 2% higher on 24 November on reports of new attacks on ships in and around the Strait of Hormuz, and opened at $90.97 a barrel (about £69.50) on 25 November. Dearer oil and Gulf tension tend to lift the dollar, which means fewer dirhams per pound."
+   "text": "Brent oil settled 3.5% higher at $94.61 a barrel (about £72.25) on 25 November after Yemen's Houthis said they had attacked Saudi Arabia's largest oil refinery. Dearer oil and Gulf tension tend to lift the dollar, though high energy prices are also what keeps the Bank of England leaning towards a further rise."
   }
  ],
  "lower": [
-  "Fed officials leaning towards more rises after this afternoon's firmer US growth and inflation figures, or a rebound in US Treasury yields, which would strengthen the dollar and mean fewer dirhams per pound.",
-  "Further sharp falls in shares on tariff worries, or fresh attacks on shipping in the Gulf, which tend to send investors towards the dollar."
+  "Fresh attacks on Gulf oil sites or shipping, or renewed falls in shares on tariff worries, which tend to send investors towards the dollar and mean fewer dirhams per pound.",
+  "Any sign that Bank of England policymakers are less sure about a December rise, for example if energy prices fall back, which would take some support away from the pound."
  ],
  "higher": [
-  "Further falls in US Treasury yields or any sign the Fed might hold back in December, which would weaken the dollar and mean more dirhams per pound.",
-  "Firm UK news or Bank of England comments, like Governor Bailey's today, that keep a December rise in play, which would lift the pound."
+  "Further falls in US Treasury yields, or any sign the Fed might hold back in December, which would weaken the dollar and mean more dirhams per pound.",
+  "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "No further scheduled US or UK figures are listed for the rest of this week, and US markets are shut on Thursday for Thanksgiving. The next big event is the Fed's decision on 9 December, where markets already expect a quarter point rise; any sign the Fed might hold back would tend to weaken the dollar and help someone selling pounds for dirhams.",
+ "watch": "The Bank of England publishes its Financial Stability Report at 14:30 Dubai today, which is not usually a big mover for the pound, and US markets are shut for Thanksgiving, so trading is likely to stay thin. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Dollar steady as sliding yields temper safe-haven bid",
+   "site": "Free Malaysia Today (Reuters)",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/dollar-steady-as-sliding-yields-temper-safe-haven-bid",
+   "date": "26 Nov"
+  },
+  {
+   "title": "World stocks fall as new US tariffs loom, AI rebound fizzles",
+   "site": "Yahoo Finance (Reuters)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html",
+   "date": "25 Nov"
+  },
+  {
+   "title": "British Pound steadies above 1.3100 as BoE policymakers leave December hike on the table",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-steadies-above-13100-as-boe-policymakers-leave-december-hike-on-the-table-202611260135",
+   "date": "26 Nov"
+  },
+  {
+   "title": "Kraken public GBP/USD and EUR/USD hourly prices, 25 and 26 November 2026",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=60"
+  },
   {
    "title": "BoE's Bailey flags further rate hikes if energy prices stay high",
    "site": "FXStreet",
@@ -75,30 +97,6 @@
    "title": "Euro slips as US PCE inflation puts Fed tightening bets to the test",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/euro-slips-as-us-pce-inflation-puts-fed-tightening-bets-to-the-test-202611251132",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Forex Today: US Dollar rebounds ahead of critical PCE inflation data",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-rebounds-ahead-of-critical-pce-inflation-data-202611250657",
-   "date": "25 Nov"
-  },
-  {
-   "title": "We could see some further Dollar strengthening with October PCEs on tap",
-   "site": "FXStreet (KBC)",
-   "url": "https://www.fxstreet.com/analysis/we-could-see-some-further-dollar-strengthening-with-october-pces-on-tap-202611250741",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
-   "site": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/asian-stocks-slide-as-ai-selloff-deepens-us-tariff-threats-weigh-on-sentiment-5049630",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Asian stocks fall on AI trade worries and US tariff jitters",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/asian-stocks-decline-amid-ai-trade-worries-and-fresh-us-tariff-jitters-202611250439",
    "date": "25 Nov"
   }
  ],
@@ -203,8 +201,14 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-25T17:41:01Z",
+ "calendarUpdated": "2026-11-26T03:40:20Z",
  "feed": [
+  {
+   "title": "Sterling has drifted lower in thin holiday trade overnight",
+   "text": "GBP/USD touched about 1.3127 late on Wednesday evening, then eased through the night from about 1.3112 at 21:41 Dubai to about 1.3096 by 07:38 Dubai on Thursday. EUR/USD slipped by a similar share over the same hours, from about 1.0973 to about 1.0959, so this was a slight firming of the dollar rather than UK news, which means slightly fewer dirhams per pound. No report read names a cause; Reuters described the dollar as steady in Asia after a one week low, with trading thin because US markets are shut for Thanksgiving.",
+   "t": "2026-11-26T03:40:20Z",
+   "rate": 1.30957
+  },
   {
    "title": "The dollar has weakened across the board this evening",
    "text": "GBP/USD climbed from about 1.3063 at 20:20 Dubai to a high of about 1.3119 at 21:20, including a quick rise from about 1.3085 to 1.3106 between 20:49 and 21:04, and was near 1.3114 at 21:38. EUR/USD rose by a similar share over the same hour, from about 1.0944 to about 1.0981, so this was the dollar weakening rather than UK news, which means more dirhams per pound. No report read names a cause for the evening move itself; US Treasury yields had already fallen about 10 basis points on the day despite the firmer inflation figure, with the two year yield at about 4.58% and the ten year at about 4.82%, and lower US yields tend to weigh on the dollar.",
@@ -348,12 +352,6 @@
    "when": "2026-11-23T09:30:00Z",
    "t": "2026-11-23T09:39:47Z",
    "rate": 1.3113
-  },
-  {
-   "title": "Sterling has risen further as European markets get going",
-   "text": "GBP/USD rose from about 1.3117 at 12:23 Dubai to about 1.3135 by 12:38 and held near 1.3134 at 12:40, while EUR/USD rose by about half as much, from about 1.0985 to about 1.0993, so a softer dollar accounts for part of the move and the pound also gained on the euro, which means slightly more dirhams per pound. No report read names the news behind the move; it came as the German business surveys for November were due at 12:30 Dubai, but no report read yet gives their figures, and the UK surveys follow at 13:30 Dubai.",
-   "t": "2026-11-23T08:41:05Z",
-   "rate": 1.31368
   }
  ]
 }
