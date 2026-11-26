@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:40:20Z",
+ "updated": "2026-11-26T07:40:00Z",
  "headline": "Sterling is about 1.3096 dollars on Thursday morning, a little below Wednesday evening's 1.3112 after a quiet night in which the dollar firmed slightly in thin holiday trade. US markets are shut for Thanksgiving, and the pound is being pulled between firmer US inflation, which keeps a December Fed rise all but certain, and Bank of England policymakers who say they may also have to raise rates in December if energy prices stay high.",
  "drivers": [
   {
@@ -34,6 +34,12 @@
  "watch": "The Bank of England publishes its Financial Stability Report at 14:30 Dubai today, which is not usually a big mover for the pound, and US markets are shut for Thanksgiving, so trading is likely to stay thin. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
   {
+   "title": "GBPUSD and EURUSD minute prices",
+   "site": "Kraken public market data",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
+   "date": "26 Nov"
+  },
+  {
    "title": "Dollar steady as sliding yields temper safe-haven bid",
    "site": "Free Malaysia Today (Reuters)",
    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/dollar-steady-as-sliding-yields-temper-safe-haven-bid",
@@ -66,10 +72,6 @@
    "site": "TradingView (Seeking Alpha)",
    "url": "https://www.tradingview.com/news/seekingalpha:8baee5968094b:0-yields-slide-across-the-curve-despite-hotter-core-pce-print/",
    "date": "25 Nov"
-  },
-  {
-   "title": "Kraken public GBP/USD and EUR/USD minute prices, 25 November 2026",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1"
   },
   {
    "title": "Sterling falls as markets await US inflation data and remarks from Bank of England policymakers",
@@ -201,8 +203,14 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-26T03:40:20Z",
+ "calendarUpdated": "2026-11-26T07:40:00Z",
  "feed": [
+  {
+   "title": "The dollar has eased as European trading begins",
+   "text": "GBP/USD rose from about 1.3099 at 11:10 Dubai to about 1.3112 by 11:32, its highest since Wednesday evening, and was near 1.3111 at 11:38. EUR/USD rose by a similar share over the same half hour, from about 1.0964 to about 1.0972, so this was the dollar softening as European desks opened rather than UK news, which means slightly more dirhams per pound. No report read names a cause, and trading is expected to stay thin with US markets shut for Thanksgiving.",
+   "t": "2026-11-26T07:40:00Z",
+   "rate": 1.31117
+  },
   {
    "title": "Sterling has drifted lower in thin holiday trade overnight",
    "text": "GBP/USD touched about 1.3127 late on Wednesday evening, then eased through the night from about 1.3112 at 21:41 Dubai to about 1.3096 by 07:38 Dubai on Thursday. EUR/USD slipped by a similar share over the same hours, from about 1.0973 to about 1.0959, so this was a slight firming of the dollar rather than UK news, which means slightly fewer dirhams per pound. No report read names a cause; Reuters described the dollar as steady in Asia after a one week low, with trading thin because US markets are shut for Thanksgiving.",
@@ -345,13 +353,6 @@
    "text": "GBP/USD eased from about 1.3116 at 13:45 Dubai to about 1.3101 by 14:20, briefly recovered to about 1.3109 at 14:45 and was near 1.3096 at 15:39, while EUR/USD fell by a similar share, from about 1.0975 to about 1.0959, so the dollar firmed across the board rather than the pound falling on UK news, which means slightly fewer dirhams per pound. No report read names the news behind this afternoon's drift; earlier on Monday FXStreet described the dollar as easing on a recovery in share futures, and the US flash business surveys are due at 18:45 Dubai.",
    "t": "2026-11-23T11:39:36Z",
    "rate": 1.30957
-  },
-  {
-   "title": "Sterling has slipped after weaker UK business surveys",
-   "text": "The UK flash services survey for November fell to 52.0 against 53.0 expected, and the composite measure of private sector activity eased to 52.3 from 52.9, with both services and manufacturing slowing, FXStreet reported; no report read yet gives the manufacturing figure. Slower UK growth weakens the case for a December Bank of England rise, which weighs on the pound, so slightly fewer dirhams per pound. GBP/USD was about 1.3122 at 13:29 Dubai, fell to about 1.3115 by 13:31 and was near 1.3114 at 13:38, after drifting down from about 1.3139 at 12:42 as the dollar firmed across the board, with EUR/USD falling by a similar share from about 1.0993 to about 1.0978 before the figures.",
-   "when": "2026-11-23T09:30:00Z",
-   "t": "2026-11-23T09:39:47Z",
-   "rate": 1.3113
   }
  ]
 }
