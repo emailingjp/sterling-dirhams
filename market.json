@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:40:07Z",
+ "updated": "2026-11-26T16:39:27Z",
  "headline": "Sterling is about 1.3096 dollars on Thursday morning, a little below Wednesday evening's 1.3112 after a quiet night in which the dollar firmed slightly in thin holiday trade. US markets are shut for Thanksgiving, and the pound is being pulled between firmer US inflation, which keeps a December Fed rise all but certain, and Bank of England policymakers who say they may also have to raise rates in December if energy prices stay high.",
  "drivers": [
   {
@@ -34,6 +34,12 @@
  "watch": "US markets are shut for Thanksgiving today, so trading is likely to stay thin. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
   {
+   "title": "GBPUSD 15 minute prices",
+   "site": "Kraken public market data",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "26 Nov"
+  },
+  {
    "title": "Financial Stability Report, November 2026",
    "site": "Bank of England",
    "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
@@ -49,12 +55,6 @@
    "title": "Sterling today: Pound steady as dollar holds range on U.S. holiday",
    "site": "Finwire (Investing.com)",
    "url": "https://finwire.io/news/forex-news/sterling-today-pound-steady-as-dollar-holds-range-on-us-holiday",
-   "date": "26 Nov"
-  },
-  {
-   "title": "GBPUSD 15 minute prices",
-   "site": "Kraken public market data",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
    "date": "26 Nov"
   },
   {
@@ -205,8 +205,14 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-26T12:40:07Z",
+ "calendarUpdated": "2026-11-26T16:39:27Z",
  "feed": [
+  {
+   "title": "Sterling has stayed in a narrow range through the afternoon",
+   "text": "With US markets shut for Thanksgiving, GBP/USD has moved only between about 1.3096 and 1.3120 since the last update, rising from near 1.3097 at 17:15 Dubai to its high around 18:00 and then drifting back to about 1.3104, almost exactly where it stood four hours ago. No report read names a cause for the small rise, and the picture is unchanged: a December Fed rise is still seen as all but certain, which supports the dollar, while the chance of a Bank of England rise on 17 December supports the pound.",
+   "t": "2026-11-26T16:39:27Z",
+   "rate": 1.31038
+  },
   {
    "title": "Sterling has held steady in quiet holiday trade",
    "text": "With US markets shut for Thanksgiving, GBP/USD has moved only between 1.3092 and 1.3118 since this morning's update and stands near 1.3105, almost exactly where it was. A dip to the low of the range between about 11:15 and 11:45 UTC was not explained by any report found, and it recovered within the hour. ING said it expects very quiet markets, with a December Fed rise still seen as all but certain, which keeps the dollar supported.",
@@ -348,13 +354,6 @@
    "text": "GBP/USD fell from about 1.3048 at 19:42 Dubai to about 1.3016 by 20:15, and was near 1.3020 at 20:36, while EUR/USD fell from about 1.0912 to about 1.0880 to its lowest since April 2025, so this was the dollar strengthening across the board rather than the pound falling on UK news. FXStreet linked the dollar's gains to the Nvidia-led rally in US shares after Jensen Huang was reinstated as chief executive, and to traders almost fully pricing a quarter point Fed rise in December. Higher expected US rates support the dollar, which means slightly fewer dirhams per pound.",
    "t": "2026-11-23T16:40:07Z",
    "rate": 1.30165
-  },
-  {
-   "title": "The dollar has kept rising despite softer US business surveys",
-   "text": "The US flash services survey for November fell to 54.7 against about 55.7 expected, manufacturing came in at 54.5 in line with forecasts, and the composite measure eased to 54.6 from 55.9, though S&P Global said its price gauges still point to inflation well above the Fed's 2% target. Softer US activity would usually weigh on the dollar, but the dollar index held near 104.2, its highest since April 2025, so the dollar kept firming across the board and there are slightly fewer dirhams per pound. GBP/USD was about 1.3059 at 18:44 Dubai, slid to about 1.3032 by 19:14 while EUR/USD fell by a similar share, from about 1.0931 to about 1.0909, and was near 1.3046 at 19:38; no report read names a single cause for the extra dollar buying.",
-   "when": "2026-11-23T14:45:00Z",
-   "t": "2026-11-23T15:39:35Z",
-   "rate": 1.30484
   }
  ]
 }
