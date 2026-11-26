@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:40:05Z",
+ "updated": "2026-11-26T12:40:07Z",
  "headline": "Sterling is about 1.3096 dollars on Thursday morning, a little below Wednesday evening's 1.3112 after a quiet night in which the dollar firmed slightly in thin holiday trade. US markets are shut for Thanksgiving, and the pound is being pulled between firmer US inflation, which keeps a December Fed rise all but certain, and Bank of England policymakers who say they may also have to raise rates in December if energy prices stay high.",
  "drivers": [
   {
@@ -31,8 +31,32 @@
   "Further falls in US Treasury yields, or any sign the Fed might hold back in December, which would weaken the dollar and mean more dirhams per pound.",
   "Firm UK news or Bank of England comments that keep a December rise in play, which would lift the pound."
  ],
- "watch": "The Bank of England publishes its Financial Stability Report at 14:30 Dubai today, which is not usually a big mover for the pound, and US markets are shut for Thanksgiving, so trading is likely to stay thin. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
+ "watch": "US markets are shut for Thanksgiving today, so trading is likely to stay thin. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Financial Stability Report, November 2026",
+   "site": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+   "date": "26 Nov"
+  },
+  {
+   "title": "Bank of England cuts bank capital needs, warns on $4 trillion AI exposure",
+   "site": "MLQ.ai",
+   "url": "https://mlq.ai/news/bank-of-england-cuts-bank-capital-needs-warns-on-4-trillion-ai-exposure/",
+   "date": "26 Nov"
+  },
+  {
+   "title": "Sterling today: Pound steady as dollar holds range on U.S. holiday",
+   "site": "Finwire (Investing.com)",
+   "url": "https://finwire.io/news/forex-news/sterling-today-pound-steady-as-dollar-holds-range-on-us-holiday",
+   "date": "26 Nov"
+  },
+  {
+   "title": "GBPUSD 15 minute prices",
+   "site": "Kraken public market data",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "26 Nov"
+  },
   {
    "title": "British Pound steadies above 1.3100 as BoE policymakers leave December hike on the table",
    "site": "FXStreet",
@@ -77,28 +101,6 @@
    "title": "Sterling falls as markets await US inflation data and remarks from Bank of England policymakers",
    "site": "IUX (Reuters)",
    "url": "https://www.iux24.com/news/sterling-falls-against-the-dollar-as-investors-await-key-us-inflation-data-and-remarks-from-bank-of-england-policymakers-20261125/",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Bank of England: Treasury Select Committee on the November Monetary Policy Report, 25 November 2026",
-   "url": "https://www.bankofengland.co.uk/events/2026/november/tsc-november-monetary-policy-report"
-  },
-  {
-   "title": "Personal Income and Outlays, October 2026",
-   "site": "BEA",
-   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
-   "date": "25 Nov"
-  },
-  {
-   "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
-   "site": "BEA",
-   "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
-   "date": "25 Nov"
-  },
-  {
-   "title": "Euro slips as US PCE inflation puts Fed tightening bets to the test",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/news/euro-slips-as-us-pce-inflation-puts-fed-tightening-bets-to-the-test-202611251132",
    "date": "25 Nov"
   }
  ],
@@ -203,8 +205,20 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-26T08:40:05Z",
+ "calendarUpdated": "2026-11-26T12:40:07Z",
  "feed": [
+  {
+   "title": "Sterling has held steady in quiet holiday trade",
+   "text": "With US markets shut for Thanksgiving, GBP/USD has moved only between 1.3092 and 1.3118 since this morning's update and stands near 1.3105, almost exactly where it was. A dip to the low of the range between about 11:15 and 11:45 UTC was not explained by any report found, and it recovered within the hour. ING said it expects very quiet markets, with a December Fed rise still seen as all but certain, which keeps the dollar supported.",
+   "t": "2026-11-26T12:40:07Z",
+   "rate": 1.31054
+  },
+  {
+   "title": "The Bank of England has eased bank capital rules",
+   "text": "The Bank of England's Financial Stability Report on 26 November lowered capital requirements for the largest UK banks by the equivalent of about half a percentage point, kept the countercyclical buffer at 2%, and warned that higher borrowing costs, Middle East energy prices and AI-related lending raise the chance of several risks arriving together. It said the rise in UK gilt yields since July mainly reflects higher expected Bank Rate, driven by energy prices and resilient growth, which is consistent with the pound's support from a possible December rise; the report itself left the pound little changed.",
+   "t": "2026-11-26T12:40:07Z",
+   "rate": 1.31054
+  },
   {
    "title": "Sterling has dipped briefly as London trading got going",
    "text": "GBP/USD fell from about 1.3112 at 11:44 Dubai to about 1.3096 by 11:53, then recovered to about 1.3105 by 12:05 and was near 1.3103 at 12:39. EUR/USD fell by about half as much over the same minutes, from about 1.0974 to about 1.0967, so the dip was partly a firmer dollar and partly the pound's own, which means slightly fewer dirhams per pound while it lasted. No report read names a cause, and trading is thin with US markets shut for Thanksgiving; the standing picture is unchanged, with markets putting almost 80% odds on a Bank of England rise on 17 December.",
@@ -341,18 +355,6 @@
    "when": "2026-11-23T14:45:00Z",
    "t": "2026-11-23T15:39:35Z",
    "rate": 1.30484
-  },
-  {
-   "title": "The dollar has spiked and fallen back, with no clear cause",
-   "text": "GBP/USD eased from about 1.3075 at 17:37 Dubai to about 1.3065 by 17:50, then dropped to about 1.3053 at 17:53 before recovering to about 1.3072 by 17:57, and was near 1.3065 at 18:37. EUR/USD fell by a larger share in the same minutes, from about 1.0940 to about 1.0909, and also recovered, so this was a brief burst of dollar buying across the board rather than the pound falling on UK news, which left slightly fewer dirhams per pound. No report read names the news behind the spike; CoinDesk reported the dollar index above 104, its highest since March 2025, about an hour earlier, and the US flash business surveys are due at 18:45 Dubai.",
-   "t": "2026-11-23T14:39:45Z",
-   "rate": 1.30622
-  },
-  {
-   "title": "The dollar has jumped across the board, with no clear cause yet",
-   "text": "GBP/USD eased from about 1.3096 at 16:31 Dubai to about 1.3084 by 16:44, then fell quickly to about 1.3068 by 16:47, recovered to about 1.3080 at 17:00 and was near 1.3074 at 17:36. EUR/USD fell by a slightly larger share in the same minutes, from about 1.0961 to about 1.0933, so this was the dollar strengthening across the board rather than the pound weakening on UK news, which means slightly fewer dirhams per pound. No report read names the news behind the jump; investingLive described the euro sliding from 1.1005 to 1.0941 during the day as the dollar trades mixed, and the US flash business surveys are still due at 18:45 Dubai.",
-   "t": "2026-11-23T13:40:09Z",
-   "rate": 1.30707
   }
  ]
 }
