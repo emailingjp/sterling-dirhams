@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:40:07Z",
+ "updated": "2026-11-27T16:40:04Z",
  "headline": "Sterling is about 1.3119 dollars on Friday morning, a little above Thursday evening's 1.3104 after the dollar softened in thin trade overnight. The pound is still pulled between a December Fed rise that markets see as all but certain, which supports the dollar, and Bank of England policymakers who say they may also need to raise rates in December if energy prices stay high.",
  "drivers": [
   {
@@ -29,6 +29,24 @@
  ],
  "watch": "US markets reopen today for a shortened Black Friday session, so trading is likely to stay thin, and there are no major US or UK figures due. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
+  {
+   "title": "Treasury yields rise as investors look ahead to payroll data",
+   "site": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/27/treasury-yields-bonds-fed.html",
+   "date": "27 Nov"
+  },
+  {
+   "title": "EUR/USD slips to 1.0951 as US 10 year yield rebounds to 4.92%",
+   "site": "FinScans",
+   "url": "https://finscans.com/news/2026/11/27/eurusd-slips-to-10951-as-us-10-year-yield-rebounds-to-492",
+   "date": "27 Nov"
+  },
+  {
+   "title": "Forex Today: US Dollar struggles to find demand after Thanksgiving",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/forex-today-us-dollar-struggles-to-find-demand-after-thanksgiving-gold-extends-rebound-202611270737",
+   "date": "27 Nov"
+  },
   {
    "title": "US Dollar: Fed tightening bets limit downside as stocks rebound (ING)",
    "site": "FXStreet",
@@ -81,24 +99,6 @@
    "title": "Forex Today: US Dollar finds footing as Japan CPI can rock the Yen",
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/news/forex-today-us-dollar-finds-footing-as-japan-cpi-can-rock-the-yen-202611262124",
-   "date": "26 Nov"
-  },
-  {
-   "title": "GBP/USD news",
-   "site": "FXStreet",
-   "url": "https://www.fxstreet.com/currencies/gbpusd",
-   "date": "27 Nov"
-  },
-  {
-   "title": "Financial Stability Report, November 2026",
-   "site": "Bank of England",
-   "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
-   "date": "26 Nov"
-  },
-  {
-   "title": "Bank of England cuts bank capital needs, warns on $4 trillion AI exposure",
-   "site": "MLQ.ai",
-   "url": "https://mlq.ai/news/bank-of-england-cuts-bank-capital-needs-warns-on-4-trillion-ai-exposure/",
    "date": "26 Nov"
   }
  ],
@@ -203,8 +203,14 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-27T13:40:07Z",
+ "calendarUpdated": "2026-11-27T16:40:04Z",
  "feed": [
+  {
+   "title": "The dollar has firmed as US yields rose after Thanksgiving",
+   "text": "GBP/USD drifted from about 1.3121 at 18:00 Dubai to a low of 1.3095 by 20:15, while EUR/USD fell by a similar share from about 1.0948 to 1.0931, so this was a firmer dollar rather than UK news, which means slightly fewer dirhams per pound. CNBC reported US Treasury yields rising in the shortened post Thanksgiving session, with the 10 year up more than 0.06 percentage points to 4.914% and the 2 year up more than 0.04 to 4.681%, as investors weighed October's faster inflation and looked ahead to next week's US jobs figures. Higher US yields make dollar deposits more rewarding; the pound was near 1.3102 at 20:35 Dubai.",
+   "t": "2026-11-27T16:40:04Z",
+   "rate": 1.31017
+  },
   {
    "title": "The dollar has firmed as US trading began",
    "text": "GBP/USD fell from about 1.3131 at 16:55 Dubai to a low of 1.3108 by 17:25, while EUR/USD fell by a similar share from about 1.0964 to 1.0943, so this was a firmer dollar rather than UK news, which means slightly fewer dirhams per pound. No report read names a single trigger as US traders arrived, but ING said the dollar was staying firm as markets priced further Fed rises, with two year US swap rates up about 0.10 percentage points since Wednesday, and Nordea pointed to recent strong US growth and inflation figures. The pound recovered a little to about 1.3114 by 17:38 Dubai.",
@@ -346,12 +352,6 @@
    "text": "ECB policymaker Gediminas Simkus said on Tuesday that the central bank should act sooner rather than later and called the weak euro another inflationary factor, after German business confidence rose for a seventh month to 90.6 against 90.5 expected, FXStreet reported. The euro is the largest weight in the dollar index, so a firmer euro pulled the dollar back across the board: EUR/USD rose from about 1.0930 at 14:40 Dubai to about 1.0955, and GBP/USD climbed steadily from about 1.3064 to about 1.3087 by 16:38, which means slightly more dirhams per pound. No report read names a US cause, and the dollar remains near its strongest since April 2025 ahead of US consumer confidence at 19:00 Dubai.",
    "t": "2026-11-24T12:39:58Z",
    "rate": 1.30886
-  },
-  {
-   "title": "The dollar has eased a little across the board, with no clear cause",
-   "text": "GBP/USD rose from about 1.3047 at 13:00 Dubai to a high of about 1.3070 at 14:10 and was near 1.3061 at 14:35, while EUR/USD rose by a similar share, from about 1.0915 to about 1.0931, so this was the dollar giving back a little ground rather than the pound rising on UK news, which means slightly more dirhams per pound. German business confidence improved in November, investingLive reported, which may have helped the euro, but no report read names a US or UK cause, and the dollar remains close to its strongest since early 2025 ahead of US consumer confidence this evening.",
-   "t": "2026-11-24T10:39:58Z",
-   "rate": 1.30636
   }
  ]
 }
