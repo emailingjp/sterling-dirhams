@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:41:49Z",
+ "updated": "2026-11-27T08:39:43Z",
  "headline": "Sterling is about 1.3119 dollars on Friday morning, a little above Thursday evening's 1.3104 after the dollar softened in thin trade overnight. The pound is still pulled between a December Fed rise that markets see as all but certain, which supports the dollar, and Bank of England policymakers who say they may also need to raise rates in December if energy prices stay high.",
  "drivers": [
   {
@@ -30,6 +30,24 @@
  "watch": "US markets reopen today for a shortened Black Friday session, so trading is likely to stay thin, and there are no major US or UK figures due. The next big events are the Fed's decision on 9 December, where markets already expect a quarter point rise, and the Bank of England's decision on 17 December; a firmer Bank of England or any sign the Fed might hold back would tend to help someone selling pounds for dirhams.",
  "sources": [
   {
+   "title": "Pound has chances to close the week with moderate gains",
+   "site": "FXStreet (RoboForex)",
+   "url": "https://www.fxstreet.com/analysis/pound-has-chances-to-close-the-week-with-moderate-gains-202611270742",
+   "date": "27 Nov"
+  },
+  {
+   "title": "British Pound remains on the back foot vs USD as BoE rate hike bets limit downside",
+   "site": "FXStreet",
+   "url": "https://www.fxstreet.com/news/british-pound-remains-on-the-back-foot-vs-usd-as-boe-rate-hike-bets-limit-downside-202611270122",
+   "date": "27 Nov"
+  },
+  {
+   "title": "GBPUSD 15 minute prices",
+   "site": "Kraken public market data",
+   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
+   "date": "27 Nov"
+  },
+  {
    "title": "Dollar lingers near 22-month peak as AI worries simmer",
    "site": "Reuters via Investing.com",
    "url": "https://www.investing.com/news/economy-news/dollar-lingers-near-22month-peak-as-ai-worries-simmer-5052803",
@@ -52,12 +70,6 @@
    "site": "FXStreet",
    "url": "https://www.fxstreet.com/currencies/gbpusd",
    "date": "27 Nov"
-  },
-  {
-   "title": "GBPUSD 15 minute prices",
-   "site": "Kraken public market data",
-   "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=15",
-   "date": "26 Nov"
   },
   {
    "title": "Financial Stability Report, November 2026",
@@ -88,18 +100,6 @@
    "site": "Kraken public market data",
    "url": "https://api.kraken.com/0/public/OHLC?pair=GBPUSD&interval=1",
    "date": "26 Nov"
-  },
-  {
-   "title": "Dollar steady as sliding yields temper safe-haven bid",
-   "site": "Free Malaysia Today (Reuters)",
-   "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/dollar-steady-as-sliding-yields-temper-safe-haven-bid",
-   "date": "26 Nov"
-  },
-  {
-   "title": "World stocks fall as new US tariffs loom, AI rebound fizzles",
-   "site": "Yahoo Finance (Reuters)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html",
-   "date": "25 Nov"
   }
  ],
  "calendar": [
@@ -203,8 +203,14 @@
    "why": "UK rates higher than expected lift the pound."
   }
  ],
- "calendarUpdated": "2026-11-27T03:41:49Z",
+ "calendarUpdated": "2026-11-27T08:39:43Z",
  "feed": [
+  {
+   "title": "Sterling is holding steady in quiet Black Friday trade",
+   "text": "GBP/USD has moved in a narrow band this morning, rising from 1.3113 to a high of 1.3128 around 05:30 UTC before settling near 1.3117, with a low of 1.3111 since the last update. There are no major US or UK figures today and US markets are only open for a shortened session, so trading is thin; expected Fed rises continue to support the dollar, while bets on a Bank of England rise in December are stopping the pound from falling further. FXStreet notes that the pound is on course for its first weekly gain in four weeks.",
+   "t": "2026-11-27T08:39:43Z",
+   "rate": 1.31127
+  },
   {
    "title": "The dollar has softened in thin Black Friday trade",
    "text": "GBP/USD dipped from about 1.3102 at 04:00 Dubai to about 1.3089 by 04:45, as the dollar firmed briefly after softer than expected Tokyo inflation figures (core 2.9% against 3.0% forecast) weakened the yen. It then rose to about 1.3127 by 07:00 Dubai and was near 1.3119 at 07:38, while EUR/USD rose by a similar share from about 1.0959 to about 1.0982, so this was broad dollar softening rather than UK news, which means slightly more dirhams per pound. No report read names a single cause; FXStreet described the dollar as easing in a risk-on mood with liquidity thin on Black Friday.",
@@ -346,12 +352,6 @@
    "text": "New York Fed President John Williams said on Monday evening that inflation is still too high, that he is not excluding Fed rises at consecutive meetings, but that the situation does not call for dramatic action, so markets still price a quarter point rise in December and no larger move. Comments that confirm what is already priced did little to the dollar: GBP/USD was about 1.3031 at 01:00 Dubai, edged up to about 1.3046 by 05:15 in quiet Asian trade and was near 1.3037 at 07:38, little changed from about 1.3029 at the last update.",
    "t": "2026-11-24T03:40:12Z",
    "rate": 1.3038
-  },
-  {
-   "title": "The dollar has eased back in late trading, with no clear cause",
-   "text": "GBP/USD rose from about 1.3014 at 21:50 Dubai to about 1.3032 by 23:30 and was near 1.3029 at 23:38, while EUR/USD rose by a similar share, from about 1.0880 to about 1.0897, so this was the dollar giving back a little of today's rally across the board rather than the pound rising on UK news, which means slightly more dirhams per pound. No report read names the news behind the late easing; the dollar index had earlier reached its highest since April 2025, and New York Fed President John Williams speaks at 01:00 Dubai.",
-   "t": "2026-11-23T19:39:24Z",
-   "rate": 1.30286
   }
  ]
 }
